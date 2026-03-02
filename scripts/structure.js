@@ -115,7 +115,7 @@ JSONのみ返してください。説明文は不要です。
       releaseWeek: p.releaseWeek || "未定",
       color: getBrandColor(p.brand),
       hot: Boolean(p.hot),
-      img: `https://placehold.co/300x200/F5F5F5/999?text=${encodeURIComponent(p.name.slice(0, 10))}&font=monospace`,
+      img: article.imageUrl || `https://placehold.co/300x200/F5F5F5/999?text=${encodeURIComponent(p.name.slice(0, 10))}&font=monospace`,
       affiliateUrl: "#",
       sourceUrl: article.url,
       collectedAt: new Date().toISOString(),

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+    font-family: 'Dela Gothic One', 'Noto Sans JP', sans-serif;
+  }
+
+  .card {
+    width: 1080px;
+    height: 1080px;
+    background: #FAFAFA;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* ドットパターン */
+  .card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle, rgba(0,0,0,0.04) 1.5px, transparent 1.5px);
+    background-size: 24px 24px;
+  }
+
+  /* ヘッダー */
+  .header {
+    background: #FF4D6A;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+  }
+  .header-text {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+  }
+
+  /* メインカード */
+  .main {
+    position: absolute;
+    top: 170px; left: 70px; right: 70px;
+    background: #fff;
+    border-radius: 32px;
+    padding: 50px 40px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.08);
+    z-index: 2;
+    text-align: center;
+    min-height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .brand-badge {
+    display: inline-block;
+    background: #FF4D6A;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 8px 32px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+  }
+
+  .product-name {
+    font-size: 52px;
+    font-weight: 900;
+    color: #212121;
+    line-height: 1.35;
+    margin-bottom: 35px;
+    letter-spacing: -1px;
+  }
+
+  .divider {
+    width: 80%;
+    margin: 0 auto 30px;
+    border: none;
+    border-top: 4px dashed #FF4D6A44;
+  }
+
+  .price-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .price {
+    font-size: 80px;
+    font-weight: 900;
+    color: #FF4D6A;
+    letter-spacing: -2px;
+  }
+
+  .types {
+    font-size: 36px;
+    font-weight: 700;
+    color: #212121;
+    opacity: 0.7;
+    background: #FAFAFA;
+    padding: 8px 24px;
+    border-radius: 16px;
+  }
+
+  
+  .hot-badge {
+    position: absolute;
+    top: 150px; right: 50px;
+    background: #FF3B30;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px 28px;
+    border-radius: 50px;
+    z-index: 5;
+    box-shadow: 0 4px 15px rgba(255,59,48,0.4);
+  }
+
+  /* フッター */
+  .footer {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background: #FF4D6A;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+
+  .release {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 900;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+    margin-bottom: 8px;
+  }
+
+  .site-url {
+    color: rgba(255,255,255,0.8);
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
+  /* 装飾カプセル */
+  .capsule {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+    opacity: 0.25;
+  }
+  .cp1 { width: 80px; height: 80px; background: #FFD54F; top: 730px; left: 30px; }
+  .cp2 { width: 60px; height: 60px; background: #4FC3F7; top: 750px; right: 40px; }
+  .cp3 { width: 50px; height: 50px; background: #CE93D8; top: 720px; left: 200px; }
+  .cp4 { width: 70px; height: 70px; background: #AED581; top: 770px; right: 200px; }
+  .cp5 { width: 45px; height: 45px; background: #FF8A65; top: 700px; left: 500px; }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Sans+JP:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <span class="header-text">🏪 ガチャなう ─ 新作情報</span>
+    </div>
+
+    <div class="hot-badge">🔥 HOT</div>
+
+    <div class="main">
+      <span class="brand-badge">仮面ライダー</span>
+      <div class="product-name">@CTION RIDE(アクションライド) 仮面ライダー5</div>
+      <hr class="divider">
+      <div class="price-row">
+        <span class="price">¥300</span>
+        <span class="types">全4種</span>
+      </div>
+    </div>
+
+    <div class="capsule cp1"></div>
+    <div class="capsule cp2"></div>
+    <div class="capsule cp3"></div>
+    <div class="capsule cp4"></div>
+    <div class="capsule cp5"></div>
+
+    <div class="footer">
+      <div class="release">📅 未定</div>
+      <div class="site-url">gacha-now.vercel.app</div>
+    </div>
+  </div>
+</body>
+</html>

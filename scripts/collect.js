@@ -15,7 +15,7 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ========================================
-// 1. バンダイ ガシャポン公式（そのまま。119件取れてたので変更なし）
+// 1. バンダイ ガシャポン公式（画像URL取得付き）
 // ========================================
 async function collectFromBandai() {
   const articles = [];
@@ -24,18 +24,40 @@ async function collectFromBandai() {
     const res = await fetch("https://gashapon.jp/schedule/");
     const html = await res.text();
 
-    const nameRegex = /detail\.php\?jan_code=(\d+)[^"]*"[^>]*>\s*(?:<[^>]*>\s*)*([^<]+)/g;
+    // 画像URL + 商品名 + jan_code を一括取得
+    // パターン: <img src="https://bandai-a.akamaihd.net/...jpg"> ... detail.php?jan_code=XXX ... 商品名
+    const blockRegex = /<a[^>]*href="[^"]*detail\.php\?jan_code=(\d+)"[^>]*>([\s\S]*?)<\/a>/g;
     let match;
 
-    while ((match = nameRegex.exec(html)) !== null) {
-      const name = match[2].trim();
+    while ((match = blockRegex.exec(html)) !== null) {
+      const janCode = match[1];
+      const block = match[2];
+
+      // ブロック内から画像URLを取得
+      const imgMatch = block.match(/src="(https:\/\/bandai-a\.akamaihd\.net[^"]+)"/);
+      const imageUrl = imgMatch ? imgMatch[1] : null;
+
+      // ブロック内から商品名を取得（最後のテキストノード）
+      const nameMatch = block.match(/>\s*([^<]{3,})\s*</g);
+      let name = "";
+      if (nameMatch) {
+        // 最も長いテキストを商品名とする
+        for (const m of nameMatch) {
+          const text = m.replace(/^>\s*/, "").replace(/\s*<$/, "").trim();
+          if (text.length > name.length && !text.includes("ガシャポン") && !text.includes("円")) {
+            name = text;
+          }
+        }
+      }
+
       if (name && name.length > 2 && !name.startsWith("*")) {
         articles.push({
           title: name,
-          url: `https://gashapon.jp/products/detail.php?jan_code=${match[1]}`,
+          url: `https://gashapon.jp/products/detail.php?jan_code=${janCode}`,
           summary: `バンダイ ガシャポン: ${name}`,
           publishedAt: new Date().toISOString(),
           source: "バンダイ公式",
+          imageUrl: imageUrl,
         });
       }
     }
