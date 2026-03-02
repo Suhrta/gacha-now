@@ -1,0 +1,72 @@
+# .github/workflows/update-products.yml
+#
+# 【このファイルは何か】
+# GitHub Actionsのワークフロー定義ファイル。
+# GitHubのサーバー上で、指定したスケジュールで自動的にスクリプトを実行する。
+#
+# 【何をするか】
+# 毎朝9時（日本時間）に:
+# 1. バンダイ公式等からガチャ新作情報を収集
+# 2. Claude AIで商品データに構造化
+# 3. products.jsonを更新
+# 4. 変更があればgit push → Vercelが自動デプロイ
+#
+# 【cronの読み方】
+# '0 0 * * *' = 「毎日 0:00 UTC」= 日本時間9:00
+# 分 時 日 月 曜日 の順。UTCなので日本時間-9時間。
+
+name: Update Products
+
+on:
+  schedule:
+    # 毎日 0:00 UTC = 日本時間 9:00 に実行
+    - cron: '0 0 * * *'
+  # 手動実行も可能にする（テスト用）
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. リポジトリのコードを取得
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Node.js をセットアップ
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 3. パイプラインの依存パッケージをインストール
+      - name: Install pipeline dependencies
+        run: |
+          cd scripts
+          npm install
+
+      # 4. データ収集（バンダイ等からスクレイピング）
+      - name: Collect gacha data
+        run: node scripts/collect.js
+
+      # 5. Claude AIで構造化
+      - name: Structure with Claude AI
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/structure.js
+
+      # 6. products.json を更新
+      - name: Update products.json
+        env:
+          PRODUCTS_PATH: ./data/products.json
+        run: node scripts/update.js
+
+      # 7. 変更があれば自動commit & push
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/products.json
+          # 変更がある場合のみcommit（なければスキップ）
+          git diff --staged --quiet || git commit -m "🏪 auto-update products $(date -u +%Y-%m-%d)"
+          git push
