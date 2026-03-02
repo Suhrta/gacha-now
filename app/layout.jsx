@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ja">
       <head>
+        <meta name="google-site-verification" content="_vAeJZmCqswwfoo6nTj-htoAdOQuiIE4aS-4OCLxiNw" />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-3DP286TY6C"
           strategy="afterInteractive"
@@ -41,11 +42,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-```
-
-保存したら、PowerShellで：
-```
-cd C:\Users\suhr5\gacha-now
-git add .
-git commit -m "add Google Analytics"
-git push
