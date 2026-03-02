@@ -67,17 +67,17 @@ export default function GachaMachine({ product, index, onClick }) {
             style={{ aspectRatio: "300/200", objectFit: "cover" }} />
         </div>
 
-        <div className="px-2 py-2 flex items-center justify-center" style={{ height: 52 }}>
-          <div className="font-pixel text-[8px] text-brand-text text-center leading-[1.8] line-clamp-3">
+        <div className="px-2 py-2 flex items-center justify-center" style={{ height: 58 }}>
+          <div className="font-pixel text-[10px] text-brand-text text-center leading-[1.8] line-clamp-3">
             {product.name}
           </div>
         </div>
 
         <div className="px-2.5 pb-1 flex justify-between items-center">
-          <span className="font-pixel text-[9px] font-bold" style={{ color: product.color }}>
+          <span className="font-pixel text-[11px] font-bold" style={{ color: product.color }}>
             ¥{product.price}
           </span>
-          <span className="font-pixel text-[6px] text-brand-sub bg-cream-dark px-1.5 py-0.5 rounded">
+          <span className="font-pixel text-[8px] text-brand-sub bg-cream-dark px-1.5 py-0.5 rounded">
             全{product.types}種
           </span>
         </div>

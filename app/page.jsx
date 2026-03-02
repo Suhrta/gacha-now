@@ -22,7 +22,7 @@ export default function HomePage() {
         <div className="absolute inset-0 pointer-events-none opacity-50"
           style={{ backgroundImage: "radial-gradient(circle, #F0E6D6 1px, transparent 1px)", backgroundSize: "20px 20px" }} />
 
-        <div className="font-pixel text-[7px] text-brand-sub mb-2.5 px-1 relative">
+        <div className="font-pixel text-[9px] text-brand-sub mb-2.5 px-1 relative">
           {filtered.length}けん ── タップ で くわしく！
         </div>
 

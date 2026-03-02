@@ -11,13 +11,13 @@ export default function Header({ brands, selected, onSelect }) {
             style={{ textShadow: "0 2px 0 #E8756D22" }}>
             🏪 ガチャなう
           </div>
-          <div className="text-[7px] text-brand-sub mt-1 tracking-[1px]">
+          <div className="text-[8px] text-brand-sub mt-1 tracking-[1px]">
             しんさく カプセルトイ じょうほう
           </div>
         </div>
 
         <div className="bg-cream-dark border border-cream-border rounded-md py-1.5 overflow-hidden mb-2.5">
-          <div className="text-[7px] text-brand-accent whitespace-nowrap animate-marquee">
+          <div className="text-[8px] text-brand-accent whitespace-nowrap animate-marquee">
             🔥 3がつ しんさく ぞくぞく！ ── ちいかわ パジャマ 3がつ だい2しゅう！ ── ポケモン テラスタル Vol.3 よやく かいし！ ── mofusand カフェ しんさく！ 🔥
           </div>
         </div>
