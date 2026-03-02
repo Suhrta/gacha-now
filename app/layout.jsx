@@ -1,3 +1,4 @@
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
@@ -18,6 +19,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ja">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-3DP286TY6C"
+          strategy="afterInteractive"
+        />
+        <Script id="ga-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-3DP286TY6C');
+          `}
+        </Script>
+      </head>
       <body className="min-h-screen bg-cream font-pixel">
         <div className="max-w-[430px] mx-auto relative">
           {children}
@@ -26,3 +41,11 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+```
+
+保存したら、PowerShellで：
+```
+cd C:\Users\suhr5\gacha-now
+git add .
+git commit -m "add Google Analytics"
+git push
