@@ -4,6 +4,23 @@ import { useState, useEffect } from "react";
 const zigzagTop = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,10 8,0 16,10' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
 const zigzagBottom = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,0 8,10 16,0' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
 
+/* 店舗検索URLを生成 */
+function getShopSearchUrl(product) {
+  if (!product.sourceUrl) return null;
+
+  // バンダイ: 商品詳細ページにマップがある
+  if (product.sourceUrl.includes("gashapon.jp")) {
+    return product.sourceUrl;
+  }
+
+  // タカトミ: 商品詳細ページに「この商品の取扱店舗」ボタンがある
+  if (product.sourceUrl.includes("takaratomy-arts.co.jp")) {
+    return product.sourceUrl;
+  }
+
+  return null;
+}
+
 export default function ReceiptPaper({ product, onClose, isPage = false }) {
   const [show, setShow] = useState(isPage);
 
@@ -16,6 +33,8 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
     setShow(false);
     setTimeout(onClose, 250);
   };
+
+  const shopUrl = getShopSearchUrl(product);
 
   const receiptContent = (
     <>
@@ -52,6 +71,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
           </div>
         ))}
 
+        {/* 公式サイトボタン */}
         <a href={product.sourceUrl || "#"} target="_blank" rel="noopener noreferrer"
           className="block w-full py-3 mt-3 rounded-lg font-pixel text-[11px] text-white text-center no-underline"
           style={{
@@ -60,6 +80,20 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
           }}>
           🔗 公式サイトで詳しく見る
         </a>
+
+        {/* 店舗検索ボタン */}
+        {shopUrl && (
+          <a href={shopUrl} target="_blank" rel="noopener noreferrer"
+            className="block w-full py-3 mt-2 rounded-lg font-pixel text-[11px] text-center no-underline border-2"
+            style={{
+              background: "#FFFFFF",
+              borderColor: "#5B8C6D",
+              color: "#5B8C6D",
+              boxShadow: "0 2px 8px rgba(91,140,109,0.15)",
+            }}>
+            🏪 近くの店舗を探す
+          </a>
+        )}
 
         {onClose && (
           <button onClick={close}
