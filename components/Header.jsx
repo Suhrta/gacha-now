@@ -37,7 +37,7 @@ export default function Header({ brands, selected, onSelect }) {
       <div className="px-3.5 pt-4 pb-2.5 relative z-10">
         <div className="text-center mb-2">
           <div className="text-[22px] text-brand-accent tracking-[3px] animate-float"
-            style={{ textShadow: "0 4px 0 #E8756D22" }}>
+            style={{ textShadow: "0 2px 0 #E8756D22" }}>
             ガチャなう
           </div>
           <div className="text-[10px] text-brand-sub mt-1 tracking-[1px]">
@@ -46,7 +46,7 @@ export default function Header({ brands, selected, onSelect }) {
         </div>
 
         <div className="bg-cream-dark border border-cream-border rounded-md py-1.5 overflow-hidden mb-2.5">
-          <div className="text-[10px] text-brand-accent whitespace-nowrap animate-marquee">
+          <div className="text-[14px] text-brand-accent whitespace-nowrap animate-marquee">
             🔥 3月新作ぞくぞく！ ── ちいかわ パジャマ 3月第2週！ ── ポケモン テラスタル Vol.3 予約開始！ ── mofusand カフェ 新作！ 🔥
           </div>
         </div>
