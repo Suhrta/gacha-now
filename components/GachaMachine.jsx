@@ -28,7 +28,7 @@ function CapsulePlaceholder({ color }) {
   const topColor = `${color}88`;
   const bottomColor = color || "#E8756D";
   return (
-    <div className="w-full flex items-center justify-center" style={{ aspectRatio: "300/200", background: "#FFF8F0" }}>
+    <div className="w-full flex items-center justify-center" style={{ aspectRatio: "1/1", background: "#FFF8F0" }}>
       <svg width="80" height="100" viewBox="0 0 80 100">
         <ellipse cx="40" cy="38" rx="30" ry="30" fill={topColor} />
         <rect x="10" y="38" width="60" height="2" fill="#FFF8F0" />

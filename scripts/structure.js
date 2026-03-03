@@ -1,161 +1,103 @@
 /**
- * structure.js - Claude APIで記事から商品データを構造化する
- * 
- * 【なぜAIが必要か】
- * プレスリリースは自然言語（日本語の文章）で書かれている。
- * そこから「商品名」「価格」「種類数」「発売日」「ブランド」を
- * 正確に抜き出すのは、正規表現やルールベースでは難しい。
- * （表記がバラバラだから）
- * 
- * Claude APIに「この記事から商品情報をJSON形式で抽出して」と
- * 頼むことで、どんな書き方のプレスリリースでも構造化できる。
- * 
- * 【コスト】
- * Claude Haiku（最安モデル）を使うので、1記事あたり約¥0.3〜1円。
- * 月100記事処理しても月¥30〜100円程度。
+ * structure.js v2 - collected.jsonからproducts.json形式に変換
+ *
+ * 【v1からの変更点】
+ * - Claude API呼び出し廃止（APIコスト0円）
+ * - collect.jsが全データを取得済みなので単純変換のみ
  */
 
-import Anthropic from "@anthropic-ai/sdk";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// APIキーは環境変数から取得（セキュリティのためコードに直書きしない）
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-
-/**
- * ブランドスラッグを自動生成する
- * （URLに使えるアルファベット文字列に変換）
- */
+// ブランドスラッグ変換
 function toBrandSlug(brand) {
   const map = {
-    "ポケモン": "pokemon",
-    "サンリオ": "sanrio",
-    "ちいかわ": "chiikawa",
-    "カービィ": "kirby",
-    "ディズニー": "disney",
-    "アニメ": "anime",
-    "キャラクター": "character",
-    "おもしろ": "omoshiro",
-    "アニマル": "animal",
-    "ゲーム": "game",
-    "特撮": "tokusatsu",
+    "ポケモン": "pokemon", "サンリオ": "sanrio", "ちいかわ": "chiikawa",
+    "カービィ": "kirby", "ディズニー": "disney", "ワンピース": "onepiece",
+    "ドラゴンボール": "dragonball", "鬼滅の刃": "kimetsu", "呪術廻戦": "jujutsu",
+    "仮面ライダー": "kamenrider", "ガンダム": "gundam", "プリキュア": "precure",
+    "SPY×FAMILY": "spyfamily", "転スラ": "tensura", "クレヨンしんちゃん": "shinchan",
+    "mofusand": "mofusand", "すみっコぐらし": "sumikko", "スヌーピー": "snoopy",
+    "たまごっち": "tamagotchi", "初音ミク": "miku", "トミカ": "tomica",
+    "ゴジラ": "godzilla", "ウルトラマン": "ultraman", "NARUTO": "naruto",
+    "ハリー・ポッター": "harrypotter", "アンパンマン": "anpanman",
+    "ドラえもん": "doraemon", "犬夜叉": "inuyasha", "ムーミン": "moomin",
+    "スポンジ・ボブ": "spongebob", "いきもの大図鑑": "ikimono",
+    "まちぼうけ": "machiboke", "パンダの穴": "pandanoana",
+    "おさるのジョージ": "george", "フリーレン": "frieren",
+    "まどか☆マギカ": "madoka", "アイカツ": "aikatsu",
+    "藤子不二雄": "fujiko", "その他": "other",
   };
-  return map[brand] || brand.toLowerCase().replace(/[^a-z0-9]/g, "");
+  return map[brand] || brand.toLowerCase().replace(/[^a-z0-9]/g, "") || "other";
 }
 
-/**
- * テーマカラーをブランドから自動割り当て
- */
+// ブランド別テーマカラー
 function getBrandColor(brand) {
   const colors = {
-    "ポケモン": "#FFD54F",
-    "サンリオ": "#F06292",
-    "ちいかわ": "#4FC3F7",
-    "カービィ": "#F48FB1",
-    "ディズニー": "#CE93D8",
-    "アニメ": "#E57373",
-    "キャラクター": "#81D4FA",
-    "おもしろ": "#FFB74D",
-    "アニマル": "#A5D6A7",
-    "ゲーム": "#90CAF9",
+    "ポケモン": "#FFD54F", "サンリオ": "#F06292", "ちいかわ": "#4FC3F7",
+    "カービィ": "#F48FB1", "ディズニー": "#CE93D8", "ワンピース": "#E57373",
+    "ドラゴンボール": "#FFB74D", "鬼滅の刃": "#80CBC4", "呪術廻戦": "#7986CB",
+    "仮面ライダー": "#4DB6AC", "ガンダム": "#78909C", "プリキュア": "#F48FB1",
+    "転スラ": "#4FC3F7", "mofusand": "#FFCC80", "すみっコぐらし": "#A5D6A7",
+    "たまごっち": "#81D4FA", "初音ミク": "#4DD0E1", "ゴジラ": "#A1887F",
+    "ウルトラマン": "#E57373", "いきもの大図鑑": "#AED581",
+    "まちぼうけ": "#FFB74D", "パンダの穴": "#90A4AE",
   };
   return colors[brand] || "#9E9E9E";
 }
 
-/**
- * 1つの記事からClaude APIを使って商品データを抽出する
- */
-async function structureArticle(article) {
-  const prompt = `以下のプレスリリース/記事から、カプセルトイ（ガチャガチャ）の新商品情報を抽出してください。
-複数商品が含まれる場合は全て抽出してください。
-
-抽出するフィールド：
-- name: 商品名（正式名称）
-- brand: ブランド/キャラクター名（例：ポケモン、サンリオ、ちいかわ、カービィ、ディズニー、アニメ、キャラクター、おもしろ）
-- price: 1回の価格（円、数値のみ）
-- types: 種類数（全X種のX、数値のみ）
-- releaseWeek: 発売時期（例：「3月 第1週」「3月 中旬」「4月」）
-- hot: 注目度が高いかどうか（人気キャラクター、コラボ、話題性がある場合はtrue）
-
-JSON配列で返してください。商品情報が見つからない場合は空配列 [] を返してください。
-JSONのみ返してください。説明文は不要です。
-
----
-タイトル: ${article.title}
-内容: ${article.summary}
----`;
-
-  try {
-    const response = await client.messages.create({
-      model: "claude-haiku-4-5-20251001", // 最安モデル
-      max_tokens: 1000,
-      messages: [{ role: "user", content: prompt }],
-    });
-
-    const text = response.content[0].text.trim();
-    // JSONを抽出（```json ... ``` で囲まれている場合に対応）
-    const jsonStr = text.replace(/```json\n?/g, "").replace(/```\n?/g, "").trim();
-    const products = JSON.parse(jsonStr);
-
-    // IDとスラッグを自動付与
-    return products.map((p) => ({
-      id: p.name
-        .toLowerCase()
-        .replace(/[^\w\s]/g, "")
-        .replace(/\s+/g, "-")
-        .slice(0, 40),
-      name: p.name,
-      brand: p.brand,
-      brandSlug: toBrandSlug(p.brand),
-      price: Number(p.price) || 300,
-      types: Number(p.types) || 4,
-      releaseWeek: p.releaseWeek || "未定",
-      color: getBrandColor(p.brand),
-      hot: Boolean(p.hot),
-      img: article.imageUrl || `https://placehold.co/300x200/F5F5F5/999?text=${encodeURIComponent(p.name.slice(0, 10))}&font=monospace`,
-      affiliateUrl: "#",
-      sourceUrl: article.url,
-      collectedAt: new Date().toISOString(),
-    }));
-  } catch (err) {
-    console.error(`❌ 構造化失敗: ${article.title} - ${err.message}`);
-    return [];
-  }
+// 注目度判定
+function isHot(name, brand) {
+  const hotBrands = ["ポケモン", "ちいかわ", "サンリオ", "ディズニー", "mofusand", "すみっコぐらし"];
+  if (hotBrands.includes(brand)) return true;
+  const hotKeywords = ["コラボ", "限定", "復刻", "30周年"];
+  return hotKeywords.some((kw) => name.includes(kw));
 }
 
-/**
- * メイン実行
- * collected.jsonを読み込み、各記事を構造化してstructured.jsonに保存
- */
+// IDを生成
+function generateId(name, index) {
+  const ascii = name
+    .toLowerCase()
+    .replace(/[^\w\s]/g, "")
+    .replace(/\s+/g, "-")
+    .slice(0, 40);
+  return ascii.length >= 3 ? ascii : `gacha-${String(index + 1).padStart(4, "0")}`;
+}
+
 async function main() {
   const collectedPath = path.join(__dirname, "../data/collected.json");
 
   if (!fs.existsSync(collectedPath)) {
-    console.error("❌ data/collected.json が見つかりません。先に npm run collect を実行してください。");
+    console.error("❌ data/collected.json が見つかりません");
     process.exit(1);
   }
 
   const articles = JSON.parse(fs.readFileSync(collectedPath, "utf-8"));
-  console.log(`📝 ${articles.length}件の記事を構造化します...\n`);
+  console.log(`📝 ${articles.length}件を構造化します...\n`);
 
-  const allProducts = [];
+  const products = articles.map((a, i) => ({
+    id: generateId(a.title, i),
+    name: a.title,
+    brand: a.brand || "その他",
+    brandSlug: toBrandSlug(a.brand || "その他"),
+    price: a.price || 300,
+    types: a.types || 4,
+    releaseWeek: a.releaseWeek || "未定",
+    color: getBrandColor(a.brand || "その他"),
+    hot: isHot(a.title, a.brand || "その他"),
+    img: a.imageUrl || null,
+    affiliateUrl: "#",
+    sourceUrl: a.url,
+    source: a.source,
+    collectedAt: new Date().toISOString(),
+  }));
 
-  for (const article of articles) {
-    console.log(`🔍 処理中: ${article.title.slice(0, 50)}...`);
-    const products = await structureArticle(article);
-    allProducts.push(...products);
-    console.log(`   → ${products.length}件の商品を抽出`);
-
-    // API レート制限対策（1秒待つ）
-    await new Promise((r) => setTimeout(r, 1000));
-  }
-
-  // 重複排除（商品名が同じものは最初のものだけ残す）
+  // 重複排除
   const seen = new Set();
-  const unique = allProducts.filter((p) => {
+  const unique = products.filter((p) => {
     if (seen.has(p.name)) return false;
     seen.add(p.name);
     return true;
@@ -164,10 +106,8 @@ async function main() {
   const outputPath = path.join(__dirname, "../data/structured.json");
   fs.writeFileSync(outputPath, JSON.stringify(unique, null, 2), "utf-8");
 
-  console.log(`\n✅ ${unique.length}件の商品データを抽出（重複排除済み）`);
+  console.log(`✅ ${unique.length}件の商品データを構造化`);
   console.log(`💾 ${outputPath} に保存しました`);
 }
 
 main().catch(console.error);
-
-export { structureArticle };
