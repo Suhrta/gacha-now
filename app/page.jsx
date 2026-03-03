@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Header from "../components/Header";
 import GachaMachine from "../components/GachaMachine";
 import ReceiptPaper from "../components/ReceiptPaper";
@@ -33,7 +33,7 @@ function getStatus(product) {
   const rw = product.releaseWeek || "未定";
 
   const monthMatch = rw.match(/(\d+)月/);
-  if (!monthMatch) return "new"; // 未定は新作扱い
+  if (!monthMatch) return "new";
 
   const releaseMonth = parseInt(monthMatch[1]);
   if (releaseMonth < currentMonth) return "available";
@@ -41,9 +41,9 @@ function getStatus(product) {
   return "upcoming";
 }
 
-/* 発売週文字列を比較用の数値に変換（小さい方が早い） */
+/* 発売週文字列を比較用の数値に変換 */
 function releaseWeekToNum(str) {
-  if (!str || str === "未定") return 8888; // 未定は後ろ
+  if (!str || str === "未定") return 8888;
   const m = str.match(/(\d+)月/);
   const w = str.match(/第(\d+)週/);
   const d = str.match(/(\d+)日/);
@@ -53,23 +53,13 @@ function releaseWeekToNum(str) {
   return month * 100 + 9;
 }
 
-/**
- * ソート関数
- * 「すべて」: HOT → 発売日近い順 → 未定 → 発売中（先月）
- * 「新作」:   HOTの発売日近い順 → 非HOTの発売日近い順
- * 「発売中」: 発売日が新しい順（最近のものが上）
- */
+/* ソート関数 */
 function sortProducts(list, tab) {
-  const now = new Date();
-  const currentMonth = now.getMonth() + 1;
-
   if (tab === "available") {
-    // 発売中: 新しい順
     return [...list].sort((a, b) => releaseWeekToNum(b.releaseWeek) - releaseWeekToNum(a.releaseWeek));
   }
 
   if (tab === "new" || tab === "upcoming") {
-    // 新作/発売予定: HOT優先 → 発売日近い順
     return [...list].sort((a, b) => {
       const aHot = a.hot ? 0 : 1;
       const bHot = b.hot ? 0 : 1;
@@ -80,30 +70,21 @@ function sortProducts(list, tab) {
 
   // 「すべて」: HOT → 発売日近い(今月) → 未定 → 発売中(先月)
   return [...list].sort((a, b) => {
-    // 1. HOTを最優先
     const aHot = a.hot ? 0 : 1;
     const bHot = b.hot ? 0 : 1;
     if (aHot !== bHot) return aHot - bHot;
 
-    // 2. ステータスで分類（new > upcoming > 未定 > available）
     const statusOrder = { new: 0, upcoming: 1, available: 2 };
     const aStatus = getStatus(a);
     const bStatus = getStatus(b);
 
-    // 未定は new と available の間
     const aIsUndefined = !a.releaseWeek || a.releaseWeek === "未定" || !a.releaseWeek.match(/\d+月/);
     const bIsUndefined = !b.releaseWeek || b.releaseWeek === "未定" || !b.releaseWeek.match(/\d+月/);
 
-    let aOrder, bOrder;
-    if (aIsUndefined) aOrder = 1.5;
-    else aOrder = statusOrder[aStatus] ?? 3;
-
-    if (bIsUndefined) bOrder = 1.5;
-    else bOrder = statusOrder[bStatus] ?? 3;
+    let aOrder = aIsUndefined ? 1.5 : (statusOrder[aStatus] ?? 3);
+    let bOrder = bIsUndefined ? 1.5 : (statusOrder[bStatus] ?? 3);
 
     if (aOrder !== bOrder) return aOrder - bOrder;
-
-    // 3. 同じグループ内は発売日近い順
     return releaseWeekToNum(a.releaseWeek) - releaseWeekToNum(b.releaseWeek);
   });
 }
@@ -119,11 +100,28 @@ export default function HomePage() {
   const [brand, setBrand] = useState("すべて");
   const [selected, setSelected] = useState(null);
   const [statusTab, setStatusTab] = useState("all");
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const searchRef = useRef(null);
+
+  useEffect(() => {
+    if (searchOpen && searchRef.current) {
+      searchRef.current.focus();
+    }
+  }, [searchOpen]);
 
   let filtered = brand === "すべて" ? [...products] : products.filter((p) => p.brand === brand);
 
   if (statusTab !== "all") {
     filtered = filtered.filter((p) => getStatus(p) === statusTab);
+  }
+
+  // 検索フィルタ
+  if (searchQuery.trim()) {
+    const q = searchQuery.trim().toLowerCase();
+    filtered = filtered.filter((p) =>
+      p.name.toLowerCase().includes(q) || p.brand.toLowerCase().includes(q)
+    );
   }
 
   filtered = sortProducts(filtered, statusTab);
@@ -139,6 +137,7 @@ export default function HomePage() {
         <div className="absolute inset-0 pointer-events-none opacity-50"
           style={{ backgroundImage: "radial-gradient(circle, #F0E6D6 1px, transparent 1px)", backgroundSize: "20px 20px" }} />
 
+        {/* 発売中/新作/発売予定 タブ */}
         <div className="flex gap-1.5 mb-3 px-1 relative z-10 overflow-x-auto">
           {visibleTabs.map((tab) => (
             <button key={tab.key} onClick={() => setStatusTab(tab.key)}
@@ -157,18 +156,78 @@ export default function HomePage() {
         <div className="font-pixel text-[11px] text-brand-sub mb-2.5 px-1 relative">
           {filtered.length}件 ── タップで詳しく！
         </div>
-        <div key={statusTab + brand} className="flex flex-wrap gap-2.5 relative z-[1]">
+        <div key={statusTab + brand + searchQuery} className="flex flex-wrap gap-2.5 relative z-[1]">
           {filtered.map((p, i) => (
             <GachaMachine key={`${statusTab}-${p.id}`} product={p} index={i} onClick={setSelected} />
           ))}
         </div>
         {filtered.length === 0 && (
           <div className="text-center py-10 text-brand-sub font-pixel text-[10px] leading-[2.2]">
-            🎪<br />このカテゴリの<br />商品はまだないよ
+            {searchQuery ? (
+              <>🔍<br />「{searchQuery}」の<br />商品は見つからなかったよ</>
+            ) : (
+              <>🎪<br />このカテゴリの<br />商品はまだないよ</>
+            )}
           </div>
         )}
       </main>
       <Footer />
+
+      {/* フローティング検索 */}
+      {searchOpen && (
+        <div className="fixed bottom-20 left-3 right-3 z-50 flex items-center gap-2"
+          style={{ animation: "slideUp 0.2s ease-out" }}>
+          <div className="flex-1 flex items-center bg-white rounded-full border-2 border-brand-accent px-4 py-2.5"
+            style={{ boxShadow: "0 4px 20px rgba(232,117,109,0.25)" }}>
+            <span className="text-[14px] mr-2">🔍</span>
+            <input
+              ref={searchRef}
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="商品名で検索..."
+              className="flex-1 bg-transparent outline-none font-pixel text-[12px] text-brand-text"
+              style={{ border: "none" }}
+            />
+            {searchQuery && (
+              <button onClick={() => setSearchQuery("")}
+                className="text-[14px] text-brand-sub cursor-pointer bg-transparent border-none p-0 ml-1">
+                ✕
+              </button>
+            )}
+          </div>
+          <button onClick={() => { setSearchOpen(false); setSearchQuery(""); }}
+            className="shrink-0 w-10 h-10 rounded-full bg-white border-2 border-cream-border flex items-center justify-center cursor-pointer text-[14px]"
+            style={{ boxShadow: "0 2px 8px rgba(74,55,40,0.1)" }}>
+            ✕
+          </button>
+        </div>
+      )}
+
+      {!searchOpen && (
+        <button onClick={() => setSearchOpen(true)}
+          className="fixed bottom-6 right-4 z-50 w-14 h-14 rounded-full flex items-center justify-center cursor-pointer border-none"
+          style={{
+            background: "linear-gradient(135deg, #E8756D, #E8756DDD)",
+            boxShadow: "0 4px 16px rgba(232,117,109,0.4), 0 2px 4px rgba(232,117,109,0.2)",
+            animation: "fadeIn 0.3s ease-out",
+          }}>
+          <span className="text-white text-[22px]">🔍</span>
+        </button>
+      )}
+
+      {/* 検索アニメーション */}
+      <style jsx global>{`
+        @keyframes slideUp {
+          from { transform: translateY(20px); opacity: 0; }
+          to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeIn {
+          from { opacity: 0; transform: scale(0.8); }
+          to { opacity: 1; transform: scale(1); }
+        }
+      `}</style>
+
       {selected && <ReceiptPaper product={selected} onClose={() => setSelected(null)} />}
     </>
   );
