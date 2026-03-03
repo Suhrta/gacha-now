@@ -121,21 +121,20 @@ export default function HomePage() {
     return () => observer.disconnect();
   }, [brand, statusTab, searchQuery]);
 
-  // 横スワイプでステータスタブ切替
+  // 横スワイプでブランドタブ切替
   const handleTouchStart = (e) => {
     touchStartX.current = e.touches[0].clientX;
   };
   const handleTouchEnd = (e) => {
     touchEndX.current = e.changedTouches[0].clientX;
     const diff = touchStartX.current - touchEndX.current;
-    const visibleTabs = hasUpcoming ? STATUS_TABS : STATUS_TABS.filter((t) => t.key !== "upcoming");
-    const currentIdx = visibleTabs.findIndex((t) => t.key === statusTab);
+    const currentIdx = BRANDS.findIndex((b) => b === brand);
 
     if (Math.abs(diff) > 80) {
-      if (diff > 0 && currentIdx < visibleTabs.length - 1) {
-        setStatusTab(visibleTabs[currentIdx + 1].key);
+      if (diff > 0 && currentIdx < BRANDS.length - 1) {
+        setBrand(BRANDS[currentIdx + 1]);
       } else if (diff < 0 && currentIdx > 0) {
-        setStatusTab(visibleTabs[currentIdx - 1].key);
+        setBrand(BRANDS[currentIdx - 1]);
       }
     }
   };
