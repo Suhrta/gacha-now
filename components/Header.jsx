@@ -72,7 +72,7 @@ export default function Header({ brands, selected, onSelect }) {
             ガチャなう
           </div>
           <div className="text-[10px] text-brand-sub mt-1 tracking-[1px]">
-            新作カプセルトイ情報
+            毎日更新！カプセルトイ新作情報
           </div>
         </div>
 
