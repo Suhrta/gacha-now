@@ -90,7 +90,6 @@ export default function HomePage() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
-  const [loading, setLoading] = useState(false);
   const searchRef = useRef(null);
   const loaderRef = useRef(null);
   const touchStartX = useRef(0);
@@ -109,9 +108,7 @@ export default function HomePage() {
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting) {
-          setLoading(true);
           setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
-          setTimeout(() => setLoading(false), 1400);
         }
       },
       { threshold: 0.1 }
@@ -231,7 +228,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        {(hasMore || loading) && (
+        {hasMore && (
           <div ref={loaderRef} className="flex flex-col items-center py-6 gap-2">
             <div style={{ width: 60, height: 30, animation: "rollBounce 1.2s ease-in-out infinite" }}>
               <svg width="30" height="36" viewBox="0 0 30 36" style={{ display: "block" }}>
