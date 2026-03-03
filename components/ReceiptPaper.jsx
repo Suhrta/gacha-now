@@ -45,10 +45,6 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
       <div className="w-full shrink-0" style={{ height: 10, background: zigzagTop, backgroundSize: "16px 10px", backgroundRepeat: "repeat-x" }} />
 
       <div className="w-full" style={{ background: "#FFFDF8", padding: "10px 16px 16px", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
-        <div className="border-b-2 border-dashed border-cream-border mb-2.5 pb-2 text-center">
-          <div className="font-pixel text-[10px] text-brand-accent tracking-[1px]">🏪 GACHA NOW 🏪</div>
-          <div className="font-pixel text-[8px] text-brand-sub mt-1">新作情報</div>
-        </div>
 
         <div className="rounded-lg overflow-hidden mb-2.5 border-2 border-cream-border">
           <img src={product.img} alt={product.name} className="w-full block" style={{ aspectRatio: "300/220", objectFit: "cover" }} />
