@@ -87,12 +87,12 @@ export default function GachaMachine({ product, index, onClick }) {
           </div>
         </div>
 
-        {/* 回すハンドル（丸＋横棒、同じ幅） */}
-        <div className="flex justify-center items-center py-1 pointer-events-none">
-          <div style={{ position: "relative", width: 28, height: 28, display: "flex", alignItems: "center", justifyContent: "center" }}>
+        {/* 回すハンドル（丸＋横棒） */}
+        <div className="flex justify-center items-center pt-1 pb-0 pointer-events-none">
+          <div style={{ position: "relative", width: 36, height: 36, display: "flex", alignItems: "center", justifyContent: "center" }}>
             {/* 横棒（丸と同じ幅） */}
             <div style={{
-              width: 28,
+              width: 36,
               height: 8,
               borderRadius: 4,
               background: "#FFFFFF",
@@ -100,14 +100,13 @@ export default function GachaMachine({ product, index, onClick }) {
               position: "absolute",
               zIndex: 2,
             }} />
-            {/* 中央の丸（横棒より少し暗め） */}
+            {/* 中央の丸（枠線なし） */}
             <div style={{
-              width: 28,
-              height: 28,
+              width: 36,
+              height: 36,
               borderRadius: "50%",
-              background: "#F0E8DF",
-              border: "2px solid #C8BAA9",
-              boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
+              background: "#EAE0D5",
+              boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
               position: "relative",
               zIndex: 1,
             }} />
@@ -115,7 +114,7 @@ export default function GachaMachine({ product, index, onClick }) {
         </div>
 
         {/* 下段：取り出し口（左）+ 価格（右） */}
-        <div className="flex items-end px-2 pb-2 pointer-events-none" style={{ height: 48 }}>
+        <div className="flex items-start px-2 pb-2 pointer-events-none" style={{ height: 48 }}>
 
           {/* 左下：取り出し口（アーチ＋受け皿） */}
           <div style={{ width: 40 }}>
