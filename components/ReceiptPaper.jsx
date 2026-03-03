@@ -8,14 +8,18 @@ const zigzagBottom = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/20
 function getShopSearchUrl(product) {
   if (!product.sourceUrl) return null;
 
-  // バンダイ: 商品詳細ページにマップがある
+  // バンダイ: 商品別店舗マップ（jan_codeから先頭13桁を取得）
   if (product.sourceUrl.includes("gashapon.jp")) {
-    return product.sourceUrl;
+    const janMatch = product.sourceUrl.match(/jan_code=(\d{13})/);
+    if (janMatch) {
+      return `https://gashapon.jp/shop/gplus_list.php?product_code=${janMatch[1]}`;
+    }
+    return "https://gashapon.jp/shop/gplus.php";
   }
 
-  // タカトミ: 商品詳細ページに「この商品の取扱店舗」ボタンがある
+  // タカトミ: ガチャ®をさがす（店舗検索）
   if (product.sourceUrl.includes("takaratomy-arts.co.jp")) {
-    return product.sourceUrl;
+    return "https://www.takaratomy-arts.co.jp/items/gacha/search.html";
   }
 
   return null;
