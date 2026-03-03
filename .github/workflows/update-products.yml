@@ -58,3 +58,20 @@ jobs:
           git add data/products.json posts/
           git diff --staged --quiet || git commit -m "🎪 auto-update products $(date -u +%Y-%m-%d)"
           git push
+
+      # 8. Discordに投稿画像とキャプションを通知
+      - name: Notify Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          PNG_FILE="posts/post-${TODAY}.png"
+          TXT_FILE="posts/post-${TODAY}.txt"
+
+          if [ -f "$PNG_FILE" ] && [ -f "$TXT_FILE" ]; then
+            CAPTION=$(cat "$TXT_FILE")
+            curl -s -F "content=${CAPTION}" -F "file1=@${PNG_FILE}" "$DISCORD_WEBHOOK_URL"
+            echo "✅ Discord通知完了"
+          else
+            echo "⚠️ 投稿ファイルが見つかりません、スキップ"
+          fi
