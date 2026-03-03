@@ -91,7 +91,7 @@ export default function GachaMachine({ product, index, onClick }) {
           <MiniCapsule size={9} rot={18} opacity={0.35} color={product.color} style={{ bottom: 3, right: 8 }} />
           {hasImage ? (
             <img src={product.img} alt={product.name} className="w-full block"
-              style={{ aspectRatio: "300/200", objectFit: "contain", background: "#FFF8F0" }} />
+              style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top", background: "#FFF8F0" }} />
           ) : (
             <CapsulePlaceholder color={product.color} />
           )}
