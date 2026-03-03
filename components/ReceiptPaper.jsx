@@ -44,21 +44,17 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
     <>
       <div className="w-full shrink-0" style={{ height: 10, background: zigzagTop, backgroundSize: "16px 10px", backgroundRepeat: "repeat-x" }} />
 
-      <div className="w-full" style={{ background: "#FFFDF8", padding: "10px 16px 16px", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
+      <div className="w-full" style={{ background: "#FFFDF8", padding: "8px 16px 12px", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
 
-        <div className="rounded-lg overflow-hidden mb-2.5 border-2 border-cream-border">
+        <div className="rounded-lg overflow-hidden mb-2 border-2 border-cream-border">
           <img src={product.img} alt={product.name} className="w-full block" style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />
         </div>
 
-        <div className="mb-2.5">
-          <div className="font-pixel text-[11px] text-brand-text leading-[1.9] mb-1.5">{product.name}</div>
-          <span className="font-pixel text-[9px] px-2 py-0.5 rounded-md border"
-            style={{ color: product.color, background: `${product.color}15`, borderColor: `${product.color}30` }}>
-            {product.brand}
-          </span>
+        <div className="mb-2">
+          <div className="font-pixel text-[11px] text-brand-text leading-[1.9] mb-1">{product.name}</div>
         </div>
 
-        <div className="border-b border-dashed border-cream-border mb-2" />
+        <div className="border-b border-dashed border-cream-border mb-1.5" />
 
         {[
           { l: "価格", v: `¥${product.price}` },
@@ -73,7 +69,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
 
         {/* 公式サイトボタン */}
         <a href={product.sourceUrl || "#"} target="_blank" rel="noopener noreferrer"
-          className="block w-full py-3 mt-3 rounded-lg font-pixel text-[11px] text-white text-center no-underline"
+          className="block w-full py-2.5 mt-2 rounded-lg font-pixel text-[11px] text-white text-center no-underline"
           style={{
             background: `linear-gradient(135deg, ${product.color}, ${product.color}DD)`,
             boxShadow: `0 3px 0 ${product.color}66, 0 4px 12px ${product.color}33`,
@@ -84,7 +80,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
         {/* 店舗検索ボタン */}
         {shopUrl && (
           <a href={shopUrl} target="_blank" rel="noopener noreferrer"
-            className="block w-full py-3 mt-2 rounded-lg font-pixel text-[11px] text-center no-underline border-2"
+            className="block w-full py-2.5 mt-1.5 rounded-lg font-pixel text-[11px] text-center no-underline border-2"
             style={{
               background: "#FFFFFF",
               borderColor: "#5B8C6D",
@@ -102,7 +98,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
 
         {onClose && (
           <button onClick={close}
-            className="block w-full py-2.5 mt-2 bg-transparent border-2 border-cream-border rounded-lg font-pixel text-[9px] text-brand-sub cursor-pointer">
+            className="block w-full py-2 mt-1.5 bg-transparent border-2 border-cream-border rounded-lg font-pixel text-[9px] text-brand-sub cursor-pointer">
             ✕ 閉じる
           </button>
         )}
