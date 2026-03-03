@@ -87,14 +87,15 @@ export default function GachaMachine({ product, index, onClick }) {
           </div>
         </div>
 
-        {/* 回すハンドル（角丸の太い横棒） */}
+        {/* 回すハンドル（白い角丸の横棒） */}
         <div className="flex justify-center py-1 pointer-events-none">
           <div style={{
-            width: 52,
-            height: 14,
-            borderRadius: 7,
-            background: `linear-gradient(180deg, ${color}, ${color}BB)`,
-            boxShadow: `0 2px 0 ${color}55, inset 0 1px 0 rgba(255,255,255,0.3)`,
+            width: 48,
+            height: 10,
+            borderRadius: 5,
+            background: "#FFFFFF",
+            border: "1.5px solid #D4C9BC",
+            boxShadow: "0 2px 0 rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.8)",
           }} />
         </div>
 
@@ -106,7 +107,7 @@ export default function GachaMachine({ product, index, onClick }) {
             {/* アーチ */}
             <div style={{
               width: 36,
-              height: 20,
+              height: 28,
               borderRadius: "18px 18px 0 0",
               background: "#2A231C",
               boxShadow: "inset 0 3px 6px rgba(0,0,0,0.4)",
@@ -126,7 +127,7 @@ export default function GachaMachine({ product, index, onClick }) {
           {/* 右：価格＋種類 */}
           <div className="flex-1 flex flex-col items-end gap-0.5">
             <span className="font-pixel font-bold" style={{ color, fontSize: 16, lineHeight: 1 }}>
-              ¥{product.price}
+              {product.price}円
             </span>
             <span className="font-pixel text-[9px] text-brand-sub">
               全{product.types}種
