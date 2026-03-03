@@ -90,7 +90,7 @@ export default function HomePage() {
         </div>
         <div className="flex flex-wrap gap-2.5 relative z-[1]">
           {filtered.map((p, i) => (
-            <GachaMachine key={p.id} product={p} index={i} onClick={setSelected} />
+            <GachaMachine key={`${statusTab}-${p.id}`} product={p} index={i} onClick={setSelected} />
           ))}
         </div>
         {filtered.length === 0 && (
