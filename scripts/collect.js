@@ -77,7 +77,7 @@ async function collectFromBandai() {
 
     const now = new Date();
     const months = [];
-    for (let offset = 0; offset <= 1; offset++) {
+    for (let offset = -1; offset <= 1; offset++) {
       const d = new Date(now);
       d.setMonth(d.getMonth() + offset);
       const ym = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, "0")}`;

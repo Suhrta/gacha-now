@@ -1,5 +1,2037 @@
 [
   {
+    "id": "-mobile-suit-ensemble-13",
+    "name": "機動戦士ガンダム MOBILE SUIT ENSEMBLE 13",
+    "brand": "ガンダム",
+    "brandSlug": "gundam",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#78909C",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000143024_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4549660455813000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.070Z"
+  },
+  {
+    "id": "gacha-0002",
+    "name": "ちいかわ おくるみマスコットチャーム",
+    "brand": "ちいかわ",
+    "brandSlug": "chiikawa",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#4FC3F7",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000227916_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769738647000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0003",
+    "name": "ハイキュー!! ふらっとめじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000230618_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769846670000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "nhk-3",
+    "name": "NHKいないいないばあっ！ ころりんマスコット3",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245282_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118205728000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "ringcolle-dx-5",
+    "name": "Ringcolle！ DX 仮面ライダー5",
+    "brand": "仮面ライダー",
+    "brandSlug": "kamenrider",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#4DB6AC",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245281_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118238283000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0006",
+    "name": "コジコジ スイング～遊んで食べて寝てるだけ～",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245297_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769704826000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0007",
+    "name": "テレタビーズ おやすみライトマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245370_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769810527000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0008",
+    "name": "「よつばと！」 こまどりフィギュアコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245369_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769823275000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0009",
+    "name": "がまくんとかえるくん カプセルラバーマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245352_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769828942000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "-3d",
+    "name": "葛飾北斎 3Dレリーフコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245368_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769847257000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "polar-bear-bank-2",
+    "name": "polar bear bank（ポーラーベアバンク） ミニチュアチャーム 2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245349_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769860270000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0012",
+    "name": "おじゃる丸 めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245347_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769866364000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0013",
+    "name": "魔法使いサリー ミニチュアチャームコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245367_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769876318000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0014",
+    "name": "サムライ ミニチュアチャーム",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245342_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769888540000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "pacman-",
+    "name": "PAC-MAN コインケース",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245341_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769888922000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0016",
+    "name": "まちぼうけ ウルトラマンの場合",
+    "brand": "ウルトラマン",
+    "brandSlug": "ultraman",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#E57373",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245358_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769890154000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0017",
+    "name": "チロルチョコ めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245337_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769892035000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "pasta-design-by-",
+    "name": "PASTA めじるしアクセサリー design by ちょいブスキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245366_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769897566000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0019",
+    "name": "小学一年生 だれでもなりきりアクリルチャーム",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245392_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769910890000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "jtb-",
+    "name": "JTB時刻表 ふらっとめじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245332_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769911583000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "dragon-ball-kamehameha-charm-collection",
+    "name": "DRAGON BALL Kamehameha Charm Collection",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000242763_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927850000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0022",
+    "name": "【フラットガシャポン】“ディズニープリンセス” クリアラバーコースター",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#CE93D8",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245386_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769928048000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0023",
+    "name": "なめこ栽培キット ぬいぐるみマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245377_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769928567000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "fernanda-",
+    "name": "FERNANDA（フェルナンダ） ミニチュアチャームコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245318_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769928642000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0025",
+    "name": "サンリオキャラクターズ カラフルキャンディチャーム",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245393_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935220000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0026",
+    "name": "クレヨンしんちゃん ミラーコレクション",
+    "brand": "クレヨンしんちゃん",
+    "brandSlug": "shinchan",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245309_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935459000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "virusweets-figure-collection-sugar-pop-p",
+    "name": "VIRUSWEETS figure collection ～Sugar Pop Party～",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245307_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935602000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0028",
+    "name": "幽☆遊☆白書 めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第1週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245305_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935756000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0029",
+    "name": "ブルーロック まちぼうけ",
+    "brand": "まちぼうけ",
+    "brandSlug": "machiboke",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000221617_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769742477000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0030",
+    "name": "アイカツ！ グッズコレクション3",
+    "brand": "アイカツ",
+    "brandSlug": "aikatsu",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245391_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118238450000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0031",
+    "name": "ホロライブ ミニチュアペンライトチャーム5",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245293_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769768507000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0032",
+    "name": "クレヨンしんちゃん ミニ貯金箱",
+    "brand": "クレヨンしんちゃん",
+    "brandSlug": "shinchan",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245290_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769837760000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0033",
+    "name": "おしゅしだよ めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769889165000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "new-era174-59fifty174-mlbtrade-onfield-c",
+    "name": "NEW ERA&#174; 59FIFTY&#174; MLB&trade; On-Field Cap MINIATURE SWING COLLECTION -AMERICAN LEAGUE&trade;-",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245334_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769897849000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "-twinkle-",
+    "name": "“ディズニーキャラクター” Twinkle ゴム",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#CE93D8",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245333_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769898051000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "deco27-mv2",
+    "name": "DECO*27 MVアクリルチャーム2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245335_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769898662000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "-typedragon",
+    "name": "ポケットモンスター スイングコレクション Type:Dragon",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245331_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769911613000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0038",
+    "name": "どこでもいっしょ まちぼうけ２",
+    "brand": "まちぼうけ",
+    "brandSlug": "machiboke",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245378_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916465000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "-big-metal-ring",
+    "name": "矢沢あい BIG METAL RING",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245324_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916939000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0040",
+    "name": "パワーパフ ガールズ きゃらまかろん",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245317_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769934698000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "tom-and-jerry-",
+    "name": "TOM and JERRY 手作りおやつチャーム ＃しぼりクッキー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245316_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769934742000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0042",
+    "name": "まちぼうけ キン肉マン2",
+    "brand": "まちぼうけ",
+    "brandSlug": "machiboke",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245304_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935770000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.071Z"
+  },
+  {
+    "id": "gacha-0043",
+    "name": "まちぼうけ 聖闘士星矢",
+    "brand": "まちぼうけ",
+    "brandSlug": "machiboke",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245303_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935787000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-mobile-suit-ensemble-13",
+    "name": "【箱売】機動戦士ガンダム MOBILE SUIT ENSEMBLE 13",
+    "brand": "ガンダム",
+    "brandSlug": "gundam",
+    "price": 550,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#78909C",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245637_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4549660473091000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0045",
+    "name": "パワフルプロ野球 サウンドロップ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245355_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198440000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "2-2",
+    "name": "ねこあつめ2 めじるしアクセサリー2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245284_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202628000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0047",
+    "name": "それいけ！アンパンマン カシャカシャ！みえるよ！アンパンマン",
+    "brand": "アンパンマン",
+    "brandSlug": "anpanman",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245298_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769684920000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "hunterhunter-2",
+    "name": "HUNTER×HUNTER すわらせ隊りある2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 800,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245397_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769745461000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0049",
+    "name": "豆ガシャ本 サンリオキャラクターズ「プロフィール帳」",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245292_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769829536000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0050",
+    "name": "【フラットガシャポン】たまごっち ネイルシールコレクション",
+    "brand": "たまごっち",
+    "brandSlug": "tamagotchi",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#81D4FA",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245383_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769840708000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "bastard-",
+    "name": "BASTARD!! -暗黒の破壊神- カプセルフィギュアコレクション",
+    "brand": "ワンピース",
+    "brandSlug": "onepiece",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#E57373",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245350_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769846915000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "eva-pocket-",
+    "name": "EVA POCKET めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245374_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769865978000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "uma-",
+    "name": "暗闇で光る！UMA めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245346_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769866722000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0054",
+    "name": "パワーパフ ガールズ ライトクリップ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243238_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769866968000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "kitson-",
+    "name": "kitson ミニチュアバッグコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245345_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769875908000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0056",
+    "name": "文房具刺繍チャーム",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245343_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769876165000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0057",
+    "name": "クレヨンしんちゃん めざましサウンドコレクション",
+    "brand": "クレヨンしんちゃん",
+    "brandSlug": "shinchan",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243271_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769889714000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-pupupu-friends-ver",
+    "name": "星のカービィ PUPUPU FRIENDS フィギュアコレクション～フロッキーVer.～",
+    "brand": "カービィ",
+    "brandSlug": "kirby",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#F48FB1",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245388_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916861000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "capsule-",
+    "name": "capsule トルソー カードキャプターさくら６",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245328_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769917028000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0060",
+    "name": "怒ったもふもふの猫ちゃあぁぁん",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245357_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769919213000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0061",
+    "name": "ならぶんです。 怪獣さん（ゴジラ版2）",
+    "brand": "ゴジラ",
+    "brandSlug": "godzilla",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#A1887F",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245364_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927645000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0062",
+    "name": "僕のヒーローアカデミア おくるみますこっとチャーム",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245321_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927706000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-naruto-2",
+    "name": "まちぼうけ NARUTO-ナルト- ラーメン一楽の場合 第2弾",
+    "brand": "NARUTO",
+    "brandSlug": "naruto",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245320_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927898000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0064",
+    "name": "【フラットガシャポン】どうぶつの森 クリアラバーコースター",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245385_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935299000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0065",
+    "name": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女 カプセルラバーマスコット",
+    "brand": "ガンダム",
+    "brandSlug": "gundam",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#78909C",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245356_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968358000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-snow-miku-2026",
+    "name": "初音ミク 雪ミクあそーと～SNOW MIKU 2026～",
+    "brand": "初音ミク",
+    "brandSlug": "miku",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#4DD0E1",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245276_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968396000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-2026-",
+    "name": "【ジャンボカードダス/フラットガシャポン】初音ミク 雪ミク2026 クリアビジュアルポスター",
+    "brand": "初音ミク",
+    "brandSlug": "miku",
+    "price": 200,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#4DD0E1",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245382_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968402000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0068",
+    "name": "ホロライブ3期生 つながるあくりるますこっと",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第2週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245269_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770015379000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0069",
+    "name": "名探偵コナン コナン隊 プラス",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245275_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198211000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-2026",
+    "name": "ペコちゃん お菓子のめじるしアクセサリー2026",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245294_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769742699000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0071",
+    "name": "魔法少女まどか☆マギカ めじるしアクセサリー",
+    "brand": "まどか☆マギカ",
+    "brandSlug": "madoka",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245351_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769836534000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0072",
+    "name": "いきもの大図鑑ディスプレイモデルコレクション 野生のネコ科動物",
+    "brand": "いきもの大図鑑",
+    "brandSlug": "ikimono",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#AED581",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245381_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769890147000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0073",
+    "name": "ウルトラマンシリーズ 変身アイテムめじるしアクセサリー",
+    "brand": "ウルトラマン",
+    "brandSlug": "ultraman",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#E57373",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245287_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769890178000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-vol2",
+    "name": "アイドリッシュセブン めじるしアクセサリー～王様プリンと一緒～vol.2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245336_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769897535000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-grwm",
+    "name": "サンリオキャラクターズ GRWMマスコットチャーム",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245329_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916724000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0076",
+    "name": "しかるねこ めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245395_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769917011000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0077",
+    "name": "ケロロ軍曹 赤ちゃんになって侵略であります！",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245327_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769917066000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-ver",
+    "name": "忘却バッテリー ちびっこナイン～練習着Ver.～",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245325_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769917431000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0079",
+    "name": "カラフルピーチ おくるみますこっとチャーム1",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245312_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935305000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0080",
+    "name": "カラフルピーチ おくるみますこっとチャーム2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245311_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935312000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "one-piece-2",
+    "name": "ONE PIECE ネガティブスイング2",
+    "brand": "ワンピース",
+    "brandSlug": "onepiece",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#E57373",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245306_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935619000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0082",
+    "name": "鬼滅の刃 ねむらせ隊 第3弾",
+    "brand": "鬼滅の刃",
+    "brandSlug": "kimetsu",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#80CBC4",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245302_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935800000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0083",
+    "name": "猫耳ヘッドホン ミニチュアチャーム2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245300_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935909000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-04",
+    "name": "いきもの大図鑑レプティ 恐竜04",
+    "brand": "いきもの大図鑑",
+    "brandSlug": "ikimono",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#AED581",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245272_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769979934000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0085",
+    "name": "大きな光るまてぼうけ 犬",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245283_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118203601000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "hg04-majin-buu-saga",
+    "name": "HGドラゴンボール04 MAJIN BUU SAGA",
+    "brand": "ドラゴンボール",
+    "brandSlug": "dragonball",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245371_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118246622000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0087",
+    "name": "【フラットガシャポン】お文具といっしょ ミニおりたたみコンテナ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245384_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769709166000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0088",
+    "name": "リサとガスパール ライトマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245363_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769709203000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "canon-",
+    "name": "Canon ミニチュアカメラコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245354_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769742583000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0090",
+    "name": "ミッケラービール ミニチュアチャーム",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245376_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769744686000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0091",
+    "name": "ウォレスとグルミット めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245353_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769810503000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0092",
+    "name": "スポンジ・ボブ マスコットチャーム",
+    "brand": "スポンジ・ボブ",
+    "brandSlug": "spongebob",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245375_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769847486000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0093",
+    "name": "学園アイドルマスター まちぼうけ2",
+    "brand": "まちぼうけ",
+    "brandSlug": "machiboke",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245361_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769849879000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0094",
+    "name": "新劇場版 銀魂 -吉原大炎上- めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245274_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769854507000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0095",
+    "name": "ナガキパーマ かぶり生活スイング",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245373_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769866814000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "hg-vol2",
+    "name": "HG スーパー戦隊シリーズ vol.2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245271_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769875687000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-figure-collection",
+    "name": "たかはたまさお 木彫り風 FIGURE COLLECTION",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245344_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769876028000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "code-vein-ii-",
+    "name": "CODE VEIN II カプセルラバーマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245338_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769889288000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0099",
+    "name": "サンリオキャラクターズ カラフルカラビナマスコットチャーム",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245330_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916656000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0100",
+    "name": "まちぼうけ おやつの場合 その3",
+    "brand": "まちぼうけ",
+    "brandSlug": "machiboke",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245322_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927393000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0101",
+    "name": "クッピーラムネ めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245310_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935398000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0102",
+    "name": "たまごっち 手作りおやつチャーム #平成女児チョコ",
+    "brand": "たまごっち",
+    "brandSlug": "tamagotchi",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第3週",
+    "color": "#81D4FA",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245308_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935480000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0103",
+    "name": "たまごっち シャカシャカチャームコレクション",
+    "brand": "たまごっち",
+    "brandSlug": "tamagotchi",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#81D4FA",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000229260_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769822483000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gundam-miku-anniversary-special-project-",
+    "name": "GUNDAM × MIKU Anniversary Special project. フィギュアコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000232577_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769847127000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "skzoo-foxinyjiniret",
+    "name": "SKZOO ぷくっとバースデークリアリング ～FoxI.Ny＆Jiniret～",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245270_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118184238000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "minecraft-",
+    "name": "MINECRAFT めじるしアクセサリー スタンダード",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118197115000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0107",
+    "name": "ポケットモンスター 組立可動！メガルカリオ・メガハッサム",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 800,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245379_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118197993000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-vol10",
+    "name": "ポケットモンスター トートバッグ＆ポーチコレクションvol.10",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245285_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202536000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0109",
+    "name": "スーパーダンガンロンパ2 まちぼうけ",
+    "brand": "まちぼうけ",
+    "brandSlug": "machiboke",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245296_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769709210000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0110",
+    "name": "【フラットガシャポン】名探偵コナン ちぢませ隊ステッカーコレクション2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245387_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769728341000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0111",
+    "name": "いれいす つまんでつなげてますこっと",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245291_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769830327000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "mofusand-",
+    "name": "mofusand いちごチョコにゃんマスコット",
+    "brand": "mofusand",
+    "brandSlug": "mofusand",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#FFCC80",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245362_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769841705000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "tv-2",
+    "name": "TVアニメ『ダンダダン』 まちぼうけ2",
+    "brand": "まちぼうけ",
+    "brandSlug": "machiboke",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245289_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769854415000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "bleach-",
+    "name": "BLEACH おくるみあそーと",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245348_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769865763000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "from-tv-animation-one-piece-",
+    "name": "『From TV animation ONE PIECE ワンピの実ミクロ』ブリスターチャーム",
+    "brand": "ワンピース",
+    "brandSlug": "onepiece",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#E57373",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000239025_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769866227000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "colorrose-2",
+    "name": "COLORROSE ミニチュアコレクション2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245288_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769872884000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-dx03",
+    "name": "仮面ライダーシリーズ DXミニチュア＆パッケージコレクション03",
+    "brand": "仮面ライダー",
+    "brandSlug": "kamenrider",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#4DB6AC",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245360_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769872891000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0118",
+    "name": "にふぉるめーしょん ワンピース大海賊シールウエハース ミニチュアチャーム",
+    "brand": "ワンピース",
+    "brandSlug": "onepiece",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#E57373",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245340_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769888991000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0119",
+    "name": "パンどろぼう カプセルヘアクリップ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245372_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769891953000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0120",
+    "name": "クレヨンしんちゃん ミニチュアパッケージコレクション３ 『映画クレヨンしんちゃん ヘンダーランドの大冒険』",
+    "brand": "クレヨンしんちゃん",
+    "brandSlug": "shinchan",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245326_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769917288000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0121",
+    "name": "ハリー・ポッター めじるしアクセサリー＋4",
+    "brand": "ハリー・ポッター",
+    "brandSlug": "harrypotter",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245319_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927997000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "-funny-time",
+    "name": "ドラえもん Funny Time!",
+    "brand": "ドラえもん",
+    "brandSlug": "doraemon",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245315_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769934964000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0123",
+    "name": "葬送のフリーレン つまんでつなげてますこっと２",
+    "brand": "フリーレン",
+    "brandSlug": "frieren",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245301_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935886000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0124",
+    "name": "デジモンアドベンチャー めじるしアクセサリー2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245299_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769936135000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0125",
+    "name": "スーパー戦隊シリーズ めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245279_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968280000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0126",
+    "name": "侍ジャパン歴代ユニフォーム フレームマグネット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245278_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968334000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
+    "id": "gacha-0127",
+    "name": "機動戦士ガンダム ガンダムヘッド めじるしアクセサリー",
+    "brand": "ガンダム",
+    "brandSlug": "gundam",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "2月 第4週",
+    "color": "#78909C",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245277_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968365000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-03T02:55:51.072Z"
+  },
+  {
     "id": "hgd-04",
     "name": "HGD+ ゴジラ04",
     "brand": "ゴジラ",
@@ -13,10 +2045,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4549660501831000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.826Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0002",
+    "id": "gacha-0129",
     "name": "カプキャラ パンどろぼう",
     "brand": "その他",
     "brandSlug": "other",
@@ -29,10 +2061,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118233035000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0003",
+    "id": "gacha-0130",
     "name": "スポンジ・ボブ めじるしアクセサリー",
     "brand": "スポンジ・ボブ",
     "brandSlug": "spongebob",
@@ -45,10 +2077,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769681387000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0004",
+    "id": "gacha-0131",
     "name": "星のカービィ シャカシャカアクリルチャーム",
     "brand": "カービィ",
     "brandSlug": "kirby",
@@ -61,7 +2093,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769769290000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "reborn-ringcolle-dx-",
@@ -77,10 +2109,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769770296000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0006",
+    "id": "gacha-0133",
     "name": "【フラットガシャポン】パワーパフ ガールズ ミニおりたたみコンテナ",
     "brand": "その他",
     "brandSlug": "other",
@@ -93,7 +2125,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118201881000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "capsule-flockies-",
@@ -109,7 +2141,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118201980000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "japan-",
@@ -125,10 +2157,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202383000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0009",
+    "id": "gacha-0136",
     "name": "名探偵プリキュア！ カプセルラバーマスコット",
     "brand": "プリキュア",
     "brandSlug": "precure",
@@ -141,10 +2173,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202468000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0010",
+    "id": "gacha-0137",
     "name": "名探偵プリキュア！ ブレスレットウォッチ＆ケース",
     "brand": "プリキュア",
     "brandSlug": "precure",
@@ -157,10 +2189,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202482000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0011",
+    "id": "gacha-0138",
     "name": "まちぼうけ 桃太郎の場合",
     "brand": "まちぼうけ",
     "brandSlug": "machiboke",
@@ -173,7 +2205,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118203649000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "3z-",
@@ -189,7 +2221,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118208606000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "ction-ride-5",
@@ -205,7 +2237,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118237934000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "tom-and-jerry-",
@@ -221,10 +2253,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769701825000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0015",
+    "id": "gacha-0142",
     "name": "ワーナー・ブラザース ホラー作品 ポスターライトコレクション",
     "brand": "その他",
     "brandSlug": "other",
@@ -237,10 +2269,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769704642000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0016",
+    "id": "gacha-0143",
     "name": "名探偵コナン めじるしアクセサリー3",
     "brand": "その他",
     "brandSlug": "other",
@@ -253,10 +2285,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769729140000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0017",
+    "id": "gacha-0144",
     "name": "おおのたろう 赤ちゃん寝相コレクション",
     "brand": "その他",
     "brandSlug": "other",
@@ -269,10 +2301,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769745126000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0018",
+    "id": "gacha-0145",
     "name": "ウサコレフレンズ つまんでつなげてますこっと",
     "brand": "その他",
     "brandSlug": "other",
@@ -285,7 +2317,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769810879000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "frog-style-",
@@ -301,10 +2333,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769832239000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0020",
+    "id": "gacha-0147",
     "name": "おべんとうの中身 めじるしアクセサリー２",
     "brand": "その他",
     "brandSlug": "other",
@@ -317,7 +2349,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769860485000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "-12",
@@ -333,10 +2365,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769872785000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0022",
+    "id": "gacha-0149",
     "name": "東京メトロ サウンドロップ",
     "brand": "その他",
     "brandSlug": "other",
@@ -349,10 +2381,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769875915000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0023",
+    "id": "gacha-0150",
     "name": "パワーパフ ガールズ きぐるみスイング",
     "brand": "その他",
     "brandSlug": "other",
@@ -365,7 +2397,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769876080000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "bleague-",
@@ -381,10 +2413,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769891892000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0025",
+    "id": "gacha-0152",
     "name": "アイカツ！×プリパラ あそーと",
     "brand": "アイカツ",
     "brandSlug": "aikatsu",
@@ -397,10 +2429,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769911170000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0026",
+    "id": "gacha-0153",
     "name": "つくし坊や はさむんです。でらっくす",
     "brand": "その他",
     "brandSlug": "other",
@@ -413,7 +2445,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769917400000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "hg-",
@@ -429,10 +2461,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769918513000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0028",
+    "id": "gacha-0155",
     "name": "呪術廻戦 死滅回游 めじるしアクセサリー",
     "brand": "呪術廻戦",
     "brandSlug": "jujutsu",
@@ -445,7 +2477,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769918780000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "concombre-",
@@ -461,7 +2493,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769926952000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "-sp4",
@@ -477,7 +2509,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927317000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "-illustration-by-",
@@ -493,10 +2525,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927379000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0032",
+    "id": "gacha-0159",
     "name": "かみさまみならい ヒミツのここたま めじるしアクセサリー",
     "brand": "その他",
     "brandSlug": "other",
@@ -509,7 +2541,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769928208000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "peanuts-ver",
@@ -525,7 +2557,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769928277000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "peanuts-",
@@ -541,10 +2573,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769928284000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.827Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0035",
+    "id": "gacha-0162",
     "name": "【フラットガシャポン】ナルミヤキャラクターズ クリアラバーコースター",
     "brand": "その他",
     "brandSlug": "other",
@@ -557,10 +2589,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769928635000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0036",
+    "id": "gacha-0163",
     "name": "それいけ！アンパンマン にょきっとソフトなアンパンマンマスコット3",
     "brand": "アンパンマン",
     "brandSlug": "anpanman",
@@ -573,10 +2605,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769934681000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0037",
+    "id": "gacha-0164",
     "name": "トゥイーティー なりきりスイング",
     "brand": "その他",
     "brandSlug": "other",
@@ -589,10 +2621,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769934728000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0038",
+    "id": "gacha-0165",
     "name": "サンリオキャラクターズ クッキー缶チャーム",
     "brand": "サンリオ",
     "brandSlug": "sanrio",
@@ -605,7 +2637,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935237000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "cyilabo-",
@@ -621,7 +2653,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935527000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "a-netflix-series-one-piece-",
@@ -637,10 +2669,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935695000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0041",
+    "id": "gacha-0168",
     "name": "まちぼうけ ドラゴンボール3",
     "brand": "ドラゴンボール",
     "brandSlug": "dragonball",
@@ -653,10 +2685,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935763000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0042",
+    "id": "gacha-0169",
     "name": "「劇場版 転生したらスライムだった件 蒼海の涙編」 リムルさまがいっぱいフィギュア",
     "brand": "転スラ",
     "brandSlug": "tensura",
@@ -669,10 +2701,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769936241000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0043",
+    "id": "gacha-0170",
     "name": "ウルトラマン ウルトラソフビシリーズ ミニチュアスイングマスコット",
     "brand": "ウルトラマン",
     "brandSlug": "ultraman",
@@ -685,7 +2717,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968303000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "dartslive-2",
@@ -701,7 +2733,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769979682000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "-12",
@@ -717,7 +2749,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769829260000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "-13",
@@ -733,10 +2765,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769876295000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0047",
+    "id": "gacha-0174",
     "name": "たまごっち カラフルマルチチャーム",
     "brand": "たまごっち",
     "brandSlug": "tamagotchi",
@@ -749,10 +2781,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769889752000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0048",
+    "id": "gacha-0175",
     "name": "【フラットガシャポン】それいけ！アンパンマン るんるんあそぼう♪シール いろいろなおしごと",
     "brand": "アンパンマン",
     "brandSlug": "anpanman",
@@ -765,10 +2797,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118181985000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0049",
+    "id": "gacha-0176",
     "name": "葬送のフリーレン ねむらせ隊",
     "brand": "フリーレン",
     "brandSlug": "frieren",
@@ -781,7 +2813,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769872822000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "capsule-flockies-",
@@ -797,7 +2829,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935497000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "-zero-01",
@@ -813,7 +2845,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769936081000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "king-blade-vol4",
@@ -829,7 +2861,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769936210000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "-10",
@@ -845,7 +2877,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769938498000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "minecraft-3",
@@ -861,7 +2893,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118197139000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "moomin-funny-style",
@@ -877,10 +2909,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118205827000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0056",
+    "id": "gacha-0183",
     "name": "【ジャンボカードダス/フラットガシャポン】劇場版 魔法少女まどか☆マギカ[新編]叛逆の物語 クリアビジュアルポスター",
     "brand": "まどか☆マギカ",
     "brandSlug": "madoka",
@@ -893,10 +2925,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118234704000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0057",
+    "id": "gacha-0184",
     "name": "ハリー・ポッター ライトマスコット",
     "brand": "ハリー・ポッター",
     "brandSlug": "harrypotter",
@@ -909,7 +2941,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769684937000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "-capsule-flockies",
@@ -925,10 +2957,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769704932000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0059",
+    "id": "gacha-0186",
     "name": "ポケットモンスター 旅立ちの3匹アクリルスイング",
     "brand": "ポケモン",
     "brandSlug": "pokemon",
@@ -941,10 +2973,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769722820000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0060",
+    "id": "gacha-0187",
     "name": "仮面わんだー",
     "brand": "その他",
     "brandSlug": "other",
@@ -957,7 +2989,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769842320000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "-dvd",
@@ -973,10 +3005,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769846649000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0062",
+    "id": "gacha-0189",
     "name": "プロ野球マスコット めじるしアクセサリー",
     "brand": "その他",
     "brandSlug": "other",
@@ -989,10 +3021,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769866937000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0063",
+    "id": "gacha-0190",
     "name": "ケロロ軍曹 まちぼうけであります その２",
     "brand": "まちぼうけ",
     "brandSlug": "machiboke",
@@ -1005,7 +3037,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769890307000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "-new4",
@@ -1021,10 +3053,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769891823000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0065",
+    "id": "gacha-0192",
     "name": "うるせぇトリ めじるしアクセサリー",
     "brand": "その他",
     "brandSlug": "other",
@@ -1037,10 +3069,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769891847000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0066",
+    "id": "gacha-0193",
     "name": "くまのまーくん めじるしアクセサリー",
     "brand": "その他",
     "brandSlug": "other",
@@ -1053,7 +3085,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769897986000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "basara-",
@@ -1069,10 +3101,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769898280000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0068",
+    "id": "gacha-0195",
     "name": "怒ったはむちゃあぁぁん",
     "brand": "その他",
     "brandSlug": "other",
@@ -1085,7 +3117,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769919237000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "-online-vol2",
@@ -1101,10 +3133,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769924378000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0070",
+    "id": "gacha-0197",
     "name": "デジタルモンスターカードゲーム アクリルチャームコレクション",
     "brand": "その他",
     "brandSlug": "other",
@@ -1117,10 +3149,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968242000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0071",
+    "id": "gacha-0198",
     "name": "機動戦士ガンダム ならぶんです。ハロ ビッグサイズ",
     "brand": "ガンダム",
     "brandSlug": "gundam",
@@ -1133,7 +3165,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968341000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "mofusand-",
@@ -1149,10 +3181,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118120359000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0073",
+    "id": "gacha-0200",
     "name": "映画ドラえもん 新・のび太の海底鬼岩城 あそーとこれくしょん",
     "brand": "ドラえもん",
     "brandSlug": "doraemon",
@@ -1165,10 +3197,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118183873000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0074",
+    "id": "gacha-0201",
     "name": "ドズル社 まちぼうけ",
     "brand": "まちぼうけ",
     "brandSlug": "machiboke",
@@ -1181,10 +3213,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118197832000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0075",
+    "id": "gacha-0202",
     "name": "【フラットガシャポン】テレタビーズ レンチキュラーポスター",
     "brand": "その他",
     "brandSlug": "other",
@@ -1197,7 +3229,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198419000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
     "id": "truz-",
@@ -1213,10 +3245,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198655000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0077",
+    "id": "gacha-0204",
     "name": "ならぶんです。 塊魂2",
     "brand": "その他",
     "brandSlug": "other",
@@ -1229,10 +3261,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118206367000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0078",
+    "id": "gacha-0205",
     "name": "学園アイドルマスター ラバーマスコット3",
     "brand": "その他",
     "brandSlug": "other",
@@ -1245,10 +3277,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118206404000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.072Z"
   },
   {
-    "id": "gacha-0079",
+    "id": "gacha-0206",
     "name": "アイカツ！ カスタムドレスアップチャーム",
     "brand": "アイカツ",
     "brandSlug": "aikatsu",
@@ -1261,10 +3293,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118247292000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0080",
+    "id": "gacha-0207",
     "name": "犬夜叉 つまんでつなげてますこっと",
     "brand": "犬夜叉",
     "brandSlug": "inuyasha",
@@ -1277,10 +3309,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769810565000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0081",
+    "id": "gacha-0208",
     "name": "初音ミク ハッピージャンプ！フィギュア",
     "brand": "初音ミク",
     "brandSlug": "miku",
@@ -1293,10 +3325,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769828850000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0082",
+    "id": "gacha-0209",
     "name": "クレヨンしんちゃん ぎゅーこっと",
     "brand": "クレヨンしんちゃん",
     "brandSlug": "shinchan",
@@ -1309,7 +3341,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769889707000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "j1-",
@@ -1325,7 +3357,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769899386000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "everlast-",
@@ -1341,7 +3373,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769899409000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "capsule-flockies-winnie-the-pooh",
@@ -1357,7 +3389,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916571000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-paper-canvas",
@@ -1373,10 +3405,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916946000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0087",
+    "id": "gacha-0214",
     "name": "どこでもいっしょ めじるしアクセサリー",
     "brand": "その他",
     "brandSlug": "other",
@@ -1389,7 +3421,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769918964000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "bt21-",
@@ -1405,10 +3437,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927522000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0089",
+    "id": "gacha-0216",
     "name": "ハローキティ めじるしアクセサリー",
     "brand": "サンリオ",
     "brandSlug": "sanrio",
@@ -1421,7 +3453,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935251000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "one-piece-2",
@@ -1437,7 +3469,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935626000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-01",
@@ -1453,7 +3485,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935732000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "hg-",
@@ -1469,10 +3501,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935992000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0093",
+    "id": "gacha-0220",
     "name": "「劇場版 転生したらスライムだった件 蒼海の涙編」 カプセルラバーマスコット",
     "brand": "転スラ",
     "brandSlug": "tensura",
@@ -1485,10 +3517,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769936234000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0094",
+    "id": "gacha-0221",
     "name": "しなこ めじるしアクセサリー",
     "brand": "その他",
     "brandSlug": "other",
@@ -1501,7 +3533,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769979620000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-gp-",
@@ -1517,7 +3549,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770003710000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-gp01",
@@ -1533,7 +3565,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770015348000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "pico-park-",
@@ -1549,10 +3581,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769888878000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0098",
+    "id": "gacha-0225",
     "name": "モンチッチ めじるしアクセサリー2",
     "brand": "その他",
     "brandSlug": "other",
@@ -1565,7 +3597,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202062000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "9398-",
@@ -1581,10 +3613,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202574000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0100",
+    "id": "gacha-0227",
     "name": "まちぼうけぷにぷに パンの場合",
     "brand": "まちぼうけ",
     "brandSlug": "machiboke",
@@ -1597,10 +3629,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118203625000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0101",
+    "id": "gacha-0228",
     "name": "暗殺教室 殺せんせー めじるしアクセサリー2",
     "brand": "その他",
     "brandSlug": "other",
@@ -1613,10 +3645,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118219367000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0102",
+    "id": "gacha-0229",
     "name": "まちぼうけ 仮面ライダーマシンの場合",
     "brand": "仮面ライダー",
     "brandSlug": "kamenrider",
@@ -1629,7 +3661,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118237293000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "polygnhead-kamen-rider-",
@@ -1645,10 +3677,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118237668000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0104",
+    "id": "gacha-0231",
     "name": "アイカツ！ コンパクトミラー",
     "brand": "アイカツ",
     "brandSlug": "aikatsu",
@@ -1661,7 +3693,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118252067000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "from-tv-animation-one-piece-grand-capsul",
@@ -1677,10 +3709,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769836374000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0106",
+    "id": "gacha-0233",
     "name": "ポケットモンスター バトルコレクションライト",
     "brand": "ポケモン",
     "brandSlug": "pokemon",
@@ -1693,10 +3725,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769836961000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0107",
+    "id": "gacha-0234",
     "name": "妖怪ウォッチ めじるしアクセサリー",
     "brand": "その他",
     "brandSlug": "other",
@@ -1709,7 +3741,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769860638000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-mini-ultra-art-",
@@ -1725,7 +3757,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769888717000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-twinkle-",
@@ -1741,10 +3773,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769890048000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0110",
+    "id": "gacha-0237",
     "name": "ヤマザキパン ミニチュアチャーム２",
     "brand": "その他",
     "brandSlug": "other",
@@ -1757,7 +3789,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769897894000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "hunterhunter-gi",
@@ -1773,7 +3805,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916090000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-new",
@@ -1789,10 +3821,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916564000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0113",
+    "id": "gacha-0240",
     "name": "メイドインアビス ファプタがいっぱいそす",
     "brand": "その他",
     "brandSlug": "other",
@@ -1805,7 +3837,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769917073000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-limited-flavor2",
@@ -1821,7 +3853,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927287000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "star-wars-",
@@ -1837,7 +3869,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927676000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "z-2",
@@ -1853,10 +3885,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927836000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0117",
+    "id": "gacha-0244",
     "name": "お文具といっしょ ぷにぷにし隊２",
     "brand": "その他",
     "brandSlug": "other",
@@ -1869,10 +3901,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927966000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0118",
+    "id": "gacha-0245",
     "name": "あおぱんだ めじるしアクセサリー",
     "brand": "その他",
     "brandSlug": "other",
@@ -1885,10 +3917,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769928581000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0119",
+    "id": "gacha-0246",
     "name": "まちぼうけ ガールズ＆パンツァー",
     "brand": "まちぼうけ",
     "brandSlug": "machiboke",
@@ -1901,10 +3933,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769928697000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0120",
+    "id": "gacha-0247",
     "name": "ブルーハムハム ミニチュアパッケージチャーム",
     "brand": "その他",
     "brandSlug": "other",
@@ -1917,7 +3949,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935053000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "converse-shoes-collection-",
@@ -1933,10 +3965,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935916000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0122",
+    "id": "gacha-0249",
     "name": "キョロリーズ ぬいぐるみマスコット",
     "brand": "その他",
     "brandSlug": "other",
@@ -1949,10 +3981,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770015355000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0123",
+    "id": "gacha-0250",
     "name": "ホロライブ カプセル缶バッジコレクション オリジン1",
     "brand": "その他",
     "brandSlug": "other",
@@ -1965,10 +3997,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198532000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0124",
+    "id": "gacha-0251",
     "name": "ホロライブ カプセル缶バッジコレクション オリジン2",
     "brand": "その他",
     "brandSlug": "other",
@@ -1981,7 +4013,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198556000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "stand-structure-",
@@ -1997,10 +4029,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769898457000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0126",
+    "id": "gacha-0253",
     "name": "クレヨンしんちゃん マスコットキャップチャーム",
     "brand": "クレヨンしんちゃん",
     "brandSlug": "shinchan",
@@ -2013,10 +4045,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769898501000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0127",
+    "id": "gacha-0254",
     "name": "メタファー：リファンタジオ カプセルラバーマスコット",
     "brand": "その他",
     "brandSlug": "other",
@@ -2029,10 +4061,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769898655000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0128",
+    "id": "gacha-0255",
     "name": "ズートピア ブリスターチャームコレクション",
     "brand": "ディズニー",
     "brandSlug": "disney",
@@ -2045,10 +4077,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935206000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0129",
+    "id": "gacha-0256",
     "name": "ミニモニ。 ブリスターコスチュームチャーム",
     "brand": "その他",
     "brandSlug": "other",
@@ -2061,7 +4093,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118206428000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "tv-",
@@ -2077,10 +4109,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118208644000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0131",
+    "id": "gacha-0258",
     "name": "東京ばな奈 スクイーズマスコット",
     "brand": "その他",
     "brandSlug": "other",
@@ -2093,10 +4125,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y066399",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0132",
+    "id": "gacha-0259",
     "name": "ハリー・ポッター ぺたんこマスコット ～ホグワーツ魔法魔術学校～",
     "brand": "ハリー・ポッター",
     "brandSlug": "harrypotter",
@@ -2109,7 +4141,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y085925",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "fig-moomin-part4",
@@ -2125,10 +4157,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y094552",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0134",
+    "id": "gacha-0261",
     "name": "ニャッキ！ にょろにょろリング",
     "brand": "その他",
     "brandSlug": "other",
@@ -2141,10 +4173,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y097072",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0135",
+    "id": "gacha-0262",
     "name": "ポケモン ジオラマコレクト あく＆ドラゴン",
     "brand": "ポケモン",
     "brandSlug": "pokemon",
@@ -2157,10 +4189,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y097188",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
-    "id": "gacha-0136",
+    "id": "gacha-0263",
     "name": "初音ミク すってんころりんフィギュア2",
     "brand": "初音ミク",
     "brandSlug": "miku",
@@ -2173,7 +4205,39 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099441",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
+  },
+  {
+    "id": "gacha-0264",
+    "name": "ドラえもん つながリングチャーム",
+    "brand": "ドラえもん",
+    "brandSlug": "doraemon",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "3月 9日週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099687_b.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099687",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-03T02:55:51.073Z"
+  },
+  {
+    "id": "gacha-0265",
+    "name": "映画ドラえもん メモリアルウォータードームコレクション",
+    "brand": "ドラえもん",
+    "brandSlug": "doraemon",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "3月 9日週",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901935_b.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901935",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-30-",
@@ -2189,7 +4253,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901980",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-pet-hood",
@@ -2205,7 +4269,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y092824",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-colorwhite",
@@ -2221,7 +4285,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y097171",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-fig",
@@ -2237,7 +4301,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y097423",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.073Z"
   },
   {
     "id": "-vol1",
@@ -2253,10 +4317,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098130",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.074Z"
   },
   {
-    "id": "gacha-0142",
+    "id": "gacha-0271",
     "name": "ポケモン わくわくアスレチック",
     "brand": "ポケモン",
     "brandSlug": "pokemon",
@@ -2269,10 +4333,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098277",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.074Z"
   },
   {
-    "id": "gacha-0143",
+    "id": "gacha-0272",
     "name": "うちのポケモンマスコット しらんぷり",
     "brand": "ポケモン",
     "brandSlug": "pokemon",
@@ -2285,10 +4349,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099434",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.074Z"
   },
   {
-    "id": "gacha-0144",
+    "id": "gacha-0273",
     "name": "ハローキティ 喜怒★哀楽!?ファションリングコレクション",
     "brand": "サンリオ",
     "brandSlug": "sanrio",
@@ -2301,10 +4365,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900716",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.074Z"
   },
   {
-    "id": "gacha-0145",
+    "id": "gacha-0274",
     "name": "おさるのジョージ フェイス型シリコンケース2",
     "brand": "おさるのジョージ",
     "brandSlug": "george",
@@ -2317,10 +4381,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901492",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.074Z"
   },
   {
-    "id": "gacha-0146",
+    "id": "gacha-0275",
     "name": "トイ・ストーリー ゆらゆらつながるマスコット アンディのおもちゃ大集合",
     "brand": "ディズニー",
     "brandSlug": "disney",
@@ -2333,10 +4397,10 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902208",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.074Z"
   },
   {
-    "id": "gacha-0147",
+    "id": "gacha-0276",
     "name": "ピクサーキャラクター ファッションリング ロイヤルクリア",
     "brand": "ディズニー",
     "brandSlug": "disney",
@@ -2349,7 +4413,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902222",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.074Z"
   },
   {
     "id": "-play-with-",
@@ -2365,7 +4429,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902888",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.074Z"
   },
   {
     "id": "fig-",
@@ -2381,7 +4445,7 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903571",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.074Z"
   },
   {
     "id": "peanuts-",
@@ -2397,6 +4461,6 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903694",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-03T02:06:15.828Z"
+    "collectedAt": "2026-03-03T02:55:51.074Z"
   }
 ]

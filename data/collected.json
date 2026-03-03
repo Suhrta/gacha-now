@@ -1,5 +1,1275 @@
 [
   {
+    "title": "機動戦士ガンダム MOBILE SUIT ENSEMBLE 13",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4549660455813000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000143024_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第1週",
+    "brand": "ガンダム",
+    "types": null
+  },
+  {
+    "title": "ちいかわ おくるみマスコットチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769738647000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000227916_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第1週",
+    "brand": "ちいかわ",
+    "types": null
+  },
+  {
+    "title": "ハイキュー!! ふらっとめじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769846670000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000230618_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "NHKいないいないばあっ！ ころりんマスコット3",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118205728000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245282_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "Ringcolle！ DX 仮面ライダー5",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118238283000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245281_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第1週",
+    "brand": "仮面ライダー",
+    "types": null
+  },
+  {
+    "title": "コジコジ スイング～遊んで食べて寝てるだけ～",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769704826000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245297_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "テレタビーズ おやすみライトマスコット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769810527000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245370_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "「よつばと！」 こまどりフィギュアコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769823275000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245369_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "がまくんとかえるくん カプセルラバーマスコット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769828942000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245352_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "葛飾北斎 3Dレリーフコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769847257000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245368_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "polar bear bank（ポーラーベアバンク） ミニチュアチャーム 2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769860270000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245349_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "おじゃる丸 めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769866364000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245347_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "魔法使いサリー ミニチュアチャームコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769876318000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245367_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "サムライ ミニチュアチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769888540000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245342_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "PAC-MAN コインケース",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769888922000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245341_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "まちぼうけ ウルトラマンの場合",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769890154000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245358_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第1週",
+    "brand": "ウルトラマン",
+    "types": null
+  },
+  {
+    "title": "チロルチョコ めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769892035000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245337_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "PASTA めじるしアクセサリー design by ちょいブスキーホルダー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769897566000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245366_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "小学一年生 だれでもなりきりアクリルチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769910890000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245392_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "JTB時刻表 ふらっとめじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769911583000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245332_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "DRAGON BALL Kamehameha Charm Collection",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769927850000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000242763_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "【フラットガシャポン】“ディズニープリンセス” クリアラバーコースター",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769928048000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245386_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第1週",
+    "brand": "ディズニー",
+    "types": null
+  },
+  {
+    "title": "なめこ栽培キット ぬいぐるみマスコット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769928567000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245377_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "FERNANDA（フェルナンダ） ミニチュアチャームコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769928642000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245318_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "サンリオキャラクターズ カラフルキャンディチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935220000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245393_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "サンリオ",
+    "types": null
+  },
+  {
+    "title": "クレヨンしんちゃん ミラーコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935459000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245309_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "クレヨンしんちゃん",
+    "types": null
+  },
+  {
+    "title": "VIRUSWEETS figure collection ～Sugar Pop Party～",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935602000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245307_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "幽☆遊☆白書 めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935756000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245305_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第1週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "ブルーロック まちぼうけ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769742477000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000221617_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "まちぼうけ",
+    "types": null
+  },
+  {
+    "title": "アイカツ！ グッズコレクション3",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118238450000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245391_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "アイカツ",
+    "types": null
+  },
+  {
+    "title": "ホロライブ ミニチュアペンライトチャーム5",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769768507000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245293_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "クレヨンしんちゃん ミニ貯金箱",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769837760000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245290_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第2週",
+    "brand": "クレヨンしんちゃん",
+    "types": null
+  },
+  {
+    "title": "おしゅしだよ めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769889165000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "NEW ERA&#174; 59FIFTY&#174; MLB&trade; On-Field Cap MINIATURE SWING COLLECTION -AMERICAN LEAGUE&trade;-",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769897849000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245334_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "“ディズニーキャラクター” Twinkle ゴム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769898051000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245333_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "ディズニー",
+    "types": null
+  },
+  {
+    "title": "DECO*27 MVアクリルチャーム2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769898662000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245335_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "ポケットモンスター スイングコレクション Type:Dragon",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769911613000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245331_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "ポケモン",
+    "types": null
+  },
+  {
+    "title": "どこでもいっしょ まちぼうけ２",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769916465000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245378_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "まちぼうけ",
+    "types": null
+  },
+  {
+    "title": "矢沢あい BIG METAL RING",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769916939000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245324_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "パワーパフ ガールズ きゃらまかろん",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769934698000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245317_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "TOM and JERRY 手作りおやつチャーム ＃しぼりクッキー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769934742000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245316_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "まちぼうけ キン肉マン2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935770000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245304_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "まちぼうけ",
+    "types": null
+  },
+  {
+    "title": "まちぼうけ 聖闘士星矢",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935787000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245303_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "まちぼうけ",
+    "types": null
+  },
+  {
+    "title": "【箱売】機動戦士ガンダム MOBILE SUIT ENSEMBLE 13",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4549660473091000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245637_1.jpg",
+    "price": 550,
+    "releaseWeek": "2月 第2週",
+    "brand": "ガンダム",
+    "types": null
+  },
+  {
+    "title": "パワフルプロ野球 サウンドロップ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118198440000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245355_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "ねこあつめ2 めじるしアクセサリー2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118202628000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245284_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "それいけ！アンパンマン カシャカシャ！みえるよ！アンパンマン",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769684920000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245298_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "アンパンマン",
+    "types": null
+  },
+  {
+    "title": "HUNTER×HUNTER すわらせ隊りある2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769745461000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245397_1.jpg",
+    "price": 800,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "豆ガシャ本 サンリオキャラクターズ「プロフィール帳」",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769829536000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245292_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "サンリオ",
+    "types": null
+  },
+  {
+    "title": "【フラットガシャポン】たまごっち ネイルシールコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769840708000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245383_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "たまごっち",
+    "types": null
+  },
+  {
+    "title": "BASTARD!! -暗黒の破壊神- カプセルフィギュアコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769846915000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245350_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第2週",
+    "brand": "ワンピース",
+    "types": null
+  },
+  {
+    "title": "EVA POCKET めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769865978000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245374_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "暗闇で光る！UMA めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769866722000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245346_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "パワーパフ ガールズ ライトクリップ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769866968000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243238_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "kitson ミニチュアバッグコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769875908000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245345_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "文房具刺繍チャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769876165000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245343_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "クレヨンしんちゃん めざましサウンドコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769889714000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243271_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第2週",
+    "brand": "クレヨンしんちゃん",
+    "types": null
+  },
+  {
+    "title": "星のカービィ PUPUPU FRIENDS フィギュアコレクション～フロッキーVer.～",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769916861000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245388_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "カービィ",
+    "types": null
+  },
+  {
+    "title": "capsule トルソー カードキャプターさくら６",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769917028000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245328_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "怒ったもふもふの猫ちゃあぁぁん",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769919213000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245357_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "ならぶんです。 怪獣さん（ゴジラ版2）",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769927645000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245364_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "ゴジラ",
+    "types": null
+  },
+  {
+    "title": "僕のヒーローアカデミア おくるみますこっとチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769927706000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245321_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "まちぼうけ NARUTO-ナルト- ラーメン一楽の場合 第2弾",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769927898000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245320_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "NARUTO",
+    "types": null
+  },
+  {
+    "title": "【フラットガシャポン】どうぶつの森 クリアラバーコースター",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935299000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245385_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女 カプセルラバーマスコット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968358000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245356_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第2週",
+    "brand": "ガンダム",
+    "types": null
+  },
+  {
+    "title": "初音ミク 雪ミクあそーと～SNOW MIKU 2026～",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968396000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245276_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第2週",
+    "brand": "初音ミク",
+    "types": null
+  },
+  {
+    "title": "【ジャンボカードダス/フラットガシャポン】初音ミク 雪ミク2026 クリアビジュアルポスター",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968402000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245382_1.jpg",
+    "price": 200,
+    "releaseWeek": "2月 第2週",
+    "brand": "初音ミク",
+    "types": null
+  },
+  {
+    "title": "ホロライブ3期生 つながるあくりるますこっと",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770015379000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245269_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第2週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "名探偵コナン コナン隊 プラス",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118198211000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245275_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "ペコちゃん お菓子のめじるしアクセサリー2026",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769742699000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245294_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "魔法少女まどか☆マギカ めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769836534000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245351_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "まどか☆マギカ",
+    "types": null
+  },
+  {
+    "title": "いきもの大図鑑ディスプレイモデルコレクション 野生のネコ科動物",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769890147000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245381_1.jpg",
+    "price": null,
+    "releaseWeek": "2月 第3週",
+    "brand": "いきもの大図鑑",
+    "types": null
+  },
+  {
+    "title": "ウルトラマンシリーズ 変身アイテムめじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769890178000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245287_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "ウルトラマン",
+    "types": null
+  },
+  {
+    "title": "アイドリッシュセブン めじるしアクセサリー～王様プリンと一緒～vol.2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769897535000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245336_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "サンリオキャラクターズ GRWMマスコットチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769916724000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245329_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "サンリオ",
+    "types": null
+  },
+  {
+    "title": "しかるねこ めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769917011000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245395_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "ケロロ軍曹 赤ちゃんになって侵略であります！",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769917066000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245327_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "忘却バッテリー ちびっこナイン～練習着Ver.～",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769917431000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245325_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "カラフルピーチ おくるみますこっとチャーム1",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935305000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245312_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "カラフルピーチ おくるみますこっとチャーム2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935312000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245311_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "ONE PIECE ネガティブスイング2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935619000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245306_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第3週",
+    "brand": "ワンピース",
+    "types": null
+  },
+  {
+    "title": "鬼滅の刃 ねむらせ隊 第3弾",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935800000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245302_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第3週",
+    "brand": "鬼滅の刃",
+    "types": null
+  },
+  {
+    "title": "猫耳ヘッドホン ミニチュアチャーム2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935909000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245300_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "いきもの大図鑑レプティ 恐竜04",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769979934000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245272_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第3週",
+    "brand": "いきもの大図鑑",
+    "types": null
+  },
+  {
+    "title": "大きな光るまてぼうけ 犬",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118203601000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245283_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "HGドラゴンボール04 MAJIN BUU SAGA",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118246622000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245371_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第3週",
+    "brand": "ドラゴンボール",
+    "types": null
+  },
+  {
+    "title": "【フラットガシャポン】お文具といっしょ ミニおりたたみコンテナ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769709166000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245384_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "リサとガスパール ライトマスコット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769709203000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245363_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "Canon ミニチュアカメラコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769742583000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245354_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "ミッケラービール ミニチュアチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769744686000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245376_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "ウォレスとグルミット めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769810503000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245353_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "スポンジ・ボブ マスコットチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769847486000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245375_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第3週",
+    "brand": "スポンジ・ボブ",
+    "types": null
+  },
+  {
+    "title": "学園アイドルマスター まちぼうけ2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769849879000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245361_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第3週",
+    "brand": "まちぼうけ",
+    "types": null
+  },
+  {
+    "title": "新劇場版 銀魂 -吉原大炎上- めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769854507000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245274_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "ナガキパーマ かぶり生活スイング",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769866814000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245373_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "HG スーパー戦隊シリーズ vol.2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769875687000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245271_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "たかはたまさお 木彫り風 FIGURE COLLECTION",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769876028000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245344_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "CODE VEIN II カプセルラバーマスコット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769889288000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245338_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "サンリオキャラクターズ カラフルカラビナマスコットチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769916656000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245330_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第3週",
+    "brand": "サンリオ",
+    "types": null
+  },
+  {
+    "title": "まちぼうけ おやつの場合 その3",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769927393000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245322_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "まちぼうけ",
+    "types": null
+  },
+  {
+    "title": "クッピーラムネ めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935398000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245310_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "たまごっち 手作りおやつチャーム #平成女児チョコ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935480000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245308_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第3週",
+    "brand": "たまごっち",
+    "types": null
+  },
+  {
+    "title": "たまごっち シャカシャカチャームコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769822483000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000229260_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第4週",
+    "brand": "たまごっち",
+    "types": null
+  },
+  {
+    "title": "GUNDAM × MIKU Anniversary Special project. フィギュアコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769847127000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000232577_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第4週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "SKZOO ぷくっとバースデークリアリング ～FoxI.Ny＆Jiniret～",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184238000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245270_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第4週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "MINECRAFT めじるしアクセサリー スタンダード",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118197115000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第4週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "ポケットモンスター 組立可動！メガルカリオ・メガハッサム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118197993000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245379_1.jpg",
+    "price": 800,
+    "releaseWeek": "2月 第4週",
+    "brand": "ポケモン",
+    "types": null
+  },
+  {
+    "title": "ポケットモンスター トートバッグ＆ポーチコレクションvol.10",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118202536000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245285_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第4週",
+    "brand": "ポケモン",
+    "types": null
+  },
+  {
+    "title": "スーパーダンガンロンパ2 まちぼうけ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769709210000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245296_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第4週",
+    "brand": "まちぼうけ",
+    "types": null
+  },
+  {
+    "title": "【フラットガシャポン】名探偵コナン ちぢませ隊ステッカーコレクション2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769728341000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245387_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第4週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "いれいす つまんでつなげてますこっと",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769830327000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245291_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第4週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "mofusand いちごチョコにゃんマスコット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769841705000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245362_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第4週",
+    "brand": "mofusand",
+    "types": null
+  },
+  {
+    "title": "TVアニメ『ダンダダン』 まちぼうけ2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769854415000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245289_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第4週",
+    "brand": "まちぼうけ",
+    "types": null
+  },
+  {
+    "title": "BLEACH おくるみあそーと",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769865763000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245348_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第4週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "『From TV animation ONE PIECE ワンピの実ミクロ』ブリスターチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769866227000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000239025_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第4週",
+    "brand": "ワンピース",
+    "types": null
+  },
+  {
+    "title": "COLORROSE ミニチュアコレクション2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769872884000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245288_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第4週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "仮面ライダーシリーズ DXミニチュア＆パッケージコレクション03",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769872891000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245360_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第4週",
+    "brand": "仮面ライダー",
+    "types": null
+  },
+  {
+    "title": "にふぉるめーしょん ワンピース大海賊シールウエハース ミニチュアチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769888991000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245340_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第4週",
+    "brand": "ワンピース",
+    "types": null
+  },
+  {
+    "title": "パンどろぼう カプセルヘアクリップ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769891953000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245372_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第4週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "クレヨンしんちゃん ミニチュアパッケージコレクション３ 『映画クレヨンしんちゃん ヘンダーランドの大冒険』",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769917288000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245326_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第4週",
+    "brand": "クレヨンしんちゃん",
+    "types": null
+  },
+  {
+    "title": "ハリー・ポッター めじるしアクセサリー＋4",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769927997000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245319_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第4週",
+    "brand": "ハリー・ポッター",
+    "types": null
+  },
+  {
+    "title": "ドラえもん Funny Time!",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769934964000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245315_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第4週",
+    "brand": "ドラえもん",
+    "types": null
+  },
+  {
+    "title": "葬送のフリーレン つまんでつなげてますこっと２",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935886000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245301_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第4週",
+    "brand": "フリーレン",
+    "types": null
+  },
+  {
+    "title": "デジモンアドベンチャー めじるしアクセサリー2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769936135000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245299_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第4週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "スーパー戦隊シリーズ めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968280000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245279_1.jpg",
+    "price": 300,
+    "releaseWeek": "2月 第4週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "侍ジャパン歴代ユニフォーム フレームマグネット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968334000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245278_1.jpg",
+    "price": 500,
+    "releaseWeek": "2月 第4週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "機動戦士ガンダム ガンダムヘッド めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968365000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245277_1.jpg",
+    "price": 400,
+    "releaseWeek": "2月 第4週",
+    "brand": "ガンダム",
+    "types": null
+  },
+  {
     "title": "HGD+ ゴジラ04",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4549660501831000",
     "source": "バンダイ公式",
@@ -1358,6 +2628,26 @@
     "releaseWeek": "3月 9日週",
     "brand": "初音ミク",
     "types": 4
+  },
+  {
+    "title": "ドラえもん つながリングチャーム",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099687",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099687_b.jpg",
+    "price": 300,
+    "releaseWeek": "3月 9日週",
+    "brand": "ドラえもん",
+    "types": 4
+  },
+  {
+    "title": "映画ドラえもん メモリアルウォータードームコレクション",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901935",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901935_b.jpg",
+    "price": 400,
+    "releaseWeek": "3月 9日週",
+    "brand": "ドラえもん",
+    "types": 5
   },
   {
     "title": "ポケモン 30周年 メタルチャームマスコット",
