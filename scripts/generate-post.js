@@ -1,11 +1,10 @@
 /**
  * generate-post.js
- * products.jsonから新規追加された商品をピックアップして
+ * data/new-today.jsonを読み、新規追加された商品の件数分だけ
  * Instagram投稿用の画像(PNG)とキャプション(TXT)を自動生成
- * 新規商品の件数分だけ画像を生成する（0件ならスキップ）
+ * 新規商品が0件なら何も生成しない
  *
  * 使い方: node scripts/generate-post.js
- * 必要: npm install puppeteer (scripts/内で)
  */
 import fs from "fs";
 import path from "path";
@@ -14,32 +13,9 @@ import puppeteer from "puppeteer";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
+const NEW_TODAY_PATH = path.join(__dirname, "..", "data", "new-today.json");
 const OUTPUT_DIR = path.join(__dirname, "..", "posts");
 
-/**
- * 直近24時間以内に追加された新規商品を取得
- * collectedAtが24時間以内の商品 = 今朝のスクレイピングで新しく発見された商品
- */
-function getNewProducts(products) {
-  const now = new Date();
-  const oneDayAgo = new Date(now.getTime() - 24 * 60 * 60 * 1000);
-
-  const newOnes = products.filter((p) => {
-    if (!p.collectedAt) return false;
-    return new Date(p.collectedAt) > oneDayAgo;
-  });
-
-  // HOT商品を先に並べる
-  newOnes.sort((a, b) => {
-    if (a.hot && !b.hot) return -1;
-    if (!a.hot && b.hot) return 1;
-    return 0;
-  });
-
-  return newOnes;
-}
-
-// HTML生成
 function generateHTML(product) {
   const imgSrc = product.img || "";
   const hasImage = imgSrc && !imgSrc.includes("placehold");
@@ -52,67 +28,38 @@ function generateHTML(product) {
   @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans+JP:wght@700;900&display=swap');
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { width: 1080px; height: 1080px; overflow: hidden; }
-
   .card {
-    width: 1080px;
-    height: 1080px;
-    background: #FFFAF3;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 1080px; height: 1080px; background: #FFFAF3;
+    position: relative; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
   }
-
   .card::before {
-    content: '';
-    position: absolute;
-    inset: 0;
+    content: ''; position: absolute; inset: 0;
     background-image: radial-gradient(circle, #F0E6D6 1.5px, transparent 1.5px);
-    background-size: 24px 24px;
-    z-index: 0;
+    background-size: 24px 24px; z-index: 0;
   }
-
   .machine {
-    position: relative;
-    z-index: 2;
-    width: 920px;
+    position: relative; z-index: 2; width: 920px;
     background: linear-gradient(180deg, #FFFFFF 0%, #F8F4EF 100%);
-    border: 4px solid #E8DDD0;
-    border-radius: 28px 28px 20px 20px;
+    border: 4px solid #E8DDD0; border-radius: 28px 28px 20px 20px;
     box-shadow: 0 12px 40px rgba(74,55,40,0.1);
   }
-
   .machine-top {
-    height: 10px;
-    background: linear-gradient(135deg, #E8756D, #E8756DCC);
+    height: 10px; background: linear-gradient(135deg, #E8756D, #E8756DCC);
     border-radius: 24px 24px 0 0;
   }
-
   .image-window {
-    margin: 14px 18px 18px;
-    border-radius: 14px;
-    overflow: hidden;
-    border: 3px solid #E8DDD0;
-    background: #FFF8F0;
+    margin: 14px 18px 18px; border-radius: 14px; overflow: hidden;
+    border: 3px solid #E8DDD0; background: #FFF8F0;
   }
   .image-window img {
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    object-position: top;
-    display: block;
+    width: 100%; aspect-ratio: 1/1; object-fit: cover;
+    object-position: top; display: block;
   }
   .image-placeholder {
-    width: 100%;
-    aspect-ratio: 1/1;
-    background: #FFF8F0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 120px;
+    width: 100%; aspect-ratio: 1/1; background: #FFF8F0;
+    display: flex; align-items: center; justify-content: center; font-size: 120px;
   }
-
   .deco { position: absolute; border-radius: 50%; z-index: 1; opacity: 0.18; }
   .d1 { width: 40px; height: 40px; background: #F5A8A2; top: 20px; left: 30px; }
   .d2 { width: 35px; height: 35px; background: #A8D8EA; top: 15px; right: 40px; }
@@ -122,17 +69,14 @@ function generateHTML(product) {
 </head>
 <body>
   <div class="card">
-    <div class="deco d1"></div>
-    <div class="deco d2"></div>
-    <div class="deco d3"></div>
-    <div class="deco d4"></div>
-
+    <div class="deco d1"></div><div class="deco d2"></div>
+    <div class="deco d3"></div><div class="deco d4"></div>
     <div class="machine">
       <div class="machine-top"></div>
       <div class="image-window">
         ${hasImage
           ? `<img src="${imgSrc}" alt="">`
-          : `<div class="image-placeholder">🎪</div>`
+          : `<div class="image-placeholder">\ud83c\udfaa</div>`
         }
       </div>
     </div>
@@ -141,49 +85,54 @@ function generateHTML(product) {
 </html>`;
 }
 
-// キャプション生成
 function generateCaption(product) {
   const lines = [
-    `🎪 ${product.name}`,
+    `\ud83c\udfaa ${product.name}`,
     ``,
-    `💰 ${product.price}円 / 全${product.types}種`,
-    `📅 ${product.releaseWeek || "発売日未定"}`,
+    `\ud83d\udcb0 ${product.price}\u5186 / \u5168${product.types}\u7a2e`,
+    `\ud83d\udcc5 ${product.releaseWeek || "\u767a\u58f2\u65e5\u672a\u5b9a"}`,
     ``,
-    `👆 プロフィールのリンクから新作情報をチェック！`,
+    `\ud83d\udc46 \u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u306e\u30ea\u30f3\u30af\u304b\u3089\u65b0\u4f5c\u60c5\u5831\u3092\u30c1\u30a7\u30c3\u30af\uff01`,
     `gacha-now.vercel.app`,
     ``,
-    `#ガチャガチャ #カプセルトイ #ガチャなう #新作ガチャ #ガシャポン #ガチャ活 #ガチャ好きと繋がりたい #カプセルトイ好き`,
+    `#\u30ac\u30c1\u30e3\u30ac\u30c1\u30e3 #\u30ab\u30d7\u30bb\u30eb\u30c8\u30a4 #\u30ac\u30c1\u30e3\u306a\u3046 #\u65b0\u4f5c\u30ac\u30c1\u30e3 #\u30ac\u30b7\u30e3\u30dd\u30f3 #\u30ac\u30c1\u30e3\u6d3b #\u30ac\u30c1\u30e3\u597d\u304d\u3068\u7e4b\u304c\u308a\u305f\u3044 #\u30ab\u30d7\u30bb\u30eb\u30c8\u30a4\u597d\u304d`,
   ];
-
-  // ブランド名をハッシュタグに追加
-  if (product.brand && product.brand !== "その他") {
+  if (product.brand && product.brand !== "\u305d\u306e\u4ed6") {
     lines[lines.length - 1] += ` #${product.brand}`;
   }
-
   return lines.join("\n");
 }
 
-// メイン
 async function main() {
-  console.log("📸 Instagram投稿を生成中...");
+  console.log("\ud83d\udcf8 Instagram\u6295\u7a3f\u3092\u751f\u6210\u4e2d...");
 
-  const products = JSON.parse(fs.readFileSync(PRODUCTS_PATH, "utf-8"));
-  const newProducts = getNewProducts(products);
-
-  console.log(`  🆕 新規商品: ${newProducts.length}件`);
-
-  // 新規商品が0件なら投稿ファイルを生成しない
-  if (newProducts.length === 0) {
-    console.log("  ⏭️ 新規商品なし、投稿生成をスキップ");
+  if (!fs.existsSync(NEW_TODAY_PATH)) {
+    console.log("  \u23ed\ufe0f new-today.json \u306a\u3057\u3001\u30b9\u30ad\u30c3\u30d7");
     return;
   }
 
-  // 出力ディレクトリ作成
+  const newTodayNames = JSON.parse(fs.readFileSync(NEW_TODAY_PATH, "utf-8"));
+  console.log(`  \ud83c\udd95 \u65b0\u898f\u5546\u54c1: ${newTodayNames.length}\u4ef6`);
+
+  if (newTodayNames.length === 0) {
+    console.log("  \u23ed\ufe0f \u65b0\u898f\u5546\u54c1\u306a\u3057\u3001\u6295\u7a3f\u751f\u6210\u3092\u30b9\u30ad\u30c3\u30d7");
+    return;
+  }
+
+  const products = JSON.parse(fs.readFileSync(PRODUCTS_PATH, "utf-8"));
+  const nameSet = new Set(newTodayNames);
+  const newProducts = products.filter((p) => nameSet.has(p.name));
+
+  newProducts.sort((a, b) => {
+    if (a.hot && !b.hot) return -1;
+    if (!a.hot && b.hot) return 1;
+    return 0;
+  });
+
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
   const today = new Date().toISOString().split("T")[0];
 
-  // puppeteer起動（全投稿で使い回す）
   const browser = await puppeteer.launch({
     headless: "new",
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
@@ -198,11 +147,9 @@ async function main() {
     const pngPath = path.join(OUTPUT_DIR, `post-${today}-${idx}.png`);
     const txtPath = path.join(OUTPUT_DIR, `post-${today}-${idx}.txt`);
 
-    // HTML生成
     const html = generateHTML(product);
     fs.writeFileSync(htmlPath, html, "utf-8");
 
-    // puppeteerでスクショ
     const page = await browser.newPage();
     await page.setViewport({ width: 1080, height: 1080 });
     await page.goto(`file://${htmlPath}`, { waitUntil: "networkidle0", timeout: 30000 });
@@ -210,17 +157,15 @@ async function main() {
     await new Promise((r) => setTimeout(r, 1000));
     await page.screenshot({ path: pngPath, type: "png" });
     await page.close();
-    console.log(`    📷 ${pngPath}`);
+    console.log(`    \ud83d\udcf7 ${pngPath}`);
 
-    // キャプション生成
     const caption = generateCaption(product);
     fs.writeFileSync(txtPath, caption, "utf-8");
-    console.log(`    📝 ${txtPath}`);
+    console.log(`    \ud83d\udcdd ${txtPath}`);
   }
 
   await browser.close();
-
-  console.log(`\n✅ 完了！ ${newProducts.length}件の投稿を生成しました`);
+  console.log(`\n\u2705 \u5b8c\u4e86\uff01 ${newProducts.length}\u4ef6\u306e\u6295\u7a3f\u3092\u751f\u6210\u3057\u307e\u3057\u305f`);
 }
 
-main().catch((e) => { console.error("❌ エラー:", e); process.exit(1); });
+main().catch((e) => { console.error("\u274c \u30a8\u30e9\u30fc:", e); process.exit(1); });
