@@ -1,5 +1,140 @@
 [
   {
+    "id": "-2",
+    "name": "おさるのジョージ フェイス型シリコンケース2",
+    "brand": "おさるのジョージ",
+    "brandSlug": "",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "未定",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901492_b.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901492",
+    "collectedAt": "2026-03-03T00:08:29.137Z"
+  },
+  {
+    "id": "gacha-0002",
+    "name": "トイ・ストーリー ゆらゆらつながるマスコット アンディのおもちゃ大集合",
+    "brand": "トイ・ストーリー",
+    "brandSlug": "",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "未定",
+    "color": "#9E9E9E",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902208_b.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902208",
+    "collectedAt": "2026-03-03T00:08:31.137Z"
+  },
+  {
+    "id": "gacha-0003",
+    "name": "ピクサーキャラクター ファッションリング ロイヤルクリア",
+    "brand": "ピクサー",
+    "brandSlug": "",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "未定",
+    "color": "#9E9E9E",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902222_b.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902222",
+    "collectedAt": "2026-03-03T00:08:33.172Z"
+  },
+  {
+    "id": "-play-with-",
+    "name": "カービィ play with ワドルディ ラメピンバッジこれくしょん",
+    "brand": "カービィ",
+    "brandSlug": "kirby",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "未定",
+    "color": "#F48FB1",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902888_b.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902888",
+    "collectedAt": "2026-03-03T00:08:35.038Z"
+  },
+  {
+    "id": "fig-",
+    "name": "ラバFig. にゃんぱいあ",
+    "brand": "オリジナル",
+    "brandSlug": "",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "未定",
+    "color": "#9E9E9E",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903571_b.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903571",
+    "collectedAt": "2026-03-03T00:08:37.116Z"
+  },
+  {
+    "id": "peanuts-",
+    "name": "PEANUTS もふもふポーシェット",
+    "brand": "PEANUTS",
+    "brandSlug": "peanuts",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "未定",
+    "color": "#9E9E9E",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903694_b.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903694",
+    "collectedAt": "2026-03-03T00:08:39.030Z"
+  },
+  {
+    "id": "-vol1",
+    "name": "でふぉラバ! ディズニー ツイステッドワンダーランド ブルームバースデーvol.1",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "未定",
+    "color": "#CE93D8",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098130_b.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098130",
+    "collectedAt": "2026-03-03T00:09:00.088Z"
+  },
+  {
+    "id": "gacha-0008",
+    "name": "ハローキティ 喜怒★哀楽!?ファションリングコレクション",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "未定",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900716_b.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900716",
+    "collectedAt": "2026-03-03T00:09:05.725Z"
+  },
+  {
+    "id": "gacha-0009",
+    "name": "まちぼうけ ガールズ&パンツァー",
+    "brand": "ガールズ&パンツァー",
+    "brandSlug": "",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "未定",
+    "color": "#9E9E9E",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000246971_1.jpg",
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769928697000",
+    "collectedAt": "2026-03-03T00:12:34.248Z"
+  },
+  {
     "id": "gacha-0001",
     "name": "【フラットガシャポン】パワーパフ ガールズ ミニおりたたみコンテナ",
     "brand": "パワーパフ ガールズ",
@@ -1959,7 +2094,7 @@
     "releaseWeek": "3月 第2週",
     "color": "#7B68EE",
     "hot": true,
-    "img": null,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y097188_b.jpg",
     "affiliateUrl": "#"
   },
   {
@@ -1972,7 +2107,7 @@
     "releaseWeek": "3月 第2週",
     "color": "#FFD700",
     "hot": true,
-    "img": null,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901980_b.jpg",
     "affiliateUrl": "#"
   },
   {
@@ -1985,7 +2120,7 @@
     "releaseWeek": "3月",
     "color": "#4CAF50",
     "hot": false,
-    "img": null,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098277_b.jpg",
     "affiliateUrl": "#"
   },
   {
@@ -1998,7 +2133,7 @@
     "releaseWeek": "3月",
     "color": "#90CAF9",
     "hot": false,
-    "img": null,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y097171_b.jpg",
     "affiliateUrl": "#"
   },
   {
@@ -2011,7 +2146,7 @@
     "releaseWeek": "3月",
     "color": "#FF9800",
     "hot": true,
-    "img": null,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099434_b.jpg",
     "affiliateUrl": "#"
   },
   {
@@ -2063,7 +2198,7 @@
     "releaseWeek": "3月 第2週",
     "color": "#26C6DA",
     "hot": true,
-    "img": null,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099441_b.jpg",
     "affiliateUrl": "#"
   },
   {
@@ -2089,7 +2224,7 @@
     "releaseWeek": "3月 第2週",
     "color": "#FFE082",
     "hot": false,
-    "img": null,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y066399_b.jpg",
     "affiliateUrl": "#"
   },
   {
@@ -2102,7 +2237,7 @@
     "releaseWeek": "3月 第2週",
     "color": "#81D4FA",
     "hot": false,
-    "img": null,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y094552_b.jpg",
     "affiliateUrl": "#"
   },
   {
@@ -2115,7 +2250,7 @@
     "releaseWeek": "3月 第2週",
     "color": "#AED581",
     "hot": false,
-    "img": null,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y097072_b.jpg",
     "affiliateUrl": "#"
   },
   {
@@ -2128,7 +2263,7 @@
     "releaseWeek": "3月 第2週",
     "color": "#9575CD",
     "hot": false,
-    "img": null,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y085925_b.jpg",
     "affiliateUrl": "#"
   },
   {
@@ -2141,7 +2276,7 @@
     "releaseWeek": "3月",
     "color": "#CE93D8",
     "hot": true,
-    "img": null,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y097423_b.jpg",
     "affiliateUrl": "#"
   },
   {
@@ -2154,7 +2289,7 @@
     "releaseWeek": "3月",
     "color": "#78909C",
     "hot": false,
-    "img": null,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y092824_b.jpg",
     "affiliateUrl": "#"
   }
 ]

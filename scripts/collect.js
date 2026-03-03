@@ -68,7 +68,7 @@ async function collectFromBandai() {
 }
 
 // ========================================
-// 2. タカラトミーアーツ公式（修正: imgタグのalt属性から商品名取得）
+// 2. タカラトミーアーツ公式（修正v3: 実HTML構造に完全対応）
 // ========================================
 async function collectFromTakaraTomy() {
   const articles = [];
@@ -77,37 +77,36 @@ async function collectFromTakaraTomy() {
     const res = await fetch("https://www.takaratomy-arts.co.jp/items/gacha/calendar/");
     const html = await res.text();
 
-    // HTMLの実際の構造:
+    // 実際のHTML:
     // <a href="../../item.html?n=Y066399">
-    //   <img src="...Y066399_b.jpg" />
-    //   商品名
+    //   <div class="img"><img src="...Y066399_b.jpg" alt="" loading="lazy"></div>
+    //   <p class="black">東京ばな奈 スクイーズマスコット </p>
     // </a>
-    // 
-    // imgタグの後に改行とテキストがある。
-    // alt属性がない場合もあるので、<img>の後のテキストノードを取る
 
-    // item.html?n=XXXX のリンクとその中のテキストを取得
-    const blockRegex = /item\.html\?n=(\w+)"[\s\S]*?<\/a>/g;
+    const blockRegex = /<a[^>]*item\.html\?n=(\w+)[^>]*>([\s\S]*?)<\/a>/g;
     let match;
 
     while ((match = blockRegex.exec(html)) !== null) {
-      const block = match[0];
       const productId = match[1];
+      const block = match[2];
 
-      // <img>タグの後のテキストを取得（商品名）
-      // <img ... /> の後に改行+テキストがある
-      const textMatch = block.match(/<img[^>]*>[\s\n]*([^<]+)/);
-      if (textMatch) {
-        const name = textMatch[1].trim();
-        if (name && name.length > 2) {
-          articles.push({
-            title: name,
-            url: `https://www.takaratomy-arts.co.jp/items/item.html?n=${productId}`,
-            summary: `タカラトミーアーツ ガチャ: ${name}`,
-            publishedAt: new Date().toISOString(),
-            source: "タカラトミーアーツ公式",
-          });
-        }
+      // 画像URL: src="https://www.takaratomy-arts.co.jp/upfiles/products/..."
+      const imgMatch = block.match(/src="(https:\/\/www\.takaratomy-arts\.co\.jp\/upfiles\/products\/[^"]+)"/);
+      const imageUrl = imgMatch ? imgMatch[1] : null;
+
+      // 商品名: <p class="black">商品名</p>
+      const nameMatch = block.match(/<p[^>]*>([^<]+)<\/p>/);
+      const name = nameMatch ? nameMatch[1].trim() : "";
+
+      if (name && name.length > 2) {
+        articles.push({
+          title: name,
+          url: `https://www.takaratomy-arts.co.jp/items/item.html?n=${productId}`,
+          summary: `タカラトミーアーツ ガチャ: ${name}`,
+          publishedAt: new Date().toISOString(),
+          source: "タカラトミーアーツ公式",
+          imageUrl: imageUrl,
+        });
       }
     }
   } catch (err) {
