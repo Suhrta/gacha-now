@@ -77,10 +77,10 @@ function sortProducts(list, tab) {
 }
 
 const STATUS_TABS = [
-  { key: "all", label: "すべて", emoji: "🎪" },
-  { key: "available", label: "発売中", emoji: "🟢" },
-  { key: "new", label: "新作", emoji: "🆕" },
-  { key: "upcoming", label: "発売予定", emoji: "📅" },
+  { key: "all", label: "すべて" },
+  { key: "available", label: "発売中" },
+  { key: "new", label: "新作" },
+  { key: "upcoming", label: "発売予定" },
 ];
 
 export default function HomePage() {
@@ -181,7 +181,7 @@ export default function HomePage() {
                   color: statusTab === tab.key ? "#fff" : "#9B8978",
                   boxShadow: statusTab === tab.key ? "0 2px 8px #E8756D33" : "none",
                 }}>
-                {tab.emoji} {tab.label}
+                {tab.label}
               </button>
             ))}
           </div>
@@ -236,12 +236,12 @@ export default function HomePage() {
         {(hasMore || loading) && (
           <div ref={loaderRef} className="flex flex-col items-center py-6 gap-2">
             <div className="flex gap-3">
-              <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0s" }}>🔴</span>
-              <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.15s" }}>🟡</span>
-              <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.3s" }}>🔵</span>
+              <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0s", color: "#F5A8A2" }}>●</span>
+              <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.15s", color: "#A8D8EA" }}>●</span>
+              <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.3s", color: "#F9E4B7" }}>●</span>
             </div>
             <div className="font-pixel text-[9px] text-brand-sub" style={{ animation: "pulse 1.5s ease-in-out infinite" }}>
-              Loading...
+              ガチャ ガチャ...
             </div>
           </div>
         )}
