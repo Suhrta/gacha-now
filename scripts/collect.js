@@ -90,9 +90,13 @@ async function collectFromBandai() {
       const res = await fetch(url);
       const html = await res.text();
 
-      // 発売週セクション検出: "3月第1週より順次" 等
+      // 発売週セクション検出
+      // HTML: <span class="pg-schedule__month--date">3</span>
+      //       <span class="pg-schedule__month--text">月第</span>
+      //       <span class="pg-schedule__month--date">1</span>
+      //       <span class="pg-schedule__month--text">週より順次</span>
       const weekPositions = [];
-      const weekRegex = /(\d+)月第(\d+)週/g;
+      const weekRegex = /pg-schedule__month--date">\s*(\d+)\s*<\/span>\s*<span[^>]*>\s*月第\s*<\/span>\s*<span[^>]*>\s*(\d+)\s*<\/span>\s*<span[^>]*>\s*週/g;
       let weekMatch;
       while ((weekMatch = weekRegex.exec(html)) !== null) {
         weekPositions.push({
@@ -120,32 +124,19 @@ async function collectFromBandai() {
         const imgMatch = block.match(/src="(https:\/\/bandai-a\.akamaihd\.net[^"]+)"/);
         const imageUrl = imgMatch ? imgMatch[1] : null;
 
-        // 価格
-        const priceMatch = block.match(/(\d{3,4})円/);
+        // 価格: <span class="c-card__price--main">500</span>
+        const priceMatch = block.match(/c-card__price--main">\s*(\d+)\s*</);
         const price = priceMatch ? parseInt(priceMatch[1]) : null;
 
-        // 商品名
-        const nameMatch = block.match(/>\s*([^<]{3,})\s*</g);
-        let name = "";
-        if (nameMatch) {
-          for (const m of nameMatch) {
-            const text = m.replace(/^>\s*/, "").replace(/\s*<$/, "").trim();
-            if (
-              text.length > name.length &&
-              !text.match(/^\d{3,4}円$/) &&
-              !text.match(/^再入荷$/) &&
-              !text.match(/^ガシャポン$/) &&
-              !text.match(/^フラットガシャポン$/) &&
-              !text.match(/^プレミアムガシャポン$/) &&
-              text.length > 2
-            ) {
-              name = text;
-            }
-          }
+        // 商品名: <p class="c-card__name">商品名</p>
+        const cardNameMatch = block.match(/c-card__name">\s*([^<]+)\s*</);
+        let name = cardNameMatch ? cardNameMatch[1].trim() : "";
+
+        // フラットガシャポン：altから取得
+        if (!name || name.length < 3) {
+          const altMatch = match[0].match(/alt="([^"]+)"/);
+          if (altMatch) name = altMatch[1].trim();
         }
-        // フラットガシャポン商品名復元
-        const fullNameMatch = block.match(/>\s*(【フラットガシャポン】[^<]+)\s*</);
-        if (fullNameMatch) name = fullNameMatch[1].trim();
 
         const brand = detectBrand(name);
 
