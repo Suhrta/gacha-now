@@ -17,9 +17,9 @@ function getShopSearchUrl(product) {
     return "https://gashapon.jp/shop/gplus.php";
   }
 
-  // タカトミ: ガチャ®をさがす（店舗検索）
+  // タカトミ: 商品詳細ページ内に「この商品の取扱店舗」ボタンがある
   if (product.sourceUrl.includes("takaratomy-arts.co.jp")) {
-    return "https://www.takaratomy-arts.co.jp/items/gacha/search.html";
+    return product.sourceUrl;
   }
 
   return null;
@@ -96,6 +96,11 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
               boxShadow: "0 2px 8px rgba(91,140,109,0.15)",
             }}>
             🏪 近くの店舗を探す
+            {product.sourceUrl && product.sourceUrl.includes("takaratomy-arts.co.jp") && (
+              <div className="font-pixel text-[8px] mt-0.5 opacity-70">
+                ※ページ内「この商品の取扱店舗」から検索
+              </div>
+            )}
           </a>
         )}
 
