@@ -124,14 +124,24 @@ export default function GachaMachine({ product, index, onClick }) {
             }} />
           </div>
 
-          {/* 右：価格＋種類 */}
-          <div className="flex-1 flex flex-col items-end gap-0.5">
-            <span className="font-pixel font-bold" style={{ color, fontSize: 16, lineHeight: 1 }}>
-              {product.price}円
-            </span>
-            <span className="font-pixel text-[9px] text-brand-sub">
-              全{product.types}種
-            </span>
+          {/* 右：価格＋種類（青バッジ） */}
+          <div className="flex-1 flex justify-end">
+            <div style={{
+              background: "#2B5EA7",
+              borderRadius: 6,
+              padding: "4px 8px",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: 1,
+            }}>
+              <span className="font-pixel font-bold" style={{ color: "#FFFFFF", fontSize: 14, lineHeight: 1 }}>
+                {product.price}円
+              </span>
+              <span className="font-pixel" style={{ color: "rgba(255,255,255,0.8)", fontSize: 8, lineHeight: 1 }}>
+                全{product.types}種
+              </span>
+            </div>
           </div>
         </div>
       </div>
