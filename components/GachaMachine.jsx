@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import Link from "next/link";
 
 /* 画像がない商品用の大きなカプセルSVG */
 function CapsulePlaceholder({ color }) {
@@ -27,44 +26,39 @@ export default function GachaMachine({ product, index, onClick }) {
     return () => clearTimeout(t);
   }, [index]);
 
-  const handleClick = (e) => {
-    if (onClick) {
-      e.preventDefault();
-      onClick(product);
-    }
-  };
-
   const hasImage = product.img && !product.img.includes("placehold");
 
   return (
-    <Link href={`/item/${product.id}`} onClick={handleClick}
-      onPointerDown={() => setPressed(true)}
-      onPointerUp={() => setPressed(false)}
-      onPointerLeave={() => setPressed(false)}
+    <div
+      onClick={() => onClick && onClick(product)}
+      onTouchStart={() => setPressed(true)}
+      onTouchEnd={() => setPressed(false)}
+      onTouchCancel={() => setPressed(false)}
       className="block"
       style={{
-        width: "calc(50% - 5px)", cursor: "pointer", textDecoration: "none",
+        width: "calc(50% - 5px)", cursor: "pointer",
         opacity: vis ? 1 : 0,
         transform: vis ? (pressed ? "scale(0.97)" : "scale(1)") : "translateY(12px)",
         transition: pressed ? "transform 0.1s" : "all 0.4s cubic-bezier(0.34,1.56,0.64,1)",
+        WebkitTapHighlightColor: "transparent",
       }}>
       <div className="bg-white rounded-[14px] border-2 border-cream-border overflow-hidden relative"
         style={{ boxShadow: pressed ? "0 2px 8px rgba(74,55,40,0.06)" : "0 4px 16px rgba(74,55,40,0.06)", transition: "box-shadow 0.15s" }}>
 
         {product.hot && (
-          <div className="absolute top-2 right-2 z-10 bg-brand-accent text-white font-pixel text-[9px] px-1.5 py-0.5 rounded-md animate-hot">
+          <div className="absolute top-2 right-2 z-10 bg-brand-accent text-white font-pixel text-[9px] px-1.5 py-0.5 rounded-md animate-hot pointer-events-none">
             🔥 HOT
           </div>
         )}
 
         {product.releaseWeek && (
-          <div className="absolute top-2 left-2 z-10 bg-white/90 border border-cream-border text-brand-text font-pixel text-[10px] px-1.5 py-0.5 rounded-md"
+          <div className="absolute top-2 left-2 z-10 bg-white/90 border border-cream-border text-brand-text font-pixel text-[10px] px-1.5 py-0.5 rounded-md pointer-events-none"
             style={{ backdropFilter: "blur(4px)" }}>
             📅 {product.releaseWeek}
           </div>
         )}
 
-        <div className="relative overflow-hidden border-b-2 border-dashed border-cream-border">
+        <div className="relative overflow-hidden border-b-2 border-dashed border-cream-border pointer-events-none">
           {hasImage ? (
             <img src={product.img} alt={product.name} className="w-full block"
               style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top", background: "#FFF8F0" }} />
@@ -73,13 +67,13 @@ export default function GachaMachine({ product, index, onClick }) {
           )}
         </div>
 
-        <div className="px-2 py-2 flex items-center justify-center" style={{ height: 62 }}>
+        <div className="px-2 py-2 flex items-center justify-center pointer-events-none" style={{ height: 62 }}>
           <div className="font-pixel text-[11px] text-brand-text text-center leading-[1.8] line-clamp-3">
             {product.name}
           </div>
         </div>
 
-        <div className="px-2.5 pb-1 flex justify-between items-center">
+        <div className="px-2.5 pb-1 flex justify-between items-center pointer-events-none">
           <span className="font-pixel text-[12px] font-bold" style={{ color: product.color }}>
             ¥{product.price}
           </span>
@@ -88,7 +82,7 @@ export default function GachaMachine({ product, index, onClick }) {
           </span>
         </div>
 
-        <div className="flex justify-center pb-2">
+        <div className="flex justify-center pb-2 pointer-events-none">
           <div className="rounded-full" style={{
             width: 28, height: 10,
             background: `linear-gradient(180deg, ${product.color}CC, ${product.color}88)`,
@@ -96,6 +90,6 @@ export default function GachaMachine({ product, index, onClick }) {
           }} />
         </div>
       </div>
-    </Link>
+    </div>
   );
 }
