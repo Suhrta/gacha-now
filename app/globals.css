@@ -19,3 +19,15 @@ body { background: #FFF8F0; }
 .animate-hot { animation: hotPulse 2s infinite; }
 .animate-marquee { animation: marquee 18s linear infinite; }
 .animate-float { animation: float 3s ease-in-out infinite; }
+
+@keyframes rollBounce {
+  0% { transform: translateX(-20px) rotate(0deg); }
+  25% { transform: translateX(0px) rotate(90deg) translateY(-4px); }
+  50% { transform: translateX(20px) rotate(180deg); }
+  75% { transform: translateX(0px) rotate(270deg) translateY(-4px); }
+  100% { transform: translateX(-20px) rotate(360deg); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
