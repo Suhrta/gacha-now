@@ -241,7 +241,7 @@ export default function HomePage() {
               <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.3s" }}>🔵</span>
             </div>
             <div className="font-pixel text-[9px] text-brand-sub" style={{ animation: "pulse 1.5s ease-in-out infinite" }}>
-              ガチャ ガチャ...
+              Loading...
             </div>
           </div>
         )}
