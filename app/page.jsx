@@ -108,17 +108,19 @@ export default function HomePage() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        if (entries[0].isIntersecting) {
+        if (entries[0].isIntersecting && !loading) {
           setLoading(true);
-          setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
-          setTimeout(() => setLoading(false), 1400);
+          setTimeout(() => {
+            setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
+            setLoading(false);
+          }, 1400);
         }
       },
       { threshold: 0.1 }
     );
     if (loaderRef.current) observer.observe(loaderRef.current);
     return () => observer.disconnect();
-  }, [brand, statusTab, searchQuery]);
+  }, [brand, statusTab, searchQuery, loading]);
 
   const handleTouchStart = (e) => {
     touchStartX.current = e.touches[0].clientX;
