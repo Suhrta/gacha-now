@@ -235,13 +235,10 @@ export default function HomePage() {
 
         {(hasMore || loading) && (
           <div ref={loaderRef} className="flex flex-col items-center py-6 gap-2">
-            <div style={{ width: 60, height: 30, animation: "rollBounce 1.2s ease-in-out infinite" }}>
-              <svg width="30" height="36" viewBox="0 0 30 36" style={{ display: "block" }}>
-                <ellipse cx="15" cy="13" rx="12" ry="12" fill="#E8756D" />
-                <rect x="3" y="13" width="24" height="2" fill="#FFFAF3" />
-                <ellipse cx="15" cy="24" rx="12" ry="12" fill="#F5A8A2" />
-                <ellipse cx="10" cy="9" rx="3" ry="4" fill="#FFFFFF55" transform="rotate(-15, 10, 9)" />
-              </svg>
+            <div className="flex gap-3">
+              <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0s" }}>🔴</span>
+              <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.15s" }}>🟡</span>
+              <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.3s" }}>🔵</span>
             </div>
             <div className="font-pixel text-[9px] text-brand-sub" style={{ animation: "pulse 1.5s ease-in-out infinite" }}>
               ガチャ ガチャ...
