@@ -47,7 +47,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
       <div className="w-full" style={{ background: "#FFFDF8", padding: "10px 16px 16px", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
 
         <div className="rounded-lg overflow-hidden mb-2.5 border-2 border-cream-border">
-          <img src={product.img} alt={product.name} className="w-full block" style={{ aspectRatio: "300/220", objectFit: "cover" }} />
+          <img src={product.img} alt={product.name} className="w-full block" style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />
         </div>
 
         <div className="mb-2.5">
@@ -106,11 +106,6 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
             ✕ 閉じる
           </button>
         )}
-
-        <div className="mt-2.5 border-t-2 border-dashed border-cream-border pt-1.5 text-center">
-          <div className="font-pixel text-[7px] text-brand-sub">THANK YOU FOR PLAYING!</div>
-          <div className="font-pixel text-[10px] text-cream-border mt-0.5">● ● ●</div>
-        </div>
       </div>
 
       <div className="w-full shrink-0" style={{ height: 10, background: zigzagBottom, backgroundSize: "16px 10px", backgroundRepeat: "repeat-x" }} />
