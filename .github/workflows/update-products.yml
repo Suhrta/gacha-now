@@ -28,7 +28,13 @@ jobs:
         with:
           node-version: '20'
 
-      # 3. データ収集（バンダイ・タカトミからスクレイピング）
+      # 3. puppeteer等の依存パッケージをインストール
+      - name: Install dependencies
+        run: |
+          cd scripts
+          npm install
+
+      # 4. データ収集（バンダイ・タカトミからスクレイピング）
       - name: Collect gacha data
         run: node scripts/collect.js
 
