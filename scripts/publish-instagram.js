@@ -1,6 +1,8 @@
 /**
  * publish-instagram.js
  * Instagram Graph APIを使って自動投稿する
+ * posts/post-YYYY-MM-DD-*.png の全ファイルを順番に投稿
+ * 投稿ファイルが0件ならスキップ
  *
  * 必要な環境変数:
  *   IG_USER_ID       - InstagramビジネスアカウントID
@@ -23,9 +25,11 @@ const IG_USER_ID = process.env.IG_USER_ID;
 const IG_ACCESS_TOKEN = process.env.IG_ACCESS_TOKEN;
 const GRAPH_API = "https://graph.facebook.com/v25.0";
 
+// 投稿間の待機時間（秒）- API制限対策
+const POST_INTERVAL_SEC = 30;
+
 /**
  * ステップ1: メディアコンテナを作成
- * 画像URLとキャプションをInstagramに送信し、コンテナIDを取得
  */
 async function createMediaContainer(imageUrl, caption) {
   const url = `${GRAPH_API}/${IG_USER_ID}/media`;
@@ -43,12 +47,11 @@ async function createMediaContainer(imageUrl, caption) {
   if (data.error) {
     throw new Error(`メディアコンテナ作成失敗: ${data.error.message}`);
   }
-  return data.id; // creation_id
+  return data.id;
 }
 
 /**
  * ステップ2: コンテナのステータスを確認
- * アップロード処理が完了するまで待つ
  */
 async function waitForContainer(containerId, maxRetries = 10) {
   for (let i = 0; i < maxRetries; i++) {
@@ -63,8 +66,8 @@ async function waitForContainer(containerId, maxRetries = 10) {
       throw new Error(`コンテナ処理エラー: ${JSON.stringify(data)}`);
     }
 
-    console.log(`  ⏳ 処理中... (${i + 1}/${maxRetries})`);
-    await new Promise((r) => setTimeout(r, 5000)); // 5秒待つ
+    console.log(`    ⏳ 処理中... (${i + 1}/${maxRetries})`);
+    await new Promise((r) => setTimeout(r, 5000));
   }
   throw new Error("コンテナ処理がタイムアウトしました");
 }
@@ -87,7 +90,7 @@ async function publishMedia(containerId) {
   if (data.error) {
     throw new Error(`公開失敗: ${data.error.message}`);
   }
-  return data.id; // media_id
+  return data.id;
 }
 
 /**
@@ -102,40 +105,78 @@ async function main() {
     process.exit(1);
   }
 
-  // 今日の投稿ファイルを探す
+  // 今日の投稿ファイルを探す（post-YYYY-MM-DD-1.png, post-YYYY-MM-DD-2.png, ...）
   const today = new Date().toISOString().split("T")[0];
-  const pngFile = path.join(POSTS_DIR, `post-${today}.png`);
-  const txtFile = path.join(POSTS_DIR, `post-${today}.txt`);
+  const pattern = new RegExp(`^post-${today}-(\\d+)\\.png$`);
 
-  if (!fs.existsSync(pngFile) || !fs.existsSync(txtFile)) {
+  if (!fs.existsSync(POSTS_DIR)) {
+    console.log("⚠️ postsディレクトリが見つかりません、スキップ");
+    return;
+  }
+
+  const pngFiles = fs.readdirSync(POSTS_DIR)
+    .filter((f) => pattern.test(f))
+    .sort((a, b) => {
+      const numA = parseInt(a.match(pattern)[1]);
+      const numB = parseInt(b.match(pattern)[1]);
+      return numA - numB;
+    });
+
+  if (pngFiles.length === 0) {
     console.log("⚠️ 今日の投稿ファイルが見つかりません、スキップ");
     return;
   }
 
-  // キャプション読み込み
-  const caption = fs.readFileSync(txtFile, "utf-8");
-  console.log(`  📝 キャプション: ${caption.split("\n")[0]}...`);
+  console.log(`  📋 投稿予定: ${pngFiles.length}件`);
 
-  // 公開画像URL（Vercelでホストされている前提）
-  const imageUrl = `${SITE_URL}/posts/post-${today}.png`;
-  console.log(`  🖼️ 画像URL: ${imageUrl}`);
+  let successCount = 0;
 
-  // ステップ1: メディアコンテナ作成
-  console.log("  1️⃣ メディアコンテナを作成中...");
-  const containerId = await createMediaContainer(imageUrl, caption);
-  console.log(`  ✅ コンテナID: ${containerId}`);
+  for (let i = 0; i < pngFiles.length; i++) {
+    const pngFile = pngFiles[i];
+    const idx = pngFile.match(pattern)[1];
+    const txtFile = `post-${today}-${idx}.txt`;
+    const txtPath = path.join(POSTS_DIR, txtFile);
 
-  // ステップ2: 処理完了を待つ
-  console.log("  2️⃣ 処理完了を待機中...");
-  await waitForContainer(containerId);
-  console.log("  ✅ 処理完了");
+    console.log(`\n  [${parseInt(idx)}/${pngFiles.length}] ${pngFile}`);
 
-  // ステップ3: 公開
-  console.log("  3️⃣ Instagramに公開中...");
-  const mediaId = await publishMedia(containerId);
-  console.log(`  ✅ 投稿完了！ Media ID: ${mediaId}`);
+    if (!fs.existsSync(txtPath)) {
+      console.log(`    ⚠️ キャプションファイルなし、スキップ: ${txtFile}`);
+      continue;
+    }
 
-  console.log(`\n🎉 Instagram投稿が完了しました！`);
+    const caption = fs.readFileSync(txtPath, "utf-8");
+    const imageUrl = `${SITE_URL}/posts/${pngFile}`;
+    console.log(`    🖼️ ${imageUrl}`);
+    console.log(`    📝 ${caption.split("\n")[0]}...`);
+
+    try {
+      // ステップ1: メディアコンテナ作成
+      console.log("    1️⃣ メディアコンテナを作成中...");
+      const containerId = await createMediaContainer(imageUrl, caption);
+      console.log(`    ✅ コンテナID: ${containerId}`);
+
+      // ステップ2: 処理完了を待つ
+      console.log("    2️⃣ 処理完了を待機中...");
+      await waitForContainer(containerId);
+
+      // ステップ3: 公開
+      console.log("    3️⃣ Instagramに公開中...");
+      const mediaId = await publishMedia(containerId);
+      console.log(`    ✅ 投稿完了！ Media ID: ${mediaId}`);
+      successCount++;
+
+      // 次の投稿まで待機（最後の投稿の後は不要）
+      if (i < pngFiles.length - 1) {
+        console.log(`    ⏳ ${POST_INTERVAL_SEC}秒待機中...`);
+        await new Promise((r) => setTimeout(r, POST_INTERVAL_SEC * 1000));
+      }
+    } catch (e) {
+      console.error(`    ❌ 投稿失敗: ${e.message}`);
+      // 1件失敗しても次の投稿は続行
+    }
+  }
+
+  console.log(`\n🎉 Instagram投稿完了！ ${successCount}/${pngFiles.length}件成功`);
   console.log(`  https://www.instagram.com/gacha.gacha_now/`);
 }
 

@@ -1,7 +1,8 @@
 /**
  * generate-post.js
- * products.jsonから新着HOT商品をピックアップして
+ * products.jsonから新規追加された商品をピックアップして
  * Instagram投稿用の画像(PNG)とキャプション(TXT)を自動生成
+ * 新規商品の件数分だけ画像を生成する（0件ならスキップ）
  *
  * 使い方: node scripts/generate-post.js
  * 必要: npm install puppeteer (scripts/内で)
@@ -15,29 +16,27 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const OUTPUT_DIR = path.join(__dirname, "..", "posts");
 
-// 今月の新着HOT商品から1件選ぶ
-function pickProduct(products) {
+/**
+ * 直近24時間以内に追加された新規商品を取得
+ * collectedAtが24時間以内の商品 = 今朝のスクレイピングで新しく発見された商品
+ */
+function getNewProducts(products) {
   const now = new Date();
-  const currentMonth = now.getMonth() + 1;
+  const oneDayAgo = new Date(now.getTime() - 24 * 60 * 60 * 1000);
 
-  // 今月発売のHOT商品
-  const hotNew = products.filter((p) => {
-    if (!p.hot) return false;
-    const m = p.releaseWeek?.match(/(\d+)月/);
-    return m && parseInt(m[1]) === currentMonth;
+  const newOnes = products.filter((p) => {
+    if (!p.collectedAt) return false;
+    return new Date(p.collectedAt) > oneDayAgo;
   });
 
-  // HOTがなければ今月の新作から
-  const pool = hotNew.length > 0 ? hotNew : products.filter((p) => {
-    const m = p.releaseWeek?.match(/(\d+)月/);
-    return m && parseInt(m[1]) === currentMonth;
+  // HOT商品を先に並べる
+  newOnes.sort((a, b) => {
+    if (a.hot && !b.hot) return -1;
+    if (!a.hot && b.hot) return 1;
+    return 0;
   });
 
-  if (pool.length === 0) return products[0]; // フォールバック
-
-  // 日付ベースでローテーション（毎日違う商品）
-  const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000);
-  return pool[dayOfYear % pool.length];
+  return newOnes;
 }
 
 // HTML生成
@@ -169,48 +168,59 @@ async function main() {
   console.log("📸 Instagram投稿を生成中...");
 
   const products = JSON.parse(fs.readFileSync(PRODUCTS_PATH, "utf-8"));
-  const product = pickProduct(products);
-  console.log(`  選択: ${product.name} (${product.brand})`);
+  const newProducts = getNewProducts(products);
+
+  console.log(`  🆕 新規商品: ${newProducts.length}件`);
+
+  // 新規商品が0件なら投稿ファイルを生成しない
+  if (newProducts.length === 0) {
+    console.log("  ⏭️ 新規商品なし、投稿生成をスキップ");
+    return;
+  }
 
   // 出力ディレクトリ作成
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
-  const today = new Date().toISOString().split("T")[0]; // 2026-03-03
-  const htmlPath = path.join(OUTPUT_DIR, `post-${today}.html`);
-  const pngPath = path.join(OUTPUT_DIR, `post-${today}.png`);
-  const txtPath = path.join(OUTPUT_DIR, `post-${today}.txt`);
+  const today = new Date().toISOString().split("T")[0];
 
-  // HTML生成
-  const html = generateHTML(product);
-  fs.writeFileSync(htmlPath, html, "utf-8");
-  console.log(`  HTML: ${htmlPath}`);
-
-  // puppeteerでスクショ
+  // puppeteer起動（全投稿で使い回す）
   const browser = await puppeteer.launch({
     headless: "new",
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
-  const page = await browser.newPage();
-  await page.setViewport({ width: 1080, height: 1080 });
-  await page.goto(`file://${htmlPath}`, { waitUntil: "networkidle0", timeout: 30000 });
 
-  // フォント読み込み待ち
-  await page.evaluate(() => document.fonts.ready);
-  await new Promise((r) => setTimeout(r, 1000));
+  for (let i = 0; i < newProducts.length; i++) {
+    const product = newProducts[i];
+    const idx = i + 1;
+    console.log(`\n  [${idx}/${newProducts.length}] ${product.name}`);
 
-  await page.screenshot({ path: pngPath, type: "png" });
+    const htmlPath = path.join(OUTPUT_DIR, `post-${today}-${idx}.html`);
+    const pngPath = path.join(OUTPUT_DIR, `post-${today}-${idx}.png`);
+    const txtPath = path.join(OUTPUT_DIR, `post-${today}-${idx}.txt`);
+
+    // HTML生成
+    const html = generateHTML(product);
+    fs.writeFileSync(htmlPath, html, "utf-8");
+
+    // puppeteerでスクショ
+    const page = await browser.newPage();
+    await page.setViewport({ width: 1080, height: 1080 });
+    await page.goto(`file://${htmlPath}`, { waitUntil: "networkidle0", timeout: 30000 });
+    await page.evaluate(() => document.fonts.ready);
+    await new Promise((r) => setTimeout(r, 1000));
+    await page.screenshot({ path: pngPath, type: "png" });
+    await page.close();
+    console.log(`    📷 ${pngPath}`);
+
+    // キャプション生成
+    const caption = generateCaption(product);
+    fs.writeFileSync(txtPath, caption, "utf-8");
+    console.log(`    📝 ${txtPath}`);
+  }
+
   await browser.close();
-  console.log(`  PNG: ${pngPath}`);
 
-  // キャプション生成
-  const caption = generateCaption(product);
-  fs.writeFileSync(txtPath, caption, "utf-8");
-  console.log(`  TXT: ${txtPath}`);
-
-  console.log(`\n✅ 完了！`);
-  console.log(`  商品: ${product.name}`);
-  console.log(`  画像: posts/post-${today}.png`);
-  console.log(`  キャプション: posts/post-${today}.txt`);
+  console.log(`\n✅ 完了！ ${newProducts.length}件の投稿を生成しました`);
 }
 
 main().catch((e) => { console.error("❌ エラー:", e); process.exit(1); });

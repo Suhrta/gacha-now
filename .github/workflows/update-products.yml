@@ -4,51 +4,41 @@
 # 1. バンダイ・タカトミ公式サイトからガチャ新作情報を収集
 # 2. データを整形
 # 3. products.jsonを更新
-# 4. 変更があればgit push → Vercelが自動デプロイ
-# 5. Discordに通知
-# 6. Instagramに自動投稿
+# 4. 新規商品があれば件数分の投稿画像を生成
+# 5. 変更があればgit push → Vercelが自動デプロイ
+# 6. Discordに通知
+# 7. Instagramに自動投稿
 name: Update Products
 on:
   schedule:
-    # 毎日 0:00 UTC = 日本時間 9:00
     - cron: '0 0 * * *'
-  # 手動実行も可能（テスト用）
   workflow_dispatch:
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      # 1. リポジトリのコードを取得
       - name: Checkout repository
         uses: actions/checkout@v4
-      # 2. Node.js をセットアップ
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      # 3. puppeteer等の依存パッケージをインストール
       - name: Install dependencies
         run: |
           cd scripts
           npm install
-      # 4. データ収集（バンダイ・タカトミからスクレイピング）
       - name: Collect gacha data
         run: node scripts/collect.js
-      # 4. データ整形（Claude API不要、ローカル処理のみ）
       - name: Structure data
         run: node scripts/structure.js
-      # 5. products.json を更新
       - name: Update products.json
         run: node scripts/update.js
-      # 6. Instagram投稿画像を生成
-      - name: Generate Instagram post
+      - name: Generate Instagram posts
         run: node scripts/generate-post.js
-      # 7. 投稿画像をpublic/postsにコピー（Vercelで公開するため）
       - name: Copy posts to public directory
         run: |
           mkdir -p public/posts
           cp posts/*.png public/posts/ 2>/dev/null || true
-      # 8. 変更があれば自動commit & push
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
@@ -56,28 +46,39 @@ jobs:
           git add data/products.json posts/ public/posts/
           git diff --staged --quiet || git commit -m "🎪 auto-update products $(date -u +%Y-%m-%d)"
           git push
-      # 9. Discordに投稿画像とキャプションを通知
       - name: Notify Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           TODAY=$(date -u +%Y-%m-%d)
-          PNG_FILE="posts/post-${TODAY}.png"
-          TXT_FILE="posts/post-${TODAY}.txt"
-          if [ -f "$PNG_FILE" ] && [ -f "$TXT_FILE" ]; then
-            CAPTION=$(cat "$TXT_FILE")
-            curl -s -F "content=${CAPTION}" -F "file1=@${PNG_FILE}" "$DISCORD_WEBHOOK_URL"
-            echo "✅ Discord通知完了"
+          COUNT=0
+          for PNG_FILE in posts/post-${TODAY}-*.png; do
+            [ -f "$PNG_FILE" ] || continue
+            IDX=$(echo "$PNG_FILE" | grep -oP '\d+(?=\.png$)')
+            TXT_FILE="posts/post-${TODAY}-${IDX}.txt"
+            if [ -f "$TXT_FILE" ]; then
+              CAPTION=$(cat "$TXT_FILE")
+              curl -s -F "content=${CAPTION}" -F "file1=@${PNG_FILE}" "$DISCORD_WEBHOOK_URL"
+              COUNT=$((COUNT + 1))
+              sleep 2
+            fi
+          done
+          if [ "$COUNT" -gt 0 ]; then
+            echo "✅ Discord通知完了（${COUNT}件）"
           else
             echo "⚠️ 投稿ファイルが見つかりません、スキップ"
           fi
-      # 10. Vercelデプロイ完了を待つ（画像URLが有効になるまで）
       - name: Wait for Vercel deployment
         run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          FIRST_PNG="posts/post-${TODAY}-1.png"
+          if [ ! -f "$FIRST_PNG" ]; then
+            echo "⏭️ 投稿ファイルなし、デプロイ待機スキップ"
+            exit 0
+          fi
           echo "⏳ Vercelデプロイ完了を60秒待機..."
           sleep 60
-          TODAY=$(date -u +%Y-%m-%d)
-          IMG_URL="https://gacha-now.vercel.app/posts/post-${TODAY}.png"
+          IMG_URL="https://gacha-now.vercel.app/posts/post-${TODAY}-1.png"
           STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$IMG_URL")
           if [ "$STATUS" = "200" ]; then
             echo "✅ 画像URLが有効です: $IMG_URL"
@@ -85,7 +86,6 @@ jobs:
             echo "⚠️ 画像URLがまだ無効 (HTTP $STATUS)、追加30秒待機..."
             sleep 30
           fi
-      # 11. Instagramに自動投稿
       - name: Publish to Instagram
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
