@@ -87,26 +87,27 @@ export default function GachaMachine({ product, index, onClick }) {
           </div>
         </div>
 
-        {/* 回すハンドル（丸＋横棒） */}
+        {/* 回すハンドル（丸＋横棒、同じ幅） */}
         <div className="flex justify-center items-center py-1 pointer-events-none">
-          <div style={{ position: "relative", width: 52, height: 22, display: "flex", alignItems: "center", justifyContent: "center" }}>
-            {/* 横棒 */}
+          <div style={{ position: "relative", width: 28, height: 28, display: "flex", alignItems: "center", justifyContent: "center" }}>
+            {/* 横棒（丸と同じ幅） */}
             <div style={{
-              width: 52,
+              width: 28,
               height: 8,
               borderRadius: 4,
               background: "#FFFFFF",
               border: "1.5px solid #D4C9BC",
               position: "absolute",
+              zIndex: 2,
             }} />
-            {/* 中央の丸 */}
+            {/* 中央の丸（横棒より少し暗め） */}
             <div style={{
-              width: 22,
-              height: 22,
+              width: 28,
+              height: 28,
               borderRadius: "50%",
-              background: "#FFFFFF",
-              border: "2px solid #D4C9BC",
-              boxShadow: "0 1px 3px rgba(0,0,0,0.08)",
+              background: "#F0E8DF",
+              border: "2px solid #C8BAA9",
+              boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
               position: "relative",
               zIndex: 1,
             }} />
