@@ -51,10 +51,8 @@ function getBrandColor(brand) {
 
 // 注目度判定
 function isHot(name, brand) {
-  const hotBrands = ["ポケモン", "ちいかわ", "サンリオ", "ディズニー", "mofusand", "すみっコぐらし"];
-  if (hotBrands.includes(brand)) return true;
-  const hotKeywords = ["コラボ", "限定", "復刻", "30周年"];
-  return hotKeywords.some((kw) => name.includes(kw));
+  const hotBrands = ["サンリオ", "たまごっち", "ちいかわ", "ポケモン"];
+  return hotBrands.includes(brand);
 }
 
 // IDを生成
