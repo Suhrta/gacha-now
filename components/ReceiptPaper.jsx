@@ -23,8 +23,8 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
 
       <div className="w-full" style={{ background: "#FFFDF8", padding: "10px 16px 16px", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
         <div className="border-b-2 border-dashed border-cream-border mb-2.5 pb-2 text-center">
-          <div className="font-pixel text-[8px] text-brand-accent tracking-[1px]">★ GACHA NOW ★</div>
-          <div className="font-pixel text-[6px] text-brand-sub mt-1">しんさく じょうほう</div>
+          <div className="font-pixel text-[10px] text-brand-accent tracking-[1px]">🏪 GACHA NOW 🏪</div>
+          <div className="font-pixel text-[8px] text-brand-sub mt-1">新作情報</div>
         </div>
 
         <div className="rounded-lg overflow-hidden mb-2.5 border-2 border-cream-border">
@@ -32,8 +32,8 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
         </div>
 
         <div className="mb-2.5">
-          <div className="font-pixel text-[8px] text-brand-text leading-[1.9] mb-1.5">{product.name}</div>
-          <span className="font-pixel text-[7px] px-2 py-0.5 rounded-md border"
+          <div className="font-pixel text-[11px] text-brand-text leading-[1.9] mb-1.5">{product.name}</div>
+          <span className="font-pixel text-[9px] px-2 py-0.5 rounded-md border"
             style={{ color: product.color, background: `${product.color}15`, borderColor: `${product.color}30` }}>
             {product.brand}
           </span>
@@ -42,34 +42,34 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
         <div className="border-b border-dashed border-cream-border mb-2" />
 
         {[
-          { l: "かかく", v: `¥${product.price}` },
-          { l: "しゅるい", v: `全${product.types}種` },
-          { l: "はつばい", v: product.releaseWeek },
+          { l: "価格", v: `¥${product.price}` },
+          { l: "種類", v: `全${product.types}種` },
+          { l: "発売", v: product.releaseWeek },
         ].map((r) => (
           <div key={r.l} className="flex justify-between py-1.5 border-b border-dotted border-cream-border">
-            <span className="font-pixel text-[7px] text-brand-sub">{r.l}</span>
-            <span className="font-pixel text-[8px] text-brand-text">{r.v}</span>
+            <span className="font-pixel text-[9px] text-brand-sub">{r.l}</span>
+            <span className="font-pixel text-[10px] text-brand-text">{r.v}</span>
           </div>
         ))}
 
-        <a href={product.affiliateUrl || "#"} target="_blank" rel="noopener noreferrer"
-          className="block w-full py-3 mt-3 rounded-lg font-pixel text-[9px] text-white text-center no-underline"
+        <a href={product.sourceUrl || "#"} target="_blank" rel="noopener noreferrer"
+          className="block w-full py-3 mt-3 rounded-lg font-pixel text-[11px] text-white text-center no-underline"
           style={{
             background: `linear-gradient(135deg, ${product.color}, ${product.color}DD)`,
             boxShadow: `0 3px 0 ${product.color}66, 0 4px 12px ${product.color}33`,
           }}>
-          ▶ くわしく みる
+          🔗 公式サイトで詳しく見る
         </a>
 
         {onClose && (
           <button onClick={close}
-            className="block w-full py-2.5 mt-2 bg-transparent border-2 border-cream-border rounded-lg font-pixel text-[7px] text-brand-sub cursor-pointer">
-            ✕ とじる
+            className="block w-full py-2.5 mt-2 bg-transparent border-2 border-cream-border rounded-lg font-pixel text-[9px] text-brand-sub cursor-pointer">
+            ✕ 閉じる
           </button>
         )}
 
         <div className="mt-2.5 border-t-2 border-dashed border-cream-border pt-1.5 text-center">
-          <div className="font-pixel text-[5px] text-brand-sub">THANK YOU FOR PLAYING!</div>
+          <div className="font-pixel text-[7px] text-brand-sub">THANK YOU FOR PLAYING!</div>
           <div className="font-pixel text-[10px] text-cream-border mt-0.5">● ● ●</div>
         </div>
       </div>

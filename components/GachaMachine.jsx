@@ -2,27 +2,6 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
-function MiniCapsule({ size, rot, opacity, color, style }) {
-  return (
-    <div style={{
-      width: size, height: size * 1.15,
-      transform: `rotate(${rot}deg)`, opacity,
-      pointerEvents: "none", zIndex: 2, position: "absolute", ...style,
-    }}>
-      <div style={{
-        width: size, height: size * 0.55,
-        borderRadius: `${size}px ${size}px 0 0`,
-        background: `${color}55`,
-      }} />
-      <div style={{
-        width: size, height: size * 0.6,
-        borderRadius: `0 0 ${size}px ${size}px`,
-        background: color,
-      }} />
-    </div>
-  );
-}
-
 /* 画像がない商品用の大きなカプセルSVG */
 function CapsulePlaceholder({ color }) {
   const topColor = `${color}88`;
@@ -78,7 +57,6 @@ export default function GachaMachine({ product, index, onClick }) {
           </div>
         )}
 
-        {/* 発売日バッジ（左上） */}
         {product.releaseWeek && (
           <div className="absolute top-2 left-2 z-10 bg-white/90 border border-cream-border text-brand-text font-pixel text-[10px] px-1.5 py-0.5 rounded-md"
             style={{ backdropFilter: "blur(4px)" }}>
@@ -87,8 +65,6 @@ export default function GachaMachine({ product, index, onClick }) {
         )}
 
         <div className="relative overflow-hidden border-b-2 border-dashed border-cream-border">
-          <MiniCapsule size={11} rot={-25} opacity={0.45} color={product.color} style={{ bottom: 4, left: 6 }} />
-          <MiniCapsule size={9} rot={18} opacity={0.35} color={product.color} style={{ bottom: 3, right: 8 }} />
           {hasImage ? (
             <img src={product.img} alt={product.name} className="w-full block"
               style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top", background: "#FFF8F0" }} />
