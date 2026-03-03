@@ -22,7 +22,7 @@ function HeaderCapsule({ size, color, style }) {
   );
 }
 
-export default function Header({ brands, selected, onSelect, sortByDate, onToggleSort }) {
+export default function Header({ brands, selected, onSelect }) {
   return (
     <header className="sticky top-0 z-50 border-b-2 border-cream-border relative overflow-hidden"
       style={{ background: "linear-gradient(180deg, #FFFAF3 0%, #FFF4E8 100%)" }}>
@@ -51,21 +51,7 @@ export default function Header({ brands, selected, onSelect, sortByDate, onToggl
           </div>
         </div>
 
-        <div className="flex items-center gap-2 mb-1">
-          <div className="flex-1 overflow-hidden">
-            <FilterTabs brands={brands} selected={selected} onSelect={onSelect} />
-          </div>
-          <button onClick={onToggleSort}
-            className="shrink-0 px-2.5 py-1.5 rounded-lg font-pixel text-[10px] border-2 transition-all duration-150 cursor-pointer"
-            style={{
-              background: sortByDate ? "#5B8C6D" : "#FFFFFF",
-              borderColor: sortByDate ? "#5B8C6D" : "#F0E6D6",
-              color: sortByDate ? "#fff" : "#9B8978",
-              boxShadow: sortByDate ? "0 2px 8px #5B8C6D33" : "none",
-            }}>
-            📅 発売日順
-          </button>
-        </div>
+        <FilterTabs brands={brands} selected={selected} onSelect={onSelect} />
       </div>
     </header>
   );

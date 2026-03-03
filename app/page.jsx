@@ -6,9 +6,47 @@ import ReceiptPaper from "../components/ReceiptPaper";
 import Footer from "../components/Footer";
 import products from "../data/products.json";
 
-const BRANDS = ["すべて", ...Array.from(new Set(products.map((p) => p.brand)))];
+/* ブランドを人気順にソート */
+const PRIORITY_BRANDS = ["サンリオ", "たまごっち", "ちいかわ", "ポケモン"];
 
-/* 発売週文字列を比較用の数値に変換 例: "3月 第2週" → 302 */
+function getSortedBrands() {
+  const brandCounts = {};
+  products.forEach((p) => {
+    brandCounts[p.brand] = (brandCounts[p.brand] || 0) + 1;
+  });
+
+  const allBrands = Array.from(new Set(products.map((p) => p.brand)));
+
+  // 優先ブランド（存在するもののみ）
+  const priority = PRIORITY_BRANDS.filter((b) => allBrands.includes(b));
+
+  // 残りを商品数順
+  const rest = allBrands
+    .filter((b) => !PRIORITY_BRANDS.includes(b))
+    .sort((a, b) => (brandCounts[b] || 0) - (brandCounts[a] || 0));
+
+  return ["すべて", ...priority, ...rest];
+}
+
+const BRANDS = getSortedBrands();
+
+/* 商品の発売ステータスを判定 */
+function getStatus(product) {
+  const now = new Date();
+  const currentMonth = now.getMonth() + 1;
+  const rw = product.releaseWeek || "未定";
+
+  const monthMatch = rw.match(/(\d+)月/);
+  if (!monthMatch) return "new";
+
+  const releaseMonth = parseInt(monthMatch[1]);
+
+  if (releaseMonth < currentMonth) return "available";
+  if (releaseMonth === currentMonth) return "new";
+  return "upcoming";
+}
+
+/* 発売週文字列を比較用の数値に変換 */
 function releaseWeekToNum(str) {
   if (!str) return 9999;
   const m = str.match(/(\d+)月/);
@@ -18,22 +56,6 @@ function releaseWeekToNum(str) {
   if (w) return month * 100 + parseInt(w[1]);
   if (d) return month * 100 + Math.ceil(parseInt(d[1]) / 7);
   return month * 100 + 9;
-}
-
-/* 商品の発売ステータスを判定 */
-function getStatus(product) {
-  const now = new Date();
-  const currentMonth = now.getMonth() + 1; // 1-12
-  const rw = product.releaseWeek || "未定";
-
-  const monthMatch = rw.match(/(\d+)月/);
-  if (!monthMatch) return "new"; // 未定は新作扱い
-
-  const releaseMonth = parseInt(monthMatch[1]);
-
-  if (releaseMonth < currentMonth) return "available"; // 先月以前 = 発売中
-  if (releaseMonth === currentMonth) return "new"; // 今月 = 新作
-  return "upcoming"; // 来月以降 = 発売予定
 }
 
 const STATUS_TABS = [
@@ -46,7 +68,6 @@ const STATUS_TABS = [
 export default function HomePage() {
   const [brand, setBrand] = useState("すべて");
   const [selected, setSelected] = useState(null);
-  const [sortByDate, setSortByDate] = useState(false);
   const [statusTab, setStatusTab] = useState("all");
 
   let filtered = brand === "すべて" ? [...products] : products.filter((p) => p.brand === brand);
@@ -56,14 +77,16 @@ export default function HomePage() {
     filtered = filtered.filter((p) => getStatus(p) === statusTab);
   }
 
-  if (sortByDate) {
-    filtered = [...filtered].sort((a, b) => releaseWeekToNum(a.releaseWeek) - releaseWeekToNum(b.releaseWeek));
-  }
+  // 発売日順にソート（新しい順）
+  filtered = [...filtered].sort((a, b) => releaseWeekToNum(b.releaseWeek) - releaseWeekToNum(a.releaseWeek));
+
+  // 「発売予定」に該当する商品があるか
+  const hasUpcoming = products.some((p) => getStatus(p) === "upcoming");
+  const visibleTabs = hasUpcoming ? STATUS_TABS : STATUS_TABS.filter((t) => t.key !== "upcoming");
 
   return (
     <>
-      <Header brands={BRANDS} selected={brand} onSelect={setBrand}
-        sortByDate={sortByDate} onToggleSort={() => setSortByDate(!sortByDate)} />
+      <Header brands={BRANDS} selected={brand} onSelect={setBrand} />
 
       <main className="px-2.5 pt-3 pb-20 relative" style={{ minHeight: "calc(100vh - 160px)" }}>
         <div className="absolute inset-0 pointer-events-none opacity-50"
@@ -71,7 +94,7 @@ export default function HomePage() {
 
         {/* 発売中/新作/発売予定 タブ */}
         <div className="flex gap-1.5 mb-3 px-1 relative z-10 overflow-x-auto">
-          {STATUS_TABS.map((tab) => (
+          {visibleTabs.map((tab) => (
             <button key={tab.key} onClick={() => setStatusTab(tab.key)}
               className="shrink-0 px-3 py-1.5 rounded-full font-pixel text-[10px] border-2 transition-all duration-150 cursor-pointer"
               style={{
