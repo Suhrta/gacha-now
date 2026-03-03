@@ -88,7 +88,7 @@ export default function HomePage() {
         <div className="font-pixel text-[11px] text-brand-sub mb-2.5 px-1 relative">
           {filtered.length}件 ── タップで詳しく！
         </div>
-        <div className="flex flex-wrap gap-2.5 relative z-[1]">
+        <div key={statusTab + brand} className="flex flex-wrap gap-2.5 relative z-[1]">
           {filtered.map((p, i) => (
             <GachaMachine key={`${statusTab}-${p.id}`} product={p} index={i} onClick={setSelected} />
           ))}
