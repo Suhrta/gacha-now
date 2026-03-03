@@ -87,16 +87,30 @@ export default function GachaMachine({ product, index, onClick }) {
           </div>
         </div>
 
-        {/* 回すハンドル（白い角丸の横棒） */}
-        <div className="flex justify-center py-1 pointer-events-none">
-          <div style={{
-            width: 48,
-            height: 10,
-            borderRadius: 5,
-            background: "#FFFFFF",
-            border: "1.5px solid #D4C9BC",
-            boxShadow: "0 2px 0 rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.8)",
-          }} />
+        {/* 回すハンドル（丸＋横棒） */}
+        <div className="flex justify-center items-center py-1 pointer-events-none">
+          <div style={{ position: "relative", width: 52, height: 22, display: "flex", alignItems: "center", justifyContent: "center" }}>
+            {/* 横棒 */}
+            <div style={{
+              width: 52,
+              height: 8,
+              borderRadius: 4,
+              background: "#FFFFFF",
+              border: "1.5px solid #D4C9BC",
+              position: "absolute",
+            }} />
+            {/* 中央の丸 */}
+            <div style={{
+              width: 22,
+              height: 22,
+              borderRadius: "50%",
+              background: "#FFFFFF",
+              border: "2px solid #D4C9BC",
+              boxShadow: "0 1px 3px rgba(0,0,0,0.08)",
+              position: "relative",
+              zIndex: 1,
+            }} />
+          </div>
         </div>
 
         {/* 下段：取り出し口（左）+ 価格（右） */}
@@ -124,10 +138,10 @@ export default function GachaMachine({ product, index, onClick }) {
             }} />
           </div>
 
-          {/* 右：価格＋種類（青バッジ） */}
+          {/* 右：価格＋種類（パステルブルーバッジ） */}
           <div className="flex-1 flex justify-end">
             <div style={{
-              background: "#2B5EA7",
+              background: "#A8C8E8",
               borderRadius: 6,
               padding: "4px 8px",
               display: "flex",
@@ -138,7 +152,7 @@ export default function GachaMachine({ product, index, onClick }) {
               <span className="font-pixel font-bold" style={{ color: "#FFFFFF", fontSize: 14, lineHeight: 1 }}>
                 {product.price}円
               </span>
-              <span className="font-pixel" style={{ color: "rgba(255,255,255,0.8)", fontSize: 8, lineHeight: 1 }}>
+              <span className="font-pixel" style={{ color: "rgba(255,255,255,0.85)", fontSize: 8, lineHeight: 1 }}>
                 全{product.types}種
               </span>
             </div>
