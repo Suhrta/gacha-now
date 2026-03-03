@@ -1,12 +1,13 @@
 "use client";
-import { useState, useRef, useEffect } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import Header from "../components/Header";
 import GachaMachine from "../components/GachaMachine";
 import ReceiptPaper from "../components/ReceiptPaper";
 import Footer from "../components/Footer";
 import products from "../data/products.json";
 
-/* ブランドを人気順にソート */
+const ITEMS_PER_PAGE = 20;
+
 const PRIORITY_BRANDS = ["サンリオ", "たまごっち", "ちいかわ", "ポケモン"];
 
 function getSortedBrands() {
@@ -14,34 +15,28 @@ function getSortedBrands() {
   products.forEach((p) => {
     brandCounts[p.brand] = (brandCounts[p.brand] || 0) + 1;
   });
-
   const allBrands = Array.from(new Set(products.map((p) => p.brand)));
   const priority = PRIORITY_BRANDS.filter((b) => allBrands.includes(b));
   const rest = allBrands
     .filter((b) => !PRIORITY_BRANDS.includes(b))
     .sort((a, b) => (brandCounts[b] || 0) - (brandCounts[a] || 0));
-
   return ["すべて", ...priority, ...rest];
 }
 
 const BRANDS = getSortedBrands();
 
-/* 商品の発売ステータスを判定 */
 function getStatus(product) {
   const now = new Date();
   const currentMonth = now.getMonth() + 1;
   const rw = product.releaseWeek || "未定";
-
   const monthMatch = rw.match(/(\d+)月/);
   if (!monthMatch) return "new";
-
   const releaseMonth = parseInt(monthMatch[1]);
   if (releaseMonth < currentMonth) return "available";
   if (releaseMonth === currentMonth) return "new";
   return "upcoming";
 }
 
-/* 発売週文字列を比較用の数値に変換 */
 function releaseWeekToNum(str) {
   if (!str || str === "未定") return 8888;
   const m = str.match(/(\d+)月/);
@@ -53,12 +48,10 @@ function releaseWeekToNum(str) {
   return month * 100 + 9;
 }
 
-/* ソート関数 */
 function sortProducts(list, tab) {
   if (tab === "available") {
     return [...list].sort((a, b) => releaseWeekToNum(b.releaseWeek) - releaseWeekToNum(a.releaseWeek));
   }
-
   if (tab === "new" || tab === "upcoming") {
     return [...list].sort((a, b) => {
       const aHot = a.hot ? 0 : 1;
@@ -67,23 +60,17 @@ function sortProducts(list, tab) {
       return releaseWeekToNum(a.releaseWeek) - releaseWeekToNum(b.releaseWeek);
     });
   }
-
-  // 「すべて」: HOT → 発売日近い(今月) → 未定 → 発売中(先月)
   return [...list].sort((a, b) => {
     const aHot = a.hot ? 0 : 1;
     const bHot = b.hot ? 0 : 1;
     if (aHot !== bHot) return aHot - bHot;
-
     const statusOrder = { new: 0, upcoming: 1, available: 2 };
     const aStatus = getStatus(a);
     const bStatus = getStatus(b);
-
     const aIsUndefined = !a.releaseWeek || a.releaseWeek === "未定" || !a.releaseWeek.match(/\d+月/);
     const bIsUndefined = !b.releaseWeek || b.releaseWeek === "未定" || !b.releaseWeek.match(/\d+月/);
-
     let aOrder = aIsUndefined ? 1.5 : (statusOrder[aStatus] ?? 3);
     let bOrder = bIsUndefined ? 1.5 : (statusOrder[bStatus] ?? 3);
-
     if (aOrder !== bOrder) return aOrder - bOrder;
     return releaseWeekToNum(a.releaseWeek) - releaseWeekToNum(b.releaseWeek);
   });
@@ -102,46 +89,92 @@ export default function HomePage() {
   const [statusTab, setStatusTab] = useState("all");
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
   const searchRef = useRef(null);
+  const loaderRef = useRef(null);
+
+  // 横スワイプ用
+  const touchStartX = useRef(0);
+  const touchEndX = useRef(0);
 
   useEffect(() => {
-    if (searchOpen && searchRef.current) {
-      searchRef.current.focus();
-    }
+    if (searchOpen && searchRef.current) searchRef.current.focus();
   }, [searchOpen]);
 
-  let filtered = brand === "すべて" ? [...products] : products.filter((p) => p.brand === brand);
+  // フィルタ変更時にリセット
+  useEffect(() => {
+    setVisibleCount(ITEMS_PER_PAGE);
+    window.scrollTo(0, 0);
+  }, [brand, statusTab, searchQuery]);
 
+  // 無限スクロール
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
+        }
+      },
+      { threshold: 0.1 }
+    );
+    if (loaderRef.current) observer.observe(loaderRef.current);
+    return () => observer.disconnect();
+  }, [brand, statusTab, searchQuery]);
+
+  // 横スワイプでステータスタブ切替
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+  const handleTouchEnd = (e) => {
+    touchEndX.current = e.changedTouches[0].clientX;
+    const diff = touchStartX.current - touchEndX.current;
+    const visibleTabs = hasUpcoming ? STATUS_TABS : STATUS_TABS.filter((t) => t.key !== "upcoming");
+    const currentIdx = visibleTabs.findIndex((t) => t.key === statusTab);
+
+    if (Math.abs(diff) > 80) {
+      if (diff > 0 && currentIdx < visibleTabs.length - 1) {
+        setStatusTab(visibleTabs[currentIdx + 1].key);
+      } else if (diff < 0 && currentIdx > 0) {
+        setStatusTab(visibleTabs[currentIdx - 1].key);
+      }
+    }
+  };
+
+  let filtered = brand === "すべて" ? [...products] : products.filter((p) => p.brand === brand);
   if (statusTab !== "all") {
     filtered = filtered.filter((p) => getStatus(p) === statusTab);
   }
-
-  // 検索フィルタ
   if (searchQuery.trim()) {
     const q = searchQuery.trim().toLowerCase();
     filtered = filtered.filter((p) =>
       p.name.toLowerCase().includes(q) || p.brand.toLowerCase().includes(q)
     );
   }
-
   filtered = sortProducts(filtered, statusTab);
 
   const hasUpcoming = products.some((p) => getStatus(p) === "upcoming");
   const visibleTabs = hasUpcoming ? STATUS_TABS : STATUS_TABS.filter((t) => t.key !== "upcoming");
 
+  const visible = filtered.slice(0, visibleCount);
+  const hasMore = visibleCount < filtered.length;
+
   return (
     <>
       <Header brands={BRANDS} selected={brand} onSelect={setBrand} />
 
-      <main className="px-2.5 pt-3 pb-20 relative" style={{ minHeight: "calc(100vh - 160px)" }}>
+      <main
+        className="px-2.5 pt-3 pb-20 relative"
+        style={{ minHeight: "calc(100vh - 160px)" }}
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+      >
         <div className="absolute inset-0 pointer-events-none opacity-50"
           style={{ backgroundImage: "radial-gradient(circle, #F0E6D6 1px, transparent 1px)", backgroundSize: "20px 20px" }} />
 
-        {/* 発売中/新作/発売予定 タブ */}
         <div className="flex gap-1.5 mb-3 px-1 relative z-10 overflow-x-auto">
           {visibleTabs.map((tab) => (
             <button key={tab.key} onClick={() => setStatusTab(tab.key)}
-              className="shrink-0 px-3 py-1.5 rounded-full font-pixel text-[10px] border-2 transition-all duration-150 cursor-pointer"
+              className="shrink-0 px-3 py-1.5 rounded-full font-pixel text-[10px] border-2 transition-colors duration-100 cursor-pointer"
               style={{
                 background: statusTab === tab.key ? "#E8756D" : "#FFFFFF",
                 borderColor: statusTab === tab.key ? "#E8756D" : "#F0E6D6",
@@ -157,10 +190,20 @@ export default function HomePage() {
           {filtered.length}件 ── タップで詳しく！
         </div>
         <div key={statusTab + brand + searchQuery} className="flex flex-wrap gap-2.5 relative z-[1]">
-          {filtered.map((p, i) => (
+          {visible.map((p, i) => (
             <GachaMachine key={`${statusTab}-${p.id}`} product={p} index={i} onClick={setSelected} />
           ))}
         </div>
+
+        {/* 無限スクロール用ローダー */}
+        {hasMore && (
+          <div ref={loaderRef} className="flex justify-center py-6">
+            <div className="font-pixel text-[10px] text-brand-sub animate-pulse">
+              もっと読み込み中...
+            </div>
+          </div>
+        )}
+
         {filtered.length === 0 && (
           <div className="text-center py-10 text-brand-sub font-pixel text-[10px] leading-[2.2]">
             {searchQuery ? (
@@ -210,21 +253,15 @@ export default function HomePage() {
           style={{
             background: "linear-gradient(135deg, #E8756D, #E8756DDD)",
             boxShadow: "0 4px 16px rgba(232,117,109,0.4), 0 2px 4px rgba(232,117,109,0.2)",
-            animation: "fadeIn 0.3s ease-out",
           }}>
           <span className="text-white text-[22px]">🔍</span>
         </button>
       )}
 
-      {/* 検索アニメーション */}
       <style jsx global>{`
         @keyframes slideUp {
           from { transform: translateY(20px); opacity: 0; }
           to { transform: translateY(0); opacity: 1; }
-        }
-        @keyframes fadeIn {
-          from { opacity: 0; transform: scale(0.8); }
-          to { opacity: 1; transform: scale(1); }
         }
       `}</style>
 
