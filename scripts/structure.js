@@ -35,6 +35,16 @@ function toBrandSlug(brand) {
     "コウペンちゃん": "koupen", "タローマン": "taroman",
     "可愛い嘘のカワウソ": "kawauso", "おぱんちゅうさぎ": "opanchu",
     "チェンソーマン": "chainsawman", "ヒロアカ": "heroaca",
+    // ブシロードクリエイティブ関連
+    "バンドリ": "bandori", "ラブライブ": "lovelive", "D4DJ": "d4dj",
+    "ぼっち・ざ・ろっく": "bocchi", "名探偵コナン": "conan",
+    "ハイキュー": "haikyu", "ダンダダン": "dandadan",
+    "モブサイコ100": "mobpsycho", "るろうに剣心": "rurouni",
+    "DEATH NOTE": "deathnote", "ぴちぴちピッチ": "pitchipitch",
+    "ゾンビランドサガ": "zombieland", "ウマ娘": "umamusume",
+    // Qualia・ケンエレファント関連
+    "ピングー": "pingu", "セサミストリート": "sesame",
+    "ケアベア": "carebears",
   };
   if (map[brand]) return map[brand];
   // 未登録ブランド → 自動スラッグ生成

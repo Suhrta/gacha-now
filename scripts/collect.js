@@ -71,6 +71,23 @@ const BRAND_MAP = [
   { keywords: ["おぱんちゅうさぎ"], brand: "おぱんちゅうさぎ" },
   { keywords: ["チェンソーマン"], brand: "チェンソーマン" },
   { keywords: ["ヒロアカ", "僕のヒーローアカデミア"], brand: "ヒロアカ" },
+  // ブシロードクリエイティブ関連IP
+  { keywords: ["BanG Dream", "バンドリ"], brand: "バンドリ" },
+  { keywords: ["ラブライブ"], brand: "ラブライブ" },
+  { keywords: ["D4DJ"], brand: "D4DJ" },
+  { keywords: ["ぼっち・ざ・ろっく", "ぼざろ"], brand: "ぼっち・ざ・ろっく" },
+  { keywords: ["名探偵コナン", "コナン"], brand: "名探偵コナン" },
+  { keywords: ["ハイキュー"], brand: "ハイキュー" },
+  { keywords: ["ダンダダン"], brand: "ダンダダン" },
+  { keywords: ["モブサイコ"], brand: "モブサイコ100" },
+  { keywords: ["るろうに剣心", "るろ剣"], brand: "るろうに剣心" },
+  { keywords: ["DEATH NOTE", "デスノート"], brand: "DEATH NOTE" },
+  { keywords: ["ぴちぴちピッチ"], brand: "ぴちぴちピッチ" },
+  { keywords: ["ゾンビランドサガ"], brand: "ゾンビランドサガ" },
+  { keywords: ["ウマ娘"], brand: "ウマ娘" },
+  { keywords: ["PINGU", "ピングー"], brand: "ピングー" },
+  { keywords: ["セサミストリート", "セサミ"], brand: "セサミストリート" },
+  { keywords: ["ケアベア", "Care Bears"], brand: "ケアベア" },
 ];
 
 // カテゴリタグ除外リスト（ブランドではないタグ）
@@ -514,26 +531,431 @@ async function collectFromKitan() {
 }
 
 // ========================================
+// 4. Qualia公式（商品一覧ページ → 詳細ページ）
+//    cheerioで解析。ページネーション /distinations/page/N/
+// ========================================
+async function collectFromQualia() {
+  const articles = [];
+  let browser;
+  try {
+    console.log("  📡 Qualia公式");
+
+    // 前回取得済みデータを読み込み
+    const collectedPath = path.join(__dirname, "../data/collected.json");
+    let previousData = [];
+    if (fs.existsSync(collectedPath)) {
+      const allPrev = JSON.parse(fs.readFileSync(collectedPath, "utf-8"));
+      previousData = allPrev.filter((a) => a.source === "Qualia公式");
+    }
+    const previousUrls = new Set(previousData.map((a) => a.url));
+    console.log(`    → 前回取得済み: ${previousUrls.size}件`);
+
+    browser = await puppeteer.launch({
+      headless: "new",
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
+
+    // 一覧ページから商品リンクを取得（3ページ分=約30件）
+    const productLinks = [];
+    const listPage = await browser.newPage();
+    for (let pg = 1; pg <= 3; pg++) {
+      const listUrl = pg === 1
+        ? "https://qualia-45.jp/distinations/"
+        : `https://qualia-45.jp/distinations/page/${pg}/`;
+      try {
+        await listPage.goto(listUrl, { waitUntil: "networkidle2", timeout: 20000 });
+        const html = await listPage.content();
+        const $ = cheerio.load(html);
+        $('a[href*="/distinations/"]').each((_, el) => {
+          const href = $(el).attr("href");
+          if (href && href.match(/\/distinations\/[a-z0-9_-]+\/?$/i)
+              && !href.includes("/page/")
+              && !productLinks.includes(href)) {
+            const fullUrl = href.startsWith("http") ? href : `https://qualia-45.jp${href}`;
+            productLinks.push(fullUrl);
+          }
+        });
+      } catch (err) {
+        console.log(`    ⚠️ 一覧ページ${pg}: ${err.message}`);
+      }
+    }
+    await listPage.close();
+    console.log(`    → 一覧から${productLinks.length}件の商品URLを検出`);
+
+    // 差分検出
+    const newUrls = productLinks.filter((url) => !previousUrls.has(url));
+    console.log(`    → 新規: ${newUrls.length}件、既存: ${productLinks.length - newUrls.length}件`);
+
+    // 前回データ復元
+    for (const prev of previousData) {
+      articles.push(prev);
+    }
+
+    // 新規URLだけ詳細ページにアクセス
+    if (newUrls.length > 0) {
+      const detailPage = await browser.newPage();
+      for (let i = 0; i < newUrls.length; i++) {
+        const url = newUrls[i];
+        try {
+          await detailPage.goto(url, { waitUntil: "networkidle2", timeout: 20000 });
+          const html = await detailPage.content();
+          const $ = cheerio.load(html);
+
+          // 商品名
+          let name = $("h2").first().text().trim() || $("h3").first().text().trim();
+          if (!name) name = $("title").text().replace(/\s*\|.*$/, "").trim();
+          if (!name || name.length < 2) continue;
+
+          // 商品情報テキスト
+          const pageText = $.text();
+
+          // 発売日
+          const relMatch = pageText.match(/発売日[：:]\s*(\d{4})年(\d{1,2})月/);
+          let releaseWeek = "未定";
+          if (relMatch) {
+            releaseWeek = `${relMatch[1]}年${relMatch[2]}月`;
+            // 上旬/中旬/下旬があれば追加
+            const detailMatch = pageText.match(/発売日[：:].*?(\d{4})年(\d{1,2})月\s*(上旬|中旬|下旬)?/);
+            if (detailMatch && detailMatch[3]) {
+              releaseWeek += ` ${detailMatch[3]}`;
+            }
+          }
+
+          // 価格・種類
+          const priceMatch = pageText.match(/(\d{2,4})円/);
+          const price = priceMatch ? parseInt(priceMatch[1]) : null;
+          const typesMatch = pageText.match(/全\s*(\d+)\s*種/);
+          const types = typesMatch ? parseInt(typesMatch[1]) : null;
+
+          // 画像
+          let imageUrl = $('meta[property="og:image"]').attr("content") || null;
+          if (!imageUrl) {
+            const imgEl = $("img[src*='wp-content']").first();
+            imageUrl = imgEl.attr("src") || null;
+          }
+
+          const brand = detectBrand(name);
+
+          articles.push({
+            title: name,
+            url,
+            source: "Qualia公式",
+            imageUrl,
+            images: imageUrl ? [imageUrl] : [],
+            price,
+            releaseWeek,
+            brand,
+            types,
+          });
+          console.log(`    ✅ [${i + 1}/${newUrls.length}] ${name}`);
+        } catch (err) {
+          console.error(`    ⚠️ ${url}: ${err.message}`);
+        }
+        await new Promise((r) => setTimeout(r, 800));
+      }
+      await detailPage.close();
+    } else {
+      console.log("    → 新規商品なし、前回データをそのまま使用");
+    }
+  } catch (err) {
+    console.error(`  ❌ Qualia公式 失敗: ${err.message}`);
+  } finally {
+    if (browser) await browser.close();
+  }
+  return articles;
+}
+
+// ========================================
+// 5. ブシロードクリエイティブ公式（ブシカプ！サイト）
+//    一覧ページ → 詳細ページ（カプセルトイのみ）
+// ========================================
+async function collectFromBushiroad() {
+  const articles = [];
+  let browser;
+  try {
+    console.log("  📡 ブシロードクリエイティブ公式");
+
+    const collectedPath = path.join(__dirname, "../data/collected.json");
+    let previousData = [];
+    if (fs.existsSync(collectedPath)) {
+      const allPrev = JSON.parse(fs.readFileSync(collectedPath, "utf-8"));
+      previousData = allPrev.filter((a) => a.source === "ブシロードクリエイティブ公式");
+    }
+    const previousUrls = new Set(previousData.map((a) => a.url));
+    console.log(`    → 前回取得済み: ${previousUrls.size}件`);
+
+    browser = await puppeteer.launch({
+      headless: "new",
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
+
+    // 一覧ページ（カプセルトイ、新着順）3ページ分
+    const productLinks = [];
+    const listPage = await browser.newPage();
+    for (let pg = 1; pg <= 3; pg++) {
+      const listUrl = pg === 1
+        ? "https://capsule.bushiroad-creative.com/product/?gr=capsuletoy"
+        : `https://capsule.bushiroad-creative.com/product/?gr=capsuletoy&page=${pg}`;
+      try {
+        await listPage.goto(listUrl, { waitUntil: "networkidle2", timeout: 20000 });
+        const html = await listPage.content();
+        const $ = cheerio.load(html);
+        $('a[href*="/product/"]').each((_, el) => {
+          const href = $(el).attr("href");
+          if (href && href.match(/\/product\/\d+\/?$/)) {
+            const fullUrl = href.startsWith("http") ? href : `https://capsule.bushiroad-creative.com${href}`;
+            if (!productLinks.includes(fullUrl)) productLinks.push(fullUrl);
+          }
+        });
+      } catch (err) {
+        console.log(`    ⚠️ 一覧ページ${pg}: ${err.message}`);
+      }
+    }
+    await listPage.close();
+    console.log(`    → 一覧から${productLinks.length}件の商品URLを検出`);
+
+    const newUrls = productLinks.filter((url) => !previousUrls.has(url));
+    console.log(`    → 新規: ${newUrls.length}件、既存: ${productLinks.length - newUrls.length}件`);
+
+    for (const prev of previousData) {
+      articles.push(prev);
+    }
+
+    if (newUrls.length > 0) {
+      const detailPage = await browser.newPage();
+      for (let i = 0; i < newUrls.length; i++) {
+        const url = newUrls[i];
+        try {
+          await detailPage.goto(url, { waitUntil: "networkidle2", timeout: 20000 });
+          const html = await detailPage.content();
+          const $ = cheerio.load(html);
+
+          // 商品名
+          let name = $("h3").first().text().trim();
+          if (!name) name = $("title").text().replace(/\s*[｜|].*$/, "").trim();
+          if (!name || name.length < 2) continue;
+
+          // 商品情報
+          const pageText = $.text();
+
+          // 発売日: "2026年6月下旬発売予定" or "2026年3月発売予定"
+          const relMatch = pageText.match(/(\d{4})年(\d{1,2})月\s*(上旬|中旬|下旬)?/);
+          let releaseWeek = "未定";
+          if (relMatch) {
+            releaseWeek = `${relMatch[1]}年${relMatch[2]}月`;
+            if (relMatch[3]) releaseWeek += ` ${relMatch[3]}`;
+          }
+
+          // 価格: "500円 (税込)"
+          const priceMatch = pageText.match(/(\d{2,4})円\s*[\(（]?税込/);
+          const price = priceMatch ? parseInt(priceMatch[1]) : null;
+
+          // 種類: "全5種"
+          const typesMatch = pageText.match(/全\s*(\d+)\s*種/);
+          const types = typesMatch ? parseInt(typesMatch[1]) : null;
+
+          // 画像
+          let imageUrl = $('meta[property="og:image"]').attr("content") || null;
+          if (!imageUrl) {
+            const imgEl = $("img[src*='wp-content']").first();
+            imageUrl = imgEl.attr("src") || null;
+          }
+
+          const brand = detectBrand(name);
+
+          articles.push({
+            title: name,
+            url,
+            source: "ブシロードクリエイティブ公式",
+            imageUrl,
+            images: imageUrl ? [imageUrl] : [],
+            price,
+            releaseWeek,
+            brand,
+            types,
+          });
+          console.log(`    ✅ [${i + 1}/${newUrls.length}] ${name}`);
+        } catch (err) {
+          console.error(`    ⚠️ ${url}: ${err.message}`);
+        }
+        await new Promise((r) => setTimeout(r, 800));
+      }
+      await detailPage.close();
+    } else {
+      console.log("    → 新規商品なし、前回データをそのまま使用");
+    }
+  } catch (err) {
+    console.error(`  ❌ ブシロードクリエイティブ公式 失敗: ${err.message}`);
+  } finally {
+    if (browser) await browser.close();
+  }
+  return articles;
+}
+
+// ========================================
+// 6. ケンエレファント公式（KENELE STOREから取得）
+//    ECサイトの商品一覧から取得
+// ========================================
+async function collectFromKenelephant() {
+  const articles = [];
+  let browser;
+  try {
+    console.log("  📡 ケンエレファント公式");
+
+    const collectedPath = path.join(__dirname, "../data/collected.json");
+    let previousData = [];
+    if (fs.existsSync(collectedPath)) {
+      const allPrev = JSON.parse(fs.readFileSync(collectedPath, "utf-8"));
+      previousData = allPrev.filter((a) => a.source === "ケンエレファント公式");
+    }
+    const previousUrls = new Set(previousData.map((a) => a.url));
+    console.log(`    → 前回取得済み: ${previousUrls.size}件`);
+
+    browser = await puppeteer.launch({
+      headless: "new",
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
+
+    // KENELE STOREのカプセルトイ商品一覧（ページ1〜3）
+    const productLinks = [];
+    const listPage = await browser.newPage();
+    for (let pg = 1; pg <= 3; pg++) {
+      const listUrl = `https://kenelestore.jp/collections/all?page=${pg}`;
+      try {
+        await listPage.goto(listUrl, { waitUntil: "networkidle2", timeout: 20000 });
+        const html = await listPage.content();
+        const $ = cheerio.load(html);
+        $('a[href*="/products/"]').each((_, el) => {
+          const href = $(el).attr("href");
+          if (href && href.match(/\/products\/[a-z0-9-]+$/i)) {
+            const fullUrl = `https://kenelestore.jp${href}`;
+            if (!productLinks.includes(fullUrl)) productLinks.push(fullUrl);
+          }
+        });
+      } catch (err) {
+        console.log(`    ⚠️ 一覧ページ${pg}: ${err.message}`);
+      }
+    }
+    await listPage.close();
+    console.log(`    → 一覧から${productLinks.length}件の商品URLを検出`);
+
+    const newUrls = productLinks.filter((url) => !previousUrls.has(url));
+    console.log(`    → 新規: ${newUrls.length}件、既存: ${productLinks.length - newUrls.length}件`);
+
+    for (const prev of previousData) {
+      articles.push(prev);
+    }
+
+    if (newUrls.length > 0) {
+      const detailPage = await browser.newPage();
+      for (let i = 0; i < newUrls.length; i++) {
+        const url = newUrls[i];
+        try {
+          await detailPage.goto(url, { waitUntil: "networkidle2", timeout: 20000 });
+          const html = await detailPage.content();
+          const $ = cheerio.load(html);
+
+          // 商品名
+          let name = $("h1").first().text().trim();
+          if (!name) name = $("title").text().replace(/\s*[–—|].*$/, "").trim();
+          if (!name || name.length < 2) continue;
+
+          const pageText = $.text();
+
+          // 発売日: "2026年3月頃発売予定" or "2026年6月頃"
+          const relMatch = pageText.match(/(\d{4})年(\d{1,2})月\s*(頃|上旬|中旬|下旬)?/);
+          let releaseWeek = "未定";
+          if (relMatch) {
+            releaseWeek = `${relMatch[1]}年${relMatch[2]}月`;
+            if (relMatch[3] && relMatch[3] !== "頃") releaseWeek += ` ${relMatch[3]}`;
+          }
+
+          // 価格: Shopifyサイトなので "¥400" or "400円"
+          const priceMatch = pageText.match(/[¥￥](\d{2,4})/) || pageText.match(/(\d{2,4})円/);
+          const price = priceMatch ? parseInt(priceMatch[1]) : null;
+
+          // 種類
+          const typesMatch = pageText.match(/全\s*(\d+)\s*種/);
+          const types = typesMatch ? parseInt(typesMatch[1]) : null;
+
+          // 画像
+          let imageUrl = $('meta[property="og:image"]').attr("content") || null;
+          if (!imageUrl) {
+            const imgEl = $("img[src*='cdn.shopify']").first();
+            imageUrl = imgEl.attr("src") || null;
+          }
+
+          const brand = detectBrand(name);
+
+          articles.push({
+            title: name,
+            url,
+            source: "ケンエレファント公式",
+            imageUrl,
+            images: imageUrl ? [imageUrl] : [],
+            price,
+            releaseWeek,
+            brand,
+            types,
+          });
+          console.log(`    ✅ [${i + 1}/${newUrls.length}] ${name}`);
+        } catch (err) {
+          console.error(`    ⚠️ ${url}: ${err.message}`);
+        }
+        await new Promise((r) => setTimeout(r, 800));
+      }
+      await detailPage.close();
+    } else {
+      console.log("    → 新規商品なし、前回データをそのまま使用");
+    }
+  } catch (err) {
+    console.error(`  ❌ ケンエレファント公式 失敗: ${err.message}`);
+  } finally {
+    if (browser) await browser.close();
+  }
+  return articles;
+}
+
+// ========================================
 // メイン実行
 // ========================================
 async function main() {
-  console.log("🏪 ガチャなう データ収集 v5\n");
+  console.log("🏪 ガチャなう データ収集 v6\n");
 
   const results = {};
 
-  console.log("[1/3] バンダイ ガシャポン公式");
+  console.log("[1/6] バンダイ ガシャポン公式");
   results.bandai = await collectFromBandai();
   console.log(`  → ${results.bandai.length}件\n`);
 
-  console.log("[2/3] タカラトミーアーツ公式");
+  console.log("[2/6] タカラトミーアーツ公式");
   results.takaratomy = await collectFromTakaraTomy();
   console.log(`  → ${results.takaratomy.length}件\n`);
 
-  console.log("[3/3] キタンクラブ公式");
+  console.log("[3/6] キタンクラブ公式");
   results.kitan = await collectFromKitan();
   console.log(`  → ${results.kitan.length}件\n`);
 
-  const all = [...results.bandai, ...results.takaratomy, ...results.kitan];
+  console.log("[4/6] Qualia公式");
+  results.qualia = await collectFromQualia();
+  console.log(`  → ${results.qualia.length}件\n`);
+
+  console.log("[5/6] ブシロードクリエイティブ公式");
+  results.bushiroad = await collectFromBushiroad();
+  console.log(`  → ${results.bushiroad.length}件\n`);
+
+  console.log("[6/6] ケンエレファント公式");
+  results.kenelephant = await collectFromKenelephant();
+  console.log(`  → ${results.kenelephant.length}件\n`);
+
+  const all = [
+    ...results.bandai,
+    ...results.takaratomy,
+    ...results.kitan,
+    ...results.qualia,
+    ...results.bushiroad,
+    ...results.kenelephant,
+  ];
 
   // 重複排除
   const seen = new Set();
@@ -549,6 +971,9 @@ async function main() {
   console.log(`   バンダイ公式: ${results.bandai.length}件`);
   console.log(`   タカトミ公式: ${results.takaratomy.length}件`);
   console.log(`   キタンクラブ公式: ${results.kitan.length}件`);
+  console.log(`   Qualia公式: ${results.qualia.length}件`);
+  console.log(`   ブシロードクリエイティブ公式: ${results.bushiroad.length}件`);
+  console.log(`   ケンエレファント公式: ${results.kenelephant.length}件`);
 
   const outputPath = path.join(__dirname, "../data/collected.json");
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
