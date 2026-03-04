@@ -2,17 +2,43 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
-  title: "ガチャなう | カプセルトイ新作情報",
-  description: "毎日更新！カプセルトイ新作情報をお届け。サンリオ、たまごっち、ちいかわ、ポケモンなど人気カプセルトイ情報をチェック！",
-  keywords: ["ガチャガチャ", "カプセルトイ", "新作", "ガチャなう", "サンリオ", "ちいかわ", "ポケモン"],
+  metadataBase: new URL("https://gacha-now.vercel.app"),
+  title: "ガチャなう | カプセルトイ・ガチャガチャ新作情報まとめ",
+  description:
+    "毎日自動更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。バンダイ、タカラトミーアーツ、キタンクラブなど人気メーカー対応。サンリオ・ちいかわ・ポケモンなど話題のカプセルトイ情報を発売日・ブランド別に探せます。",
+  keywords: [
+    "ガチャガチャ", "カプセルトイ", "新作", "ガチャなう",
+    "ガシャポン", "バンダイ", "タカラトミーアーツ", "キタンクラブ",
+    "サンリオ", "ちいかわ", "ポケモン", "ワンピース",
+    "カプセルトイ 新作 2025", "ガチャガチャ 最新",
+  ],
+  alternates: {
+    canonical: "https://gacha-now.vercel.app",
+  },
   openGraph: {
-    title: "ガチャなう | カプセルトイ新作情報",
-    description: "カプセルトイの新作情報をピクセルアート風UIでお届け",
+    title: "ガチャなう | カプセルトイ・ガチャガチャ新作情報まとめ",
+    description:
+      "毎日自動更新！300件以上のカプセルトイ新作情報をブランド別にチェック。バンダイ・タカトミ・キタンクラブ対応。",
     type: "website",
     locale: "ja_JP",
+    url: "https://gacha-now.vercel.app",
     siteName: "ガチャなう",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "ガチャなう - カプセルトイ新作情報サイト",
+      },
+    ],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: {
+    card: "summary_large_image",
+    title: "ガチャなう | カプセルトイ新作情報まとめ",
+    description:
+      "毎日自動更新！300件以上のガチャガチャ新作情報をチェック",
+    images: ["/og-image.png"],
+  },
   robots: { index: true, follow: true },
 };
 
@@ -35,6 +61,20 @@ export default function RootLayout({ children }) {
         </Script>
       </head>
       <body className="min-h-screen bg-cream font-pixel">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "ガチャなう",
+              url: "https://gacha-now.vercel.app",
+              description:
+                "毎日自動更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。",
+              inLanguage: "ja",
+            }),
+          }}
+        />
         <div className="max-w-[430px] mx-auto relative">
           {children}
         </div>
