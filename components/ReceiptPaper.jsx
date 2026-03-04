@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 const zigzagTop = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,10 8,0 16,10' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
 const zigzagBottom = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,0 8,10 16,0' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
@@ -25,10 +25,6 @@ function ImageSwiper({ images, name }) {
   const [current, setCurrent] = useState(0);
   const [validImages, setValidImages] = useState([images[0]]);
   const [checked, setChecked] = useState(false);
-  const touchStartX = useRef(0);
-  const touchDeltaX = useRef(0);
-  const [dragging, setDragging] = useState(false);
-  const [dragOffset, setDragOffset] = useState(0);
 
   // バンダイの連番画像を順次読み込み確認
   useEffect(() => {
@@ -58,31 +54,19 @@ function ImageSwiper({ images, name }) {
 
   const validCount = validImages.length;
 
-  const handleTouchStart = useCallback((e) => {
-    touchStartX.current = e.touches[0].clientX;
-    touchDeltaX.current = 0;
-    setDragging(true);
-  }, []);
-
-  const handleTouchMove = useCallback((e) => {
-    if (!dragging) return;
-    const delta = e.touches[0].clientX - touchStartX.current;
-    touchDeltaX.current = delta;
-    setDragOffset(delta);
-  }, [dragging]);
-
-  const handleTouchEnd = useCallback(() => {
-    setDragging(false);
-    const threshold = 50;
-    if (touchDeltaX.current < -threshold && current < validCount - 1) {
-      setCurrent((p) => p + 1);
-    } else if (touchDeltaX.current > threshold && current > 0) {
-      setCurrent((p) => p - 1);
+  // タップで切り替え（右半分→次、左半分→前）
+  const handleTap = useCallback((e) => {
+    if (validCount <= 1) return;
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = (e.clientX || e.changedTouches?.[0]?.clientX || 0) - rect.left;
+    if (x > rect.width / 2) {
+      setCurrent((p) => Math.min(p + 1, validCount - 1));
+    } else {
+      setCurrent((p) => Math.max(p - 1, 0));
     }
-    setDragOffset(0);
-  }, [current, validCount]);
+  }, [validCount]);
 
-  // 画像1枚の場合はスワイプなし
+  // 画像1枚の場合はタップなし
   if (validCount <= 1 && checked) {
     return (
       <div className="rounded-lg overflow-hidden mb-2 border-2 border-cream-border">
@@ -94,19 +78,16 @@ function ImageSwiper({ images, name }) {
 
   return (
     <div className="mb-2 relative">
-      {/* スワイプエリア */}
+      {/* タップエリア */}
       <div
-        className="rounded-lg overflow-hidden border-2 border-cream-border relative"
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onTouchEnd={handleTouchEnd}
-        style={{ touchAction: "pan-y" }}
+        className="rounded-lg overflow-hidden border-2 border-cream-border relative cursor-pointer"
+        onClick={handleTap}
       >
         <div
           className="flex"
           style={{
-            transform: `translateX(calc(-${current * 100}% + ${dragOffset}px))`,
-            transition: dragging ? "none" : "transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+            transform: `translateX(-${current * 100}%)`,
+            transition: "transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
           }}
         >
           {validImages.map((src, i) => (
@@ -122,12 +103,30 @@ function ImageSwiper({ images, name }) {
         </div>
 
         {/* 右端チラ見えグラデーション（1枚目 & 複数枚ある時） */}
-        {current === 0 && validCount > 1 && !dragging && (
+        {current === 0 && validCount > 1 && (
           <div className="absolute right-0 top-0 bottom-0 w-8 pointer-events-none"
             style={{
               background: "linear-gradient(to left, rgba(255,253,248,0.6), transparent)",
             }}
           />
+        )}
+
+        {/* タップ方向ヒント（左右の矢印、薄く表示） */}
+        {validCount > 1 && (
+          <>
+            {current > 0 && (
+              <div className="absolute left-1.5 top-1/2 -translate-y-1/2 pointer-events-none font-pixel text-[16px]"
+                style={{ color: "rgba(0,0,0,0.2)" }}>
+                ‹
+              </div>
+            )}
+            {current < validCount - 1 && (
+              <div className="absolute right-1.5 top-1/2 -translate-y-1/2 pointer-events-none font-pixel text-[16px]"
+                style={{ color: "rgba(0,0,0,0.2)" }}>
+                ›
+              </div>
+            )}
+          </>
         )}
 
         {/* 枚数表示（右上） */}
