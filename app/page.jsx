@@ -193,7 +193,7 @@ export default function HomePage() {
   // お気に入りタブ
   if (statusTab === "favorites") {
     filtered = filtered.filter((p) => favorites.has(p.id));
-  } else if (statusTab !== "all") {
+  } else if (statusTab !== "all" && statusTab !== "trending") {
     filtered = filtered.filter((p) => getStatus(p) === statusTab);
   }
 
