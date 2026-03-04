@@ -87,8 +87,18 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
           </div>
         </div>
 
-        {/* 回すハンドル（丸＋横棒） */}
-        <div className="flex justify-center items-center pt-1 pb-0 pointer-events-none">
+        {/* 回すハンドル（丸＋横棒）+ お気に入り星 */}
+        <div className="flex justify-center items-center pt-1 pb-0 pointer-events-none" style={{ position: "relative" }}>
+          {/* お気に入り星（ハンドルの左） */}
+          {isFavorite && (
+            <span style={{
+              position: "absolute",
+              left: 10,
+              fontSize: 12,
+              color: "#F5A623",
+              filter: "drop-shadow(0 1px 2px rgba(245,166,35,0.4))",
+            }}>⭐</span>
+          )}
           <div style={{ position: "relative", width: 36, height: 36, display: "flex", alignItems: "center", justifyContent: "center" }}>
             {/* 横棒（丸と同じ幅） */}
             <div style={{
@@ -113,15 +123,8 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
           </div>
         </div>
 
-        {/* お気に入り星マーク（取り出し口の上） */}
-        {isFavorite && (
-          <div className="flex justify-center pointer-events-none" style={{ marginTop: -2, marginBottom: -2 }}>
-            <span style={{ fontSize: 12, color: "#F5A623", filter: "drop-shadow(0 1px 2px rgba(245,166,35,0.4))" }}>⭐</span>
-          </div>
-        )}
-
         {/* 下段：取り出し口（左）+ 価格（右） */}
-        <div className="flex items-start px-2 pb-2 pointer-events-none" style={{ height: 48 }}>
+        <div className="flex items-start px-2 pb-2 pointer-events-none relative" style={{ height: 48 }}>
 
           {/* 左下：取り出し口（アーチ＋受け皿） */}
           <div style={{ width: 40 }}>

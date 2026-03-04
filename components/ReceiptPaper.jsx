@@ -240,23 +240,27 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
         {/* 画像ギャラリー */}
         <ImageSwiper images={images} name={product.name} />
 
-        {/* 商品名 + お気に入り星 */}
-        <div className="mb-2 flex items-start gap-2">
-          <div className="flex-1 font-pixel text-[11px] text-brand-text leading-[1.9]">{product.name}</div>
-          {onToggleFavorite && (
-            <button
-              onClick={(e) => { e.stopPropagation(); onToggleFavorite(product.id); }}
-              className="shrink-0 flex items-center justify-center bg-transparent border-none cursor-pointer p-0"
-              style={{ width: 32, height: 32, fontSize: 20, transition: "transform 0.2s" }}
-              onMouseDown={(e) => { e.currentTarget.style.transform = "scale(1.3)"; }}
-              onMouseUp={(e) => { e.currentTarget.style.transform = "scale(1)"; }}
-              onTouchStart={(e) => { e.currentTarget.style.transform = "scale(1.3)"; }}
-              onTouchEnd={(e) => { e.currentTarget.style.transform = "scale(1)"; }}
-            >
-              {isFavorite ? "⭐" : "☆"}
-            </button>
-          )}
+        {/* 商品名 */}
+        <div className="mb-1">
+          <div className="font-pixel text-[11px] text-brand-text leading-[1.9]">{product.name}</div>
         </div>
+
+        {/* お気に入りボタン */}
+        {onToggleFavorite && (
+          <button
+            onClick={(e) => { e.stopPropagation(); onToggleFavorite(product.id); }}
+            className="flex items-center justify-center gap-1.5 w-full py-2 mb-2 rounded-lg border-2 cursor-pointer transition-all duration-150"
+            style={{
+              background: isFavorite ? "#FFF8E7" : "#FFFFFF",
+              borderColor: isFavorite ? "#F5A623" : "#E8DDD0",
+            }}
+          >
+            <span style={{ fontSize: 22, lineHeight: 1 }}>{isFavorite ? "⭐" : "☆"}</span>
+            <span className="font-pixel text-[10px]" style={{ color: isFavorite ? "#D4910A" : "#9B8978" }}>
+              {isFavorite ? "お気に入り登録済み" : "お気に入り登録"}
+            </span>
+          </button>
+        )}
 
         <div className="border-b border-dashed border-cream-border mb-1.5" />
 
