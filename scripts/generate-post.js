@@ -93,7 +93,7 @@ function generateCaption(product) {
     `\ud83d\udcc5 ${product.releaseWeek || "\u767a\u58f2\u65e5\u672a\u5b9a"}`,
     ``,
     `\ud83d\udc46 \u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u306e\u30ea\u30f3\u30af\u304b\u3089\u65b0\u4f5c\u60c5\u5831\u3092\u30c1\u30a7\u30c3\u30af\uff01`,
-    `gacha-now.vercel.app`,
+    `gacha-now.net`,
     ``,
     `#\u30ac\u30c1\u30e3\u30ac\u30c1\u30e3 #\u30ab\u30d7\u30bb\u30eb\u30c8\u30a4 #\u30ac\u30c1\u30e3\u306a\u3046 #\u65b0\u4f5c\u30ac\u30c1\u30e3 #\u30ac\u30b7\u30e3\u30dd\u30f3 #\u30ac\u30c1\u30e3\u6d3b #\u30ac\u30c1\u30e3\u597d\u304d\u3068\u7e4b\u304c\u308a\u305f\u3044 #\u30ab\u30d7\u30bb\u30eb\u30c8\u30a4\u597d\u304d`,
   ];
@@ -110,7 +110,7 @@ function generateXCaption(product) {
     `\ud83d\udcb0 ${product.price}\u5186 / \u5168${product.types}\u7a2e`,
     `\ud83d\udcc5 ${product.releaseWeek || "\u767a\u58f2\u65e5\u672a\u5b9a"}`,
     ``,
-    `gacha-now.vercel.app`,
+    `gacha-now.net`,
     ``,
   ];
   const tags = [`#\u30ac\u30c1\u30e3\u30ac\u30c1\u30e3`];

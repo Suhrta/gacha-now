@@ -21,7 +21,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const POSTS_DIR = path.join(__dirname, "..", "posts");
 
 // サイトURL
-const SITE_URL = "https://gacha-now.vercel.app";
+const SITE_URL = "https://gacha-now.net";
 
 // 環境変数
 const API_KEY = process.env.X_API_KEY;

@@ -1,6 +1,6 @@
 import products from "../data/products.json";
 
-const BASE_URL = "https://gacha-now.vercel.app";
+const BASE_URL = "https://gacha-now.net";
 
 export default function sitemap() {
   const productPages = products.map((p) => ({

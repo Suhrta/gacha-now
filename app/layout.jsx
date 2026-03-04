@@ -2,7 +2,7 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
-  metadataBase: new URL("https://gacha-now.vercel.app"),
+  metadataBase: new URL("https://gacha-now.net"),
   title: "ガチャなう | カプセルトイ・ガチャガチャ新作情報まとめ",
   description:
     "毎日自動更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。バンダイ、タカラトミーアーツ、キタンクラブなど人気メーカー対応。サンリオ・ちいかわ・ポケモンなど話題のカプセルトイ情報を発売日・ブランド別に探せます。",
@@ -13,7 +13,7 @@ export const metadata = {
     "カプセルトイ 新作 2025", "ガチャガチャ 最新",
   ],
   alternates: {
-    canonical: "https://gacha-now.vercel.app",
+    canonical: "https://gacha-now.net",
   },
   openGraph: {
     title: "ガチャなう | カプセルトイ・ガチャガチャ新作情報まとめ",
@@ -21,7 +21,7 @@ export const metadata = {
       "毎日自動更新！300件以上のカプセルトイ新作情報をブランド別にチェック。バンダイ・タカトミ・キタンクラブ対応。",
     type: "website",
     locale: "ja_JP",
-    url: "https://gacha-now.vercel.app",
+    url: "https://gacha-now.net",
     siteName: "ガチャなう",
     images: [
       {
@@ -68,7 +68,7 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "ガチャなう",
-              url: "https://gacha-now.vercel.app",
+              url: "https://gacha-now.net",
               description:
                 "毎日自動更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。",
               inLanguage: "ja",
