@@ -68,7 +68,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年2月 第1週",
-    "brand": "その他",
+    "brand": "ハイキュー",
     "types": null
   },
   {
@@ -1652,7 +1652,7 @@
     ],
     "price": 500,
     "releaseWeek": "2026年2月 第3週",
-    "brand": "その他",
+    "brand": "名探偵コナン",
     "types": null
   },
   {
@@ -2636,7 +2636,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年2月 第4週",
-    "brand": "その他",
+    "brand": "名探偵コナン",
     "types": null
   },
   {
@@ -3048,30 +3048,6 @@
     "types": null
   },
   {
-    "title": "HGD+ ゴジラ04",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4549660501831000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年3月 第1週",
-    "brand": "ゴジラ",
-    "types": null
-  },
-  {
     "title": "カプキャラ パンどろぼう",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118233035000",
     "source": "バンダイ公式",
@@ -3428,7 +3404,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年3月 第1週",
-    "brand": "その他",
+    "brand": "名探偵コナン",
     "types": null
   },
   {
@@ -4149,6 +4125,30 @@
     "price": 500,
     "releaseWeek": "2026年3月 第1週",
     "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "HGD+ ゴジラ04",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4549660501831000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000149511_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月 第2週",
+    "brand": "ゴジラ",
     "types": null
   },
   {
@@ -6453,14 +6453,12 @@
     "title": "JAWS フィギュアコレクション 4",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099465",
     "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099465_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099465_b.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年3月",
+    "imageUrl": null,
+    "images": [],
+    "price": null,
+    "releaseWeek": "未定",
     "brand": "その他",
-    "types": 4
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ シュウマイ",
@@ -8754,6 +8752,1332 @@
     "price": 500,
     "releaseWeek": "2022年12月 上旬",
     "brand": "カービィ",
+    "types": 5
+  },
+  {
+    "title": "おばけメンダコ　-擬態妖精ミミカ-　マスコットフィギュア4",
+    "url": "https://qualia-45.jp/distinations/gitaiyosei_mimika_mf4/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609577",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609577"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "にっこりーノ　お弁当のぬいぐるみ メルヘン衣装",
+    "url": "https://qualia-45.jp/distinations/niccolino_obento_meru/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609580",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609580"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "にっこりーノ　トーストのぬいぐるみポーチ",
+    "url": "https://qualia-45.jp/distinations/niccolino_toast_nuip/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609581",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609581"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "お仕事を頑張っている人の応援スクエアポーチ",
+    "url": "https://qualia-45.jp/distinations/ouen_sp/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609583",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609583"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "モンスタールル　フロッキーマスコットフィギュア",
+    "url": "https://qualia-45.jp/distinations/monster-lulu_fmf/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609585",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609585"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "PINGU™　BIGフラットポーチ",
+    "url": "https://qualia-45.jp/distinations/pingu_bigfp/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609587",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609587"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "ピングー",
+    "types": 5
+  },
+  {
+    "title": "にっこりーノ　海の仲間たちのぬいぐるみ4",
+    "url": "https://qualia-45.jp/distinations/niccolino_uminonakama_nui4/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609589",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609589"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "にっこりーノ　純喫茶のぬいぐるみ メルヘン衣装",
+    "url": "https://qualia-45.jp/distinations/niccolino_junkissa_meru/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609590",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609590"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "セサミストリート　マスコットミラー",
+    "url": "https://qualia-45.jp/distinations/sesamestreet_mcm/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609592",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609592"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月",
+    "brand": "セサミストリート",
+    "types": 6
+  },
+  {
+    "title": "ウチらの平成文字　アクリルキーホルダー",
+    "url": "https://qualia-45.jp/distinations/heiseimoji_ak/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609594",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609594"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "どっこい酒　マスコットフィギュア",
+    "url": "https://qualia-45.jp/distinations/dokkoisyu_mf/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609596",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609596"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "PoPomals　ぬいぐるみ",
+    "url": "https://qualia-45.jp/distinations/popomals_nui/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609598",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609598"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "こびとづかん　ファンシー刺繍缶バッジ",
+    "url": "https://qualia-45.jp/distinations/kobitos_fc_canbadge/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609599",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609599"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "Studio Haneul×Sanrio characters ふわふわフロッキーマスコット",
+    "url": "https://qualia-45.jp/distinations/studio-haneul_sanrio_fmc/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609601",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609601"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "CareBears™　シリコンポーチ2",
+    "url": "https://qualia-45.jp/distinations/carebears_sp2/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609603",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609603"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "にっこりーノ　レザー風ステッチキーホルダー",
+    "url": "https://qualia-45.jp/distinations/niccolino_stitch_k/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609605",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609605"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "にっこりーノ　クリームソーダのめじるしフレンズ",
+    "url": "https://qualia-45.jp/distinations/niccolino_cs_markf/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609607",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609607"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "にっこりーノ　パンのぬいぐるみ5",
+    "url": "https://qualia-45.jp/distinations/niccolino_pan_nui5/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609608",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609608"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "オズの物語　マスコットフィギュア",
+    "url": "https://qualia-45.jp/distinations/oz_mf/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609610",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609610"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "お仕事を頑張っている人の応援アクリルキーホルダー3",
+    "url": "https://qualia-45.jp/distinations/ouen_ak3/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609612",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609612"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年2月",
+    "brand": "その他",
+    "types": 8
+  },
+  {
+    "title": "スクリューヘッド　マスコットフィギュア",
+    "url": "https://qualia-45.jp/distinations/screwhead_mf/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609614",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609614"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年2月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "にっこりーノ　漢方のぬいぐるみ",
+    "url": "https://qualia-45.jp/distinations/niccolino_kanpou_nui/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609616",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609616"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年2月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "ぽつんといちご大福　マスコットフィギュア",
+    "url": "https://qualia-45.jp/distinations/ichigodaifuku_mf/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609618",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609618"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年2月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "セサミストリート　フラットポーチ",
+    "url": "https://qualia-45.jp/distinations/sesamestreet_flp/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609619",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609619"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年2月",
+    "brand": "セサミストリート",
+    "types": 6
+  },
+  {
+    "title": "CareBears™　ぬいぐるみバッジ",
+    "url": "https://qualia-45.jp/distinations/carebears_nuib/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609621",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609621"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年2月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "くずみちゃんのミニポーチ3",
+    "url": "https://qualia-45.jp/distinations/cuzumix_minipouch3/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609623",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609623"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年2月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "銭湯アーミー　マスコットフィギュア　銭湯イエローver.",
+    "url": "https://qualia-45.jp/distinations/sentoarmy_mf_yl/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609625",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609625"
+    ],
+    "price": 200,
+    "releaseWeek": "2026年2月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ちゅーまいと点心メイツ　マスコットフィギュア",
+    "url": "https://qualia-45.jp/distinations/chumai_mf/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609627",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609627"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年2月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "オムカメライスのぬいぐるみ",
+    "url": "https://qualia-45.jp/distinations/omukamerice_nui/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609628",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609628"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年2月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "MilkyHug　フェイクスイーツ　マスコットボールチェーン",
+    "url": "https://qualia-45.jp/distinations/milkyhug_fs_mb/",
+    "source": "Qualia公式",
+    "imageUrl": "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609630",
+    "images": [
+      "https://qualia-45.jp/wp-content/uploads/qualialogos.png?1772609630"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年2月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "おぱんつ君 フィギュアコレクション",
+    "url": "https://kenelestore.jp/products/gc0678z",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0678-01.jpg?v=1770676951",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0678-01.jpg?v=1770676951"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "【KENELE LIMITED COLOR】mojojojo フィギュアマスコット Vol.3",
+    "url": "https://kenelestore.jp/products/gc0624c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/05_5thDP_EC.png?v=1759129436",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/05_5thDP_EC.png?v=1759129436"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "むにゅポーチ ウィンターセレクション（3個から注文可能）",
+    "url": "https://kenelestore.jp/products/gc0661a",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/munyuwinter.jpg?v=1763084610",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/munyuwinter.jpg?v=1763084610"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "gyunyuya キャットフェイスポーチ",
+    "url": "https://kenelestore.jp/products/gc0689c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gyunyuya_DP.jpg?v=1770705857",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gyunyuya_DP.jpg?v=1770705857"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "boiboi スイーツ フィギュアコレクション 12個BOX",
+    "url": "https://kenelestore.jp/products/gc0666y",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0666-01.jpg?v=1765339463",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0666-01.jpg?v=1765339463"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "編み物☆堀ノ内×須藤はる奈コラボニットバッグ（Beige）",
+    "url": "https://kenelestore.jp/products/vi0618e",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/sh_bagB-01.jpg?v=1759221543",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/sh_bagB-01.jpg?v=1759221543"
+    ],
+    "price": 14,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "うさぎさんバッグ（白） / 須藤はる奈",
+    "url": "https://kenelestore.jp/products/vi0494v",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/VI0494V-01.jpg?v=1751882389",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/VI0494V-01.jpg?v=1751882389"
+    ],
+    "price": 880,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "うさぎさんバッグ（黒） / 須藤はる奈",
+    "url": "https://kenelestore.jp/products/vi0494w",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/VI0494W-01.jpg?v=1751881970",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/VI0494W-01.jpg?v=1751881970"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "パンどろぼう ちょきんばこ まずいver.",
+    "url": "https://kenelestore.jp/products/sf0305g",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/SF0305G-01.jpg?v=1749009723",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/SF0305G-01.jpg?v=1749009723"
+    ],
+    "price": 14,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ぽっこしちょきんばこ ウシシ",
+    "url": "https://kenelestore.jp/products/sf0305k-set",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/pokkoshi01-01.jpg?v=1753331369",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/pokkoshi01-01.jpg?v=1753331369"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "MONYOGIRL / 12th color / モニョチタポミチ",
+    "url": "https://kenelestore.jp/products/sf0088q",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/monyogirlD-01.jpg?v=1762997410",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/monyogirlD-01.jpg?v=1762997410"
+    ],
+    "price": 770,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "きみのヨーナ / 荒井良二",
+    "url": "https://kenelestore.jp/products/sf0297b",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/yona_b-15.jpg?v=1761290668",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/yona_b-15.jpg?v=1761290668"
+    ],
+    "price": 19,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "RETURN OF SALARYMAN  帰ってきたサラリーマン 1st color",
+    "url": "https://kenelestore.jp/products/sf0322a",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/sf0322a-01.jpg?v=1755575293",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/sf0322a-01.jpg?v=1755575293"
+    ],
+    "price": 19,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "【KENELE LIMITED COLOR】The TOMODACHI！フィギュアコレクション 第3弾",
+    "url": "https://kenelestore.jp/products/gc0657c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/04_5thDP_EC.png?v=1756862920",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/04_5thDP_EC.png?v=1756862920"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "CASIO ヒストリカル計算機 ミニチュアマスコット",
+    "url": "https://kenelestore.jp/products/gc0629c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0629-01.jpg?v=1756445304",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0629-01.jpg?v=1756445304"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "サンリオキャラクターズ ベビールームコレクション 第2弾",
+    "url": "https://kenelestore.jp/products/gc0628c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0628-01.jpg?v=1756445496",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0628-01.jpg?v=1756445496"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "サンリオ",
+    "types": 4
+  },
+  {
+    "title": "山崎若菜 THE DRAGON & WIZARD フィギュアコレクション",
+    "url": "https://kenelestore.jp/products/gc0606z",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0606-01.jpg?v=1752110584",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0606-01.jpg?v=1752110584"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "nonakoのぬいぐるみ フィギュアコレクション",
+    "url": "https://kenelestore.jp/products/gc0607z",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0607-01.jpg?v=1752110693",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0607-01.jpg?v=1752110693"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "台湾ミニチュアマスコット（3個から注文可能）",
+    "url": "https://kenelestore.jp/products/gc0603a",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0603-01.jpg?v=1751442649",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0603-01.jpg?v=1751442649"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "むにゅのミニチュアマスコット 第4弾",
+    "url": "https://kenelestore.jp/products/gc0593z",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0593-01.jpg?v=1749522464",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0593-01.jpg?v=1749522464"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "マイ ゴースト ベアー コレクション",
+    "url": "https://kenelestore.jp/products/gc0576z",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0576-01.jpg?v=1746765164",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0576-01.jpg?v=1746765164"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "Tiny Zoo「Nicky（ニッキー）」ぬいぐるみ / いしがあかね",
+    "url": "https://kenelestore.jp/products/vi0627a",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/VI0627A-01.jpg?v=1750404395",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/VI0627A-01.jpg?v=1750404395"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "Tiny Zoo「Liam（リアム）」ぬいぐるみ / いしがあかね",
+    "url": "https://kenelestore.jp/products/vi0627b",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/VI0627B-01.jpg?v=1750404636",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/VI0627B-01.jpg?v=1750404636"
+    ],
+    "price": 19,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ノラネコぐんだん はんせいちょきんばこ",
+    "url": "https://kenelestore.jp/products/ugkt6wcpjr",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/sf0277a-21_re.jpg?v=1750817675",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/sf0277a-21_re.jpg?v=1750817675"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ユニコ フィギュアコレクション",
+    "url": "https://kenelestore.jp/products/gc0676c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0676-01_f2e9dcee-adee-46c4-b586-28f024821fc3.jpg?v=1769670642",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0676-01_f2e9dcee-adee-46c4-b586-28f024821fc3.jpg?v=1769670642"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "横尾忠則グッズ 第2弾",
+    "url": "https://kenelestore.jp/products/gc0686c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0686-01.jpg?v=1769563006",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0686-01.jpg?v=1769563006"
+    ],
+    "price": 440,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "サイボーグ009 グッズコレクション",
+    "url": "https://kenelestore.jp/products/gc0687c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0687-01_e4729f98-f386-4364-acf8-92dc4159b41a.jpg?v=1769411888",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0687-01_e4729f98-f386-4364-acf8-92dc4159b41a.jpg?v=1769411888"
+    ],
+    "price": 440,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "HELLO IN THE WORLD !! Vol.8 bALAbASE / Bikeman-17 フィギュアコレクション",
+    "url": "https://kenelestore.jp/products/gc0683z",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0683-01.jpg?v=1770696501",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0683-01.jpg?v=1770696501"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "にしこはりこ SHONBEN BOYS ミニチュアコレクション",
+    "url": "https://kenelestore.jp/products/gc0684c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0684-01.jpg?v=1770677305",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0684-01.jpg?v=1770677305"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "mei フィギュアマスコット",
+    "url": "https://kenelestore.jp/products/gc0685c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0685-01.jpg?v=1770677414",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0685-01.jpg?v=1770677414"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "ぽっこしまんまるおかおポーチ",
+    "url": "https://kenelestore.jp/products/gc0688z",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0688-01.jpg?v=1770696493",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0688-01.jpg?v=1770696493"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "フジサキタクマ 怪獣立体図鑑 東京怪獣ユニバース Vol.2",
+    "url": "https://kenelestore.jp/products/gc0690z",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0690-01.jpg?v=1770696491",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0690-01.jpg?v=1770696491"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "トイマシーン ソフビ",
+    "url": "https://kenelestore.jp/products/gc0691z",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/GC0691Z-14.jpg?v=1770696487",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/GC0691Z-14.jpg?v=1770696487"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年2月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ハッチポッチステーション フィギュアコレクション 12個BOX",
+    "url": "https://kenelestore.jp/products/gc0664d",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0664-01_5b6e5b2a-2143-4a08-b3ca-268696327787.jpg?v=1764574538",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0664-01_5b6e5b2a-2143-4a08-b3ca-268696327787.jpg?v=1764574538"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "gyunyuya フィギュアマスコット 12個BOX",
+    "url": "https://kenelestore.jp/products/gc0670d",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0670-01.jpg?v=1765334749",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0670-01.jpg?v=1765334749"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "ルネパンダちょきんばこ / 赤りんごver. / 内藤ルネ",
+    "url": "https://kenelestore.jp/products/xftpplhu6u",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/SF0305-24.jpg?v=1745973503",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/SF0305-24.jpg?v=1745973503"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ルネパンダちょきんばこ / 青りんごver. / 内藤ルネ",
+    "url": "https://kenelestore.jp/products/ptsbdrubbn",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/SF0305-25.jpg?v=1745973560",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/SF0305-25.jpg?v=1745973560"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ステッカーセット / umao / ねこ・はりねずみ",
+    "url": "https://kenelestore.jp/products/bgt6rebrdh",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/vi0459-01.jpg?v=1752197393",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/vi0459-01.jpg?v=1752197393"
+    ],
+    "price": 880,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "バカボンとパパ ニットバッグ（オレンジ） / 編み物☆堀ノ内",
+    "url": "https://kenelestore.jp/products/vi0625q",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/vi0625q-02.jpg?v=1749461893",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/vi0625q-02.jpg?v=1749461893"
+    ],
+    "price": 13,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "バカボンとパパ ニットバッグ（イエロー） / 編み物☆堀ノ内",
+    "url": "https://kenelestore.jp/products/vi0625s",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/vi0625s-02.jpg?v=1749461994",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/vi0625s-02.jpg?v=1749461994"
+    ],
+    "price": 13,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "目ン玉つながりのおまわりさん ニットバッグ / 編み物☆堀ノ内",
+    "url": "https://kenelestore.jp/products/vi0625p",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/vi0625p-02.jpg?v=1749462088",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/vi0625p-02.jpg?v=1749462088"
+    ],
+    "price": 13,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ALTERNATIVE COMIC SALON Vol.1 『月刊漫画ガロ』テリー・ジョンスンの〝ヘタうま〟表紙の世界",
+    "url": "https://kenelestore.jp/products/kb0044a",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/garo05-10.jpg?v=1770180246",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/garo05-10.jpg?v=1770180246"
+    ],
+    "price": 550,
+    "releaseWeek": "2025年7月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "山のヨーナ / 荒井良二",
+    "url": "https://kenelestore.jp/products/sf0297a",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/yona-23.jpg?v=1750234274",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/yona-23.jpg?v=1750234274"
+    ],
+    "price": 19,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "手塚治虫キャラクターズ Sofvi Collection 003 火の鳥：チロル",
+    "url": "https://kenelestore.jp/products/sf0312b",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/tezuka-03-11.jpg?v=1748421517",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/tezuka-03-11.jpg?v=1748421517"
+    ],
+    "price": 16,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "手塚治虫キャラクターズ Sofvi Collection 004 新寳島：ピート",
+    "url": "https://kenelestore.jp/products/sf0312a",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/tezuka-04-12.jpg?v=1748421817",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/tezuka-04-12.jpg?v=1748421817"
+    ],
+    "price": 19,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "グラフィックTシャツ ブラック / オザキエミ",
+    "url": "https://kenelestore.jp/products/vi0640cd",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/IMG_6720.jpg?v=1760591792",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/IMG_6720.jpg?v=1760591792"
+    ],
+    "price": 880,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "グラフィックTシャツ ホワイト / オザキエミ",
+    "url": "https://kenelestore.jp/products/vi0640ab",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/IMG_6717.jpg?v=1760591517",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/IMG_6717.jpg?v=1760591517"
+    ],
+    "price": 880,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "むにゅのソフビフィギュア プクプク",
+    "url": "https://kenelestore.jp/products/sf0311a",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/SF0311A-08.jpg?v=1747888901",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/SF0311A-08.jpg?v=1747888901"
+    ],
+    "price": 660,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "IMU IMU UAMOU / CLEAR GOLD EYES / UAMOU",
+    "url": "https://kenelestore.jp/products/sf0026h",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/clearg-13.jpg?v=1747802812",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/clearg-13.jpg?v=1747802812"
+    ],
+    "price": 880,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "IMU IMU UAMOU / CLEAR BLACK EYES / UAMOU",
+    "url": "https://kenelestore.jp/products/sf0026g",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/clearg-12.jpg?v=1747802792",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/clearg-12.jpg?v=1747802792"
+    ],
+    "price": 880,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "大画即書 / 鱗 / ESOW",
+    "url": "https://kenelestore.jp/products/sf0300d",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/daigasokusyoA-01.jpg?v=1745290533",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/daigasokusyoA-01.jpg?v=1745290533"
+    ],
+    "price": 24,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "小僧妖怪がみてる！",
+    "url": "https://kenelestore.jp/products/gc0626z",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0626-01.jpg?v=1757471884",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0626-01.jpg?v=1757471884"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "月刊漫画ガロ Alternative Comic Salon Vol.1 湯村輝彦セレクション",
+    "url": "https://kenelestore.jp/products/gc0646z",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0646-01.jpg?v=1761891012",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0646-01.jpg?v=1761891012"
+    ],
+    "price": 440,
+    "releaseWeek": "1997年10月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ウドンケンシュタインフィギュアコレクション",
+    "url": "https://kenelestore.jp/products/gc0649z",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0649-01.jpg?v=1761888561",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0649-01.jpg?v=1761888561"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "MIKASA ミニチュアコレクション サッカー",
+    "url": "https://kenelestore.jp/products/gc0656c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0656-01.jpg?v=1761892018",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0656-01.jpg?v=1761892018"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "ワールドトラベルシリーズ タイ フィギュアマスコット",
+    "url": "https://kenelestore.jp/products/gc0653c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0653-01.jpg?v=1761889966",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0653-01.jpg?v=1761889966"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "共立食品 ミニチュアマスコット 第2弾",
+    "url": "https://kenelestore.jp/products/gc0652c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0652-01.jpg?v=1762751244",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0652-01.jpg?v=1762751244"
+    ],
+    "price": 440,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "現代美術二等兵の招き猫",
+    "url": "https://kenelestore.jp/products/gc0654c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/gc0654-01.jpg?v=1762751399",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/gc0654-01.jpg?v=1762751399"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "CASIO SWEAT / ブラック",
+    "url": "https://kenelestore.jp/products/fa0001",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/FA0001C-01.jpg?v=1760576746",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/FA0001C-01.jpg?v=1760576746"
+    ],
+    "price": 10,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "CASIO LONG SLEEVE T-SHIRT / アイボリー",
+    "url": "https://kenelestore.jp/products/fa0002",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/FA0002B-01.jpg?v=1760576716",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/FA0002B-01.jpg?v=1760576716"
+    ],
+    "price": 10,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "魅惑のLiberty Boy / おねだりメロディアスなPink Boy / ヤナギダマサミ",
+    "url": "https://kenelestore.jp/products/sf0327a",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/yanagidaC-01.jpg?v=1760668061",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/yanagidaC-01.jpg?v=1760668061"
+    ],
+    "price": 770,
+    "releaseWeek": "2026年4月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "魅惑のLiberty Boy / 気まぐれスリリングなYellow Boy / ヤナギダマサミ",
+    "url": "https://kenelestore.jp/products/sf0327b",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/yanagidaA-01.jpg?v=1760668463",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/yanagidaA-01.jpg?v=1760668463"
+    ],
+    "price": 770,
+    "releaseWeek": "2026年4月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "アヒルわん / 七語つきみ",
+    "url": "https://kenelestore.jp/products/sf0321a",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/ahiruwan-01.jpg?v=1760951638",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/ahiruwan-01.jpg?v=1760951638"
+    ],
+    "price": 12,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "モールミュータントデラックス フロッキーコレクション コンプリートBOX",
+    "url": "https://kenelestore.jp/products/gc0699c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/MMDX_banner_SQ.jpg?v=1763689684",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/MMDX_banner_SQ.jpg?v=1763689684"
+    ],
+    "price": 10,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "モールミュータントデラックス フロッキーコレクション BOX1個",
+    "url": "https://kenelestore.jp/products/gc0699b",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/MMDX_banner_SQ.jpg?v=1763689684",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/MMDX_banner_SQ.jpg?v=1763689684"
+    ],
+    "price": 440,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "トートバッグ / 谷小夏",
+    "url": "https://kenelestore.jp/products/vi0634a",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/VI0634A-05.jpg?v=1763693695",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/VI0634A-05.jpg?v=1763693695"
+    ],
+    "price": 770,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "アクリルマグネット（ピンク） / 谷小夏",
+    "url": "https://kenelestore.jp/products/vi0634b",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/VI0634B-01.jpg?v=1763698319",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/VI0634B-01.jpg?v=1763698319"
+    ],
+    "price": 770,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "アクリルマグネット（ブルー）/ 谷小夏",
+    "url": "https://kenelestore.jp/products/vi0634c",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/VI0634C-01.jpg?v=1763698319",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/VI0634C-01.jpg?v=1763698319"
+    ],
+    "price": 770,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "アクリルマグネット（レッド）/ 谷小夏",
+    "url": "https://kenelestore.jp/products/vi0634d",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/VI0634D-01.jpg?v=1763698319",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/VI0634D-01.jpg?v=1763698319"
+    ],
+    "price": 770,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "A4クリアファイル（カラー） / 谷小夏",
+    "url": "https://kenelestore.jp/products/vi0634e",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/VI0634E-01.jpg?v=1763699794",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/VI0634E-01.jpg?v=1763699794"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "A4クリアファイル（モノクロ）/ 谷小夏",
+    "url": "https://kenelestore.jp/products/vi0634f",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/VI0634F-01.jpg?v=1763700285",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/VI0634F-01.jpg?v=1763700285"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ステッカーセット / 谷小夏",
+    "url": "https://kenelestore.jp/products/vi0634g",
+    "source": "ケンエレファント公式",
+    "imageUrl": "http://kenelestore.jp/cdn/shop/files/2_1_015692cd-8f2d-453f-b925-3000125c0b38.jpg?v=1763703104",
+    "images": [
+      "http://kenelestore.jp/cdn/shop/files/2_1_015692cd-8f2d-453f-b925-3000125c0b38.jpg?v=1763703104"
+    ],
+    "price": 880,
+    "releaseWeek": "2026年3月",
+    "brand": "その他",
     "types": 5
   }
 ]
