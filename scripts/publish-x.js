@@ -94,8 +94,11 @@ async function main() {
   for (let i = 0; i < pngFiles.length; i++) {
     const pngFile = pngFiles[i];
     const idx = pngFile.match(pattern)[1];
-    const txtFile = `post-${today}-${idx}.txt`;
-    const txtPath = path.join(POSTS_DIR, txtFile);
+    const txtFile = `post-${today}-${idx}.x.txt`;
+    const txtFallback = `post-${today}-${idx}.txt`;
+    const txtPath = fs.existsSync(path.join(POSTS_DIR, txtFile))
+      ? path.join(POSTS_DIR, txtFile)
+      : path.join(POSTS_DIR, txtFallback);
     const pngPath = path.join(POSTS_DIR, pngFile);
 
     console.log(`\n  [${parseInt(idx)}/${pngFiles.length}] ${pngFile}`);
@@ -106,7 +109,7 @@ async function main() {
     }
 
     const caption = fs.readFileSync(txtPath, "utf-8");
-    const tweetText = trimCaption(caption);
+    const tweetText = caption;
     console.log(`    📝 ${tweetText.split("\n")[0]}...`);
 
     try {

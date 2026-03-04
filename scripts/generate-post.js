@@ -103,6 +103,24 @@ function generateCaption(product) {
   return lines.join("\n");
 }
 
+function generateXCaption(product) {
+  const lines = [
+    `\ud83c\udfaa ${product.name}`,
+    ``,
+    `\ud83d\udcb0 ${product.price}\u5186 / \u5168${product.types}\u7a2e`,
+    `\ud83d\udcc5 ${product.releaseWeek || "\u767a\u58f2\u65e5\u672a\u5b9a"}`,
+    ``,
+    `gacha-now.vercel.app`,
+    ``,
+  ];
+  const tags = [`#\u30ac\u30c1\u30e3\u30ac\u30c1\u30e3`];
+  if (product.brand && product.brand !== "\u305d\u306e\u4ed6") {
+    tags.push(`#${product.brand}`);
+  }
+  lines.push(tags.join(" "));
+  return lines.join("\n");
+}
+
 async function main() {
   console.log("\ud83d\udcf8 Instagram\u6295\u7a3f\u3092\u751f\u6210\u4e2d...");
 
@@ -162,6 +180,11 @@ async function main() {
     const caption = generateCaption(product);
     fs.writeFileSync(txtPath, caption, "utf-8");
     console.log(`    \ud83d\udcdd ${txtPath}`);
+
+    const xTxtPath = path.join(OUTPUT_DIR, `post-${today}-${idx}.x.txt`);
+    const xCaption = generateXCaption(product);
+    fs.writeFileSync(xTxtPath, xCaption, "utf-8");
+    console.log(`    \ud83d\udcdd ${xTxtPath} (X用)`);
   }
 
   await browser.close();
