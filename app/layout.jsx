@@ -49,6 +49,11 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="_vAeJZmCqswwfoo6nTj-htoAdOQuiIE4aS-4OCLxiNw" />
         <meta name="google-site-verification" content="IbrG8q-GvgybpNjeJ6NKM6YZQj0hHbC9XRCOWHyqGnc" />
         <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1657546819928079"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-3DP286TY6C"
           strategy="afterInteractive"
         />
