@@ -23,6 +23,8 @@ jobs:
         run: node scripts/structure.js
       - name: Update products.json
         run: node scripts/update.js
+      - name: Clean old posts
+        run: rm -f posts/post-*.png posts/post-*.txt
       - name: Generate Instagram posts
         run: node scripts/generate-post.js
       - name: Copy posts to public directory
