@@ -1,16 +1,22 @@
 /**
- * collect.js v4 - ガチャガチャ新作情報を公式サイトから正確に収集
+ * collect.js v5 - ガチャガチャ新作情報を公式サイトから正確に収集
  *
- * 【v3からの変更点】
- * - バンダイ: scheduleページから価格・発売週を直接取得
- * - タカトミ: calendarの発売週 + 詳細ページから価格・種類数取得
- * - ブランド自動判定（商品名からIP名を正規表現で判定）
- * - Claude API不要で正確なデータ取得
+ * 【v4からの変更点】
+ * - キタンクラブ追加: Puppeteerで新商品ページから商品URL取得 → cheerioで詳細パース
+ * - ブランド自動判定強化: BRAND_MAP + サイトカテゴリタグ + 商品名推定の3段階フォールバック
+ * - 新IPが出ても自動でカテゴリ分けされる
+ *
+ * 対応メーカー:
+ *   1. バンダイ（ガシャポン公式 scheduleページ）
+ *   2. タカラトミーアーツ（カレンダー + 詳細ページ）
+ *   3. キタンクラブ（新商品ページ → 詳細ページ）
  */
 
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import puppeteer from "puppeteer";
+import * as cheerio from "cheerio";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -56,14 +62,55 @@ const BRAND_MAP = [
   { keywords: ["まどか☆マギカ", "まどマギ"], brand: "まどか☆マギカ" },
   { keywords: ["アイカツ"], brand: "アイカツ" },
   { keywords: ["藤子不二雄", "ドラえもん"], brand: "藤子不二雄" },
+  // キタンクラブ固有IP
+  { keywords: ["コップのフチ子", "フチ子"], brand: "コップのフチ子" },
+  { keywords: ["PUTITTO"], brand: "PUTITTO" },
+  { keywords: ["コウペンちゃん"], brand: "コウペンちゃん" },
+  { keywords: ["タローマン"], brand: "タローマン" },
+  { keywords: ["可愛い嘘のカワウソ", "カワウソ"], brand: "可愛い嘘のカワウソ" },
+  { keywords: ["おぱんちゅうさぎ"], brand: "おぱんちゅうさぎ" },
+  { keywords: ["チェンソーマン"], brand: "チェンソーマン" },
+  { keywords: ["ヒロアカ", "僕のヒーローアカデミア"], brand: "ヒロアカ" },
 ];
 
-function detectBrand(name) {
+// カテゴリタグ除外リスト（ブランドではないタグ）
+const CATEGORY_IGNORE = new Set([
+  "新商品", "オリジナル", "企業コラボ", "キタンクラブオリジナル",
+  "カプセルトイ", "ねこのかぶりもの", "座るシリーズ", "シリーズ生きる",
+  "コップのフチ子シリーズ", "PUTITTOシリーズ", "フィギュア", "アーティスト",
+]);
+
+/**
+ * ブランド判定（3段階フォールバック）
+ * 1. BRAND_MAP キーワードマッチ
+ * 2. サイトのカテゴリタグ（キタンクラブ等）
+ * 3. 「その他」
+ */
+function detectBrand(name, categoryTags = []) {
+  // 1. BRAND_MAP キーワードマッチ
   for (const entry of BRAND_MAP) {
     for (const kw of entry.keywords) {
       if (name.includes(kw)) return entry.brand;
     }
   }
+
+  // 2. サイトのカテゴリタグから判定
+  for (const tag of categoryTags) {
+    const cleaned = tag.replace(/^#/, "").trim();
+    if (cleaned && !CATEGORY_IGNORE.has(cleaned) && cleaned.length >= 2) {
+      // タグがBRAND_MAPのブランド名に一致するか確認
+      for (const entry of BRAND_MAP) {
+        if (entry.brand === cleaned) return entry.brand;
+        for (const kw of entry.keywords) {
+          if (cleaned.includes(kw)) return entry.brand;
+        }
+      }
+      // 一致しなければタグ名をそのまま新ブランドとして採用
+      return cleaned;
+    }
+  }
+
+  // 3. フォールバック
   return "その他";
 }
 
@@ -267,22 +314,184 @@ async function collectFromTakaraTomy() {
 }
 
 // ========================================
+// 3. キタンクラブ公式（新商品ページ → 詳細ページ）
+//    差分アクセス: 前回取得済みURLはcollected.jsonから復元してスキップ
+// ========================================
+async function collectFromKitan() {
+  const articles = [];
+  let browser;
+  try {
+    console.log("  📡 キタンクラブ公式");
+
+    // 前回取得済みデータを読み込み（差分検出用）
+    const collectedPath = path.join(__dirname, "../data/collected.json");
+    let previousData = [];
+    if (fs.existsSync(collectedPath)) {
+      const allPrev = JSON.parse(fs.readFileSync(collectedPath, "utf-8"));
+      previousData = allPrev.filter((a) => a.source === "キタンクラブ公式");
+    }
+    const previousUrls = new Set(previousData.map((a) => a.url));
+    console.log(`    → 前回取得済み: ${previousUrls.size}件`);
+
+    // キタンクラブはJSで動的読み込みなのでPuppeteerが必要
+    browser = await puppeteer.launch({
+      headless: "new",
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
+    const page = await browser.newPage();
+
+    // 商品URLリストを取得
+    console.log("    → 商品ページ一覧を取得中...");
+    await page.goto("https://kitan.jp/products/", { waitUntil: "networkidle2", timeout: 30000 });
+
+    const productLinks = await page.evaluate(() => {
+      const links = [];
+      document.querySelectorAll('a[href*="/products/"]').forEach((a) => {
+        const href = a.href;
+        if (href.match(/\/products\/[a-z0-9_-]+\/?$/i) &&
+            !href.includes("/products_category/") &&
+            !href.includes("/product_category/") &&
+            href !== "https://kitan.jp/products/") {
+          links.push(href);
+        }
+      });
+      return [...new Set(links)];
+    });
+
+    // 新商品ページにも遷移して追加取得
+    try {
+      await page.goto("https://kitan.jp/product_category/newproduct/", { waitUntil: "networkidle2", timeout: 30000 });
+      const newProductLinks = await page.evaluate(() => {
+        const links = [];
+        document.querySelectorAll('a[href*="/products/"]').forEach((a) => {
+          const href = a.href;
+          if (href.match(/\/products\/[a-z0-9_-]+\/?$/i) &&
+              !href.includes("/products_category/") &&
+              !href.includes("/product_category/") &&
+              href !== "https://kitan.jp/products/") {
+            links.push(href);
+          }
+        });
+        return [...new Set(links)];
+      });
+      for (const link of newProductLinks) {
+        if (!productLinks.includes(link)) productLinks.push(link);
+      }
+    } catch (err) {
+      console.log(`    ⚠️ 新商品ページ遷移失敗（メインリストで続行）: ${err.message}`);
+    }
+
+    await page.close();
+
+    // 差分検出：新規URLだけ詳細ページにアクセス
+    const newUrls = productLinks.filter((url) => !previousUrls.has(url));
+    console.log(`    → 全${productLinks.length}件中、新規: ${newUrls.length}件、既存: ${productLinks.length - newUrls.length}件`);
+
+    // 前回取得済みデータはそのまま復元
+    for (const prev of previousData) {
+      articles.push(prev);
+    }
+
+    // 新規URLだけ詳細ページにアクセス
+    if (newUrls.length > 0) {
+      console.log(`    → ${newUrls.length}件の新規商品ページを取得中...`);
+      const detailPage = await browser.newPage();
+
+      for (let i = 0; i < newUrls.length; i++) {
+        const url = newUrls[i];
+        try {
+          await detailPage.goto(url, { waitUntil: "networkidle2", timeout: 20000 });
+          const html = await detailPage.content();
+          const $ = cheerio.load(html);
+
+          let name = $("h1").first().text().trim();
+          if (!name) name = $("title").text().replace(/[｜|].*$/, "").trim();
+          if (!name || name.length < 2) continue;
+
+          const categoryTags = [];
+          $("a[href*='/products_category/'], a[href*='/product_category/']").each((_, el) => {
+            const tagText = $(el).text().trim();
+            if (tagText) categoryTags.push(tagText);
+          });
+          $("*").each((_, el) => {
+            const text = $(el).clone().children().remove().end().text().trim();
+            const hashTags = text.match(/#[^\s#]+/g);
+            if (hashTags) categoryTags.push(...hashTags);
+          });
+
+          const pageText = $.text();
+          const priceMatch = pageText.match(/1回\s*(\d{2,4})\s*円/);
+          const price = priceMatch ? parseInt(priceMatch[1]) : null;
+
+          const typesMatch = pageText.match(/全\s*(\d+)\s*種/);
+          const types = typesMatch ? parseInt(typesMatch[1]) : null;
+
+          const relMatch = pageText.match(/(\d{4})年(\d{1,2})月(上旬|中旬|下旬|[\d]+日)/);
+          let releaseWeek = "未定";
+          if (relMatch) {
+            releaseWeek = `${relMatch[2]}月 ${relMatch[3]}`;
+          }
+
+          let imageUrl = $('meta[property="og:image"]').attr("content") || null;
+          if (!imageUrl) {
+            const imgEl = $("img[src*='uploads']").first();
+            imageUrl = imgEl.attr("src") || null;
+          }
+
+          const brand = detectBrand(name, [...new Set(categoryTags)]);
+
+          articles.push({
+            title: name,
+            url,
+            source: "キタンクラブ公式",
+            imageUrl,
+            price,
+            releaseWeek,
+            brand,
+            types,
+          });
+
+          console.log(`    ✅ [${i + 1}/${newUrls.length}] ${name}`);
+        } catch (err) {
+          console.error(`    ⚠️ ${url}: ${err.message}`);
+        }
+
+        await new Promise((r) => setTimeout(r, 800));
+      }
+
+      await detailPage.close();
+    } else {
+      console.log("    → 新規商品なし、前回データをそのまま使用");
+    }
+  } catch (err) {
+    console.error(`  ❌ キタンクラブ公式 失敗: ${err.message}`);
+  } finally {
+    if (browser) await browser.close();
+  }
+  return articles;
+}
+
+// ========================================
 // メイン実行
 // ========================================
 async function main() {
-  console.log("🏪 ガチャなう データ収集 v4\n");
+  console.log("🏪 ガチャなう データ収集 v5\n");
 
   const results = {};
 
-  console.log("[1/2] バンダイ ガシャポン公式");
+  console.log("[1/3] バンダイ ガシャポン公式");
   results.bandai = await collectFromBandai();
   console.log(`  → ${results.bandai.length}件\n`);
 
-  console.log("[2/2] タカラトミーアーツ公式");
+  console.log("[2/3] タカラトミーアーツ公式");
   results.takaratomy = await collectFromTakaraTomy();
   console.log(`  → ${results.takaratomy.length}件\n`);
 
-  const all = [...results.bandai, ...results.takaratomy];
+  console.log("[3/3] キタンクラブ公式");
+  results.kitan = await collectFromKitan();
+  console.log(`  → ${results.kitan.length}件\n`);
+
+  const all = [...results.bandai, ...results.takaratomy, ...results.kitan];
 
   // 重複排除
   const seen = new Set();
@@ -297,6 +506,7 @@ async function main() {
   console.log(`✅ 合計: ${unique.length}件（重複排除後）`);
   console.log(`   バンダイ公式: ${results.bandai.length}件`);
   console.log(`   タカトミ公式: ${results.takaratomy.length}件`);
+  console.log(`   キタンクラブ公式: ${results.kitan.length}件`);
 
   const outputPath = path.join(__dirname, "../data/collected.json");
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });

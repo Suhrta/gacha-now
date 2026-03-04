@@ -12,7 +12,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// ブランドスラッグ変換
+// ブランドスラッグ変換（未登録ブランドは自動生成）
 function toBrandSlug(brand) {
   const map = {
     "ポケモン": "pokemon", "サンリオ": "sanrio", "ちいかわ": "chiikawa",
@@ -30,11 +30,26 @@ function toBrandSlug(brand) {
     "おさるのジョージ": "george", "フリーレン": "frieren",
     "まどか☆マギカ": "madoka", "アイカツ": "aikatsu",
     "藤子不二雄": "fujiko", "その他": "other",
+    // キタンクラブ固有
+    "コップのフチ子": "fuchiko", "PUTITTO": "putitto",
+    "コウペンちゃん": "koupen", "タローマン": "taroman",
+    "可愛い嘘のカワウソ": "kawauso", "おぱんちゅうさぎ": "opanchu",
+    "チェンソーマン": "chainsawman", "ヒロアカ": "heroaca",
   };
-  return map[brand] || brand.toLowerCase().replace(/[^a-z0-9]/g, "") || "other";
+  if (map[brand]) return map[brand];
+  // 未登録ブランド → 自動スラッグ生成
+  // 英数字はそのまま、日本語はハッシュベースの短い文字列に変換
+  const ascii = brand.toLowerCase().replace(/[^a-z0-9]/g, "");
+  if (ascii.length >= 3) return ascii;
+  // 日本語のみのブランド名 → ハッシュで一意なスラッグを生成
+  let hash = 0;
+  for (let i = 0; i < brand.length; i++) {
+    hash = ((hash << 5) - hash + brand.charCodeAt(i)) | 0;
+  }
+  return "brand-" + Math.abs(hash).toString(36);
 }
 
-// ブランド別テーマカラー
+// ブランド別テーマカラー（未登録ブランドは自動生成）
 function getBrandColor(brand) {
   const colors = {
     "ポケモン": "#FFD54F", "サンリオ": "#F06292", "ちいかわ": "#4FC3F7",
@@ -45,8 +60,33 @@ function getBrandColor(brand) {
     "たまごっち": "#81D4FA", "初音ミク": "#4DD0E1", "ゴジラ": "#A1887F",
     "ウルトラマン": "#E57373", "いきもの大図鑑": "#AED581",
     "まちぼうけ": "#FFB74D", "パンダの穴": "#90A4AE",
+    // キタンクラブ固有
+    "コップのフチ子": "#FF8A65", "PUTITTO": "#9575CD",
+    "コウペンちゃん": "#FFF176", "タローマン": "#EF5350",
+    "可愛い嘘のカワウソ": "#80DEEA", "おぱんちゅうさぎ": "#F8BBD0",
+    "チェンソーマン": "#B71C1C", "ヒロアカ": "#43A047",
   };
-  return colors[brand] || "#9E9E9E";
+  if (colors[brand]) return colors[brand];
+  // 未登録ブランド → ハッシュからパステルカラーを自動生成
+  let hash = 0;
+  for (let i = 0; i < brand.length; i++) {
+    hash = ((hash << 5) - hash + brand.charCodeAt(i)) | 0;
+  }
+  const hue = Math.abs(hash) % 360;
+  // HSL → Hex（彩度60%、明度75%でパステル調に）
+  const s = 0.6, l = 0.75;
+  const c = (1 - Math.abs(2 * l - 1)) * s;
+  const x = c * (1 - Math.abs(((hue / 60) % 2) - 1));
+  const m = l - c / 2;
+  let r, g, b;
+  if (hue < 60) { r = c; g = x; b = 0; }
+  else if (hue < 120) { r = x; g = c; b = 0; }
+  else if (hue < 180) { r = 0; g = c; b = x; }
+  else if (hue < 240) { r = 0; g = x; b = c; }
+  else if (hue < 300) { r = x; g = 0; b = c; }
+  else { r = c; g = 0; b = x; }
+  const toHex = (v) => Math.round((v + m) * 255).toString(16).padStart(2, "0");
+  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
 }
 
 // 注目度判定
