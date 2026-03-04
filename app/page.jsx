@@ -48,7 +48,32 @@ function releaseWeekToNum(str) {
   return month * 100 + 9;
 }
 
+function getTrendingScore(product) {
+  let score = 0;
+  // HOTブランド
+  if (product.hot) score += 50;
+  // 発売時期の近さ
+  const now = new Date();
+  const currentMonth = now.getMonth() + 1;
+  const rw = product.releaseWeek || "";
+  const monthMatch = rw.match(/(\d+)月/);
+  if (monthMatch) {
+    const m = parseInt(monthMatch[1]);
+    if (m === currentMonth) score += 30;
+    else if (m === currentMonth + 1 || (currentMonth === 12 && m === 1)) score += 20;
+    else if (m === currentMonth - 1 || (currentMonth === 1 && m === 12)) score += 10;
+  }
+  // 種類が多い（バリエーション豊富）
+  if (product.types >= 8) score += 5;
+  // 手頃な価格
+  if (product.price <= 300) score += 5;
+  return score;
+}
+
 function sortProducts(list, tab) {
+  if (tab === "trending") {
+    return [...list].sort((a, b) => getTrendingScore(b) - getTrendingScore(a));
+  }
   if (tab === "available") {
     return [...list].sort((a, b) => releaseWeekToNum(b.releaseWeek) - releaseWeekToNum(a.releaseWeek));
   }
@@ -78,6 +103,7 @@ function sortProducts(list, tab) {
 
 const STATUS_TABS = [
   { key: "all", label: "すべて" },
+  { key: "trending", label: "🔥 注目" },
   { key: "available", label: "発売中" },
   { key: "new", label: "新作" },
   { key: "upcoming", label: "発売予定" },
@@ -262,6 +288,8 @@ export default function HomePage() {
         <div className="font-pixel text-[11px] text-brand-sub mb-2.5 px-1 relative">
           {statusTab === "favorites"
             ? `⭐ ${filtered.length}件のお気に入り`
+            : statusTab === "trending"
+            ? `🔥 注目のガチャ ${filtered.length}件`
             : `${filtered.length}件 ── タップで詳しく！`
           }
         </div>
