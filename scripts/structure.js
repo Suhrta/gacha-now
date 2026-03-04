@@ -96,13 +96,21 @@ function isHot(name, brand) {
 }
 
 // IDを生成
-function generateId(name, index) {
+function generateId(name, index, url) {
+  // 商品名+URLから簡易ハッシュを生成してユニークIDを確保
+  const src = name + (url || String(index));
+  let hash = 0;
+  for (let i = 0; i < src.length; i++) {
+    hash = ((hash << 5) - hash + src.charCodeAt(i)) | 0;
+  }
+  const hex = Math.abs(hash).toString(16).padStart(8, "0");
   const ascii = name
     .toLowerCase()
     .replace(/[^\w\s]/g, "")
     .replace(/\s+/g, "-")
-    .slice(0, 40);
-  return ascii.length >= 3 ? ascii : `gacha-${String(index + 1).padStart(4, "0")}`;
+    .slice(0, 30);
+  const prefix = ascii.length >= 3 ? ascii : "gacha";
+  return `${prefix}-${hex}`;
 }
 
 /**
@@ -182,7 +190,7 @@ async function main() {
     if (exclude) continue; // 6ヶ月以上前の商品は除外
 
     products.push({
-      id: generateId(a.title, i),
+      id: generateId(a.title, i, a.url),
       name: a.title,
       brand: a.brand || "その他",
       brandSlug: toBrandSlug(a.brand || "その他"),
