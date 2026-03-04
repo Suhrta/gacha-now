@@ -924,37 +924,35 @@ async function main() {
 
   const results = {};
 
-  console.log("[1/6] バンダイ ガシャポン公式");
+  console.log("[1/3] バンダイ ガシャポン公式");
   results.bandai = await collectFromBandai();
   console.log(`  → ${results.bandai.length}件\n`);
 
-  console.log("[2/6] タカラトミーアーツ公式");
+  console.log("[2/3] タカラトミーアーツ公式");
   results.takaratomy = await collectFromTakaraTomy();
   console.log(`  → ${results.takaratomy.length}件\n`);
 
-  console.log("[3/6] キタンクラブ公式");
+  console.log("[3/3] キタンクラブ公式");
   results.kitan = await collectFromKitan();
   console.log(`  → ${results.kitan.length}件\n`);
 
-  console.log("[4/6] Qualia公式");
-  results.qualia = await collectFromQualia();
-  console.log(`  → ${results.qualia.length}件\n`);
+  // TODO: 画像取得修正後に有効化
+  // console.log("[4/6] Qualia公式");
+  // results.qualia = await collectFromQualia();
+  // console.log(`  → ${results.qualia.length}件\n`);
 
-  console.log("[5/6] ブシロードクリエイティブ公式");
-  results.bushiroad = await collectFromBushiroad();
-  console.log(`  → ${results.bushiroad.length}件\n`);
+  // console.log("[5/6] ブシロードクリエイティブ公式");
+  // results.bushiroad = await collectFromBushiroad();
+  // console.log(`  → ${results.bushiroad.length}件\n`);
 
-  console.log("[6/6] ケンエレファント公式");
-  results.kenelephant = await collectFromKenelephant();
-  console.log(`  → ${results.kenelephant.length}件\n`);
+  // console.log("[6/6] ケンエレファント公式");
+  // results.kenelephant = await collectFromKenelephant();
+  // console.log(`  → ${results.kenelephant.length}件\n`);
 
   const all = [
     ...results.bandai,
     ...results.takaratomy,
     ...results.kitan,
-    ...results.qualia,
-    ...results.bushiroad,
-    ...results.kenelephant,
   ];
 
   // 重複排除
@@ -971,9 +969,6 @@ async function main() {
   console.log(`   バンダイ公式: ${results.bandai.length}件`);
   console.log(`   タカトミ公式: ${results.takaratomy.length}件`);
   console.log(`   キタンクラブ公式: ${results.kitan.length}件`);
-  console.log(`   Qualia公式: ${results.qualia.length}件`);
-  console.log(`   ブシロードクリエイティブ公式: ${results.bushiroad.length}件`);
-  console.log(`   ケンエレファント公式: ${results.kenelephant.length}件`);
 
   const outputPath = path.join(__dirname, "../data/collected.json");
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
