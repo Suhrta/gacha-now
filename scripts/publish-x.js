@@ -25,7 +25,7 @@ const SITE_URL = "https://gacha-now.vercel.app";
 
 // 環境変数
 const API_KEY = process.env.X_API_KEY;
-const API_SECRET = process.env.X_API_KEY_SECRET;
+const API_SECRET = process.env.X_API_SECRET;
 const ACCESS_TOKEN = process.env.X_ACCESS_TOKEN;
 const ACCESS_SECRET = process.env.X_ACCESS_TOKEN_SECRET;
 
