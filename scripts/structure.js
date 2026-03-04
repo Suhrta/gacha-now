@@ -138,8 +138,8 @@ function estimateReleaseDate(releaseWeek) {
 
 /**
  * releaseWeekを表示用に変換
- * - 3ヶ月以上前 → null（除外対象）
- * - 3ヶ月以内の過去 → "発売中"
+ * - 6ヶ月以上前 → null（除外対象）
+ * - 6ヶ月以内の過去 → "発売中"
  * - 未来 → 年を除いて表示（例: "3月 第2週"）
  * - 未定 → そのまま
  */
@@ -150,11 +150,11 @@ function normalizeReleaseWeek(releaseWeek) {
   if (!estimated) return { display: releaseWeek, exclude: false };
 
   const now = new Date();
-  const threeMonthsAgo = new Date();
-  threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+  const sixMonthsAgo = new Date();
+  sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
 
-  if (estimated < threeMonthsAgo) {
-    return { display: null, exclude: true }; // 3ヶ月以上前 → 除外
+  if (estimated < sixMonthsAgo) {
+    return { display: null, exclude: true }; // 6ヶ月以上前 → 除外
   }
   if (estimated < now) {
     return { display: "発売中", exclude: false }; // 3ヶ月以内の過去
@@ -179,7 +179,7 @@ async function main() {
   for (let i = 0; i < articles.length; i++) {
     const a = articles[i];
     const { display, exclude } = normalizeReleaseWeek(a.releaseWeek);
-    if (exclude) continue; // 3ヶ月以上前の商品は除外
+    if (exclude) continue; // 6ヶ月以上前の商品は除外
 
     products.push({
       id: generateId(a.title, i),
