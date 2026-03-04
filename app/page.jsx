@@ -26,9 +26,10 @@ function getSortedBrands() {
 const BRANDS = getSortedBrands();
 
 function getStatus(product) {
+  const rw = product.releaseWeek || "未定";
+  if (rw === "発売中") return "available";
   const now = new Date();
   const currentMonth = now.getMonth() + 1;
-  const rw = product.releaseWeek || "未定";
   const monthMatch = rw.match(/(\d+)月/);
   if (!monthMatch) return "new";
   const releaseMonth = parseInt(monthMatch[1]);
@@ -102,8 +103,7 @@ function sortProducts(list, tab) {
 }
 
 const STATUS_TABS = [
-  { key: "all", label: "すべて" },
-  { key: "trending", label: "🔥 注目" },
+  { key: "trending", label: "注目" },
   { key: "available", label: "発売中" },
   { key: "new", label: "新作" },
   { key: "upcoming", label: "発売予定" },
@@ -228,7 +228,7 @@ export default function HomePage() {
         <div className="flex items-center gap-1.5 mb-2 px-1 relative z-10">
           <div className="flex gap-1.5 overflow-x-auto flex-1">
             {visibleTabs.map((tab) => (
-              <button key={tab.key} onClick={() => setStatusTab(tab.key)}
+              <button key={tab.key} onClick={() => setStatusTab(statusTab === tab.key ? "all" : tab.key)}
                 className="shrink-0 px-3 py-1.5 rounded-full font-pixel text-[10px] border-2 transition-colors duration-100 cursor-pointer"
                 style={{
                   background: statusTab === tab.key
@@ -289,7 +289,7 @@ export default function HomePage() {
           {statusTab === "favorites"
             ? `⭐ ${filtered.length}件のお気に入り`
             : statusTab === "trending"
-            ? `🔥 注目のガチャ ${filtered.length}件`
+            ? `注目のガチャ ${filtered.length}件`
             : `${filtered.length}件 ── タップで詳しく！`
           }
         </div>
