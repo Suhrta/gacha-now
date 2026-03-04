@@ -1,14 +1,12 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 
 const zigzagTop = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,10 8,0 16,10' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
 const zigzagBottom = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,0 8,10 16,0' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
 
-/* 店舗検索URLを生成 */
+/* 設置場所検索URL生成 */
 function getShopSearchUrl(product) {
   if (!product.sourceUrl) return null;
-
-  // バンダイ: 商品別店舗マップ（jan_codeから先頭13桁を取得）
   if (product.sourceUrl.includes("gashapon.jp")) {
     const janMatch = product.sourceUrl.match(/jan_code=(\d{13})/);
     if (janMatch) {
@@ -16,13 +14,150 @@ function getShopSearchUrl(product) {
     }
     return "https://gashapon.jp/shop/gplus.php";
   }
-
-  // タカトミ: 商品詳細ページ内に「この商品の取扱店舗」ボタンがある
   if (product.sourceUrl.includes("takaratomy-arts.co.jp")) {
     return product.sourceUrl;
   }
-
   return null;
+}
+
+/* 画像スワイプコンポーネント */
+function ImageSwiper({ images, name }) {
+  const [current, setCurrent] = useState(0);
+  const [validImages, setValidImages] = useState([images[0]]);
+  const [checked, setChecked] = useState(false);
+  const touchStartX = useRef(0);
+  const touchDeltaX = useRef(0);
+  const [dragging, setDragging] = useState(false);
+  const [dragOffset, setDragOffset] = useState(0);
+
+  // バンダイの連番画像を順次読み込み確認
+  useEffect(() => {
+    if (images.length <= 1) { setChecked(true); return; }
+    let cancelled = false;
+    const confirmed = [images[0]];
+    const checkImages = async () => {
+      for (let i = 1; i < images.length; i++) {
+        if (cancelled) break;
+        const ok = await new Promise((resolve) => {
+          const img = new Image();
+          img.onload = () => resolve(true);
+          img.onerror = () => resolve(false);
+          img.src = images[i];
+        });
+        if (ok) confirmed.push(images[i]);
+        else break; // 連番なので1つ失敗したら以降も存在しない
+      }
+      if (!cancelled) {
+        setValidImages([...confirmed]);
+        setChecked(true);
+      }
+    };
+    checkImages();
+    return () => { cancelled = true; };
+  }, [images]);
+
+  const validCount = validImages.length;
+
+  const handleTouchStart = useCallback((e) => {
+    touchStartX.current = e.touches[0].clientX;
+    touchDeltaX.current = 0;
+    setDragging(true);
+  }, []);
+
+  const handleTouchMove = useCallback((e) => {
+    if (!dragging) return;
+    const delta = e.touches[0].clientX - touchStartX.current;
+    touchDeltaX.current = delta;
+    setDragOffset(delta);
+  }, [dragging]);
+
+  const handleTouchEnd = useCallback(() => {
+    setDragging(false);
+    const threshold = 50;
+    if (touchDeltaX.current < -threshold && current < validCount - 1) {
+      setCurrent((p) => p + 1);
+    } else if (touchDeltaX.current > threshold && current > 0) {
+      setCurrent((p) => p - 1);
+    }
+    setDragOffset(0);
+  }, [current, validCount]);
+
+  // 画像1枚の場合はスワイプなし
+  if (validCount <= 1 && checked) {
+    return (
+      <div className="rounded-lg overflow-hidden mb-2 border-2 border-cream-border">
+        <img src={validImages[0]} alt={name} className="w-full block"
+          style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />
+      </div>
+    );
+  }
+
+  return (
+    <div className="mb-2 relative">
+      {/* スワイプエリア */}
+      <div
+        className="rounded-lg overflow-hidden border-2 border-cream-border relative"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+        style={{ touchAction: "pan-y" }}
+      >
+        <div
+          className="flex"
+          style={{
+            transform: `translateX(calc(-${current * 100}% + ${dragOffset}px))`,
+            transition: dragging ? "none" : "transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          }}
+        >
+          {validImages.map((src, i) => (
+            <div key={i} className="w-full shrink-0">
+              <img
+                src={src}
+                alt={`${name} ${i + 1}`}
+                className="w-full block"
+                style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }}
+              />
+            </div>
+          ))}
+        </div>
+
+        {/* 右端チラ見えグラデーション（1枚目 & 複数枚ある時） */}
+        {current === 0 && validCount > 1 && !dragging && (
+          <div className="absolute right-0 top-0 bottom-0 w-8 pointer-events-none"
+            style={{
+              background: "linear-gradient(to left, rgba(255,253,248,0.6), transparent)",
+            }}
+          />
+        )}
+
+        {/* 枚数表示（右上） */}
+        {validCount > 1 && (
+          <div className="absolute top-2 right-2 font-pixel text-[8px] px-1.5 py-0.5 rounded-md pointer-events-none"
+            style={{ background: "rgba(0,0,0,0.45)", color: "#fff" }}>
+            {current + 1}/{validCount}
+          </div>
+        )}
+      </div>
+
+      {/* ドットインジケーター */}
+      {validCount > 1 && validCount <= 12 && (
+        <div className="flex justify-center gap-1 mt-1.5">
+          {validImages.map((_, i) => (
+            <div
+              key={i}
+              className="rounded-full transition-all duration-200"
+              style={{
+                width: i === current ? 14 : 5,
+                height: 5,
+                background: i === current ? "#E8756D" : "#E0D6C8",
+                borderRadius: i === current ? 3 : "50%",
+              }}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default function ReceiptPaper({ product, onClose, isPage = false }) {
@@ -39,6 +174,9 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
   };
 
   const shopUrl = getShopSearchUrl(product);
+  const images = product.images && product.images.length > 0
+    ? product.images
+    : (product.img ? [product.img] : []);
 
   const receiptContent = (
     <>
@@ -46,9 +184,8 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
 
       <div className="w-full" style={{ background: "#FFFDF8", padding: "8px 16px 12px", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
 
-        <div className="rounded-lg overflow-hidden mb-2 border-2 border-cream-border">
-          <img src={product.img} alt={product.name} className="w-full block" style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />
-        </div>
+        {/* 画像スワイプエリア */}
+        <ImageSwiper images={images} name={product.name} />
 
         <div className="mb-2">
           <div className="font-pixel text-[11px] text-brand-text leading-[1.9] mb-1">{product.name}</div>
@@ -77,7 +214,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
           🔗 公式サイトで詳しく見る
         </a>
 
-        {/* 店舗検索ボタン */}
+        {/* 設置場所検索ボタン */}
         {shopUrl && (
           <a href={shopUrl} target="_blank" rel="noopener noreferrer"
             className="block w-full py-2.5 mt-1.5 rounded-lg font-pixel text-[11px] text-center no-underline border-2"
@@ -87,10 +224,10 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
               color: "#5B8C6D",
               boxShadow: "0 2px 8px rgba(91,140,109,0.15)",
             }}>
-            🏪 近くの店舗を探す
+            📍 近くの設置場所を探す
             {product.sourceUrl && product.sourceUrl.includes("takaratomy-arts.co.jp") && (
               <div className="font-pixel text-[8px] mt-0.5 opacity-70">
-                ※ページ内「この商品の取扱店舗」から検索
+                →ページ内「この商品の取扱店舗」から検索
               </div>
             )}
           </a>

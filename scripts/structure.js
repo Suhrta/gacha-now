@@ -192,6 +192,7 @@ async function main() {
       color: getBrandColor(a.brand || "その他"),
       hot: isHot(a.title, a.brand || "その他"),
       img: a.imageUrl || null,
+      images: a.images || (a.imageUrl ? [a.imageUrl] : []),
       affiliateUrl: "#",
       sourceUrl: a.url,
       source: a.source,

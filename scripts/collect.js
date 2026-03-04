@@ -172,6 +172,24 @@ async function collectFromBandai() {
         const imgMatch = block.match(/src="(https:\/\/bandai-a\.akamaihd\.net[^"]+)"/);
         const imageUrl = imgMatch ? imgMatch[1] : null;
 
+        // ラインナップ画像配列（バンダイは _1.jpg 〜 _N.jpg で個別画像がある）
+        const images = [];
+        if (imageUrl) {
+          images.push(imageUrl);
+          // 画像IDを抽出して連番画像URLを生成（_2〜_types+1まで）
+          const idMatch = imageUrl.match(/\/(\d+)_\d+\.\w+$/);
+          if (idMatch) {
+            const imgId = idMatch[1];
+            const baseUrl = imageUrl.replace(/\/[a-z]+\/(\d+_\d+\.\w+)$/, "");
+            const ext = imageUrl.match(/\.(\w+)$/)?.[1] || "jpg";
+            const size = imageUrl.match(/\/model\/([^/]+)\//)?.[1] || "b";
+            // types不明の場合はとりあえず最大12枚分URLを生成（存在しない画像は表示時にスキップ）
+            for (let n = 2; n <= 12; n++) {
+              images.push(`https://bandai-a.akamaihd.net/bc/img/model/${size}/${imgId}_${n}.${ext}`);
+            }
+          }
+        }
+
         // 価格: <span class="c-card__price--main">500</span>
         const priceMatch = block.match(/c-card__price--main">\s*(\d+)\s*</);
         const price = priceMatch ? parseInt(priceMatch[1]) : null;
@@ -194,6 +212,7 @@ async function collectFromBandai() {
             url: `https://gashapon.jp/products/detail.php?jan_code=${janCode}`,
             source: "バンダイ公式",
             imageUrl,
+            images,
             price,
             releaseWeek,
             brand,
@@ -314,6 +333,7 @@ async function collectFromTakaraTomy() {
         url: `https://www.takaratomy-arts.co.jp/items/item.html?n=${item.productId}`,
         source: "タカラトミーアーツ公式",
         imageUrl: item.imageUrl,
+        images: item.imageUrl ? [item.imageUrl] : [],
         price,
         releaseWeek: item.releaseWeek,
         brand: detectBrand(item.name),
@@ -466,6 +486,7 @@ async function collectFromKitan() {
             url,
             source: "キタンクラブ公式",
             imageUrl,
+            images: imageUrl ? [imageUrl] : [],
             price,
             releaseWeek,
             brand,
