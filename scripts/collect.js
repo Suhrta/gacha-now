@@ -287,13 +287,22 @@ async function collectFromTakaraTomy() {
         types = typesMatch ? parseInt(typesMatch[1]) : null;
 
         // 詳細ページの発売時期で上書き
+        // パターン1: 「2026年3月9日週」
         const relMatch = dHtml.match(/(\d{4})年(\d+)月(\d+)日週/);
         if (relMatch) {
           item.releaseWeek = `${relMatch[1]}年${relMatch[2]}月 ${relMatch[3]}日週`;
         } else {
+          // パターン2: 「3月9日週」（年なし）
           const relMatch2 = dHtml.match(/(\d+)月(\d+)日週/);
           if (relMatch2) {
             item.releaseWeek = `${currentYear}年${relMatch2[1]}月 ${relMatch2[2]}日週`;
+          } else {
+            // パターン3: 「2026年3月中旬」「2026年3月」等
+            const relMatch3 = dHtml.match(/発売時期[:：]\s*(\d{4})年(\d+)月\s*(上旬|中旬|下旬)?/);
+            if (relMatch3) {
+              const suffix = relMatch3[3] || "";
+              item.releaseWeek = `${relMatch3[1]}年${relMatch3[2]}月${suffix ? " " + suffix : ""}`;
+            }
           }
         }
       } catch (err) {
