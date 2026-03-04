@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-export default function GachaMachine({ product, index, onClick }) {
+export default function GachaMachine({ product, index, onClick, isFavorite = false }) {
   const [vis, setVis] = useState(false);
   const [pressed, setPressed] = useState(false);
 
@@ -112,6 +112,13 @@ export default function GachaMachine({ product, index, onClick }) {
             }} />
           </div>
         </div>
+
+        {/* お気に入り星マーク（取り出し口の上） */}
+        {isFavorite && (
+          <div className="flex justify-center pointer-events-none" style={{ marginTop: -2, marginBottom: -2 }}>
+            <span style={{ fontSize: 12, color: "#F5A623", filter: "drop-shadow(0 1px 2px rgba(245,166,35,0.4))" }}>⭐</span>
+          </div>
+        )}
 
         {/* 下段：取り出し口（左）+ 価格（右） */}
         <div className="flex items-start px-2 pb-2 pointer-events-none" style={{ height: 48 }}>

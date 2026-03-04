@@ -71,9 +71,8 @@ function ImageSwiper({ images, name }) {
     if (!dragging) return;
     const deltaX = e.touches[0].clientX - touchStartX.current;
     const deltaY = e.touches[0].clientY - touchStartY.current;
-    // 横方向の動きが縦方向より大きい場合のみスワイプとして扱う
     if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 10) {
-      e.preventDefault(); // 横スワイプ時だけスクロール抑制
+      e.preventDefault();
     }
     touchDeltaX.current = deltaX;
     setDragOffset(deltaX);
@@ -84,14 +83,12 @@ function ImageSwiper({ images, name }) {
     const absDelta = Math.abs(touchDeltaX.current);
 
     if (absDelta > 50) {
-      // スワイプ判定
       if (touchDeltaX.current < -50 && current < validCount - 1) {
         setCurrent((p) => p + 1);
       } else if (touchDeltaX.current > 50 && current > 0) {
         setCurrent((p) => p - 1);
       }
     } else if (absDelta < 10) {
-      // タップ判定（ほぼ動いてない）
       if (validCount > 1 && containerRef.current) {
         const rect = containerRef.current.getBoundingClientRect();
         const x = (e.changedTouches?.[0]?.clientX || 0) - rect.left;
@@ -105,7 +102,6 @@ function ImageSwiper({ images, name }) {
     setDragOffset(0);
   }, [current, validCount]);
 
-  // PC用クリック対応
   const handleClick = useCallback((e) => {
     if (validCount <= 1) return;
     const rect = e.currentTarget.getBoundingClientRect();
@@ -117,7 +113,6 @@ function ImageSwiper({ images, name }) {
     }
   }, [validCount]);
 
-  // 画像1枚の場合
   if (validCount <= 1 && checked) {
     return (
       <div className="rounded-lg overflow-hidden mb-2 border-2 border-cream-border">
@@ -158,34 +153,24 @@ function ImageSwiper({ images, name }) {
           ))}
         </div>
 
-        {/* 右端チラ見えグラデーション（1枚目 & 複数枚ある時） */}
         {current === 0 && validCount > 1 && !dragging && (
           <div className="absolute right-0 top-0 bottom-0 w-8 pointer-events-none"
-            style={{
-              background: "linear-gradient(to left, rgba(255,253,248,0.6), transparent)",
-            }}
-          />
+            style={{ background: "linear-gradient(to left, rgba(255,253,248,0.6), transparent)" }} />
         )}
 
-        {/* 左右矢印ヒント */}
         {validCount > 1 && (
           <>
             {current > 0 && (
               <div className="absolute left-1.5 top-1/2 -translate-y-1/2 pointer-events-none font-pixel text-[16px]"
-                style={{ color: "rgba(0,0,0,0.2)" }}>
-                ‹
-              </div>
+                style={{ color: "rgba(0,0,0,0.2)" }}>‹</div>
             )}
             {current < validCount - 1 && (
               <div className="absolute right-1.5 top-1/2 -translate-y-1/2 pointer-events-none font-pixel text-[16px]"
-                style={{ color: "rgba(0,0,0,0.2)" }}>
-                ›
-              </div>
+                style={{ color: "rgba(0,0,0,0.2)" }}>›</div>
             )}
           </>
         )}
 
-        {/* 枚数表示（右上） */}
         {validCount > 1 && (
           <div className="absolute top-2 right-2 font-pixel text-[8px] px-1.5 py-0.5 rounded-md pointer-events-none"
             style={{ background: "rgba(0,0,0,0.45)", color: "#fff" }}>
@@ -194,20 +179,15 @@ function ImageSwiper({ images, name }) {
         )}
       </div>
 
-      {/* ドットインジケーター */}
       {validCount > 1 && validCount <= 12 && (
         <div className="flex justify-center gap-1 mt-1.5">
           {validImages.map((_, i) => (
-            <div
-              key={i}
-              className="rounded-full transition-all duration-200"
+            <div key={i} className="rounded-full transition-all duration-200"
               style={{
-                width: i === current ? 14 : 5,
-                height: 5,
+                width: i === current ? 14 : 5, height: 5,
                 background: i === current ? "#E8756D" : "#E0D6C8",
                 borderRadius: i === current ? 3 : "50%",
-              }}
-            />
+              }} />
           ))}
         </div>
       )}
@@ -215,7 +195,7 @@ function ImageSwiper({ images, name }) {
   );
 }
 
-export default function ReceiptPaper({ product, onClose, isPage = false }) {
+export default function ReceiptPaper({ product, onClose, isPage = false, isFavorite = false, onToggleFavorite }) {
   const [show, setShow] = useState(isPage);
 
   useEffect(() => {
@@ -260,8 +240,22 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
         {/* 画像ギャラリー */}
         <ImageSwiper images={images} name={product.name} />
 
-        <div className="mb-2">
-          <div className="font-pixel text-[11px] text-brand-text leading-[1.9] mb-1">{product.name}</div>
+        {/* 商品名 + お気に入り星 */}
+        <div className="mb-2 flex items-start gap-2">
+          <div className="flex-1 font-pixel text-[11px] text-brand-text leading-[1.9]">{product.name}</div>
+          {onToggleFavorite && (
+            <button
+              onClick={(e) => { e.stopPropagation(); onToggleFavorite(product.id); }}
+              className="shrink-0 flex items-center justify-center bg-transparent border-none cursor-pointer p-0"
+              style={{ width: 32, height: 32, fontSize: 20, transition: "transform 0.2s" }}
+              onMouseDown={(e) => { e.currentTarget.style.transform = "scale(1.3)"; }}
+              onMouseUp={(e) => { e.currentTarget.style.transform = "scale(1)"; }}
+              onTouchStart={(e) => { e.currentTarget.style.transform = "scale(1.3)"; }}
+              onTouchEnd={(e) => { e.currentTarget.style.transform = "scale(1)"; }}
+            >
+              {isFavorite ? "⭐" : "☆"}
+            </button>
+          )}
         </div>
 
         <div className="border-b border-dashed border-cream-border mb-1.5" />
