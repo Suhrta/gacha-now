@@ -143,12 +143,13 @@ async function collectFromBandai() {
       //       <span class="pg-schedule__month--date">1</span>
       //       <span class="pg-schedule__month--text">週より順次</span>
       const weekPositions = [];
+      const year = ym.slice(0, 4);
       const weekRegex = /pg-schedule__month--date">\s*(\d+)\s*<\/span>\s*<span[^>]*>\s*月第\s*<\/span>\s*<span[^>]*>\s*(\d+)\s*<\/span>\s*<span[^>]*>\s*週/g;
       let weekMatch;
       while ((weekMatch = weekRegex.exec(html)) !== null) {
         weekPositions.push({
           pos: weekMatch.index,
-          week: `${weekMatch[1]}月 第${weekMatch[2]}週`,
+          week: `${year}年${weekMatch[1]}月 第${weekMatch[2]}週`,
         });
       }
 
@@ -221,6 +222,7 @@ async function collectFromTakaraTomy() {
 
     // 発売週セクション検出
     const weekSections = [];
+    const currentYear = new Date().getFullYear();
 
     // パターン1: *3*月*9*日週発売
     const dateWeekRegex = /\*(\d+)\*月\*(\d+)\*日週発売/g;
@@ -228,7 +230,7 @@ async function collectFromTakaraTomy() {
     while ((secMatch = dateWeekRegex.exec(html)) !== null) {
       weekSections.push({
         pos: secMatch.index,
-        week: `${secMatch[1]}月 ${secMatch[2]}日週`,
+        week: `${currentYear}年${secMatch[1]}月 ${secMatch[2]}日週`,
       });
     }
 
@@ -237,7 +239,7 @@ async function collectFromTakaraTomy() {
     while ((secMatch = undefinedRegex.exec(html)) !== null) {
       weekSections.push({
         pos: secMatch.index,
-        week: `${secMatch[1]}月 未定`,
+        week: `${currentYear}年${secMatch[1]}月 未定`,
       });
     }
 
@@ -285,9 +287,14 @@ async function collectFromTakaraTomy() {
         types = typesMatch ? parseInt(typesMatch[1]) : null;
 
         // 詳細ページの発売時期で上書き
-        const relMatch = dHtml.match(/(\d+)月(\d+)日週/);
+        const relMatch = dHtml.match(/(\d{4})年(\d+)月(\d+)日週/);
         if (relMatch) {
-          item.releaseWeek = `${relMatch[1]}月 ${relMatch[2]}日週`;
+          item.releaseWeek = `${relMatch[1]}年${relMatch[2]}月 ${relMatch[3]}日週`;
+        } else {
+          const relMatch2 = dHtml.match(/(\d+)月(\d+)日週/);
+          if (relMatch2) {
+            item.releaseWeek = `${currentYear}年${relMatch2[1]}月 ${relMatch2[2]}日週`;
+          }
         }
       } catch (err) {
         console.error(`    ⚠️ ${item.name}: ${err.message}`);
@@ -434,7 +441,7 @@ async function collectFromKitan() {
           const relMatch = pageText.match(/(\d{4})年(\d{1,2})月(上旬|中旬|下旬|[\d]+日)/);
           let releaseWeek = "未定";
           if (relMatch) {
-            releaseWeek = `${relMatch[2]}月 ${relMatch[3]}`;
+            releaseWeek = `${relMatch[1]}年${relMatch[2]}月 ${relMatch[3]}`;
           }
 
           let imageUrl = $('meta[property="og:image"]').attr("content") || null;
