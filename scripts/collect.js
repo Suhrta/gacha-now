@@ -408,16 +408,21 @@ async function collectFromKitan() {
           if (!name) name = $("title").text().replace(/[｜|].*$/, "").trim();
           if (!name || name.length < 2) continue;
 
+          // カテゴリタグ: ページ本文中のハッシュタグのみ取得
+          // ※ナビゲーションの /products_category/ リンクは全ページ共通なので使わない
           const categoryTags = [];
-          $("a[href*='/products_category/'], a[href*='/product_category/']").each((_, el) => {
-            const tagText = $(el).text().trim();
-            if (tagText) categoryTags.push(tagText);
-          });
-          $("*").each((_, el) => {
-            const text = $(el).clone().children().remove().end().text().trim();
-            const hashTags = text.match(/#[^\s#]+/g);
-            if (hashTags) categoryTags.push(...hashTags);
-          });
+          const bodyText = $("body").text();
+          const hashMatches = bodyText.match(/#[^\s#<>]{2,}/g);
+          if (hashMatches) {
+            for (const tag of hashMatches) {
+              const cleaned = tag.replace(/^#/, "").trim();
+              // ナビ由来の一般的なカテゴリ名を除外
+              if (!["新商品", "オリジナル", "企業コラボ", "キタンクラブオリジナル",
+                    "カプセルトイ", "フィギュア", "アーティスト"].includes(cleaned)) {
+                categoryTags.push(cleaned);
+              }
+            }
+          }
 
           const pageText = $.text();
           const priceMatch = pageText.match(/1回\s*(\d{2,4})\s*円/);
