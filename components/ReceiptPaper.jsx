@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 
 const zigzagTop = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,10 8,0 16,10' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
 const zigzagBottom = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,0 8,10 16,0' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
@@ -20,11 +20,17 @@ function getShopSearchUrl(product) {
   return null;
 }
 
-/* 画像スワイプコンポーネント */
+/* 画像ギャラリーコンポーネント（スワイプ + タップ両対応） */
 function ImageSwiper({ images, name }) {
   const [current, setCurrent] = useState(0);
   const [validImages, setValidImages] = useState([images[0]]);
   const [checked, setChecked] = useState(false);
+  const touchStartX = useRef(0);
+  const touchStartY = useRef(0);
+  const touchDeltaX = useRef(0);
+  const [dragging, setDragging] = useState(false);
+  const [dragOffset, setDragOffset] = useState(0);
+  const containerRef = useRef(null);
 
   // バンダイの連番画像を順次読み込み確認
   useEffect(() => {
@@ -41,7 +47,7 @@ function ImageSwiper({ images, name }) {
           img.src = images[i];
         });
         if (ok) confirmed.push(images[i]);
-        else break; // 連番なので1つ失敗したら以降も存在しない
+        else break;
       }
       if (!cancelled) {
         setValidImages([...confirmed]);
@@ -54,11 +60,56 @@ function ImageSwiper({ images, name }) {
 
   const validCount = validImages.length;
 
-  // タップで切り替え（右半分→次、左半分→前）
-  const handleTap = useCallback((e) => {
+  const handleTouchStart = useCallback((e) => {
+    touchStartX.current = e.touches[0].clientX;
+    touchStartY.current = e.touches[0].clientY;
+    touchDeltaX.current = 0;
+    setDragging(true);
+  }, []);
+
+  const handleTouchMove = useCallback((e) => {
+    if (!dragging) return;
+    const deltaX = e.touches[0].clientX - touchStartX.current;
+    const deltaY = e.touches[0].clientY - touchStartY.current;
+    // 横方向の動きが縦方向より大きい場合のみスワイプとして扱う
+    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 10) {
+      e.preventDefault(); // 横スワイプ時だけスクロール抑制
+    }
+    touchDeltaX.current = deltaX;
+    setDragOffset(deltaX);
+  }, [dragging]);
+
+  const handleTouchEnd = useCallback((e) => {
+    setDragging(false);
+    const absDelta = Math.abs(touchDeltaX.current);
+
+    if (absDelta > 50) {
+      // スワイプ判定
+      if (touchDeltaX.current < -50 && current < validCount - 1) {
+        setCurrent((p) => p + 1);
+      } else if (touchDeltaX.current > 50 && current > 0) {
+        setCurrent((p) => p - 1);
+      }
+    } else if (absDelta < 10) {
+      // タップ判定（ほぼ動いてない）
+      if (validCount > 1 && containerRef.current) {
+        const rect = containerRef.current.getBoundingClientRect();
+        const x = (e.changedTouches?.[0]?.clientX || 0) - rect.left;
+        if (x > rect.width / 2) {
+          setCurrent((p) => Math.min(p + 1, validCount - 1));
+        } else {
+          setCurrent((p) => Math.max(p - 1, 0));
+        }
+      }
+    }
+    setDragOffset(0);
+  }, [current, validCount]);
+
+  // PC用クリック対応
+  const handleClick = useCallback((e) => {
     if (validCount <= 1) return;
     const rect = e.currentTarget.getBoundingClientRect();
-    const x = (e.clientX || e.changedTouches?.[0]?.clientX || 0) - rect.left;
+    const x = e.clientX - rect.left;
     if (x > rect.width / 2) {
       setCurrent((p) => Math.min(p + 1, validCount - 1));
     } else {
@@ -66,7 +117,7 @@ function ImageSwiper({ images, name }) {
     }
   }, [validCount]);
 
-  // 画像1枚の場合はタップなし
+  // 画像1枚の場合
   if (validCount <= 1 && checked) {
     return (
       <div className="rounded-lg overflow-hidden mb-2 border-2 border-cream-border">
@@ -78,16 +129,20 @@ function ImageSwiper({ images, name }) {
 
   return (
     <div className="mb-2 relative">
-      {/* タップエリア */}
       <div
+        ref={containerRef}
         className="rounded-lg overflow-hidden border-2 border-cream-border relative cursor-pointer"
-        onClick={handleTap}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+        onClick={handleClick}
+        style={{ touchAction: "pan-y" }}
       >
         <div
           className="flex"
           style={{
-            transform: `translateX(-${current * 100}%)`,
-            transition: "transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+            transform: `translateX(calc(-${current * 100}% + ${dragging ? dragOffset : 0}px))`,
+            transition: dragging ? "none" : "transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
           }}
         >
           {validImages.map((src, i) => (
@@ -96,14 +151,15 @@ function ImageSwiper({ images, name }) {
                 src={src}
                 alt={`${name} ${i + 1}`}
                 className="w-full block"
-                style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }}
+                draggable={false}
+                style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top", userSelect: "none" }}
               />
             </div>
           ))}
         </div>
 
         {/* 右端チラ見えグラデーション（1枚目 & 複数枚ある時） */}
-        {current === 0 && validCount > 1 && (
+        {current === 0 && validCount > 1 && !dragging && (
           <div className="absolute right-0 top-0 bottom-0 w-8 pointer-events-none"
             style={{
               background: "linear-gradient(to left, rgba(255,253,248,0.6), transparent)",
@@ -111,7 +167,7 @@ function ImageSwiper({ images, name }) {
           />
         )}
 
-        {/* タップ方向ヒント（左右の矢印、薄く表示） */}
+        {/* 左右矢印ヒント */}
         {validCount > 1 && (
           <>
             {current > 0 && (
@@ -166,6 +222,24 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
     if (!isPage) requestAnimationFrame(() => setShow(true));
   }, [isPage]);
 
+  // モーダル表示中は背景スクロールをロック
+  useEffect(() => {
+    if (isPage) return;
+    const scrollY = window.scrollY;
+    document.body.style.position = "fixed";
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.width = "100%";
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.position = "";
+      document.body.style.top = "";
+      document.body.style.width = "";
+      document.body.style.overflow = "";
+      window.scrollTo(0, scrollY);
+    };
+  }, [isPage]);
+
   const close = () => {
     if (!onClose) return;
     setShow(false);
@@ -183,7 +257,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
 
       <div className="w-full" style={{ background: "#FFFDF8", padding: "8px 16px 12px", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
 
-        {/* 画像スワイプエリア */}
+        {/* 画像ギャラリー */}
         <ImageSwiper images={images} name={product.name} />
 
         <div className="mb-2">
