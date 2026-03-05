@@ -1,5 +1,24 @@
 [
   {
+    "id": "aip--39668df8",
+    "name": "AIP 森口修の猫 フィギュアマスコット３",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "3月 中旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/02/moriguchi3_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/02/moriguchi3_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/moriguchiosamu_cat3/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-03-05T01:03:57.702Z"
+  },
+  {
     "id": "fig--6306ec8e",
     "name": "こっちむいてFig. その着せ替え人形は恋をする",
     "brand": "その他",
