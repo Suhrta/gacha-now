@@ -1,5 +1,43 @@
 [
   {
+    "id": "fig--6306ec8e",
+    "name": "こっちむいてFig. その着せ替え人形は恋をする",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "3月 16日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y086847_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y086847_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y086847",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-05T00:28:37.313Z"
+  },
+  {
+    "id": "gacha-05f92f56",
+    "name": "でふぉフィグ！ 薬屋のひとりごとキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "3月 16日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y086861_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y086861_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y086861",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-05T00:28:37.313Z"
+  },
+  {
     "id": "-mobile-suit-ensemble-13-02fafb02",
     "name": "機動戦士ガンダム MOBILE SUIT ENSEMBLE 13",
     "brand": "ガンダム",
