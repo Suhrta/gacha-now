@@ -1,5 +1,62 @@
 [
   {
+    "id": "gacha-3c7f2219",
+    "name": "ギャビーのドールハウス ザ・ムービー つながるラバーマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "3月 9日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y095634_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y095634_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y095634",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-06T00:04:26.490Z"
+  },
+  {
+    "id": "-hideseek--2bce30ed",
+    "name": "コスチュームエイリアン Hide&Seek かくれんぼフィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "3月 9日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098468_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098468_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098468",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-06T00:04:26.490Z"
+  },
+  {
+    "id": "gacha-01a77c99",
+    "name": "もふもふ羽毛ティラノ フロッキーフィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "3月 9日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099847_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099847_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099847",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-06T00:04:26.490Z"
+  },
+  {
     "id": "aip--39668df8",
     "name": "AIP 森口修の猫 フィギュアマスコット３",
     "brand": "その他",
