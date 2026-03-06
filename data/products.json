@@ -1,5 +1,119 @@
 [
   {
+    "id": "gacha-5cc1dd76",
+    "name": "でふぉラバ! 呪術廻戦 死滅回游 キーホルダー",
+    "brand": "呪術廻戦",
+    "brandSlug": "jujutsu",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "3月 16日週",
+    "color": "#7986CB",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093159_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093159_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093159",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-06T17:45:02.749Z"
+  },
+  {
+    "id": "gacha-08456f4d",
+    "name": "でふぉフィグ! ハイキュー!! 青葉城西・梟谷学園キーホルダー",
+    "brand": "ハイキュー",
+    "brandSlug": "haikyu",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "3月",
+    "color": "#d5e599",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093470_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093470_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093470",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-06T17:45:02.749Z"
+  },
+  {
+    "id": "fig--249555e4",
+    "name": "肩ズンFig. 鬼滅の刃 第肆弾",
+    "brand": "鬼滅の刃",
+    "brandSlug": "kimetsu",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "3月",
+    "color": "#80CBC4",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y094453_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y094453_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y094453",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-06T17:45:02.749Z"
+  },
+  {
+    "id": "gacha-7320f882",
+    "name": "でふぉラバ! メダリストキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "3月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098116_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098116_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098116",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-06T17:45:02.749Z"
+  },
+  {
+    "id": "gacha-17e9f45f",
+    "name": "ふんばり～ぬ3",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "3月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900419_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900419_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900419",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-06T17:45:02.749Z"
+  },
+  {
+    "id": "-gr-supra-complate-edition-0acc2314",
+    "name": "ホビーガチャ トヨタ GR Supra -COMPLATE EDITION-",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 7,
+    "releaseWeek": "3月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903366_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903366_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903366",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-06T17:45:02.749Z"
+  },
+  {
     "id": "gacha-530d5d4c",
     "name": "アニマル横町 めじるしアクセサリー",
     "brand": "その他",
