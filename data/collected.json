@@ -6437,6 +6437,19 @@
     "types": 4
   },
   {
+    "title": "パウ・パトロール パウっとつながるマスコット2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098895",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098895_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098895_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年3月 16日週",
+    "brand": "その他",
+    "types": 4
+  },
+  {
     "title": "JAWS フィギュアコレクション 4",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099465",
     "source": "タカラトミーアーツ公式",
@@ -8831,5 +8844,18 @@
     "releaseWeek": "2026年3月 中旬",
     "brand": "その他",
     "types": 4
+  },
+  {
+    "title": "ZIZONE PINGO フィギュアマスコット",
+    "url": "https://kitan.jp/products/zizone_figure/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/02/ZIZONEPINGO_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/02/ZIZONEPINGO_DP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年3月 中旬",
+    "brand": "キャラクター",
+    "types": 5
   }
 ]

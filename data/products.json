@@ -1,5 +1,43 @@
 [
   {
+    "id": "gacha-36ca513b",
+    "name": "パウ・パトロール パウっとつながるマスコット2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "3月 16日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098895_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098895_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098895",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-06T03:33:39.359Z"
+  },
+  {
+    "id": "zizone-pingo--34a0a2eb",
+    "name": "ZIZONE PINGO フィギュアマスコット",
+    "brand": "キャラクター",
+    "brandSlug": "brand-b6is9z",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "3月 中旬",
+    "color": "#d599e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/02/ZIZONEPINGO_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/02/ZIZONEPINGO_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/zizone_figure/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-03-06T03:33:39.360Z"
+  },
+  {
     "id": "gacha-3c7f2219",
     "name": "ギャビーのドールハウス ザ・ムービー つながるラバーマスコット",
     "brand": "その他",
