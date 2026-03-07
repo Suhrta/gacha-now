@@ -27,9 +27,11 @@ function getSortedBrands() {
 const BRANDS = getSortedBrands();
 
 function getStatus(product) {
+  const rw = product.releaseWeek || "未定";
+  if (rw === "発売中") return "available";
+  if (rw === "未定") return "upcoming";
   const now = new Date();
   const currentMonth = now.getMonth() + 1;
-  const rw = product.releaseWeek || "未定";
   const monthMatch = rw.match(/(\d+)月/);
   if (!monthMatch) return "new";
   const releaseMonth = parseInt(monthMatch[1]);
@@ -242,7 +244,7 @@ export default function HomePage() {
               <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.3s", color: "#F9E4B7" }}>●</span>
             </div>
             <div className="font-pixel text-[9px] text-brand-sub" style={{ animation: "pulse 1.5s ease-in-out infinite" }}>
-              ガチャ ガチャ...
+              Loading...
             </div>
           </div>
         )}
