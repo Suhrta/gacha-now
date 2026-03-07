@@ -4,6 +4,7 @@
   "type": "module",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.0",
+    "cheerio": "^1.0.0",
     "puppeteer": "^22.0.0"
   }
 }
