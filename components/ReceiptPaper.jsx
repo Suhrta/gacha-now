@@ -47,7 +47,18 @@ export default function ReceiptPaper({ product, onClose, isPage = false }) {
       <div className="w-full" style={{ background: "#FFFDF8", padding: "8px 16px 12px", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
 
         <div className="rounded-lg overflow-hidden mb-2 border-2 border-cream-border">
-          <img src={product.img} alt={product.name} className="w-full block" style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />
+          {product.img ? (
+            <img src={product.img} alt={product.name} className="w-full block" style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />
+          ) : (
+            <div className="w-full flex items-center justify-center" style={{ aspectRatio: "1/1", background: "#FFF8F0" }}>
+              <div className="text-center px-2">
+                <span style={{ fontSize: 36 }}>🔒</span>
+                <div className="font-pixel text-[10px] text-brand-sub mt-1.5 leading-[1.7]">
+                  画像は公式サイトで<br/>ご確認ください
+                </div>
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="mb-2">

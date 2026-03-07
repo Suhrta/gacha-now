@@ -75,7 +75,12 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
               style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />
           ) : (
             <div className="w-full flex items-center justify-center" style={{ aspectRatio: "1/1", background: "#FFF8F0" }}>
-              <span style={{ fontSize: 40 }}>🎪</span>
+              <div className="text-center px-2">
+                <span style={{ fontSize: 28 }}>🔒</span>
+                <div className="font-pixel text-[8px] text-brand-sub mt-1 leading-[1.6]">
+                  画像は公式サイトで<br/>ご確認ください
+                </div>
+              </div>
             </div>
           )}
         </div>
