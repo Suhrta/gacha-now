@@ -1,8 +1,9 @@
 "use client";
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef } from "react";
 import Header from "../components/Header";
 import GachaMachine from "../components/GachaMachine";
 import ReceiptPaper from "../components/ReceiptPaper";
+import NewArrivalModal from "../components/NewArrivalModal";
 import Footer from "../components/Footer";
 import products from "../data/products.json";
 
@@ -26,10 +27,9 @@ function getSortedBrands() {
 const BRANDS = getSortedBrands();
 
 function getStatus(product) {
-  const rw = product.releaseWeek || "未定";
-  if (rw === "発売中") return "available";
   const now = new Date();
   const currentMonth = now.getMonth() + 1;
+  const rw = product.releaseWeek || "未定";
   const monthMatch = rw.match(/(\d+)月/);
   if (!monthMatch) return "new";
   const releaseMonth = parseInt(monthMatch[1]);
@@ -49,32 +49,7 @@ function releaseWeekToNum(str) {
   return month * 100 + 9;
 }
 
-function getTrendingScore(product) {
-  let score = 0;
-  // HOTブランド
-  if (product.hot) score += 50;
-  // 発売時期の近さ
-  const now = new Date();
-  const currentMonth = now.getMonth() + 1;
-  const rw = product.releaseWeek || "";
-  const monthMatch = rw.match(/(\d+)月/);
-  if (monthMatch) {
-    const m = parseInt(monthMatch[1]);
-    if (m === currentMonth) score += 30;
-    else if (m === currentMonth + 1 || (currentMonth === 12 && m === 1)) score += 20;
-    else if (m === currentMonth - 1 || (currentMonth === 1 && m === 12)) score += 10;
-  }
-  // 種類が多い（バリエーション豊富）
-  if (product.types >= 8) score += 5;
-  // 手頃な価格
-  if (product.price <= 300) score += 5;
-  return score;
-}
-
 function sortProducts(list, tab) {
-  if (tab === "trending") {
-    return [...list].sort((a, b) => getTrendingScore(b) - getTrendingScore(a));
-  }
   if (tab === "available") {
     return [...list].sort((a, b) => releaseWeekToNum(b.releaseWeek) - releaseWeekToNum(a.releaseWeek));
   }
@@ -103,11 +78,10 @@ function sortProducts(list, tab) {
 }
 
 const STATUS_TABS = [
-  { key: "trending", label: "注目" },
+  { key: "all", label: "すべて" },
   { key: "available", label: "発売中" },
   { key: "new", label: "新作" },
   { key: "upcoming", label: "発売予定" },
-  { key: "favorites", label: "⭐ お気に入り" },
 ];
 
 export default function HomePage() {
@@ -118,33 +92,10 @@ export default function HomePage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
   const [loading, setLoading] = useState(false);
-  const [favorites, setFavorites] = useState(new Set());
   const searchRef = useRef(null);
   const loaderRef = useRef(null);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
-
-  // localStorage からお気に入り読み込み
-  useEffect(() => {
-    try {
-      const saved = localStorage.getItem("gacha-favorites");
-      if (saved) setFavorites(new Set(JSON.parse(saved)));
-    } catch {}
-  }, []);
-
-  // お気に入り登録/解除
-  const toggleFavorite = useCallback((productId) => {
-    setFavorites((prev) => {
-      const next = new Set(prev);
-      if (next.has(productId)) {
-        next.delete(productId);
-      } else {
-        next.add(productId);
-      }
-      try { localStorage.setItem("gacha-favorites", JSON.stringify([...next])); } catch {}
-      return next;
-    });
-  }, []);
 
   useEffect(() => {
     if (searchOpen && searchRef.current) searchRef.current.focus();
@@ -189,14 +140,9 @@ export default function HomePage() {
   };
 
   let filtered = brand === "すべて" ? [...products] : products.filter((p) => p.brand === brand);
-
-  // お気に入りタブ
-  if (statusTab === "favorites") {
-    filtered = filtered.filter((p) => favorites.has(p.id));
-  } else if (statusTab !== "all" && statusTab !== "trending") {
+  if (statusTab !== "all") {
     filtered = filtered.filter((p) => getStatus(p) === statusTab);
   }
-
   if (searchQuery.trim()) {
     const q = searchQuery.trim().toLowerCase();
     filtered = filtered.filter((p) =>
@@ -228,19 +174,13 @@ export default function HomePage() {
         <div className="flex items-center gap-1.5 mb-2 px-1 relative z-10">
           <div className="flex gap-1.5 overflow-x-auto flex-1">
             {visibleTabs.map((tab) => (
-              <button key={tab.key} onClick={() => setStatusTab(statusTab === tab.key ? "all" : tab.key)}
+              <button key={tab.key} onClick={() => setStatusTab(tab.key)}
                 className="shrink-0 px-3 py-1.5 rounded-full font-pixel text-[10px] border-2 transition-colors duration-100 cursor-pointer"
                 style={{
-                  background: statusTab === tab.key
-                    ? (tab.key === "favorites" ? "#F5A623" : "#E8756D")
-                    : "#FFFFFF",
-                  borderColor: statusTab === tab.key
-                    ? (tab.key === "favorites" ? "#F5A623" : "#E8756D")
-                    : "#F0E6D6",
+                  background: statusTab === tab.key ? "#E8756D" : "#FFFFFF",
+                  borderColor: statusTab === tab.key ? "#E8756D" : "#F0E6D6",
                   color: statusTab === tab.key ? "#fff" : "#9B8978",
-                  boxShadow: statusTab === tab.key
-                    ? (tab.key === "favorites" ? "0 2px 8px #F5A62333" : "0 2px 8px #E8756D33")
-                    : "none",
+                  boxShadow: statusTab === tab.key ? "0 2px 8px #E8756D33" : "none",
                 }}>
                 {tab.label}
               </button>
@@ -286,22 +226,11 @@ export default function HomePage() {
         </div>
 
         <div className="font-pixel text-[11px] text-brand-sub mb-2.5 px-1 relative">
-          {statusTab === "favorites"
-            ? `⭐ ${filtered.length}件のお気に入り`
-            : statusTab === "trending"
-            ? `注目のガチャ ${filtered.length}件`
-            : `${filtered.length}件 ── タップで詳しく！`
-          }
+          {filtered.length}件 ── タップで詳しく！
         </div>
         <div key={statusTab + brand + searchQuery} className="flex flex-wrap gap-2.5 relative z-[1]">
           {visible.map((p, i) => (
-            <GachaMachine
-              key={`${statusTab}-${p.id}`}
-              product={p}
-              index={i}
-              onClick={setSelected}
-              isFavorite={favorites.has(p.id)}
-            />
+            <GachaMachine key={`${statusTab}-${p.id}`} product={p} index={i} onClick={setSelected} />
           ))}
         </div>
 
@@ -313,16 +242,14 @@ export default function HomePage() {
               <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.3s", color: "#F9E4B7" }}>●</span>
             </div>
             <div className="font-pixel text-[9px] text-brand-sub" style={{ animation: "pulse 1.5s ease-in-out infinite" }}>
-               Loading...
+              ガチャ ガチャ...
             </div>
           </div>
         )}
 
         {filtered.length === 0 && (
           <div className="text-center py-10 text-brand-sub font-pixel text-[10px] leading-[2.2]">
-            {statusTab === "favorites" ? (
-              <>⭐<br />お気に入りはまだないよ<br />商品をタップして⭐で登録しよう！</>
-            ) : searchQuery ? (
+            {searchQuery ? (
               <>🔍<br />「{searchQuery}」の<br />商品は見つからなかったよ</>
             ) : (
               <>🎪<br />このカテゴリの<br />商品はまだないよ</>
@@ -331,14 +258,8 @@ export default function HomePage() {
         )}
       </main>
       <Footer />
-      {selected && (
-        <ReceiptPaper
-          product={selected}
-          onClose={() => setSelected(null)}
-          isFavorite={favorites.has(selected.id)}
-          onToggleFavorite={toggleFavorite}
-        />
-      )}
+      {selected && <ReceiptPaper product={selected} onClose={() => setSelected(null)} />}
+      <NewArrivalModal products={products} onOpenReceipt={(p) => setSelected(p)} />
     </>
   );
 }

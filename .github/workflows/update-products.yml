@@ -1,88 +1,83 @@
+# .github/workflows/update-products.yml
+#
+# 毎朝9時（日本時間）に:
+# 1. バンダイ・タカトミ公式サイトからガチャ新作情報を収集
+# 2. データを整形
+# 3. products.jsonを更新
+# 4. 変更があればgit push → Vercelが自動デプロイ
+
 name: Update Products
 on:
   schedule:
+    # 毎日 0:00 UTC = 日本時間 9:00
     - cron: '0 0 * * *'
+  # 手動実行も可能（テスト用）
   workflow_dispatch:
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      # 1. リポジトリのコードを取得
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      # 2. Node.js をセットアップ
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      # 3. puppeteer等の依存パッケージをインストール
       - name: Install dependencies
         run: |
           cd scripts
           npm install
+
+      # 4. データ収集（バンダイ・タカトミからスクレイピング）
       - name: Collect gacha data
         run: node scripts/collect.js
+
+      # 4. データ整形（Claude API不要、ローカル処理のみ）
       - name: Structure data
         run: node scripts/structure.js
+
+      # 5. products.json を更新
       - name: Update products.json
         run: node scripts/update.js
-      - name: Clean old posts
-        run: rm -f posts/post-*.png posts/post-*.txt
-      - name: Generate Instagram posts
+
+      # 6. AI紹介文を生成（descriptionが無い商品のみ）
+      - name: Generate AI descriptions
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-descriptions.js
+
+      # 7. Instagram投稿画像を生成
+      - name: Generate Instagram post
         run: node scripts/generate-post.js
-      - name: Copy posts to public directory
-        run: |
-          mkdir -p public/posts
-          cp posts/*.png public/posts/ 2>/dev/null || true
+
+      # 7. 変更があれば自動commit & push
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/products.json data/collected.json posts/ public/posts/
-          git diff --staged --quiet || git commit -m "auto-update products $(date -u +%Y-%m-%d)"
+          git add data/products.json posts/
+          git diff --staged --quiet || git commit -m "🎪 auto-update products $(date -u +%Y-%m-%d)"
           git push
+
+      # 8. Discordに投稿画像とキャプションを通知
       - name: Notify Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           TODAY=$(date -u +%Y-%m-%d)
-          NEW_COUNT=0
-          if [ -f "data/new-today.json" ]; then
-            NEW_COUNT=$(python3 -c "import json; print(len(json.load(open('data/new-today.json'))))" 2>/dev/null || echo "0")
-          fi
-          if [ "$NEW_COUNT" -gt 0 ]; then
-            COUNT=0
-            for PNG_FILE in posts/post-${TODAY}-*.png; do
-              [ -f "$PNG_FILE" ] || continue
-              IDX=$(echo "$PNG_FILE" | grep -oP '\d+(?=\.png$)')
-              TXT_FILE="posts/post-${TODAY}-${IDX}.txt"
-              if [ -f "$TXT_FILE" ]; then
-                CAPTION=$(cat "$TXT_FILE")
-                curl -s -F "content=${CAPTION}" -F "file1=@${PNG_FILE}" "$DISCORD_WEBHOOK_URL"
-                COUNT=$((COUNT + 1))
-                sleep 2
-              fi
-            done
-            echo "Discord: ${COUNT} new items notified"
+          PNG_FILE="posts/post-${TODAY}.png"
+          TXT_FILE="posts/post-${TODAY}.txt"
+
+          if [ -f "$PNG_FILE" ] && [ -f "$TXT_FILE" ]; then
+            CAPTION=$(cat "$TXT_FILE")
+            curl -s -F "content=${CAPTION}" -F "file1=@${PNG_FILE}" "$DISCORD_WEBHOOK_URL"
+            echo "✅ Discord通知完了"
           else
-            curl -s -H "Content-Type: application/json" -d '{"content":"\ud83d\udce2 \u672c\u65e5\u306e\u65b0\u4f5c\u30ac\u30c1\u30e3\u60c5\u5831\u306f\u3042\u308a\u307e\u305b\u3093\u3067\u3057\u305f\u3002\n\n\u6700\u65b0\u306e\u30ac\u30c1\u30e3\u60c5\u5831\u306f\u3053\u3061\u3089\u304b\u3089\u30c1\u30a7\u30c3\u30af\uff01\n\ud83d\udd17 https://gacha-now.net"}' "$DISCORD_WEBHOOK_URL"
-            echo "Discord: no new items notification sent"
+            echo "⚠️ 投稿ファイルが見つかりません、スキップ"
           fi
-      - name: Wait for Vercel deployment
-        run: |
-          TODAY=$(date -u +%Y-%m-%d)
-          if [ ! -f "posts/post-${TODAY}-1.png" ]; then
-            echo "No post files, skip deploy wait"
-            exit 0
-          fi
-          echo "Waiting 60s for Vercel deploy..."
-          sleep 60
-      - name: Publish to Instagram
-        env:
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: node scripts/publish-instagram.js
-      - name: Publish to X
-        env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-        run: node scripts/publish-x.js
