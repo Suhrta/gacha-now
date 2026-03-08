@@ -95,6 +95,7 @@ const CATEGORY_IGNORE = new Set([
   "新商品", "オリジナル", "企業コラボ", "キタンクラブオリジナル",
   "カプセルトイ", "ねこのかぶりもの", "座るシリーズ", "シリーズ生きる",
   "コップのフチ子シリーズ", "PUTITTOシリーズ", "フィギュア", "アーティスト",
+  "wovn-translate-widget[wovn]", // WOVNウィジェットの注入テキストを除外
 ]);
 
 /**
@@ -471,7 +472,8 @@ async function collectFromKitan() {
               const cleaned = tag.replace(/^#/, "").trim();
               // ナビ由来の一般的なカテゴリ名を除外
               if (!["新商品", "オリジナル", "企業コラボ", "キタンクラブオリジナル",
-                    "カプセルトイ", "フィギュア", "アーティスト"].includes(cleaned)) {
+                    "カプセルトイ", "フィギュア", "アーティスト",
+                    "wovn-translate-widget[wovn]"].includes(cleaned)) {
                 categoryTags.push(cleaned);
               }
             }
