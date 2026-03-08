@@ -6,7 +6,7 @@
  *
  * 必要な環境変数:
  *   X_API_KEY            - Consumer API Key
- *   X_API_KEY_SECRET     - Consumer API Key Secret
+ *   X_API_SECRET         - Consumer API Key Secret
  *   X_ACCESS_TOKEN       - Access Token
  *   X_ACCESS_TOKEN_SECRET - Access Token Secret
  *
