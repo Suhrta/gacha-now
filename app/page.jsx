@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import Header from "../components/Header";
 import GachaMachine from "../components/GachaMachine";
 import ReceiptPaper from "../components/ReceiptPaper";
@@ -84,6 +84,7 @@ const STATUS_TABS = [
   { key: "available", label: "発売中" },
   { key: "new", label: "新作" },
   { key: "upcoming", label: "発売予定" },
+  { key: "favorites", label: "⭐ お気に入り" },
 ];
 
 export default function HomePage() {
@@ -94,10 +95,33 @@ export default function HomePage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
   const [loading, setLoading] = useState(false);
+  const [favorites, setFavorites] = useState(new Set());
   const searchRef = useRef(null);
   const loaderRef = useRef(null);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
+
+  // localStorage からお気に入り読み込み
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem("gacha-favorites");
+      if (saved) setFavorites(new Set(JSON.parse(saved)));
+    } catch {}
+  }, []);
+
+  // お気に入り登録/解除
+  const toggleFavorite = useCallback((productId) => {
+    setFavorites((prev) => {
+      const next = new Set(prev);
+      if (next.has(productId)) {
+        next.delete(productId);
+      } else {
+        next.add(productId);
+      }
+      try { localStorage.setItem("gacha-favorites", JSON.stringify([...next])); } catch {}
+      return next;
+    });
+  }, []);
 
   useEffect(() => {
     if (searchOpen && searchRef.current) searchRef.current.focus();
@@ -142,7 +166,11 @@ export default function HomePage() {
   };
 
   let filtered = brand === "すべて" ? [...products] : products.filter((p) => p.brand === brand);
-  if (statusTab !== "all") {
+
+  // お気に入りタブ
+  if (statusTab === "favorites") {
+    filtered = filtered.filter((p) => favorites.has(p.id));
+  } else if (statusTab !== "all") {
     filtered = filtered.filter((p) => getStatus(p) === statusTab);
   }
   if (searchQuery.trim()) {
@@ -179,10 +207,16 @@ export default function HomePage() {
               <button key={tab.key} onClick={() => setStatusTab(tab.key)}
                 className="shrink-0 px-3 py-1.5 rounded-full font-pixel text-[10px] border-2 transition-colors duration-100 cursor-pointer"
                 style={{
-                  background: statusTab === tab.key ? "#E8756D" : "#FFFFFF",
-                  borderColor: statusTab === tab.key ? "#E8756D" : "#F0E6D6",
+                  background: statusTab === tab.key
+                    ? (tab.key === "favorites" ? "#F5A623" : "#E8756D")
+                    : "#FFFFFF",
+                  borderColor: statusTab === tab.key
+                    ? (tab.key === "favorites" ? "#F5A623" : "#E8756D")
+                    : "#F0E6D6",
                   color: statusTab === tab.key ? "#fff" : "#9B8978",
-                  boxShadow: statusTab === tab.key ? "0 2px 8px #E8756D33" : "none",
+                  boxShadow: statusTab === tab.key
+                    ? (tab.key === "favorites" ? "0 2px 8px #F5A62333" : "0 2px 8px #E8756D33")
+                    : "none",
                 }}>
                 {tab.label}
               </button>
@@ -228,11 +262,20 @@ export default function HomePage() {
         </div>
 
         <div className="font-pixel text-[11px] text-brand-sub mb-2.5 px-1 relative">
-          {filtered.length}件 ── タップで詳しく！
+          {statusTab === "favorites"
+            ? `⭐ ${filtered.length}件のお気に入り`
+            : `${filtered.length}件 ── タップで詳しく！`
+          }
         </div>
         <div key={statusTab + brand + searchQuery} className="flex flex-wrap gap-2.5 relative z-[1]">
           {visible.map((p, i) => (
-            <GachaMachine key={`${statusTab}-${p.id}`} product={p} index={i} onClick={setSelected} />
+            <GachaMachine
+              key={`${statusTab}-${p.id}`}
+              product={p}
+              index={i}
+              onClick={setSelected}
+              isFavorite={favorites.has(p.id)}
+            />
           ))}
         </div>
 
@@ -251,7 +294,9 @@ export default function HomePage() {
 
         {filtered.length === 0 && (
           <div className="text-center py-10 text-brand-sub font-pixel text-[10px] leading-[2.2]">
-            {searchQuery ? (
+            {statusTab === "favorites" ? (
+              <>⭐<br />お気に入りはまだないよ<br />商品をタップして⭐で登録しよう！</>
+            ) : searchQuery ? (
               <>🔍<br />「{searchQuery}」の<br />商品は見つからなかったよ</>
             ) : (
               <>🎪<br />このカテゴリの<br />商品はまだないよ</>
@@ -260,7 +305,14 @@ export default function HomePage() {
         )}
       </main>
       <Footer />
-      {selected && <ReceiptPaper product={selected} onClose={() => setSelected(null)} />}
+      {selected && (
+        <ReceiptPaper
+          product={selected}
+          onClose={() => setSelected(null)}
+          isFavorite={favorites.has(selected.id)}
+          onToggleFavorite={toggleFavorite}
+        />
+      )}
       <NewArrivalModal products={products} onOpenReceipt={(p) => setSelected(p)} />
     </>
   );
