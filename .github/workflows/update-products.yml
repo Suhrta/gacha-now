@@ -4,7 +4,10 @@
 # 1. バンダイ・タカトミ公式サイトからガチャ新作情報を収集
 # 2. データを整形
 # 3. products.jsonを更新
-# 4. 変更があればgit push → Vercelが自動デプロイ
+# 4. Instagram投稿画像を生成
+# 5. X (Twitter) に自動投稿
+# 6. 変更があればgit push → Vercelが自動デプロイ
+# 7. Discordに投稿画像とキャプションを通知
 
 name: Update Products
 on:
@@ -38,25 +41,34 @@ jobs:
       - name: Collect gacha data
         run: node scripts/collect.js
 
-      # 4. データ整形（Claude API不要、ローカル処理のみ）
+      # 5. データ整形（Claude API不要、ローカル処理のみ）
       - name: Structure data
         run: node scripts/structure.js
 
-      # 5. products.json を更新
+      # 6. products.json を更新
       - name: Update products.json
         run: node scripts/update.js
 
-      # 6. AI紹介文を生成（descriptionが無い商品のみ）
+      # 7. AI紹介文を生成（descriptionが無い商品のみ）
       - name: Generate AI descriptions
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/generate-descriptions.js
 
-      # 7. Instagram投稿画像を生成
+      # 8. Instagram投稿画像を生成
       - name: Generate Instagram post
         run: node scripts/generate-post.js
 
-      # 7. 変更があれば自動commit & push
+      # 9. X (Twitter) に自動投稿
+      - name: Publish to X
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: node scripts/publish-x.js
+
+      # 10. 変更があれば自動commit & push
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
@@ -65,19 +77,32 @@ jobs:
           git diff --staged --quiet || git commit -m "🎪 auto-update products $(date -u +%Y-%m-%d)"
           git push
 
-      # 8. Discordに投稿画像とキャプションを通知
+      # 11. Discordに投稿画像とキャプションを通知
       - name: Notify Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           TODAY=$(date -u +%Y-%m-%d)
-          PNG_FILE="posts/post-${TODAY}.png"
-          TXT_FILE="posts/post-${TODAY}.txt"
+          SENT=0
 
-          if [ -f "$PNG_FILE" ] && [ -f "$TXT_FILE" ]; then
-            CAPTION=$(cat "$TXT_FILE")
-            curl -s -F "content=${CAPTION}" -F "file1=@${PNG_FILE}" "$DISCORD_WEBHOOK_URL"
-            echo "✅ Discord通知完了"
+          for PNG_FILE in posts/post-${TODAY}-*.png; do
+            [ -f "$PNG_FILE" ] || continue
+            IDX=$(echo "$PNG_FILE" | grep -oP '(?<=-)\d+(?=\.png)')
+            TXT_FILE="posts/post-${TODAY}-${IDX}.txt"
+
+            if [ -f "$TXT_FILE" ]; then
+              CAPTION=$(cat "$TXT_FILE")
+              curl -s -F "content=${CAPTION}" -F "file1=@${PNG_FILE}" "$DISCORD_WEBHOOK_URL"
+              SENT=$((SENT + 1))
+              sleep 2
+            fi
+          done
+
+          if [ "$SENT" -gt 0 ]; then
+            echo "✅ Discord通知完了: ${SENT}件"
           else
-            echo "⚠️ 投稿ファイルが見つかりません、スキップ"
+            curl -s -H "Content-Type: application/json" \
+              -d "{\"content\":\"📢 本日の新作ガチャ情報はありませんでした。\n\n最新のガチャ情報はこちらからチェック！\n🔗 https://gacha-now.net/\"}" \
+              "$DISCORD_WEBHOOK_URL"
+            echo "✅ 新規なし通知をDiscordに送信"
           fi
