@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-3d6c52e0",
+    "name": "メジャートレイン3",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "3月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093692_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093692_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093692",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-09T10:48:49.125Z",
+    "description": "全国の人気路線が400円で手のひらサイズに！リアルな車両デザインで鉄道ファンも納得の仕上がりです。"
+  },
+  {
     "id": "moomin--6b391e99",
     "name": "MOOMIN フロッキーフィギュアマスコット",
     "brand": "ムーミン",
@@ -7854,7 +7874,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769897894000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "あの懐かしいヤマザキパンがミニチュアチャームになって登場！300円で手に入る全4種のパンたちは、見ているだけでお腹が空いちゃうリアルな仕上がりです。"
   },
   {
     "id": "hunterhunter-gi-48e2ed4b",
@@ -7884,7 +7905,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916090000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "念能力者たちがG.I.の世界からガシャポンに登場！全4種のラインナップでハンター気分を味わおう。400円でゲットできる貴重なアイテムカードは見逃せないぞ。"
   },
   {
     "id": "-new-37f36422",
@@ -7914,7 +7936,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916564000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "モンスターズ・インクのキャラたちが可愛いアクセサリーになって登場！300円でサリーやマイクと一緒にお出かけしよう。"
   },
   {
     "id": "gacha-1d5498f3",
@@ -7944,7 +7967,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769917073000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "アビス最深部の愛らしいファプタが勢揃い！全4種類のバリエーションで、あの独特な喋り方も再現されてそうなキュートなラインナップだよ。"
   },
   {
     "id": "-limited-flavor2-088176bd",
@@ -7974,7 +7998,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927287000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "あの人気キャンディのミニチュア第2弾が登場！限定フレーバーをモチーフにした全4種で、見た目もそっくりで思わず食べたくなっちゃう。"
   },
   {
     "id": "star-wars--0c006a5a",
@@ -8004,7 +8029,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927676000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "懐かしいドット絵でスター・ウォーズキャラが大集合！レトロゲーム風のチャームで、バッグや鍵につけて銀河の仲間と一緒にお出かけしよう。"
   },
   {
     "id": "z-2-6c6c1d5f",
@@ -8034,7 +8060,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927836000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "人気スマホゲーム「ドッカンバトル」のキャラたちがアクリルチャームになって登場！全4種コンプリートして推しキャラをゲットしよう。"
   },
   {
     "id": "gacha-34eb5e6a",
@@ -8064,7 +8091,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927966000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "文房具がぷにぷにの可愛いマスコットに変身！第2弾は触り心地抜群の癒し系アイテムが勢ぞろいで、デスクの相棒にぴったりです。"
   },
   {
     "id": "gacha-1c149bc4",
@@ -8094,7 +8122,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769928581000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "人気キャラクター「あおぱんだ」の可愛い目印アクセサリーが300円で登場！全4種のデザインで、バッグや服につけて毎日を楽しくしちゃお。"
   },
   {
     "id": "gacha-325f430e",
@@ -8124,7 +8153,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769928697000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "あの名シーンが蘇る！ガルパンキャラたちの待ちぼうけ姿が愛らしすぎて、全種類コンプしたくなっちゃう400円の癒しフィギュア。"
   },
   {
     "id": "gacha-796be060",
@@ -8154,7 +8184,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935053000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "話題のブルーハムハムがミニチュアパッケージチャームになって登場！本物そっくりの精巧な作りで、バッグに付けて自慢しちゃお。"
   },
   {
     "id": "converse-shoes-collection--6766ef63",
@@ -8184,7 +8215,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935916000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "あの名作スニーカーがミニサイズのアクセサリーになって登場！コンバースファンなら絶対欲しくなる、こだわりのディテールが魅力的な全4種です。"
   },
   {
     "id": "gacha-1c2e4a08",
@@ -8214,7 +8246,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770015355000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "キョロキョロした表情がたまらなく可愛い「キョロリーズ」のぬいぐるみマスコットが登場！全4種それぞれの個性的な表情にきっと癒されちゃいます。"
   },
   {
     "id": "gacha-5819a58f",
@@ -8244,7 +8277,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198532000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "ホロライブファン必見！オリジナルデザインの缶バッジが全4種で登場。推しメンバーをゲットして、バッグや服につけてアピールしちゃおう！"
   },
   {
     "id": "gacha-1233e30e",
@@ -8274,7 +8308,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198556000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "ホロライブメンバーの可愛い缶バッジが400円で手に入る！オリジン2は全4種類で、推しメンバーをゲットして日常に彩りを添えよう。"
   },
   {
     "id": "stand-structure--1b1ce8a6",
@@ -8304,7 +8339,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769898457000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "仮面ライダーがフラットな立体構造で登場！400円で手に入る新感覚のスタンドフィギュアは、デスクやお部屋のディスプレイにぴったりです。"
   },
   {
     "id": "gacha-775adcc0",
@@ -8334,7 +8370,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769898501000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "しんちゃんがキャップに付けられるマスコットになって登場！全4種のかわいい表情で、いつでも一緒にお出かけできちゃうよ。"
   },
   {
     "id": "gacha-776070de",
@@ -8364,7 +8401,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769898655000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "人気RPG「メタファー：リファンタジオ」のキャラクターたちが可愛いラバーマスコットになって登場！全4種コンプリートして、ファンタジーの世界を持ち歩こう。"
   },
   {
     "id": "gacha-2d04dfcb",
@@ -8394,7 +8432,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118184030000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.469Z"
+    "collectedAt": "2026-03-04T08:22:58.469Z",
+    "description": "ホロライブメンバーがちょこんと座った姿がたまらない！カラフルなアクリルスタンドで推しをデスクに飾ろう。500円で手に入る癒しのラインナップが全4種登場だよ。"
   },
   {
     "id": "gacha-47dc2135",
