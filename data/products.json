@@ -1,5 +1,45 @@
 [
   {
+    "id": "gacha-182a0ce8",
+    "name": "トミカキーホルダー7",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "3月",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098499_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098499_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098499",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-09T03:02:13.959Z",
+    "description": "大人気トミカがキーホルダーになって第7弾の登場！300円で手に入る全4種のミニカーたちが、あなたのカバンや鍵を可愛く彩ってくれますよ。"
+  },
+  {
+    "id": "-100-61dfd90b",
+    "name": "くまのプーさん 100エーカーの森へようこそ!",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "3月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901355_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901355_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901355",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-09T03:02:13.959Z",
+    "description": "愛らしいプーさんと仲間たちが100エーカーの森でお出迎え！300円で手に入る癒しのひとときを、あなたも体験してみない？"
+  },
+  {
     "id": "gacha-5cc1dd76",
     "name": "でふぉラバ! 呪術廻戦 死滅回游 キーホルダー",
     "brand": "呪術廻戦",
@@ -6060,7 +6100,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118234704000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "まどマギ叛逆の物語の美麗なビジュアルがクリアポスターになって登場！200円で手に入る全4種のアートは、どれもファン必見の仕上がりです。"
   },
   {
     "id": "gacha-64ee5665",
@@ -6090,7 +6131,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769684937000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "魔法界の仲間たちが手のひらサイズで登場！光る機能付きでお部屋を幻想的に演出してくれる、ファン必見のマスコットだよ。"
   },
   {
     "id": "-capsule-flockies-0dfef173",
@@ -6120,7 +6162,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769704932000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "さくらももこさんの愛らしいキャラクター「コジコジ」が、ふわふわのフロッキー加工でカプセルトイに登場！全4種のラインナップで、どの子に会えるかはお楽しみです。"
   },
   {
     "id": "gacha-454bbe29",
@@ -6150,7 +6193,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769722820000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "ポケモンの旅立ちといえばこの3匹！フシギダネ、ヒトカゲ、ゼニガメがアクリルスイングになって登場だよ。どの御三家と一緒に冒険する？"
   },
   {
     "id": "gacha-69058eca",
@@ -6180,7 +6224,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769842320000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "謎の仮面をかぶったワンちゃんたちが登場！4種類それぞれ違う個性的な仮面で、どの子に出会えるかはお楽しみです。"
   },
   {
     "id": "-dvd-1d2920db",
@@ -6210,7 +6255,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769846649000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "ゴジラファン必見！東宝怪獣の名作DVDを忠実に再現したミニチュアチャームが登場。全4種コンプリートして、あの感動をいつでも手元に。"
   },
   {
     "id": "gacha-276329d6",
@@ -6240,7 +6286,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769866937000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "プロ野球ファン必見！お気に入りチームのマスコットが可愛いアクセサリーになって登場。バッグや服につけて、いつでもチームを応援しよう！"
   },
   {
     "id": "gacha-4c64eda4",
@@ -6270,7 +6317,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769890307000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "あの愛すべきカエル型宇宙人が再び登場！ケロロ軍曹がまったりとした表情で待ちぼうけする姿が、なんとも癒されるシリーズ第2弾だよ。"
   },
   {
     "id": "-new4-0cb48117",
@@ -6300,7 +6348,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769891823000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "みんな大好きアンパンマンの仲間たちが電車になって登場！300円で手に入る全4種のキャラレールで、おうち時間がもっと楽しくなっちゃう。"
   },
   {
     "id": "gacha-29a2c585",
@@ -6330,7 +6379,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769891847000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "うるさい鳥たちが可愛いアクセサリーになって登場！ワンコインで手に入る個性的なデザインが、いつものコーデにユニークなアクセントを加えてくれるよ。"
   },
   {
     "id": "gacha-6a7419fd",
@@ -6360,7 +6410,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769897986000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "みんなのアイドル、くまのまーくんがアクセサリーになって登場！全4種類でどの子も可愛くて選べないよ〜。300円でゲットできるお手頃価格も嬉しいポイントです。"
   },
   {
     "id": "basara--21e0f317",
@@ -6390,7 +6441,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769898280000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "戦国BASARA好き必見！キャラの名台詞がアクリルチャームになって登場。全4種類どれが出るかはお楽しみ、推しの決めセリフをゲットしよう！"
   },
   {
     "id": "gacha-2a04c66e",
@@ -6420,7 +6472,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769919237000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "プンプン怒った表情がたまらなく可愛い「はむちゃあぁぁん」が登場！全4種の怒り顔コレクション、どの子が出るかお楽しみです。"
   },
   {
     "id": "-online-vol2-583dc23c",
@@ -6450,7 +6503,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769924378000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "人気刀剣男士たちをイメージしたリング型バームの第2弾が登場！指輪みたいに可愛くて実用性も抜群の500円ガチャです。"
   },
   {
     "id": "gacha-70df5a89",
@@ -6480,7 +6534,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968242000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "デジモンファン必見！人気キャラクターがアクリルチャームになって登場だよ。全4種のラインナップで、お気に入りのデジモンをゲットしちゃおう！"
   },
   {
     "id": "gacha-3921460d",
@@ -6510,7 +6565,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968341000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "みんなのアイドル・ハロがビッグサイズでずらりと並ぶ姿がたまらない！800円でこのボリューム感は見逃せません。"
   },
   {
     "id": "mofusand--19757d8b",
@@ -6540,7 +6596,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118120359000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "ふわふわで癒し系のmofusandから、普段使いにぴったりなめじるしアクセサリーが登場！全4種類でお手頃価格300円なのも嬉しいポイントだね。"
   },
   {
     "id": "gacha-6b9e1dcb",
@@ -6570,7 +6627,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118183873000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "新作映画の興奮をそのままカプセルに！海底の冒険シーンが蘇る全4種のコレクションで、のび太たちと一緒に深海の謎に挑もう。"
   },
   {
     "id": "gacha-4527c10a",
