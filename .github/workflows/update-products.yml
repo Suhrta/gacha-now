@@ -1,17 +1,24 @@
 # .github/workflows/update-products.yml
 #
-# 毎朝9時（日本時間）に:
+# 毎日 8時・12時・17時（日本時間）に:
 # 1. バンダイ・タカトミ公式サイトからガチャ新作情報を収集
 # 2. データを整形・更新
-# 3. AI紹介文を生成
-# 4. Instagram投稿用画像を生成 → public/posts/ に保存
+# 3. AI紹介文を生成（新着のみ）
+# 4. Instagram投稿用画像を生成（新着のみ） → public/posts/ に保存
 # 5. git push → Vercelが自動デプロイ
+# 6. Vercelデプロイ待機（60秒）
+# 7. Instagram投稿（新着なければスキップ）
+# 8. Discord通知（新着あり → 画像送信 / 新着なし → 「本日の新着なし」メッセージ）
 
 name: Update Products
 on:
   schedule:
-    # 毎日 0:00 UTC = 日本時間 9:00
-    - cron: '0 0 * * *'
+    # 毎日 23:00 UTC = 日本時間 8:00
+    - cron: '0 23 * * *'
+    # 毎日 3:00 UTC = 日本時間 12:00
+    - cron: '0 3 * * *'
+    # 毎日 8:00 UTC = 日本時間 17:00
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 jobs:
@@ -57,3 +64,44 @@ jobs:
           git add data/products.json data/new-today.json public/posts/
           git diff --staged --quiet || git commit -m "🎪 auto-update products $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Wait for Vercel deploy
+        run: |
+          echo "⏳ Vercelデプロイ待機 (60秒)..."
+          sleep 60
+
+      - name: Publish to Instagram
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/publish-instagram.js
+
+      - name: Notify Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          SENT=0
+
+          for PNG_FILE in public/posts/post-${TODAY}-*.png; do
+            [ -f "$PNG_FILE" ] || continue
+            IDX=$(echo "$PNG_FILE" | grep -oP '(?<=-)\d+(?=\.png)')
+            TXT_FILE="public/posts/post-${TODAY}-${IDX}.txt"
+
+            if [ -f "$TXT_FILE" ]; then
+              CAPTION=$(cat "$TXT_FILE")
+              curl -s -F "content=${CAPTION}" -F "file1=@${PNG_FILE}" "$DISCORD_WEBHOOK_URL"
+              SENT=$((SENT + 1))
+              sleep 2
+            fi
+          done
+
+          if [ "$SENT" -gt 0 ]; then
+            echo "✅ Discord通知完了: ${SENT}件"
+          else
+            curl -s -H "Content-Type: application/json" \
+              -d '{"content":"📢 本日の新着ガチャ情報はありませんでした。\n\n最新のガチャ情報はこちらからチェック！\n🔗 https://gacha-now.net"}' \
+              "$DISCORD_WEBHOOK_URL"
+            echo "⏭️ 新着なし、Discord通知（新着なしメッセージ）を送信"
+          fi
+
