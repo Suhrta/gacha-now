@@ -1,5 +1,85 @@
 [
   {
+    "id": "moomin--6b391e99",
+    "name": "MOOMIN フロッキーフィギュアマスコット",
+    "brand": "ムーミン",
+    "brandSlug": "moomin",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "3月",
+    "color": "#b899e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y094569_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y094569_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y094569",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-09T09:01:17.847Z",
+    "description": "ふわふわのフロッキー加工が気持ちいいムーミンのマスコット！全4種のキャラクターたちがあなたのバッグやお部屋を癒し空間に変身させちゃいます。"
+  },
+  {
+    "id": "gacha-2ce24906",
+    "name": "カプセルプラレール きかんしゃトーマス  トーマスがマジックで大変身!?編",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 300,
+    "types": 10,
+    "releaseWeek": "3月",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900501_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900501_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900501",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-09T09:01:17.847Z",
+    "description": "トーマスと仲間たちがマジックで大変身しちゃった！いつものプラレールとは一味違う、驚きの姿に思わずクスッと笑えるキュートなラインナップが勢ぞろい。"
+  },
+  {
+    "id": "hughugzoo-46036df3",
+    "name": "Hug!Hug!Zoo!",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "3月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902536_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902536_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902536",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-09T09:01:17.847Z",
+    "description": "動物たちがぎゅっと抱きしめてくれるキュートなカプセルトイが登場！300円でこの癒し度は反則級のコスパだよね。"
+  },
+  {
+    "id": "gacha-44a7b821",
+    "name": "まんまるカエル クリアめじるしガチャマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "3月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903458_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903458_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903458",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-09T09:01:17.848Z",
+    "description": "ぷるんと透明感がたまらない、まんまるフォルムのカエルちゃんがマスコットになって登場！クリア素材の涼しげな質感で、バッグにつけるだけで癒し効果抜群だよ。"
+  },
+  {
     "id": "gacha-182a0ce8",
     "name": "トミカキーホルダー7",
     "brand": "トミカ",
@@ -7278,7 +7358,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769979620000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "人気キャラクター「しなこ」の目印になるキュートなアクセサリーが登場！全4種でワンコイン以下のお手頃価格も魅力的です。"
   },
   {
     "id": "-gp--564819b5",
@@ -7308,7 +7389,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770003710000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "300円で宇宙刑事ギャバンになりきれちゃう夢のアイテムが登場！全4種コンプして君も正義の味方に変身だ。"
   },
   {
     "id": "-gp01-2f89398f",
@@ -7338,7 +7420,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770015348000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "あの名作特撮が最新技術で蘇る！超宇宙刑事ギャバンのエモルギアが遂にカプセルトイに登場。全4種コンプリートで君もギャバンの仲間入りだ。"
   },
   {
     "id": "pico-park--26fd059f",
@@ -7368,7 +7451,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769888878000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "みんなで遊ぶ協力ゲーム「PICO PARK」のキュートなめじるしキャラがアクセサリーになって登場！4種類のカラフルなデザインで、推しめじるしを身につけよう。"
   },
   {
     "id": "gacha-494e4842",
@@ -7398,7 +7482,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202062000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "あの愛らしいモンチッチが、あなたの目印になってくれる！バッグやポーチに付けて、毎日一緒にお出かけしよう。"
   },
   {
     "id": "9398--5b5f977c",
@@ -7428,7 +7513,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202574000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "あの懐かしいキャラクターたちが髪を彩るヘアアクセサリーに変身！藤子不二雄作品ファンなら絶対ゲットしたい、毎日使えるキュートなクリップだよ。"
   },
   {
     "id": "gacha-70b23fd6",
@@ -7458,7 +7544,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118203625000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "待ちぼうけしているパンたちがぷにぷに素材で登場！触り心地抜群の癒し系フィギュアで、思わずずっと触っていたくなっちゃいます。"
   },
   {
     "id": "gacha-12c63d77",
@@ -7488,7 +7575,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118219367000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "あの愛されキャラ・殺せんせーが可愛いアクセサリーになって登場！全4種類の表情豊かなデザインで、ファンなら絶対ゲットしたい逸品だよ。"
   },
   {
     "id": "gacha-5c21d2d5",
@@ -7518,7 +7606,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118237293000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "あの憧れのライダーマシンが、ちょっぴり寂しげな表情で待機中。バイクたちの切ない待ちぼうけシーンが、なんだか愛おしくてクセになる全4種です。"
   },
   {
     "id": "polygnhead-kamen-rider--0acee921",
@@ -7548,7 +7637,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118237668000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "懐かしいポリゴン風デザインで蘇る仮面ライダーたち！カクカクな質感が逆に新鮮で、デスクに飾れば話題間違いなしだよ。"
   },
   {
     "id": "gacha-08d03a36",
@@ -7578,7 +7668,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118252067000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "アイカツファン必見のコンパクトミラー全4種が登場！400円でゲットできるキュートなデザインで、お出かけ前の身だしなみチェックも楽しくなっちゃいます。"
   },
   {
     "id": "from-tv-animation-one-piece-gr-6e20d178",
@@ -7608,7 +7699,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769836374000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "ワンピファンなら絶対欲しい悪魔の実がカプセルトイで登場！全4種の中からどの能力が君の手に渡るかな？"
   },
   {
     "id": "gacha-247bf57f",
@@ -7638,7 +7730,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769836961000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "800円でポケモンバトルが楽しめちゃう！全4種のコレクションライトで、お気に入りのポケモンと一緒にバトル気分を味わおう。"
   },
   {
     "id": "gacha-6ceafbf7",
@@ -7668,7 +7761,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769860638000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "妖怪ウォッチの世界観がアクセサリーになって登場！全4種のめじるしデザインで、さりげなく妖怪ウォッチ愛をアピールできちゃいます。"
   },
   {
     "id": "-mini-ultra-art--2ce5d4a2",
@@ -7698,7 +7792,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769888717000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "手のひらサイズのウルトラマンがアクセサリーになって登場！バッグやポーチの目印にもぴったりな、ミニサイズながら存在感抜群のアートフィギュアです。"
   },
   {
     "id": "-twinkle--13401cdf",
@@ -7728,7 +7823,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769890048000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-03-04T08:22:58.468Z"
+    "collectedAt": "2026-03-04T08:22:58.468Z",
+    "description": "ナルミヤの人気キャラたちがキラキラなゴムになって登場！300円で手に入るプチプラアイテムなのに、普段使いにもぴったりの可愛さです。"
   },
   {
     "id": "gacha-5a02014b",
