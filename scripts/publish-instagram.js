@@ -105,8 +105,9 @@ async function main() {
     process.exit(1);
   }
 
-  // 今日の投稿ファイルを探す（post-YYYY-MM-DD-1.png, post-YYYY-MM-DD-2.png, ...）
-  const today = new Date().toISOString().split("T")[0];
+  // 投稿対象日（TARGET_DATE 環境変数が指定されていればそれを使用、なければ当日）
+  const today = process.env.TARGET_DATE || new Date().toISOString().split("T")[0];
+  console.log(`  📅 対象日: ${today}`);
   const pattern = new RegExp(`^post-${today}-(\\d+)\\.png$`);
 
   if (!fs.existsSync(POSTS_DIR)) {

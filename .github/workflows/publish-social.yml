@@ -17,6 +17,16 @@ on:
     # 9:00 UTC = JST 18:00
     - cron: '0 9 * * *'
   workflow_dispatch:
+    inputs:
+      target_date:
+        description: '投稿対象日 (YYYY-MM-DD)。省略時は当日'
+        required: false
+        default: ''
+      skip_discord:
+        description: 'Discord通知をスキップする (テスト時に使用)'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   publish:
@@ -38,6 +48,7 @@ jobs:
           npm install
 
       - name: Wait for Vercel deploy (9:00 JST run only)
+        if: github.event_name == 'schedule'
         run: |
           HOUR_UTC=$(date -u +%H)
           if [ "$HOUR_UTC" = "00" ]; then
@@ -51,13 +62,18 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          TARGET_DATE: ${{ inputs.target_date }}
         run: node scripts/publish-instagram.js
 
       - name: Notify Discord
+        if: "!inputs.skip_discord"
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          TODAY=$(date -u +%Y-%m-%d)
+          TODAY="${{ inputs.target_date }}"
+          if [ -z "$TODAY" ]; then
+            TODAY=$(date -u +%Y-%m-%d)
+          fi
           SENT=0
 
           for PNG_FILE in public/posts/post-${TODAY}-*.png; do
