@@ -59,14 +59,12 @@ jobs:
       - name: Generate Instagram post
         run: node scripts/generate-post.js
 
-      # 9. X (Twitter) に自動投稿
-      - name: Publish to X
+      # 9. Instagram に自動投稿
+      - name: Publish to Instagram
         env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-        run: node scripts/publish-x.js
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/publish-instagram.js
 
       # 10. 変更があれば自動commit & push
       - name: Commit and push if changed
