@@ -14,7 +14,7 @@ import puppeteer from "puppeteer";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const NEW_TODAY_PATH = path.join(__dirname, "..", "data", "new-today.json");
-const OUTPUT_DIR = path.join(__dirname, "..", "posts");
+const OUTPUT_DIR = path.join(__dirname, "..", "public", "posts");
 
 function generateHTML(product) {
   const imgSrc = product.img || "";

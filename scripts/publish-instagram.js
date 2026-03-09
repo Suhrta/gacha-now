@@ -15,7 +15,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const POSTS_DIR = path.join(__dirname, "..", "posts");
+const POSTS_DIR = path.join(__dirname, "..", "public", "posts");
 
 // Vercelの公開URL
 const SITE_URL = "https://gacha-now.net";
