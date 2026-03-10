@@ -1,5 +1,45 @@
 [
   {
+    "id": "gacha-21881bd7",
+    "name": "ひつじのショーン ゆらゆらつながるマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "3月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098826_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098826_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098826",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-10T09:02:34.062Z",
+    "description": "みんな大好きひつじのショーンが、ゆらゆら揺れる可愛いマスコットになって登場！つなげて飾れば、もっと愛らしさアップ間違いなしです。"
+  },
+  {
+    "id": "gacha-394c1dab",
+    "name": "トムとジェリー タフィーいっぱいコレクション2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "3月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900129_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900129_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900129",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-10T09:02:34.062Z",
+    "description": "あの愛らしい赤ちゃんねずみタフィーが主役の第2弾が登場！全4種のキュートなポーズで、トムとジェリーファンの心をわしづかみです。"
+  },
+  {
     "id": "gacha-1d7077e2",
     "name": "ディズニー まったり牛乳コスメポーチ",
     "brand": "ディズニー",
