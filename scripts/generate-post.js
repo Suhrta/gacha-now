@@ -149,7 +149,10 @@ async function main() {
 
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
-  const today = new Date().toISOString().split("T")[0];
+  const now = new Date();
+  const today = now.toISOString().split("T")[0];
+  const jstHour = String((now.getUTCHours() + 9) % 24).padStart(2, "0");
+  // ファイル名: post-2026-03-10-08h-1.png
 
   const browser = await puppeteer.launch({
     headless: "new",
