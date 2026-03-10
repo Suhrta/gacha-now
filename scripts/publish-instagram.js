@@ -122,7 +122,7 @@ async function main() {
   }
 
   const pngFiles = fs.readdirSync(POSTS_DIR)
-    .filter((f) => pattern.test(f))
+  .filter((f) => pattern.test(f) && !postedSet.has(f))
     .sort((a, b) => {
       const numA = parseInt(a.match(pattern)[1]);
       const numB = parseInt(b.match(pattern)[1]);
@@ -171,6 +171,8 @@ async function main() {
       const mediaId = await publishMedia(containerId);
       console.log(`    ✅ 投稿完了！ Media ID: ${mediaId}`);
       successCount++;
+      postedLog.push(pngFile);
+      fs.writeFileSync(LOG_PATH, JSON.stringify(postedLog, null, 2), "utf-8");
 
       // 次の投稿まで待機（最後の投稿の後は不要）
       if (i < pngFiles.length - 1) {
