@@ -109,7 +109,13 @@ async function main() {
   const today = process.env.TARGET_DATE || new Date().toISOString().split("T")[0];
   console.log(`  📅 対象日: ${today}`);
   const pattern = new RegExp(`^post-${today}-(\\d+)\\.png$`);
-
+  // 投稿済みログ
+  const LOG_PATH = path.join(POSTS_DIR, "posted-log.json");
+  const postedLog = fs.existsSync(LOG_PATH)
+    ? JSON.parse(fs.readFileSync(LOG_PATH, "utf-8"))
+    : [];
+  const postedSet = new Set(postedLog);
+  
   if (!fs.existsSync(POSTS_DIR)) {
     console.log("⚠️ postsディレクトリが見つかりません、スキップ");
     return;
