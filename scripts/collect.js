@@ -152,7 +152,11 @@ async function collectFromBandai() {
     for (const ym of months) {
       const url = `https://gashapon.jp/schedule/?ym=${ym}`;
       console.log(`    → ${ym}`);
-      const res = await fetch(url);
+      const res = await fetch(url, {
+  headers: {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  }
+});
       const html = await res.text();
 
       // 発売週セクション検出
@@ -239,7 +243,7 @@ async function collectFromBandai() {
         }
       }
 
-      await new Promise((r) => setTimeout(r, 500));
+      await new Promise((r) => setTimeout(r, 1500));
     }
   } catch (err) {
     console.error(`  ❌ バンダイ公式 失敗: ${err.message}`);
