@@ -108,7 +108,7 @@ async function main() {
   // 投稿対象日（TARGET_DATE 環境変数が指定されていればそれを使用、なければ当日）
   const today = process.env.TARGET_DATE || new Date().toISOString().split("T")[0];
   console.log(`  📅 対象日: ${today}`);
-  const pattern = new RegExp(`^post-${today}-(\\d+)\\.png$`);
+  const pattern = new RegExp(`^post-${today}-\\d+h-(\\d+)\\.png$`);
   // 投稿済みログ
   const LOG_PATH = path.join(POSTS_DIR, "posted-log.json");
   const postedLog = fs.existsSync(LOG_PATH)
