@@ -164,9 +164,9 @@ async function main() {
     const idx = i + 1;
     console.log(`\n  [${idx}/${newProducts.length}] ${product.name}`);
 
-    const htmlPath = path.join(OUTPUT_DIR, `post-${today}-${idx}.html`);
-    const pngPath = path.join(OUTPUT_DIR, `post-${today}-${idx}.png`);
-    const txtPath = path.join(OUTPUT_DIR, `post-${today}-${idx}.txt`);
+  　const htmlPath = path.join(OUTPUT_DIR, `post-${today}-${jstHour}h-${idx}.html`);
+　　const pngPath = path.join(OUTPUT_DIR, `post-${today}-${jstHour}h-${idx}.png`);
+　　const txtPath = path.join(OUTPUT_DIR, `post-${today}-${jstHour}h-${idx}.txt`);
 
     const html = generateHTML(product);
     fs.writeFileSync(htmlPath, html, "utf-8");
@@ -184,7 +184,7 @@ async function main() {
     fs.writeFileSync(txtPath, caption, "utf-8");
     console.log(`    \ud83d\udcdd ${txtPath}`);
 
-    const xTxtPath = path.join(OUTPUT_DIR, `post-${today}-${idx}.x.txt`);
+    const xTxtPath = path.join(OUTPUT_DIR, `post-${today}-${jstHour}h-${idx}.x.txt`);
     const xCaption = generateXCaption(product);
     fs.writeFileSync(xTxtPath, xCaption, "utf-8");
     console.log(`    \ud83d\udcdd ${xTxtPath} (X用)`);
