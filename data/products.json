@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-5418a99e",
+    "name": "推し×スシ 推スシ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "3月 16日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901416_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901416_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901416",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-11T03:02:52.403Z",
+    "description": "推しと寿司が奇跡のコラボ！あなたの推しを寿司ネタに見立てた、シュールで愛らしいフィギュアが全5種類で登場だよ。"
+  },
+  {
     "id": "gacha-398be731",
     "name": "ぴた!でふぉめ 文豪ストレイドッグス アクリルスタンド",
     "brand": "その他",
