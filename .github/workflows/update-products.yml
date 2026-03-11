@@ -80,21 +80,26 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
+          # 今回のランで新規追加があるか確認
+          NEW_COUNT=$(node -e "try{const d=JSON.parse(require('fs').readFileSync('data/new-today.json','utf8'));console.log(d.length)}catch(e){console.log(0)}")
           TODAY=$(date -u +%Y-%m-%d)
+          # 今回生成されたファイルのみ対象（JST時間で絞り込み）
+          JST_HOUR=$(node -e "const h=(new Date().getUTCHours()+9)%24; console.log(String(h).padStart(2,'0'))")
           SENT=0
 
-          for PNG_FILE in public/posts/post-${TODAY}-*.png; do
-            [ -f "$PNG_FILE" ] || continue
-            IDX=$(echo "$PNG_FILE" | grep -oP '(?<=-)\d+(?=\.png)')
-            TXT_FILE="public/posts/post-${TODAY}-${IDX}.txt"
+          if [ "$NEW_COUNT" -gt 0 ]; then
+            for PNG_FILE in public/posts/post-${TODAY}-${JST_HOUR}h-*.png; do
+              [ -f "$PNG_FILE" ] || continue
+              TXT_FILE="${PNG_FILE%.png}.txt"
 
-            if [ -f "$TXT_FILE" ]; then
-              CAPTION=$(cat "$TXT_FILE")
-              curl -s -F "content=${CAPTION}" -F "file1=@${PNG_FILE}" "$DISCORD_WEBHOOK_URL"
-              SENT=$((SENT + 1))
-              sleep 2
-            fi
-          done
+              if [ -f "$TXT_FILE" ]; then
+                CAPTION=$(cat "$TXT_FILE")
+                curl -s -F "content=${CAPTION}" -F "file1=@${PNG_FILE}" "$DISCORD_WEBHOOK_URL"
+                SENT=$((SENT + 1))
+                sleep 2
+              fi
+            done
+          fi
 
           if [ "$SENT" -gt 0 ]; then
             echo "✅ Discord通知完了: ${SENT}件"

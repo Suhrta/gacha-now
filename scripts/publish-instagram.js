@@ -141,7 +141,7 @@ async function main() {
   for (let i = 0; i < pngFiles.length; i++) {
     const pngFile = pngFiles[i];
     const idx = pngFile.match(pattern)[1];
-    const txtFile = `post-${today}-${idx}.txt`;
+    const txtFile = pngFile.replace(/\.png$/, ".txt");
     const txtPath = path.join(POSTS_DIR, txtFile);
 
     console.log(`\n  [${parseInt(idx)}/${pngFiles.length}] ${pngFile}`);
