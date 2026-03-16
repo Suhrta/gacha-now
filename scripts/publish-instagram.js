@@ -24,6 +24,7 @@ const SITE_URL = "https://gacha-now.net";
 const IG_USER_ID = process.env.IG_USER_ID;
 const IG_ACCESS_TOKEN = process.env.IG_ACCESS_TOKEN;
 const GRAPH_API = "https://graph.facebook.com/v25.0";
+const DRY_RUN = String(process.env.DRY_RUN || "").toLowerCase() === "true";
 
 // 投稿間の待機時間（秒）- API制限対策
 const POST_INTERVAL_SEC = 30;
@@ -99,8 +100,12 @@ async function publishMedia(containerId) {
 async function main() {
   console.log("📷 Instagram自動投稿を開始...");
 
-  // 環境変数チェック
-  if (!IG_USER_ID || !IG_ACCESS_TOKEN) {
+  if (DRY_RUN) {
+    console.log("  🧪 DRY_RUN=true のため投稿は行いません");
+  }
+
+  // 環境変数チェック（DRY_RUN では不要）
+  if (!DRY_RUN && (!IG_USER_ID || !IG_ACCESS_TOKEN)) {
     console.error("❌ IG_USER_ID または IG_ACCESS_TOKEN が未設定です");
     process.exit(1);
   }
@@ -135,6 +140,13 @@ async function main() {
   }
 
   console.log(`  📋 投稿予定: ${pngFiles.length}件`);
+
+  if (DRY_RUN) {
+    for (const f of pngFiles) {
+      console.log(`  - ${f}`);
+    }
+    return;
+  }
 
   let successCount = 0;
 
@@ -187,6 +199,12 @@ async function main() {
 
   console.log(`\n🎉 Instagram投稿完了！ ${successCount}/${pngFiles.length}件成功`);
   console.log(`  https://www.instagram.com/gacha.gacha_now/`);
+
+  // 投稿対象があるのに成功0件なら失敗として扱い、CIで検知できるようにする
+  if (pngFiles.length > 0 && successCount === 0) {
+    console.error("❌ 投稿対象があるのに成功0件でした");
+    process.exit(1);
+  }
 }
 
 main().catch((e) => {
