@@ -1,0 +1,47 @@
+# .github/workflows/publish-instagram.yml
+# Instagram投稿のバックフィル（手動再実行）用。
+# - public/posts/ に既にある post-YYYY-MM-DD-*.png / .txt を対象に Instagram Graph API で投稿する。
+# - 失敗時に再実行できるよう、日付を指定して実行する。
+
+name: Publish Instagram (Backfill)
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: '投稿対象日 (YYYY-MM-DD)'
+        required: true
+        type: string
+      dry_run:
+        description: 'true の場合は投稿せず対象ファイルの列挙だけ行う'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies (scripts)
+        run: |
+          cd scripts
+          npm install
+
+      - name: Publish to Instagram (target_date)
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          TARGET_DATE: ${{ inputs.target_date }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: node scripts/publish-instagram.js
