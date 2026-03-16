@@ -18,7 +18,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const POSTS_DIR = path.join(__dirname, "..", "public", "posts");
 
 // Vercelの公開URL
-const SITE_URL = "https://gacha-now.net";
+// gacha-now.net は www にリダイレクトされるため、IG側のURL検証を通しやすいように www を正として扱う
+const SITE_URL = "https://www.gacha-now.net";
 
 // 環境変数
 const IG_USER_ID = process.env.IG_USER_ID;
@@ -28,6 +29,42 @@ const DRY_RUN = String(process.env.DRY_RUN || "").toLowerCase() === "true";
 
 // 投稿間の待機時間（秒）- API制限対策
 const POST_INTERVAL_SEC = 30;
+
+// 画像URLがデプロイに反映されるまでの待機（秒）
+const PREFLIGHT_INTERVAL_SEC = parseInt(process.env.PREFLIGHT_INTERVAL_SEC || "10", 10);
+const PREFLIGHT_MAX_RETRIES = parseInt(process.env.PREFLIGHT_MAX_RETRIES || "30", 10);
+
+async function sleep(ms) {
+  await new Promise((r) => setTimeout(r, ms));
+}
+
+async function preflightImageUrl(imageUrl) {
+  for (let i = 0; i < PREFLIGHT_MAX_RETRIES; i++) {
+    try {
+      const res = await fetch(imageUrl, { method: "HEAD" });
+      const contentType = res.headers.get("content-type") || "";
+      if (res.ok && contentType.startsWith("image/")) {
+        return;
+      }
+      console.log(
+        `    ⏳ 画像URL待機中... (${i + 1}/${PREFLIGHT_MAX_RETRIES}) status=${res.status} content-type=${contentType}`
+      );
+    } catch (e) {
+      console.log(
+        `    ⏳ 画像URL待機中... (${i + 1}/${PREFLIGHT_MAX_RETRIES}) fetch-error=${e.message}`
+      );
+    }
+
+    await sleep(PREFLIGHT_INTERVAL_SEC * 1000);
+  }
+
+  // 最後にGETで詳細を出して失敗
+  const res = await fetch(imageUrl, { method: "GET" });
+  const contentType = res.headers.get("content-type") || "";
+  throw new Error(
+    `画像URLが有効になりませんでした: status=${res.status} content-type=${contentType} url=${imageUrl}`
+  );
+}
 
 /**
  * ステップ1: メディアコンテナを作成
@@ -167,6 +204,9 @@ async function main() {
     const imageUrl = `${SITE_URL}/posts/${pngFile}`;
     console.log(`    🖼️ ${imageUrl}`);
     console.log(`    📝 ${caption.split("\n")[0]}...`);
+
+    // Vercelデプロイ反映待ち（URLが 200 かつ image/* になるまで待機）
+    await preflightImageUrl(imageUrl);
 
     try {
       // ステップ1: メディアコンテナ作成
