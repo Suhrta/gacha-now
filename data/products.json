@@ -1,5 +1,96 @@
 [
   {
+    "id": "metal-gear--78743950",
+    "name": "METAL GEAR まちぼうけ",
+    "brand": "まちぼうけ",
+    "brandSlug": "machiboke",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "3月 第4週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968228000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-03-17T03:02:46.987Z",
+    "description": "あの伝説的ゲーム「メタルギア」がまちぼうけフィギュアで登場！潜入任務も一休みして、のんびり待機中のスネークたちに癒されちゃおう。"
+  },
+  {
+    "id": "fig--044c0ed5",
+    "name": "肩ズンFig. ハイキュー!! 制服 烏野・音駒",
+    "brand": "ハイキュー",
+    "brandSlug": "haikyu",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "3月 23日週",
+    "color": "#d5e599",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099144_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099144_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099144",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-17T03:02:46.988Z",
+    "description": "肩に乗せて応援団気分！烏野と音駒の制服姿が可愛すぎる肩ズンシリーズに、ハイキューのキャラたちが登場だよ。"
+  },
+  {
+    "id": "gacha-4efffc24",
+    "name": "でふぉラバ! ハイキュー!! めじるしガチャマスコット",
+    "brand": "ハイキュー",
+    "brandSlug": "haikyu",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "3月 23日週",
+    "color": "#d5e599",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903724_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903724_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903724",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-17T03:02:46.989Z",
+    "description": "人気キャラたちがでふぉるめ化されてラバーマスコットに登場！全7種のかわいいめじるしデザインで、バッグや鍵につけて一緒にお出かけしよう。"
+  },
+  {
+    "id": "gacha-2faa7974",
+    "name": "おめかし ねこちゃんぬいぐるみ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "3月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/03/omekashineko_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/03/omekashineko_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/omekashi_nekochan/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-03-17T03:02:46.989Z",
+    "description": "ふわふわのねこちゃんがおしゃれに変身！可愛い衣装を着た4匹のねこぬいぐるみが、あなたのお部屋を癒しの空間にしてくれます。"
+  },
+  {
     "id": "takahashi-kaoris-growing-plant-0a730937",
     "name": "Takahashi Kaori's Growing Planters!",
     "brand": "New",
