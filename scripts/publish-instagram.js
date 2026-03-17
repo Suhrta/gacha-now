@@ -148,31 +148,51 @@ async function main() {
   }
 
   // 投稿対象日（TARGET_DATE 環境変数が指定されていればそれを使用、なければ当日）
-  const today = process.env.TARGET_DATE || new Date().toISOString().split("T")[0];
-  console.log(`  📅 対象日: ${today}`);
-  const pattern = new RegExp(`^post-${today}-\\d+h-(\\d+)\\.png$`);
-  // 投稿済みログ
-  const LOG_PATH = path.join(POSTS_DIR, "posted-log.json");
-  const postedLog = fs.existsSync(LOG_PATH)
-    ? JSON.parse(fs.readFileSync(LOG_PATH, "utf-8"))
-    : [];
+  const targetDate = process.env.TARGET_DATE || new Date().toISOString().split("T")[0];
+  console.log(`  📅 対象日: ${targetDate}`);
+  const pattern = new RegExp(`^post-${targetDate}-\\d+h-(\\d+)\\.png$`);
+
+  // 投稿済みログ（CI/手動実行で永続化して重複投稿を防ぐ）
+  const LOG_PATH = path.join(__dirname, "..", "data", "instagram-posted-log.json");
+  let postedLog = [];
+  try {
+    if (fs.existsSync(LOG_PATH)) {
+      postedLog = JSON.parse(fs.readFileSync(LOG_PATH, "utf-8"));
+    }
+  } catch (e) {
+    console.log(`⚠️ 投稿済みログの読み込みに失敗しました。新規扱いで続行します: ${e.message}`);
+    postedLog = [];
+  }
+
+  if (!Array.isArray(postedLog)) {
+    postedLog = [];
+  }
+
   const postedSet = new Set(postedLog);
-  
+
   if (!fs.existsSync(POSTS_DIR)) {
     console.log("⚠️ postsディレクトリが見つかりません、スキップ");
     return;
   }
 
-  const pngFiles = fs.readdirSync(POSTS_DIR)
-  .filter((f) => pattern.test(f) && !postedSet.has(f))
+  const allMatches = fs
+    .readdirSync(POSTS_DIR)
+    .filter((f) => pattern.test(f))
     .sort((a, b) => {
       const numA = parseInt(a.match(pattern)[1]);
       const numB = parseInt(b.match(pattern)[1]);
       return numA - numB;
     });
 
-  if (pngFiles.length === 0) {
+  const pngFiles = allMatches.filter((f) => !postedSet.has(f));
+
+  if (allMatches.length === 0) {
     console.log("⚠️ 今日の投稿ファイルが見つかりません、スキップ");
+    return;
+  }
+
+  if (pngFiles.length === 0) {
+    console.log("⏭️ 対象ファイルはすべて投稿済みのためスキップ");
     return;
   }
 
@@ -223,8 +243,13 @@ async function main() {
       const mediaId = await publishMedia(containerId);
       console.log(`    ✅ 投稿完了！ Media ID: ${mediaId}`);
       successCount++;
-      postedLog.push(pngFile);
-      fs.writeFileSync(LOG_PATH, JSON.stringify(postedLog, null, 2), "utf-8");
+
+      if (!postedSet.has(pngFile)) {
+        postedSet.add(pngFile);
+        postedLog.push(pngFile);
+        fs.mkdirSync(path.dirname(LOG_PATH), { recursive: true });
+        fs.writeFileSync(LOG_PATH, JSON.stringify(postedLog, null, 2), "utf-8");
+      }
 
       // 次の投稿まで待機（最後の投稿の後は不要）
       if (i < pngFiles.length - 1) {
