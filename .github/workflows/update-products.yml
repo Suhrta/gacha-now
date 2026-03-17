@@ -11,6 +11,12 @@
 # 8. Discord通知（新着あり → 画像送信 / 新着なし → 「本日の新着なし」メッセージ）
 
 name: Update Products
+
+concurrency:
+  # 手動バックフィルと定期実行が重なっても、投稿やログ更新が競合しないように直列化する
+  group: instagram-publish
+  cancel-in-progress: false
+
 on:
   schedule:
     # 毎日 23:00 UTC = 日本時間 8:00
@@ -75,6 +81,19 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: node scripts/publish-instagram.js
+
+      - name: Commit Instagram posted log (if changed)
+        run: |
+          if [ ! -f data/instagram-posted-log.json ]; then
+            echo "posted log not found; skip"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/instagram-posted-log.json
+          git diff --staged --quiet || git commit -m "chore: Instagram投稿ログを更新"
+          git push
 
       - name: Notify Discord
         env:
