@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-5028863a",
+    "name": "ムーミン ぬいぐるみマスコット３",
+    "brand": "ムーミン",
+    "brandSlug": "moomin",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "3月 下旬",
+    "color": "#b899e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/03/251205_MOOMINmascot3_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/03/251205_MOOMINmascot3_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/moomindoll3/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-03-19T03:02:35.152Z",
+    "description": "500円で手に入るムーミンの癒し系マスコット第3弾が登場！全5種のふわふわキャラたちがあなたのバッグを可愛く彩ってくれます。"
+  },
+  {
     "id": "-gr-supra-complete-edition-68850fe8",
     "name": "ホビーガチャ トヨタ GR Supra -COMPLETE EDITION-",
     "brand": "その他",
