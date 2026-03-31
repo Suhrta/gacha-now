@@ -1,5 +1,614 @@
 [
   {
+    "id": "-the--1a8734c5",
+    "name": "あそべる生物フィギュアシリーズ ガチャアクション THE恐竜 太古への旅立ち",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "4月 6日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900150_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900150_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900150",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "300円で太古の世界へタイムスリップ！リアルな恐竜フィギュアが全5種で登場、しかもただ飾るだけじゃなくて遊べるアクション付きなのが嬉しいポイントです。"
+  },
+  {
+    "id": "gacha-0e589c38",
+    "name": "サランラップ 歴代パッケージキーチェーン",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "4月 6日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901041_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901041_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901041",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "懐かしのサランラップパッケージがキーチェーンになって登場！歴代6種のデザインで昭和レトロ好きにはたまらないラインナップです。"
+  },
+  {
+    "id": "gacha-6b9ae86f",
+    "name": "まんまるどうぶつ まんまるいぬ めじるしガチャマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "4月 6日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902215_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902215_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902215",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "まんまるなフォルムが可愛すぎるワンちゃんたちが大集合！それぞれ違う目印を付けた5種類のお犬様が、あなたのお迎えを待ってます。"
+  },
+  {
+    "id": "gacha-76d6cec2",
+    "name": "サンリオキャラクターズ メルヘン工房おなまえホルダー ミニチュアラバーマスコット2",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "4月 6日週",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903779_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903779_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903779",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "サンリオの人気キャラたちが可愛いおなまえホルダーになって登場！メルヘンな工房風デザインで、バッグやポーチに付けて自分だけの特別感を演出しよう。"
+  },
+  {
+    "id": "fig--119b073d",
+    "name": "肩ズンFig. 塔の上のラプンツェル",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y084157_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y084157_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y084157",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "ラプンツェルがあなたの肩にちょこんと座って癒やしをお届け！全4種のポーズで毎日の疲れも吹き飛ぶかも。"
+  },
+  {
+    "id": "disney-series-created-by-mus--441b35b3",
+    "name": "Disney SERIES CREATED by MUS ウェアコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 7,
+    "releaseWeek": "8月 11日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093722_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093722_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093722",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "ディズニーキャラクターのおしゃれなウェアが勢揃い！400円で手に入るミニチュア服コレクションは、どれが出てもテンション上がっちゃう全7種展開です。"
+  },
+  {
+    "id": "fig--74bfeaa1",
+    "name": "肩ズンFig. モンスターズ・ユニバーシティ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y094255_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y094255_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y094255",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "モンスターズ・ユニバーシティのキャラたちがあなたの肩でズンズン！可愛らしいサイズ感で、デスクワークの癒しパートナーにぴったりです。"
+  },
+  {
+    "id": "-vol2-50a5c4c9",
+    "name": "でふぉフィグ! 僕のヒーローアカデミア キーホルダーVol.2",
+    "brand": "ヒロアカ",
+    "brandSlug": "heroaca",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#43A047",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y096938_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y096938_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y096938",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "ヒロアカキャラたちがキュートなでふぉるめで登場！全4種のキーホルダーでお気に入りのヒーローと一緒にお出かけしよう。"
+  },
+  {
+    "id": "gacha-718b3ec2",
+    "name": "ズートピア2 ゆらゆらつながるマスコット",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y097386_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y097386_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y097386",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "映画公開で話題沸騰中のズートピア2から、ゆらゆら揺れる可愛いマスコットが登場！つなげて飾れば、動物たちの楽しいパレードの完成だよ。"
+  },
+  {
+    "id": "gacha-72c56e18",
+    "name": "ポケモン フニットマスコット7",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "4月",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098260_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098260_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098260",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "ふわふわ触感がクセになる！ポケモンたちがマスコットになって登場。300円で手に入る癒しのパートナーを見つけよう。"
+  },
+  {
+    "id": "gacha-1e5de333",
+    "name": "歴代ベイブレード ピンズコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098611_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098611_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098611",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "懐かしのベイブレードがピンズになって登場！歴代の名機たちを胸元に飾って、あの頃の熱いバトルを思い出そう。"
+  },
+  {
+    "id": "-fig-564fbf9d",
+    "name": "トムとジェリー まみれるFig.",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 3,
+    "releaseWeek": "4月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098659_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098659_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098659",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "あの追いかけっこでお馴染みのトムとジェリーが、何かにまみれた姿でフィギュア化！いったい何にまみれているのか、3種類コンプリートして確かめてみよう。"
+  },
+  {
+    "id": "peanuts-3-7ef59fef",
+    "name": "PEANUTS コーヒースタンドスタイル フィギュアマスコット3",
+    "brand": "スヌーピー",
+    "brandSlug": "snoopy",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "4月",
+    "color": "#e5b699",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099366_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099366_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099366",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "スヌーピーたちがおしゃれなコーヒースタンド店員に変身！バリスタ姿のキュートなマスコットで、デスク周りがカフェ気分に早変わりしちゃいます。"
+  },
+  {
+    "id": "hahahafig--107fe1d6",
+    "name": "HAHAHA!Fig.  トイ・ストーリー",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099373_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099373_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099373",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "みんな大好きトイ・ストーリーのキャラたちが400円で手に入る！ウッディやバズの楽しい表情にほっこり癒されちゃいそう。"
+  },
+  {
+    "id": "gacha-7bec5dde",
+    "name": "ブルーイ フロッキーフィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900112_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900112_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900112",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "大人気アニメ「ブルーイ」のふわふわフロッキー仕様フィギュアが登場！手のひらサイズの可愛さに思わずほっこりしちゃいます。"
+  },
+  {
+    "id": "gacha-292489ac",
+    "name": "ポケモン ぽかぽかびより2",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "4月",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900358_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900358_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900358",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "ポケモンたちがまったりとした表情で心を癒してくれる人気シリーズの第2弾が登場！温かみのあるデザインで、デスクやお部屋に飾れば毎日がぽかぽか気分になれちゃいます。"
+  },
+  {
+    "id": "gacha-69f592b7",
+    "name": "おさるのジョージ コスチュームマスコット5",
+    "brand": "おさるのジョージ",
+    "brandSlug": "george",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#99afe5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900662_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900662_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900662",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.492Z",
+    "description": "みんな大好きおさるのジョージが、いろんなコスチュームを着てマスコットになって登場！全4種類のかわいい衣装姿を集めて、お気に入りを見つけちゃおう。"
+  },
+  {
+    "id": "gacha-66577565",
+    "name": "きかんしゃトーマス すってんころりんフィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900914_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900914_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900914",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.493Z",
+    "description": "きかんしゃトーマスがひっくり返って大ピンチ！？コロンと転がるかわいい姿にほっこり癒されちゃう、思わず全種類集めたくなるフィギュアです。"
+  },
+  {
+    "id": "fig-vol5--4ba3aadc",
+    "name": "肩ズンFig./ 『ディズニー ツイステッドワンダーランド』Vol.5 オクタヴィネル寮＆グリム",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900969_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900969_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900969",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.493Z",
+    "description": "ツイステの推しキャラが肩にちょこんと座ってくれる癒し系フィギュア！オクタヴィネル寮のメンバーとグリムが、あなたの日常をそっと見守ってくれます。"
+  },
+  {
+    "id": "-meltymelt-5408df96",
+    "name": "ディズニーキャラクター/ MeltyMelt",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900976_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900976_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900976",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.493Z",
+    "description": "ディズニーの人気キャラたちがとろ〜りメルティな姿で登場！まるで溶けちゃったみたいなキュートなデザインにほっこり癒されること間違いなし。"
+  },
+  {
+    "id": "gacha-5ee11e90",
+    "name": "サンリオキャラクターズ ジュエリーブレスレット2",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "4月",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901102_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901102_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901102",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.493Z"
+  },
+  {
+    "id": "moomin--4b363185",
+    "name": "MOOMIN リップケース",
+    "brand": "ムーミン",
+    "brandSlug": "moomin",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "4月",
+    "color": "#b899e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901126_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901126_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901126",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.493Z"
+  },
+  {
+    "id": "gacha-191910a1",
+    "name": "サンリオキャラクターズ 白菜マスコット",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "4月",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901461_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901461_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901461",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.493Z"
+  },
+  {
+    "id": "gacha-41924a88",
+    "name": "サンリオキャラクターズ はーとのこあくま",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "4月",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901478_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901478_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901478",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.493Z"
+  },
+  {
+    "id": "gacha-05684e86",
+    "name": "ガチャ消防",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "4月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901591_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901591_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901591",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.493Z"
+  },
+  {
+    "id": "gacha-4bef745e",
+    "name": "トミカウォッチコレクション",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901652_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901652_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901652",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.493Z"
+  },
+  {
+    "id": "gacha-13c2ff0d",
+    "name": "ポケモン メガストーンウォッチ",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "4月",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902154_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902154_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902154",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.493Z"
+  },
+  {
+    "id": "gacha-77941837",
+    "name": "ラブル＆クルー つながるラバーマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "4月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903274_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903274_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903274",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.494Z"
+  },
+  {
+    "id": "-ver-23c0fd6f",
+    "name": "星のカービィ　 ファッションリング　クリアカラーVer.",
+    "brand": "カービィ",
+    "brandSlug": "kirby",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "4月",
+    "color": "#F48FB1",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903526_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903526_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903526",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.494Z"
+  },
+  {
+    "id": "gacha-2686c964",
+    "name": "トミカとトム シリコンポーチコレクション",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903786_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903786_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903786",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.494Z"
+  },
+  {
+    "id": "gacha-4c159b5f",
+    "name": "おねがいアイプリ ラバーマスコットコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "4月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904349_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904349_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904349",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-03-31T23:25:41.494Z"
+  },
+  {
     "id": "gacha-68ad9798",
     "name": "ホロライブ すわらせ隊 アクリルスタンド カラーライズ2",
     "brand": "その他",
