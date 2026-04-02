@@ -1,5 +1,87 @@
 [
   {
+    "id": "-06-2d82b989",
+    "name": "ポケットモンスター ガシャっとコレクト06",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "4月 第4週",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248557_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198013000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-04-02T03:02:25.770Z",
+    "description": "ポケモンたちが手のひらサイズでやってきた！全4種のラインナップで、どの子が出るかはお楽しみ。コレクション欲をくすぐる500円の幸せガチャです。"
+  },
+  {
+    "id": "gacha-079b6c12",
+    "name": "ポケットモンスター しっぽみてみて！フィギュア3",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "4月 第4週",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248570_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202543000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-04-02T03:02:25.770Z",
+    "description": "ポケモンたちの可愛いしっぽにフォーカスした人気シリーズの第3弾が登場！後ろ姿だけでも愛らしさ満点の全4種を集めて、しっぽの魅力を堪能しよう。"
+  },
+  {
+    "id": "gacha-6f4119b7",
+    "name": "つながリングチャーム ハイキュー!!マスコット",
+    "brand": "ハイキュー",
+    "brandSlug": "haikyu",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "8月 25日週",
+    "color": "#d5e599",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093395_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093395_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093395",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-04-02T03:02:25.771Z",
+    "description": "ハイキューのキャラたちがリングチャームになって登場！つなげて飾れば、チーム愛がさらに深まること間違いなし。"
+  },
+  {
     "id": "gacha-34080d01",
     "name": "原神 スライム めじるしアクセサリー",
     "brand": "その他",
@@ -3127,7 +3209,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935374000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "パッケージがそのままミニチュアに！可愛いエスターバニーのパッケージデザインを手のひらサイズで楽しめる、コレクター心をくすぐる全4種のラインナップです。"
   },
   {
     "id": "gacha-659b04e9",
@@ -3157,7 +3240,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935411000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "サンリオキャラたちにハッシュタグをつけちゃう斬新なアイデアが可愛すぎる！SNS時代にぴったりな300円の癒しアイテムだよ。"
   },
   {
     "id": "gacha-5b713dce",
@@ -3187,7 +3271,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935442000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "しんちゃんがライトマスコットになって登場！暗闇でもしんちゃんのかわいさが光る、全4種のコレクションアイテムだよ。"
   },
   {
     "id": "-ex-miniature-collection2-26da4108",
@@ -3217,7 +3302,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935794000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "黄金聖闘士たちの聖衣が手のひらサイズで登場！精巧な造りで聖域の熱い戦いを思い出せる、ファン必見のミニチュアコレクション第2弾です。"
   },
   {
     "id": "esther-bunny--6ea8d703",
@@ -3247,7 +3333,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769979088000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "エスターバニーとマイメロディがコラボした、ぷっくりキュートなアクセサリーが登場！パステルカラーの優しい世界観で、持ち物をもっと可愛く彩ってくれる全4種です。"
   },
   {
     "id": "gacha-34af7346",
@@ -3277,7 +3364,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769995477000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "無限城編の主要キャラたちが待ちぼうけポーズでキュートに登場！どこか切ない表情がたまらなく愛おしい、ファン必見の癒し系フィギュアです。"
   },
   {
     "id": "gacha-7ce8c6a8",
@@ -3307,7 +3395,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770027228000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "しんちゃんがパステルカラーで可愛くなって登場！普段使いしやすい優しい色合いで、さりげなくしんちゃん愛をアピールできちゃう目印アクセサリーです。"
   },
   {
     "id": "gacha-24a22c7d",
@@ -3337,7 +3426,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770027884000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "懐かしのデジモンたちがぐっすり眠る姿にキュン死確定！アグモンやガブモンの寝顔が癒やし度マックスで、デスクに飾れば疲れも吹っ飛ぶよ。"
   },
   {
     "id": "-sideg-75de8836",
@@ -3367,7 +3457,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770028003000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "武ノ国の勇敢なサムライたちが500円で手に入る！全4種の精巧なフィギュアで、あなたも冒険の旅に出かけよう。"
   },
   {
     "id": "minecraft--6ad3a305",
@@ -3397,7 +3488,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770055764000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "マイクラの世界がキーボードに！カラフルなデザインが目を引く、持ち歩きたくなるキュートなキーチャームが登場だよ。"
   },
   {
     "id": "tvsakamoto-days-select-2314a163",
@@ -3427,7 +3519,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770055986000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "大人気アニメ「SAKAMOTO DAYS」のキャラたちが手のひらサイズのフィギュアになって登場！全4種の中からお気に入りのキャラをゲットしよう。"
   },
   {
     "id": "gacha-2143a156",
@@ -3457,7 +3550,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118246844000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "ハリポタファン必見！魔法界の象徴的なアイテムが手のひらサイズのアクセサリーになって登場。全4種コンプリートして魔法使い気分を味わおう。"
   },
   {
     "id": "gacha-0b9a6f34",
@@ -3487,7 +3581,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769700897000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "みんな大好きカービィのキュートなアクセサリーが第2弾で登場！300円で手に入るプチプラなのに、めちゃくちゃ可愛くて普段使いにもぴったりだよ。"
   },
   {
     "id": "gacha-5f118d51",
@@ -3517,7 +3612,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769810305000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "大人気絵本「パンどろぼう」のアクセサリーシリーズ第3弾が登場！あのキュートなパンどろぼうを身に着けて、毎日をもっと楽しくしちゃおう。"
   },
   {
     "id": "gacha-00cbd3ec",
@@ -3547,7 +3643,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769860416000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "はなかっぱの特徴的な目印がアクセサリーになって登場！全4種のラインナップで、あのキュートなキャラクターを身につけて楽しもう。"
   },
   {
     "id": "gacha-00e83f5f",
@@ -3577,7 +3674,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198372000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "魔法少女ファン必見！ルルットリリィの可愛いめじるしアクセサリーが300円で手に入るチャンス。全4種コンプリートして魔法の世界を身に着けよう。"
   },
   {
     "id": "hg05-majin-buu-saga2-2e196b43",
@@ -3607,7 +3705,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769809729000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "魔人ブウ編の激闘が全4種で登場！500円で手に入る本格フィギュアは、あの名シーンを完璧に再現してくれます。"
   },
   {
     "id": "tv--6193a0df",
