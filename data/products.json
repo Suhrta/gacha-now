@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-4ce19a6c",
+    "name": "カプセルプラレール 最高速度いちばん列車大集合編",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 300,
+    "types": 13,
+    "releaseWeek": "4月 13日週",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093029_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093029_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093029",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-04-02T05:03:13.633Z",
+    "description": "日本の鉄道界のスピードスターが大集合！新幹線から在来線まで、最高速度を誇る名車たちがカプセルプラレールで登場だよ。"
+  },
+  {
     "id": "-06-2d82b989",
     "name": "ポケットモンスター ガシャっとコレクト06",
     "brand": "ポケモン",
@@ -3736,7 +3756,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769872778000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "TVアニメ『キルアオ』の人気キャラたちがぷにぷにラバーマスコットになって登場！全4種コンプしてお気に入りキャラと一緒にお出かけしよう。"
   },
   {
     "id": "2-02-047332b9",
@@ -3766,7 +3787,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769891588000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "懐かしのパックマンが400円でお手軽に！レトロゲームファンなら見逃せない、コレクション心をくすぐる全4種のフィギュアシリーズです。"
   },
   {
     "id": "gacha-427fa65b",
@@ -3796,7 +3818,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769898709000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "バカボンパパの「これでいいのだ！」が聞こえてきそうな、天才バカボンのめじるしアクセサリー。300円で懐かしキャラと一緒にお出かけなのだ！"
   },
   {
     "id": "gacha-17be5243",
@@ -3826,7 +3849,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769995460000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "劇場版で話題の無限城編のキャラたちが、つまんでつなげるキュートなマスコット姿で登場！デスクや棚に飾って、お気に入りのキャラと一緒に過ごそう。"
   },
   {
     "id": "gacha-77bcd3b2",
@@ -3856,7 +3880,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769995590000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "ライダーファン必見！お気に入りの仮面ライダーを身につけて、さりげなくアピールできちゃうアクセサリーが登場。300円でゲットできるプチプラ感も嬉しいポイントです。"
   },
   {
     "id": "gacha-6914d7ce",
@@ -3886,7 +3911,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769995620000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "家族の絆を描いたほっこり系ウルトラマングッズが登場！親子で楽しめるスイング仕様で、デスクや棚に飾れば癒しの空間に早変わりです。"
   },
   {
     "id": "-11-0c3966ac",
@@ -3916,7 +3942,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769867347000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-04-01T03:02:26.400Z"
+    "collectedAt": "2026-04-01T03:02:26.400Z",
+    "description": "人気シリーズ第11弾が登場！コナンたちがさらに可愛くちぢんで、デスクやお部屋を彩ってくれます。全4種コンプリートして、小さな探偵団を結成しちゃおう。"
   },
   {
     "id": "gacha-3e0d2ad5",
@@ -3935,7 +3962,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://kitan.jp/products/higuchiyuko_kamisama/",
     "source": "キタンクラブ公式",
-    "collectedAt": "2026-04-01T03:02:26.402Z"
+    "collectedAt": "2026-04-01T03:02:26.402Z",
+    "description": "ヒグチユウコワールドの神秘的な神様たちがガチャに登場！独特なタッチで描かれた7種の神様コレクションは、どれを引いても当たりの美しさです。"
   },
   {
     "id": "-the--1a8734c5",
