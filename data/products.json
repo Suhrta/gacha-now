@@ -1,5 +1,36 @@
 [
   {
+    "id": "skzoo--0ef68d3d",
+    "name": "SKZOO スクールバスフィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "4月 第4週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248569_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202703000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-04-03T05:05:34.784Z",
+    "description": "SKZ愛が止まらない！可愛いスクールバスに乗ったSKZOOキャラクターが登場。500円で推しをお迎えできるチャンスを見逃すな！"
+  },
+  {
     "id": "gacha-2741aa07",
     "name": "アデリアレトロ クリームソーダライト",
     "brand": "その他",
