@@ -1,5 +1,56 @@
 [
   {
+    "id": "salonia--22914792",
+    "name": "SALONIA ミニチャームコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月 第3週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248600_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769822940000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-04-07T03:02:32.858Z",
+    "description": "大人気ヘアアイロンブランドSALONIAがガチャになって登場！本物そっくりのミニサイズで美容好きの心をキュンとさせちゃいます。"
+  },
+  {
+    "id": "-have-a-dream-4ca499ab",
+    "name": "ディズニープリンセス Have a Dream",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901348_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901348_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901348",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-04-07T03:02:32.860Z",
+    "description": "400円でディズニープリンセスたちの夢あふれる世界が手に入る！全4種のラインナップで、あなたの推しプリンセスに出会えるかも。"
+  },
+  {
     "id": "fig--3ca54b3b",
     "name": "肩ズンFig. ハイキュー!! 制服 青葉城西・梟谷学園",
     "brand": "ハイキュー",
