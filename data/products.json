@@ -1,5 +1,65 @@
 [
   {
+    "id": "fig--219403cc",
+    "name": "肩ズンFig. 呪術廻戦",
+    "brand": "呪術廻戦",
+    "brandSlug": "jujutsu",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月 20日週",
+    "color": "#7986CB",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y070112_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y070112_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y070112",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-04-08T23:31:23.034Z",
+    "description": "呪術廻戦キャラが肩にちょこんと乗って癒してくれる！デスクワークのお供にも最適な、思わず集めたくなる可愛さです。"
+  },
+  {
+    "id": "-nissan-z--08899b64",
+    "name": "ホビーガチャ NISSAN フェアレディZ レガシーコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "4月 20日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y073403_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y073403_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y073403",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-04-08T23:31:23.034Z",
+    "description": "日産の名車フェアレディZの歴代モデルが全6種で登場！400円で手に入る本格ミニカーコレクションで、Zの進化の歴史を手のひらで楽しもう。"
+  },
+  {
+    "id": "gacha-4529de6a",
+    "name": "スター・ウォーズ グローグーいっぱいコレクション2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "4月 20日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y083877_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y083877_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y083877",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-04-08T23:31:23.034Z",
+    "description": "マンダロリアンの人気者グローグーが4種類のキュートなポーズで大集合！400円で手に入るベビーヨーダの愛らしさに心がメロメロになっちゃうかも。"
+  },
+  {
     "id": "salonia--22914792",
     "name": "SALONIA ミニチャームコレクション",
     "brand": "その他",
