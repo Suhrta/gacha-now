@@ -1,5 +1,36 @@
 [
   {
+    "id": "crazy-raccoon--2f6beb18",
+    "name": "CRAZY RACCOON めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "未定",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249411_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202208000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-04-10T09:02:47.093Z",
+    "description": "人気eスポーツチーム「CRAZY RACCOON」のロゴがアクセサリーに！推しチームへの愛を身につけて、日常にゲーミング要素をプラスしちゃおう。"
+  },
+  {
     "id": "fig--25bcd1de",
     "name": "肩ズンFig. 可哀想に！",
     "brand": "その他",
