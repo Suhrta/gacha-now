@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-260c3bdc",
+    "name": "プレデターマスク クロニクル",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 11,
+    "releaseWeek": "4月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y096983_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y096983_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y096983",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-04-14T03:02:52.556Z",
+    "description": "映画でおなじみの恐怖のハンター、プレデターのマスクが全11種で登場！400円でゲットできる本格的な造形は、コレクター心をくすぐること間違いなし。"
+  },
+  {
     "id": "crazy-raccoon--2f6beb18",
     "name": "CRAZY RACCOON めじるしアクセサリー",
     "brand": "その他",
