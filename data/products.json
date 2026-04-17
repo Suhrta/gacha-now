@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-34d219af",
+    "name": "ムーミン きりかぶの時計",
+    "brand": "ムーミン",
+    "brandSlug": "moomin",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "4月 下旬",
+    "color": "#b899e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/04/250225_moominwatch_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/04/250225_moominwatch_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/moomin_kirikabu/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-04-17T03:03:00.546Z",
+    "description": "ムーミンの世界観がぎゅっと詰まった切り株の時計が登場！全5種のキュートなデザインで、お部屋に北欧の癒しをお届けします。"
+  },
+  {
     "id": "-metal-ring-collection-0f9e4aab",
     "name": "スター・ウォーズ METAL RING COLLECTION",
     "brand": "その他",
