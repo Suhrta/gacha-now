@@ -34,8 +34,36 @@ export default function ItemPage({ params }) {
     );
   }
 
+  const productLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    image: product.images && product.images.length > 0 ? product.images : (product.img ? [product.img] : undefined),
+    description: product.description || `${product.name}（全${product.types}種）のカプセルトイ新作情報。${product.releaseWeek}発売。`,
+    brand: { "@type": "Brand", name: product.brand },
+    offers: {
+      "@type": "Offer",
+      price: product.price,
+      priceCurrency: "JPY",
+      availability: "https://schema.org/InStock",
+      url: `https://gacha-now.net/item/${product.id}`,
+    },
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gacha-now.net" },
+      { "@type": "ListItem", position: 2, name: product.brand, item: `https://gacha-now.net/brand/${product.brandSlug}` },
+      { "@type": "ListItem", position: 3, name: product.name, item: `https://gacha-now.net/item/${product.id}` },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
       <div className="px-4 pt-4">
         <Link href="/" className="font-pixel text-[10px] text-brand-sub no-underline hover:text-brand-accent transition-colors">
           ← トップにもどる

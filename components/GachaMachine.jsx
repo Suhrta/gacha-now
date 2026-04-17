@@ -19,6 +19,9 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
       onTouchStart={() => setPressed(true)}
       onTouchEnd={() => setPressed(false)}
       onTouchCancel={() => setPressed(false)}
+      onMouseDown={() => setPressed(true)}
+      onMouseUp={() => setPressed(false)}
+      onMouseLeave={() => setPressed(false)}
       className="block"
       style={{
         width: "calc(50% - 5px)", cursor: "pointer",
@@ -40,31 +43,15 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
           transition: "box-shadow 0.15s",
         }}>
 
-        {/* 筐体トップライン */}
+        {/* 筐体トップライン（HOT時は太く＋パルス） */}
         <div style={{
           background: `linear-gradient(135deg, ${color}, ${color}CC)`,
-          height: 5,
+          height: product.hot ? 7 : 5,
           borderRadius: "11px 11px 0 0",
         }} />
 
-        {/* HOTバッジ */}
-        {product.hot && (
-          <div className="absolute top-2 right-2 z-10 font-pixel text-[8px] px-1.5 py-0.5 rounded-md animate-hot pointer-events-none"
-            style={{ background: "#E8756D", color: "#fff" }}>
-            🔥 HOT
-          </div>
-        )}
-
-        {/* 発売週バッジ */}
-        {product.releaseWeek && (
-          <div className="absolute top-2 left-2 z-10 font-pixel text-[10px] px-1.5 py-0.5 rounded-md pointer-events-none"
-            style={{ background: "rgba(255,255,255,0.92)", border: "1px solid #E8DDD0", color: "#6B5B4E" }}>
-            📅 {product.releaseWeek}
-          </div>
-        )}
-
         {/* カプセル窓（商品画像） */}
-        <div className="mx-2 mt-1.5 pointer-events-none" style={{
+        <div className="mx-2 mt-1.5 pointer-events-none relative" style={{
           borderRadius: "8px",
           overflow: "hidden",
           border: "2px solid #E8DDD0",
@@ -85,6 +72,24 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
           )}
         </div>
 
+        {/* バッジ行（画像の外に配置） */}
+        {(product.hot || product.releaseWeek) && (
+          <div className="flex items-center gap-1 px-2 mt-1.5 pointer-events-none flex-wrap">
+            {product.hot && (
+              <span className="font-pixel text-[9px] px-1.5 py-0.5 rounded-md animate-hot"
+                style={{ background: "#E8756D", color: "#fff", letterSpacing: 0.5 }}>
+                🔥HOT
+              </span>
+            )}
+            {product.releaseWeek && (
+              <span className="font-pixel text-[9px] px-1.5 py-0.5 rounded-md"
+                style={{ background: "#FFF4E8", border: "1px solid #E8DDD0", color: "#6B5B4E" }}>
+                📅 {product.releaseWeek}
+              </span>
+            )}
+          </div>
+        )}
+
         {/* 商品名 */}
         <div className="px-2 pt-1.5 pointer-events-none" style={{ minHeight: 36 }}>
           <div className="font-pixel text-[10px] text-brand-text text-center leading-[1.7] line-clamp-2">
@@ -104,7 +109,22 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
               filter: "drop-shadow(0 1px 2px rgba(245,166,35,0.4))",
             }}>⭐</span>
           )}
-          <div style={{ position: "relative", width: 36, height: 36, display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{
+            position: "relative", width: 36, height: 36,
+            display: "flex", alignItems: "center", justifyContent: "center",
+            transform: pressed ? "rotate(45deg)" : "rotate(0deg)",
+            transition: "transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1)",
+          }}>
+            {/* 中央の丸（枠線なし） */}
+            <div style={{
+              width: 36,
+              height: 36,
+              borderRadius: "50%",
+              background: "#EAE0D5",
+              boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+              position: "absolute",
+              zIndex: 1,
+            }} />
             {/* 横棒（丸と同じ幅） */}
             <div style={{
               width: 36,
@@ -114,16 +134,6 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
               border: "1.5px solid #D4C9BC",
               position: "absolute",
               zIndex: 2,
-            }} />
-            {/* 中央の丸（枠線なし） */}
-            <div style={{
-              width: 36,
-              height: 36,
-              borderRadius: "50%",
-              background: "#EAE0D5",
-              boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-              position: "relative",
-              zIndex: 1,
             }} />
           </div>
         </div>

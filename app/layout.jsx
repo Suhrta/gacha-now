@@ -1,4 +1,5 @@
 import Script from "next/script";
+import products from "../data/products.json";
 import "./globals.css";
 
 export const metadata = {
@@ -23,21 +24,12 @@ export const metadata = {
     locale: "ja_JP",
     url: "https://gacha-now.net",
     siteName: "ガチャなう",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "ガチャなう - カプセルトイ新作情報サイト",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "ガチャなう | カプセルトイ新作情報まとめ",
     description:
       "毎日自動更新！300件以上のガチャガチャ新作情報をチェック",
-    images: ["/og-image.png"],
   },
   robots: { index: true, follow: true },
 };
@@ -78,6 +70,28 @@ export default function RootLayout({ children }) {
               description:
                 "毎日自動更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。",
               inLanguage: "ja",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: "https://gacha-now.net/?q={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              name: "カプセルトイ新作ラインナップ",
+              numberOfItems: products.length,
+              itemListElement: products.slice(0, 20).map((p, i) => ({
+                "@type": "ListItem",
+                position: i + 1,
+                url: `https://gacha-now.net/item/${p.id}`,
+                name: p.name,
+              })),
             }),
           }}
         />
