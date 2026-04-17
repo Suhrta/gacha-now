@@ -7,15 +7,54 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 async function loadFont(weight) {
-  const cssRes = await fetch(
-    `https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@${weight}&display=swap`,
-    { headers: { "User-Agent": "Mozilla/5.0" } }
+  try {
+    const cssRes = await fetch(
+      `https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@${weight}&display=swap`,
+      { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" } }
+    );
+    if (!cssRes.ok) {
+      console.warn(`[og] font css fetch failed: ${cssRes.status}`);
+      return null;
+    }
+    const css = await cssRes.text();
+    const urlMatch = css.match(/src:\s*url\((https:\/\/[^)]+)\)/);
+    if (!urlMatch) {
+      console.warn("[og] font url not found in css");
+      return null;
+    }
+    const fontRes = await fetch(urlMatch[1]);
+    if (!fontRes.ok) {
+      console.warn(`[og] font file fetch failed: ${fontRes.status}`);
+      return null;
+    }
+    return await fontRes.arrayBuffer();
+  } catch (err) {
+    console.warn("[og] loadFont error:", err?.message || err);
+    return null;
+  }
+}
+
+function Capsules() {
+  return (
+    <>
+      <div style={{ position: "absolute", top: 60, left: 80, width: 90, height: 108, display: "flex", flexDirection: "column", opacity: 0.55, transform: "rotate(-15deg)" }}>
+        <div style={{ width: 90, height: 50, borderRadius: "90px 90px 0 0", background: "#E8756D" }} />
+        <div style={{ width: 90, height: 58, borderRadius: "0 0 90px 90px", background: "#E8756D", opacity: 0.8 }} />
+      </div>
+      <div style={{ position: "absolute", top: 90, right: 110, width: 72, height: 86, display: "flex", flexDirection: "column", opacity: 0.55, transform: "rotate(20deg)" }}>
+        <div style={{ width: 72, height: 40, borderRadius: "72px 72px 0 0", background: "#F5B82E" }} />
+        <div style={{ width: 72, height: 46, borderRadius: "0 0 72px 72px", background: "#F5B82E", opacity: 0.8 }} />
+      </div>
+      <div style={{ position: "absolute", bottom: 80, left: 180, width: 60, height: 72, display: "flex", flexDirection: "column", opacity: 0.55, transform: "rotate(-25deg)" }}>
+        <div style={{ width: 60, height: 33, borderRadius: "60px 60px 0 0", background: "#6DB4C8" }} />
+        <div style={{ width: 60, height: 39, borderRadius: "0 0 60px 60px", background: "#6DB4C8", opacity: 0.8 }} />
+      </div>
+      <div style={{ position: "absolute", bottom: 100, right: 200, width: 78, height: 94, display: "flex", flexDirection: "column", opacity: 0.55, transform: "rotate(12deg)" }}>
+        <div style={{ width: 78, height: 43, borderRadius: "78px 78px 0 0", background: "#9BC471" }} />
+        <div style={{ width: 78, height: 51, borderRadius: "0 0 78px 78px", background: "#9BC471", opacity: 0.8 }} />
+      </div>
+    </>
   );
-  const css = await cssRes.text();
-  const urlMatch = css.match(/src: url\((https:\/\/[^)]+)\) format\('woff2'\)/);
-  if (!urlMatch) return null;
-  const fontRes = await fetch(urlMatch[1]);
-  return await fontRes.arrayBuffer();
 }
 
 export default async function OGImage() {
@@ -27,6 +66,22 @@ export default async function OGImage() {
   }).length;
 
   const [regular, bold] = await Promise.all([loadFont(500), loadFont(900)]);
+  const hasJapanese = !!(regular || bold);
+
+  const title = hasJapanese ? "ガチャなう" : "GACHA-NOW";
+  const subtitle = hasJapanese
+    ? "今日の新作ガチャ、ぜんぶチェック"
+    : "Japan's capsule-toy release tracker";
+  const monthBadge = hasJapanese
+    ? `🎪 ${currentMonth}月新作 ${thisMonthCount}件`
+    : `🎪 ${thisMonthCount} new this month`;
+  const totalBadge = hasJapanese
+    ? `📦 全${products.length}件掲載中`
+    : `📦 ${products.length} items total`;
+
+  const fonts = [];
+  if (regular) fonts.push({ name: "NotoJP", data: regular, weight: 500, style: "normal" });
+  if (bold) fonts.push({ name: "NotoJP", data: bold, weight: 900, style: "normal" });
 
   return new ImageResponse(
     (
@@ -40,41 +95,26 @@ export default async function OGImage() {
           justifyContent: "center",
           background: "linear-gradient(135deg, #FFFAF3 0%, #FFF4E8 60%, #FFE8D4 100%)",
           position: "relative",
-          fontFamily: "NotoJP",
+          fontFamily: hasJapanese ? "NotoJP" : "sans-serif",
         }}
       >
-        <div style={{ position: "absolute", top: 60, left: 80, width: 90, height: 108, display: "flex", flexDirection: "column", opacity: 0.55, transform: "rotate(-15deg)" }}>
-          <div style={{ width: 90, height: 50, borderRadius: "90px 90px 0 0", background: "#E8756D" }} />
-          <div style={{ width: 90, height: 58, borderRadius: "0 0 90px 90px", background: "#E8756D", opacity: 0.8 }} />
-        </div>
-        <div style={{ position: "absolute", top: 90, right: 110, width: 72, height: 86, display: "flex", flexDirection: "column", opacity: 0.55, transform: "rotate(20deg)" }}>
-          <div style={{ width: 72, height: 40, borderRadius: "72px 72px 0 0", background: "#F5B82E" }} />
-          <div style={{ width: 72, height: 46, borderRadius: "0 0 72px 72px", background: "#F5B82E", opacity: 0.8 }} />
-        </div>
-        <div style={{ position: "absolute", bottom: 80, left: 180, width: 60, height: 72, display: "flex", flexDirection: "column", opacity: 0.55, transform: "rotate(-25deg)" }}>
-          <div style={{ width: 60, height: 33, borderRadius: "60px 60px 0 0", background: "#6DB4C8" }} />
-          <div style={{ width: 60, height: 39, borderRadius: "0 0 60px 60px", background: "#6DB4C8", opacity: 0.8 }} />
-        </div>
-        <div style={{ position: "absolute", bottom: 100, right: 200, width: 78, height: 94, display: "flex", flexDirection: "column", opacity: 0.55, transform: "rotate(12deg)" }}>
-          <div style={{ width: 78, height: 43, borderRadius: "78px 78px 0 0", background: "#9BC471" }} />
-          <div style={{ width: 78, height: 51, borderRadius: "0 0 78px 78px", background: "#9BC471", opacity: 0.8 }} />
-        </div>
+        <Capsules />
 
         <div
           style={{
-            fontSize: 128,
+            fontSize: hasJapanese ? 128 : 112,
             fontWeight: 900,
             color: "#E8756D",
-            letterSpacing: 8,
+            letterSpacing: hasJapanese ? 8 : 4,
             textShadow: "0 6px 0 #C5534D",
             marginBottom: 20,
           }}
         >
-          ガチャなう
+          {title}
         </div>
 
-        <div style={{ fontSize: 32, color: "#6B5B4E", letterSpacing: 4, marginBottom: 40 }}>
-          今日の新作ガチャ、ぜんぶチェック
+        <div style={{ fontSize: hasJapanese ? 32 : 28, color: "#6B5B4E", letterSpacing: 4, marginBottom: 40 }}>
+          {subtitle}
         </div>
 
         <div style={{ display: "flex", gap: 20 }}>
@@ -84,7 +124,7 @@ export default async function OGImage() {
             background: "#FFFFFF", border: "3px solid #F5B82E", color: "#A07018",
             fontSize: 28, fontWeight: 700,
           }}>
-            🎪 {currentMonth}月新作 {thisMonthCount}件
+            {monthBadge}
           </div>
           <div style={{
             display: "flex", alignItems: "center", gap: 8,
@@ -92,7 +132,7 @@ export default async function OGImage() {
             background: "#FFFFFF", border: "3px solid #9BC471", color: "#3E6B2C",
             fontSize: 28, fontWeight: 700,
           }}>
-            📦 全{products.length}件掲載中
+            {totalBadge}
           </div>
         </div>
 
@@ -101,12 +141,6 @@ export default async function OGImage() {
         </div>
       </div>
     ),
-    {
-      ...size,
-      fonts: [
-        ...(regular ? [{ name: "NotoJP", data: regular, weight: 500, style: "normal" }] : []),
-        ...(bold ? [{ name: "NotoJP", data: bold, weight: 900, style: "normal" }] : []),
-      ],
-    }
+    { ...size, ...(fonts.length > 0 ? { fonts } : {}) }
   );
 }
