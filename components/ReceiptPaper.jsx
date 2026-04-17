@@ -283,7 +283,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
         {/* 説明文 */}
         {product.description && (
           <div className="mb-2" style={{ padding: "6px 10px", background: "#FFF4E8", borderRadius: 8, border: "1px solid #F0E6D6" }}>
-            <div className="font-pixel text-[9px]" style={{ color: "#6B5B4E", lineHeight: 1.7 }}>
+            <div className="font-pixel text-[10px]" style={{ color: "#6B5B4E", lineHeight: 1.7 }}>
               💬 {product.description}
             </div>
           </div>
@@ -297,7 +297,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
           { l: "発売", v: product.releaseWeek },
         ].map((r) => (
           <div key={r.l} className="flex justify-between py-1.5 border-b border-dotted border-cream-border">
-            <span className="font-pixel text-[9px] text-brand-sub">{r.l}</span>
+            <span className="font-pixel text-[10px] text-brand-sub">{r.l}</span>
             <span className="font-pixel text-[10px] text-brand-text">{r.v}</span>
           </div>
         ))}
@@ -324,7 +324,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
             }}>
             🏪 近くの店舗を探す
             {product.sourceUrl && product.sourceUrl.includes("takaratomy-arts.co.jp") && (
-              <div className="font-pixel text-[8px] mt-0.5 opacity-70">
+              <div className="font-pixel text-[10px] mt-0.5 opacity-70">
                 ※ページ内「この商品の取扱店舗」から検索
               </div>
             )}
@@ -333,7 +333,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
 
         {onClose && (
           <button onClick={close}
-            className="block w-full py-2 mt-1.5 bg-transparent border-2 border-cream-border rounded-lg font-pixel text-[9px] text-brand-sub cursor-pointer">
+            className="block w-full py-2 mt-1.5 bg-transparent border-2 border-cream-border rounded-lg font-pixel text-[10px] text-brand-sub cursor-pointer">
             ✕ 閉じる
           </button>
         )}

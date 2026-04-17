@@ -17,14 +17,14 @@ export default function BrandPage() {
   return (
     <>
       <header className="bg-cream border-b-2 border-cream-border px-4 pt-4 pb-3">
-        <Link href="/" className="font-pixel text-[7px] text-brand-sub no-underline hover:text-brand-accent transition-colors">
+        <Link href="/" className="font-pixel text-[10px] text-brand-sub no-underline hover:text-brand-accent transition-colors">
           ← トップにもどる
         </Link>
         <div className="text-center mt-2">
           <div className="font-pixel text-[12px] text-brand-accent animate-float">
             {brandName}
           </div>
-          <div className="font-pixel text-[6px] text-brand-sub mt-1">
+          <div className="font-pixel text-[10px] text-brand-sub mt-1">
             の ガチャ いちらん
           </div>
         </div>
@@ -34,7 +34,7 @@ export default function BrandPage() {
         <div className="absolute inset-0 pointer-events-none opacity-50"
           style={{ backgroundImage: "radial-gradient(circle, #F0E6D6 1px, transparent 1px)", backgroundSize: "20px 20px" }} />
 
-        <div className="font-pixel text-[7px] text-brand-sub mb-2.5 px-1 relative">
+        <div className="font-pixel text-[10px] text-brand-sub mb-2.5 px-1 relative">
           {brandProducts.length}けん
         </div>
 
@@ -45,7 +45,7 @@ export default function BrandPage() {
         </div>
 
         {brandProducts.length === 0 && (
-          <div className="text-center py-10 text-brand-sub font-pixel text-[8px] leading-[2.2]">
+          <div className="text-center py-10 text-brand-sub font-pixel text-[11px] leading-[2.2]">
             😢<br />この ブランドの<br />しんさくは まだ ないよ
           </div>
         )}

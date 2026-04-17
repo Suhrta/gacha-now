@@ -31,7 +31,7 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
       {/* 筐体ボディ */}
       <div className="relative overflow-hidden"
         style={{
-          background: "linear-gradient(180deg, #FFFFFF 0%, #F8F4EF 100%)",
+          background: `linear-gradient(180deg, #FFFFFF 0%, ${color}14 100%)`,
           borderRadius: "14px 14px 10px 10px",
           border: "2.5px solid #E8DDD0",
           boxShadow: pressed
@@ -57,7 +57,7 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
 
         {/* 発売週バッジ */}
         {product.releaseWeek && (
-          <div className="absolute top-2 left-2 z-10 font-pixel text-[9px] px-1.5 py-0.5 rounded-md pointer-events-none"
+          <div className="absolute top-2 left-2 z-10 font-pixel text-[10px] px-1.5 py-0.5 rounded-md pointer-events-none"
             style={{ background: "rgba(255,255,255,0.92)", border: "1px solid #E8DDD0", color: "#6B5B4E" }}>
             📅 {product.releaseWeek}
           </div>
@@ -77,7 +77,7 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
             <div className="w-full flex items-center justify-center" style={{ aspectRatio: "1/1", background: "#FFF8F0" }}>
               <div className="text-center px-2">
                 <span style={{ fontSize: 28 }}>🔒</span>
-                <div className="font-pixel text-[8px] text-brand-sub mt-1 leading-[1.6]">
+                <div className="font-pixel text-[10px] text-brand-sub mt-1 leading-[1.6]">
                   画像は公式サイトで<br/>ご確認ください
                 </div>
               </div>
@@ -153,21 +153,22 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
             }} />
           </div>
 
-          {/* 右：価格＋種類（パステルブルーバッジ） */}
+          {/* 右：価格＋種類（product.color連動） */}
           <div className="flex-1 flex justify-end">
             <div style={{
-              background: "#A8C8E8",
+              background: `linear-gradient(135deg, ${color}, ${color}DD)`,
               borderRadius: 6,
               padding: "4px 8px",
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
               gap: 1,
+              boxShadow: `0 2px 0 ${color}66`,
             }}>
               <span className="font-pixel font-bold" style={{ color: "#FFFFFF", fontSize: 14, lineHeight: 1 }}>
                 {product.price}円
               </span>
-              <span className="font-pixel" style={{ color: "rgba(255,255,255,0.85)", fontSize: 8, lineHeight: 1 }}>
+              <span className="font-pixel" style={{ color: "rgba(255,255,255,0.9)", fontSize: 9, lineHeight: 1 }}>
                 全{product.types}種
               </span>
             </div>

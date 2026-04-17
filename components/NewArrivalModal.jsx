@@ -135,7 +135,7 @@ export default function NewArrivalModal({ products, onOpenReceipt }) {
               color: "#9B8978",
               border: "2px solid #E8DDD0",
               borderRadius: 10,
-              fontSize: 9,
+              fontSize: 10,
               cursor: "pointer",
             }}
           >

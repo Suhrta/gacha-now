@@ -80,11 +80,11 @@ function sortProducts(list, tab) {
 }
 
 const STATUS_TABS = [
-  { key: "all", label: "すべて" },
-  { key: "available", label: "発売中" },
-  { key: "new", label: "新作" },
-  { key: "upcoming", label: "発売予定" },
-  { key: "favorites", label: "⭐ お気に入り" },
+  { key: "all", label: "すべて", color: "#E8756D" },
+  { key: "available", label: "🎯 発売中", color: "#9BC471" },
+  { key: "new", label: "🔥 新作", color: "#F5B82E" },
+  { key: "upcoming", label: "📅 発売予定", color: "#6DB4C8" },
+  { key: "favorites", label: "⭐ お気に入り", color: "#F5A623" },
 ];
 
 export default function HomePage() {
@@ -203,24 +203,21 @@ export default function HomePage() {
         {/* ステータスタブ + 検索ボタン */}
         <div className="flex items-center gap-1.5 mb-2 px-1 relative z-10">
           <div className="flex gap-1.5 overflow-x-auto flex-1">
-            {visibleTabs.map((tab) => (
-              <button key={tab.key} onClick={() => setStatusTab(tab.key)}
-                className="shrink-0 px-3 py-1.5 rounded-full font-pixel text-[10px] border-2 transition-colors duration-100 cursor-pointer"
-                style={{
-                  background: statusTab === tab.key
-                    ? (tab.key === "favorites" ? "#F5A623" : "#E8756D")
-                    : "#FFFFFF",
-                  borderColor: statusTab === tab.key
-                    ? (tab.key === "favorites" ? "#F5A623" : "#E8756D")
-                    : "#F0E6D6",
-                  color: statusTab === tab.key ? "#fff" : "#9B8978",
-                  boxShadow: statusTab === tab.key
-                    ? (tab.key === "favorites" ? "0 2px 8px #F5A62333" : "0 2px 8px #E8756D33")
-                    : "none",
-                }}>
-                {tab.label}
-              </button>
-            ))}
+            {visibleTabs.map((tab) => {
+              const active = statusTab === tab.key;
+              return (
+                <button key={tab.key} onClick={() => setStatusTab(tab.key)}
+                  className="shrink-0 px-3 py-1.5 rounded-full font-pixel text-[10px] border-2 transition-colors duration-100 cursor-pointer"
+                  style={{
+                    background: active ? tab.color : "#FFFFFF",
+                    borderColor: active ? tab.color : "#F0E6D6",
+                    color: active ? "#fff" : "#9B8978",
+                    boxShadow: active ? `0 2px 8px ${tab.color}44` : "none",
+                  }}>
+                  {tab.label}
+                </button>
+              );
+            })}
           </div>
           <button
             onClick={() => { setSearchOpen(!searchOpen); if (searchOpen) setSearchQuery(""); }}
@@ -286,7 +283,7 @@ export default function HomePage() {
               <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.15s", color: "#A8D8EA" }}>●</span>
               <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.3s", color: "#F9E4B7" }}>●</span>
             </div>
-            <div className="font-pixel text-[9px] text-brand-sub" style={{ animation: "pulse 1.5s ease-in-out infinite" }}>
+            <div className="font-pixel text-[10px] text-brand-sub" style={{ animation: "pulse 1.5s ease-in-out infinite" }}>
               Loading...
             </div>
           </div>

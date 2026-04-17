@@ -27,7 +27,7 @@ export default function ItemPage({ params }) {
     return (
       <div className="text-center py-20">
         <div className="font-pixel text-[10px] text-brand-sub mb-4">😢 みつかりません</div>
-        <Link href="/" className="font-pixel text-[8px] text-brand-accent no-underline">
+        <Link href="/" className="font-pixel text-[11px] text-brand-accent no-underline">
           ← トップにもどる
         </Link>
       </div>
@@ -37,7 +37,7 @@ export default function ItemPage({ params }) {
   return (
     <>
       <div className="px-4 pt-4">
-        <Link href="/" className="font-pixel text-[7px] text-brand-sub no-underline hover:text-brand-accent transition-colors">
+        <Link href="/" className="font-pixel text-[10px] text-brand-sub no-underline hover:text-brand-accent transition-colors">
           ← トップにもどる
         </Link>
       </div>

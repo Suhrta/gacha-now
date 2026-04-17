@@ -43,13 +43,13 @@ const sections = [
 export default function PrivacyPage() {
   return (
     <div className="px-4 py-6 max-w-[380px] mx-auto">
-      <Link href="/" className="font-pixel text-[7px] text-brand-sub no-underline hover:text-brand-accent transition-colors">
+      <Link href="/" className="font-pixel text-[10px] text-brand-sub no-underline hover:text-brand-accent transition-colors">
         ← トップにもどる
       </Link>
 
       <div className="mt-6 text-center">
         <div className="font-pixel text-[10px] text-brand-accent">📋 プライバシーポリシー</div>
-        <div className="font-pixel text-[5px] text-brand-sub mt-2">
+        <div className="font-pixel text-[10px] text-brand-sub mt-2">
           最終更新日: 2026年3月1日
         </div>
       </div>
@@ -58,10 +58,10 @@ export default function PrivacyPage() {
         {sections.map((s, i) => (
           <section key={i} className="bg-white rounded-xl border-2 border-cream-border p-4"
             style={{ boxShadow: "0 4px 16px rgba(74,55,40,0.06)" }}>
-            <h2 className="font-pixel text-[8px] text-brand-accent mb-2 pb-1.5 border-b-2 border-dashed border-cream-border">
+            <h2 className="font-pixel text-[11px] text-brand-accent mb-2 pb-1.5 border-b-2 border-dashed border-cream-border">
               {i + 1}. {s.title}
             </h2>
-            <p className="font-pixel text-[6px] text-brand-text leading-[2.4]">
+            <p className="font-pixel text-[10px] text-brand-text leading-[2.4]">
               {s.body}
             </p>
           </section>
@@ -69,7 +69,7 @@ export default function PrivacyPage() {
       </div>
 
       <div className="mt-8 text-center">
-        <Link href="/" className="inline-block px-6 py-3 bg-brand-accent text-white font-pixel text-[8px] rounded-lg no-underline"
+        <Link href="/" className="inline-block px-6 py-3 bg-brand-accent text-white font-pixel text-[11px] rounded-lg no-underline"
           style={{ boxShadow: "0 3px 0 #C5534D, 0 4px 12px #E8756D33" }}>
           ← トップにもどる
         </Link>
