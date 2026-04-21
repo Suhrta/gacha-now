@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-0a9149ce",
+    "name": "おおのたろう 赤ちゃんブーブコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "4月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/04/oonotaro_baby_car_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/04/oonotaro_baby_car_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/akachan_bu-bu/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-04-21T03:02:51.992Z",
+    "description": "人気イラストレーター・おおのたろうの可愛い赤ちゃんキャラがミニカーになって登場！全6種のキュートなブーブたちがあなたを癒してくれるよ。"
+  },
+  {
     "id": "le-sserafim-my-melody-kuromi--564381a1",
     "name": "LE SSERAFIM × MY MELODY & KUROMI リングノートマスコットチャーム",
     "brand": "その他",
