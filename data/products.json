@@ -1,5 +1,56 @@
 [
   {
+    "id": "virusweets-dx-2f1b8f3f",
+    "name": "VIRUSWEETS カプセルラバーマスコットDX",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "5月 第3週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250042_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769995361000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-04-24T03:03:11.448Z",
+    "description": "ウイルスをモチーフにしたキュートなラバーマスコットが登場！ちょっぴり不思議で愛らしいデザインが、見る人の心をほっこり癒してくれそうですね。"
+  },
+  {
+    "id": "fig--5821e82f",
+    "name": "肩ズンFig. ふしぎの海のナディア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y096945_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y096945_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y096945",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-04-24T03:03:11.448Z",
+    "description": "あの名作アニメのキャラたちが肩に乗ってくれる！ナディアやジャンが可愛くちょこんと座って、いつでも一緒に冒険気分を味わえちゃうよ。"
+  },
+  {
     "id": "gacha-7aa5190f",
     "name": "ぱくもぐ！サメジャー 〜宿敵！シャチがやってきた〜",
     "brand": "その他",
