@@ -1,5 +1,56 @@
 [
   {
+    "id": "-shfiguarts-miniature-collecti-7b6b6a1c",
+    "name": "ドラゴンボール S.H.Figuarts Miniature Collection2",
+    "brand": "ドラゴンボール",
+    "brandSlug": "dragonball",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "5月 第3週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250128_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769872808000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-04-27T03:03:04.837Z",
+    "description": "大人気のS.H.Figuartsがミニチュアサイズで登場！精密な造形はそのままに、デスクに飾りやすいコンパクトサイズが嬉しい第2弾です。"
+  },
+  {
+    "id": "gacha-2594f133",
+    "name": "ちいかわ ハートのラバーマスコット",
+    "brand": "ちいかわ",
+    "brandSlug": "chiikawa",
+    "price": 400,
+    "types": 8,
+    "releaseWeek": "5月 上旬",
+    "color": "#4FC3F7",
+    "hot": true,
+    "img": "https://kitan.jp/wp-content/uploads/2026/04/chiikawarubber_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/04/chiikawarubber_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/chiikawa_heart/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-04-27T03:03:04.839Z",
+    "description": "ちいかわたちがハート型のラバーマスコットになって登場！ぷにぷに触感がたまらなく可愛くて、バッグにつけて毎日一緒にお出かけしたくなっちゃう。"
+  },
+  {
     "id": "wani-ni-naru-wani-6b00cd32",
     "name": "Wani ni Naru Wani",
     "brand": "New",
