@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-5fd79864",
+    "name": "ちいかわ 雲の上でおやすみライト",
+    "brand": "ちいかわ",
+    "brandSlug": "chiikawa",
+    "price": 500,
+    "types": 3,
+    "releaseWeek": "発売中",
+    "color": "#4FC3F7",
+    "hot": true,
+    "img": "https://kitan.jp/wp-content/uploads/2026/04/CP_chiikawacloudlight_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/04/CP_chiikawacloudlight_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/chiikawa_light/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-04-28T03:02:53.197Z",
+    "description": "ふわふわの雲に包まれて眠る、ちいかわたちの癒し系ライト。ベッドサイドに置けば毎晩ほっこり気分で夢の世界へ。"
+  },
+  {
     "id": "oono-taro-baby-car-collection-3323fbd1",
     "name": "OONO TARO Baby Car Collection",
     "brand": "New",
