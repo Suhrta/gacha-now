@@ -1,5 +1,25 @@
 [
   {
+    "id": "oono-taro-baby-car-collection-3323fbd1",
+    "name": "OONO TARO Baby Car Collection",
+    "brand": "New",
+    "brandSlug": "new",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "未定",
+    "color": "#c2e599",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/04/oonotaro_baby_car_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/04/oonotaro_baby_car_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/akachan_bu-bu/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-04-28T00:03:11.916Z",
+    "description": "大野太郎氏デザインのベビーカーが500円ガチャで登場！リアルな造形とポップなカラーリングで、全6種コンプリートしたくなる可愛さです。"
+  },
+  {
     "id": "-vol11-5ac4309b",
     "name": "ポケットモンスター トートバッグ＆ポーチコレクションvol.11",
     "brand": "ポケモン",
