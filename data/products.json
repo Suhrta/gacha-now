@@ -1,5 +1,25 @@
 [
   {
+    "id": "chiikawa-cloud-sleep-light-6da78810",
+    "name": "Chiikawa Cloud Sleep Light",
+    "brand": "New",
+    "brandSlug": "new",
+    "price": 500,
+    "types": 3,
+    "releaseWeek": "未定",
+    "color": "#c2e599",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/04/CP_chiikawacloudlight_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/04/CP_chiikawacloudlight_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/chiikawa_light/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-05-04T06:14:07.997Z",
+    "description": "ちいかわたちが雲の上でふわふわお昼寝している姿がライトになった！やさしい光に癒されること間違いなしの全3種だよ。"
+  },
+  {
     "id": "chiikawa-heart-rubber-mascot-632d503d",
     "name": "Chiikawa Heart Rubber Mascot",
     "brand": "New",
