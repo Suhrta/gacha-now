@@ -245,12 +245,15 @@ export default function HomePage() {
             <div className="flex items-center gap-3 md:block">
               <div className="flex-1 min-w-0">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-brand-text leading-tight break-keep">
-                  今日の新作ガチャ、<br />
+                  新作ガチャ<br />
                   ぜんぶ<span className="text-brand-accent">チェック</span>
                 </h1>
                 <p className="mt-4 text-sm md:text-base text-brand-sub leading-relaxed">
-                  新作・発売中・発売予定のガチャ情報をまとめてチェック。<br />
-                  お気に入りを見つけて、ガチャライフをもっと楽しく！
+                  <span className="md:hidden">新作・発売中・発売予定の<br />ガチャをまとめてチェック！</span>
+                  <span className="hidden md:inline">
+                    新作・発売中・発売予定のガチャ情報をまとめてチェック。<br />
+                    お気に入りを見つけて、ガチャライフをもっと楽しく！
+                  </span>
                 </p>
               </div>
               {/* モバイル専用: タイトル横の小さい画像 */}
