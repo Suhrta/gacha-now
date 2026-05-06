@@ -241,25 +241,33 @@ export default function HomePage() {
             <span style={{ position: 'absolute', bottom: '40%', right: '5%', width: 5, height: 5, borderRadius: '50%', background: '#C7D2FE', display: 'inline-block' }} />
           </div>
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-6 md:gap-8 items-center">
-            {/* 左: コピー */}
-            <div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-brand-text leading-tight break-keep">
-                今日の新作ガチャ、<br />
-                ぜんぶ<span className="text-brand-accent">チェック</span>
-              </h1>
-              <p className="mt-4 text-sm md:text-base text-brand-sub leading-relaxed">
-                新作・発売中・発売予定のガチャ情報をまとめてチェック。<br />
-                お気に入りを見つけて、ガチャライフをもっと楽しく！
-              </p>
+            {/* 左: コピー + モバイル時の画像（横並び） */}
+            <div className="flex items-center gap-3 md:block">
+              <div className="flex-1 min-w-0">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-brand-text leading-tight break-keep">
+                  今日の新作ガチャ、<br />
+                  ぜんぶ<span className="text-brand-accent">チェック</span>
+                </h1>
+                <p className="mt-4 text-sm md:text-base text-brand-sub leading-relaxed">
+                  新作・発売中・発売予定のガチャ情報をまとめてチェック。<br />
+                  お気に入りを見つけて、ガチャライフをもっと楽しく！
+                </p>
+              </div>
+              {/* モバイル専用: タイトル横の小さい画像 */}
+              <img
+                src="/icons/hero-gacha-machine.png"
+                alt="ガチャマシン"
+                className="block md:hidden max-w-[100px] w-full animate-float shrink-0 pointer-events-none"
+              />
             </div>
 
             {/* 右: 画像（左、コンパクト）| 統計+検索（右スタック） */}
             <div className="flex flex-col sm:flex-row items-center gap-2 md:gap-2">
-              {/* ガチャマシン画像（md+ で少し左にシフト） */}
+              {/* ガチャマシン画像（md+ で少し左にシフト、モバイルは左カラム内に別途表示） */}
               <img
                 src="/icons/hero-gacha-machine.png"
                 alt="ガチャマシン"
-                className="max-w-[200px] md:max-w-none md:w-[220px] lg:w-[300px] xl:w-[340px] w-full animate-float shrink-0 pointer-events-none md:-ml-2 lg:-ml-6 xl:-ml-10"
+                className="hidden md:block md:max-w-none md:w-[220px] lg:w-[300px] xl:w-[340px] animate-float shrink-0 pointer-events-none md:-ml-2 lg:-ml-6 xl:-ml-10"
               />
               {/* 統計+検索 */}
               <div className="flex-1 w-full flex flex-col gap-4">
@@ -343,7 +351,7 @@ export default function HomePage() {
         </div>
 
         {/* ステータスタブ */}
-        <div className="flex gap-1 overflow-x-auto mt-6 mb-2 px-1 relative z-10 border-b border-cream-border">
+        <div className="flex flex-nowrap gap-1 overflow-x-auto overflow-y-hidden touch-pan-x mt-6 mb-2 px-1 relative z-10 border-b border-cream-border">
           {visibleTabs.map((tab) => {
             const active = statusTab === tab.key;
             return (
