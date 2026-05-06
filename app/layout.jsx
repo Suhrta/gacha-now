@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
           `}
         </Script>
       </head>
-      <body className="min-h-screen bg-cream font-pixel">
+      <body className="min-h-screen bg-cream font-sans">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -95,7 +95,7 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
-        <div className="max-w-[430px] mx-auto relative">
+        <div className="max-w-site mx-auto relative px-4 min-h-screen flex flex-col">
           {children}
         </div>
       </body>

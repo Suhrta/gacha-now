@@ -24,7 +24,7 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
       onMouseLeave={() => setPressed(false)}
       className="block"
       style={{
-        width: "calc(50% - 5px)", cursor: "pointer",
+        width: "100%", cursor: "pointer",
         opacity: vis ? 1 : 0,
         transform: vis ? (pressed ? "scale(0.97)" : "scale(1)") : "translateY(12px)",
         transition: pressed ? "transform 0.1s" : "all 0.4s cubic-bezier(0.34,1.56,0.64,1)",
@@ -36,7 +36,7 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
         style={{
           background: `linear-gradient(180deg, #FFFFFF 0%, ${color}14 100%)`,
           borderRadius: "14px 14px 10px 10px",
-          border: "2.5px solid #E8DDD0",
+          border: "2.5px solid #E5E7EB",
           boxShadow: pressed
             ? "0 2px 4px rgba(74,55,40,0.06)"
             : "0 4px 16px rgba(74,55,40,0.08)",
@@ -54,17 +54,17 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
         <div className="mx-2 mt-1.5 pointer-events-none relative" style={{
           borderRadius: "8px",
           overflow: "hidden",
-          border: "2px solid #E8DDD0",
-          background: "#FFF8F0",
+          border: "2px solid #E5E7EB",
+          background: "#F9FAFB",
         }}>
           {hasImage ? (
             <img src={product.img} alt={product.name} className="w-full block"
               style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />
           ) : (
-            <div className="w-full flex items-center justify-center" style={{ aspectRatio: "1/1", background: "#FFF8F0" }}>
+            <div className="w-full flex items-center justify-center" style={{ aspectRatio: "1/1", background: "#F9FAFB" }}>
               <div className="text-center px-2">
                 <span style={{ fontSize: 28 }}>🔒</span>
-                <div className="font-pixel text-[10px] text-brand-sub mt-1 leading-[1.6]">
+                <div className="font-sans text-xs text-brand-sub mt-1 leading-[1.6]">
                   画像は公式サイトで<br/>ご確認ください
                 </div>
               </div>
@@ -76,14 +76,14 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
         {(product.hot || product.releaseWeek) && (
           <div className="flex items-center gap-1 px-2 mt-1.5 pointer-events-none flex-wrap">
             {product.hot && (
-              <span className="font-pixel text-[9px] px-1.5 py-0.5 rounded-md animate-hot"
+              <span className="font-sans text-[10px] px-1.5 py-0.5 rounded-md animate-hot"
                 style={{ background: "#E8756D", color: "#fff", letterSpacing: 0.5 }}>
                 🔥HOT
               </span>
             )}
             {product.releaseWeek && (
-              <span className="font-pixel text-[9px] px-1.5 py-0.5 rounded-md"
-                style={{ background: "#FFF4E8", border: "1px solid #E8DDD0", color: "#6B5B4E" }}>
+              <span className="font-sans text-[10px] px-1.5 py-0.5 rounded-md"
+                style={{ background: "#FFF4E8", border: "1px solid #E5E7EB", color: "#6B5B4E" }}>
                 📅 {product.releaseWeek}
               </span>
             )}
@@ -92,7 +92,7 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
 
         {/* 商品名 */}
         <div className="px-2 pt-1.5 pointer-events-none" style={{ minHeight: 36 }}>
-          <div className="font-pixel text-[10px] text-brand-text text-center leading-[1.7] line-clamp-2">
+          <div className="font-sans text-xs text-brand-text text-center leading-[1.7] line-clamp-2">
             {product.name}
           </div>
         </div>
@@ -175,10 +175,10 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
               gap: 1,
               boxShadow: `0 2px 0 ${color}66`,
             }}>
-              <span className="font-pixel font-bold" style={{ color: "#FFFFFF", fontSize: 14, lineHeight: 1 }}>
+              <span className="font-sans font-bold" style={{ color: "#FFFFFF", fontSize: 14, lineHeight: 1 }}>
                 {product.price}円
               </span>
-              <span className="font-pixel" style={{ color: "rgba(255,255,255,0.9)", fontSize: 9, lineHeight: 1 }}>
+              <span className="font-sans" style={{ color: "rgba(255,255,255,0.9)", fontSize: 9, lineHeight: 1 }}>
                 全{product.types}種
               </span>
             </div>

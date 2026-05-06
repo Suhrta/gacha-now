@@ -5,11 +5,13 @@ import GachaMachine from "../components/GachaMachine";
 import ReceiptPaper from "../components/ReceiptPaper";
 import NewArrivalModal from "../components/NewArrivalModal";
 import Footer from "../components/Footer";
+import FilterTabs from "../components/FilterTabs";
 import products from "../data/products.json";
 
 const ITEMS_PER_PAGE = 20;
 
 const PRIORITY_BRANDS = ["サンリオ", "たまごっち", "ちいかわ", "ポケモン"];
+const FIXED_OTHER = "その他";
 
 function getSortedBrands() {
   const brandCounts = {};
@@ -18,13 +20,25 @@ function getSortedBrands() {
   });
   const allBrands = Array.from(new Set(products.map((p) => p.brand)));
   const priority = PRIORITY_BRANDS.filter((b) => allBrands.includes(b));
+  const hasOther = allBrands.includes(FIXED_OTHER);
   const rest = allBrands
-    .filter((b) => !PRIORITY_BRANDS.includes(b))
+    .filter((b) => !PRIORITY_BRANDS.includes(b) && b !== FIXED_OTHER)
     .sort((a, b) => (brandCounts[b] || 0) - (brandCounts[a] || 0));
-  return ["すべて", ...priority, ...rest];
+  return ["すべて", ...priority, ...(hasOther ? [FIXED_OTHER] : []), ...rest];
 }
 
 const BRANDS = getSortedBrands();
+
+function getLiveCounts() {
+  let available = 0;
+  let newCount = 0;
+  products.forEach((p) => {
+    const status = getStatus(p);
+    if (status === "available") available += 1;
+    if (status === "new") newCount += 1;
+  });
+  return { available, newCount, total: products.length };
+}
 
 function getStatus(product) {
   const rw = product.releaseWeek || "未定";
@@ -80,26 +94,29 @@ function sortProducts(list, tab) {
 }
 
 const STATUS_TABS = [
-  { key: "all", label: "すべて", color: "#E8756D" },
-  { key: "available", label: "🎯 発売中", color: "#9BC471" },
-  { key: "new", label: "🔥 新作", color: "#F5B82E" },
-  { key: "upcoming", label: "📅 発売予定", color: "#6DB4C8" },
-  { key: "favorites", label: "⭐ お気に入り", color: "#F5A623" },
+  { key: "all", label: "すべて" },
+  { key: "available", label: "発売中" },
+  { key: "new", label: "新作" },
+  { key: "upcoming", label: "発売予定 ⭐" },
+  { key: "favorites", label: "お気に入り" },
 ];
+
+const POPULAR_TAGS = ["ちいかわ", "ポケモン", "サンリオ", "たまごっち"];
 
 export default function HomePage() {
   const [brand, setBrand] = useState("すべて");
   const [selected, setSelected] = useState(null);
   const [statusTab, setStatusTab] = useState("all");
-  const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
   const [loading, setLoading] = useState(false);
   const [favorites, setFavorites] = useState(new Set());
-  const searchRef = useRef(null);
+  const heroSearchRef = useRef(null);
   const loaderRef = useRef(null);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
+
+  const { available, newCount, total } = getLiveCounts();
 
   // localStorage からお気に入り読み込み
   useEffect(() => {
@@ -123,9 +140,18 @@ export default function HomePage() {
     });
   }, []);
 
-  useEffect(() => {
-    if (searchOpen && searchRef.current) searchRef.current.focus();
-  }, [searchOpen]);
+  const handleHeaderSearchClick = useCallback(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    setTimeout(() => heroSearchRef.current?.focus(), 300);
+  }, []);
+
+  const handleHeaderFavoritesClick = useCallback(() => {
+    setStatusTab("favorites");
+  }, []);
+
+  const handleHeaderNewClick = useCallback(() => {
+    setStatusTab("new");
+  }, []);
 
   useEffect(() => {
     setVisibleCount(ITEMS_PER_PAGE);
@@ -189,82 +215,163 @@ export default function HomePage() {
 
   return (
     <>
-      <Header brands={BRANDS} selected={brand} onSelect={setBrand} />
+      <Header onSearchClick={handleHeaderSearchClick} onFavoritesClick={handleHeaderFavoritesClick} onNewClick={handleHeaderNewClick} />
 
       <main
-        className="px-2.5 pt-3 pb-20 relative"
-        style={{ minHeight: "calc(100vh - 160px)" }}
+        className="pt-6 pb-12 relative flex-1"
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
       >
-        <div className="absolute inset-0 pointer-events-none opacity-50"
-          style={{ backgroundImage: "radial-gradient(circle, #F0E6D6 1px, transparent 1px)", backgroundSize: "20px 20px" }} />
+        {/* ヒーローセクション */}
+        <section
+          className="rounded-3xl p-8 md:p-12 relative overflow-hidden"
+          style={{ background: "linear-gradient(135deg, #FFF9F5 0%, #FFFFFF 40%, #F8FAFE 100%)" }}
+        >
+          {/* 装飾スパークル */}
+          <div className="absolute inset-0 pointer-events-none overflow-hidden">
+            <span style={{ position: 'absolute', top: '8%',  left: '6%',  fontSize: 18, color: '#FBCFE8' }}>✦</span>
+            <span style={{ position: 'absolute', top: '18%', left: '52%', fontSize: 14, color: '#FDE68A' }}>✦</span>
+            <span style={{ position: 'absolute', top: '12%', right: '4%', fontSize: 22, color: '#FCD34D' }}>✨</span>
+            <span style={{ position: 'absolute', bottom: '20%', left: '8%', fontSize: 16, color: '#A7F3D0' }}>✦</span>
+            <span style={{ position: 'absolute', bottom: '12%', left: '40%', fontSize: 14, color: '#BFDBFE' }}>✦</span>
+            <span style={{ position: 'absolute', bottom: '30%', right: '10%', fontSize: 18, color: '#FBCFE8' }}>✨</span>
+            <span style={{ position: 'absolute', top: '30%', left: '15%', width: 6, height: 6, borderRadius: '50%', background: '#FECACA', display: 'inline-block' }} />
+            <span style={{ position: 'absolute', top: '40%', right: '20%', width: 5, height: 5, borderRadius: '50%', background: '#BFDBFE', display: 'inline-block' }} />
+            <span style={{ position: 'absolute', bottom: '15%', left: '60%', width: 7, height: 7, borderRadius: '50%', background: '#FDE68A', display: 'inline-block' }} />
+            <span style={{ position: 'absolute', bottom: '40%', right: '5%', width: 5, height: 5, borderRadius: '50%', background: '#C7D2FE', display: 'inline-block' }} />
+          </div>
+          <div className="relative z-10 grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-6 md:gap-8 items-center">
+            {/* 左: コピー */}
+            <div>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-brand-text leading-tight break-keep">
+                今日の新作ガチャ、<br />
+                ぜんぶ<span className="text-brand-accent">チェック</span>
+              </h1>
+              <p className="mt-4 text-sm md:text-base text-brand-sub leading-relaxed">
+                新作・発売中・発売予定のガチャ情報をまとめてチェック。<br />
+                お気に入りを見つけて、ガチャライフをもっと楽しく！
+              </p>
+            </div>
 
-        {/* ステータスタブ + 検索ボタン */}
-        <div className="flex items-center gap-1.5 mb-2 px-1 relative z-10">
-          <div className="flex gap-1.5 overflow-x-auto flex-1">
-            {visibleTabs.map((tab) => {
-              const active = statusTab === tab.key;
-              return (
-                <button key={tab.key} onClick={() => setStatusTab(tab.key)}
-                  className="shrink-0 px-3 py-1.5 rounded-full font-pixel text-[10px] border-2 transition-colors duration-100 cursor-pointer"
-                  style={{
-                    background: active ? tab.color : "#FFFFFF",
-                    borderColor: active ? tab.color : "#F0E6D6",
-                    color: active ? "#fff" : "#9B8978",
-                    boxShadow: active ? `0 2px 8px ${tab.color}44` : "none",
-                  }}>
-                  {tab.label}
+            {/* 右: 画像（左、コンパクト）| 統計+検索（右スタック） */}
+            <div className="flex flex-col sm:flex-row items-center gap-2 md:gap-2">
+              {/* ガチャマシン画像（md+ で少し左にシフト） */}
+              <img
+                src="/icons/hero-gacha-machine.png"
+                alt="ガチャマシン"
+                className="max-w-[200px] md:max-w-none md:w-[220px] lg:w-[300px] xl:w-[340px] w-full animate-float shrink-0 pointer-events-none md:-ml-2 lg:-ml-6 xl:-ml-10"
+              />
+              {/* 統計+検索 */}
+              <div className="flex-1 w-full flex flex-col gap-4">
+                <div className="grid grid-cols-3 gap-2 md:gap-3">
+                  <div className="bg-white rounded-xl shadow-sm p-3 lg:p-4 2xl:p-5 text-center">
+                    <img src="/icons/icon-stat-new.png" alt="" className="w-10 h-10 lg:w-12 lg:h-12 2xl:w-14 2xl:h-14 mx-auto" />
+                    <div className="text-xs lg:text-sm text-brand-sub mt-1 lg:mt-2">新作</div>
+                    <div className="leading-tight mt-0.5 lg:mt-1">
+                      <span className="text-2xl lg:text-3xl 2xl:text-4xl font-bold text-brand-accent">{newCount}</span>
+                      <span className="text-xs lg:text-sm text-brand-sub ml-0.5">件</span>
+                    </div>
+                  </div>
+                  <div className="bg-white rounded-xl shadow-sm p-3 lg:p-4 2xl:p-5 text-center">
+                    <img src="/icons/icon-stat-available.png" alt="" className="w-10 h-10 lg:w-12 lg:h-12 2xl:w-14 2xl:h-14 mx-auto" />
+                    <div className="text-xs lg:text-sm text-brand-sub mt-1 lg:mt-2">発売中</div>
+                    <div className="leading-tight mt-0.5 lg:mt-1">
+                      <span className="text-2xl lg:text-3xl 2xl:text-4xl font-bold text-brand-purple">{available}</span>
+                      <span className="text-xs lg:text-sm text-brand-sub ml-0.5">件</span>
+                    </div>
+                  </div>
+                  <div className="bg-white rounded-xl shadow-sm p-3 lg:p-4 2xl:p-5 text-center">
+                    <img src="/icons/icon-stat-total.png" alt="" className="w-10 h-10 lg:w-12 lg:h-12 2xl:w-14 2xl:h-14 mx-auto" />
+                    <div className="text-xs lg:text-sm text-brand-sub mt-1 lg:mt-2">全件数</div>
+                    <div className="leading-tight mt-0.5 lg:mt-1">
+                      <span className="text-2xl lg:text-3xl 2xl:text-4xl font-bold text-brand-pink">{total}</span>
+                      <span className="text-xs lg:text-sm text-brand-sub ml-0.5">件</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 検索バー（右スタック内、統計と同幅） */}
+                <div>
+            <div className="bg-white rounded-full border border-cream-border pl-3 pr-1 py-1 flex items-center gap-1.5 min-w-0">
+              <span className="text-brand-sub shrink-0">🔍</span>
+              <input
+                ref={heroSearchRef}
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="商品・キャラ名で検索"
+                className="flex-1 min-w-0 bg-transparent outline-none text-sm text-brand-text py-1.5"
+                style={{ border: "none" }}
+              />
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery("")}
+                  className="text-brand-sub cursor-pointer bg-transparent border-none px-1 shrink-0"
+                  aria-label="検索クリア"
+                >
+                  ✕
                 </button>
-              );
-            })}
-          </div>
-          <button
-            onClick={() => { setSearchOpen(!searchOpen); if (searchOpen) setSearchQuery(""); }}
-            className="shrink-0 w-9 h-9 rounded-full flex items-center justify-center cursor-pointer border-2 transition-colors duration-100"
-            style={{
-              background: searchOpen ? "#E8756D" : "#FFFFFF",
-              borderColor: searchOpen ? "#E8756D" : "#F0E6D6",
-              color: searchOpen ? "#fff" : "#9B8978",
-            }}>
-            <span className="text-[14px]">{searchOpen ? "✕" : "🔍"}</span>
-          </button>
-        </div>
-
-        {/* 検索窓（タブの下にスライド表示） */}
-        <div style={{
-          maxHeight: searchOpen ? "50px" : "0px",
-          opacity: searchOpen ? 1 : 0,
-          overflow: "hidden",
-          transition: "max-height 0.25s ease, opacity 0.2s ease",
-        }}>
-          <div className="flex items-center bg-white rounded-full border-2 border-cream-border px-3 py-2 mb-2 mx-1 relative z-10">
-            <span className="text-[12px] mr-2">🔍</span>
-            <input
-              ref={searchRef}
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="商品名で検索..."
-              className="flex-1 bg-transparent outline-none font-pixel text-[11px] text-brand-text"
-              style={{ border: "none" }}
-            />
-            {searchQuery && (
-              <button onClick={() => setSearchQuery("")}
-                className="text-[12px] text-brand-sub cursor-pointer bg-transparent border-none p-0 ml-1">
-                ✕
+              )}
+              <button
+                onClick={() => heroSearchRef.current?.blur()}
+                className="bg-brand-accent text-white rounded-full px-4 py-1.5 text-xs font-medium cursor-pointer border-none hover:opacity-90 transition-opacity shrink-0"
+              >
+                検索
               </button>
-            )}
+            </div>
+            <div className="mt-3 flex items-center gap-2 flex-wrap text-xs">
+              <span className="text-brand-sub">人気検索:</span>
+              {POPULAR_TAGS.map((tag) => (
+                <button
+                  key={tag}
+                  onClick={() => setSearchQuery(tag)}
+                  className="text-brand-accent hover:underline cursor-pointer bg-transparent border-none p-0"
+                >
+                  #{tag}
+                </button>
+              ))}
+            </div>
+              </div>
+              </div>
+            </div>
           </div>
+        </section>
+
+        {/* ブランドフィルター */}
+        <div className="mt-6 px-1">
+          <FilterTabs brands={BRANDS} selected={brand} onSelect={setBrand} />
         </div>
 
-        <div className="font-pixel text-[11px] text-brand-sub mb-2.5 px-1 relative">
+        {/* ステータスタブ */}
+        <div className="flex gap-1 overflow-x-auto mt-6 mb-2 px-1 relative z-10 border-b border-cream-border">
+          {visibleTabs.map((tab) => {
+            const active = statusTab === tab.key;
+            return (
+              <button
+                key={tab.key}
+                onClick={() => setStatusTab(tab.key)}
+                className={`shrink-0 px-4 py-3 text-sm whitespace-nowrap transition-colors cursor-pointer bg-transparent border-b-2 -mb-px ${
+                  active
+                    ? "text-brand-text font-bold border-brand-accent"
+                    : "text-brand-sub hover:text-brand-text border-transparent"
+                }`}
+              >
+                {tab.label}
+              </button>
+            );
+          })}
+        </div>
+
+        <h2 className="text-xl font-bold text-brand-text flex items-center gap-2 mt-4 mb-4 px-1">
+          <span>✨</span> 注目の新作
+        </h2>
+        <div className="font-sans text-xs text-brand-sub mb-2.5 px-1 relative">
           {statusTab === "favorites"
             ? `⭐ ${filtered.length}件のお気に入り`
             : `${filtered.length}件 ── タップで詳しく！`
           }
         </div>
-        <div key={statusTab + brand + searchQuery} className="flex flex-wrap gap-2.5 relative z-[1]">
+        <div key={statusTab + brand + searchQuery} className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3 relative z-[1]">
           {visible.map((p, i) => (
             <GachaMachine
               key={`${statusTab}-${p.id}`}
@@ -283,14 +390,14 @@ export default function HomePage() {
               <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.15s", color: "#A8D8EA" }}>●</span>
               <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.3s", color: "#F9E4B7" }}>●</span>
             </div>
-            <div className="font-pixel text-[10px] text-brand-sub" style={{ animation: "pulse 1.5s ease-in-out infinite" }}>
+            <div className="font-sans text-sm text-brand-sub" style={{ animation: "pulse 1.5s ease-in-out infinite" }}>
               Loading...
             </div>
           </div>
         )}
 
         {filtered.length === 0 && (
-          <div className="text-center py-10 text-brand-sub font-pixel text-[10px] leading-[2.2]">
+          <div className="text-center py-10 text-brand-sub font-sans text-sm leading-[2.2]">
             {statusTab === "favorites" ? (
               <>⭐<br />お気に入りはまだないよ<br />商品をタップして⭐で登録しよう！</>
             ) : searchQuery ? (
@@ -300,6 +407,7 @@ export default function HomePage() {
             )}
           </div>
         )}
+
       </main>
       <Footer />
       {selected && (

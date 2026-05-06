@@ -59,7 +59,7 @@ export default function NewArrivalModal({ products, onOpenReceipt }) {
 
         {/* ヘッダー */}
         <div style={{ textAlign: "center", padding: "14px 16px 8px" }}>
-          <div className="font-pixel" style={{ fontSize: 14, color: "#E8756D", letterSpacing: 2 }}>
+          <div className="font-sans" style={{ fontSize: 14, color: "#E8756D", letterSpacing: 2 }}>
             🎪 今日の注目ガチャ
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function NewArrivalModal({ products, onOpenReceipt }) {
 
         {/* 商品名 */}
         <div style={{ padding: "12px 20px 4px", textAlign: "center" }}>
-          <div className="font-pixel" style={{ fontSize: 13, color: "#4A3728", lineHeight: 1.6 }}>
+          <div className="font-sans" style={{ fontSize: 13, color: "#4A3728", lineHeight: 1.6 }}>
             {product.name}
           </div>
         </div>
@@ -87,7 +87,7 @@ export default function NewArrivalModal({ products, onOpenReceipt }) {
           <div style={{ margin: "4px 16px 0", padding: "10px 14px", background: "#FFF4E8", borderRadius: 10, border: "1.5px solid #F0E6D6" }}>
             <div style={{ display: "flex", alignItems: "flex-start", gap: 6 }}>
               <span style={{ fontSize: 14, flexShrink: 0 }}>💬</span>
-              <div className="font-pixel" style={{ fontSize: 10, color: "#6B5B4E", lineHeight: 1.7 }}>
+              <div className="font-sans" style={{ fontSize: 10, color: "#6B5B4E", lineHeight: 1.7 }}>
                 {product.description}
               </div>
             </div>
@@ -96,13 +96,13 @@ export default function NewArrivalModal({ products, onOpenReceipt }) {
 
         {/* 価格・種類 */}
         <div style={{ display: "flex", justifyContent: "center", gap: 12, padding: "10px 16px 4px" }}>
-          <span className="font-pixel" style={{ fontSize: 11, color: "#9B8978" }}>
+          <span className="font-sans" style={{ fontSize: 11, color: "#9B8978" }}>
             💰 {product.price}円
           </span>
-          <span className="font-pixel" style={{ fontSize: 11, color: "#9B8978" }}>
+          <span className="font-sans" style={{ fontSize: 11, color: "#9B8978" }}>
             🎯 全{product.types}種
           </span>
-          <span className="font-pixel" style={{ fontSize: 11, color: "#9B8978" }}>
+          <span className="font-sans" style={{ fontSize: 11, color: "#9B8978" }}>
             📅 {product.releaseWeek}
           </span>
         </div>
@@ -111,7 +111,7 @@ export default function NewArrivalModal({ products, onOpenReceipt }) {
         <div style={{ padding: "10px 16px 16px", display: "flex", flexDirection: "column", gap: 8 }}>
           <button
             onClick={() => { setShow(false); onOpenReceipt && onOpenReceipt(product); }}
-            className="font-pixel"
+            className="font-sans"
             style={{
               width: "100%",
               padding: "10px 0",
@@ -127,7 +127,7 @@ export default function NewArrivalModal({ products, onOpenReceipt }) {
           </button>
           <button
             onClick={() => setShow(false)}
-            className="font-pixel"
+            className="font-sans"
             style={{
               width: "100%",
               padding: "8px 0",

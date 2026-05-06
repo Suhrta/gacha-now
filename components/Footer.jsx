@@ -1,19 +1,21 @@
 "use client";
 import Link from "next/link";
+
 export default function Footer() {
   return (
-    <footer className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] z-40 text-center"
-      style={{ background: "linear-gradient(0deg, #FFF8F0 60%, transparent)", padding: "24px 12px 8px" }}>
-      <div className="flex justify-center gap-4 mb-1">
-        <Link href="/about" className="font-pixel text-[10px] text-brand-sub no-underline hover:text-brand-accent transition-colors">
-          About
-        </Link>
-        <Link href="/privacy" className="font-pixel text-[10px] text-brand-sub no-underline hover:text-brand-accent transition-colors">
+    <footer className="sticky bottom-0 z-40 bg-gray-50 border-t border-cream-border mt-8 py-3">
+      <div className="max-w-site mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between gap-2 md:gap-4">
+        <div className="flex items-center gap-2 flex-wrap">
+          <img src="/icons/logo-mark.png" alt="" className="w-5 h-5" />
+          <span className="text-sm font-bold text-brand-text">ガチャなう</span>
+          <span className="text-[10px] text-brand-sub">© 2026 Gacha Now · Amazonアソシエイト参加中</span>
+        </div>
+        <Link
+          href="/privacy"
+          className="text-xs text-brand-sub hover:text-brand-text transition-colors no-underline shrink-0"
+        >
           プライバシーポリシー
         </Link>
-      </div>
-      <div className="font-pixel text-[10px] text-brand-sub tracking-[0.5px]">
-        © 2026 ガチャなう　Amazonアソシエイト参加中
       </div>
     </footer>
   );

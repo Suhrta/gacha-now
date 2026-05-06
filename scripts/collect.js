@@ -265,8 +265,8 @@ async function collectFromTakaraTomy() {
     const weekSections = [];
     const currentYear = new Date().getFullYear();
 
-    // パターン1: *3*月*9*日週発売
-    const dateWeekRegex = /\*(\d+)\*月\*(\d+)\*日週発売/g;
+    // パターン1: *3*月*9*日週発売（旧）/ <em>3</em>月<em>9</em>日週発売（新）
+    const dateWeekRegex = /(?:\*|<em>)(\d+)(?:\*|<\/em>)月(?:\*|<em>)(\d+)(?:\*|<\/em>)日週発売/g;
     let secMatch;
     while ((secMatch = dateWeekRegex.exec(html)) !== null) {
       weekSections.push({
@@ -275,8 +275,8 @@ async function collectFromTakaraTomy() {
       });
     }
 
-    // パターン2: *3*月発売週未定
-    const undefinedRegex = /\*(\d+)\*月発売週未定/g;
+    // パターン2: *3*月発売週未定（旧）/ <em>3</em>月発売週未定（新）
+    const undefinedRegex = /(?:\*|<em>)(\d+)(?:\*|<\/em>)月発売週未定/g;
     while ((secMatch = undefinedRegex.exec(html)) !== null) {
       weekSections.push({
         pos: secMatch.index,

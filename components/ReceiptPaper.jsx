@@ -166,18 +166,18 @@ function ImageSwiper({ images, name }) {
         {validCount > 1 && (
           <>
             {current > 0 && (
-              <div className="absolute left-1.5 top-1/2 -translate-y-1/2 pointer-events-none font-pixel text-[16px]"
+              <div className="absolute left-1.5 top-1/2 -translate-y-1/2 pointer-events-none font-sans text-[16px]"
                 style={{ color: "rgba(0,0,0,0.2)" }}>‹</div>
             )}
             {current < validCount - 1 && (
-              <div className="absolute right-1.5 top-1/2 -translate-y-1/2 pointer-events-none font-pixel text-[16px]"
+              <div className="absolute right-1.5 top-1/2 -translate-y-1/2 pointer-events-none font-sans text-[16px]"
                 style={{ color: "rgba(0,0,0,0.2)" }}>›</div>
             )}
           </>
         )}
 
         {validCount > 1 && (
-          <div className="absolute top-2 right-2 font-pixel text-[8px] px-1.5 py-0.5 rounded-md pointer-events-none"
+          <div className="absolute top-2 right-2 font-sans text-[8px] px-1.5 py-0.5 rounded-md pointer-events-none"
             style={{ background: "rgba(0,0,0,0.45)", color: "#fff" }}>
             {current + 1}/{validCount}
           </div>
@@ -240,103 +240,110 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
     <>
       <div className="w-full shrink-0" style={{ height: 10, background: zigzagTop, backgroundSize: "16px 10px", backgroundRepeat: "repeat-x" }} />
 
-      <div className="w-full" style={{ background: "#FFFDF8", padding: "8px 16px 12px", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
-
-        {/* 画像ギャラリー */}
-        {images.length > 0 ? (
-          <ImageSwiper images={images} name={product.name} />
-        ) : (
-          <div className="rounded-lg overflow-hidden mb-2 border-2 border-cream-border">
-            <div className="w-full flex items-center justify-center" style={{ aspectRatio: "1/1", background: "#FFF8F0" }}>
-              <div className="text-center px-2">
-                <span style={{ fontSize: 36 }}>🔒</span>
-                <div className="font-pixel text-[10px] text-brand-sub mt-1.5 leading-[1.7]">
-                  画像は公式サイトで<br/>ご確認ください
+      <div className="w-full px-4 pt-2 pb-3 md:px-6 md:pt-4 md:pb-6" style={{ background: "#FFFDF8", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
+        <div className="md:flex md:flex-row md:gap-5">
+          {/* 左カラム: 画像 */}
+          <div className="md:w-[300px] lg:w-[360px] md:shrink-0">
+            {/* 画像ギャラリー */}
+            {images.length > 0 ? (
+              <ImageSwiper images={images} name={product.name} />
+            ) : (
+              <div className="rounded-lg overflow-hidden mb-2 border-2 border-cream-border">
+                <div className="w-full flex items-center justify-center" style={{ aspectRatio: "1/1", background: "#FFF8F0" }}>
+                  <div className="text-center px-2">
+                    <span style={{ fontSize: 36 }}>🔒</span>
+                    <div className="font-sans text-[10px] md:text-xs text-brand-sub mt-1.5 leading-[1.7]">
+                      画像は公式サイトで<br/>ご確認ください
+                    </div>
+                  </div>
                 </div>
               </div>
+            )}
+          </div>
+
+          {/* 右カラム: 情報 */}
+          <div className="md:flex-1 mt-2 md:mt-0">
+            {/* 商品名 */}
+            <div className="mb-1 md:mb-2">
+              <div className="font-sans text-[11px] md:text-base text-brand-text leading-[1.9] md:leading-snug md:font-bold">{product.name}</div>
             </div>
-          </div>
-        )}
 
-        {/* 商品名 */}
-        <div className="mb-1">
-          <div className="font-pixel text-[11px] text-brand-text leading-[1.9]">{product.name}</div>
-        </div>
+            {/* お気に入りボタン */}
+            {onToggleFavorite && (
+              <button
+                onClick={(e) => { e.stopPropagation(); onToggleFavorite(product.id); }}
+                className="flex items-center justify-center gap-1.5 w-full py-2 md:py-2.5 mb-2 rounded-lg border-2 cursor-pointer transition-all duration-150"
+                style={{
+                  background: isFavorite ? "#FFF8E7" : "#FFFFFF",
+                  borderColor: isFavorite ? "#F5A623" : "#E8DDD0",
+                }}
+              >
+                <span style={{ fontSize: 22, lineHeight: 1 }}>{isFavorite ? "⭐" : "☆"}</span>
+                <span className="font-sans text-[10px] md:text-sm" style={{ color: isFavorite ? "#D4910A" : "#9B8978" }}>
+                  {isFavorite ? "お気に入り登録済み" : "お気に入り登録"}
+                </span>
+              </button>
+            )}
 
-        {/* お気に入りボタン */}
-        {onToggleFavorite && (
-          <button
-            onClick={(e) => { e.stopPropagation(); onToggleFavorite(product.id); }}
-            className="flex items-center justify-center gap-1.5 w-full py-2 mb-2 rounded-lg border-2 cursor-pointer transition-all duration-150"
-            style={{
-              background: isFavorite ? "#FFF8E7" : "#FFFFFF",
-              borderColor: isFavorite ? "#F5A623" : "#E8DDD0",
-            }}
-          >
-            <span style={{ fontSize: 22, lineHeight: 1 }}>{isFavorite ? "⭐" : "☆"}</span>
-            <span className="font-pixel text-[10px]" style={{ color: isFavorite ? "#D4910A" : "#9B8978" }}>
-              {isFavorite ? "お気に入り登録済み" : "お気に入り登録"}
-            </span>
-          </button>
-        )}
-
-        {/* 説明文 */}
-        {product.description && (
-          <div className="mb-2" style={{ padding: "6px 10px", background: "#FFF4E8", borderRadius: 8, border: "1px solid #F0E6D6" }}>
-            <div className="font-pixel text-[10px]" style={{ color: "#6B5B4E", lineHeight: 1.7 }}>
-              💬 {product.description}
-            </div>
-          </div>
-        )}
-
-        <div className="border-b border-dashed border-cream-border mb-1.5" />
-
-        {[
-          { l: "価格", v: `¥${product.price}` },
-          { l: "種類", v: `全${product.types}種` },
-          { l: "発売", v: product.releaseWeek },
-        ].map((r) => (
-          <div key={r.l} className="flex justify-between py-1.5 border-b border-dotted border-cream-border">
-            <span className="font-pixel text-[10px] text-brand-sub">{r.l}</span>
-            <span className="font-pixel text-[10px] text-brand-text">{r.v}</span>
-          </div>
-        ))}
-
-        {/* 公式サイトボタン */}
-        <a href={product.sourceUrl || "#"} target="_blank" rel="noopener noreferrer"
-          className="block w-full py-2.5 mt-2 rounded-lg font-pixel text-[11px] text-white text-center no-underline"
-          style={{
-            background: `linear-gradient(135deg, ${product.color}, ${product.color}DD)`,
-            boxShadow: `0 3px 0 ${product.color}66, 0 4px 12px ${product.color}33`,
-          }}>
-          🔗 公式サイトで詳しく見る
-        </a>
-
-        {/* 店舗検索ボタン */}
-        {shopUrl && (
-          <a href={shopUrl} target="_blank" rel="noopener noreferrer"
-            className="block w-full py-2.5 mt-1.5 rounded-lg font-pixel text-[11px] text-center no-underline border-2"
-            style={{
-              background: "#FFFFFF",
-              borderColor: "#5B8C6D",
-              color: "#5B8C6D",
-              boxShadow: "0 2px 8px rgba(91,140,109,0.15)",
-            }}>
-            🏪 近くの店舗を探す
-            {product.sourceUrl && product.sourceUrl.includes("takaratomy-arts.co.jp") && (
-              <div className="font-pixel text-[10px] mt-0.5 opacity-70">
-                ※ページ内「この商品の取扱店舗」から検索
+            {/* 説明文 */}
+            {product.description && (
+              <div className="mb-2" style={{ padding: "6px 10px", background: "#FFF4E8", borderRadius: 8, border: "1px solid #F0E6D6" }}>
+                <div className="font-sans text-[10px] md:text-sm" style={{ color: "#6B5B4E", lineHeight: 1.7 }}>
+                  💬 {product.description}
+                </div>
               </div>
             )}
-          </a>
-        )}
 
-        {onClose && (
-          <button onClick={close}
-            className="block w-full py-2 mt-1.5 bg-transparent border-2 border-cream-border rounded-lg font-pixel text-[10px] text-brand-sub cursor-pointer">
-            ✕ 閉じる
-          </button>
-        )}
+            <div className="border-b border-dashed border-cream-border mb-1.5 md:mb-3" />
+
+            {[
+              { l: "価格", v: `¥${product.price}` },
+              { l: "種類", v: `全${product.types}種` },
+              { l: "発売", v: product.releaseWeek },
+            ].map((r) => (
+              <div key={r.l} className="flex justify-between py-1.5 md:py-2 border-b border-dotted border-cream-border">
+                <span className="font-sans text-[10px] md:text-xs text-brand-sub">{r.l}</span>
+                <span className="font-sans text-[10px] md:text-xs text-brand-text">{r.v}</span>
+              </div>
+            ))}
+
+            {/* 公式サイトボタン */}
+            <a href={product.sourceUrl || "#"} target="_blank" rel="noopener noreferrer"
+              className="block w-full py-2.5 md:py-3 mt-2 rounded-lg font-sans text-[11px] md:text-sm text-white text-center no-underline"
+              style={{
+                background: `linear-gradient(135deg, ${product.color}, ${product.color}DD)`,
+                boxShadow: `0 3px 0 ${product.color}66, 0 4px 12px ${product.color}33`,
+              }}>
+              🔗 公式サイトで詳しく見る
+            </a>
+
+            {/* 店舗検索ボタン */}
+            {shopUrl && (
+              <a href={shopUrl} target="_blank" rel="noopener noreferrer"
+                className="block w-full py-2.5 md:py-3 mt-1.5 rounded-lg font-sans text-[11px] md:text-sm text-center no-underline border-2"
+                style={{
+                  background: "#FFFFFF",
+                  borderColor: "#5B8C6D",
+                  color: "#5B8C6D",
+                  boxShadow: "0 2px 8px rgba(91,140,109,0.15)",
+                }}>
+                🏪 近くの店舗を探す
+                {product.sourceUrl && product.sourceUrl.includes("takaratomy-arts.co.jp") && (
+                  <div className="font-sans text-[10px] md:text-xs mt-0.5 opacity-70">
+                    ※ページ内「この商品の取扱店舗」から検索
+                  </div>
+                )}
+              </a>
+            )}
+
+            {onClose && (
+              <button onClick={close}
+                className="block w-full py-2 md:py-2.5 mt-1.5 bg-transparent border-2 border-cream-border rounded-lg font-sans text-[10px] md:text-xs text-brand-sub cursor-pointer">
+                ✕ 閉じる
+              </button>
+            )}
+          </div>
+        </div>
       </div>
 
       <div className="w-full shrink-0" style={{ height: 10, background: zigzagBottom, backgroundSize: "16px 10px", backgroundRepeat: "repeat-x" }} />
@@ -345,7 +352,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
 
   if (isPage) {
     return (
-      <div className="max-w-[340px] mx-auto py-6 px-4 flex flex-col items-center">
+      <div className="max-w-[340px] md:max-w-[640px] lg:max-w-[720px] mx-auto py-6 px-4 flex flex-col items-center">
         {receiptContent}
       </div>
     );
@@ -359,7 +366,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
         backdropFilter: "blur(4px)", WebkitBackdropFilter: "blur(4px)",
       }}>
       <div onClick={(e) => e.stopPropagation()}
-        className="max-w-[340px] w-[88%] flex flex-col max-h-[82vh]"
+        className="max-w-[340px] md:max-w-[640px] lg:max-w-[720px] w-[92%] flex flex-col max-h-[82vh] md:max-h-[88vh]"
         style={{
           transform: show ? "scaleY(1) scaleX(1)" : "scaleY(0) scaleX(0.8)",
           opacity: show ? 1 : 0, transformOrigin: "top center",
