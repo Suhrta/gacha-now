@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-504379eb",
+    "name": "ふっくら福福すずめ フロッキー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "5月 中旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/05/suzume_f_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/05/suzume_f_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/fkfksuzume_flocky/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-05-07T03:02:16.050Z",
+    "description": "ふわふわのフロッキー加工がたまらない！まん丸でぷっくりとした愛らしいすずめたちが、見ているだけで癒しをお届け。全5種コンプリートして福を呼び込もう！"
+  },
+  {
     "id": "le-sserafim-my-melody-kuromi--564381a1",
     "name": "LE SSERAFIM × MY MELODY & KUROMI リングノートマスコットチャーム",
     "brand": "その他",
@@ -1267,7 +1287,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769995149000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "懐かしのたまごっちがマウスシートになって登場！デスクワークも楽しくなる全4種のキュートなコレクションです。"
   },
   {
     "id": "virusweets-dx-2f1b8f3f",
@@ -1297,7 +1318,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769995361000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "ウイルスなのに可愛いって反則でしょ！300円で手に入るラバーマスコットは、バッグにつけたら注目度抜群間違いなし。"
   },
   {
     "id": "art-gp5-669d78cd",
@@ -1327,7 +1349,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769995583000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "平成ライダーたちがアート色紙になって登場！コレクションにもインテリアにもぴったりな、大人ファンも納得のクオリティです。"
   },
   {
     "id": "gacha-1397623b",
@@ -1357,7 +1380,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770027600000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "怖いけどなぜか愛らしい都市伝説キャラたちが、ラバーマスコットになって再登場！300円で手に入るちょっぴりホラーなコレクション第2弾です。"
   },
   {
     "id": "gacha-51acdeb8",
@@ -1387,7 +1411,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770055788000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "ケロロ軍曹のキャラクターたちがめじるしアクセサリーになって登場！カラーシャッフルエディションで、いつもとちょっと違う色合いが楽しめるのがポイントだよ。"
   },
   {
     "id": "-selected-edition-02-67f36704",
@@ -1417,7 +1442,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770056143000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "人気のいきもの大図鑑から厳選された4種類が登場！300円でリアルな生き物フィギュアがゲットできるチャンスです。"
   },
   {
     "id": "-exceed-model--78aae333",
@@ -1447,7 +1473,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770069297000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "名機ザクの頭部パーツが精密フィギュアで登場！リブート版として生まれ変わった全4種のザクヘッドは、細部まで再現されたディテールが圧巻です。"
   },
   {
     "id": "gacha-4fb9f75e",
@@ -1477,7 +1504,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118024275000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "あの「ぷよぷよ」がアクセサリーになって登場！全4種のめじるしデザインで、さりげなくゲーム愛をアピールできちゃいます。"
   },
   {
     "id": "gacha-30ff11a7",
@@ -1507,7 +1535,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769829321000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "あの愛らしいひつじのショーンが、なぜかお寿司になってスイング！シュールで可愛い組み合わせが癖になる、思わず全種類集めたくなるシリーズです。"
   },
   {
     "id": "-ver-5ec8f538",
@@ -1537,7 +1566,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769888786000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "ヒーローたちがキュートな動物に変身！いつものコスチュームとは一味違う、ほっこり癒し系のアクセサリーで推しキャラを身につけよう。"
   },
   {
     "id": "gacha-22bb9bfa",
@@ -1567,7 +1597,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769860607000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "あの名作アニメ「サマーウォーズ」のめじるしがアクセサリーになって登場！300円で手に入る全4種のラインナップで、劇中の世界観を身に着けて楽しもう。"
   },
   {
     "id": "pigeon--577ce7ac",
@@ -1597,7 +1628,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769890000000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "あの哺乳瓶でおなじみのピジョンが、まさかのカプセルトイに登場！懐かしのベビー用品がキュートなミニチャームになって、思わず集めたくなっちゃう♪"
   },
   {
     "id": "gacha-0299d230",
@@ -1627,7 +1659,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769776236000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "絵本の名作「はらぺこあおむし」が可愛いアクセサリーになって登場！300円で手に入る全4種の目印アイテムで、毎日をカラフルに彩ろう。"
   },
   {
     "id": "gacha-092ff208",
@@ -1657,7 +1690,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769832666000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "90年代の思い出が手のひらサイズで復活！懐かしのドット絵キャラたちが可愛いチャームになって登場です。"
   },
   {
     "id": "gacha-014489da",
@@ -1687,7 +1721,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769842337000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "大人気アニメと特撮ヒーローの夢のコラボが実現！しんちゃんが仮面ライダーに変身した姿は必見の可愛さです。"
   },
   {
     "id": "gacha-35a4b8b6",
@@ -1717,7 +1752,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769889431000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "みんな大好き「みいつけた！」のキャラクターが目印になるアクセサリー第2弾が登場。全4種類でお気に入りのキャラと一緒にお出かけしよう。"
   },
   {
     "id": "gacha-7ba98814",
@@ -1747,7 +1783,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769911187000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "アイカツファン必見！お気に入りキャラの目印になるアクセサリーが300円で登場。全4種コンプしてアイドル気分を満喫しちゃおう♪"
   },
   {
     "id": "nana-cd-05806125",
@@ -1777,7 +1814,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769829727000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "あの名作「NANA」がCD風チャームで登場！懐かしさと可愛さが詰まった全4種で、バッグにつけて作品愛をアピールしちゃおう。"
   },
   {
     "id": "gacha-2853e13e",
@@ -1807,7 +1845,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118186867000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-05-06T11:58:09.202Z"
+    "collectedAt": "2026-05-06T11:58:09.202Z",
+    "description": "あの懐かしいジュエルペットのパッケージがミニチュアチャームになって登場！コレクション魂がくすぐられる全4種で、バッグに付けて持ち歩こう。"
   },
   {
     "id": "tom-and-jerry--702dd083",
