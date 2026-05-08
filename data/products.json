@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-16d7223a",
+    "name": "サンリオキャラクターズ よつばのクローバーマスコット",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "5月",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098543_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098543_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098543",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-08T05:30:58.977Z",
+    "description": "幸運の象徴である四つ葉のクローバーと一緒に、サンリオの人気キャラクターたちがキュートなマスコットになって登場！300円で手に入る小さな幸せをゲットしよう。"
+  },
+  {
     "id": "gacha-1ff0e0c5",
     "name": "とっとこハム太郎 まちぼうけ",
     "brand": "まちぼうけ",
