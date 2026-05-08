@@ -1,5 +1,45 @@
 [
   {
+    "id": "fig--027bc377",
+    "name": "肩ズンFig. ざわざわ森のがんこちゃん",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "5月 11日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900440_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900440_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900440",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-08T09:02:13.984Z",
+    "description": "あのがんこちゃんが肩にちょこんと乗って、ずーんと癒してくれる！ざわざわ森の仲間たちと一緒に、日常にほっこりタイムをプラスしよう。"
+  },
+  {
+    "id": "gacha-401b2886",
+    "name": "カプセルプラレール　きかんしゃトーマス ソドー島の楽しい音楽フェスティバル編",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 300,
+    "types": 10,
+    "releaseWeek": "5月 18日週",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906046_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906046_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906046",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-08T09:02:13.985Z",
+    "description": "トーマスと仲間たちが奏でる音楽フェスティバルがプラレールで登場！全10種のラインナップでソドー島の賑やかなお祭りを再現しよう。"
+  },
+  {
     "id": "gacha-16d7223a",
     "name": "サンリオキャラクターズ よつばのクローバーマスコット",
     "brand": "サンリオ",
