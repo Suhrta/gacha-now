@@ -1,5 +1,56 @@
 [
   {
+    "id": "gacha-1ff0e0c5",
+    "name": "とっとこハム太郎 まちぼうけ",
+    "brand": "まちぼうけ",
+    "brandSlug": "machiboke",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "5月 第3週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000213901_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118209429000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-05-08T03:02:07.751Z",
+    "description": "懐かしのハム太郎がまちぼうけシリーズに登場！全4種のどの子に会えるかな？300円でハムちゃんたちとの再会を楽しもう。"
+  },
+  {
+    "id": "gacha-6003c66c",
+    "name": "紙袋に入った猫 フロッキー2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "5月 中旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/05/kami_f_2_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/05/kami_f_2_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/kamibukuroneko_flocky2/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-05-08T03:02:07.755Z",
+    "description": "紙袋からひょっこり顔を出す猫ちゃんたちがフロッキー仕様で再登場！触り心地抜群の毛並みと愛らしい表情にメロメロになっちゃうこと間違いなし。"
+  },
+  {
     "id": "gacha-504379eb",
     "name": "ふっくら福福すずめ フロッキー",
     "brand": "その他",
