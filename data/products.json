@@ -1,5 +1,36 @@
 [
   {
+    "id": "-ufo-07942f81",
+    "name": "たまごっち UFOスイング",
+    "brand": "たまごっち",
+    "brandSlug": "tamagotchi",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "5月 第5週",
+    "color": "#81D4FA",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000238507_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769898556000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-05-12T06:15:57.769Z",
+    "description": "懐かしのたまごっちがUFOになって帰ってきた！スイングチャームで毎日一緒にお出かけしよう。"
+  },
+  {
     "id": "-vol2-74806490",
     "name": "でふぉラバ! ディズニー ツイステッドワンダーランド ブルームバースデーvol.2",
     "brand": "ディズニー",
