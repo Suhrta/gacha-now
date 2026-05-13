@@ -1,5 +1,36 @@
 [
   {
+    "id": "gacha-43cbda1b",
+    "name": "ポケットモンスター ポケプラブリスターマスコットチャーム",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "5月 第5週",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248556_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198037000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-05-13T09:02:14.469Z",
+    "description": "ポケットサイズの可愛いポケモンたちがマスコットチャームになって登場！ブリスターパックに入った特別仕様で、バッグや鍵に付けて一緒にお出かけしよう。"
+  },
+  {
     "id": "gacha-78ae77fa",
     "name": "【フラットガシャポン】アイドリッシュセブン コレクタブルクリア色紙",
     "brand": "その他",
