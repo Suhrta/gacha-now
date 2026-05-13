@@ -1,5 +1,36 @@
 [
   {
+    "id": "gacha-5c40bc91",
+    "name": "パペットスンスン フェイスぬいぐるみ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "5月 第4週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250115_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769891861000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-05-13T03:02:21.284Z",
+    "description": "手にはめて遊べるパペット仕様のふわふわぬいぐるみが登場！スンスンとした愛らしい表情に癒されること間違いなしです。"
+  },
+  {
     "id": "cat-in-a-paper-bag-flocky-2-0dc056ab",
     "name": "Cat in a Paper Bag Flocky 2",
     "brand": "New",
