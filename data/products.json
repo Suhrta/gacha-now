@@ -1,5 +1,45 @@
 [
   {
+    "id": "mill-and-moi--01866dc1",
+    "name": "mill and moi フロッキーマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "5月 18日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900327_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900327_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900327",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-14T23:46:24.219Z",
+    "description": "ふわふわのフロッキー加工が可愛すぎる「mill and moi」のマスコットが登場！触り心地抜群の全5種で、つい集めたくなっちゃう癒し系アイテムです。"
+  },
+  {
+    "id": "gacha-7d1760f3",
+    "name": "パンダの穴 フルーツゾンビ メタル",
+    "brand": "パンダの穴",
+    "brandSlug": "pandanoana",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "5月 25日週",
+    "color": "#90A4AE",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906459_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906459_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906459",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-14T23:46:24.219Z",
+    "description": "可愛いフルーツがゾンビ化してメタル仕様で登場！パンダの穴らしいシュールな世界観が光る、クセになる魅力の全6種コレクションです。"
+  },
+  {
     "id": "gacha-551fdbb5",
     "name": "ヤシノミ洗剤 めじるしガチャマスコット",
     "brand": "その他",
