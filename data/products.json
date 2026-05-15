@@ -1,5 +1,56 @@
 [
   {
+    "id": "gacha-66e1a53f",
+    "name": "“ディズニーキャラクター” たべすぎまして…",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "5月 第5週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250083_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118203724000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-05-15T03:03:07.311Z",
+    "description": "ディズニーの人気キャラたちが食べ過ぎてまんまるに！思わず「あるある」と笑ってしまう、愛らしすぎる姿にキュン死必至です。"
+  },
+  {
+    "id": "aip-vol5-1561ed14",
+    "name": "AIP ムーミン Vol.5",
+    "brand": "ムーミン",
+    "brandSlug": "moomin",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "5月 下旬",
+    "color": "#b899e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/05/AIP_Moomin5_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/05/AIP_Moomin5_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/aip_moomin5/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-05-15T03:03:07.314Z",
+    "description": "500円でムーミンの世界観を手のひらに！Vol.5では新たな4種類のキャラクターたちが登場し、コレクション欲をくすぐる仕上がりになってるよ。"
+  },
+  {
     "id": "mill-and-moi--01866dc1",
     "name": "mill and moi フロッキーマスコット",
     "brand": "その他",
