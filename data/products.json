@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-1e2b34b3",
+    "name": "サンリオキャラクターズ ビビッドネオンピンバッジ",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 8,
+    "releaseWeek": "5月 25日週",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903595_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903595_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903595",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-18T06:57:54.380Z",
+    "description": "サンリオの人気キャラたちがビビッドなネオンカラーで登場！蛍光色が映える個性的なピンバッジで、バッグや服をポップに彩ろう。"
+  },
+  {
     "id": "le-sserafim-my-melodykuromi-w-69f5836a",
     "name": "LE SSERAFIM × MY MELODY&KUROMI Wアクリルチャーム",
     "brand": "その他",
