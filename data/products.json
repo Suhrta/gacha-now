@@ -1,5 +1,45 @@
 [
   {
+    "id": "-funny-scene--1c20d6d7",
+    "name": "スポンジ・ボブ Funny Scene コレクション",
+    "brand": "スポンジ・ボブ",
+    "brandSlug": "spongebob",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#99e5e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099090_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099090_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099090",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-19T11:01:12.082Z",
+    "description": "あの愛されキャラ・スポンジ・ボブのおもしろシーンがカプセルトイで登場！全5種のコミカルなポーズで、デスクや棚がパイナップルハウス並みに楽しい空間になっちゃいます。"
+  },
+  {
+    "id": "care-bears-illit--33a04005",
+    "name": "Care Bears™ × ILLIT もふもふポーシェット",
+    "brand": "ケアベア",
+    "brandSlug": "carebears",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#99e5a6",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904158_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904158_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904158",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-19T11:01:12.083Z",
+    "description": "大人気K-POPグループILLITとケアベアがコラボした、触り心地抜群のもふもふポーシェット！500円で手に入る癒しのアイテムは全5種類。"
+  },
+  {
     "id": "fig-vol2-59721b02",
     "name": "肩ズンFig. ジョジョの奇妙な冒険 黄金の風vol.2",
     "brand": "その他",
