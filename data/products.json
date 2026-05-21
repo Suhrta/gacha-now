@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-52011f15",
+    "name": "夏目友人帳 めじるしガチャマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "5月 26日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y094514_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y094514_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y094514",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-21T09:03:07.682Z",
+    "description": "夏目友人帳の愛らしいキャラクターたちがめじるしになって登場！ニャンコ先生をはじめとした人気キャラが全5種で、どの子が当たるかドキドキの300円ガチャです。"
+  },
+  {
     "id": "gacha-23edb47f",
     "name": "蕾狐 -つぼみっこ- ぬいぐるみマスコット",
     "brand": "その他",
