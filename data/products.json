@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-05c3f0b7",
+    "name": "パンダの穴 ヘビーメタルオーシャンズ",
+    "brand": "パンダの穴",
+    "brandSlug": "pandanoana",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "5月 25日週",
+    "color": "#90A4AE",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y092909_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y092909_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y092909",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-21T00:02:13.093Z",
+    "description": "海の生き物たちがヘビメタ仕様で大暴れ！パンダの穴らしいシュールで攻めたデザインが話題必至の全4種だよ。"
+  },
+  {
     "id": "gacha-2296b1c5",
     "name": "つながリングチャーム うんたねこ",
     "brand": "その他",
