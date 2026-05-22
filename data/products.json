@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-3c1d787e",
+    "name": "ダンダダン そふびこれくしょん",
+    "brand": "ダンダダン",
+    "brandSlug": "dandadan",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "5月 25日週",
+    "color": "#b8e599",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099083_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099083_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099083",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-22T23:58:51.141Z",
+    "description": "アニメで話題沸騰中の『ダンダダン』キャラたちが、手のひらサイズのそふび人形になって登場！全5種類コンプリートして、あの熱いバトルシーンを再現しちゃおう。"
+  },
+  {
     "id": "gacha-7de5553c",
     "name": "超かぐや姫！ きらめきシャイニー缶バッジ",
     "brand": "その他",
