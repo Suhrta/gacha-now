@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-7de5553c",
+    "name": "超かぐや姫！ きらめきシャイニー缶バッジ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 10,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906374_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906374_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906374",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-22T10:49:36.508Z",
+    "description": "竹の中から生まれたお姫様が、キラキラ輝く缶バッジになって登場！全10種のシャイニーな仕上がりで、バッグや服につけて和風美人を楽しもう。"
+  },
+  {
     "id": "gacha-52011f15",
     "name": "夏目友人帳 めじるしガチャマスコット",
     "brand": "その他",
