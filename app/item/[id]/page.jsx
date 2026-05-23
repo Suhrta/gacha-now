@@ -10,11 +10,11 @@ export function generateMetadata({ params }) {
   const product = products.find((p) => p.id === params.id);
   if (!product) return { title: "商品が見つかりません | ガチャなう" };
   return {
-    title: `${product.name} | ガチャなう`,
-    description: `${product.name}（¥${product.price}・全${product.types}種）の新作ガチャ情報。${product.releaseWeek}発売予定。`,
+    title: `${product.name}｜¥${product.price}・全${product.types}種【${product.releaseWeek}発売】| ガチャなう`,
+    description: `${product.name}（${product.brand}）のカプセルトイ情報。¥${product.price}・全${product.types}種。${product.releaseWeek}発売予定。ラインナップ・取扱店舗をチェック。`,
     openGraph: {
-      title: `${product.name} | ガチャなう`,
-      description: `¥${product.price}・全${product.types}種 ── ${product.releaseWeek}発売`,
+      title: `${product.name}｜¥${product.price}・全${product.types}種【${product.releaseWeek}】`,
+      description: `${product.brand}のカプセルトイ「${product.name}」¥${product.price}・全${product.types}種 ── ${product.releaseWeek}発売`,
       images: [product.img],
     },
   };
