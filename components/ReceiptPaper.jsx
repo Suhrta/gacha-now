@@ -317,6 +317,19 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
               🔗 公式サイトで詳しく見る
             </a>
 
+            {/* 楽天で探すボタン */}
+            <a href={`https://search.rakuten.co.jp/search/mall/${encodeURIComponent(product.name)}/?v=2&s=11`}
+              target="_blank" rel="noopener noreferrer sponsored"
+              className="block w-full py-2.5 md:py-3 mt-1.5 rounded-lg font-sans text-[11px] md:text-sm text-center no-underline border-2"
+              style={{
+                background: "#FFFFFF",
+                borderColor: "#BF0000",
+                color: "#BF0000",
+                boxShadow: "0 2px 8px rgba(191,0,0,0.1)",
+              }}>
+              🛒 楽天市場で探す
+            </a>
+
             {/* 店舗検索ボタン */}
             {shopUrl && (
               <a href={shopUrl} target="_blank" rel="noopener noreferrer"
