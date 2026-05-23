@@ -318,8 +318,8 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
             </a>
 
             {/* 楽天で探すボタン */}
-            <a href={`https://search.rakuten.co.jp/search/mall/${encodeURIComponent(product.name)}/?v=2&s=11`}
-              target="_blank" rel="noopener noreferrer sponsored"
+            <a href={`https://hb.afl.rakuten.co.jp/ichiba/5419daa8.c81c3582.5419daa9.cef22a14/?pc=${encodeURIComponent(`https://search.rakuten.co.jp/search/mall/${product.name}/`)}&link_type=text`}
+              target="_blank" rel="nofollow sponsored noopener"
               className="block w-full py-2.5 md:py-3 mt-1.5 rounded-lg font-sans text-[11px] md:text-sm text-center no-underline border-2"
               style={{
                 background: "#FFFFFF",
