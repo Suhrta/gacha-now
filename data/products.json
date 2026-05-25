@@ -1,5 +1,65 @@
 [
   {
+    "id": "ex-complete-edition-39c1adeb",
+    "name": "ホビーガチャEX スター・ウォーズ ジェダイ・インターセプター -COMPLETE EDITION-",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "5月 26日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903625_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903625_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903625",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-25T07:16:30.495Z",
+    "description": "500円でスター・ウォーズの名機ジェダイ・インターセプターが手に入るなんて最高すぎる！全4種コンプリートして、銀河系最強の戦闘機コレクションを完成させよう。"
+  },
+  {
+    "id": "gacha-2b64f345",
+    "name": "コスチュームエイリアン フィギュアマスコット2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 8,
+    "releaseWeek": "5月 26日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906497_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906497_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906497",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-25T07:16:30.495Z",
+    "description": "謎の宇宙人たちが今度はコスプレで登場！8種類の個性豊かな衣装を身にまとったエイリアンたちが、あなたのデスクを侵略しちゃうかも。"
+  },
+  {
+    "id": "gacha-457e66a6",
+    "name": "パンクドランカーズ あいつ縁起物",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/05/PKDS_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/05/PKDS_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/aitsu_engimono/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-05-25T07:16:30.496Z",
+    "description": "パンクなテイストで縁起物をアレンジした斬新なガチャが登場！500円で手に入る全5種の個性的なラッキーアイテムで、運気もスタイルもアップしちゃおう。"
+  },
+  {
     "id": "gacha-3c1d787e",
     "name": "ダンダダン そふびこれくしょん",
     "brand": "ダンダダン",
