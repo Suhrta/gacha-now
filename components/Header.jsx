@@ -36,6 +36,12 @@ export default function Header({ onSearchClick, onFavoritesClick, onNewClick }) 
             新作
           </button>
           <Link
+            href="/blog"
+            className="text-sm text-brand-sub hover:text-brand-text transition-colors no-underline"
+          >
+            ブログ
+          </Link>
+          <Link
             href="/about"
             className="text-sm text-brand-sub hover:text-brand-text transition-colors no-underline"
           >
@@ -79,6 +85,13 @@ export default function Header({ onSearchClick, onFavoritesClick, onNewClick }) 
             >
               新作
             </button>
+            <Link
+              href="/blog"
+              className="text-sm text-brand-text no-underline py-1"
+              onClick={() => setDrawerOpen(false)}
+            >
+              ブログ
+            </Link>
             <Link
               href="/about"
               className="text-sm text-brand-text no-underline py-1"
