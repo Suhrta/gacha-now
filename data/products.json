@@ -1,5 +1,56 @@
 [
   {
+    "id": "gacha-241758dc",
+    "name": "ドラゴンクエスト まちぼうけ～しかし たすけは こなかった～",
+    "brand": "まちぼうけ",
+    "brandSlug": "machiboke",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "6月 第3週",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769979552000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-05-27T07:05:48.324Z",
+    "description": "勇者パーティが助けを待つも誰も来ない切ないシチュエーションを再現！ドラクエファンなら思わずクスッと笑ってしまう、あるあるネタが立体化されました。"
+  },
+  {
+    "id": "gacha-6eea3c1f",
+    "name": "かわいい かわいい ぬいぐるみ 和菓子",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/05/KKN_wagashi_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/05/KKN_wagashi_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/kkn_wagashi/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-05-27T07:05:48.325Z",
+    "description": "ふわふわの和菓子がぬいぐるみになって登場！見た目も可愛くて思わず食べたくなっちゃう、癒し系の全5種コレクション。"
+  },
+  {
     "id": "catbakes9456--59e298d5",
     "name": "CAT&BAKES9456 キャットベーカリーフィギュア",
     "brand": "その他",
