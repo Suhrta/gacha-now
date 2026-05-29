@@ -1,5 +1,36 @@
 [
   {
+    "id": "nizoo--4100db88",
+    "name": "NIZOO つまんでつなげてますこっと でらっくす！",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "6月 第4週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251591_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198594000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-05-29T11:27:22.567Z",
+    "description": "NIZOOメンバーをつまんで飾れる可愛いマスコット！デラックス版で登場した全4種を集めて、お気に入りの場所に飾っちゃおう。"
+  },
+  {
     "id": "gacha-241758dc",
     "name": "ドラゴンクエスト まちぼうけ～しかし たすけは こなかった～",
     "brand": "まちぼうけ",
