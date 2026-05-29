@@ -66,6 +66,7 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "ガチャなう",
+              alternateName: ["ガチャなう｜カプセルトイ・ガチャガチャ新作情報", "gacha-now", "gacha now"],
               url: "https://gacha-now.net",
               description:
                 "毎日自動更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。",
