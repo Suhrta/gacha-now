@@ -1,5 +1,245 @@
 [
   {
+    "id": "kiyata--326b396d",
+    "name": "KIYATA 木工アート ミニチュアコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "6月 8日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y088797_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y088797_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y088797",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-31T23:56:41.352Z",
+    "description": "本格的な木工技術で作られたミニチュアアートが400円で楽しめちゃう！手のひらサイズなのに職人技が光る全4種のコレクションです。"
+  },
+  {
+    "id": "gacha-1e519f2e",
+    "name": "夏目友人帳 すってんころりんフィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "6月 8日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y094545_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y094545_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y094545",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-31T23:56:41.352Z",
+    "description": "あの人気アニメのキャラたちが転んじゃった瞬間をフィギュア化！ころんと可愛い姿に思わずほっこりしちゃう癒し系アイテムです。"
+  },
+  {
+    "id": "gacha-37c9e925",
+    "name": "ポケピース ダイナーマスコットキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "6月 8日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902048_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902048_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902048",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-31T23:56:41.352Z",
+    "description": "懐かしのダイナーの雰囲気を手軽に持ち歩ける、ポップなマスコットキーホルダーが登場。300円でアメリカンな気分を味わっちゃおう！"
+  },
+  {
+    "id": "gacha-0eaf1ca8",
+    "name": "トイ・ストーリー また、アンディが来た!",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "6月 8日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903144_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903144_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903144",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-31T23:56:41.352Z",
+    "description": "アンディが来た瞬間のおもちゃたちの慌てふためく姿が可愛すぎる！あの名シーンがそのままガチャフィギュアになって登場です。"
+  },
+  {
+    "id": "-dot-style--67decaf9",
+    "name": "星のカービィ DOT STYLE キーホルダー",
+    "brand": "カービィ",
+    "brandSlug": "kirby",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "6月",
+    "color": "#F48FB1",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099472_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099472_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099472",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-31T23:56:41.352Z",
+    "description": "懐かしのドット絵風カービィがキーホルダーに登場！レトロゲーム好きにはたまらない可愛さで、バッグに付けたくなること間違いなし。"
+  },
+  {
+    "id": "gacha-2ffefd55",
+    "name": "ポケモン まんぷくぱくぱくマスコット4",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "6月",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099588_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099588_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099588",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-31T23:56:41.352Z",
+    "description": "ポケモンたちがお腹いっぱい食べ物を頬張る姿が可愛すぎる！まんまるお腹でぱくぱくする表情に癒されること間違いなしです。"
+  },
+  {
+    "id": "-special-5548a0b8",
+    "name": "ポケモン ぺたんこマスコット カントーSPECIAL",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "6月",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901188_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901188_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901188",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-31T23:56:41.352Z",
+    "description": "カントー地方の人気ポケモンたちが、持ち運びやすいぺたんこサイズで登場！300円で手に入る可愛さは、ポケモンファンなら絶対ゲットしたい一品です。"
+  },
+  {
+    "id": "gacha-78a1ccc9",
+    "name": "ポケモン ぎらぎらサンシャイン5",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "6月",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903311_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903311_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903311",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-31T23:56:41.352Z",
+    "description": "太陽のように輝くポケモンたちが勢ぞろい！キラキラ加工が施されたフィギュアは、見ているだけで元気が出ちゃう仕上がりです。"
+  },
+  {
+    "id": "gacha-6844085f",
+    "name": "トイ・ストーリー５ もふもふポーシェット",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "6月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903700_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903700_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903700",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-31T23:56:41.352Z",
+    "description": "トイ・ストーリー5の人気キャラがもふもふポーシェットになって登場！400円で手に入る可愛さに、きっと何度も回したくなっちゃう。"
+  },
+  {
+    "id": "gacha-65f0e1e5",
+    "name": "トイ・ストーリー５ ミニカプセルマシン",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "6月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903861_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903861_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903861",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-31T23:56:41.352Z",
+    "description": "トイ・ストーリー5の世界がミニカプセルマシンで登場！全6種のコレクションで、おもちゃたちの新たな冒険を手のひらサイズで楽しもう。"
+  },
+  {
+    "id": "gacha-5801b778",
+    "name": "ディズニーキャラクター2 推してねマスコット 推しマス! クリアラメプレート",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "6月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905971_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905971_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905971",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-31T23:56:41.353Z",
+    "description": "推しキャラを胸に飾ろう！キラキラのラメが美しいクリアプレートで、あなたの「推し」アピールが完璧にキマる。全4種コンプしてディズニー愛を存分に表現しちゃお！"
+  },
+  {
+    "id": "-vol3-7a8524c9",
+    "name": "でふぉラバ! ディズニー ツイステッドワンダーランド ブルームバースデーvol.3",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 300,
+    "types": 8,
+    "releaseWeek": "6月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907685_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907685_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907685",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-05-31T23:56:41.353Z",
+    "description": "ツイステの人気キャラたちがブルームバースデー仕様のでふぉラバになって登場！お誕生日をお祝いする特別衣装姿を、ワンコインで手軽にコレクションしちゃおう。"
+  },
+  {
     "id": "skzoo--0fec6da4",
     "name": "SKZOO ベーカリーチャーム",
     "brand": "その他",
