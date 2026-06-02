@@ -1,5 +1,63 @@
 [
   {
+    "id": "-hideseek--3269a159",
+    "name": "グレムリン Hide&Seek かくれんぼフィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "6月 8日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": null,
+    "images": [],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y097041",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-02T07:24:50.103Z",
+    "description": "懐かしのグレムリンたちがかくれんぼで大暴れ！ひょっこり顔を出す愛らしい姿にキュンとすること間違いなしです。"
+  },
+  {
+    "id": "-fig2-4879bdc9",
+    "name": "ミニオンズ もぐもぐFig.2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "6月 8日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901546_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901546_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901546",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-02T07:24:50.103Z",
+    "description": "食べてる姿がたまらなく可愛いミニオンズの第2弾が登場！全4種のもぐもぐシーンをコンプリートして、デスクに癒しの空間を作っちゃおう。"
+  },
+  {
+    "id": "gacha-5c932edb",
+    "name": "ハリー・ポッター/ファンタスティック・ビースト もふもふポーシェット",
+    "brand": "ハリー・ポッター",
+    "brandSlug": "harrypotter",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "6月 8日週",
+    "color": "#dd99e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905865_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905865_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905865",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-02T07:24:50.103Z",
+    "description": "ハリポタファンにはたまらない！あの魔法動物たちがもふもふのポーシェットになって登場。400円でこのクオリティは見逃せません。"
+  },
+  {
     "id": "undertaletrade--295d6992",
     "name": "UNDERTALE&trade; つまんでつなげてマスコット",
     "brand": "その他",
@@ -2507,7 +2565,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118184498000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "暑い夏にぴったりなディズニーキャラたちのマスコットチャームが登場！全4種類のかわいいデザインで、バッグや財布につけて一緒にお出かけしよう。"
   },
   {
     "id": "gacha-6fc3e53e",
@@ -2537,7 +2596,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118185259000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "人気キャラクター赤見かるびの可愛いめじるしアクセサリーが登場！全4種のコンプしやすい構成で、お手頃価格なのも嬉しいポイントです。"
   },
   {
     "id": "gacha-0e57fb88",
@@ -2567,7 +2627,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118186706000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "サンリオキャラクターたちがお惣菜に変身しちゃった！ころんと可愛いなりきりマスコットで、見てるだけでお腹が空いてきそう。"
   },
   {
     "id": "gacha-63be13d6",
@@ -2597,7 +2658,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118186881000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "透明感あふれるぷくっとしたリングで、ジュエルペットたちがいつでも一緒！全4種類のキュートなデザインで、指先から魔法をかけちゃおう。"
   },
   {
     "id": "gacha-1833a7e3",
@@ -2627,7 +2689,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118187307000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "しんちゃんたちがくっついてくる！バッグや小物に付けて、いつでも野原家の賑やかなメンバーと一緒にお出かけしよう。"
   },
   {
     "id": "gacha-443ecf8f",
@@ -2657,7 +2720,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118196583000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "銀魂のキャラたちが可愛く眠っている姿がたまらない！全4種のねむらせ隊で、あなたのデスクも癒しの空間に変身しちゃいます。"
   },
   {
     "id": "no-more--152be406",
@@ -2687,7 +2751,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118197252000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "あの映画泥棒がついにガチャに登場！おなじみのキャラクターがアクセサリーになって、映画館の思い出を持ち歩けちゃいます。"
   },
   {
     "id": "-ver-2f8ff6fa",
@@ -2717,7 +2782,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118205582000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "天使の羽根をつけたサンリオキャラたちがキュートな貯金箱に変身！500円でお気に入りの子をお迎えして、夢いっぱいの貯金生活を始めちゃお。"
   },
   {
     "id": "lil-ala-mode-3-7abae84f",
@@ -2747,7 +2813,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769709456000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "可愛いめじるしがアクセサリーになって登場！普段使いにぴったりなプチプラ価格で、全4種類をコンプリートしたくなっちゃう。"
   },
   {
     "id": "gacha-01154b46",
@@ -2777,7 +2844,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769829611000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "人気のサンリオキャラたちがアロハシャツ姿でゆらゆら揺れる癒し系コレクション。300円でハワイ気分とキャラの可愛さを両方ゲットできちゃいます。"
   },
   {
     "id": "gacha-1ab06e16",
@@ -2807,7 +2875,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769832307000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "みんな大好きしんちゃんとおなじみキャラたちの顔がぬいぐるみになって登場！どの子をお迎えするかはガチャ次第だけど、どれが出てもかわいさは保証済み。"
   },
   {
     "id": "mofusand--7210137d",
@@ -2837,7 +2906,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769841842000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "人気キャラクター・mofusandがライトマスコットになって登場！全4種のかわいいデザインで、暗闇でほんのり光る癒し系アイテムです。"
   },
   {
     "id": "basara--4d86f7bf",
@@ -2867,7 +2937,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769860317000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "戦国BASARAの人気武将たちがキュートなラバーマスコットになって登場！300円で手に入る全4種のコレクション性も魅力的だよ。"
   },
   {
     "id": "bleach--6ed269c3",
@@ -2897,7 +2968,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769867682000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "大人気アニメ「BLEACH」の千年血戦篇が待望のまちぼうけフィギュアで登場！全4種の個性豊かなキャラクターたちが、あなたのデスクで可愛くお出迎えしてくれます。"
   },
   {
     "id": "hg--00fd8cdb",
@@ -2927,7 +2999,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769872792000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "懐かしのキン肉マンがHGシリーズで登場！全4種のラインナップでワンコインから手に入る、ファン必見のガチャだ。"
   },
   {
     "id": "gacha-4a580b00",
@@ -2957,7 +3030,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927942000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "文房具たちが食べ過ぎてぽっちゃりしちゃった！？ちょっと太めになった文具たちの愛らしい姿にほっこり癒されること間違いなしです。"
   },
   {
     "id": "npb--09a85edf",
@@ -2987,7 +3061,8 @@
     "affiliateUrl": "#",
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935831000",
     "source": "バンダイ公式",
-    "collectedAt": "2026-06-01T08:34:16.688Z"
+    "collectedAt": "2026-06-01T08:34:16.688Z",
+    "description": "セ・リーグファン必見！お気に入り球団のユニフォームがミニチュアマグネットになって登場。冷蔵庫やデスクに貼って、いつでも応援気分を盛り上げよう。"
   },
   {
     "id": "gacha-0922de94",
