@@ -46,6 +46,13 @@ jobs:
           cd scripts
           npm install
 
+      # 投稿ステップより前に置くことで、後続が失敗してもトークン警告は必ず届く
+      - name: Check Instagram token expiry
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: node scripts/check-ig-token.js
+
       - name: Collect gacha data
         run: node scripts/collect.js
 
