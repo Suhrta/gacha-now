@@ -1,5 +1,36 @@
 [
   {
+    "id": "skzoo--6830bc0e",
+    "name": "SKZOO めじるしアクセサリー ソロキャンプ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "6月 第4週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_2.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770026856000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-06-03T08:16:48.615Z",
+    "description": "Stray Kidsの公式キャラクター「SKZOO」がソロキャンプを楽しむアクセサリーが登場！400円でゲットできる全4種のかわいいキャンパーたちと一緒にアウトドア気分を満喫しよう。"
+  },
+  {
     "id": "-hideseek--3269a159",
     "name": "グレムリン Hide&Seek かくれんぼフィギュア",
     "brand": "その他",
