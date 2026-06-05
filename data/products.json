@@ -1,5 +1,45 @@
 [
   {
+    "id": "jiggy-boys--4896262b",
+    "name": "JIGGY BOYS アクリルめじるしガチャマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "6月 8日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906848_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906848_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906848",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-05T09:02:07.219Z",
+    "description": "JIGGY BOYSのキュートなキャラたちがアクリルマスコットになって登場！お気に入りの推しを見つけて、バッグや鍵につけて一緒にお出かけしよう。"
+  },
+  {
+    "id": "aip--39668df8",
+    "name": "AIP 森口修の猫 フィギュアマスコット３",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/02/moriguchi3_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/02/moriguchi3_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/moriguchiosamu_cat3/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-06-05T09:02:07.220Z",
+    "description": "愛らしい猫たちが森口修氏の優しいタッチで立体化！500円で手に入る癒し系マスコット全4種、どの子に出会えるかはお楽しみです。"
+  },
+  {
     "id": "gacha-08d03a36",
     "name": "アイカツ！ コンパクトミラー",
     "brand": "アイカツ",
