@@ -1,5 +1,25 @@
 [
   {
+    "id": "zizone-pingo--34a0a2eb",
+    "name": "ZIZONE PINGO フィギュアマスコット",
+    "brand": "キャラクター",
+    "brandSlug": "brand-b6is9z",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#d599e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/02/ZIZONEPINGO_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/02/ZIZONEPINGO_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/zizone_figure/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-06-06T09:02:02.178Z",
+    "description": "コロンとした丸いフォルムが超キュートなPINGOのフィギュアマスコットが登場！500円で手に入る癒し系キャラに心も和みそう。"
+  },
+  {
     "id": "jiggy-boys--4896262b",
     "name": "JIGGY BOYS アクリルめじるしガチャマスコット",
     "brand": "その他",
@@ -15509,54 +15529,5 @@
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-03-06T17:45:02.749Z",
     "description": "トヨタの名車GRスープラが500円ガチャに登場！全7種のコンプリートエディションで、あの憧れのスポーツカーを手のひらサイズでコレクションしちゃおう。"
-  },
-  {
-    "id": "gacha-530d5d4c",
-    "name": "アニマル横町 めじるしアクセサリー",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 300,
-    "types": 4,
-    "releaseWeek": "3月 第4週",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246953_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769842184000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-03-06T09:01:49.594Z",
-    "description": "懐かしのアニマル横町キャラたちが可愛いアクセサリーになって登場！全4種コンプリートして、あの頃の思い出を身につけちゃおう。"
-  },
-  {
-    "id": "chucky--2a23452e",
-    "name": "CHUCKY キョロ目アクリルキーチェーン",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 300,
-    "types": 4,
-    "releaseWeek": "未定",
-    "color": "#e5b499",
-    "hot": false,
-    "img": null,
-    "images": [],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902178",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-06T09:01:49.595Z",
-    "description": "あのホラー映画の人形チャッキーが、なんともキュートなキョロ目になってキーチェーンで登場！怖いはずなのに、なぜか愛らしくて手に取りたくなっちゃう不思議な魅力があるよ。"
   }
 ]
