@@ -5904,6 +5904,30 @@
     "types": null
   },
   {
+    "title": "2PM ミニCDコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770071146000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年6月 第4週",
+    "brand": "その他",
+    "types": null
+  },
+  {
     "title": "LOVOT [らぼっと] めじるしアクセサリー",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769682148000",
     "source": "バンダイ公式",
@@ -5995,30 +6019,6 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_12.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年6月 第4週",
-    "brand": "その他",
-    "types": null
-  },
-  {
-    "title": "2PM ミニCDコレクション",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770071146000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000249412_12.jpg"
-    ],
-    "price": 500,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
     "types": null
@@ -6259,6 +6259,19 @@
     "releaseWeek": "2026年6月",
     "brand": "ポケモン",
     "types": 6
+  },
+  {
+    "title": "パンダの穴 わんわんおでん",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902185",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902185_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902185_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年6月",
+    "brand": "パンダの穴",
+    "types": 5
   },
   {
     "title": "ポケモン ぎらぎらサンシャイン5",

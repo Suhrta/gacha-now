@@ -1,5 +1,25 @@
 [
   {
+    "id": "gacha-7f867254",
+    "name": "パンダの穴 わんわんおでん",
+    "brand": "パンダの穴",
+    "brandSlug": "pandanoana",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "6月",
+    "color": "#90A4AE",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902185_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902185_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902185",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-08T08:10:16.895Z",
+    "description": "犬たちがおでんの具になっちゃった！？パンダの穴らしいシュールでかわいい世界観が300円で楽しめる、思わずクスッと笑える癒し系ガチャだよ。"
+  },
+  {
     "id": "zizone-pingo--34a0a2eb",
     "name": "ZIZONE PINGO フィギュアマスコット",
     "brand": "キャラクター",
