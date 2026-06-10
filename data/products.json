@@ -1,5 +1,76 @@
 [
   {
+    "id": "-ver-27f82750",
+    "name": "ユニフォームフレームマグネット サッカー日本代表ver.",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "6月 第4週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251513_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770033588000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-06-10T07:09:26.140Z",
+    "description": "日本代表ユニフォームがミニサイズで登場！冷蔵庫やホワイトボードに貼って、いつでもサムライブルーを応援しよう。"
+  },
+  {
+    "id": "gacha-74c19961",
+    "name": "地獄先生ぬ～べ～ 鬼の手マスコットコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "6月 15日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099137_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099137_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099137",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-10T07:09:26.140Z",
+    "description": "懐かしの名作「地獄先生ぬ～べ～」の鬼の手がマスコットになって登場！あの印象的な左手を手のひらサイズで再現した、ファン必見のコレクションアイテムです。"
+  },
+  {
+    "id": "gacha-3df0f677",
+    "name": "シュガーバターサンドの木 キーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "6月 15日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901959_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901959_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901959",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-10T07:09:26.140Z",
+    "description": "あの人気お菓子「シュガーバターサンドの木」がキーホルダーになって登場！全6種類のラインナップで、思わず集めたくなっちゃう可愛さです。"
+  },
+  {
     "id": "gacha-7f867254",
     "name": "パンダの穴 わんわんおでん",
     "brand": "パンダの穴",
@@ -15269,25 +15340,5 @@
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-03-10T09:02:34.062Z",
     "description": "あの愛らしい赤ちゃんねずみタフィーが主役の第2弾が登場！全4種のキュートなポーズで、トムとジェリーファンの心をわしづかみです。"
-  },
-  {
-    "id": "gacha-1d7077e2",
-    "name": "ディズニー まったり牛乳コスメポーチ",
-    "brand": "ディズニー",
-    "brandSlug": "disney",
-    "price": 400,
-    "types": 6,
-    "releaseWeek": "3月",
-    "color": "#CE93D8",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903021_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903021_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903021",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-10T03:02:58.880Z",
-    "description": "ディズニーキャラクターたちが牛乳パックに変身したキュートなコスメポーチが登場。まったりとした表情に癒されながら、メイク直しも楽しくなっちゃいます。"
   }
 ]
