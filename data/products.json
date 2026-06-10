@@ -1,5 +1,45 @@
 [
   {
+    "id": "gacha-4cc36297",
+    "name": "芝犬ヶ丘",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "6月 15日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904813_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904813_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904813",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-10T11:37:34.868Z",
+    "description": "柴犬好きにはたまらない！丘の上でのんびり過ごす柴犬たちの癒やし系フィギュア。全6種類それぞれ違った表情とポーズで、見ているだけで心が和みます。"
+  },
+  {
+    "id": "gacha-620bcd6a",
+    "name": "ぷにるんず じゅえりーぶれす",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "6月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901430_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901430_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901430",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-10T11:37:34.868Z",
+    "description": "手首を彩るぷにぷに質感のキュートなアクセサリー！全6種のカラフルなデザインで、普段使いからお出かけまで幅広く楽しめちゃいます。"
+  },
+  {
     "id": "-ver-27f82750",
     "name": "ユニフォームフレームマグネット サッカー日本代表ver.",
     "brand": "その他",
@@ -15280,65 +15320,5 @@
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-03-11T03:02:52.403Z",
     "description": "推しと寿司が奇跡のコラボ！あなたの推しを寿司ネタに見立てた、シュールで愛らしいフィギュアが全5種類で登場だよ。"
-  },
-  {
-    "id": "gacha-398be731",
-    "name": "ぴた!でふぉめ 文豪ストレイドッグス アクリルスタンド",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 400,
-    "types": 7,
-    "releaseWeek": "発売中",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903922_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903922_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903922",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-10T10:08:07.342Z",
-    "description": "文豪ストレイドッグスの人気キャラたちがぷにぷにデフォルメで登場！コンパクトなアクリルスタンドで机の上がにぎやかになりそう。"
-  },
-  {
-    "id": "gacha-21881bd7",
-    "name": "ひつじのショーン ゆらゆらつながるマスコット",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 300,
-    "types": 4,
-    "releaseWeek": "3月",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098826_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098826_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098826",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-10T09:02:34.062Z",
-    "description": "みんな大好きひつじのショーンが、ゆらゆら揺れる可愛いマスコットになって登場！つなげて飾れば、もっと愛らしさアップ間違いなしです。"
-  },
-  {
-    "id": "gacha-394c1dab",
-    "name": "トムとジェリー タフィーいっぱいコレクション2",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 400,
-    "types": 4,
-    "releaseWeek": "3月",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900129_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900129_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900129",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-10T09:02:34.062Z",
-    "description": "あの愛らしい赤ちゃんねずみタフィーが主役の第2弾が登場！全4種のキュートなポーズで、トムとジェリーファンの心をわしづかみです。"
   }
 ]
