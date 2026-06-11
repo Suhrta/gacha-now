@@ -37,13 +37,13 @@ export default function FilterTabs({ brands, selected, onSelect }) {
             key={b}
             ref={(el) => (tabRefs.current[b] = el)}
             onClick={() => onSelect(b)}
-            className={`shrink-0 inline-flex items-center gap-2.5 px-5 py-3 rounded-2xl text-sm font-medium border transition-all duration-150 cursor-pointer ${
+            className={`shrink-0 inline-flex items-center gap-1.5 sm:gap-2.5 px-3 py-1.5 sm:px-5 sm:py-3 rounded-xl sm:rounded-2xl text-xs sm:text-sm font-medium border transition-all duration-150 cursor-pointer ${
               active
                 ? "bg-brand-accent text-white border-brand-accent shadow-md"
                 : "bg-white text-brand-sub border-cream-border shadow-sm hover:border-brand-accent/30"
             }`}
           >
-            <img src={icon} alt="" className="w-7 h-7 mix-blend-multiply" />
+            <img src={icon} alt="" className="w-5 h-5 sm:w-7 sm:h-7 mix-blend-multiply" />
             <span>{b}</span>
           </button>
         );
