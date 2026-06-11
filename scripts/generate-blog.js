@@ -23,7 +23,7 @@ function loadProducts() {
   return JSON.parse(fs.readFileSync(PRODUCTS_PATH, "utf-8"));
 }
 
-async function generateArticle(products, existingTitles) {
+async function generateArticle(products, existingTitles, existingSlugs) {
   const brands = [...new Set(products.map((p) => p.brand))];
   const recentProducts = products
     .filter((p) => p.releaseWeek)
@@ -81,8 +81,11 @@ async function generateArticle(products, existingTitles) {
 最新商品データ（直近30件）:
 ${productsSummary}
 
-既存記事タイトル（重複を避けてください）:
+既存記事タイトル（重複を避けてください。似たテーマ・似たタイトルも避けること）:
 ${existingTitles.map((t) => `- ${t}`).join("\n") || "（なし）"}
+
+既存slug（同じslugは使用禁止）:
+${existingSlugs.join(", ") || "（なし）"}
 
 記事のテーマ例（検索ボリュームが大きいものを優先）:
 - 「{ブランド名} ガチャ 新作 まとめ」
@@ -112,11 +115,20 @@ async function main() {
   const products = loadProducts();
   const posts = loadPosts();
   const existingTitles = posts.map((p) => p.title);
+  const existingSlugs = posts.map((p) => p.slug);
 
   console.log(`Products: ${products.length}, Existing posts: ${posts.length}`);
 
-  const article = await generateArticle(products, existingTitles);
+  const article = await generateArticle(products, existingTitles, existingSlugs);
   const today = new Date().toISOString().split("T")[0];
+
+  // slug重複の最終ガード（重複するとブログページが先勝ちで上書きされるため）
+  if (existingSlugs.includes(article.slug)) {
+    let n = 2;
+    while (existingSlugs.includes(`${article.slug}-vol${n}`)) n++;
+    console.warn(`Duplicate slug "${article.slug}" -> "${article.slug}-vol${n}"`);
+    article.slug = `${article.slug}-vol${n}`;
+  }
 
   // 存在しない商品IDのカードタグを除去（AIの転記ミス対策）
   const validIds = new Set(products.map((p) => p.id));
