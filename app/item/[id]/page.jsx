@@ -1,6 +1,8 @@
 import Link from "next/link";
 import ReceiptPaper from "../../../components/ReceiptPaper";
 import products from "../../../data/products.json";
+import { charactersForProduct } from "../../../data/characters";
+import { isReleased, getReleaseYearMonth, formatYearMonth } from "../../../lib/release";
 
 export function generateStaticParams() {
   return products.map((p) => ({ id: p.id }));
@@ -12,6 +14,7 @@ export function generateMetadata({ params }) {
   return {
     title: `${product.name}｜¥${product.price}・全${product.types}種【${product.releaseWeek}発売】| ガチャなう`,
     description: `${product.name}（${product.brand}）のカプセルトイ情報。¥${product.price}・全${product.types}種。${product.releaseWeek}発売予定。ラインナップ・取扱店舗をチェック。`,
+    alternates: { canonical: `https://gacha-now.net/item/${product.id}` },
     openGraph: {
       title: `${product.name}｜¥${product.price}・全${product.types}種【${product.releaseWeek}】`,
       description: `${product.brand}のカプセルトイ「${product.name}」¥${product.price}・全${product.types}種 ── ${product.releaseWeek}発売`,
@@ -45,7 +48,9 @@ export default function ItemPage({ params }) {
       "@type": "Offer",
       price: product.price,
       priceCurrency: "JPY",
-      availability: "https://schema.org/InStock",
+      availability: isReleased(product)
+        ? "https://schema.org/InStock"
+        : "https://schema.org/PreOrder",
       url: `https://gacha-now.net/item/${product.id}`,
     },
   };
@@ -60,6 +65,22 @@ export default function ItemPage({ params }) {
     ],
   };
 
+  const characters = charactersForProduct(product);
+  const characterIds = new Set();
+  const related = products.filter((p) => p.id !== product.id && p.brand === product.brand);
+  related.forEach((p) => characterIds.add(p.id));
+  characters.forEach((c) => {
+    const re = new RegExp(c.pattern);
+    products.forEach((p) => {
+      if (p.id !== product.id && !characterIds.has(p.id) && re.test(p.name)) {
+        characterIds.add(p.id);
+        related.push(p);
+      }
+    });
+  });
+  const relatedItems = related.slice(0, 6);
+  const releaseMonth = getReleaseYearMonth(product);
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productLd) }} />
@@ -70,6 +91,66 @@ export default function ItemPage({ params }) {
         </Link>
       </div>
       <ReceiptPaper product={product} isPage={true} />
+
+      {relatedItems.length > 0 && (
+        <section className="px-4 mt-8 max-w-2xl mx-auto w-full">
+          <h2 className="text-lg font-bold text-brand-text mb-3 border-l-4 border-brand-accent pl-3">
+            関連するガチャ
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            {relatedItems.map((p) => (
+              <Link
+                key={p.id}
+                href={`/item/${p.id}`}
+                className="block p-3 bg-white rounded-lg border border-cream-border no-underline hover:border-brand-accent transition-colors"
+              >
+                {p.img && (
+                  <img
+                    src={p.img}
+                    alt={p.name}
+                    loading="lazy"
+                    className="w-full aspect-square object-cover rounded-md bg-cream-dark"
+                  />
+                )}
+                <div className="text-xs font-bold text-brand-text leading-snug mt-2 line-clamp-2">
+                  {p.name}
+                </div>
+                <div className="text-[10px] text-brand-sub mt-1">
+                  ¥{p.price}・全{p.types}種
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section className="px-4 mt-6 mb-10 max-w-2xl mx-auto w-full">
+        <div className="flex flex-wrap gap-2">
+          <Link
+            href={`/brand/${product.brandSlug}`}
+            className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
+          >
+            {product.brand}の新作一覧 →
+          </Link>
+          {characters.map((c) => (
+            <Link
+              key={c.slug}
+              href={`/character/${c.slug}`}
+              className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
+            >
+              #{c.name}のガチャ一覧
+            </Link>
+          ))}
+          {releaseMonth && (
+            <Link
+              href={`/release/${releaseMonth}`}
+              className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
+            >
+              📅 {formatYearMonth(releaseMonth)}発売の一覧
+            </Link>
+          )}
+        </div>
+      </section>
     </>
   );
 }

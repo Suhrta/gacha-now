@@ -1,7 +1,16 @@
 import products from "../data/products.json";
 import blogPosts from "../data/blog-posts.json";
+import { CHARACTERS, filterProductsByCharacter } from "../data/characters";
+import { getAllReleaseMonths, getReleaseYearMonth } from "../lib/release";
 
 const BASE_URL = "https://gacha-now.net";
+
+function latestCollectedAt(list) {
+  const times = list
+    .map((p) => new Date(p.collectedAt).getTime())
+    .filter((t) => !Number.isNaN(t));
+  return times.length ? new Date(Math.max(...times)) : new Date();
+}
 
 export default function sitemap() {
   const blogPages = blogPosts.map((p) => ({
@@ -13,7 +22,7 @@ export default function sitemap() {
 
   const productPages = products.map((p) => ({
     url: `${BASE_URL}/item/${p.id}`,
-    lastModified: new Date(),
+    lastModified: p.collectedAt ? new Date(p.collectedAt) : new Date(),
     changeFrequency: "weekly",
     priority: 0.8,
   }));
@@ -21,7 +30,25 @@ export default function sitemap() {
   const brandSlugs = [...new Set(products.map((p) => p.brandSlug))];
   const brandPages = brandSlugs.map((slug) => ({
     url: `${BASE_URL}/brand/${slug}`,
-    lastModified: new Date(),
+    lastModified: latestCollectedAt(products.filter((p) => p.brandSlug === slug)),
+    changeFrequency: "weekly",
+    priority: 0.6,
+  }));
+
+  const characterPages = CHARACTERS.map((c) => {
+    const items = filterProductsByCharacter(products, c);
+    if (items.length === 0) return null;
+    return {
+      url: `${BASE_URL}/character/${c.slug}`,
+      lastModified: latestCollectedAt(items),
+      changeFrequency: "weekly",
+      priority: 0.7,
+    };
+  }).filter(Boolean);
+
+  const releasePages = getAllReleaseMonths(products).map((ym) => ({
+    url: `${BASE_URL}/release/${ym}`,
+    lastModified: latestCollectedAt(products.filter((p) => getReleaseYearMonth(p) === ym)),
     changeFrequency: "weekly",
     priority: 0.6,
   }));
@@ -34,5 +61,7 @@ export default function sitemap() {
     ...blogPages,
     ...productPages,
     ...brandPages,
+    ...characterPages,
+    ...releasePages,
   ];
 }

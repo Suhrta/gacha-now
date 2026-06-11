@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect, useRef, useCallback } from "react";
+import Link from "next/link";
 import Header from "../components/Header";
 import GachaMachine from "../components/GachaMachine";
 import ReceiptPaper from "../components/ReceiptPaper";
@@ -7,8 +8,11 @@ import NewArrivalModal from "../components/NewArrivalModal";
 import Footer from "../components/Footer";
 import FilterTabs from "../components/FilterTabs";
 import products from "../data/products.json";
+import { CHARACTERS } from "../data/characters";
+import { getAllReleaseMonths, formatYearMonth } from "../lib/release";
 
 const ITEMS_PER_PAGE = 20;
+const RELEASE_MONTHS = getAllReleaseMonths(products);
 
 const PRIORITY_BRANDS = ["サンリオ", "たまごっち", "ちいかわ", "ポケモン"];
 const FIXED_OTHER = "その他";
@@ -418,6 +422,39 @@ export default function HomePage() {
             )}
           </div>
         )}
+
+        {/* キャラ・発売月別ページへの導線 */}
+        <section className="mt-12 px-1">
+          <h2 className="text-xl font-bold text-brand-text flex items-center gap-2 mb-3">
+            <span>🔎</span> キャラ・テーマから探す
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {CHARACTERS.map((c) => (
+              <Link
+                key={c.slug}
+                href={`/character/${c.slug}`}
+                className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
+              >
+                #{c.name}
+              </Link>
+            ))}
+          </div>
+
+          <h2 className="text-xl font-bold text-brand-text flex items-center gap-2 mt-6 mb-3">
+            <span>📅</span> 発売月から探す
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {RELEASE_MONTHS.map((m) => (
+              <Link
+                key={m}
+                href={`/release/${m}`}
+                className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
+              >
+                {formatYearMonth(m)}発売
+              </Link>
+            ))}
+          </div>
+        </section>
 
       </main>
       <Footer />

@@ -14,7 +14,11 @@ export function generateMetadata({ params }) {
   return {
     title: `${post.title}【2026年最新】| ガチャなう`,
     description: post.description,
+    alternates: { canonical: `https://gacha-now.net/blog/${post.slug}` },
     openGraph: {
+      type: "article",
+      url: `https://gacha-now.net/blog/${post.slug}`,
+      publishedTime: post.publishedAt,
       title: `${post.title}【2026年最新】`,
       description: post.description,
     },
@@ -102,8 +106,37 @@ export default function BlogDetailPage({ params }) {
     .filter((p) => p.slug !== post.slug)
     .slice(0, 3);
 
+  const blogPostingLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.description,
+    datePublished: post.publishedAt,
+    dateModified: post.publishedAt,
+    inLanguage: "ja",
+    mainEntityOfPage: `https://gacha-now.net/blog/${post.slug}`,
+    author: { "@type": "Organization", name: "ガチャなう", url: "https://gacha-now.net" },
+    publisher: {
+      "@type": "Organization",
+      name: "ガチャなう",
+      logo: { "@type": "ImageObject", url: "https://gacha-now.net/icons/logo-mark.png" },
+    },
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gacha-now.net" },
+      { "@type": "ListItem", position: 2, name: "コラム", item: "https://gacha-now.net/blog" },
+      { "@type": "ListItem", position: 3, name: post.title, item: `https://gacha-now.net/blog/${post.slug}` },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
       <header className="bg-white border-b border-cream-border px-4 py-3">
         <div className="max-w-site mx-auto flex items-center justify-between">
           <Link
