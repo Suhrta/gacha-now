@@ -54,7 +54,7 @@ export default function ReleaseMonthPage() {
           {items.length}けん
         </div>
 
-        <div className="flex flex-wrap gap-2.5 relative z-[1]">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3 relative z-[1]">
           {items.map((p, i) => (
             <GachaMachine key={p.id} product={p} index={i} onClick={setSelected} />
           ))}
