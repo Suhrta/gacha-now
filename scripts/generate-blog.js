@@ -31,7 +31,7 @@ async function generateArticle(products, existingTitles) {
     .slice(0, 30);
 
   const productsSummary = recentProducts
-    .map((p) => `${p.name} (${p.brand}, ¥${p.price}, ${p.types}種, ${p.releaseWeek})`)
+    .map((p) => `${p.name} (${p.brand}, ¥${p.price}, ${p.types}種, ${p.releaseWeek}) [ID: ${p.id}]`)
     .join("\n");
 
   const today = new Date().toISOString().split("T")[0];
@@ -70,6 +70,12 @@ ${existingTitles.map((t) => `- ${t}`).join("\n") || "（なし）"}
   "content": "マークダウン形式の記事本文（1000-1500文字。h2、h3、リスト、太字を使用。具体的な商品名・価格・種類数を含める）"
 }
 
+contentの追加ルール:
+- 記事中で商品を紹介した直後に、その商品の商品カードを挿入するため「[product:商品ID]」という行を単独で入れてください（例: [product:skzoo--6830bc0e]）
+- IDは上記の商品データに記載された [ID: ...] の値をそのまま正確にコピーしてください。創作・変更は禁止です
+- 商品カードは記事全体で3〜5箇所入れてください
+- 商品データに存在しない商品をカードにしないでください
+
 JSONのみ返してください。`,
       },
     ],
@@ -90,6 +96,20 @@ async function main() {
 
   const article = await generateArticle(products, existingTitles);
   const today = new Date().toISOString().split("T")[0];
+
+  // 存在しない商品IDのカードタグを除去（AIの転記ミス対策）
+  const validIds = new Set(products.map((p) => p.id));
+  article.content = article.content
+    .split("\n")
+    .filter((line) => {
+      const m = line.trim().match(/^\[product:([^\]]+)\]$/);
+      if (m && !validIds.has(m[1])) {
+        console.warn(`Removed invalid product tag: ${m[1]}`);
+        return false;
+      }
+      return true;
+    })
+    .join("\n");
 
   const newPost = {
     slug: article.slug,

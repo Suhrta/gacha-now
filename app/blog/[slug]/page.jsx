@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import posts from "../../../data/blog-posts.json";
+import products from "../../../data/products.json";
 import Footer from "../../../components/Footer";
 
 export function generateStaticParams() {
@@ -25,8 +26,41 @@ function formatDate(iso) {
   return `${y}年${Number(m)}月${Number(d)}日`;
 }
 
+function ProductCard({ id }) {
+  const p = products.find((x) => x.id === id);
+  if (!p) return null;
+  return (
+    <Link
+      href={`/item/${p.id}`}
+      className="flex gap-3 items-center my-4 p-3 bg-cream-dark rounded-lg border border-cream-border no-underline hover:border-brand-accent transition-colors"
+    >
+      {p.img && (
+        <img
+          src={p.img}
+          alt={p.name}
+          loading="lazy"
+          className="w-20 h-20 object-cover rounded-md shrink-0 bg-white"
+        />
+      )}
+      <div className="min-w-0">
+        <div className="text-sm font-bold text-brand-text leading-snug">
+          {p.name}
+        </div>
+        <div className="text-xs text-brand-sub mt-1">
+          {p.brand}・¥{p.price}・全{p.types}種
+        </div>
+        <div className="text-xs text-brand-accent mt-1 font-bold">
+          くわしく見る →
+        </div>
+      </div>
+    </Link>
+  );
+}
+
 function renderContent(content) {
   return content.split("\n").map((line, i) => {
+    const productMatch = line.trim().match(/^\[product:([^\]]+)\]$/);
+    if (productMatch) return <ProductCard key={i} id={productMatch[1]} />;
     if (line.startsWith("### "))
       return (
         <h3
