@@ -1,5 +1,45 @@
 [
   {
+    "id": "tomica-premium-box1-0f2db338",
+    "name": "tomica PREMIUM BOX型シリコンポーチ1",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "6月 15日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906343_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906343_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906343",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-11T07:30:18.551Z",
+    "description": "トミカ好きにはたまらない！BOX型のシリコンポーチがガチャで登場。小物入れにもコレクションにもぴったりな全4種類を集めよう。"
+  },
+  {
+    "id": "gacha-1c233bf6",
+    "name": "モンスターズ・インクへようこそ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "6月 15日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906671_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906671_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906671",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-11T07:30:18.551Z",
+    "description": "ピクサーの名作「モンスターズ・インク」の世界がガチャに登場！サリーやマイクたちと一緒に、あのドキドキワクワクな冒険を思い出そう。"
+  },
+  {
     "id": "-maxmegamax-075b22ed",
     "name": "ホビーガチャ ワイルド・スピード MAX/MEGAMAX",
     "brand": "その他",
@@ -15320,25 +15360,5 @@
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-03-11T09:02:34.643Z",
     "description": "みんな大好きミッフィーが、淡いパステルカラーで夢の中へ。200円で癒しの寝顔をゲットしちゃおう！"
-  },
-  {
-    "id": "gacha-5418a99e",
-    "name": "推し×スシ 推スシ",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 300,
-    "types": 5,
-    "releaseWeek": "3月 16日週",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901416_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901416_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901416",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-11T03:02:52.403Z",
-    "description": "推しと寿司が奇跡のコラボ！あなたの推しを寿司ネタに見立てた、シュールで愛らしいフィギュアが全5種類で登場だよ。"
   }
 ]

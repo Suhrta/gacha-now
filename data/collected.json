@@ -3819,9 +3819,9 @@
     "title": "黄泉のツガイ カプセルラバーマスコット",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968419000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_4.jpg",
@@ -3939,9 +3939,9 @@
     "title": "【フラットガシャポン】刃牙 ポスターコレクションッッ!!",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995521000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251610_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251610_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251610_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251610_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251610_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251610_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251610_4.jpg",
@@ -4515,9 +4515,9 @@
     "title": "はしもとみおのウルトラ怪獣彫ってみた。03",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769897658000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251605_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251605_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251605_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251605_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251605_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251605_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251605_4.jpg",
@@ -4611,9 +4611,9 @@
     "title": "いきもの大図鑑アドバンス カブトムシ04",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769981890000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251607_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251607_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251607_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251607_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251607_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251607_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251607_4.jpg",
@@ -4755,9 +4755,9 @@
     "title": "劇場版『チェンソーマン レゼ篇』 サウンドロップ",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770027891000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251518_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251518_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251518_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251518_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251518_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251518_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251518_4.jpg",
@@ -6296,6 +6296,32 @@
     "releaseWeek": "2026年6月 15日週",
     "brand": "その他",
     "types": 6
+  },
+  {
+    "title": "tomica PREMIUM BOX型シリコンポーチ1",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906343",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906343_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906343_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月 15日週",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "モンスターズ・インクへようこそ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906671",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906671_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906671_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月 15日週",
+    "brand": "その他",
+    "types": 4
   },
   {
     "title": "ホビーガチャ ワイルド・スピード MAX/MEGAMAX",
