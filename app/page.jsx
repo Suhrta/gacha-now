@@ -295,30 +295,30 @@ export default function HomePage() {
               />
               {/* 統計+検索 */}
               <div className="flex-1 w-full flex flex-col gap-4">
-                <div className="flex flex-wrap items-center gap-2">
+                <div className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:items-center">
                   <button
                     onClick={() => setStatusTab("new")}
-                    className="flex items-center gap-1.5 bg-white rounded-full shadow-sm border border-cream-border pl-2 pr-3 py-1.5 cursor-pointer hover:border-brand-accent transition-colors"
+                    className="flex items-center justify-center gap-1 sm:gap-1.5 bg-white rounded-full shadow-sm border border-cream-border px-2 sm:pl-2 sm:pr-3 py-1.5 cursor-pointer hover:border-brand-accent transition-colors"
                   >
-                    <img src="/icons/icon-stat-new.png" alt="" className="w-6 h-6 lg:w-7 lg:h-7" />
-                    <span className="text-xs text-brand-sub">新作</span>
-                    <span className="text-base lg:text-lg font-bold text-brand-accent">{newCount}</span>
-                    <span className="text-xs text-brand-sub">件</span>
+                    <img src="/icons/icon-stat-new.png" alt="" className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
+                    <span className="text-[10px] sm:text-xs text-brand-sub">新作</span>
+                    <span className="text-sm sm:text-base lg:text-lg font-bold text-brand-accent">{newCount}</span>
+                    <span className="hidden sm:inline text-xs text-brand-sub">件</span>
                   </button>
                   <button
                     onClick={() => setStatusTab("available")}
-                    className="flex items-center gap-1.5 bg-white rounded-full shadow-sm border border-cream-border pl-2 pr-3 py-1.5 cursor-pointer hover:border-brand-accent transition-colors"
+                    className="flex items-center justify-center gap-1 sm:gap-1.5 bg-white rounded-full shadow-sm border border-cream-border px-2 sm:pl-2 sm:pr-3 py-1.5 cursor-pointer hover:border-brand-accent transition-colors"
                   >
-                    <img src="/icons/icon-stat-available.png" alt="" className="w-6 h-6 lg:w-7 lg:h-7" />
-                    <span className="text-xs text-brand-sub">発売中</span>
-                    <span className="text-base lg:text-lg font-bold text-brand-purple">{available}</span>
-                    <span className="text-xs text-brand-sub">件</span>
+                    <img src="/icons/icon-stat-available.png" alt="" className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
+                    <span className="text-[10px] sm:text-xs text-brand-sub">発売中</span>
+                    <span className="text-sm sm:text-base lg:text-lg font-bold text-brand-purple">{available}</span>
+                    <span className="hidden sm:inline text-xs text-brand-sub">件</span>
                   </button>
-                  <div className="flex items-center gap-1.5 bg-white rounded-full shadow-sm border border-cream-border pl-2 pr-3 py-1.5">
-                    <img src="/icons/icon-stat-total.png" alt="" className="w-6 h-6 lg:w-7 lg:h-7" />
-                    <span className="text-xs text-brand-sub">全件数</span>
-                    <span className="text-base lg:text-lg font-bold text-brand-pink">{total}</span>
-                    <span className="text-xs text-brand-sub">件</span>
+                  <div className="flex items-center justify-center gap-1 sm:gap-1.5 bg-white rounded-full shadow-sm border border-cream-border px-2 sm:pl-2 sm:pr-3 py-1.5">
+                    <img src="/icons/icon-stat-total.png" alt="" className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
+                    <span className="text-[10px] sm:text-xs text-brand-sub">全件数</span>
+                    <span className="text-sm sm:text-base lg:text-lg font-bold text-brand-pink">{total}</span>
+                    <span className="hidden sm:inline text-xs text-brand-sub">件</span>
                   </div>
                 </div>
 
