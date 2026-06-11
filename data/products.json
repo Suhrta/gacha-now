@@ -1,5 +1,25 @@
 [
   {
+    "id": "-maxmegamax-075b22ed",
+    "name": "ホビーガチャ ワイルド・スピード MAX/MEGAMAX",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "6月 22日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y087684_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y087684_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y087684",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-11T00:02:06.624Z",
+    "description": "大人気映画「ワイルド・スピード」の迫力満点なカーアクションがガチャで登場！全4種のラインナップでスリル満点のコレクションを楽しもう。"
+  },
+  {
     "id": "gacha-4cc36297",
     "name": "芝犬ヶ丘",
     "brand": "その他",
