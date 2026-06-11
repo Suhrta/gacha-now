@@ -39,6 +39,36 @@ async function generateArticle(products, existingTitles) {
   const response = await anthropic.messages.create({
     model: "claude-sonnet-4-6",
     max_tokens: 4096,
+    tools: [
+      {
+        name: "save_article",
+        description: "生成したブログ記事を保存する",
+        input_schema: {
+          type: "object",
+          properties: {
+            title: {
+              type: "string",
+              description: "記事タイトル（30-50文字、SEOキーワード含む）",
+            },
+            slug: {
+              type: "string",
+              description: "url-safe-slug-in-english",
+            },
+            description: {
+              type: "string",
+              description: "記事の説明文（80-120文字）",
+            },
+            content: {
+              type: "string",
+              description:
+                "マークダウン形式の記事本文（1000-1500文字。h2、h3、リスト、太字を使用。具体的な商品名・価格・種類数を含める）",
+            },
+          },
+          required: ["title", "slug", "description", "content"],
+        },
+      },
+    ],
+    tool_choice: { type: "tool", name: "save_article" },
     messages: [
       {
         role: "user",
@@ -62,29 +92,20 @@ ${existingTitles.map((t) => `- ${t}`).join("\n") || "（なし）"}
 - 「大人向けガチャガチャ おすすめ」
 - 「{場所}のガチャガチャ設置場所」
 
-以下のJSON形式で返してください:
-{
-  "title": "記事タイトル（30-50文字、SEOキーワード含む）",
-  "slug": "url-safe-slug-in-english",
-  "description": "記事の説明文（80-120文字）",
-  "content": "マークダウン形式の記事本文（1000-1500文字。h2、h3、リスト、太字を使用。具体的な商品名・価格・種類数を含める）"
-}
+save_articleツールで記事を保存してください。
 
 contentの追加ルール:
 - 記事中で商品を紹介した直後に、その商品の商品カードを挿入するため「[product:商品ID]」という行を単独で入れてください（例: [product:skzoo--6830bc0e]）
 - IDは上記の商品データに記載された [ID: ...] の値をそのまま正確にコピーしてください。創作・変更は禁止です
 - 商品カードは記事全体で3〜5箇所入れてください
-- 商品データに存在しない商品をカードにしないでください
-
-JSONのみ返してください。`,
+- 商品データに存在しない商品をカードにしないでください`,
       },
     ],
   });
 
-  const text = response.content.find((b) => b.type === "text")?.text || "";
-  const match = text.match(/\{[\s\S]*\}/);
-  if (!match) throw new Error("Failed to parse response JSON");
-  return JSON.parse(match[0]);
+  const toolUse = response.content.find((b) => b.type === "tool_use");
+  if (!toolUse) throw new Error("No tool_use block in response");
+  return toolUse.input;
 }
 
 async function main() {
