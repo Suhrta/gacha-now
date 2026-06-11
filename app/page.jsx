@@ -105,7 +105,19 @@ const STATUS_TABS = [
   { key: "favorites", label: "お気に入り" },
 ];
 
-const POPULAR_TAGS = ["ちいかわ", "ポケモン", "サンリオ", "たまごっち"];
+const POPULAR_CHARACTERS = ["chiikawa", "pokemon", "sanrio", "tamagotchi"]
+  .map((slug) => CHARACTERS.find((c) => c.slug === slug))
+  .filter(Boolean);
+
+// 最終更新日は最新のcollectedAtをJST固定で表示（ビルドとブラウザのタイムゾーン差によるハイドレーション不一致を防ぐ）
+const LAST_UPDATED = (() => {
+  const times = products
+    .map((p) => new Date(p.collectedAt || 0).getTime())
+    .filter((t) => t > 0);
+  if (times.length === 0) return null;
+  const jst = new Date(Math.max(...times) + 9 * 3600 * 1000);
+  return `${jst.getUTCMonth() + 1}月${jst.getUTCDate()}日`;
+})();
 
 export default function HomePage() {
   const [brand, setBrand] = useState("すべて");
@@ -228,7 +240,7 @@ export default function HomePage() {
       >
         {/* ヒーローセクション */}
         <section
-          className="rounded-3xl p-8 md:p-12 relative overflow-hidden"
+          className="rounded-3xl p-5 md:p-10 relative overflow-hidden"
           style={{ background: "linear-gradient(135deg, #FFF9F5 0%, #FFFFFF 40%, #F8FAFE 100%)" }}
         >
           {/* 装飾スパークル */}
@@ -248,11 +260,16 @@ export default function HomePage() {
             {/* 左: コピー + モバイル時の画像（横並び） */}
             <div className="flex items-center gap-3 md:block">
               <div className="flex-1 min-w-0">
+                {LAST_UPDATED && (
+                  <div className="inline-flex items-center gap-1.5 bg-white/80 border border-cream-border rounded-full px-3 py-1 text-[11px] text-brand-sub mb-3">
+                    <span>✨</span> 毎日自動更新｜最終更新 {LAST_UPDATED}
+                  </div>
+                )}
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-brand-text leading-tight break-keep">
-                  新作ガチャ<br />
+                  ガチャガチャ新作<br />
                   ぜんぶ<span className="text-brand-accent">チェック</span>
                 </h1>
-                <p className="mt-4 text-sm md:text-base text-brand-sub leading-relaxed">
+                <p className="mt-3 text-sm md:text-base text-brand-sub leading-relaxed">
                   <span className="md:hidden">新作・発売中・発売予定の<br />ガチャをまとめてチェック！</span>
                   <span className="hidden md:inline">
                     新作・発売中・発売予定のガチャ情報をまとめてチェック。<br />
@@ -274,34 +291,34 @@ export default function HomePage() {
               <img
                 src="/icons/hero-gacha-machine.png"
                 alt="ガチャマシン"
-                className="hidden md:block md:max-w-none md:w-[220px] lg:w-[300px] xl:w-[340px] animate-float shrink-0 pointer-events-none md:-ml-2 lg:-ml-6 xl:-ml-10"
+                className="hidden md:block md:max-w-none md:w-[180px] lg:w-[240px] xl:w-[280px] animate-float shrink-0 pointer-events-none md:-ml-2 lg:-ml-6 xl:-ml-10"
               />
               {/* 統計+検索 */}
               <div className="flex-1 w-full flex flex-col gap-4">
-                <div className="grid grid-cols-3 gap-2 md:gap-3">
-                  <div className="bg-white rounded-xl shadow-sm p-3 lg:p-4 2xl:p-5 text-center">
-                    <img src="/icons/icon-stat-new.png" alt="" className="w-10 h-10 lg:w-12 lg:h-12 2xl:w-14 2xl:h-14 mx-auto" />
-                    <div className="text-xs lg:text-sm text-brand-sub mt-1 lg:mt-2">新作</div>
-                    <div className="leading-tight mt-0.5 lg:mt-1">
-                      <span className="text-2xl lg:text-3xl 2xl:text-4xl font-bold text-brand-accent">{newCount}</span>
-                      <span className="text-xs lg:text-sm text-brand-sub ml-0.5">件</span>
-                    </div>
-                  </div>
-                  <div className="bg-white rounded-xl shadow-sm p-3 lg:p-4 2xl:p-5 text-center">
-                    <img src="/icons/icon-stat-available.png" alt="" className="w-10 h-10 lg:w-12 lg:h-12 2xl:w-14 2xl:h-14 mx-auto" />
-                    <div className="text-xs lg:text-sm text-brand-sub mt-1 lg:mt-2">発売中</div>
-                    <div className="leading-tight mt-0.5 lg:mt-1">
-                      <span className="text-2xl lg:text-3xl 2xl:text-4xl font-bold text-brand-purple">{available}</span>
-                      <span className="text-xs lg:text-sm text-brand-sub ml-0.5">件</span>
-                    </div>
-                  </div>
-                  <div className="bg-white rounded-xl shadow-sm p-3 lg:p-4 2xl:p-5 text-center">
-                    <img src="/icons/icon-stat-total.png" alt="" className="w-10 h-10 lg:w-12 lg:h-12 2xl:w-14 2xl:h-14 mx-auto" />
-                    <div className="text-xs lg:text-sm text-brand-sub mt-1 lg:mt-2">全件数</div>
-                    <div className="leading-tight mt-0.5 lg:mt-1">
-                      <span className="text-2xl lg:text-3xl 2xl:text-4xl font-bold text-brand-pink">{total}</span>
-                      <span className="text-xs lg:text-sm text-brand-sub ml-0.5">件</span>
-                    </div>
+                <div className="flex flex-wrap items-center gap-2">
+                  <button
+                    onClick={() => setStatusTab("new")}
+                    className="flex items-center gap-1.5 bg-white rounded-full shadow-sm border border-cream-border pl-2 pr-3 py-1.5 cursor-pointer hover:border-brand-accent transition-colors"
+                  >
+                    <img src="/icons/icon-stat-new.png" alt="" className="w-6 h-6 lg:w-7 lg:h-7" />
+                    <span className="text-xs text-brand-sub">新作</span>
+                    <span className="text-base lg:text-lg font-bold text-brand-accent">{newCount}</span>
+                    <span className="text-xs text-brand-sub">件</span>
+                  </button>
+                  <button
+                    onClick={() => setStatusTab("available")}
+                    className="flex items-center gap-1.5 bg-white rounded-full shadow-sm border border-cream-border pl-2 pr-3 py-1.5 cursor-pointer hover:border-brand-accent transition-colors"
+                  >
+                    <img src="/icons/icon-stat-available.png" alt="" className="w-6 h-6 lg:w-7 lg:h-7" />
+                    <span className="text-xs text-brand-sub">発売中</span>
+                    <span className="text-base lg:text-lg font-bold text-brand-purple">{available}</span>
+                    <span className="text-xs text-brand-sub">件</span>
+                  </button>
+                  <div className="flex items-center gap-1.5 bg-white rounded-full shadow-sm border border-cream-border pl-2 pr-3 py-1.5">
+                    <img src="/icons/icon-stat-total.png" alt="" className="w-6 h-6 lg:w-7 lg:h-7" />
+                    <span className="text-xs text-brand-sub">全件数</span>
+                    <span className="text-base lg:text-lg font-bold text-brand-pink">{total}</span>
+                    <span className="text-xs text-brand-sub">件</span>
                   </div>
                 </div>
 
@@ -335,15 +352,15 @@ export default function HomePage() {
               </button>
             </div>
             <div className="mt-3 flex items-center gap-2 flex-wrap text-xs">
-              <span className="text-brand-sub">人気検索:</span>
-              {POPULAR_TAGS.map((tag) => (
-                <button
-                  key={tag}
-                  onClick={() => setSearchQuery(tag)}
-                  className="text-brand-accent hover:underline cursor-pointer bg-transparent border-none p-0"
+              <span className="text-brand-sub">人気キャラ:</span>
+              {POPULAR_CHARACTERS.map((c) => (
+                <Link
+                  key={c.slug}
+                  href={`/character/${c.slug}`}
+                  className="text-brand-accent hover:underline no-underline"
                 >
-                  #{tag}
-                </button>
+                  #{c.name}
+                </Link>
               ))}
             </div>
               </div>
