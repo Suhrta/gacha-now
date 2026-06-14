@@ -3261,7 +3261,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第1週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "ロックモチーフ めじるしアクセサリー",
@@ -4917,7 +4917,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 10
   },
   {
     "title": "ノンタン めじるしアクセサリー",
