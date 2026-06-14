@@ -99,9 +99,11 @@ export default function NewArrivalModal({ products, onOpenReceipt }) {
           <span className="font-sans" style={{ fontSize: 11, color: "#9B8978" }}>
             💰 {product.price}円
           </span>
-          <span className="font-sans" style={{ fontSize: 11, color: "#9B8978" }}>
-            🎯 全{product.types}種
-          </span>
+          {product.types ? (
+            <span className="font-sans" style={{ fontSize: 11, color: "#9B8978" }}>
+              🎯 全{product.types}種
+            </span>
+          ) : null}
           <span className="font-sans" style={{ fontSize: 11, color: "#9B8978" }}>
             📅 {product.releaseWeek}
           </span>

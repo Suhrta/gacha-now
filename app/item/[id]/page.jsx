@@ -11,13 +11,14 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const product = products.find((p) => p.id === params.id);
   if (!product) return { title: "商品が見つかりません | ガチャなう" };
+  const typesText = product.types ? `・全${product.types}種` : "";
   return {
-    title: `${product.name}｜¥${product.price}・全${product.types}種【${product.releaseWeek}発売】| ガチャなう`,
-    description: `${product.name}（${product.brand}）のカプセルトイ情報。¥${product.price}・全${product.types}種。${product.releaseWeek}発売予定。ラインナップ・取扱店舗をチェック。`,
+    title: `${product.name}｜¥${product.price}${typesText}【${product.releaseWeek}発売】| ガチャなう`,
+    description: `${product.name}（${product.brand}）のカプセルトイ情報。¥${product.price}${typesText}。${product.releaseWeek}発売予定。ラインナップ・取扱店舗をチェック。`,
     alternates: { canonical: `https://gacha-now.net/item/${product.id}` },
     openGraph: {
-      title: `${product.name}｜¥${product.price}・全${product.types}種【${product.releaseWeek}】`,
-      description: `${product.brand}のカプセルトイ「${product.name}」¥${product.price}・全${product.types}種 ── ${product.releaseWeek}発売`,
+      title: `${product.name}｜¥${product.price}${typesText}【${product.releaseWeek}】`,
+      description: `${product.brand}のカプセルトイ「${product.name}」¥${product.price}${typesText} ── ${product.releaseWeek}発売`,
       images: [product.img],
     },
   };
@@ -42,7 +43,7 @@ export default function ItemPage({ params }) {
     "@type": "Product",
     name: product.name,
     image: product.images && product.images.length > 0 ? product.images : (product.img ? [product.img] : undefined),
-    description: product.description || `${product.name}（全${product.types}種）のカプセルトイ新作情報。${product.releaseWeek}発売。`,
+    description: product.description || `${product.name}${product.types ? `（全${product.types}種）` : ""}のカプセルトイ新作情報。${product.releaseWeek}発売。`,
     brand: { "@type": "Brand", name: product.brand },
     offers: {
       "@type": "Offer",
@@ -116,7 +117,7 @@ export default function ItemPage({ params }) {
                   {p.name}
                 </div>
                 <div className="text-[10px] text-brand-sub mt-1">
-                  ¥{p.price}・全{p.types}種
+                  ¥{p.price}{p.types ? `・全${p.types}種` : ""}
                 </div>
               </Link>
             ))}

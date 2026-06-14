@@ -20,8 +20,8 @@ async function generateDescription(product) {
 
 商品名: ${product.name}
 ブランド: ${product.brand}
-価格: ${product.price}円
-種類数: 全${product.types}種
+価格: ${product.price}円${product.types ? `
+種類数: 全${product.types}種` : ""}
 
 紹介文だけを出力してください。`;
 

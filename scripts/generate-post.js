@@ -89,7 +89,7 @@ function generateCaption(product) {
   const lines = [
     `\ud83c\udfaa ${product.name}`,
     ``,
-    `\ud83d\udcb0 ${product.price}\u5186 / \u5168${product.types}\u7a2e`,
+    `\ud83d\udcb0 ${product.price}\u5186${product.types ? ` / \u5168${product.types}\u7a2e` : ""}`,
     `\ud83d\udcc5 ${product.releaseWeek || "\u767a\u58f2\u65e5\u672a\u5b9a"}`,
     ``,
     `\ud83d\udc46 \u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u306e\u30ea\u30f3\u30af\u304b\u3089\u65b0\u4f5c\u60c5\u5831\u3092\u30c1\u30a7\u30c3\u30af\uff01`,
@@ -107,7 +107,7 @@ function generateXCaption(product) {
   const lines = [
     `\ud83c\udfaa ${product.name}`,
     ``,
-    `\ud83d\udcb0 ${product.price}\u5186 / \u5168${product.types}\u7a2e`,
+    `\ud83d\udcb0 ${product.price}\u5186${product.types ? ` / \u5168${product.types}\u7a2e` : ""}`,
     `\ud83d\udcc5 ${product.releaseWeek || "\u767a\u58f2\u65e5\u672a\u5b9a"}`,
     ``,
     `gacha-now.net`,

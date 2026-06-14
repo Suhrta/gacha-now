@@ -31,7 +31,7 @@ async function generateArticle(products, existingTitles, existingSlugs) {
     .slice(0, 30);
 
   const productsSummary = recentProducts
-    .map((p) => `${p.name} (${p.brand}, ¥${p.price}, ${p.types}種, ${p.releaseWeek}) [ID: ${p.id}]`)
+    .map((p) => `${p.name} (${p.brand}, ¥${p.price}${p.types ? `, ${p.types}種` : ""}, ${p.releaseWeek}) [ID: ${p.id}]`)
     .join("\n");
 
   const today = new Date().toISOString().split("T")[0];

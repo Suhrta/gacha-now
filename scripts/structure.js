@@ -205,7 +205,7 @@ async function main() {
       brand: a.brand || "その他",
       brandSlug: toBrandSlug(a.brand || "その他"),
       price: a.price || 300,
-      types: a.types || 4,
+      types: a.types ?? null,
       releaseWeek: display || "未定",
       color: getBrandColor(a.brand || "その他"),
       hot: isHot(a.title, a.brand || "その他"),

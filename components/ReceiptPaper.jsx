@@ -298,7 +298,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
 
             {[
               { l: "価格", v: `¥${product.price}` },
-              { l: "種類", v: `全${product.types}種` },
+              ...(product.types ? [{ l: "種類", v: `全${product.types}種` }] : []),
               { l: "発売", v: product.releaseWeek },
             ].map((r) => (
               <div key={r.l} className="flex justify-between py-1.5 md:py-2 border-b border-dotted border-cream-border">

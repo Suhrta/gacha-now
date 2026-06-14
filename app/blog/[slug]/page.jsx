@@ -51,7 +51,7 @@ function ProductCard({ id }) {
           {p.name}
         </div>
         <div className="text-xs text-brand-sub mt-1">
-          {p.brand}・¥{p.price}・全{p.types}種
+          {p.brand}・¥{p.price}{p.types ? `・全${p.types}種` : ""}
         </div>
         <div className="text-xs text-brand-accent mt-1 font-bold">
           くわしく見る →

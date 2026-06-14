@@ -178,9 +178,11 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
               <span className="font-sans font-bold" style={{ color: "#FFFFFF", fontSize: 14, lineHeight: 1 }}>
                 {product.price}円
               </span>
-              <span className="font-sans" style={{ color: "rgba(255,255,255,0.9)", fontSize: 9, lineHeight: 1 }}>
-                全{product.types}種
-              </span>
+              {product.types ? (
+                <span className="font-sans" style={{ color: "rgba(255,255,255,0.9)", fontSize: 9, lineHeight: 1 }}>
+                  全{product.types}種
+                </span>
+              ) : null}
             </div>
           </div>
         </div>

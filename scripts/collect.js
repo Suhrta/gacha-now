@@ -20,6 +20,30 @@ import * as cheerio from "cheerio";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+// 「全○種」を抽出（全角数字にも対応）。取れなければ null
+function extractTypes(html) {
+  const m = html.match(/全\s*([0-9０-９]+)\s*種/);
+  if (!m) return null;
+  const half = m[1].replace(/[０-９]/g, (d) => String.fromCharCode(d.charCodeAt(0) - 0xfee0));
+  const n = parseInt(half, 10);
+  return Number.isFinite(n) && n > 0 && n <= 99 ? n : null;
+}
+
+// バンダイ詳細ページから種類数を取得（失敗時は null）
+async function fetchBandaiTypes(janCode) {
+  try {
+    const res = await fetch(`https://gashapon.jp/products/detail.php?jan_code=${janCode}`, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      },
+    });
+    if (!res.ok) return null;
+    return extractTypes(await res.text());
+  } catch {
+    return null;
+  }
+}
+
 // ========================================
 // ブランド判定マップ
 // ========================================
@@ -229,6 +253,10 @@ async function collectFromBandai() {
         const brand = detectBrand(name);
 
         if (name && name.length > 2 && !name.startsWith("*")) {
+          // 詳細ページから種類数を取得（一覧ページには載っていないため）
+          const types = await fetchBandaiTypes(janCode);
+          await new Promise((r) => setTimeout(r, 500)); // レート制限
+
           articles.push({
             title: name,
             url: `https://gashapon.jp/products/detail.php?jan_code=${janCode}`,
@@ -238,7 +266,7 @@ async function collectFromBandai() {
             price,
             releaseWeek,
             brand,
-            types: null,
+            types,
           });
         }
       }
