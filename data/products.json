@@ -1,5 +1,35 @@
 [
   {
+    "id": "tv--0e167088",
+    "name": "TVアニメ「黄泉のツガイ」 カプセルラバーマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 8,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968419000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-06-16T08:50:40.683Z"
+  },
+  {
     "id": "-yummy-food3-01d54654",
     "name": "トムとジェリー Yummy Foodコレクション3",
     "brand": "その他",

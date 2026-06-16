@@ -2565,7 +2565,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第5週",
     "brand": "サンリオ",
-    "types": 5
+    "types": null
   },
   {
     "title": "森チャック めじるしアクセサリー",
@@ -3888,7 +3888,7 @@
     "types": 16
   },
   {
-    "title": "黄泉のツガイ カプセルラバーマスコット",
+    "title": "TVアニメ「黄泉のツガイ」 カプセルラバーマスコット",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968419000",
     "source": "バンダイ公式",
     "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_1.jpg",
@@ -5403,9 +5403,9 @@
     "title": "【フラットガシャポン】miffy めじるしカップスリーブ",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769720307000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251614_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251614_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251614_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251614_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251614_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251614_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251614_4.jpg",
@@ -5715,9 +5715,9 @@
     "title": "葬送のフリーレン まちぼうけ2",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995514000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251531_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251531_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251531_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251531_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251531_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251531_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251531_4.jpg",
@@ -5907,9 +5907,9 @@
     "title": "＠CTION HEROES ウルトラマン 2",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770027853000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251519_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251519_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251519_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251519_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251519_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251519_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251519_4.jpg",
