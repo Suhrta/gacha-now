@@ -1,5 +1,187 @@
 [
   {
+    "id": "dx-ver-316a3d15",
+    "name": "だれでもアクリルチャームDX サッカー日本代表ver.",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 10,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770031676000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-06-17T08:33:16.877Z"
+  },
+  {
+    "id": "fig--2cd5bd2f",
+    "name": "肩ズンFig. 文豪ストレイドッグス",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093166_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093166_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093166",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-17T08:33:16.879Z"
+  },
+  {
+    "id": "peanuts--75c69200",
+    "name": "PEANUTS リラクシングバスタイム",
+    "brand": "スヌーピー",
+    "brandSlug": "snoopy",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e5b699",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903342_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903342_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903342",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-17T08:33:16.879Z"
+  },
+  {
+    "id": "gacha-7b33cc98",
+    "name": "むぎゅっと!ディズニープリンセス",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 3,
+    "releaseWeek": "発売中",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903717_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903717_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903717",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-17T08:33:16.879Z"
+  },
+  {
+    "id": "gacha-1c56e18c",
+    "name": "くまのプーさん コスチュームフィギュアマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906961_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906961_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906961",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-17T08:33:16.879Z"
+  },
+  {
+    "id": "gacha-0eca58c2",
+    "name": "ディズニーキャラクター テトラポーチコレクション",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902079_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902079_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902079",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-17T08:33:16.880Z"
+  },
+  {
+    "id": "-fig-44c4d9e0",
+    "name": "ベイマックス もぐもぐ!?Fig.",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902901_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902901_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902901",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-17T08:33:16.880Z"
+  },
+  {
+    "id": "-cutie-little-animals-50d3b058",
+    "name": "ディズニーキャラクター ファッションリング Cutie Little Animals",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "発売中",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903632_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903632_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903632",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-17T08:33:16.880Z"
+  },
+  {
+    "id": "aip-vol6-219d1b8c",
+    "name": "AIP ムーミン Vol.6",
+    "brand": "ムーミン",
+    "brandSlug": "moomin",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "6月 下旬",
+    "color": "#b899e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/06/AIP_Moomin6_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/06/AIP_Moomin6_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/aip_moomin6/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-06-17T08:33:16.880Z"
+  },
+  {
     "id": "tv--0e167088",
     "name": "TVアニメ「黄泉のツガイ」 カプセルラバーマスコット",
     "brand": "その他",
@@ -15412,96 +15594,5 @@
     "source": "キタンクラブ公式",
     "collectedAt": "2026-03-18T00:01:56.787Z",
     "description": "おしゃれな衣装を着た猫のぬいぐるみが300円で登場！全4種のかわいいコスチュームで、どの子がお迎えできるかはお楽しみです。"
-  },
-  {
-    "id": "metal-gear--78743950",
-    "name": "METAL GEAR まちぼうけ",
-    "brand": "まちぼうけ",
-    "brandSlug": "machiboke",
-    "price": 400,
-    "types": 4,
-    "releaseWeek": "3月 第4週",
-    "color": "#FFB74D",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246890_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968228000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-03-17T03:02:46.987Z",
-    "description": "あの伝説的ゲーム「メタルギア」がまちぼうけフィギュアで登場！潜入任務も一休みして、のんびり待機中のスネークたちに癒されちゃおう。"
-  },
-  {
-    "id": "fig--044c0ed5",
-    "name": "肩ズンFig. ハイキュー!! 制服 烏野・音駒",
-    "brand": "ハイキュー",
-    "brandSlug": "haikyu",
-    "price": 400,
-    "types": 4,
-    "releaseWeek": "3月 23日週",
-    "color": "#d5e599",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099144_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099144_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099144",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-17T03:02:46.988Z",
-    "description": "肩に乗せて応援団気分！烏野と音駒の制服姿が可愛すぎる肩ズンシリーズに、ハイキューのキャラたちが登場だよ。"
-  },
-  {
-    "id": "gacha-4efffc24",
-    "name": "でふぉラバ! ハイキュー!! めじるしガチャマスコット",
-    "brand": "ハイキュー",
-    "brandSlug": "haikyu",
-    "price": 300,
-    "types": 7,
-    "releaseWeek": "3月 23日週",
-    "color": "#d5e599",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903724_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903724_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903724",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-17T03:02:46.989Z",
-    "description": "人気キャラたちがでふぉるめ化されてラバーマスコットに登場！全7種のかわいいめじるしデザインで、バッグや鍵につけて一緒にお出かけしよう。"
-  },
-  {
-    "id": "gacha-2faa7974",
-    "name": "おめかし ねこちゃんぬいぐるみ",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 500,
-    "types": 4,
-    "releaseWeek": "3月 下旬",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/03/omekashineko_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/03/omekashineko_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/omekashi_nekochan/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-03-17T03:02:46.989Z",
-    "description": "ふわふわのねこちゃんがおしゃれに変身！可愛い衣装を着た4匹のねこぬいぐるみが、あなたのお部屋を癒しの空間にしてくれます。"
   }
 ]

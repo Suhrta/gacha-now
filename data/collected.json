@@ -4056,7 +4056,7 @@
     "types": 5
   },
   {
-    "title": "だれでもアクリルチャーム サッカー日本代表ver.",
+    "title": "だれでもアクリルチャームDX サッカー日本代表ver.",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770031676000",
     "source": "バンダイ公式",
     "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_1.jpg",
@@ -5352,30 +5352,6 @@
     "types": 18
   },
   {
-    "title": "サンリオキャラクターズ ミニ貯金箱 夢みるエンジェルver.",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118205582000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年6月 第4週",
-    "brand": "サンリオ",
-    "types": 3
-  },
-  {
     "title": "Lil ala mode めじるしアクセサリー3",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769709456000",
     "source": "バンダイ公式",
@@ -6192,6 +6168,30 @@
     "types": 4
   },
   {
+    "title": "サンリオキャラクターズ ミニ貯金箱 夢みるエンジェルver.",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118205582000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "未定",
+    "brand": "サンリオ",
+    "types": 3
+  },
+  {
     "title": "mofusand ライトマスコット",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769841842000",
     "source": "バンダイ公式",
@@ -6366,6 +6366,19 @@
     "types": 7
   },
   {
+    "title": "肩ズンFig. 文豪ストレイドッグス",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093166",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093166_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093166_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月 15日週",
+    "brand": "その他",
+    "types": 4
+  },
+  {
     "title": "地獄先生ぬ～べ～ 鬼の手マスコットコレクション",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099137",
     "source": "タカラトミーアーツ公式",
@@ -6403,6 +6416,19 @@
     "releaseWeek": "2026年6月 15日週",
     "brand": "その他",
     "types": 6
+  },
+  {
+    "title": "PEANUTS リラクシングバスタイム",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903342",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903342_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903342_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月 15日週",
+    "brand": "スヌーピー",
+    "types": 4
   },
   {
     "title": "芝犬ヶ丘",
@@ -6561,6 +6587,19 @@
     "types": 4
   },
   {
+    "title": "むぎゅっと!ディズニープリンセス",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903717",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903717_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903717_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月",
+    "brand": "ディズニー",
+    "types": 3
+  },
+  {
     "title": "ディズニーキャラクター2 推してねマスコット 推しマス! クリアラメプレート",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905971",
     "source": "タカラトミーアーツ公式",
@@ -6587,6 +6626,19 @@
     "types": 4
   },
   {
+    "title": "くまのプーさん コスチュームフィギュアマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906961",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906961_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906961_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月",
+    "brand": "その他",
+    "types": 6
+  },
+  {
     "title": "でふぉラバ! ディズニー ツイステッドワンダーランド ブルームバースデーvol.3",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907685",
     "source": "タカラトミーアーツ公式",
@@ -6610,6 +6662,45 @@
     "price": 300,
     "releaseWeek": "2026年6月",
     "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "ディズニーキャラクター テトラポーチコレクション",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902079",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902079_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902079_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
+    "title": "ベイマックス もぐもぐ!?Fig.",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902901",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902901_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902901_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "ディズニーキャラクター ファッションリング Cutie Little Animals",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903632",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903632_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903632_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年6月",
+    "brand": "ディズニー",
     "types": 6
   },
   {
@@ -9744,5 +9835,18 @@
     "releaseWeek": "2022年12月 上旬",
     "brand": "カービィ",
     "types": 5
+  },
+  {
+    "title": "AIP ムーミン Vol.6",
+    "url": "https://kitan.jp/products/aip_moomin6/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/06/AIP_Moomin6_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/06/AIP_Moomin6_DP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年6月 下旬",
+    "brand": "ムーミン",
+    "types": 4
   }
 ]
