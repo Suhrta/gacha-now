@@ -1,5 +1,24 @@
 [
   {
+    "id": "gacha-2faa7974",
+    "name": "おめかし ねこちゃんぬいぐるみ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/03/omekashineko_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/03/omekashineko_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/omekashi_nekochan/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-06-17T09:06:54.204Z"
+  },
+  {
     "id": "dx-ver-316a3d15",
     "name": "だれでもアクリルチャームDX サッカー日本代表ver.",
     "brand": "その他",
