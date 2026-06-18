@@ -1,5 +1,81 @@
 [
   {
+    "id": "gacha-37b1fba9",
+    "name": "ハローキティ なつかしアイテムミニチュアコレクション2",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "6月 22日週",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y085048_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y085048_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y085048",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-18T08:12:11.888Z"
+  },
+  {
+    "id": "gacha-46833195",
+    "name": "トミカキーホルダー 救急車両大集合スペシャル",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901577_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901577_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901577",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-18T08:12:11.888Z"
+  },
+  {
+    "id": "-37-73674811",
+    "name": "こむしちゃんのかんづめ! パート37",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 200,
+    "types": 8,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903953_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903953_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903953",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-18T08:12:11.888Z"
+  },
+  {
+    "id": "gacha-2acb53a9",
+    "name": "サンリオキャラクターズ ダンボールウォッチ3",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "6月 下旬",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://kitan.jp/wp-content/uploads/2026/06/sanriowatch3_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/06/sanriowatch3_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/sanrio_watch3/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-06-18T08:12:11.890Z"
+  },
+  {
     "id": "gacha-2faa7974",
     "name": "おめかし ねこちゃんぬいぐるみ",
     "brand": "その他",
@@ -15553,25 +15629,5 @@
     "source": "キタンクラブ公式",
     "collectedAt": "2026-03-19T03:02:35.152Z",
     "description": "500円で手に入るムーミンの癒し系マスコット第3弾が登場！全5種のふわふわキャラたちがあなたのバッグを可愛く彩ってくれます。"
-  },
-  {
-    "id": "-gr-supra-complete-edition-68850fe8",
-    "name": "ホビーガチャ トヨタ GR Supra -COMPLETE EDITION-",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 500,
-    "types": 7,
-    "releaseWeek": "3月 25日週",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903366_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903366_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903366",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-18T06:45:14.962Z",
-    "description": "トヨタの名車GR Supraが500円ガチャで登場！全7種のコンプリートエディションで、スポーツカーファン必見のラインナップが揃ってます。"
   }
 ]

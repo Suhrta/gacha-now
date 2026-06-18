@@ -6496,6 +6496,19 @@
     "types": 4
   },
   {
+    "title": "ハローキティ なつかしアイテムミニチュアコレクション2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y085048",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y085048_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y085048_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年6月 22日週",
+    "brand": "サンリオ",
+    "types": 4
+  },
+  {
     "title": "ホビーガチャ ワイルド・スピード MAX/MEGAMAX",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y087684",
     "source": "タカラトミーアーツ公式",
@@ -6574,6 +6587,19 @@
     "types": 4
   },
   {
+    "title": "トミカキーホルダー 救急車両大集合スペシャル",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901577",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901577_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901577_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年6月",
+    "brand": "トミカ",
+    "types": 5
+  },
+  {
     "title": "パンダの穴 わんわんおでん",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902185",
     "source": "タカラトミーアーツ公式",
@@ -6611,6 +6637,19 @@
     "releaseWeek": "2026年6月",
     "brand": "ディズニー",
     "types": 3
+  },
+  {
+    "title": "こむしちゃんのかんづめ! パート37",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903953",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903953_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903953_b.jpg"
+    ],
+    "price": 200,
+    "releaseWeek": "2026年6月",
+    "brand": "その他",
+    "types": 8
   },
   {
     "title": "ディズニーキャラクター2 推してねマスコット 推しマス! クリアラメプレート",
@@ -9848,5 +9887,18 @@
     "releaseWeek": "2026年6月 下旬",
     "brand": "ムーミン",
     "types": 4
+  },
+  {
+    "title": "サンリオキャラクターズ ダンボールウォッチ3",
+    "url": "https://kitan.jp/products/sanrio_watch3/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/06/sanriowatch3_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/06/sanriowatch3_DP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年6月 下旬",
+    "brand": "サンリオ",
+    "types": 5
   }
 ]
