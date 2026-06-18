@@ -15573,45 +15573,5 @@
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-03-18T06:45:14.962Z",
     "description": "トヨタの名車GR Supraが500円ガチャで登場！全7種のコンプリートエディションで、スポーツカーファン必見のラインナップが揃ってます。"
-  },
-  {
-    "id": "gacha-204f154f",
-    "name": "ハローキティ なつかしアイテムミニチュアコレクション",
-    "brand": "サンリオ",
-    "brandSlug": "sanrio",
-    "price": 300,
-    "types": 4,
-    "releaseWeek": "3月 25日週",
-    "color": "#F06292",
-    "hot": true,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y077906_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y077906_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y077906",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-03-18T00:01:56.786Z",
-    "description": "懐かしのハローキティグッズがミニチュアで復活！昭和レトロな雰囲気たっぷりのアイテムたちが、あの頃の思い出を蘇らせてくれます。"
-  },
-  {
-    "id": "dressedup-cat-plush-toy-3102edca",
-    "name": "Dressed-up Cat Plush Toy",
-    "brand": "New",
-    "brandSlug": "new",
-    "price": 300,
-    "types": 4,
-    "releaseWeek": "未定",
-    "color": "#c2e599",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/03/omekashineko_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/03/omekashineko_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/omekashi_nekochan/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-03-18T00:01:56.787Z",
-    "description": "おしゃれな衣装を着た猫のぬいぐるみが300円で登場！全4種のかわいいコスチュームで、どの子がお迎えできるかはお楽しみです。"
   }
 ]
