@@ -2853,7 +2853,7 @@
     "price": 200,
     "releaseWeek": "2026年5月 第5週",
     "brand": "たまごっち",
-    "types": null
+    "types": 6
   },
   {
     "title": "TVアニメ『ダンダダン』 ターボババア(招き猫)BIGソフビコレクション",
@@ -4341,7 +4341,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第3週",
     "brand": "その他",
-    "types": 10
+    "types": null
   },
   {
     "title": "【フラットガシャポン】ケロロ軍曹 マウスシートコレクション",
