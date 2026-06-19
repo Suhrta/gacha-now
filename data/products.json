@@ -1,5 +1,24 @@
 [
   {
+    "id": "whats-michael--4528981b",
+    "name": "What’s Michael？ アクリルキーホルダー",
+    "brand": "キャラクター",
+    "brandSlug": "brand-b6is9z",
+    "price": 400,
+    "types": 7,
+    "releaseWeek": "6月 下旬",
+    "color": "#d599e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/06/CP_WMacryl_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/06/CP_WMacryl_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/whatsmaichael_a/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-06-19T08:36:46.105Z"
+  },
+  {
     "id": "gacha-37b1fba9",
     "name": "ハローキティ なつかしアイテムミニチュアコレクション2",
     "brand": "サンリオ",
@@ -15609,25 +15628,5 @@
     "source": "キタンクラブ公式",
     "collectedAt": "2026-03-23T03:03:10.986Z",
     "description": "プニプニで癒し系のサメたちが全5種類で登場！500円でゲットできるキュートなぬいぐるみは、思わず全種類コンプしたくなっちゃう可愛さです。"
-  },
-  {
-    "id": "gacha-5028863a",
-    "name": "ムーミン ぬいぐるみマスコット３",
-    "brand": "ムーミン",
-    "brandSlug": "moomin",
-    "price": 500,
-    "types": 5,
-    "releaseWeek": "3月 下旬",
-    "color": "#b899e5",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/03/251205_MOOMINmascot3_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/03/251205_MOOMINmascot3_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/moomindoll3/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-03-19T03:02:35.152Z",
-    "description": "500円で手に入るムーミンの癒し系マスコット第3弾が登場！全5種のふわふわキャラたちがあなたのバッグを可愛く彩ってくれます。"
   }
 ]

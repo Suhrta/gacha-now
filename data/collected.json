@@ -2517,7 +2517,7 @@
     "price": 500,
     "releaseWeek": "2026年5月 第5週",
     "brand": "ワンピース",
-    "types": null
+    "types": 4
   },
   {
     "title": "お文具といっしょ ぬいぐるみマスコット２なのです",
@@ -5109,7 +5109,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "ディズニー",
-    "types": 5
+    "types": null
   },
   {
     "title": "まちぼうけ ハンバーガーショップの場合 その3",
@@ -5712,6 +5712,30 @@
     "types": 4
   },
   {
+    "title": "仮面にゃいだー その4",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995576000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月 第4週",
+    "brand": "その他",
+    "types": 4
+  },
+  {
     "title": "モンチッチ ぬいぐるみミラーチャーム",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026580000",
     "source": "バンダイ公式",
@@ -5835,9 +5859,9 @@
     "title": "【フラットガシャポン】ナルミヤキャラクターズ おりたたみポーチ",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770027464000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251609_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251609_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251609_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251609_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251609_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251609_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251609_4.jpg",
@@ -6048,54 +6072,6 @@
     "types": 5
   },
   {
-    "title": "ほっぺちゃん ライトマスコット",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184955000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 第4週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "仮面にゃいだー その4",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995576000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251590_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 第4週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
     "title": "にゃんこ大戦争 ふわふわマスコット",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770053845000",
     "source": "バンダイ公式",
@@ -6142,6 +6118,30 @@
     "releaseWeek": "未定",
     "brand": "その他",
     "types": 8
+  },
+  {
+    "title": "ほっぺちゃん ライトマスコット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184955000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "未定",
+    "brand": "その他",
+    "types": 4
   },
   {
     "title": "【フラットガシャポン】aespa designed by 田中かえ ミラーコレクション",
@@ -9900,5 +9900,18 @@
     "releaseWeek": "2026年6月 下旬",
     "brand": "サンリオ",
     "types": 5
+  },
+  {
+    "title": "What’s Michael？ アクリルキーホルダー",
+    "url": "https://kitan.jp/products/whatsmaichael_a/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/06/CP_WMacryl_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/06/CP_WMacryl_DP.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月 下旬",
+    "brand": "キャラクター",
+    "types": 7
   }
 ]
