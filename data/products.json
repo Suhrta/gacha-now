@@ -1,5 +1,24 @@
 [
   {
+    "id": "gacha-5028863a",
+    "name": "ムーミン ぬいぐるみマスコット３",
+    "brand": "ムーミン",
+    "brandSlug": "moomin",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#b899e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/03/251205_MOOMINmascot3_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/03/251205_MOOMINmascot3_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/moomindoll3/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-06-19T12:21:01.955Z"
+  },
+  {
     "id": "whats-michael--4528981b",
     "name": "What’s Michael？ アクリルキーホルダー",
     "brand": "キャラクター",
