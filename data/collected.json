@@ -861,7 +861,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "ノンタン パッケージミニチュアコレクション",
@@ -957,7 +957,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 10
   },
   {
     "title": "キン肉マン キンケシ27",
