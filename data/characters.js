@@ -16,6 +16,12 @@ export const CHARACTERS = [
   { slug: "spongebob", name: "スポンジ・ボブ", pattern: "スポンジ・?ボブ" },
   { slug: "conan", name: "名探偵コナン", pattern: "名探偵コナン|コナン" },
   { slug: "obungu", name: "お文具といっしょ", pattern: "お文具" },
+  { slug: "higuchi-yuko", name: "ヒグチユウコ", pattern: "ヒグチユウコ" },
+  { slug: "madoka", name: "魔法少女まどか☆マギカ", pattern: "まどか☆マギカ|まどマギ" },
+  { slug: "ccsakura", name: "カードキャプターさくら", pattern: "カードキャプターさくら" },
+  { slug: "saint-seiya", name: "聖闘士星矢", pattern: "聖闘士星矢" },
+  { slug: "hololive", name: "ホロライブ", pattern: "ホロライブ" },
+  { slug: "predator", name: "プレデター", pattern: "プレデター" },
 ];
 
 export function getCharacterBySlug(slug) {
