@@ -1821,7 +1821,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "ACE ミニチュアトランク",
@@ -6522,6 +6522,19 @@
     "types": 4
   },
   {
+    "title": "スタジオUG にしむらゆうじ すってんころりんフィギュア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093326",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093326_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093326_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月 22日週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
     "title": "ポケモン まんぷくぱくぱくマスコット4",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099588",
     "source": "タカラトミーアーツ公式",
@@ -6613,6 +6626,19 @@
     "types": 5
   },
   {
+    "title": "サンリオキャラクターズ おみみでぶらりんマスコット みみハートコレクション",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903069",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903069_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903069_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年6月",
+    "brand": "サンリオ",
+    "types": 5
+  },
+  {
     "title": "ポケモン ぎらぎらサンシャイン5",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903311",
     "source": "タカラトミーアーツ公式",
@@ -6637,6 +6663,19 @@
     "releaseWeek": "2026年6月",
     "brand": "ディズニー",
     "types": 3
+  },
+  {
+    "title": "ポムポムプリン わんわんパラダイスマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903915",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903915_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903915_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年6月",
+    "brand": "サンリオ",
+    "types": 5
   },
   {
     "title": "こむしちゃんのかんづめ! パート37",
@@ -6665,6 +6704,19 @@
     "types": 4
   },
   {
+    "title": "サンリオキャラクターズ ファッションリング オーロラコレクション",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906664",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906664_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906664_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年6月 22日週",
+    "brand": "サンリオ",
+    "types": 10
+  },
+  {
     "title": "リロ&スティッチ コスチュームフィギュアマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906770",
     "source": "タカラトミーアーツ公式",
@@ -6689,6 +6741,19 @@
     "releaseWeek": "2026年6月",
     "brand": "その他",
     "types": 6
+  },
+  {
+    "title": "サンリオキャラクターズ 星色天使チャーム キャンディピンクver.",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907654",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907654_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907654_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年6月",
+    "brand": "サンリオ",
+    "types": 5
   },
   {
     "title": "でふぉラバ! ディズニー ツイステッドワンダーランド ブルームバースデーvol.3",
@@ -6767,6 +6832,19 @@
     "releaseWeek": "2026年6月 29日週",
     "brand": "ディズニー",
     "types": 6
+  },
+  {
+    "title": "Nobism のびズム -めじるしガチャマスコット-",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907494",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907494_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907494_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年6月 29日週",
+    "brand": "その他",
+    "types": 5
   },
   {
     "title": "What’s Michael？ アクリルキーホルダー",
@@ -9913,5 +9991,18 @@
     "releaseWeek": "2022年12月 上旬",
     "brand": "カービィ",
     "types": 5
+  },
+  {
+    "title": "ひまのかたまり ひま太郎 毛糸であそぼうフィギュア",
+    "url": "https://kitan.jp/products/himataro_figure/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/06/dd8c7e1eb96540b7db4d5f4b71186fc3.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/06/dd8c7e1eb96540b7db4d5f4b71186fc3.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年6月 下旬",
+    "brand": "キャラクター",
+    "types": 4
   }
 ]

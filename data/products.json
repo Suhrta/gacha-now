@@ -1,5 +1,138 @@
 [
   {
+    "id": "ug--6603c0b8",
+    "name": "スタジオUG にしむらゆうじ すってんころりんフィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093326_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093326_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093326",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-22T09:02:55.239Z"
+  },
+  {
+    "id": "gacha-31a575b3",
+    "name": "サンリオキャラクターズ おみみでぶらりんマスコット みみハートコレクション",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903069_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903069_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903069",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-22T09:02:55.240Z"
+  },
+  {
+    "id": "gacha-4277913e",
+    "name": "ポムポムプリン わんわんパラダイスマスコット",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903915_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903915_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903915",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-22T09:02:55.240Z"
+  },
+  {
+    "id": "gacha-586d9c23",
+    "name": "サンリオキャラクターズ ファッションリング オーロラコレクション",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 10,
+    "releaseWeek": "発売中",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906664_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906664_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906664",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-22T09:02:55.240Z"
+  },
+  {
+    "id": "-ver-509e960a",
+    "name": "サンリオキャラクターズ 星色天使チャーム キャンディピンクver.",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907654_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907654_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907654",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-22T09:02:55.240Z"
+  },
+  {
+    "id": "nobism--7864e1b5",
+    "name": "Nobism のびズム -めじるしガチャマスコット-",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "6月 29日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907494_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907494_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907494",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-22T09:02:55.240Z"
+  },
+  {
+    "id": "gacha-3a398159",
+    "name": "ひまのかたまり ひま太郎 毛糸であそぼうフィギュア",
+    "brand": "キャラクター",
+    "brandSlug": "brand-b6is9z",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "6月 下旬",
+    "color": "#d599e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/06/dd8c7e1eb96540b7db4d5f4b71186fc3.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/06/dd8c7e1eb96540b7db4d5f4b71186fc3.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/himataro_figure/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-06-22T09:02:55.241Z"
+  },
+  {
     "id": "gacha-5028863a",
     "name": "ムーミン ぬいぐるみマスコット３",
     "brand": "ムーミン",
