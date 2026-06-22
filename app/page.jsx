@@ -12,6 +12,9 @@ import { CHARACTERS } from "../data/characters";
 import { getAllReleaseMonths, formatYearMonth } from "../lib/release";
 
 const ITEMS_PER_PAGE = 20;
+// 自動読み込みは最初の数バッチまで。それ以降は「もっと見る」ボタンに切り替え、
+// 下部のキャラ・メーカー・発売月ナビへ到達できるようにする
+const AUTO_LOAD_MAX = ITEMS_PER_PAGE * 3; // 60件まで自動、以降は手動
 const RELEASE_MONTHS = getAllReleaseMonths(products);
 
 const PRIORITY_BRANDS = ["サンリオ", "たまごっち", "ちいかわ", "ポケモン"];
@@ -427,7 +430,8 @@ export default function HomePage() {
           ))}
         </div>
 
-        {(hasMore || loading) && (
+        {/* 60件までは自動読み込み（スクロール検知） */}
+        {hasMore && visibleCount < AUTO_LOAD_MAX && (
           <div ref={loaderRef} className="flex flex-col items-center py-6 gap-2">
             <div className="flex gap-3">
               <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0s", color: "#F5A8A2" }}>●</span>
@@ -437,6 +441,18 @@ export default function HomePage() {
             <div className="font-sans text-sm text-brand-sub" style={{ animation: "pulse 1.5s ease-in-out infinite" }}>
               Loading...
             </div>
+          </div>
+        )}
+
+        {/* 60件以降は手動ボタン（自動で下に伸び続けるのを止め、下部ナビへ到達できるように） */}
+        {hasMore && visibleCount >= AUTO_LOAD_MAX && (
+          <div className="flex justify-center py-6">
+            <button
+              onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE * 2)}
+              className="px-6 py-2.5 bg-white border border-cream-border rounded-full text-sm font-bold text-brand-text hover:border-brand-accent transition-colors cursor-pointer"
+            >
+              もっと見る（残り{filtered.length - visibleCount}件）
+            </button>
           </div>
         )}
 
