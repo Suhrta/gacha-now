@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ReceiptPaper from "../../../components/ReceiptPaper";
+import Breadcrumb from "../../../components/Breadcrumb";
 import products from "../../../data/products.json";
 import { charactersForProduct } from "../../../data/characters";
 import { isReleased, getReleaseYearMonth, formatYearMonth } from "../../../lib/release";
@@ -87,9 +88,13 @@ export default function ItemPage({ params }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
       <div className="px-4 pt-4">
-        <Link href="/" className="font-pixel text-[10px] text-brand-sub no-underline hover:text-brand-accent transition-colors">
-          ← トップにもどる
-        </Link>
+        <Breadcrumb
+          items={[
+            { name: "ホーム", href: "/" },
+            { name: product.brand, href: `/brand/${product.brandSlug}` },
+            { name: product.name },
+          ]}
+        />
       </div>
       <ReceiptPaper product={product} isPage={true} />
 

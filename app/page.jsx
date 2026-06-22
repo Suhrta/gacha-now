@@ -33,6 +33,18 @@ function getSortedBrands() {
 
 const BRANDS = getSortedBrands();
 
+// ブランド別ページ（/brand/[slug]）への導線。2件以上あるブランドを商品数順に
+const BRAND_LINKS = Object.values(
+  products.reduce((acc, p) => {
+    if (!p.brandSlug || p.brand === "その他") return acc;
+    if (!acc[p.brandSlug]) acc[p.brandSlug] = { slug: p.brandSlug, name: p.brand, count: 0 };
+    acc[p.brandSlug].count += 1;
+    return acc;
+  }, {})
+)
+  .filter((b) => b.count >= 2)
+  .sort((a, b) => b.count - a.count);
+
 function getLiveCounts() {
   let available = 0;
   let newCount = 0;
@@ -468,6 +480,21 @@ export default function HomePage() {
                 className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
               >
                 {formatYearMonth(m)}発売
+              </Link>
+            ))}
+          </div>
+
+          <h2 className="text-xl font-bold text-brand-text flex items-center gap-2 mt-6 mb-3">
+            <span>🏭</span> メーカー・ブランドから探す
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {BRAND_LINKS.map((b) => (
+              <Link
+                key={b.slug}
+                href={`/brand/${b.slug}`}
+                className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
+              >
+                {b.name}
               </Link>
             ))}
           </div>

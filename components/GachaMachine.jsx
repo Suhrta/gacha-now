@@ -59,6 +59,7 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
         }}>
           {hasImage ? (
             <img src={product.img} alt={product.name} className="w-full block"
+              loading="lazy" decoding="async"
               style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />
           ) : (
             <div className="w-full flex items-center justify-center" style={{ aspectRatio: "1/1", background: "#F9FAFB" }}>

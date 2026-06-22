@@ -5,6 +5,7 @@ import Link from "next/link";
 import GachaMachine from "../../../components/GachaMachine";
 import ReceiptPaper from "../../../components/ReceiptPaper";
 import Footer from "../../../components/Footer";
+import Breadcrumb from "../../../components/Breadcrumb";
 import products from "../../../data/products.json";
 import { CHARACTERS, getCharacterBySlug, filterProductsByCharacter } from "../../../data/characters";
 
@@ -36,6 +37,14 @@ export default function CharacterPage() {
       <main className="px-2.5 pt-3 pb-20 relative" style={{ minHeight: "calc(100vh - 120px)" }}>
         <div className="absolute inset-0 pointer-events-none opacity-50"
           style={{ backgroundImage: "radial-gradient(circle, #F0E6D6 1px, transparent 1px)", backgroundSize: "20px 20px" }} />
+
+        <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: `${name}のガチャ` }]} />
+
+        {items.length > 0 && (
+          <p className="text-xs text-brand-sub leading-relaxed mb-3 px-1 relative z-[1]">
+            {name}のガチャガチャ・カプセルトイ最新情報まとめ。{name}の新作{items.length}件を価格・種類数・発売日つきで毎日更新中。気になる{name}の新作カプセルトイをチェックしよう。
+          </p>
+        )}
 
         <div className="font-pixel text-[10px] text-brand-sub mb-2.5 px-1 relative">
           {items.length}けん
