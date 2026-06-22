@@ -14,7 +14,7 @@ export function generateMetadata({ params }) {
 
   return {
     title: `${label}発売のガチャガチャ新作一覧【${count}件】| ガチャなう`,
-    description: `${label}発売のカプセルトイ・ガチャガチャ新作${count}件を一覧でチェック。価格・種類数・発売週つき。毎日自動更新。`,
+    description: `${label}発売のカプセルトイ・ガチャガチャ新作${count}件を一覧でチェック。価格・種類数・発売週つき。毎日更新。`,
     alternates: { canonical: `https://gacha-now.net/release/${params.month}` },
     openGraph: {
       title: `${label}発売のガチャガチャ新作一覧【${count}件】`,

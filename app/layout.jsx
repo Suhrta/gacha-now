@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL("https://gacha-now.net"),
   title: "ガチャなう｜ガチャガチャ・カプセルトイ新作・最新情報【毎日更新・2026年】",
   description:
-    "毎日自動更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。バンダイ・タカラトミーアーツ・キタンクラブなど人気メーカー対応。サンリオ・ちいかわ・ポケモンなど話題のカプセルトイを発売日・価格・ブランド別に探せます。",
+    "毎日更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。バンダイ・タカラトミーアーツ・キタンクラブなど人気メーカー対応。サンリオ・ちいかわ・ポケモンなど話題のカプセルトイを発売日・価格・ブランド別に探せます。",
   keywords: [
     "ガチャガチャ", "カプセルトイ", "新作", "ガチャなう",
     "ガシャポン", "バンダイ", "タカラトミーアーツ", "キタンクラブ",
@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: "ガチャなう｜ガチャガチャ・カプセルトイ新作・最新情報【毎日更新・2026年】",
     description:
-      "毎日自動更新！300件以上のカプセルトイ新作情報を発売日・価格・ブランド別にチェック。",
+      "毎日更新！300件以上のカプセルトイ新作情報を発売日・価格・ブランド別にチェック。",
     type: "website",
     locale: "ja_JP",
     url: "https://gacha-now.net",
@@ -29,7 +29,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "ガチャなう｜ガチャガチャ・カプセルトイ新作・最新情報【毎日更新・2026年】",
     description:
-      "毎日自動更新！300件以上のカプセルトイ新作情報を発売日・価格・ブランド別にチェック。",
+      "毎日更新！300件以上のカプセルトイ新作情報を発売日・価格・ブランド別にチェック。",
   },
   robots: { index: true, follow: true },
 };
@@ -69,7 +69,7 @@ export default function RootLayout({ children }) {
               alternateName: ["ガチャなう｜カプセルトイ・ガチャガチャ新作情報", "gacha-now", "gacha now"],
               url: "https://gacha-now.net",
               description:
-                "毎日自動更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。",
+                "毎日更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。",
               inLanguage: "ja",
               potentialAction: {
                 "@type": "SearchAction",

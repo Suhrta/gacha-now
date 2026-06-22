@@ -12,7 +12,7 @@ export function generateMetadata({ params }) {
 
   return {
     title: `${character.name}のガチャガチャ新作・最新情報【2026年】| ガチャなう`,
-    description: `${character.name}のカプセルトイ・ガチャガチャ新作${count}件を一覧でチェック。価格・種類数・発売日つき。毎日自動更新。`,
+    description: `${character.name}のカプセルトイ・ガチャガチャ新作${count}件を一覧でチェック。価格・種類数・発売日つき。毎日更新。`,
     alternates: { canonical: `https://gacha-now.net/character/${params.slug}` },
     openGraph: {
       title: `${character.name}のガチャガチャ新作・最新情報【2026年】`,

@@ -262,7 +262,7 @@ export default function HomePage() {
               <div className="flex-1 min-w-0">
                 {LAST_UPDATED && (
                   <div className="inline-flex items-center gap-1.5 bg-white/80 border border-cream-border rounded-full px-3 py-1 text-[11px] text-brand-sub mb-3">
-                    <span>✨</span> 毎日自動更新｜最終更新 {LAST_UPDATED}
+                    <span>✨</span> 毎日更新｜最終更新 {LAST_UPDATED}
                   </div>
                 )}
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-brand-text leading-tight break-keep">
