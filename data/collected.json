@@ -3237,7 +3237,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第1週",
     "brand": "プリキュア",
-    "types": 4
+    "types": null
   },
   {
     "title": "【フラットガシャポン】カードキャプターさくら ネイルシール",
@@ -3285,7 +3285,7 @@
     "price": 200,
     "releaseWeek": "2026年6月 第1週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "プリキュアオールスターズ ミニチュアライトセレクション２",
@@ -3453,7 +3453,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第2週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "モリゾーとキッコロ めじるしアクセサリー",
@@ -3957,7 +3957,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 10
   },
   {
     "title": "まちぼうけ スーパー戦隊のおともだち",
@@ -5733,7 +5733,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第4週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 4
   },
   {
     "title": "仮面にゃいだー その4",
@@ -5901,7 +5901,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
-    "types": 8
+    "types": null
   },
   {
     "title": "【フラットガシャポン】ナルミヤキャラクターズ おりたたみポーチ",

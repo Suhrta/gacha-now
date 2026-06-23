@@ -1,5 +1,24 @@
 [
   {
+    "id": "gacha-2869fec9",
+    "name": "かわいい かわいい ぬいぐるみ サメ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/03/KKN_same_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/03/KKN_same_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/kkn_shark/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-06-23T09:07:12.068Z"
+  },
+  {
     "id": "gacha-4b259cf7",
     "name": "とっとこハム太郎 まちぼうけ2",
     "brand": "まちぼうけ",
