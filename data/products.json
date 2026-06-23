@@ -1,5 +1,24 @@
 [
   {
+    "id": "joguman--7b7aa1b5",
+    "name": "JOGUMAN もふもふポーシェット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904264_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904264_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904264",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-06-23T23:52:13.110Z"
+  },
+  {
     "id": "gacha-2869fec9",
     "name": "かわいい かわいい ぬいぐるみ サメ",
     "brand": "その他",

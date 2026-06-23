@@ -69,7 +69,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 4
   },
   {
     "title": "めじるしアクセサリー miffy 70th anniversary Ver",
@@ -2517,7 +2517,7 @@
     "price": 500,
     "releaseWeek": "2026年5月 第5週",
     "brand": "ワンピース",
-    "types": 4
+    "types": null
   },
   {
     "title": "お文具といっしょ ぬいぐるみマスコット２なのです",
@@ -4893,7 +4893,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 10
   },
   {
     "title": "ノンタン めじるしアクセサリー",
@@ -6489,6 +6489,19 @@
     "price": 400,
     "releaseWeek": "2026年6月 15日週",
     "brand": "スヌーピー",
+    "types": 4
+  },
+  {
+    "title": "JOGUMAN もふもふポーシェット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904264",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904264_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904264_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月 15日週",
+    "brand": "その他",
     "types": 4
   },
   {
