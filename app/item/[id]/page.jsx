@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import ReceiptPaper from "../../../components/ReceiptPaper";
 import Breadcrumb from "../../../components/Breadcrumb";
 import products from "../../../data/products.json";
@@ -8,6 +9,10 @@ import { isReleased, getReleaseYearMonth, formatYearMonth } from "../../../lib/r
 export function generateStaticParams() {
   return products.map((p) => ({ id: p.id }));
 }
+
+// 削除済み商品など未知のIDは200の「みつかりません」画面ではなく
+// 本物の404を返す（ソフト404を防ぐ）
+export const dynamicParams = false;
 
 export function generateMetadata({ params }) {
   const product = products.find((p) => p.id === params.id);
@@ -28,16 +33,7 @@ export function generateMetadata({ params }) {
 export default function ItemPage({ params }) {
   const product = products.find((p) => p.id === params.id);
 
-  if (!product) {
-    return (
-      <div className="text-center py-20">
-        <div className="font-pixel text-[10px] text-brand-sub mb-4">😢 みつかりません</div>
-        <Link href="/" className="font-pixel text-[11px] text-brand-accent no-underline">
-          ← トップにもどる
-        </Link>
-      </div>
-    );
-  }
+  if (!product) notFound();
 
   const productLd = {
     "@context": "https://schema.org",
