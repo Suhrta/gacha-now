@@ -69,7 +69,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第2週",
     "brand": "その他",
-    "types": 4
+    "types": null
   },
   {
     "title": "めじるしアクセサリー miffy 70th anniversary Ver",
@@ -3237,7 +3237,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第1週",
     "brand": "プリキュア",
-    "types": null
+    "types": 4
   },
   {
     "title": "【フラットガシャポン】カードキャプターさくら ネイルシール",
@@ -3453,7 +3453,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "モリゾーとキッコロ めじるしアクセサリー",
@@ -4893,7 +4893,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "サンリオ",
-    "types": 10
+    "types": null
   },
   {
     "title": "ノンタン めじるしアクセサリー",
@@ -5901,7 +5901,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 8
   },
   {
     "title": "【フラットガシャポン】ナルミヤキャラクターズ おりたたみポーチ",
