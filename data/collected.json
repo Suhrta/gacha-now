@@ -93,7 +93,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "ホロライブ おなまえぷっくりラバーマスコット1",
@@ -789,7 +789,7 @@
     "price": 500,
     "releaseWeek": "2026年5月 第3週",
     "brand": "まどか☆マギカ",
-    "types": null
+    "types": 5
   },
   {
     "title": "水森亜土 めじるしアクセサリー",
@@ -1053,7 +1053,7 @@
     "price": 500,
     "releaseWeek": "2026年5月 第3週",
     "brand": "いきもの大図鑑",
-    "types": null
+    "types": 6
   },
   {
     "title": "【フラットガシャポン】たまごっち マウスシートコレクション",
@@ -1677,7 +1677,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 12
   },
   {
     "title": "Esther Bunny（エスターバニー） さくらんぼスイング",
@@ -1965,7 +1965,7 @@
     "price": 500,
     "releaseWeek": "2026年5月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 8
   },
   {
     "title": "ポンデクルール スーパーマリオ マルチカラーパウダー",
@@ -2397,7 +2397,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第5週",
     "brand": "ポケモン",
-    "types": null
+    "types": 6
   },
   {
     "title": "beco+81 パッケージミニチュアコレクション",
@@ -2781,7 +2781,7 @@
     "price": 500,
     "releaseWeek": "2026年5月 第5週",
     "brand": "カービィ",
-    "types": null
+    "types": 4
   },
   {
     "title": "サンリオキャラクターズ ジェリーデコバンド",
@@ -3261,7 +3261,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第1週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "ロックモチーフ めじるしアクセサリー",
@@ -5853,7 +5853,7 @@
     "price": 600,
     "releaseWeek": "2026年6月 第4週",
     "brand": "ポケモン",
-    "types": null
+    "types": 4
   },
   {
     "title": "ポケットモンスター スピンアクリルスイング ～メガシンカ～",
