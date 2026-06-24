@@ -93,7 +93,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第2週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "ホロライブ おなまえぷっくりラバーマスコット1",
@@ -789,7 +789,7 @@
     "price": 500,
     "releaseWeek": "2026年5月 第3週",
     "brand": "まどか☆マギカ",
-    "types": 5
+    "types": null
   },
   {
     "title": "水森亜土 めじるしアクセサリー",
@@ -1053,7 +1053,7 @@
     "price": 500,
     "releaseWeek": "2026年5月 第3週",
     "brand": "いきもの大図鑑",
-    "types": 6
+    "types": null
   },
   {
     "title": "【フラットガシャポン】たまごっち マウスシートコレクション",
@@ -1677,7 +1677,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第4週",
     "brand": "その他",
-    "types": 12
+    "types": null
   },
   {
     "title": "Esther Bunny（エスターバニー） さくらんぼスイング",
@@ -1965,7 +1965,7 @@
     "price": 500,
     "releaseWeek": "2026年5月 第4週",
     "brand": "その他",
-    "types": 8
+    "types": null
   },
   {
     "title": "ポンデクルール スーパーマリオ マルチカラーパウダー",
@@ -2397,7 +2397,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第5週",
     "brand": "ポケモン",
-    "types": 6
+    "types": null
   },
   {
     "title": "beco+81 パッケージミニチュアコレクション",
@@ -2781,7 +2781,7 @@
     "price": 500,
     "releaseWeek": "2026年5月 第5週",
     "brand": "カービィ",
-    "types": 4
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ ジェリーデコバンド",
@@ -5328,6 +5328,30 @@
     "types": 18
   },
   {
+    "title": "Disney Princess コスチュームめじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118205483000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年6月 第4週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
     "title": "Lil ala mode めじるしアクセサリー3",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769709456000",
     "source": "バンダイ公式",
@@ -5829,7 +5853,7 @@
     "price": 600,
     "releaseWeek": "2026年6月 第4週",
     "brand": "ポケモン",
-    "types": 4
+    "types": null
   },
   {
     "title": "ポケットモンスター スピンアクリルスイング ～メガシンカ～",
@@ -5878,30 +5902,6 @@
     "releaseWeek": "2026年6月 第4週",
     "brand": "ポケモン",
     "types": 10
-  },
-  {
-    "title": "SKZOO めじるしアクセサリー ソロキャンプ",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026856000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 第4週",
-    "brand": "その他",
-    "types": 8
   },
   {
     "title": "【フラットガシャポン】ナルミヤキャラクターズ おりたたみポーチ",
@@ -6096,6 +6096,30 @@
     "types": 12
   },
   {
+    "title": "SKZOO めじるしアクセサリー ソロキャンプ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026856000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251618_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年6月 第5週",
+    "brand": "その他",
+    "types": 8
+  },
+  {
     "title": "LOVOT [らぼっと] めじるしアクセサリー",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769682148000",
     "source": "バンダイ公式",
@@ -6115,7 +6139,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000215050_12.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年6月 第4週",
+    "releaseWeek": "2026年6月 第5週",
     "brand": "その他",
     "types": 5
   },
@@ -6123,9 +6147,9 @@
     "title": "SKZOO ベーカリーチャーム",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184290000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000246653_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000246653_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246653_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246653_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000246653_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000246653_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000246653_4.jpg",
@@ -10077,6 +10101,19 @@
     "price": 500,
     "releaseWeek": "2022年12月 上旬",
     "brand": "カービィ",
+    "types": 5
+  },
+  {
+    "title": "えんぴつけずり森の家® ミニチュアマスコット",
+    "url": "https://kitan.jp/products/morinoie_enpitsu/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/06/morinoie_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/06/morinoie_DP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年6月 下旬",
+    "brand": "その他",
     "types": 5
   }
 ]
