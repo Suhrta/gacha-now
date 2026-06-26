@@ -54,11 +54,27 @@ export default function AboutPage() {
             ▶ おといあわせ
           </h2>
           <p className="font-pixel text-[10px] text-brand-text leading-[2.4]">
-            ご意見・ご要望・掲載に関するお問い合わせは、Instagram DM または以下のメールアドレスまでお願いします。
+            ご意見・ご要望・掲載内容の修正/削除に関するお問い合わせは、お問い合わせページよりお気軽にご連絡ください。
           </p>
-          <div className="mt-2 font-pixel text-[10px] text-brand-accent">
-            📧 info@gacha-now.com
-          </div>
+          <Link
+            href="/contact"
+            className="inline-block mt-3 px-4 py-2 bg-brand-accent text-white font-pixel text-[10px] rounded-lg no-underline"
+            style={{ boxShadow: "0 3px 0 #C5534D, 0 4px 12px #E8756D33" }}
+          >
+            ✉ お問い合わせフォームへ
+          </Link>
+        </section>
+
+        <section className="bg-white rounded-xl border-2 border-cream-border p-4" style={{ boxShadow: "0 4px 16px rgba(74,55,40,0.06)" }}>
+          <h2 className="font-pixel text-[12px] text-brand-accent mb-3 pb-2 border-b-2 border-dashed border-cream-border">
+            ▶ うんえいしゃ じょうほう
+          </h2>
+          <p className="font-pixel text-[10px] text-brand-text leading-[2.4]">
+            運営者・情報の出典・運営方針については運営者情報ページをご覧ください。
+          </p>
+          <Link href="/operator" className="inline-block mt-2 font-pixel text-[10px] text-brand-accent no-underline">
+            → 運営者情報を見る
+          </Link>
         </section>
       </div>
 

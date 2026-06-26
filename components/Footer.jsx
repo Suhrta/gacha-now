@@ -10,12 +10,22 @@ export default function Footer() {
           <span className="text-sm font-bold text-brand-text">ガチャなう</span>
           <span className="text-[10px] text-brand-sub">© 2026 Gacha Now · Amazonアソシエイト参加中</span>
         </div>
-        <Link
-          href="/privacy"
-          className="text-xs text-brand-sub hover:text-brand-text transition-colors no-underline shrink-0"
-        >
-          プライバシーポリシー
-        </Link>
+        <nav className="flex items-center gap-x-4 gap-y-1 flex-wrap shrink-0">
+          {[
+            { href: "/about", label: "このサイトについて" },
+            { href: "/operator", label: "運営者情報" },
+            { href: "/contact", label: "お問い合わせ" },
+            { href: "/privacy", label: "プライバシーポリシー" },
+          ].map((l) => (
+            <Link
+              key={l.href}
+              href={l.href}
+              className="text-xs text-brand-sub hover:text-brand-text transition-colors no-underline"
+            >
+              {l.label}
+            </Link>
+          ))}
+        </nav>
       </div>
     </footer>
   );

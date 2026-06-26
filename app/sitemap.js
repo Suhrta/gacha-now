@@ -2,6 +2,7 @@ import products from "../data/products.json";
 import blogPosts from "../data/blog-posts.json";
 import { CHARACTERS, filterProductsByCharacter } from "../data/characters";
 import { getAllReleaseMonths, getReleaseYearMonth } from "../lib/release";
+import { indexableProducts } from "../lib/quality";
 
 const BASE_URL = "https://gacha-now.net";
 
@@ -20,7 +21,8 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
-  const productPages = products.map((p) => ({
+  // 薄い長尾ページ（noindex対象）はサイトマップにも載せない
+  const productPages = indexableProducts(products).map((p) => ({
     url: `${BASE_URL}/item/${p.id}`,
     lastModified: p.collectedAt ? new Date(p.collectedAt) : new Date(),
     changeFrequency: "weekly",
@@ -56,6 +58,8 @@ export default function sitemap() {
   return [
     { url: BASE_URL, lastModified: new Date(), changeFrequency: "daily", priority: 1.0 },
     { url: `${BASE_URL}/about`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
+    { url: `${BASE_URL}/operator`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
+    { url: `${BASE_URL}/contact`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
     { url: `${BASE_URL}/privacy`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.2 },
     { url: `${BASE_URL}/blog`, lastModified: new Date(), changeFrequency: "daily", priority: 0.8 },
     ...blogPages,

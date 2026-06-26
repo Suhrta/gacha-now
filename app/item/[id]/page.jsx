@@ -5,6 +5,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import products from "../../../data/products.json";
 import { charactersForProduct } from "../../../data/characters";
 import { isReleased, getReleaseYearMonth, formatYearMonth } from "../../../lib/release";
+import { isLowValueProduct } from "../../../lib/quality";
 
 export function generateStaticParams() {
   return products.map((p) => ({ id: p.id }));
@@ -18,9 +19,12 @@ export function generateMetadata({ params }) {
   const product = products.find((p) => p.id === params.id);
   if (!product) return { title: "商品が見つかりません | ガチャなう" };
   const typesText = product.types ? `・全${product.types}種` : "";
+  // 薄い長尾ページは検索インデックスから外す（サイト全体の品質を底上げ）
+  const lowValue = isLowValueProduct(product);
   return {
     title: `${product.name}｜¥${product.price}${typesText}【${product.releaseWeek}発売】| ガチャなう`,
     description: `${product.name}（${product.brand}）のカプセルトイ情報。¥${product.price}${typesText}。${product.releaseWeek}発売予定。ラインナップ・取扱店舗をチェック。`,
+    robots: lowValue ? { index: false, follow: true } : { index: true, follow: true },
     alternates: { canonical: `https://gacha-now.net/item/${product.id}` },
     openGraph: {
       title: `${product.name}｜¥${product.price}${typesText}【${product.releaseWeek}】`,
