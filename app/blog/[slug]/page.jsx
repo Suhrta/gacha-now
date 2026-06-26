@@ -61,6 +61,42 @@ function ProductCard({ id }) {
   );
 }
 
+// 行内の **太字** と [テキスト](url) リンクをパースする
+function parseInline(text, keyPrefix) {
+  const nodes = [];
+  const regex = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*/g;
+  let lastIndex = 0;
+  let m;
+  let k = 0;
+  while ((m = regex.exec(text)) !== null) {
+    if (m.index > lastIndex) nodes.push(text.slice(lastIndex, m.index));
+    if (m[1] !== undefined) {
+      const href = m[2];
+      nodes.push(
+        href.startsWith("/") ? (
+          <Link key={`${keyPrefix}-${k}`} href={href} className="text-brand-accent font-bold no-underline hover:underline">
+            {m[1]}
+          </Link>
+        ) : (
+          <a key={`${keyPrefix}-${k}`} href={href} target="_blank" rel="noopener noreferrer" className="text-brand-accent font-bold no-underline hover:underline">
+            {m[1]}
+          </a>
+        )
+      );
+    } else if (m[3] !== undefined) {
+      nodes.push(
+        <strong key={`${keyPrefix}-${k}`} className="font-bold text-brand-text">
+          {m[3]}
+        </strong>
+      );
+    }
+    lastIndex = regex.lastIndex;
+    k++;
+  }
+  if (lastIndex < text.length) nodes.push(text.slice(lastIndex));
+  return nodes.length ? nodes : text;
+}
+
 function renderContent(content) {
   return content.split("\n").map((line, i) => {
     const productMatch = line.trim().match(/^\[product:([^\]]+)\]$/);
@@ -71,7 +107,7 @@ function renderContent(content) {
           key={i}
           className="text-lg font-bold text-brand-text mt-6 mb-2 border-b border-cream-border pb-1"
         >
-          {line.slice(4)}
+          {parseInline(line.slice(4), i)}
         </h3>
       );
     if (line.startsWith("## "))
@@ -80,19 +116,19 @@ function renderContent(content) {
           key={i}
           className="text-xl font-bold text-brand-text mt-8 mb-3 border-l-4 border-brand-accent pl-3"
         >
-          {line.slice(3)}
+          {parseInline(line.slice(3), i)}
         </h2>
       );
     if (line.startsWith("- "))
       return (
-        <li key={i} className="text-sm text-brand-text ml-4 mb-1">
-          {line.slice(2)}
+        <li key={i} className="text-sm text-brand-text ml-4 mb-1 list-disc">
+          {parseInline(line.slice(2), i)}
         </li>
       );
     if (line.trim() === "") return <br key={i} />;
     return (
       <p key={i} className="text-sm text-brand-text leading-relaxed mb-3">
-        {line}
+        {parseInline(line, i)}
       </p>
     );
   });
