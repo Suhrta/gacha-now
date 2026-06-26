@@ -405,7 +405,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "それいけ！アンパンマン ぴたっとラバーマグネット3",
@@ -549,7 +549,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第3週",
     "brand": "クレヨンしんちゃん",
-    "types": null
+    "types": 6
   },
   {
     "title": "アイカツ！ コンパクトミラー",
@@ -693,7 +693,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 8
   },
   {
     "title": "銀魂 もぐもぐ隊",
@@ -861,7 +861,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "ノンタン パッケージミニチュアコレクション",
@@ -933,7 +933,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第3週",
     "brand": "ムーミン",
-    "types": null
+    "types": 4
   },
   {
     "title": "学園アイドルマスター つまんでつなげてますこっと",
@@ -1005,7 +1005,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第3週",
     "brand": "転スラ",
-    "types": null
+    "types": 5
   },
   {
     "title": "おジャ魔女どれみ ダイキャストチャーム＆パッケージ",
@@ -1053,7 +1053,7 @@
     "price": 500,
     "releaseWeek": "2026年5月 第3週",
     "brand": "いきもの大図鑑",
-    "types": null
+    "types": 6
   },
   {
     "title": "【フラットガシャポン】たまごっち マウスシートコレクション",
@@ -1413,7 +1413,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 14
   },
   {
     "title": "ジュエルペット パッケージミニチュアチャーム",
@@ -1461,7 +1461,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 4
   },
   {
     "title": "カプキャラ にゃんこ大戦争11",
@@ -1677,7 +1677,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 12
   },
   {
     "title": "Esther Bunny（エスターバニー） さくらんぼスイング",
@@ -1869,7 +1869,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 6
   },
   {
     "title": "機動戦士ガンダム まちぼうけ ノーマルスーツの場合",
@@ -2661,7 +2661,7 @@
     "price": 500,
     "releaseWeek": "2026年5月 第5週",
     "brand": "その他",
-    "types": null
+    "types": 4
   },
   {
     "title": "HUNTER×HUNTER めじるしアクセサリー G.I.編",
@@ -2733,7 +2733,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第5週",
     "brand": "その他",
-    "types": null
+    "types": 10
   },
   {
     "title": "アニメ『呪術廻戦』5周年 まちぼうけ",
@@ -2973,7 +2973,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第5週",
     "brand": "仮面ライダー",
-    "types": null
+    "types": 6
   },
   {
     "title": "にゃんこ大戦争 スイングコレクション07",
@@ -3189,7 +3189,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第1週",
     "brand": "ディズニー",
-    "types": null
+    "types": 5
   },
   {
     "title": "ひつじのショーン サウナのスイング",
@@ -3405,7 +3405,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第1週",
     "brand": "プリキュア",
-    "types": null
+    "types": 10
   },
   {
     "title": "【バンダイナムコオフィシャルショップ限定】機動戦士ガンダム まちぼうけ ガンダムの場合2（ブラッククリアVer.）",
@@ -3453,7 +3453,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "モリゾーとキッコロ めじるしアクセサリー",
@@ -3789,7 +3789,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第2週",
     "brand": "ドラゴンボール",
-    "types": null
+    "types": 5
   },
   {
     "title": "【フラットガシャポン】リラックマ×チュッパチャプス クリアラバーコースター",
@@ -4029,7 +4029,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 10
   },
   {
     "title": "光るまちぼうけ 深海のなかまの場合",
@@ -4149,7 +4149,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第3週",
     "brand": "ドラゴンボール",
-    "types": null
+    "types": 5
   },
   {
     "title": "リサとガスパール ベーカリーチャーム",
@@ -4245,7 +4245,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第3週",
     "brand": "スヌーピー",
-    "types": null
+    "types": 5
   },
   {
     "title": "クレヨンしんちゃん おすしんちゃん",
@@ -4413,7 +4413,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 4
   },
   {
     "title": "とっても！ラッキーマン めじるしアクセサリー",
@@ -4485,7 +4485,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第3週",
     "brand": "たまごっち",
-    "types": null
+    "types": 5
   },
   {
     "title": "たまごっち ぬいぐるみマスコット",
@@ -4557,7 +4557,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 7
   },
   {
     "title": "はしもとみおのウルトラ怪獣彫ってみた。03",
@@ -4677,7 +4677,7 @@
     "price": null,
     "releaseWeek": "2026年6月 第3週",
     "brand": "いきもの大図鑑",
-    "types": null
+    "types": 3
   },
   {
     "title": "MINECRAFT スイングマスコット4",
@@ -4725,7 +4725,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第3週",
     "brand": "ハイキュー",
-    "types": null
+    "types": 6
   },
   {
     "title": "アイカツ！ カプセルジェムクリップ",
@@ -4797,7 +4797,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第4週",
     "brand": "ガンダム",
-    "types": null
+    "types": 5
   },
   {
     "title": "【箱売】機動戦士ガンダム　MOBILE SUIT ENSEMBLE 14",
@@ -4965,7 +4965,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "メゾピアノ×ハローキティ カプセルラバーマスコット",
@@ -5061,7 +5061,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "矢沢あい カプセルラバーマスコット",
@@ -5229,7 +5229,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 6
   },
   {
     "title": "ジュエルペット ぷくっとクリアリング",
@@ -5517,7 +5517,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 8
   },
   {
     "title": "BLEACH 千年血戦篇 まちぼうけ",
@@ -6261,7 +6261,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "サンリオキャラクターズ カラともマスコット",
