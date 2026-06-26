@@ -1,5 +1,24 @@
 [
   {
+    "id": "gacha-4916d7c1",
+    "name": "ばあちゃんちの昭和レトロライト",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "7月 上旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/06/showa_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/06/showa_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/baachan_retro/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-06-26T10:06:22.918Z"
+  },
+  {
     "id": "gacha-4192c18c",
     "name": "サンリオキャラクターズ フロッキーマスコットスイング ～かわいいだけじゃない～",
     "brand": "サンリオ",
