@@ -34,29 +34,37 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
       {/* 筐体ボディ */}
       <div className="relative overflow-hidden"
         style={{
-          background: `linear-gradient(180deg, #FFFFFF 0%, ${color}14 100%)`,
-          borderRadius: "14px 14px 10px 10px",
+          background: `linear-gradient(90deg, rgba(0,0,0,0.06) 0%, rgba(255,255,255,0) 15%, rgba(255,255,255,0) 85%, rgba(0,0,0,0.07) 100%), linear-gradient(180deg, #FFFFFF 0%, ${color}10 55%, ${color}26 100%)`,
+          borderRadius: "14px 14px 12px 12px",
           border: "2.5px solid #E5E7EB",
           boxShadow: pressed
-            ? "0 2px 4px rgba(74,55,40,0.06)"
-            : "0 4px 16px rgba(74,55,40,0.08)",
+            ? "inset 0 1px 0 rgba(255,255,255,0.7), 0 2px 5px rgba(74,55,40,0.10)"
+            : "inset 0 1.5px 0 rgba(255,255,255,0.95), inset 0 -3px 6px rgba(74,55,40,0.06), 0 7px 16px rgba(74,55,40,0.15), 0 2px 5px rgba(74,55,40,0.08)",
           transition: "box-shadow 0.15s",
         }}>
 
-        {/* 筐体トップライン（HOT時は太く＋パルス） */}
+        {/* 筐体トップライン（HOT時は太く＋パルス・ツヤ入り） */}
         <div style={{
-          background: `linear-gradient(135deg, ${color}, ${color}CC)`,
+          background: `linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0) 55%), linear-gradient(135deg, ${color}, ${color}CC)`,
           height: product.hot ? 7 : 5,
           borderRadius: "11px 11px 0 0",
+          boxShadow: `inset 0 -1px 2px ${color}55`,
         }} />
 
-        {/* カプセル窓（商品画像） */}
+        {/* カプセル窓（商品画像）— へこませて＋ガラス反射 */}
         <div className="mx-2 mt-1.5 pointer-events-none relative" style={{
           borderRadius: "8px",
           overflow: "hidden",
           border: "2px solid #E5E7EB",
           background: "#F9FAFB",
+          boxShadow: "inset 0 2px 6px rgba(0,0,0,0.16), inset 0 -1px 2px rgba(0,0,0,0.05)",
         }}>
+          {/* ガラスの反射 */}
+          <div style={{
+            position: "absolute", inset: 0, zIndex: 2, pointerEvents: "none",
+            borderRadius: "8px",
+            background: "linear-gradient(155deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.08) 30%, rgba(255,255,255,0) 45%)",
+          }} />
           {hasImage ? (
             <img src={product.img} alt={product.name} className="w-full block"
               loading="lazy" decoding="async"
