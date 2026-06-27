@@ -121,10 +121,6 @@ const STATUS_TABS = [
   { key: "favorites", label: "お気に入り" },
 ];
 
-const POPULAR_CHARACTERS = ["chiikawa", "pokemon", "sanrio", "tamagotchi"]
-  .map((slug) => CHARACTERS.find((c) => c.slug === slug))
-  .filter(Boolean);
-
 // 最終更新日は最新のcollectedAtをJST固定で表示（ビルドとブラウザのタイムゾーン差によるハイドレーション不一致を防ぐ）
 const LAST_UPDATED = (() => {
   const times = products
@@ -369,18 +365,8 @@ export default function HomePage() {
               </button>
             </div>
             <div className="mt-3 flex items-center gap-2 flex-wrap text-xs">
-              <span className="text-brand-sub">人気キャラ:</span>
-              {POPULAR_CHARACTERS.map((c) => (
-                <Link
-                  key={c.slug}
-                  href={`/character/${c.slug}`}
-                  className="text-brand-accent hover:underline no-underline"
-                >
-                  #{c.name}
-                </Link>
-              ))}
               <Link href="/series" className="text-brand-text font-bold hover:underline no-underline">
-                🎁 シリーズ特集
+                🎁 シリーズ特集をみる
               </Link>
             </div>
               </div>
