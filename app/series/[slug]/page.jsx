@@ -7,7 +7,6 @@ import ReceiptPaper from "../../../components/ReceiptPaper";
 import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
 import CharacterInfo from "../../../components/CharacterInfo";
-import SeriesFeature from "../../../components/SeriesFeature";
 import products from "../../../data/products.json";
 import { SERIES, getSeriesBySlug, filterProductsBySeries } from "../../../data/series";
 
@@ -41,7 +40,16 @@ export default function SeriesPage() {
 
         <CharacterInfo name={name} items={items} intro={intro} />
 
-        {series && series.feature && <SeriesFeature sections={series.feature} />}
+        {series && series.guide && (
+          <Link
+            href={series.guide.url}
+            className="relative z-[1] flex items-center gap-2 mb-4 px-4 py-3 bg-white border-2 border-brand-accent rounded-xl no-underline hover:bg-cream-dark transition-colors"
+          >
+            <span className="text-lg shrink-0">🎀</span>
+            <span className="text-xs font-bold text-brand-text leading-snug">{series.guide.label}</span>
+            <span className="text-brand-accent text-sm shrink-0 ml-auto">→</span>
+          </Link>
+        )}
 
         <div className="font-pixel text-[10px] text-brand-sub mb-2.5 px-1 relative">{items.length}けん</div>
 
