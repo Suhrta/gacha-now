@@ -4,6 +4,7 @@ import posts from "../../../data/blog-posts.json";
 import products from "../../../data/products.json";
 import Footer from "../../../components/Footer";
 import { isStaleBlogPost } from "../../../lib/quality";
+import { rakutenSearchUrl } from "../../../lib/affiliate";
 
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -99,10 +100,31 @@ function parseInline(text, keyPrefix) {
   return nodes.length ? nodes : text;
 }
 
+// 楽天アフィリエイトの検索ボタン（広告・rel sponsored）
+function RakutenButton({ keyword, label }) {
+  return (
+    <a
+      href={rakutenSearchUrl(keyword)}
+      target="_blank"
+      rel="nofollow sponsored noopener noreferrer"
+      className="flex items-center gap-2 my-3 px-4 py-3 rounded-lg border-2 no-underline"
+      style={{ background: "#FFFFFF", borderColor: "#BF0000", boxShadow: "0 2px 8px rgba(191,0,0,0.1)" }}
+    >
+      <span className="text-[9px] font-bold text-white px-1.5 py-0.5 rounded shrink-0" style={{ background: "#BF0000" }}>
+        PR
+      </span>
+      <span className="text-sm font-bold shrink-0" style={{ color: "#BF0000" }}>🛒 {label}</span>
+      <span className="text-sm shrink-0 ml-auto" style={{ color: "#BF0000" }}>→</span>
+    </a>
+  );
+}
+
 function renderContent(content) {
   return content.split("\n").map((line, i) => {
     const productMatch = line.trim().match(/^\[product:([^\]]+)\]$/);
     if (productMatch) return <ProductCard key={i} id={productMatch[1]} />;
+    const rakutenMatch = line.trim().match(/^\[rakuten:([^|\]]+)\|([^\]]+)\]$/);
+    if (rakutenMatch) return <RakutenButton key={i} keyword={rakutenMatch[1].trim()} label={rakutenMatch[2].trim()} />;
     if (line.startsWith("### "))
       return (
         <h3
