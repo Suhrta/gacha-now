@@ -74,7 +74,7 @@ export default function FilterTabs({ brands, selected, onSelect }) {
         style={{ scrollbarWidth: "none" }}
       >
         {brands.map((b) => {
-          const icon = BRAND_ICONS[b] || "/icons/icon-brand-other.png";
+          const icon = BRAND_ICONS[b];
           const active = selected === b;
           return (
             <button
@@ -87,7 +87,7 @@ export default function FilterTabs({ brands, selected, onSelect }) {
                   : "bg-white text-brand-sub border-cream-border shadow-sm hover:border-brand-accent/30"
               }`}
             >
-              <img src={icon} alt="" className="w-5 h-5 sm:w-6 sm:h-6 mix-blend-multiply" />
+              {icon && <img src={icon} alt="" className="w-5 h-5 sm:w-6 sm:h-6 mix-blend-multiply" />}
               <span>{b}</span>
             </button>
           );
