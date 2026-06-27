@@ -7,6 +7,7 @@ import ReceiptPaper from "../../../components/ReceiptPaper";
 import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
 import CharacterInfo from "../../../components/CharacterInfo";
+import SeriesFeature from "../../../components/SeriesFeature";
 import products from "../../../data/products.json";
 import { SERIES, getSeriesBySlug, filterProductsBySeries } from "../../../data/series";
 
@@ -39,6 +40,8 @@ export default function SeriesPage() {
         <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "シリーズ特集", href: "/series" }, { name: name }]} />
 
         <CharacterInfo name={name} items={items} intro={intro} />
+
+        {series && series.feature && <SeriesFeature sections={series.feature} />}
 
         <div className="font-pixel text-[10px] text-brand-sub mb-2.5 px-1 relative">{items.length}けん</div>
 

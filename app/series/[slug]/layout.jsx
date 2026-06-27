@@ -12,7 +12,7 @@ export function generateMetadata({ params }) {
 
   return {
     title: `${series.name}の新作・全種一覧【2026年】| ガチャなう`,
-    description: `${series.name}のカプセルトイ・ガチャガチャ${count}件を一覧でチェック。${series.intro.slice(0, 60)}`,
+    description: series.metaDescription || `${series.name}のカプセルトイ・ガチャガチャ${count}件を一覧でチェック。${series.intro.slice(0, 60)}`,
     alternates: { canonical: `https://gacha-now.net/series/${params.slug}` },
     openGraph: {
       title: `${series.name}の新作・全種一覧【2026年】`,
