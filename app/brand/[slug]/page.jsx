@@ -6,6 +6,7 @@ import GachaMachine from "../../../components/GachaMachine";
 import ReceiptPaper from "../../../components/ReceiptPaper";
 import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
+import CharacterInfo from "../../../components/CharacterInfo";
 import products from "../../../data/products.json";
 
 export default function BrandPage() {
@@ -37,11 +38,7 @@ export default function BrandPage() {
 
         <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: `${brandName}の新作` }]} />
 
-        {brandProducts.length > 0 && (
-          <p className="text-xs text-brand-sub leading-relaxed mb-3 px-1 relative z-[1]">
-            {brandName}のガチャガチャ・カプセルトイ新作一覧。{brandName}の最新{brandProducts.length}件を価格・種類数・発売日つきで毎日更新中。お気に入りの新作カプセルトイを見つけよう。
-          </p>
-        )}
+        <CharacterInfo name={brandName} items={brandProducts} intro={null} />
 
         <div className="font-pixel text-[10px] text-brand-sub mb-2.5 px-1 relative">
           {brandProducts.length}けん
