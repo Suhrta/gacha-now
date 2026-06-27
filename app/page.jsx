@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import FilterTabs from "../components/FilterTabs";
 import products from "../data/products.json";
 import { CHARACTERS } from "../data/characters";
+import { SERIES } from "../data/series";
 import { getAllReleaseMonths, formatYearMonth } from "../lib/release";
 
 const ITEMS_PER_PAGE = 20;
@@ -281,13 +282,13 @@ export default function HomePage() {
                   </div>
                 )}
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-brand-text leading-tight break-keep">
-                  ガチャガチャ新作<br />
+                  ガチャガチャ新作・最新情報<br />
                   ぜんぶ<span className="text-brand-accent">チェック</span>
                 </h1>
                 <p className="mt-3 text-sm md:text-base text-brand-sub leading-relaxed">
-                  <span className="md:hidden">新作・発売中・発売予定の<br />ガチャをまとめてチェック！</span>
+                  <span className="md:hidden">新作・発売中・発売予定の<br />ガチャガチャ最新情報を毎日更新！</span>
                   <span className="hidden md:inline">
-                    新作・発売中・発売予定のガチャ情報をまとめてチェック。<br />
+                    新作・発売中・発売予定のガチャガチャ最新情報を毎日更新でまとめてチェック。<br />
                     お気に入りを見つけて、ガチャライフをもっと楽しく！
                   </span>
                 </p>
@@ -514,6 +515,21 @@ export default function HomePage() {
                 className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
               >
                 {b.name}
+              </Link>
+            ))}
+          </div>
+
+          <h2 className="text-xl font-bold text-brand-text flex items-center gap-2 mt-6 mb-3">
+            <span>🎁</span> シリーズから探す
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {SERIES.map((s) => (
+              <Link
+                key={s.slug}
+                href={`/series/${s.slug}`}
+                className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
+              >
+                {s.name}
               </Link>
             ))}
           </div>
