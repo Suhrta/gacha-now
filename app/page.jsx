@@ -365,8 +365,8 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* 右: ガチャマシン画像（PCのみ・右寄せ） */}
-            <div className="hidden md:flex justify-end items-center">
+            {/* 右: ガチャマシン画像（PCのみ・やや中央寄り） */}
+            <div className="hidden md:flex justify-center items-center">
               <img
                 src="/icons/hero-gacha-machine.png"
                 alt="ガチャマシン"
