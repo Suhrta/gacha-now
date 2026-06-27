@@ -1,8 +1,8 @@
-name: Generate daily blog post
+name: Generate weekly blog post
 
 on:
   schedule:
-    - cron: '30 22 * * *'  # 毎日 7:30 JST
+    - cron: '30 22 * * 1'  # 毎週月曜 7:30 JST（AdSense回復期は週1へ減速。以前は毎日）
   workflow_dispatch: {}
 
 permissions:

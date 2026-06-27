@@ -2,7 +2,7 @@ import products from "../data/products.json";
 import blogPosts from "../data/blog-posts.json";
 import { CHARACTERS, filterProductsByCharacter } from "../data/characters";
 import { getAllReleaseMonths, getReleaseYearMonth } from "../lib/release";
-import { indexableProducts } from "../lib/quality";
+import { indexableProducts, indexableBlogPosts } from "../lib/quality";
 
 const BASE_URL = "https://gacha-now.net";
 
@@ -14,7 +14,8 @@ function latestCollectedAt(list) {
 }
 
 export default function sitemap() {
-  const blogPages = blogPosts.map((p) => ({
+  // 古くなった「○月まとめ」など非常緑の記事はサイトマップから除外（noindexと同期）
+  const blogPages = indexableBlogPosts(blogPosts).map((p) => ({
     url: `${BASE_URL}/blog/${p.slug}`,
     lastModified: new Date(p.publishedAt),
     changeFrequency: "monthly",

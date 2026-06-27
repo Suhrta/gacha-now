@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import posts from "../../../data/blog-posts.json";
 import products from "../../../data/products.json";
 import Footer from "../../../components/Footer";
+import { isStaleBlogPost } from "../../../lib/quality";
 
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -14,6 +15,7 @@ export function generateMetadata({ params }) {
   return {
     title: `${post.title}【2026年最新】| ガチャなう`,
     description: post.description,
+    robots: isStaleBlogPost(post) ? { index: false, follow: true } : { index: true, follow: true },
     alternates: { canonical: `https://gacha-now.net/blog/${post.slug}` },
     openGraph: {
       type: "article",
