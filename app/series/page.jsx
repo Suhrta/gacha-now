@@ -3,9 +3,9 @@ import products from "../../data/products.json";
 import { SERIES, filterProductsBySeries } from "../../data/series";
 
 export const metadata = {
-  title: "ガチャガチャ シリーズ特集一覧｜肩ズン・カプセルラバーマスコット ほか | ガチャなう",
+  title: "ガチャガチャ シリーズ特集一覧｜めじるしアクセサリー・肩ズン ほか | ガチャなう",
   description:
-    "肩ズンFig.・カプセルラバーマスコット・フロッキー・豆ガシャ本など、作品をまたいで展開されるガチャガチャ（カプセルトイ）の人気シリーズを特集。シリーズごとに新作・全種を一覧でチェックできます。",
+    "めじるしアクセサリー・肩ズンFig.・フラットガシャポン・つまんでつなげてマスコットなど、作品をまたいで展開されるガチャガチャ（カプセルトイ）の人気シリーズを特集。シリーズごとに新作・全種を一覧でチェックできます。",
   alternates: { canonical: "https://gacha-now.net/series" },
 };
 
