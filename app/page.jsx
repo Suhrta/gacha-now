@@ -268,109 +268,110 @@ export default function HomePage() {
             <span style={{ position: 'absolute', bottom: '15%', left: '60%', width: 7, height: 7, borderRadius: '50%', background: '#FDE68A', display: 'inline-block' }} />
             <span style={{ position: 'absolute', bottom: '40%', right: '5%', width: 5, height: 5, borderRadius: '50%', background: '#C7D2FE', display: 'inline-block' }} />
           </div>
-          <div className="relative z-10 grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-6 md:gap-8 items-center">
-            {/* 左: コピー + モバイル時の画像（横並び） */}
-            <div className="flex items-center gap-3 md:block">
-              <div className="flex-1 min-w-0">
-                {LAST_UPDATED && (
-                  <div className="inline-flex items-center gap-1.5 bg-white/80 border border-cream-border rounded-full px-3 py-1 text-[11px] text-brand-sub mb-3">
-                    <span>✨</span> 毎日更新｜最終更新 {LAST_UPDATED}
-                  </div>
-                )}
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-brand-text leading-tight break-keep">
-                  ガチャガチャ<br />
-                  新作・最新情報<br />
-                  ぜんぶ<span className="text-brand-accent">チェック</span>
-                </h1>
-                <p className="mt-3 text-sm md:text-base text-brand-sub leading-relaxed">
-                  <span className="md:hidden">新作・発売中・発売予定の<br />ガチャガチャ最新情報を毎日更新！</span>
-                  <span className="hidden md:inline">
-                    新作・発売中・発売予定のガチャガチャ最新情報を毎日更新でまとめてチェック。<br />
-                    お気に入りを見つけて、ガチャライフをもっと楽しく！
-                  </span>
-                </p>
-              </div>
-              {/* モバイル専用: タイトル横の小さい画像 */}
-              <img
-                src="/icons/hero-gacha-machine.png"
-                alt="ガチャマシン"
-                className="block md:hidden max-w-[100px] w-full animate-float shrink-0 pointer-events-none"
-              />
-            </div>
-
-            {/* 右: 画像（左、コンパクト）| 統計+検索（右スタック） */}
-            <div className="flex flex-col sm:flex-row items-center gap-2 md:gap-2">
-              {/* ガチャマシン画像（md+ で少し左にシフト、モバイルは左カラム内に別途表示） */}
-              <img
-                src="/icons/hero-gacha-machine.png"
-                alt="ガチャマシン"
-                className="hidden md:block md:max-w-none md:w-[180px] lg:w-[240px] xl:w-[280px] animate-float shrink-0 pointer-events-none md:-ml-2 lg:-ml-6 xl:-ml-10"
-              />
-              {/* 統計+検索 */}
-              <div className="flex-1 w-full flex flex-col gap-4">
-                <div className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:items-center">
-                  <button
-                    onClick={() => setStatusTab("new")}
-                    className="flex items-center justify-center gap-1 sm:gap-1.5 bg-white rounded-full shadow-sm border border-cream-border px-2 sm:pl-2 sm:pr-3 py-1.5 cursor-pointer hover:border-brand-accent transition-colors"
-                  >
-                    <img src="/icons/icon-stat-new.png" alt="" className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
-                    <span className="text-[10px] sm:text-xs text-brand-sub">新作</span>
-                    <span className="text-sm sm:text-base lg:text-lg font-bold text-brand-accent">{newCount}</span>
-                    <span className="hidden sm:inline text-xs text-brand-sub">件</span>
-                  </button>
-                  <button
-                    onClick={() => setStatusTab("available")}
-                    className="flex items-center justify-center gap-1 sm:gap-1.5 bg-white rounded-full shadow-sm border border-cream-border px-2 sm:pl-2 sm:pr-3 py-1.5 cursor-pointer hover:border-brand-accent transition-colors"
-                  >
-                    <img src="/icons/icon-stat-available.png" alt="" className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
-                    <span className="text-[10px] sm:text-xs text-brand-sub">発売中</span>
-                    <span className="text-sm sm:text-base lg:text-lg font-bold text-brand-purple">{available}</span>
-                    <span className="hidden sm:inline text-xs text-brand-sub">件</span>
-                  </button>
-                  <div className="flex items-center justify-center gap-1 sm:gap-1.5 bg-white rounded-full shadow-sm border border-cream-border px-2 sm:pl-2 sm:pr-3 py-1.5">
-                    <img src="/icons/icon-stat-total.png" alt="" className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
-                    <span className="text-[10px] sm:text-xs text-brand-sub">全件数</span>
-                    <span className="text-sm sm:text-base lg:text-lg font-bold text-brand-pink">{total}</span>
-                    <span className="hidden sm:inline text-xs text-brand-sub">件</span>
-                  </div>
+          <div className="relative z-10 grid grid-cols-1 md:grid-cols-[1.4fr_1fr] gap-6 md:gap-8 items-center">
+            {/* 左: コピー + 統計 + 検索 */}
+            <div>
+              {/* コピー（モバイルは小さい画像と横並び） */}
+              <div className="flex items-center gap-3">
+                <div className="flex-1 min-w-0">
+                  {LAST_UPDATED && (
+                    <div className="inline-flex items-center gap-1.5 bg-white/80 border border-cream-border rounded-full px-3 py-1 text-[11px] text-brand-sub mb-3">
+                      <span>✨</span> 毎日更新｜最終更新 {LAST_UPDATED}
+                    </div>
+                  )}
+                  <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-brand-text leading-tight break-keep">
+                    ガチャガチャ<br />
+                    新作・最新情報<br />
+                    ぜんぶ<span className="text-brand-accent">チェック</span>
+                  </h1>
+                  <p className="mt-3 text-sm md:text-base text-brand-sub leading-relaxed">
+                    <span className="md:hidden">新作・発売中・発売予定の<br />ガチャガチャ最新情報を毎日更新！</span>
+                    <span className="hidden md:inline">
+                      新作・発売中・発売予定のガチャガチャ最新情報を毎日更新でまとめてチェック。<br />
+                      お気に入りを見つけて、ガチャライフをもっと楽しく！
+                    </span>
+                  </p>
                 </div>
+                {/* モバイル専用: タイトル横の小さい画像 */}
+                <img
+                  src="/icons/hero-gacha-machine.png"
+                  alt="ガチャマシン"
+                  className="block md:hidden max-w-[100px] w-full animate-float shrink-0 pointer-events-none"
+                />
+              </div>
 
-                {/* 検索バー（右スタック内、統計と同幅） */}
-                <div>
-            <div className="bg-white rounded-full border border-cream-border pl-3 pr-1 py-1 flex items-center gap-1.5 min-w-0">
-              <span className="text-brand-sub shrink-0">🔍</span>
-              <input
-                ref={heroSearchRef}
-                type="text"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="商品・キャラ名で検索"
-                className="flex-1 min-w-0 bg-transparent outline-none text-sm text-brand-text py-1.5"
-                style={{ border: "none" }}
-              />
-              {searchQuery && (
+              {/* 統計 */}
+              <div className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:items-center mt-5">
                 <button
-                  onClick={() => setSearchQuery("")}
-                  className="text-brand-sub cursor-pointer bg-transparent border-none px-1 shrink-0"
-                  aria-label="検索クリア"
+                  onClick={() => setStatusTab("new")}
+                  className="flex items-center justify-center gap-1 sm:gap-1.5 bg-white rounded-full shadow-sm border border-cream-border px-2 sm:pl-2 sm:pr-3 py-1.5 cursor-pointer hover:border-brand-accent transition-colors"
                 >
-                  ✕
+                  <img src="/icons/icon-stat-new.png" alt="" className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
+                  <span className="text-[10px] sm:text-xs text-brand-sub">新作</span>
+                  <span className="text-sm sm:text-base lg:text-lg font-bold text-brand-accent">{newCount}</span>
+                  <span className="hidden sm:inline text-xs text-brand-sub">件</span>
                 </button>
-              )}
-              <button
-                onClick={() => heroSearchRef.current?.blur()}
-                className="bg-brand-accent text-white rounded-full px-4 py-1.5 text-xs font-medium cursor-pointer border-none hover:opacity-90 transition-opacity shrink-0"
-              >
-                検索
-              </button>
-            </div>
-            <div className="mt-3 flex items-center gap-2 flex-wrap text-xs">
-              <Link href="/series" className="text-brand-text font-bold hover:underline no-underline">
-                🎁 シリーズ特集をみる
-              </Link>
-            </div>
+                <button
+                  onClick={() => setStatusTab("available")}
+                  className="flex items-center justify-center gap-1 sm:gap-1.5 bg-white rounded-full shadow-sm border border-cream-border px-2 sm:pl-2 sm:pr-3 py-1.5 cursor-pointer hover:border-brand-accent transition-colors"
+                >
+                  <img src="/icons/icon-stat-available.png" alt="" className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
+                  <span className="text-[10px] sm:text-xs text-brand-sub">発売中</span>
+                  <span className="text-sm sm:text-base lg:text-lg font-bold text-brand-purple">{available}</span>
+                  <span className="hidden sm:inline text-xs text-brand-sub">件</span>
+                </button>
+                <div className="flex items-center justify-center gap-1 sm:gap-1.5 bg-white rounded-full shadow-sm border border-cream-border px-2 sm:pl-2 sm:pr-3 py-1.5">
+                  <img src="/icons/icon-stat-total.png" alt="" className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
+                  <span className="text-[10px] sm:text-xs text-brand-sub">全件数</span>
+                  <span className="text-sm sm:text-base lg:text-lg font-bold text-brand-pink">{total}</span>
+                  <span className="hidden sm:inline text-xs text-brand-sub">件</span>
+                </div>
               </div>
+
+              {/* 検索バー */}
+              <div className="mt-4">
+                <div className="bg-white rounded-full border border-cream-border pl-3 pr-1 py-1 flex items-center gap-1.5 min-w-0">
+                  <span className="text-brand-sub shrink-0">🔍</span>
+                  <input
+                    ref={heroSearchRef}
+                    type="text"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    placeholder="商品・キャラ名で検索"
+                    className="flex-1 min-w-0 bg-transparent outline-none text-sm text-brand-text py-1.5"
+                    style={{ border: "none" }}
+                  />
+                  {searchQuery && (
+                    <button
+                      onClick={() => setSearchQuery("")}
+                      className="text-brand-sub cursor-pointer bg-transparent border-none px-1 shrink-0"
+                      aria-label="検索クリア"
+                    >
+                      ✕
+                    </button>
+                  )}
+                  <button
+                    onClick={() => heroSearchRef.current?.blur()}
+                    className="bg-brand-accent text-white rounded-full px-4 py-1.5 text-xs font-medium cursor-pointer border-none hover:opacity-90 transition-opacity shrink-0"
+                  >
+                    検索
+                  </button>
+                </div>
+                <div className="mt-3 flex items-center gap-2 flex-wrap text-xs">
+                  <Link href="/series" className="text-brand-text font-bold hover:underline no-underline">
+                    🎁 シリーズ特集をみる
+                  </Link>
+                </div>
               </div>
+            </div>
+
+            {/* 右: ガチャマシン画像（PCのみ・右寄せ） */}
+            <div className="hidden md:flex justify-end items-center">
+              <img
+                src="/icons/hero-gacha-machine.png"
+                alt="ガチャマシン"
+                className="w-[200px] lg:w-[260px] xl:w-[300px] animate-float pointer-events-none"
+              />
             </div>
           </div>
         </section>
