@@ -282,7 +282,8 @@ export default function HomePage() {
                   </div>
                 )}
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-brand-text leading-tight break-keep">
-                  ガチャガチャ新作・最新情報<br />
+                  ガチャガチャ<br />
+                  新作・最新情報<br />
                   ぜんぶ<span className="text-brand-accent">チェック</span>
                 </h1>
                 <p className="mt-3 text-sm md:text-base text-brand-sub leading-relaxed">
