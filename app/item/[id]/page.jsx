@@ -4,6 +4,7 @@ import ReceiptPaper from "../../../components/ReceiptPaper";
 import Breadcrumb from "../../../components/Breadcrumb";
 import products from "../../../data/products.json";
 import { charactersForProduct } from "../../../data/characters";
+import { seriesForProduct } from "../../../data/series";
 import { isReleased, getReleaseYearMonth, formatYearMonth } from "../../../lib/release";
 import { isLowValueProduct } from "../../../lib/quality";
 
@@ -68,6 +69,7 @@ export default function ItemPage({ params }) {
   };
 
   const characters = charactersForProduct(product);
+  const series = seriesForProduct(product);
   const characterIds = new Set();
   const related = products.filter((p) => p.id !== product.id && p.brand === product.brand);
   related.forEach((p) => characterIds.add(p.id));
@@ -145,6 +147,15 @@ export default function ItemPage({ params }) {
               className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
             >
               #{c.name}のガチャ一覧
+            </Link>
+          ))}
+          {series.map((s) => (
+            <Link
+              key={s.slug}
+              href={`/series/${s.slug}`}
+              className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
+            >
+              🎁 {s.name}シリーズ一覧
             </Link>
           ))}
           {releaseMonth && (

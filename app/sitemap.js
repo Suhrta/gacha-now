@@ -1,6 +1,7 @@
 import products from "../data/products.json";
 import blogPosts from "../data/blog-posts.json";
 import { CHARACTERS, filterProductsByCharacter } from "../data/characters";
+import { SERIES, filterProductsBySeries } from "../data/series";
 import { getAllReleaseMonths, getReleaseYearMonth } from "../lib/release";
 import { indexableProducts, indexableBlogPosts } from "../lib/quality";
 
@@ -49,6 +50,13 @@ export default function sitemap() {
     };
   }).filter(Boolean);
 
+  const seriesPages = SERIES.map((s) => ({
+    url: `${BASE_URL}/series/${s.slug}`,
+    lastModified: latestCollectedAt(filterProductsBySeries(products, s)),
+    changeFrequency: "weekly",
+    priority: 0.6,
+  }));
+
   const releasePages = getAllReleaseMonths(products).map((ym) => ({
     url: `${BASE_URL}/release/${ym}`,
     lastModified: latestCollectedAt(products.filter((p) => getReleaseYearMonth(p) === ym)),
@@ -63,7 +71,9 @@ export default function sitemap() {
     { url: `${BASE_URL}/contact`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
     { url: `${BASE_URL}/privacy`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.2 },
     { url: `${BASE_URL}/blog`, lastModified: new Date(), changeFrequency: "daily", priority: 0.8 },
+    { url: `${BASE_URL}/series`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.5 },
     ...blogPages,
+    ...seriesPages,
     ...productPages,
     ...brandPages,
     ...characterPages,

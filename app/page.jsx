@@ -377,6 +377,9 @@ export default function HomePage() {
                   #{c.name}
                 </Link>
               ))}
+              <Link href="/series" className="text-brand-text font-bold hover:underline no-underline">
+                🎁 シリーズ特集
+              </Link>
             </div>
               </div>
               </div>
