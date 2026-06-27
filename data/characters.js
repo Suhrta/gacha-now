@@ -22,6 +22,9 @@ export const CHARACTERS = [
   { slug: "saint-seiya", name: "聖闘士星矢", pattern: "聖闘士星矢" },
   { slug: "hololive", name: "ホロライブ", pattern: "ホロライブ" },
   { slug: "predator", name: "プレデター", pattern: "プレデター" },
+  { slug: "jewelpet", name: "ジュエルペット", pattern: "ジュエルペット" },
+  { slug: "twisted-wonderland", name: "ツイステッドワンダーランド", pattern: "ツイステ" },
+  { slug: "star-wars", name: "スター・ウォーズ", pattern: "スター・?ウォーズ|グローグー|マンダロリアン" },
 ];
 
 export function getCharacterBySlug(slug) {

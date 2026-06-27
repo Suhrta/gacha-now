@@ -23,12 +23,12 @@ export default function BrandPage() {
           ← トップにもどる
         </Link>
         <div className="text-center mt-2">
-          <h1 className="font-pixel text-[12px] text-brand-accent animate-float">
-            {brandName}
+          <h1 className="animate-float">
+            <span className="block font-pixel text-[12px] text-brand-accent">{brandName}</span>
+            <span className="block font-pixel text-[10px] text-brand-sub mt-1">
+              のガチャガチャ 新作・最新情報
+            </span>
           </h1>
-          <div className="font-pixel text-[10px] text-brand-sub mt-1">
-            の ガチャ いちらん
-          </div>
         </div>
       </header>
 

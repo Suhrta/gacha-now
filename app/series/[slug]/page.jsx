@@ -27,8 +27,10 @@ export default function SeriesPage() {
           ← トップにもどる
         </Link>
         <div className="text-center mt-2">
-          <h1 className="font-pixel text-[12px] text-brand-accent animate-float">{name}</h1>
-          <div className="font-pixel text-[10px] text-brand-sub mt-1">シリーズ特集</div>
+          <h1 className="animate-float">
+            <span className="block font-pixel text-[12px] text-brand-accent">{name}</span>
+            <span className="block font-pixel text-[10px] text-brand-sub mt-1">シリーズ 新作・全種一覧</span>
+          </h1>
         </div>
       </header>
 
