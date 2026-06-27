@@ -357,11 +357,14 @@ export default function HomePage() {
                     検索
                   </button>
                 </div>
-                <div className="mt-3 flex items-center gap-2 flex-wrap text-xs">
-                  <Link href="/series" className="text-brand-text font-bold hover:underline no-underline">
-                    🎁 シリーズ特集をみる
-                  </Link>
-                </div>
+                <Link
+                  href="/series"
+                  className="inline-flex items-center gap-2 mt-4 px-5 py-2.5 bg-white border-2 border-brand-accent rounded-full text-sm md:text-base font-bold text-brand-accent no-underline hover:bg-brand-accent hover:text-white transition-colors"
+                  style={{ boxShadow: "0 3px 0 #E8756D33, 0 4px 12px rgba(232,117,109,0.15)" }}
+                >
+                  🎁 シリーズ特集をみる
+                  <span>→</span>
+                </Link>
               </div>
             </div>
 
