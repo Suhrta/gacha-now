@@ -119,12 +119,41 @@ function RakutenButton({ keyword, label }) {
   );
 }
 
+// 記事内画像。記法: [img:/blog/foo.png|代替テキスト] または [img:/blog/foo.png|代替テキスト|キャプション]
+function ContentImage({ src, alt, caption }) {
+  return (
+    <figure className="my-4">
+      <img
+        src={src}
+        alt={alt}
+        loading="lazy"
+        className="w-full h-auto rounded-xl border-2 border-cream-border bg-cream-dark"
+      />
+      {caption && (
+        <figcaption className="mt-1.5 text-xs text-brand-sub text-center leading-relaxed">
+          {caption}
+        </figcaption>
+      )}
+    </figure>
+  );
+}
+
 function renderContent(content) {
   return content.split("\n").map((line, i) => {
     const productMatch = line.trim().match(/^\[product:([^\]]+)\]$/);
     if (productMatch) return <ProductCard key={i} id={productMatch[1]} />;
     const rakutenMatch = line.trim().match(/^\[rakuten:([^|\]]+)\|([^\]]+)\]$/);
     if (rakutenMatch) return <RakutenButton key={i} keyword={rakutenMatch[1].trim()} label={rakutenMatch[2].trim()} />;
+    const imgMatch = line.trim().match(/^\[img:([^|\]]+)(?:\|([^|\]]*))?(?:\|([^\]]*))?\]$/);
+    if (imgMatch)
+      return (
+        <ContentImage
+          key={i}
+          src={imgMatch[1].trim()}
+          alt={(imgMatch[2] || "").trim()}
+          caption={(imgMatch[3] || "").trim()}
+        />
+      );
     if (line.startsWith("### "))
       return (
         <h3
