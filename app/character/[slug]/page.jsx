@@ -8,6 +8,8 @@ import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
 import products from "../../../data/products.json";
 import { CHARACTERS, getCharacterBySlug, filterProductsByCharacter } from "../../../data/characters";
+import { getCharacterIntro } from "../../../data/character-intros";
+import CharacterInfo from "../../../components/CharacterInfo";
 
 export default function CharacterPage() {
   const { slug } = useParams();
@@ -16,6 +18,7 @@ export default function CharacterPage() {
   const character = getCharacterBySlug(slug);
   const items = character ? filterProductsByCharacter(products, character) : [];
   const name = character ? character.name : decodeURIComponent(slug);
+  const intro = character ? getCharacterIntro(character.slug) : null;
   const others = CHARACTERS.filter((c) => c.slug !== slug);
 
   return (
@@ -40,11 +43,7 @@ export default function CharacterPage() {
 
         <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: `${name}のガチャ` }]} />
 
-        {items.length > 0 && (
-          <p className="text-xs text-brand-sub leading-relaxed mb-3 px-1 relative z-[1]">
-            {name}のガチャガチャ・カプセルトイ最新情報まとめ。{name}の新作{items.length}件を価格・種類数・発売日つきで毎日更新中。気になる{name}の新作カプセルトイをチェックしよう。
-          </p>
-        )}
+        <CharacterInfo name={name} items={items} intro={intro} />
 
         <div className="font-pixel text-[10px] text-brand-sub mb-2.5 px-1 relative">
           {items.length}けん
