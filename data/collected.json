@@ -165,7 +165,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第2週",
     "brand": "DEATH NOTE",
-    "types": 12
+    "types": null
   },
   {
     "title": "とっとこハム太郎 まちぼうけ",
@@ -261,7 +261,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第3週",
     "brand": "チェンソーマン",
-    "types": 12
+    "types": null
   },
   {
     "title": "劇場版『チェンソーマン レゼ篇』 つまんでつなげてマスコット2",
@@ -1437,7 +1437,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第4週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "TOM and JERRY フォトフレームマスコット",
@@ -3789,7 +3789,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第2週",
     "brand": "ドラゴンボール",
-    "types": 5
+    "types": null
   },
   {
     "title": "【フラットガシャポン】リラックマ×チュッパチャプス クリアラバーコースター",
@@ -6168,6 +6168,54 @@
     "types": 4
   },
   {
+    "title": "しまじろう めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118186140000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253560_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 第5週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "なめこ栽培キット まちぼうけ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995262000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 第5週",
+    "brand": "まちぼうけ",
+    "types": 5
+  },
+  {
     "title": "SKZOO ベーカリーチャーム",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184290000",
     "source": "バンダイ公式",
@@ -6187,7 +6235,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000246653_12.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "その他",
     "types": 8
   },
@@ -6211,7 +6259,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000250056_12.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "その他",
     "types": 4
   },
@@ -6235,7 +6283,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_12.jpg"
     ],
     "price": 500,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "その他",
     "types": 4
   },
@@ -6259,7 +6307,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253558_12.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "サンリオ",
     "types": 5
   },
@@ -6283,7 +6331,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253513_12.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "サンリオ",
     "types": 5
   },
@@ -6307,7 +6355,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251569_12.jpg"
     ],
     "price": 500,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "サンリオ",
     "types": 3
   },
@@ -6331,7 +6379,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253585_12.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "サンリオ",
     "types": 8
   },
@@ -6355,7 +6403,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251576_12.jpg"
     ],
     "price": 500,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "mofusand",
     "types": 4
   },
@@ -6379,7 +6427,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253577_12.jpg"
     ],
     "price": 500,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "サンリオ",
     "types": 4
   },
@@ -6403,7 +6451,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253576_12.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "サンリオ",
     "types": 5
   },
@@ -6427,7 +6475,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251647_12.jpg"
     ],
     "price": 600,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "その他",
     "types": 3
   },
@@ -6451,7 +6499,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253527_12.jpg"
     ],
     "price": 500,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "サンリオ",
     "types": 8
   },
@@ -6475,7 +6523,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_12.jpg"
     ],
     "price": 500,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "その他",
     "types": 4
   },
@@ -6499,7 +6547,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253521_12.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "サンリオ",
     "types": 5
   },
@@ -6523,7 +6571,7 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000250658_12.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年7月 第2週",
+    "releaseWeek": "2026年7月 第5週",
     "brand": "その他",
     "types": 16
   },
