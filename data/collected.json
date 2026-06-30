@@ -309,7 +309,7 @@
     "price": 400,
     "releaseWeek": "2026年5月 第3週",
     "brand": "ディズニー",
-    "types": null
+    "types": 5
   },
   {
     "title": "ちいかわ めじるしアクセサリー3",
@@ -693,7 +693,7 @@
     "price": 300,
     "releaseWeek": "2026年5月 第3週",
     "brand": "その他",
-    "types": 8
+    "types": null
   },
   {
     "title": "銀魂 もぐもぐ隊",
@@ -5973,7 +5973,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第4週",
     "brand": "ラブライブ",
-    "types": 20
+    "types": null
   },
   {
     "title": "＠CTION HEROES ウルトラマン 2",
