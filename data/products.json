@@ -1,5 +1,54 @@
 [
   {
+    "id": "gacha-1e661d5b",
+    "name": "ナルミヤキャラクターズ スイングケース",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 8,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248562_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118206480000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-07-01T09:09:17.492Z"
+  },
+  {
+    "id": "gacha-3e0d2ad5",
+    "name": "ヒグチユウコ 神様",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 7,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/03/kamisama_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/03/kamisama_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/higuchiyuko_kamisama/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-07-01T09:09:17.499Z"
+  },
+  {
     "id": "sanx-2-36f191bd",
     "name": "【ジャンボカードダス/フラットガシャポン】San-X オールスターズ ジャンボシールダス2",
     "brand": "その他",
