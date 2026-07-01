@@ -5373,7 +5373,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "Lil ala mode めじるしアクセサリー3",
@@ -6576,613 +6576,238 @@
     "types": 16
   },
   {
-    "title": "KIYATA 木工アート ミニチュアコレクション",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y088797",
+    "title": "肩ズンFig. ディズニー ツイステッドワンダーランド ハーツラビュル寮",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y086113",
     "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y088797_b.jpg",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y086113_b.jpg",
     "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y088797_b.jpg"
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y086113_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年6月 8日週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "夏目友人帳 すってんころりんフィギュア",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y094545",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y094545_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y094545_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 8日週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "グレムリン Hide&Seek かくれんぼフィギュア",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y097041",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": null,
-    "images": [],
-    "price": null,
-    "releaseWeek": "2026年6月 8日週",
-    "brand": "その他",
-    "types": null
-  },
-  {
-    "title": "ミニオンズ もぐもぐFig.2",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901546",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901546_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901546_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 8日週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "ポケピース ダイナーマスコットキーホルダー",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902048",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902048_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902048_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 8日週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "トイ・ストーリー また、アンディが来た!",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903144",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903144_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903144_b.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年6月 8日週",
+    "releaseWeek": "2026年7月 6日週",
     "brand": "ディズニー",
-    "types": 4
+    "types": 5
   },
   {
-    "title": "ハリー・ポッター/ファンタスティック・ビースト もふもふポーシェット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905865",
+    "title": "ポケモン とことこポッチャマ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y094156",
     "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905865_b.jpg",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y094156_b.jpg",
     "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905865_b.jpg"
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y094156_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年6月 8日週",
-    "brand": "ハリー・ポッター",
+    "releaseWeek": "2026年7月 6日週",
+    "brand": "ポケモン",
     "types": 4
   },
   {
-    "title": "JIGGY BOYS アクリルめじるしガチャマスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906848",
+    "title": "くまのプーさん Hide&Seek かくれんぼフィギュア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903137",
     "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906848_b.jpg",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903137_b.jpg",
     "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906848_b.jpg"
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903137_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月 6日週",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "サンリオキャラクターズ もこもこパンダフロッキーマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903649",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903649_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903649_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月 6日週",
+    "brand": "サンリオ",
+    "types": 5
+  },
+  {
+    "title": "都市伝説解体センター ギミックアクリルキーホルダー",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907593",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907593_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907593_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月 6日週",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "トミカ BOX型シリコンポーチ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907647",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907647_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907647_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月 6日週",
+    "brand": "トミカ",
+    "types": 4
+  },
+  {
+    "title": "Pokémon Pixel Art つれあるきマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901225",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901225_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901225_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年6月 8日週",
+    "releaseWeek": "2026年7月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "あそべる生物フィギュアシリーズ ガチャアクション THE恐竜 太古からのメッセージ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902062",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902062_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902062_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "ニック＆ジュディ コスチュームフィギュアコレクション",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903151",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903151_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903151_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "ポケモン わざすなっぷ いろいろなわざ Part3",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903328",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903328_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903328_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月",
+    "brand": "ポケモン",
+    "types": 4
+  },
+  {
+    "title": "onちゃんのフロッキーフィギュアだオン",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903977",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903977_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903977_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "ポケモン根付けマスコット Let's Sing!",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903984",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903984_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903984_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月",
+    "brand": "ポケモン",
+    "types": 4
+  },
+  {
+    "title": "富士ホーロー MOOMIN ミニコレクション2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905209",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905209_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905209_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月",
+    "brand": "ムーミン",
+    "types": 5
+  },
+  {
+    "title": "ポケモン 30周年 メタルチャームマスコット 〜シンオウ、イッシュ、カロス〜",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905551",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905551_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905551_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月",
+    "brand": "ポケモン",
+    "types": 7
+  },
+  {
+    "title": "CHUMSおにぎりフレンズ つながリングチャーム",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905803",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905803_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905803_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月",
     "brand": "その他",
     "types": 7
   },
   {
-    "title": "肩ズンFig. 文豪ストレイドッグス",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093166",
+    "title": "サンリオキャラクターズ くるくるヘアカーラーフィギュア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905940",
     "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093166_b.jpg",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905940_b.jpg",
     "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093166_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 15日週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "地獄先生ぬ～べ～ 鬼の手マスコットコレクション",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099137",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099137_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099137_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 15日週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "星のカービィ DOT STYLE キーホルダー",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099472",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099472_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099472_b.jpg"
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905940_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年6月 15日週",
-    "brand": "カービィ",
-    "types": 5
-  },
-  {
-    "title": "ぷにるんず じゅえりーぶれす",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901430",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901430_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901430_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 15日週",
-    "brand": "その他",
-    "types": 6
-  },
-  {
-    "title": "シュガーバターサンドの木 キーホルダー",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901959",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901959_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901959_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 15日週",
-    "brand": "その他",
-    "types": 6
-  },
-  {
-    "title": "PEANUTS リラクシングバスタイム",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903342",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903342_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903342_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 15日週",
-    "brand": "スヌーピー",
-    "types": 4
-  },
-  {
-    "title": "JOGUMAN もふもふポーシェット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904264",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904264_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904264_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 15日週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "芝犬ヶ丘",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904813",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904813_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904813_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 15日週",
-    "brand": "その他",
-    "types": 6
-  },
-  {
-    "title": "tomica PREMIUM BOX型シリコンポーチ1",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906343",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906343_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906343_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 15日週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "MOOMIN すやすやおやすみマスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906602",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906602_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906602_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 15日週",
-    "brand": "ムーミン",
-    "types": 6
-  },
-  {
-    "title": "モンスターズ・インクへようこそ",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906671",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906671_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906671_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 15日週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "ハローキティ なつかしアイテムミニチュアコレクション2",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y085048",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y085048_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y085048_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 22日週",
-    "brand": "サンリオ",
-    "types": 4
-  },
-  {
-    "title": "ホビーガチャ ワイルド・スピード MAX/MEGAMAX",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y087684",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y087684_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y087684_b.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年6月 22日週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "スタジオUG にしむらゆうじ すってんころりんフィギュア",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093326",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093326_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093326_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 22日週",
-    "brand": "その他",
-    "types": 5
-  },
-  {
-    "title": "ポケモン まんぷくぱくぱくマスコット4",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099588",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099588_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099588_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 22日週",
-    "brand": "ポケモン",
-    "types": 4
-  },
-  {
-    "title": "スパイダーマン ウェブアップ!!マスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900372",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900372_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900372_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月",
-    "brand": "その他",
-    "types": 5
-  },
-  {
-    "title": "トムとジェリー Yummy Foodコレクション3",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900822",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900822_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900822_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "ポケモン ぺたんこマスコット カントーSPECIAL",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901188",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901188_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901188_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 22日週",
-    "brand": "ポケモン",
-    "types": 6
-  },
-  {
-    "title": "おさるのジョージ ジョージの一日フィギュア",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901539",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901539_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901539_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月",
-    "brand": "おさるのジョージ",
-    "types": 4
-  },
-  {
-    "title": "トミカキーホルダー 救急車両大集合スペシャル",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901577",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901577_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901577_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月",
-    "brand": "トミカ",
-    "types": 5
-  },
-  {
-    "title": "パンダの穴 わんわんおでん",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902185",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902185_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902185_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 22日週",
-    "brand": "パンダの穴",
-    "types": 5
-  },
-  {
-    "title": "サンリオキャラクターズ おみみでぶらりんマスコット みみハートコレクション",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903069",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903069_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903069_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月",
+    "releaseWeek": "2026年7月",
     "brand": "サンリオ",
     "types": 5
   },
   {
-    "title": "ポケモン ぎらぎらサンシャイン5",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903311",
+    "title": "つながリングチャーム ワーリーフレンズ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905988",
     "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903311_b.jpg",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905988_b.jpg",
     "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903311_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月",
-    "brand": "ポケモン",
-    "types": 4
-  },
-  {
-    "title": "むぎゅっと!ディズニープリンセス",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903717",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903717_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903717_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月",
-    "brand": "ディズニー",
-    "types": 3
-  },
-  {
-    "title": "ポムポムプリン わんわんパラダイスマスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903915",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903915_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903915_b.jpg"
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905988_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年6月",
-    "brand": "サンリオ",
-    "types": 5
-  },
-  {
-    "title": "こむしちゃんのかんづめ! パート37",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903953",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903953_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903953_b.jpg"
-    ],
-    "price": 200,
-    "releaseWeek": "2026年6月",
-    "brand": "その他",
-    "types": 8
-  },
-  {
-    "title": "ディズニーキャラクター2 推してねマスコット 推しマス! クリアラメプレート",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905971",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905971_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905971_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月",
-    "brand": "ディズニー",
-    "types": 4
-  },
-  {
-    "title": "サンリオキャラクターズ ファッションリング オーロラコレクション",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906664",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906664_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906664_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 22日週",
-    "brand": "サンリオ",
-    "types": 10
-  },
-  {
-    "title": "リロ&スティッチ コスチュームフィギュアマスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906770",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906770_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906770_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "くまのプーさん コスチュームフィギュアマスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906961",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906961_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906961_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月",
-    "brand": "その他",
-    "types": 6
-  },
-  {
-    "title": "サンリオキャラクターズ 星色天使チャーム キャンディピンクver.",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907654",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907654_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907654_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月",
-    "brand": "サンリオ",
-    "types": 5
-  },
-  {
-    "title": "でふぉラバ! ディズニー ツイステッドワンダーランド ブルームバースデーvol.3",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907685",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907685_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907685_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月",
-    "brand": "ディズニー",
-    "types": 8
-  },
-  {
-    "title": "ディズニーキャラクター テトラポーチコレクション",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902079",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902079_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902079_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 29日週",
-    "brand": "ディズニー",
-    "types": 4
-  },
-  {
-    "title": "ベイマックス もぐもぐ!?Fig.",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902901",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902901_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902901_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 29日週",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "ディズニーキャラクター ファッションリング Cutie Little Animals",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903632",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903632_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903632_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 29日週",
-    "brand": "ディズニー",
-    "types": 6
-  },
-  {
-    "title": "トイ・ストーリー５ もふもふポーシェット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903700",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903700_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903700_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 29日週",
-    "brand": "ディズニー",
-    "types": 6
-  },
-  {
-    "title": "トイ・ストーリー５ ミニカプセルマシン",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903861",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903861_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903861_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 29日週",
-    "brand": "ディズニー",
-    "types": 6
-  },
-  {
-    "title": "Care Bears™ × ILLIT ピンズコレクション",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904141",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904141_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904141_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年6月 29日週",
-    "brand": "ケアベア",
-    "types": 5
-  },
-  {
-    "title": "Nobism のびズム -めじるしガチャマスコット-",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907494",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907494_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907494_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年6月 29日週",
+    "releaseWeek": "2026年7月",
     "brand": "その他",
     "types": 5
+  },
+  {
+    "title": "夏目友人帳〜音劇の章 夏霞〜 アクリルスタンド",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909115",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909115_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909115_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月",
+    "brand": "その他",
+    "types": 7
   },
   {
     "title": "ばあちゃんちの昭和レトロライト",
