@@ -3285,7 +3285,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "BANANA FISH まちぼうけ",
@@ -5445,7 +5445,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "まちぼうけ",
-    "types": 5
+    "types": null
   },
   {
     "title": "まちぼうけ 仮面ライダーの場合 その4",
