@@ -65,16 +65,35 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
+              "@id": "https://gacha-now.net/#website",
               name: "ガチャなう",
-              alternateName: ["ガチャなう｜カプセルトイ・ガチャガチャ新作情報", "gacha-now", "gacha now"],
+              alternateName: ["gacha-now.net", "gacha-now", "gacha now", "がちゃなう"],
               url: "https://gacha-now.net",
               description:
                 "毎日更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。",
               inLanguage: "ja",
+              publisher: { "@id": "https://gacha-now.net/#organization" },
               potentialAction: {
                 "@type": "SearchAction",
                 target: "https://gacha-now.net/?q={search_term_string}",
                 "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": "https://gacha-now.net/#organization",
+              name: "ガチャなう",
+              alternateName: ["gacha-now.net", "gacha-now"],
+              url: "https://gacha-now.net",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://gacha-now.net/icons/logo-mark.png",
               },
             }),
           }}
