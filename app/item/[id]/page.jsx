@@ -22,14 +22,21 @@ export function generateMetadata({ params }) {
   const typesText = product.types ? `・全${product.types}種` : "";
   // 薄い長尾ページは検索インデックスから外す（サイト全体の品質を底上げ）
   const lowValue = isLowValueProduct(product);
+  // 発売済みは過去の週表記だと「古い情報」に見えCTRが落ちるため「発売中」に切り替える
+  const released = isReleased(product);
+  const releaseTag = released ? "発売中" : `${product.releaseWeek}発売`;
+  // 汎用テンプレより実際の商品紹介文の方がSERPで訴求できるため優先して使う
+  const descLead = product.description
+    ? product.description.slice(0, 80)
+    : `${product.name}（${product.brand}）のカプセルトイ。`;
   return {
-    title: `${product.name}｜¥${product.price}${typesText}【${product.releaseWeek}発売】| ガチャなう`,
-    description: `${product.name}（${product.brand}）のカプセルトイ情報。¥${product.price}${typesText}。${product.releaseWeek}発売予定。ラインナップ・取扱店舗をチェック。`,
+    title: `${product.name}｜¥${product.price}${typesText}【${releaseTag}】| ガチャなう`,
+    description: `${descLead}¥${product.price}${typesText}／${releaseTag}。ラインナップ・価格・取扱店舗をチェック。`,
     robots: lowValue ? { index: false, follow: true } : { index: true, follow: true },
     alternates: { canonical: `https://gacha-now.net/item/${product.id}` },
     openGraph: {
-      title: `${product.name}｜¥${product.price}${typesText}【${product.releaseWeek}】`,
-      description: `${product.brand}のカプセルトイ「${product.name}」¥${product.price}${typesText} ── ${product.releaseWeek}発売`,
+      title: `${product.name}｜¥${product.price}${typesText}【${releaseTag}】`,
+      description: `${product.brand}のカプセルトイ「${product.name}」¥${product.price}${typesText} ── ${releaseTag}`,
       images: [product.img],
     },
   };

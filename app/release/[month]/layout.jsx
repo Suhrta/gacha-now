@@ -11,13 +11,20 @@ export function generateMetadata({ params }) {
   }
   const label = formatYearMonth(params.month);
   const count = products.filter((p) => getReleaseYearMonth(p) === params.month).length;
+  // 掲載が少ない月（先の月など）は「【3件】」等がSERPで内容の薄さに見えCTRを下げる。
+  // 十分な件数がある時だけ件数を出し、少数時は更新性を訴求する。
+  const countTag = count >= 10 ? `【${count}件】` : "【毎日更新】";
+  const descText =
+    count >= 10
+      ? `${label}発売のカプセルトイ・ガチャガチャ新作${count}件を一覧でチェック。価格・種類数・発売週つき。毎日更新。`
+      : `${label}発売のカプセルトイ・ガチャガチャ新作情報を毎日更新でお届け。価格・種類数・発売週つきで随時追加中。`;
 
   return {
-    title: `${label}発売のガチャガチャ新作一覧【${count}件】| ガチャなう`,
-    description: `${label}発売のカプセルトイ・ガチャガチャ新作${count}件を一覧でチェック。価格・種類数・発売週つき。毎日更新。`,
+    title: `${label}発売のガチャガチャ新作一覧${countTag}| ガチャなう`,
+    description: descText,
     alternates: { canonical: `https://gacha-now.net/release/${params.month}` },
     openGraph: {
-      title: `${label}発売のガチャガチャ新作一覧【${count}件】`,
+      title: `${label}発売のガチャガチャ新作一覧${countTag}`,
       description: `${label}発売のカプセルトイ新作情報を価格・発売週つきで一覧表示。`,
     },
   };
