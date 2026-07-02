@@ -501,7 +501,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第2週",
     "brand": "アンパンマン",
-    "types": 5
+    "types": null
   },
   {
     "title": "カラフルビーズべこ しゃかしゃかめじるしアクセサリー",
@@ -2637,7 +2637,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "サンリオ",
-    "types": 6
+    "types": null
   },
   {
     "title": "モンスターハンター モンスターアイコンラバーマスコット",
@@ -2853,7 +2853,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "ラブライブ！シリーズ15周年記念企画 ミニCDコレクション2",
@@ -2901,7 +2901,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第4週",
     "brand": "ウルトラマン",
-    "types": null
+    "types": 4
   },
   {
     "title": "ユニフォームフレームマグネット サッカー日本代表ver.",
@@ -2949,7 +2949,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 4
   },
   {
     "title": "超宇宙刑事ギャバン インフィニティ めじるしアクセサリー",
@@ -3429,7 +3429,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "シュガーバニーズ ふわふわめじるしアクセサリー",
@@ -3525,7 +3525,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "その他",
-    "types": 10
+    "types": null
   },
   {
     "title": "ジョジョの奇妙な冒険 ラバーマスコットコレクション05",
