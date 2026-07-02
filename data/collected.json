@@ -2901,7 +2901,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第4週",
     "brand": "ウルトラマン",
-    "types": 4
+    "types": null
   },
   {
     "title": "ユニフォームフレームマグネット サッカー日本代表ver.",
@@ -2949,7 +2949,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
-    "types": 4
+    "types": null
   },
   {
     "title": "超宇宙刑事ギャバン インフィニティ めじるしアクセサリー",
@@ -3840,7 +3840,7 @@
     "types": 5
   },
   {
-    "title": "NPBユニフォーム フレームマグネット～パシフィック・リーグ～",
+    "title": "NPB ユニフォームフレームマグネット～パシフィック・リーグ～",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935848000",
     "source": "バンダイ公式",
     "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_1.jpg",
@@ -6075,9 +6075,9 @@
     "title": "にゃんこ大戦争 めじるしアクセサリー",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770053852000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253523_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253523_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253523_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253523_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253523_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253523_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253523_4.jpg",
