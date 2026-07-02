@@ -453,7 +453,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第2週",
     "brand": "まどか☆マギカ",
-    "types": 10
+    "types": null
   },
   {
     "title": "コジコジ 台詞ラバーマグネット",
@@ -3285,7 +3285,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "BANANA FISH まちぼうけ",
@@ -3357,7 +3357,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "“ディズニーキャラクター” Twinkle ゴム",
@@ -5445,7 +5445,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 5
   },
   {
     "title": "まちぼうけ 仮面ライダーの場合 その4",
@@ -6750,6 +6750,71 @@
     "types": 4
   },
   {
+    "title": "塔の上のラプンツェル ゆらゆらつながるマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y092282",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y092282_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y092282_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月 13日週",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "onちゃんのフロッキーフィギュアだオン",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903977",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903977_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903977_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月 13日週",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "富士ホーロー MOOMIN ミニコレクション2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905209",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905209_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905209_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月 13日週",
+    "brand": "ムーミン",
+    "types": 5
+  },
+  {
+    "title": "サンリオキャラクターズ くるくるヘアカーラーフィギュア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905940",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905940_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905940_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 13日週",
+    "brand": "サンリオ",
+    "types": 5
+  },
+  {
+    "title": "つながリングチャーム ワーリーフレンズ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905988",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905988_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905988_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 13日週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
     "title": "Pokémon Pixel Art つれあるきマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901225",
     "source": "タカラトミーアーツ公式",
@@ -6802,19 +6867,6 @@
     "types": 4
   },
   {
-    "title": "onちゃんのフロッキーフィギュアだオン",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903977",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903977_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903977_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年7月",
-    "brand": "その他",
-    "types": 4
-  },
-  {
     "title": "ポケモン根付けマスコット Let's Sing!",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903984",
     "source": "タカラトミーアーツ公式",
@@ -6828,17 +6880,17 @@
     "types": 4
   },
   {
-    "title": "富士ホーロー MOOMIN ミニコレクション2",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905209",
+    "title": "サメ日和 めじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905230",
     "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905209_b.jpg",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905230_b.jpg",
     "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905209_b.jpg"
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905230_b.jpg"
     ],
-    "price": 400,
+    "price": 300,
     "releaseWeek": "2026年7月",
-    "brand": "ムーミン",
-    "types": 5
+    "brand": "その他",
+    "types": 4
   },
   {
     "title": "ポケモン 30周年 メタルチャームマスコット 〜シンオウ、イッシュ、カロス〜",
@@ -6865,32 +6917,6 @@
     "releaseWeek": "2026年7月",
     "brand": "その他",
     "types": 7
-  },
-  {
-    "title": "サンリオキャラクターズ くるくるヘアカーラーフィギュア",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905940",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905940_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905940_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年7月",
-    "brand": "サンリオ",
-    "types": 5
-  },
-  {
-    "title": "つながリングチャーム ワーリーフレンズ",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905988",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905988_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905988_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年7月",
-    "brand": "その他",
-    "types": 5
   },
   {
     "title": "夏目友人帳〜音劇の章 夏霞〜 アクリルスタンド",
