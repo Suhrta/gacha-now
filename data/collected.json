@@ -1053,7 +1053,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第3週",
     "brand": "ドラゴンボール",
-    "types": 5
+    "types": null
   },
   {
     "title": "リサとガスパール ベーカリーチャーム",
@@ -1149,7 +1149,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第3週",
     "brand": "スヌーピー",
-    "types": 5
+    "types": null
   },
   {
     "title": "クレヨンしんちゃん おすしんちゃん",
@@ -1245,7 +1245,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 10
   },
   {
     "title": "【フラットガシャポン】ケロロ軍曹 マウスシートコレクション",
@@ -5805,7 +5805,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "PEANUTS フロッキーマスコットチャーム",
