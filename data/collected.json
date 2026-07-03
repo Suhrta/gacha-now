@@ -621,7 +621,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 4
   },
   {
     "title": "MINITEEN つまんでつなげてますこっと でらっくす！01",
@@ -1245,7 +1245,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第3週",
     "brand": "その他",
-    "types": 10
+    "types": null
   },
   {
     "title": "【フラットガシャポン】ケロロ軍曹 マウスシートコレクション",
