@@ -1,5 +1,35 @@
 [
   {
+    "id": "gacha-7c6f8c98",
+    "name": "たまごっち みんなでバカンスフィギュア",
+    "brand": "たまごっち",
+    "brandSlug": "tamagotchi",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "7月 第3週",
+    "color": "#81D4FA",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251562_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769979163000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-07-04T06:24:36.005Z"
+  },
+  {
     "id": "dung-beat-posse--3cb0e236",
     "name": "DUNG BEAT POSSE アクリルめじるしガチャマスコット",
     "brand": "その他",
@@ -16009,36 +16039,5 @@
     "source": "バンダイ公式",
     "collectedAt": "2026-04-06T03:02:39.025Z",
     "description": "キラキラ輝くマコトジュエルが再び登場！全4種類のジュエルを集めて、君も名探偵プリキュアの仲間入りしちゃおう。"
-  },
-  {
-    "id": "gacha-4c7b7d17",
-    "name": "ファグラー ミニチュアパッケージコレクション",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 400,
-    "types": 5,
-    "releaseWeek": "4月 第4週",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248591_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916472000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-04-04T03:02:08.923Z",
-    "description": "愛らしくてちょっと不気味なファグラーが、ミニチュアパッケージになって登場！コレクション欲をくすぐる全4種で、どの子がお家に来るかはお楽しみ。"
   }
 ]
