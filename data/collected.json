@@ -381,7 +381,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第2週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "妖怪ウォッチ ミニチュアパッケージコレクション",
@@ -1005,7 +1005,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第3週",
     "brand": "カービィ",
-    "types": null
+    "types": 4
   },
   {
     "title": "ギャルなクレヨンしんちゃん",
@@ -1989,7 +1989,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
-    "types": 9
+    "types": null
   },
   {
     "title": "ズートピア2 めじるしアクセサリー",
