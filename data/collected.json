@@ -333,7 +333,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第1週",
     "brand": "ガンダム",
-    "types": 4
+    "types": null
   },
   {
     "title": "duolingo めじるしアクセサリー",
@@ -2493,7 +2493,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "まちぼうけ",
-    "types": 4
+    "types": null
   },
   {
     "title": "お文具といっしょ マスコットフィギュアコレクション～たべすぎたのです～",
