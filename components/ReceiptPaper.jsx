@@ -259,6 +259,13 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
                 </div>
               </div>
             )}
+
+            {/* 公式サイトリンク（小さめ・画像の下） */}
+            <a href={product.sourceUrl || "#"} target="_blank" rel="noopener noreferrer"
+              className="flex items-center justify-center gap-1 mt-0.5 mb-1 no-underline font-sans text-[9px] md:text-[11px]"
+              style={{ color: "#9B8978" }}>
+              🔗 公式サイトで詳しく見る
+            </a>
           </div>
 
           {/* 右カラム: 情報 */}
@@ -307,25 +314,13 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
               </div>
             ))}
 
-            {/* 公式サイトボタン */}
-            <a href={product.sourceUrl || "#"} target="_blank" rel="noopener noreferrer"
-              className="block w-full py-2.5 md:py-3 mt-2 rounded-lg font-sans text-[11px] md:text-sm text-white text-center no-underline"
-              style={{
-                background: `linear-gradient(135deg, ${product.color}, ${product.color}DD)`,
-                boxShadow: `0 3px 0 ${product.color}66, 0 4px 12px ${product.color}33`,
-              }}>
-              🔗 公式サイトで詳しく見る
-            </a>
-
-            {/* 楽天で探すボタン */}
+            {/* 楽天で探すボタン（メインCTA） */}
             <a href={`https://hb.afl.rakuten.co.jp/ichiba/5419daa8.c81c3582.5419daa9.cef22a14/?pc=${encodeURIComponent(`https://search.rakuten.co.jp/search/mall/${product.name}/`)}&link_type=text`}
               target="_blank" rel="nofollow sponsored noopener"
-              className="block w-full py-2.5 md:py-3 mt-1.5 rounded-lg font-sans text-[11px] md:text-sm text-center no-underline border-2"
+              className="block w-full py-3 md:py-3.5 mt-2 rounded-lg font-sans text-[12px] md:text-base font-bold text-white text-center no-underline"
               style={{
-                background: "#FFFFFF",
-                borderColor: "#BF0000",
-                color: "#BF0000",
-                boxShadow: "0 2px 8px rgba(191,0,0,0.1)",
+                background: "linear-gradient(135deg, #E60000, #BF0000)",
+                boxShadow: "0 3px 0 #8C0000, 0 4px 12px rgba(191,0,0,0.3)",
               }}>
               🛒 楽天市場で探す
             </a>
