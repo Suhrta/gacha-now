@@ -19,6 +19,10 @@ const sections = [
     body: "当サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を利用しています。このGoogleアナリティクスはトラフィックデータの収集のためにCookieを使用しています。このトラフィックデータは匿名で収集されており、個人を特定するものではありません。この機能はCookieを無効にすることで収集を拒否することができますので、お使いのブラウザの設定をご確認ください。この規約に関しての詳細はGoogle アナリティクス利用規約をご確認ください。",
   },
   {
+    title: "Google AdSenseについて",
+    body: "当サイトでは、第三者配信の広告サービス「Google AdSense」を利用する予定です。広告配信事業者は、ユーザーの興味に応じた広告を表示するためにCookieを使用することがあります。Cookieを使用することで、当サイトはユーザーのブラウザを識別できるようになりますが、ユーザー個人を特定するものではありません。Cookieを無効にする方法や、Google AdSenseに関する詳細は「広告 – ポリシーと規約 – Google」をご確認ください。また、ユーザーはGoogleの広告設定でパーソナライズ広告を無効にできます。",
+  },
+  {
     title: "Cookieについて",
     body: "当サイトでは、一部のコンテンツについてCookieを利用しています。Cookieとは、サイトにアクセスした際にブラウザに保存される情報ですが、お名前やメールアドレス等の個人情報は含まれません。ブラウザの設定により、Cookieを無効にすることも可能です。",
   },
@@ -50,7 +54,7 @@ export default function PrivacyPage() {
       <div className="mt-6 text-center">
         <div className="font-pixel text-[10px] text-brand-accent">📋 プライバシーポリシー</div>
         <div className="font-pixel text-[10px] text-brand-sub mt-2">
-          最終更新日: 2026年3月1日
+          最終更新日: 2026年7月6日
         </div>
       </div>
 
