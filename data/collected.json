@@ -4965,7 +4965,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第3週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "【ジャンボカードダス/フラットガシャポン】たまごっち ジャンボシールダス",
@@ -5829,7 +5829,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "PEANUTS フロッキーマスコットチャーム",
