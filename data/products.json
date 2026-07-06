@@ -1,5 +1,24 @@
 [
   {
+    "id": "gacha-3fc0c875",
+    "name": "たたかわない!トランスフォーマー ぬいぐるみマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "7月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904134_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904134_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904134",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-06T07:29:09.460Z"
+  },
+  {
     "id": "gacha-7c6f8c98",
     "name": "たまごっち みんなでバカンスフィギュア",
     "brand": "たまごっち",
@@ -15977,67 +15996,5 @@
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-04-06T09:02:31.842Z",
     "description": "初音ミクがラムネパッケージ風のキュートなポーチに変身！全6種のデザインでどの子をお迎えできるかはお楽しみだよ。"
-  },
-  {
-    "id": "gacha-021633f0",
-    "name": "名探偵プリキュア！ なりきりプリキュア2",
-    "brand": "プリキュア",
-    "brandSlug": "precure",
-    "price": 300,
-    "types": 6,
-    "releaseWeek": "4月 第2週",
-    "color": "#F48FB1",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248548_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118185280000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-04-06T03:02:39.025Z",
-    "description": "プリキュアになりきって事件を解決！憧れの変身アイテムが手のひらサイズで登場だよ。全4種コンプリートして、君も立派な名探偵プリキュアの仲間入り！"
-  },
-  {
-    "id": "gacha-67b92ef5",
-    "name": "名探偵プリキュア！ プリキュアマコトジュエルコレクション2",
-    "brand": "プリキュア",
-    "brandSlug": "precure",
-    "price": 300,
-    "types": 4,
-    "releaseWeek": "4月 第2週",
-    "color": "#F48FB1",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000248547_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118185297000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-04-06T03:02:39.025Z",
-    "description": "キラキラ輝くマコトジュエルが再び登場！全4種類のジュエルを集めて、君も名探偵プリキュアの仲間入りしちゃおう。"
   }
 ]
