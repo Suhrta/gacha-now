@@ -5997,7 +5997,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第4週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "機動戦士ガンダム CAPSULE INDEX 03",
@@ -6456,30 +6456,6 @@
     "types": 6
   },
   {
-    "title": "なめこ栽培キット まちぼうけ",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995262000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年7月 第5週",
-    "brand": "まちぼうけ",
-    "types": 5
-  },
-  {
     "title": "ブルーロック めじるしアクセサリー‐VS.U-20 JAPAN-",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995804000",
     "source": "バンダイ公式",
@@ -6768,6 +6744,30 @@
     "types": 12
   },
   {
+    "title": "なめこ栽培キット まちぼうけ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995262000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "未定",
+    "brand": "まちぼうけ",
+    "types": 5
+  },
+  {
     "title": "肩ズンFig. ディズニー ツイステッドワンダーランド ハーツラビュル寮",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y086113",
     "source": "タカラトミーアーツ公式",
@@ -6974,6 +6974,19 @@
     "releaseWeek": "2026年7月",
     "brand": "ポケモン",
     "types": 4
+  },
+  {
+    "title": "SR+ スパイダーマン -DELUXE EDITION-",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903472",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903472_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903472_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年7月",
+    "brand": "その他",
+    "types": 5
   },
   {
     "title": "ポケモン根付けマスコット Let's Sing!",
