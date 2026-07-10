@@ -2565,7 +2565,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "いきもの大図鑑レプティクス 恐竜",
@@ -5085,7 +5085,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "アイカツ",
-    "types": 15
+    "types": null
   },
   {
     "title": "モンチッチ×ハローキティ めじるしアクセサリー",
