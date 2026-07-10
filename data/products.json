@@ -1,5 +1,24 @@
 [
   {
+    "id": "butter-family--1b67433f",
+    "name": "BUTTER Family ふわもこフォトホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "7月 13日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907340_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907340_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907340",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-10T00:02:37.876Z"
+  },
+  {
     "id": "gacha-3d63c221",
     "name": "おいんぼいん　ふわふわてんしちゃん めじるしガチャマスコット",
     "brand": "その他",
