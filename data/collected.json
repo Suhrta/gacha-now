@@ -1269,7 +1269,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第3週",
     "brand": "その他",
-    "types": 8
+    "types": null
   },
   {
     "title": "東宝怪獣 ゴジラまちぼうけ デフォルメの場合",
@@ -5085,7 +5085,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "アイカツ",
-    "types": null
+    "types": 15
   },
   {
     "title": "モンチッチ×ハローキティ めじるしアクセサリー",
