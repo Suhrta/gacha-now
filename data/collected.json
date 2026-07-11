@@ -261,7 +261,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第1週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "パペットスンスン もっと！スンスンを探せマスコット",
@@ -405,7 +405,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第2週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "るかっぷ ミニチュアコレクション 呪術廻戦",
