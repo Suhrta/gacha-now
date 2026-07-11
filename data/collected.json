@@ -261,7 +261,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第1週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "パペットスンスン もっと！スンスンを探せマスコット",
@@ -1269,7 +1269,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 8
   },
   {
     "title": "東宝怪獣 ゴジラまちぼうけ デフォルメの場合",
@@ -6171,9 +6171,9 @@
     "title": "アニメ『呪術廻戦』5周年 めじるしアクセサリー",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770056013000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253519_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253519_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253519_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253519_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253519_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253519_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253519_4.jpg",
