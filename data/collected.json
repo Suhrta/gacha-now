@@ -7070,10 +7070,10 @@
     "images": [
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y905452_b.jpg"
     ],
-    "price": null,
-    "releaseWeek": "2026年7月 20日週",
+    "price": 300,
+    "releaseWeek": "2026年7月",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "CHUMSおにぎりフレンズ つながリングチャーム",
@@ -7083,10 +7083,10 @@
     "images": [
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y905803_b.jpg"
     ],
-    "price": null,
-    "releaseWeek": "2026年7月 20日週",
+    "price": 400,
+    "releaseWeek": "2026年7月",
     "brand": "その他",
-    "types": null
+    "types": 7
   },
   {
     "title": "夏目友人帳〜音劇の章 夏霞〜 アクリルスタンド",
