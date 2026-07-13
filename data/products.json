@@ -1,5 +1,62 @@
 [
   {
+    "id": "gacha-466ba824",
+    "name": "映画 すみっコぐらし 空の王国とふたりのコ めじるしガチャマスコット",
+    "brand": "すみっコぐらし",
+    "brandSlug": "sumikko",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#A5D6A7",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099762_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099762_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099762",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-13T06:22:27.226Z"
+  },
+  {
+    "id": "fig--37839b50",
+    "name": "お勉強タイムFig. ハイキュー!!",
+    "brand": "ハイキュー",
+    "brandSlug": "haikyu",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "7月",
+    "color": "#d5e599",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900648_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900648_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900648",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-13T06:22:27.226Z"
+  },
+  {
+    "id": "gacha-2cf26241",
+    "name": "こぼすシリーズ おみそしる-ネコ編-",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "7月 中旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/07/kobosu_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/07/kobosu_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/kobosu_neko/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-07-13T06:22:27.227Z"
+  },
+  {
     "id": "gacha-2f953714",
     "name": "花ざかりの君たちへ ふらっとめじるしアクセサリー",
     "brand": "その他",

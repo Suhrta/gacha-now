@@ -6920,6 +6920,19 @@
     "types": 4
   },
   {
+    "title": "映画 すみっコぐらし 空の王国とふたりのコ めじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099762",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099762_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099762_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 13日週",
+    "brand": "すみっコぐらし",
+    "types": 4
+  },
+  {
     "title": "おいんぼいん　ふわふわてんしちゃん めじるしガチャマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901119",
     "source": "タカラトミーアーツ公式",
@@ -7008,6 +7021,19 @@
     "price": 400,
     "releaseWeek": "2026年7月 13日週",
     "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "お勉強タイムFig. ハイキュー!!",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900648",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900648_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900648_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年7月",
+    "brand": "ハイキュー",
     "types": 4
   },
   {
@@ -10414,6 +10440,19 @@
     "price": 500,
     "releaseWeek": "2022年12月 上旬",
     "brand": "カービィ",
+    "types": 5
+  },
+  {
+    "title": "こぼすシリーズ おみそしる-ネコ編-",
+    "url": "https://kitan.jp/products/kobosu_neko/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/07/kobosu_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/07/kobosu_DP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年7月 中旬",
+    "brand": "その他",
     "types": 5
   }
 ]
