@@ -11,6 +11,7 @@ import products from "../data/products.json";
 import { CHARACTERS } from "../data/characters";
 import { SERIES } from "../data/series";
 import { getAllReleaseMonths, formatYearMonth } from "../lib/release";
+import { DATA_UPDATED } from "../lib/site-meta";
 
 const ITEMS_PER_PAGE = 20;
 // 自動読み込みは最初の数バッチまで。それ以降は「もっと見る」ボタンに切り替え、
@@ -121,15 +122,8 @@ const STATUS_TABS = [
   { key: "favorites", label: "お気に入り" },
 ];
 
-// 最終更新日は最新のcollectedAtをJST固定で表示（ビルドとブラウザのタイムゾーン差によるハイドレーション不一致を防ぐ）
-const LAST_UPDATED = (() => {
-  const times = products
-    .map((p) => new Date(p.collectedAt || 0).getTime())
-    .filter((t) => t > 0);
-  if (times.length === 0) return null;
-  const jst = new Date(Math.max(...times) + 9 * 3600 * 1000);
-  return `${jst.getUTCMonth() + 1}月${jst.getUTCDate()}日`;
-})();
+// 最終更新日はメタデータ（title・description）と同じ算出元を使い、表示と食い違わないようにする
+const LAST_UPDATED = DATA_UPDATED ? DATA_UPDATED.label : null;
 
 export default function HomePage() {
   const [brand, setBrand] = useState("すべて");

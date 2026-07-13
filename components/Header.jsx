@@ -22,9 +22,8 @@ export default function Header({ onSearchClick, onFavoritesClick, onNewClick }) 
     <header className="sticky top-0 z-50 bg-white border-b border-cream-border">
       <div className="max-w-site mx-auto px-4 py-3 flex items-center justify-between gap-4">
         {/* 左: ロゴ */}
-        <Link href="/" className="flex items-center gap-2 no-underline shrink-0">
-          <img src="/icons/logo-mark.png" alt="ガチャなう" className="w-8 h-8" />
-          <span className="font-bold text-xl text-brand-text">ガチャなう</span>
+        <Link href="/" className="flex items-center no-underline shrink-0" aria-label="ガチャなう">
+          <img src="/icons/logo-full.png" alt="ガチャなう" className="h-9 w-auto" />
         </Link>
 
         {/* 中央: PCナビ */}

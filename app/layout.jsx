@@ -1,12 +1,26 @@
 import Script from "next/script";
 import products from "../data/products.json";
+import { DATA_UPDATED } from "../lib/site-meta";
 import "./globals.css";
+
+// 検索語と完全一致する語を先頭に、鮮度（年月）を切れずに見える位置に置く。
+// ブランド名は末尾（切れてもfavicon・サイト名表示で補える）
+const SITE_TITLE = DATA_UPDATED
+  ? `ガチャガチャ新作・最新情報【${DATA_UPDATED.year}年${DATA_UPDATED.month}月】毎日更新｜ガチャなう`
+  : "ガチャガチャ新作・最新情報 毎日更新｜ガチャなう";
+
+const SITE_DESCRIPTION = DATA_UPDATED
+  ? `【${DATA_UPDATED.label}更新】ガチャガチャ・カプセルトイを発売日順に毎日更新。サンリオ・ちいかわ・ポケモンなど人気キャラや、バンダイ・タカラトミーアーツなどメーカー・価格別に探せます。`
+  : "毎日更新！ガチャガチャ・カプセルトイの新作をまとめてチェック。サンリオ・ちいかわ・ポケモンなど話題のカプセルトイを発売日・価格・ブランド別に探せます。";
+
+const OG_DESCRIPTION = DATA_UPDATED
+  ? `【${DATA_UPDATED.label}更新】ガチャガチャ新作を発売日・価格・メーカー別にチェック。毎日更新。`
+  : "毎日更新！カプセルトイ新作情報を発売日・価格・ブランド別にチェック。";
 
 export const metadata = {
   metadataBase: new URL("https://gacha-now.net"),
-  title: "ガチャなう｜ガチャガチャ・カプセルトイ新作・最新情報【毎日更新・2026年】",
-  description:
-    "毎日更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。バンダイ・タカラトミーアーツ・キタンクラブなど人気メーカー対応。サンリオ・ちいかわ・ポケモンなど話題のカプセルトイを発売日・価格・ブランド別に探せます。",
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
   keywords: [
     "ガチャガチャ", "カプセルトイ", "新作", "ガチャなう",
     "ガシャポン", "バンダイ", "タカラトミーアーツ", "キタンクラブ",
@@ -17,9 +31,8 @@ export const metadata = {
     canonical: "https://gacha-now.net",
   },
   openGraph: {
-    title: "ガチャなう｜ガチャガチャ・カプセルトイ新作・最新情報【毎日更新・2026年】",
-    description:
-      "毎日更新！300件以上のカプセルトイ新作情報を発売日・価格・ブランド別にチェック。",
+    title: SITE_TITLE,
+    description: OG_DESCRIPTION,
     type: "website",
     locale: "ja_JP",
     url: "https://gacha-now.net",
@@ -27,9 +40,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ガチャなう｜ガチャガチャ・カプセルトイ新作・最新情報【毎日更新・2026年】",
-    description:
-      "毎日更新！300件以上のカプセルトイ新作情報を発売日・価格・ブランド別にチェック。",
+    title: SITE_TITLE,
+    description: OG_DESCRIPTION,
   },
   robots: { index: true, follow: true },
 };
@@ -69,8 +81,8 @@ export default function RootLayout({ children }) {
               name: "ガチャなう",
               alternateName: ["gacha-now.net", "gacha-now", "gacha now", "がちゃなう"],
               url: "https://gacha-now.net",
-              description:
-                "毎日更新！ガチャガチャ・カプセルトイの新作情報300件以上をまとめてチェック。",
+              description: OG_DESCRIPTION,
+              ...(DATA_UPDATED ? { dateModified: DATA_UPDATED.iso } : {}),
               inLanguage: "ja",
               publisher: { "@id": "https://gacha-now.net/#organization" },
               potentialAction: {
