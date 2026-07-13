@@ -1,2 +1,13 @@
 node_modules
 .next
+
+# 環境変数（秘密情報）
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ログ・OS
+*.log
+.DS_Store
