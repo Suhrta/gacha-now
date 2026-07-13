@@ -189,7 +189,7 @@
     "price": 200,
     "releaseWeek": "2026年6月 第1週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "プリキュアオールスターズ ミニチュアライトセレクション２",
@@ -2325,7 +2325,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ アロハスイングコレクション",
@@ -2469,7 +2469,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第4週",
     "brand": "その他",
-    "types": 4
+    "types": null
   },
   {
     "title": "とっとこハム太郎 まちぼうけ2",
