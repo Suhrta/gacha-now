@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReceiptPaper from "../../../components/ReceiptPaper";
+import RakutenLinks from "../../../components/RakutenLinks";
 import Breadcrumb from "../../../components/Breadcrumb";
 import products from "../../../data/products.json";
+import rakutenLinks from "../../../data/rakuten-links.json";
 import { charactersForProduct } from "../../../data/characters";
 import { seriesForProduct } from "../../../data/series";
 import { isReleased, getReleaseYearMonth, formatYearMonth } from "../../../lib/release";
@@ -106,6 +108,8 @@ export default function ItemPage({ params }) {
         />
       </div>
       <ReceiptPaper product={product} isPage={true} />
+
+      <RakutenLinks product={product} links={rakutenLinks[product.id]} />
 
       {relatedItems.length > 0 && (
         <section className="px-4 mt-8 max-w-2xl mx-auto w-full">
