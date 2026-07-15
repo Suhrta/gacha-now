@@ -25,7 +25,24 @@ import {
   getBrandColor,
   isHot,
   GENERIC_BRANDS,
+  BRAND_MAP,
 } from "./brand.js";
+
+const MAP_BRANDS = new Set(BRAND_MAP.map((e) => e.brand));
+
+// 保存済みの brand を上書きしてよいか判定する。
+//
+// 上書きしてよいのは「BRAND_MAPのキーワード判定で付いたはずなのに、今の判定と食い違う」場合のみ。
+// これは BRAND_MAP を直した結果として起きる（例: "ルフィ" が「カプセルフィギュア」に部分一致して
+// 初音ミクやジョジョがワンピース扱いになっていたのを、キーワード削除で修正した）。
+//
+// 逆に、キタンクラブ等のサイトのカテゴリタグ由来で付いたブランドは products.json に
+// タグが残っておらず名前からは再現できない。上書きすると正しいブランドを壊すので触らない。
+function shouldOverwrite(stored, byName) {
+  if (!MAP_BRANDS.has(stored)) return false; // タグ由来の独自ブランド
+  if (GENERIC_BRANDS.has(byName)) return false; // 名前からは判定不能＝タグ由来とみなす
+  return stored !== byName;
+}
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PRODUCTS_PATH =
@@ -35,24 +52,43 @@ function main() {
   const products = JSON.parse(fs.readFileSync(PRODUCTS_PATH, "utf8"));
 
   const changes = [];
+  const fixes = [];
   for (const p of products) {
-    if (!GENERIC_BRANDS.has(p.brand)) continue; // 具体ブランドは尊重する
-    const brand = detectBrand(p.name);
-    if (GENERIC_BRANDS.has(brand)) continue; // 依然として判定できず
+    const byName = detectBrand(p.name);
+    let brand = null;
 
-    changes.push({ name: p.name, from: p.brand, to: brand });
+    if (GENERIC_BRANDS.has(p.brand)) {
+      // 「その他」からの昇格（BRAND_MAP拡張の取りこぼし回収）
+      if (GENERIC_BRANDS.has(byName)) continue; // 依然として判定できず
+      brand = byName;
+      changes.push({ name: p.name, from: p.brand, to: brand });
+    } else if (shouldOverwrite(p.brand, byName)) {
+      // 誤判定の訂正（BRAND_MAPのキーワードを直したときに効く）
+      brand = byName;
+      fixes.push({ name: p.name, from: p.brand, to: brand });
+    } else {
+      continue;
+    }
+
     p.brand = brand;
     p.brandSlug = toBrandSlug(brand);
     p.color = getBrandColor(brand);
     p.hot = isHot(p.name, brand);
   }
 
-  if (changes.length === 0) {
+  if (changes.length === 0 && fixes.length === 0) {
     console.log("✅ 再判定: 変更なし");
     return;
   }
 
   fs.writeFileSync(PRODUCTS_PATH, JSON.stringify(products, null, 2), "utf-8");
+
+  if (fixes.length) {
+    console.log(`🔧 誤判定を訂正: ${fixes.length}件`);
+    for (const f of fixes) {
+      console.log(`   ${f.from} → ${f.to} | ${f.name.slice(0, 34)}`);
+    }
+  }
 
   const byBrand = {};
   for (const c of changes) byBrand[c.to] = (byBrand[c.to] || 0) + 1;

@@ -3016,12 +3016,12 @@
   {
     "id": "gacha-11b50f44",
     "name": "初音ミク みんなでプールフィギュア",
-    "brand": "ワンピース",
-    "brandSlug": "onepiece",
+    "brand": "初音ミク",
+    "brandSlug": "miku",
     "price": 500,
     "types": 5,
     "releaseWeek": "7月 第3週",
-    "color": "#E57373",
+    "color": "#4DD0E1",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253603_1.jpg",
     "images": [
@@ -4306,12 +4306,12 @@
   {
     "id": "tv--7fe8d8ea",
     "name": "TVアニメ「黄泉のツガイ」 カプセルフィギュアコレクション",
-    "brand": "ワンピース",
-    "brandSlug": "onepiece",
+    "brand": "黄泉のツガイ",
+    "brandSlug": "yomitsugai",
     "price": 500,
     "types": 4,
     "releaseWeek": "7月 第4週",
-    "color": "#E57373",
+    "color": "#e599c6",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253609_2.jpg",
     "images": [
@@ -9311,12 +9311,12 @@
   {
     "id": "-recollect06-4d659cea",
     "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション RE-Collect06",
-    "brand": "ワンピース",
-    "brandSlug": "onepiece",
+    "brand": "ジョジョの奇妙な冒険",
+    "brandSlug": "jojo",
     "price": 500,
     "types": 4,
     "releaseWeek": "6月 第3週",
-    "color": "#E57373",
+    "color": "#e5b899",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251574_1.jpg",
     "images": [
@@ -13258,12 +13258,12 @@
   {
     "id": "-recollect05-1ce35ffd",
     "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション RE-Collect05",
-    "brand": "ワンピース",
-    "brandSlug": "onepiece",
+    "brand": "ジョジョの奇妙な冒険",
+    "brandSlug": "jojo",
     "price": 500,
     "types": 4,
     "releaseWeek": "5月 第3週",
-    "color": "#E57373",
+    "color": "#e5b899",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250089_1.jpg",
     "images": [
