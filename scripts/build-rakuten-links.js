@@ -95,8 +95,14 @@ function candidateQueries(product, intent) {
 }
 
 // キャッシュ判定用シグネチャ（この値が変わったら再検証）
+//
+// クエリ生成に実際に効く項目だけを入れる。brand は candidateQueries が使っていない
+// （検索の主語はシリーズ名・キャラ名・商品名トークンで、「バンダイ」等は無関係すぎるため）。
+// 以前は brand を含めていたので、BRAND_MAP を拡張して brand を振り直すたびに
+// 全商品のキャッシュが無効化され、クエリは1文字も変わらないのに再検証が走っていた
+// （2026-07-15の実行では205件が再検証され、API690回とMAX_VALIDATIONS=700に肉薄した）。
 function signature(product) {
-  return [product.name, product.brand, product.types, isReleased(product) ? "r" : "p"].join("|");
+  return [product.name, product.types, isReleased(product) ? "r" : "p"].join("|");
 }
 
 async function pickQuery(product, intent, stats) {
