@@ -3,7 +3,7 @@ import blogPosts from "../data/blog-posts.json";
 import { CHARACTERS, filterProductsByCharacter } from "../data/characters";
 import { SERIES, filterProductsBySeries } from "../data/series";
 import { getAllReleaseMonths, getReleaseYearMonth } from "../lib/release";
-import { indexableProducts, indexableBlogPosts } from "../lib/quality";
+import { indexableProducts, indexableBlogPosts, isLowValueBrandPage } from "../lib/quality";
 
 const BASE_URL = "https://gacha-now.net";
 
@@ -31,13 +31,18 @@ export default function sitemap() {
     priority: 0.8,
   }));
 
+  // 商品が少なく noindex にしているブランドは、サイトマップにも載せない
+  // （載せるとnoindexページを自分で申告することになり矛盾する）
   const brandSlugs = [...new Set(products.map((p) => p.brandSlug))];
-  const brandPages = brandSlugs.map((slug) => ({
-    url: `${BASE_URL}/brand/${slug}`,
-    lastModified: latestCollectedAt(products.filter((p) => p.brandSlug === slug)),
-    changeFrequency: "weekly",
-    priority: 0.6,
-  }));
+  const brandPages = brandSlugs
+    .map((slug) => ({ slug, items: products.filter((p) => p.brandSlug === slug) }))
+    .filter(({ items }) => !isLowValueBrandPage(items))
+    .map(({ slug, items }) => ({
+      url: `${BASE_URL}/brand/${slug}`,
+      lastModified: latestCollectedAt(items),
+      changeFrequency: "weekly",
+      priority: 0.6,
+    }));
 
   const characterPages = CHARACTERS.map((c) => {
     const items = filterProductsByCharacter(products, c);

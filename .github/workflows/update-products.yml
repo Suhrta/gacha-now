@@ -62,6 +62,11 @@ jobs:
       - name: Update products.json
         run: node scripts/update.js
 
+      # update.js は既存商品に触れないため、BRAND_MAP を拡張しても過去分は
+      # 「その他」のまま noindex され続ける。ここで再判定して取りこぼしを回収する。
+      - name: Re-detect brands for existing products
+        run: node scripts/rebrand.js
+
       # 各商品の楽天「コンプセット/予約」検索クエリを楽天APIで検証して生成
       # （0件・無関係リンクを出さない。新商品と古い項目だけAPIを叩くので軽量）
       #

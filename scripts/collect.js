@@ -17,6 +17,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import puppeteer from "puppeteer";
 import * as cheerio from "cheerio";
+import { detectBrand } from "./brand.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -44,117 +45,7 @@ async function fetchBandaiTypes(janCode) {
   }
 }
 
-// ========================================
-// ブランド判定マップ
-// ========================================
-const BRAND_MAP = [
-  { keywords: ["ポケモン", "ポケットモンスター", "ピカチュウ"], brand: "ポケモン" },
-  { keywords: ["サンリオ", "ハローキティ", "マイメロ", "クロミ", "シナモロール", "ポムポムプリン"], brand: "サンリオ" },
-  { keywords: ["ちいかわ", "ハチワレ"], brand: "ちいかわ" },
-  { keywords: ["カービィ", "星のカービィ", "ワドルディ"], brand: "カービィ" },
-  { keywords: ["ディズニー", "ミッキー", "プリンセス", "ピクサー", "トイ・ストーリー", "ズートピア", "リメンバー"], brand: "ディズニー" },
-  { keywords: ["ワンピース", "ONE PIECE", "ルフィ"], brand: "ワンピース" },
-  { keywords: ["ドラゴンボール"], brand: "ドラゴンボール" },
-  { keywords: ["鬼滅", "鬼滅の刃"], brand: "鬼滅の刃" },
-  { keywords: ["呪術廻戦", "呪術"], brand: "呪術廻戦" },
-  { keywords: ["仮面ライダー", "CTION RIDE"], brand: "仮面ライダー" },
-  { keywords: ["ガンダム", "機動戦士"], brand: "ガンダム" },
-  { keywords: ["プリキュア"], brand: "プリキュア" },
-  { keywords: ["SPY×FAMILY", "スパイファミリー"], brand: "SPY×FAMILY" },
-  { keywords: ["転スラ", "転生したらスライム"], brand: "転スラ" },
-  { keywords: ["クレヨンしんちゃん"], brand: "クレヨンしんちゃん" },
-  { keywords: ["mofusand", "モフサンド"], brand: "mofusand" },
-  { keywords: ["すみっコ"], brand: "すみっコぐらし" },
-  { keywords: ["スヌーピー", "PEANUTS"], brand: "スヌーピー" },
-  { keywords: ["たまごっち"], brand: "たまごっち" },
-  { keywords: ["初音ミク"], brand: "初音ミク" },
-  { keywords: ["トミカ", "プラレール"], brand: "トミカ" },
-  { keywords: ["ゴジラ"], brand: "ゴジラ" },
-  { keywords: ["ウルトラマン"], brand: "ウルトラマン" },
-  { keywords: ["NARUTO", "ナルト"], brand: "NARUTO" },
-  { keywords: ["ハリー・ポッター", "ハリーポッター"], brand: "ハリー・ポッター" },
-  { keywords: ["アンパンマン"], brand: "アンパンマン" },
-  { keywords: ["ドラえもん"], brand: "ドラえもん" },
-  { keywords: ["犬夜叉"], brand: "犬夜叉" },
-  { keywords: ["MOOMIN", "ムーミン"], brand: "ムーミン" },
-  { keywords: ["スポンジ・ボブ"], brand: "スポンジ・ボブ" },
-  { keywords: ["いきもの大図鑑"], brand: "いきもの大図鑑" },
-  { keywords: ["まちぼうけ"], brand: "まちぼうけ" },
-  { keywords: ["パンダの穴"], brand: "パンダの穴" },
-  { keywords: ["おさるのジョージ"], brand: "おさるのジョージ" },
-  { keywords: ["フリーレン", "葬送のフリーレン"], brand: "フリーレン" },
-  { keywords: ["まどか☆マギカ", "まどマギ"], brand: "まどか☆マギカ" },
-  { keywords: ["アイカツ"], brand: "アイカツ" },
-  { keywords: ["藤子不二雄", "ドラえもん"], brand: "藤子不二雄" },
-  // キタンクラブ固有IP
-  { keywords: ["コップのフチ子", "フチ子"], brand: "コップのフチ子" },
-  { keywords: ["PUTITTO"], brand: "PUTITTO" },
-  { keywords: ["コウペンちゃん"], brand: "コウペンちゃん" },
-  { keywords: ["タローマン"], brand: "タローマン" },
-  { keywords: ["可愛い嘘のカワウソ", "カワウソ"], brand: "可愛い嘘のカワウソ" },
-  { keywords: ["おぱんちゅうさぎ"], brand: "おぱんちゅうさぎ" },
-  { keywords: ["チェンソーマン"], brand: "チェンソーマン" },
-  { keywords: ["ヒロアカ", "僕のヒーローアカデミア"], brand: "ヒロアカ" },
-  // ブシロードクリエイティブ関連IP
-  { keywords: ["BanG Dream", "バンドリ"], brand: "バンドリ" },
-  { keywords: ["ラブライブ"], brand: "ラブライブ" },
-  { keywords: ["D4DJ"], brand: "D4DJ" },
-  { keywords: ["ぼっち・ざ・ろっく", "ぼざろ"], brand: "ぼっち・ざ・ろっく" },
-  { keywords: ["名探偵コナン", "コナン"], brand: "名探偵コナン" },
-  { keywords: ["ハイキュー"], brand: "ハイキュー" },
-  { keywords: ["ダンダダン"], brand: "ダンダダン" },
-  { keywords: ["モブサイコ"], brand: "モブサイコ100" },
-  { keywords: ["るろうに剣心", "るろ剣"], brand: "るろうに剣心" },
-  { keywords: ["DEATH NOTE", "デスノート"], brand: "DEATH NOTE" },
-  { keywords: ["ぴちぴちピッチ"], brand: "ぴちぴちピッチ" },
-  { keywords: ["ゾンビランドサガ"], brand: "ゾンビランドサガ" },
-  { keywords: ["ウマ娘"], brand: "ウマ娘" },
-  { keywords: ["PINGU", "ピングー"], brand: "ピングー" },
-  { keywords: ["セサミストリート", "セサミ"], brand: "セサミストリート" },
-  { keywords: ["ケアベア", "Care Bears"], brand: "ケアベア" },
-];
-
-// カテゴリタグ除外リスト（ブランドではないタグ）
-const CATEGORY_IGNORE = new Set([
-  "新商品", "オリジナル", "企業コラボ", "キタンクラブオリジナル",
-  "カプセルトイ", "ねこのかぶりもの", "座るシリーズ", "シリーズ生きる",
-  "コップのフチ子シリーズ", "PUTITTOシリーズ", "フィギュア", "アーティスト",
-  "wovn-translate-widget[wovn]", // WOVNウィジェットの注入テキストを除外
-]);
-
-/**
- * ブランド判定（3段階フォールバック）
- * 1. BRAND_MAP キーワードマッチ
- * 2. サイトのカテゴリタグ（キタンクラブ等）
- * 3. 「その他」
- */
-function detectBrand(name, categoryTags = []) {
-  // 1. BRAND_MAP キーワードマッチ
-  for (const entry of BRAND_MAP) {
-    for (const kw of entry.keywords) {
-      if (name.includes(kw)) return entry.brand;
-    }
-  }
-
-  // 2. サイトのカテゴリタグから判定
-  for (const tag of categoryTags) {
-    const cleaned = tag.replace(/^#/, "").trim();
-    if (cleaned && !CATEGORY_IGNORE.has(cleaned) && cleaned.length >= 2) {
-      // タグがBRAND_MAPのブランド名に一致するか確認
-      for (const entry of BRAND_MAP) {
-        if (entry.brand === cleaned) return entry.brand;
-        for (const kw of entry.keywords) {
-          if (cleaned.includes(kw)) return entry.brand;
-        }
-      }
-      // 一致しなければタグ名をそのまま新ブランドとして採用
-      return cleaned;
-    }
-  }
-
-  // 3. フォールバック
-  return "その他";
-}
+// ブランド判定は scripts/brand.js に集約（collect/structure/rebrand で同じ定義を使う）
 
 // ========================================
 // 1. バンダイ ガシャポン公式（scheduleページから全情報取得）

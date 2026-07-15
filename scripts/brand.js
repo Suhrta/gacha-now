@@ -1,0 +1,353 @@
+/**
+ * brand.js - ブランド判定の単一の情報源
+ *
+ * collect.js（収集時の判定）と structure.js（slug/色/HOT）に分かれていたロジックを集約した。
+ * rebrand.js も同じ定義を使うため、BRAND_MAP をここで直すだけで
+ * 「新規収集」と「既存データの再判定」の両方に効く。
+ *
+ * 【なぜブランド判定が重要か】
+ * lib/quality.js は brand が GENERIC（その他 等）の商品ページを noindex する。
+ * つまり BRAND_MAP の登録漏れ ＝ 検索に載らない、と直結する。
+ * 実際、ジョジョ・カードキャプターさくら・HUNTER×HUNTER のような大型IPが
+ * 未登録のため「その他」に落ちて noindex されていた（2026-07 に一括登録）。
+ */
+
+// ブランドが特定できない場合の値。lib/quality.js の GENERIC_BRANDS と対応する。
+export const GENERIC_BRANDS = new Set(["その他", "New", "キャラクター"]);
+
+// ========================================
+// ブランド判定マップ
+// ========================================
+// 上から順に評価し、最初に一致したものを採用する（＝具体的なものほど上に置く）。
+//
+// キーワードは name.includes() で部分一致するため、短い英字は誤爆に注意。
+// 例) "NANA" は "BANANA FISH" に一致してしまうので使わず "矢沢あい" で判定する。
+export const BRAND_MAP = [
+  { keywords: ["ポケモン", "ポケットモンスター", "ピカチュウ", "Pokémon", "Pokemon", "ポケピース"], brand: "ポケモン" },
+  { keywords: ["サンリオ", "ハローキティ", "マイメロ", "MY MELODY", "クロミ", "KUROMI", "シナモロール", "ポムポムプリン", "シュガーバニーズ", "はぴだんぶい", "ジュエルペット"], brand: "サンリオ" },
+  { keywords: ["ちいかわ", "ハチワレ"], brand: "ちいかわ" },
+  { keywords: ["カービィ", "星のカービィ", "ワドルディ"], brand: "カービィ" },
+  // すみっコぐらし・リラックマは San-X 作品だが、単独の検索需要が大きいので先に判定する
+  { keywords: ["すみっコ"], brand: "すみっコぐらし" },
+  { keywords: ["リラックマ"], brand: "リラックマ" },
+  { keywords: ["San-X"], brand: "San-X" },
+  { keywords: ["ディズニー", "Disney", "ミッキー", "プリンセス", "ピクサー", "トイ・ストーリー", "TOY STORY", "トイストーリー", "ポテトヘッド", "ズートピア", "ニック＆ジュディ", "リメンバー", "くまのプーさん", "プーさん", "ラプンツェル", "リロ&スティッチ", "リロ＆スティッチ", "スティッチ", "ベイマックス", "モンスターズ・インク", "ナイトメアー・ビフォア・クリスマス"], brand: "ディズニー" },
+  { keywords: ["ワンピース", "ONE PIECE", "ルフィ"], brand: "ワンピース" },
+  { keywords: ["ドラゴンボール"], brand: "ドラゴンボール" },
+  { keywords: ["鬼滅", "鬼滅の刃"], brand: "鬼滅の刃" },
+  { keywords: ["呪術廻戦", "呪術"], brand: "呪術廻戦" },
+  { keywords: ["仮面ライダー", "CTION RIDE"], brand: "仮面ライダー" },
+  { keywords: ["ガンダム", "機動戦士"], brand: "ガンダム" },
+  { keywords: ["プリキュア", "ぷちきゅあ"], brand: "プリキュア" },
+  { keywords: ["SPY×FAMILY", "スパイファミリー"], brand: "SPY×FAMILY" },
+  { keywords: ["転スラ", "転生したらスライム"], brand: "転スラ" },
+  { keywords: ["クレヨンしんちゃん"], brand: "クレヨンしんちゃん" },
+  { keywords: ["mofusand", "モフサンド"], brand: "mofusand" },
+  { keywords: ["スヌーピー", "PEANUTS"], brand: "スヌーピー" },
+  { keywords: ["たまごっち"], brand: "たまごっち" },
+  { keywords: ["初音ミク"], brand: "初音ミク" },
+  // プラレールは「カプセルプラレール きかんしゃトーマス」のように後段のIPとも
+  // 一致しうるが、従来どおりトミカ扱いにするためこの位置で判定する
+  { keywords: ["トミカ", "tomica", "プラレール"], brand: "トミカ" },
+  { keywords: ["ゴジラ"], brand: "ゴジラ" },
+  { keywords: ["ウルトラマン", "ウルトラ怪獣"], brand: "ウルトラマン" },
+  { keywords: ["NARUTO", "ナルト"], brand: "NARUTO" },
+  { keywords: ["ハリー・ポッター", "ハリーポッター"], brand: "ハリー・ポッター" },
+  { keywords: ["アンパンマン"], brand: "アンパンマン" },
+  { keywords: ["ドラえもん"], brand: "ドラえもん" },
+  { keywords: ["犬夜叉"], brand: "犬夜叉" },
+  { keywords: ["MOOMIN", "ムーミン"], brand: "ムーミン" },
+  { keywords: ["スポンジ・ボブ"], brand: "スポンジ・ボブ" },
+  { keywords: ["いきもの大図鑑"], brand: "いきもの大図鑑" },
+  { keywords: ["まちぼうけ"], brand: "まちぼうけ" },
+  { keywords: ["パンダの穴"], brand: "パンダの穴" },
+  { keywords: ["おさるのジョージ"], brand: "おさるのジョージ" },
+  { keywords: ["フリーレン", "葬送のフリーレン"], brand: "フリーレン" },
+  { keywords: ["まどか☆マギカ", "まどマギ"], brand: "まどか☆マギカ" },
+  { keywords: ["アイカツ"], brand: "アイカツ" },
+  { keywords: ["藤子不二雄"], brand: "藤子不二雄" },
+  // キタンクラブ固有IP
+  { keywords: ["コップのフチ子", "フチ子"], brand: "コップのフチ子" },
+  { keywords: ["PUTITTO"], brand: "PUTITTO" },
+  { keywords: ["コウペンちゃん"], brand: "コウペンちゃん" },
+  { keywords: ["タローマン"], brand: "タローマン" },
+  { keywords: ["可愛い嘘のカワウソ", "カワウソ"], brand: "可愛い嘘のカワウソ" },
+  { keywords: ["おぱんちゅうさぎ"], brand: "おぱんちゅうさぎ" },
+  { keywords: ["チェンソーマン"], brand: "チェンソーマン" },
+  { keywords: ["ヒロアカ", "僕のヒーローアカデミア"], brand: "ヒロアカ" },
+  // ブシロードクリエイティブ関連IP
+  { keywords: ["BanG Dream", "バンドリ"], brand: "バンドリ" },
+  { keywords: ["ラブライブ"], brand: "ラブライブ" },
+  { keywords: ["D4DJ"], brand: "D4DJ" },
+  { keywords: ["ぼっち・ざ・ろっく", "ぼざろ"], brand: "ぼっち・ざ・ろっく" },
+  { keywords: ["名探偵コナン", "コナン"], brand: "名探偵コナン" },
+  { keywords: ["ハイキュー"], brand: "ハイキュー" },
+  { keywords: ["ダンダダン"], brand: "ダンダダン" },
+  { keywords: ["モブサイコ"], brand: "モブサイコ100" },
+  { keywords: ["るろうに剣心", "るろ剣"], brand: "るろうに剣心" },
+  { keywords: ["DEATH NOTE", "デスノート"], brand: "DEATH NOTE" },
+  { keywords: ["ぴちぴちピッチ"], brand: "ぴちぴちピッチ" },
+  { keywords: ["ゾンビランドサガ"], brand: "ゾンビランドサガ" },
+  { keywords: ["ウマ娘"], brand: "ウマ娘" },
+  { keywords: ["PINGU", "ピングー"], brand: "ピングー" },
+  { keywords: ["セサミストリート", "セサミ"], brand: "セサミストリート" },
+  { keywords: ["ケアベア", "Care Bears"], brand: "ケアベア" },
+
+  // ── 2026-07 追加分 ────────────────────────────────────────────
+  // 「その他」に落ちて noindex されていた大型IPを救出する。
+  { keywords: ["ジョジョ"], brand: "ジョジョの奇妙な冒険" },
+  { keywords: ["カードキャプターさくら"], brand: "カードキャプターさくら" },
+  { keywords: ["HUNTER×HUNTER", "ハンター×ハンター"], brand: "HUNTER×HUNTER" },
+  { keywords: ["MINECRAFT", "Minecraft", "マインクラフト"], brand: "マインクラフト" },
+  { keywords: ["ケロロ軍曹"], brand: "ケロロ軍曹" },
+  { keywords: ["銀魂"], brand: "銀魂" },
+  { keywords: ["にゃんこ大戦争"], brand: "にゃんこ大戦争" },
+  { keywords: ["パワーパフ"], brand: "パワーパフガールズ" },
+  { keywords: ["TOM and JERRY", "トムとジェリー"], brand: "トムとジェリー" },
+  { keywords: ["夏目友人帳"], brand: "夏目友人帳" },
+  { keywords: ["おジャ魔女どれみ"], brand: "おジャ魔女どれみ" },
+  { keywords: ["刃牙"], brand: "刃牙" },
+  { keywords: ["封神演義"], brand: "封神演義" },
+  { keywords: ["BLEACH"], brand: "BLEACH" },
+  { keywords: ["妖怪ウォッチ"], brand: "妖怪ウォッチ" },
+  { keywords: ["東方Project"], brand: "東方Project" },
+  { keywords: ["スーパーマリオ", "ヨッシー"], brand: "スーパーマリオ" },
+  { keywords: ["モンスターハンター"], brand: "モンスターハンター" },
+  { keywords: ["キン肉マン", "キンケシ"], brand: "キン肉マン" },
+  { keywords: ["グレムリン"], brand: "グレムリン" },
+  { keywords: ["STAR WARS", "スター・ウォーズ", "スターウォーズ"], brand: "スター・ウォーズ" },
+  { keywords: ["ミニオンズ", "ミニオン"], brand: "ミニオンズ" },
+  { keywords: ["ひつじのショーン"], brand: "ひつじのショーン" },
+  { keywords: ["miffy", "ミッフィー"], brand: "ミッフィー" },
+  { keywords: ["ノンタン"], brand: "ノンタン" },
+  { keywords: ["お文具といっしょ"], brand: "お文具といっしょ" },
+  { keywords: ["パペットスンスン"], brand: "パペットスンスン" },
+  { keywords: ["ざわざわ森のがんこちゃん"], brand: "ざわざわ森のがんこちゃん" },
+  { keywords: ["なめこ栽培キット"], brand: "なめこ栽培キット" },
+  { keywords: ["都市伝説解体センター"], brand: "都市伝説解体センター" },
+  { keywords: ["黄泉のツガイ"], brand: "黄泉のツガイ" },
+  { keywords: ["ぷよぷよ"], brand: "ぷよぷよ" },
+  { keywords: ["モンチッチ"], brand: "モンチッチ" },
+  { keywords: ["パンどろぼう"], brand: "パンどろぼう" },
+  { keywords: ["ブルーロック"], brand: "ブルーロック" },
+  { keywords: ["黒子のバスケ"], brand: "黒子のバスケ" },
+  { keywords: ["文豪ストレイドッグス"], brand: "文豪ストレイドッグス" },
+  { keywords: ["刀剣乱舞"], brand: "刀剣乱舞" },
+  { keywords: ["ホロライブ"], brand: "ホロライブ" },
+  { keywords: ["アイドリッシュセブン"], brand: "アイドリッシュセブン" },
+  { keywords: ["家庭教師ヒットマン"], brand: "家庭教師ヒットマンREBORN!" },
+  { keywords: ["スパイダーマン", "マーベル", "MARVEL", "アベンジャーズ"], brand: "マーベル" },
+  { keywords: ["トランスフォーマー"], brand: "トランスフォーマー" },
+  { keywords: ["きかんしゃトーマス", "トップハム・ハット卿"], brand: "きかんしゃトーマス" },
+  { keywords: ["ソウルイーター"], brand: "ソウルイーター" },
+  { keywords: ["ウォレスとグルミット"], brand: "ウォレスとグルミット" },
+  { keywords: ["LOONEY TUNES", "ルーニー・テューンズ"], brand: "ルーニー・テューンズ" },
+  { keywords: ["手塚治虫"], brand: "手塚治虫" },
+  { keywords: ["ワールドトリガー"], brand: "ワールドトリガー" },
+  { keywords: ["うる星やつら"], brand: "うる星やつら" },
+  { keywords: ["キングダム"], brand: "キングダム" },
+  { keywords: ["戦国BASARA"], brand: "戦国BASARA" },
+  { keywords: ["デュラララ"], brand: "デュラララ!!" },
+  { keywords: ["桜蘭高校ホスト部"], brand: "桜蘭高校ホスト部" },
+  { keywords: ["ぬ～べ～", "地獄先生"], brand: "地獄先生ぬ～べ～" },
+  { keywords: ["サマーウォーズ"], brand: "サマーウォーズ" },
+  { keywords: ["ドラゴンクエスト"], brand: "ドラゴンクエスト" },
+  { keywords: ["学園アイドルマスター"], brand: "学園アイドルマスター" },
+  { keywords: ["コジコジ"], brand: "コジコジ" },
+  { keywords: ["はらぺこあおむし"], brand: "はらぺこあおむし" },
+  { keywords: ["しまじろう"], brand: "しまじろう" },
+  { keywords: ["リサとガスパール"], brand: "リサとガスパール" },
+  { keywords: ["ほっぺちゃん"], brand: "ほっぺちゃん" },
+  { keywords: ["ぷにるんず"], brand: "ぷにるんず" },
+  { keywords: ["カラフルピーチ"], brand: "カラフルピーチ" },
+  { keywords: ["UNDERTALE"], brand: "UNDERTALE" },
+  { keywords: ["LITTLE NIGHTMARES"], brand: "LITTLE NIGHTMARES" },
+  { keywords: ["デス・ストランディング"], brand: "デス・ストランディング" },
+  { keywords: ["ワイルド・スピード"], brand: "ワイルド・スピード" },
+  { keywords: ["矢沢あい"], brand: "矢沢あい" },
+  { keywords: ["Esther Bunny", "エスターバニー"], brand: "エスターバニー" },
+  { keywords: ["ZANMANG LOOPY"], brand: "ZANMANG LOOPY" },
+  { keywords: ["SKZOO"], brand: "SKZOO" },
+  { keywords: ["おねがいアイプリ"], brand: "アイプリ" },
+  { keywords: ["Suzy’s Zoo", "Suzy's Zoo", "スージー・ズー"], brand: "スージー・ズー" },
+  { keywords: ["ヒグチユウコ"], brand: "ヒグチユウコ" },
+  { keywords: ["くまのがっこう"], brand: "くまのがっこう" },
+  { keywords: ["宇宙刑事ギャバン"], brand: "宇宙刑事ギャバン" },
+  { keywords: ["ラッキーマン"], brand: "とっても！ラッキーマン" },
+];
+
+// カテゴリタグ除外リスト（ブランドではないタグ）
+export const CATEGORY_IGNORE = new Set([
+  "新商品", "オリジナル", "企業コラボ", "キタンクラブオリジナル",
+  "カプセルトイ", "ねこのかぶりもの", "座るシリーズ", "シリーズ生きる",
+  "コップのフチ子シリーズ", "PUTITTOシリーズ", "フィギュア", "アーティスト",
+  "wovn-translate-widget[wovn]", // WOVNウィジェットの注入テキストを除外
+]);
+
+/**
+ * ブランド判定（3段階フォールバック）
+ * 1. BRAND_MAP キーワードマッチ
+ * 2. サイトのカテゴリタグ（キタンクラブ等）
+ * 3. 「その他」
+ */
+export function detectBrand(name, categoryTags = []) {
+  // 1. BRAND_MAP キーワードマッチ
+  for (const entry of BRAND_MAP) {
+    for (const kw of entry.keywords) {
+      if (name.includes(kw)) return entry.brand;
+    }
+  }
+
+  // 2. サイトのカテゴリタグから判定
+  for (const tag of categoryTags) {
+    const cleaned = tag.replace(/^#/, "").trim();
+    if (cleaned && !CATEGORY_IGNORE.has(cleaned) && cleaned.length >= 2) {
+      // タグがBRAND_MAPのブランド名に一致するか確認
+      for (const entry of BRAND_MAP) {
+        if (entry.brand === cleaned) return entry.brand;
+        for (const kw of entry.keywords) {
+          if (cleaned.includes(kw)) return entry.brand;
+        }
+      }
+      // 一致しなければタグ名をそのまま新ブランドとして採用
+      return cleaned;
+    }
+  }
+
+  // 3. フォールバック
+  return "その他";
+}
+
+// ブランド名 → URLスラッグ。/brand/[slug] のURLになるため、
+// 未登録のままだと brand-1a2b3c のようなハッシュになり検索的にも読みにくい。
+const SLUG_MAP = {
+  "ポケモン": "pokemon", "サンリオ": "sanrio", "ちいかわ": "chiikawa",
+  "カービィ": "kirby", "ディズニー": "disney", "ワンピース": "onepiece",
+  "ドラゴンボール": "dragonball", "鬼滅の刃": "kimetsu", "呪術廻戦": "jujutsu",
+  "仮面ライダー": "kamenrider", "ガンダム": "gundam", "プリキュア": "precure",
+  "SPY×FAMILY": "spyfamily", "転スラ": "tensura", "クレヨンしんちゃん": "shinchan",
+  "mofusand": "mofusand", "すみっコぐらし": "sumikko", "スヌーピー": "snoopy",
+  "たまごっち": "tamagotchi", "初音ミク": "miku", "トミカ": "tomica",
+  "ゴジラ": "godzilla", "ウルトラマン": "ultraman", "NARUTO": "naruto",
+  "ハリー・ポッター": "harrypotter", "アンパンマン": "anpanman",
+  "ドラえもん": "doraemon", "犬夜叉": "inuyasha", "ムーミン": "moomin",
+  "スポンジ・ボブ": "spongebob", "いきもの大図鑑": "ikimono",
+  "まちぼうけ": "machiboke", "パンダの穴": "pandanoana",
+  "おさるのジョージ": "george", "フリーレン": "frieren",
+  "まどか☆マギカ": "madoka", "アイカツ": "aikatsu",
+  "藤子不二雄": "fujiko", "その他": "other",
+  // キタンクラブ固有
+  "コップのフチ子": "fuchiko", "PUTITTO": "putitto",
+  "コウペンちゃん": "koupen", "タローマン": "taroman",
+  "可愛い嘘のカワウソ": "kawauso", "おぱんちゅうさぎ": "opanchu",
+  "チェンソーマン": "chainsawman", "ヒロアカ": "heroaca",
+  // ブシロードクリエイティブ関連
+  "バンドリ": "bandori", "ラブライブ": "lovelive", "D4DJ": "d4dj",
+  "ぼっち・ざ・ろっく": "bocchi", "名探偵コナン": "conan",
+  "ハイキュー": "haikyu", "ダンダダン": "dandadan",
+  "モブサイコ100": "mobpsycho", "るろうに剣心": "rurouni",
+  "DEATH NOTE": "deathnote", "ぴちぴちピッチ": "pitchipitch",
+  "ゾンビランドサガ": "zombieland", "ウマ娘": "umamusume",
+  // Qualia・ケンエレファント関連
+  "ピングー": "pingu", "セサミストリート": "sesame",
+  "ケアベア": "carebears",
+  // 2026-07 追加分
+  "リラックマ": "rilakkuma", "San-X": "sanx",
+  "ジョジョの奇妙な冒険": "jojo", "カードキャプターさくら": "ccsakura",
+  "HUNTER×HUNTER": "hunterhunter", "マインクラフト": "minecraft",
+  "ケロロ軍曹": "keroro", "銀魂": "gintama", "にゃんこ大戦争": "nyanko",
+  "パワーパフガールズ": "powerpuff", "トムとジェリー": "tomjerry",
+  "夏目友人帳": "natsume", "おジャ魔女どれみ": "doremi", "刃牙": "baki",
+  "封神演義": "hoshin", "BLEACH": "bleach", "妖怪ウォッチ": "yokaiwatch",
+  "東方Project": "touhou", "スーパーマリオ": "mario",
+  "モンスターハンター": "monhun", "キン肉マン": "kinnikuman",
+  "グレムリン": "gremlins", "スター・ウォーズ": "starwars",
+  "ミニオンズ": "minions", "ひつじのショーン": "shaun", "ミッフィー": "miffy",
+  "ノンタン": "nontan", "お文具といっしょ": "obungu",
+  "パペットスンスン": "sunsun", "ざわざわ森のがんこちゃん": "gankochan",
+  "なめこ栽培キット": "nameko", "都市伝説解体センター": "toshidensetsu",
+  "黄泉のツガイ": "yomitsugai", "ぷよぷよ": "puyopuyo",
+  "モンチッチ": "monchhichi", "パンどろぼう": "pandorobo",
+  "ブルーロック": "bluelock", "黒子のバスケ": "kuroko",
+  "文豪ストレイドッグス": "bungosd", "刀剣乱舞": "touken",
+  "ホロライブ": "hololive", "アイドリッシュセブン": "idolish7",
+  "家庭教師ヒットマンREBORN!": "reborn", "マーベル": "marvel",
+  "トランスフォーマー": "transformers", "きかんしゃトーマス": "thomas",
+  "ソウルイーター": "souleater", "ウォレスとグルミット": "wallace",
+  "ルーニー・テューンズ": "looneytunes", "手塚治虫": "tezuka",
+  "ワールドトリガー": "worldtrigger", "うる星やつら": "urusei",
+  "キングダム": "kingdom", "戦国BASARA": "basara", "デュラララ!!": "durarara",
+  "桜蘭高校ホスト部": "ouran", "地獄先生ぬ～べ～": "nube",
+  "サマーウォーズ": "summerwars", "ドラゴンクエスト": "dragonquest",
+  "学園アイドルマスター": "gakumas", "コジコジ": "kojikoji",
+  "はらぺこあおむし": "aomushi", "しまじろう": "shimajiro",
+  "リサとガスパール": "gaspard", "ほっぺちゃん": "hoppechan",
+  "ぷにるんず": "punirunes", "カラフルピーチ": "colorfulpeach",
+  "UNDERTALE": "undertale", "LITTLE NIGHTMARES": "littlenightmares",
+  "デス・ストランディング": "deathstranding", "ワイルド・スピード": "wildspeed",
+  "矢沢あい": "yazawaai", "エスターバニー": "estherbunny",
+  "ZANMANG LOOPY": "loopy", "SKZOO": "skzoo", "アイプリ": "aipri",
+  "スージー・ズー": "suzyszoo", "ヒグチユウコ": "higuchiyuko",
+  "くまのがっこう": "kumanogakko", "宇宙刑事ギャバン": "gavan",
+  "とっても！ラッキーマン": "luckyman",
+};
+
+export function toBrandSlug(brand) {
+  if (SLUG_MAP[brand]) return SLUG_MAP[brand];
+  // 未登録ブランド → 自動スラッグ生成
+  // 英数字はそのまま、日本語はハッシュベースの短い文字列に変換
+  const ascii = brand.toLowerCase().replace(/[^a-z0-9]/g, "");
+  if (ascii.length >= 3) return ascii;
+  // 日本語のみのブランド名 → ハッシュで一意なスラッグを生成
+  let hash = 0;
+  for (let i = 0; i < brand.length; i++) {
+    hash = ((hash << 5) - hash + brand.charCodeAt(i)) | 0;
+  }
+  return "brand-" + Math.abs(hash).toString(36);
+}
+
+// ブランド別テーマカラー（未登録ブランドは自動生成）
+export function getBrandColor(brand) {
+  const colors = {
+    "ポケモン": "#FFD54F", "サンリオ": "#F06292", "ちいかわ": "#4FC3F7",
+    "カービィ": "#F48FB1", "ディズニー": "#CE93D8", "ワンピース": "#E57373",
+    "ドラゴンボール": "#FFB74D", "鬼滅の刃": "#80CBC4", "呪術廻戦": "#7986CB",
+    "仮面ライダー": "#4DB6AC", "ガンダム": "#78909C", "プリキュア": "#F48FB1",
+    "転スラ": "#4FC3F7", "mofusand": "#FFCC80", "すみっコぐらし": "#A5D6A7",
+    "たまごっち": "#81D4FA", "初音ミク": "#4DD0E1", "ゴジラ": "#A1887F",
+    "ウルトラマン": "#E57373", "いきもの大図鑑": "#AED581",
+    "まちぼうけ": "#FFB74D", "パンダの穴": "#90A4AE",
+    // キタンクラブ固有
+    "コップのフチ子": "#FF8A65", "PUTITTO": "#9575CD",
+    "コウペンちゃん": "#FFF176", "タローマン": "#EF5350",
+    "可愛い嘘のカワウソ": "#80DEEA", "おぱんちゅうさぎ": "#F8BBD0",
+    "チェンソーマン": "#B71C1C", "ヒロアカ": "#43A047",
+  };
+  if (colors[brand]) return colors[brand];
+  // 未登録ブランド → ハッシュからパステルカラーを自動生成
+  let hash = 0;
+  for (let i = 0; i < brand.length; i++) {
+    hash = ((hash << 5) - hash + brand.charCodeAt(i)) | 0;
+  }
+  const hue = Math.abs(hash) % 360;
+  // HSL → Hex（彩度60%、明度75%でパステル調に）
+  const s = 0.6, l = 0.75;
+  const c = (1 - Math.abs(2 * l - 1)) * s;
+  const x = c * (1 - Math.abs(((hue / 60) % 2) - 1));
+  const m = l - c / 2;
+  let r, g, b;
+  if (hue < 60) { r = c; g = x; b = 0; }
+  else if (hue < 120) { r = x; g = c; b = 0; }
+  else if (hue < 180) { r = 0; g = c; b = x; }
+  else if (hue < 240) { r = 0; g = x; b = c; }
+  else if (hue < 300) { r = x; g = 0; b = c; }
+  else { r = c; g = 0; b = x; }
+  const toHex = (v) => Math.round((v + m) * 255).toString(16).padStart(2, "0");
+  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+}
+
+// 注目度判定
+export function isHot(name, brand) {
+  const hotBrands = ["サンリオ", "たまごっち", "ちいかわ", "ポケモン"];
+  return hotBrands.includes(brand);
+}
