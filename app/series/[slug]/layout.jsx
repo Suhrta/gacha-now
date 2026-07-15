@@ -1,5 +1,6 @@
 import products from "../../../data/products.json";
 import { SERIES, getSeriesBySlug, filterProductsBySeries } from "../../../data/series";
+import { buildHubInfo, buildFaqLd } from "../../../lib/hub-info";
 
 export function generateStaticParams() {
   return SERIES.map((s) => ({ slug: s.slug }));
@@ -50,10 +51,17 @@ export default function SeriesLayout({ children, params }) {
     ],
   };
 
+  // ページに表示しているQ&Aと同じ文面を構造化データにする（lib/hub-info.js が共通の元）
+  const info = buildHubInfo({ name: series.name, items });
+  const faqLd = info ? buildFaqLd(info.faq) : null;
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      {faqLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      )}
       {children}
     </>
   );

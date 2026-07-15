@@ -1,5 +1,6 @@
 import products from "../../../data/products.json";
 import { isLowValueBrandPage } from "../../../lib/quality";
+import { buildHubInfo, buildFaqLd } from "../../../lib/hub-info";
 
 export function generateMetadata({ params }) {
   const brandProducts = products.filter((p) => p.brandSlug === params.slug);
@@ -19,6 +20,49 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function BrandLayout({ children }) {
-  return children;
+// キャラ/シリーズのハブページには専用の ItemList・BreadcrumbList があるのに
+// ブランドだけ無く、ルートlayoutのサイト全体ItemList（全商品）が出ているだけだった。
+// 「サンリオの一覧」ページなのに全628件を申告している状態なので、他のハブと揃える。
+export default function BrandLayout({ children, params }) {
+  const items = products.filter((p) => p.brandSlug === params.slug);
+  if (items.length === 0) return children;
+
+  const brandName = items[0].brand;
+
+  const itemListLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${brandName}のガチャガチャ新作一覧`,
+    numberOfItems: items.length,
+    itemListElement: items.slice(0, 20).map((p, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `https://gacha-now.net/item/${p.id}`,
+      name: p.name,
+    })),
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gacha-now.net" },
+      { "@type": "ListItem", position: 2, name: brandName, item: `https://gacha-now.net/brand/${params.slug}` },
+    ],
+  };
+
+  // ページに表示しているQ&Aと同じ文面を構造化データにする（lib/hub-info.js が共通の元）
+  const info = buildHubInfo({ name: brandName, items });
+  const faqLd = info ? buildFaqLd(info.faq) : null;
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      {faqLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      )}
+      {children}
+    </>
+  );
 }

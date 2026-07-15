@@ -1,43 +1,18 @@
 import Link from "next/link";
-import { getReleaseYearMonth, formatYearMonth } from "../lib/release";
+import { buildHubInfo } from "../lib/hub-info";
 
 // キャラ別ページの「読み物」ブロック。
 // 編集文（手書き）＋ 自社データから算出した概要・統計・FAQ を表示する。
 // すべて掲載中の商品データ起点なので、公式にない網羅的な独自情報になる。
+//
+// 表示する統計・FAQの中身は lib/hub-info.js に集約している。
+// 各 layout.jsx が同じ関数から FAQPage の構造化データを組み立てるため、
+// ここの文面を変えると検索エンジンへの申告も自動で追従する（食い違わない）。
 export default function CharacterInfo({ name, items, intro }) {
-  if (!items || items.length === 0) return null;
+  const info = buildHubInfo({ name, items });
+  if (!info) return null;
 
-  const prices = items.map((p) => p.price).filter((n) => typeof n === "number" && n > 0);
-  const minPrice = prices.length ? Math.min(...prices) : null;
-  const maxPrice = prices.length ? Math.max(...prices) : null;
-
-  const typeCounts = items.map((p) => p.types).filter((n) => typeof n === "number" && n > 0);
-  const avgTypes = typeCounts.length
-    ? Math.round((typeCounts.reduce((a, b) => a + b, 0) / typeCounts.length) * 10) / 10
-    : null;
-
-  const makers = [...new Set(items.map((p) => (p.source || "").replace("公式", "")).filter(Boolean))];
-
-  const months = items
-    .map((p) => getReleaseYearMonth(p))
-    .filter(Boolean)
-    .sort();
-  const latestMonth = months.length ? months[months.length - 1] : null;
-
-  const priceText =
-    minPrice == null
-      ? "—"
-      : minPrice === maxPrice
-      ? `¥${minPrice}`
-      : `¥${minPrice}〜¥${maxPrice}`;
-
-  const stats = [
-    { label: "掲載中の新作", value: `${items.length}件` },
-    { label: "価格帯", value: priceText },
-    ...(avgTypes ? [{ label: "平均種類数", value: `約${avgTypes}種` }] : []),
-    ...(makers.length ? [{ label: "主なメーカー", value: makers.join("・") }] : []),
-    ...(latestMonth ? [{ label: "最新の発売月", value: formatYearMonth(latestMonth) }] : []),
-  ];
+  const { stats, faq } = info;
 
   return (
     <section className="relative z-[1] mb-5 bg-white rounded-xl border-2 border-cream-border p-4" style={{ boxShadow: "0 4px 16px rgba(74,55,40,0.06)" }}>
@@ -63,28 +38,23 @@ export default function CharacterInfo({ name, items, intro }) {
       <div className="mt-3 pt-3 border-t border-dashed border-cream-border">
         <h3 className="text-xs font-bold text-brand-text mb-1.5">{name}のガチャ・よくある質問</h3>
         <dl className="space-y-2">
-          <div>
-            <dt className="text-[11px] font-bold text-brand-text">Q. {name}の最新ガチャは？</dt>
-            <dd className="text-[11px] text-brand-sub leading-relaxed">
-              A. 現在 {items.length} 件の新作を掲載中です{latestMonth ? `（最新は${formatYearMonth(latestMonth)}発売）` : ""}。下の一覧から価格・種類数・発売日つきでチェックできます。
-            </dd>
-          </div>
-          <div>
-            <dt className="text-[11px] font-bold text-brand-text">Q. 値段はどのくらい？</dt>
-            <dd className="text-[11px] text-brand-sub leading-relaxed">
-              A. {name}のガチャは{priceText}が中心です。相場やコンプ予算の目安は
-              <Link href="/blog/gachagacha-price-guide" className="text-brand-accent no-underline">値段相場ガイド</Link>
-              で解説しています。
-            </dd>
-          </div>
-          <div>
-            <dt className="text-[11px] font-bold text-brand-text">Q. どこで買える？</dt>
-            <dd className="text-[11px] text-brand-sub leading-relaxed">
-              A. 各商品ページの店舗検索・通販リンクから探せます。買える場所は
-              <Link href="/blog/gachagacha-where-to-buy-guide" className="text-brand-accent no-underline">どこで買えるガイド</Link>
-              にまとめています。
-            </dd>
-          </div>
+          {faq.map((f) => (
+            <div key={f.q}>
+              <dt className="text-[11px] font-bold text-brand-text">Q. {f.q}</dt>
+              <dd className="text-[11px] text-brand-sub leading-relaxed">
+                A.{" "}
+                {f.a.map((seg, i) =>
+                  seg.href ? (
+                    <Link key={i} href={seg.href} className="text-brand-accent no-underline">
+                      {seg.t}
+                    </Link>
+                  ) : (
+                    <span key={i}>{seg.t}</span>
+                  )
+                )}
+              </dd>
+            </div>
+          ))}
         </dl>
       </div>
     </section>

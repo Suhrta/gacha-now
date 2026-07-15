@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gacha-now.vercel.app/sitemap.xml
+# 正規ドメインを指すこと。以前は gacha-now.vercel.app を指しており、
+# robots.txt を読む gacha-now.net から見て別ドメインの申告になっていた
+# （別ドメインのサイトマップ宣言は検索エンジンに無視されることがある）
+Sitemap: https://gacha-now.net/sitemap.xml

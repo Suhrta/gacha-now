@@ -1,5 +1,6 @@
 import products from "../../../data/products.json";
 import { CHARACTERS, getCharacterBySlug, filterProductsByCharacter } from "../../../data/characters";
+import { buildHubInfo, buildFaqLd } from "../../../lib/hub-info";
 
 export function generateStaticParams() {
   return CHARACTERS.map((c) => ({ slug: c.slug }));
@@ -49,10 +50,17 @@ export default function CharacterLayout({ children, params }) {
     ],
   };
 
+  // ページに表示しているQ&Aと同じ文面を構造化データにする（lib/hub-info.js が共通の元）
+  const info = buildHubInfo({ name: character.name, items });
+  const faqLd = info ? buildFaqLd(info.faq) : null;
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      {faqLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      )}
       {children}
     </>
   );
