@@ -4869,7 +4869,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第3週",
     "brand": "ポケモン",
-    "types": null
+    "types": 6
   },
   {
     "title": "青鬼 まちぼうけ～ずっとひろしを待っている～",
@@ -4917,7 +4917,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第3週",
     "brand": "ドラゴンボール",
-    "types": null
+    "types": 7
   },
   {
     "title": "いきもの大図鑑アドバンス 水生昆虫02 ゲンゴロウ",
@@ -5157,7 +5157,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第4週",
     "brand": "たまごっち",
-    "types": null
+    "types": 14
   },
   {
     "title": "クマタン めじるしアクセサリー",
