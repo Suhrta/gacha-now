@@ -174,6 +174,22 @@ export const BRAND_MAP = [
   { keywords: ["くまのがっこう"], brand: "くまのがっこう" },
   { keywords: ["宇宙刑事ギャバン"], brand: "宇宙刑事ギャバン" },
   { keywords: ["ラッキーマン"], brand: "とっても！ラッキーマン" },
+
+  // ── ブシロードクリエイティブ収集開始にあわせて追加 ──────────────
+  { keywords: ["ワンパンマン"], brand: "ワンパンマン" },
+  { keywords: ["ペルソナ"], brand: "ペルソナ" },
+  { keywords: ["SAKAMOTO DAYS", "サカモトデイズ"], brand: "SAKAMOTO DAYS" },
+  { keywords: ["俺だけレベルアップな件"], brand: "俺だけレベルアップな件" },
+  { keywords: ["その着せ替え人形は恋をする", "着せ恋"], brand: "その着せ替え人形は恋をする" },
+  { keywords: ["Fate"], brand: "Fate" },
+  { keywords: ["リリカルなのは"], brand: "魔法少女リリカルなのは" },
+  { keywords: ["がんばれゴエモン"], brand: "がんばれゴエモン" },
+  { keywords: ["SILENT HILL", "サイレントヒル"], brand: "SILENT HILL" },
+  { keywords: ["NEEDY GIRL OVERDOSE"], brand: "NEEDY GIRL OVERDOSE" },
+  { keywords: ["テレタビーズ"], brand: "テレタビーズ" },
+  { keywords: ["正反対な君と僕"], brand: "正反対な君と僕" },
+  { keywords: ["スノウボールアース"], brand: "スノウボールアース" },
+  { keywords: ["春夏秋冬代行者"], brand: "春夏秋冬代行者" },
 ];
 
 // カテゴリタグ除外リスト（ブランドではないタグ）
@@ -290,6 +306,14 @@ const SLUG_MAP = {
   "スージー・ズー": "suzyszoo", "ヒグチユウコ": "higuchiyuko",
   "くまのがっこう": "kumanogakko", "宇宙刑事ギャバン": "gavan",
   "とっても！ラッキーマン": "luckyman",
+  // ブシロードクリエイティブ収集開始にあわせて追加
+  "ワンパンマン": "onepunchman", "ペルソナ": "persona",
+  "SAKAMOTO DAYS": "sakamotodays", "俺だけレベルアップな件": "orelevel",
+  "その着せ替え人形は恋をする": "kisekoi", "Fate": "fate",
+  "魔法少女リリカルなのは": "nanoha", "がんばれゴエモン": "goemon",
+  "SILENT HILL": "silenthill", "NEEDY GIRL OVERDOSE": "needygirl",
+  "テレタビーズ": "teletubbies", "正反対な君と僕": "seihantai",
+  "スノウボールアース": "snowballearth", "春夏秋冬代行者": "daikousha",
 };
 
 export function toBrandSlug(brand) {

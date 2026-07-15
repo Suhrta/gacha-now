@@ -1,5 +1,719 @@
 [
   {
+    "id": "capsule-flockies--1028c731",
+    "name": "capsule flockies パペットスンスン",
+    "brand": "パペットスンスン",
+    "brandSlug": "sunsun",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "7月 第4週",
+    "color": "#e599a1",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253614_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769875984000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-07-15T04:35:03.095Z"
+  },
+  {
+    "id": "tvseason-2--2f2aa066",
+    "name": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",
+    "brand": "その着せ替え人形は恋をする",
+    "brandSlug": "kisekoi",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "10月 下旬",
+    "color": "#e599e4",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/08105117/POP%E7%94%BB%E5%83%8F.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/08105117/POP%E7%94%BB%E5%83%8F.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10051/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-17f09453",
+    "name": "神影録",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "9月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/23153931/shineiroku_CP_POP_0622_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/23153931/shineiroku_CP_POP_0622_ol.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10041/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-art-0429e3d7",
+    "name": "がんばれゴエモン　タイトルロゴ大集合！カプセルラバーキーホルダーArt",
+    "brand": "がんばれゴエモン",
+    "brandSlug": "goemon",
+    "price": 400,
+    "types": 13,
+    "releaseWeek": "未定",
+    "color": "#99e5cc",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/01114051/%E3%82%B4%E3%82%A8%E3%83%A2%E3%83%B3POP%E5%88%87%E3%82%8A%E6%8A%9C%E3%81%8D.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/01114051/%E3%82%B4%E3%82%A8%E3%83%A2%E3%83%B3POP%E5%88%87%E3%82%8A%E6%8A%9C%E3%81%8D.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10091/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-book-44b35a82",
+    "name": "おすわりちゃんズ　BOOK",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "10月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/18110212/osuwariBOOK_BCR_CP_POP_0605catalog_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/18110212/osuwariBOOK_BCR_CP_POP_0605catalog_ol.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10094/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-exceeds-gun-blaze-vengeance--1a373085",
+    "name": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance　カプセルラバーキーホルダー",
+    "brand": "魔法少女リリカルなのは",
+    "brandSlug": "nanoha",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "10月 下旬",
+    "color": "#e599a3",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/25145121/LyricalNanoha_Crubber_POP%E5%88%87%E3%82%8A%E6%8A%9C%E3%81%8D.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/25145121/LyricalNanoha_Crubber_POP%E5%88%87%E3%82%8A%E6%8A%9C%E3%81%8D.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10089/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-4ad7c4ea",
+    "name": "平成ファンシー　フィギュアキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "10月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/11083612/heiseifancy_charm_POP0601.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/11083612/heiseifancy_charm_POP0601.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10086/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-rich-654b95f7",
+    "name": "ジョジョの奇妙な冒険 スターダストクルセイダース　コレクションフィギュアRICH",
+    "brand": "ジョジョの奇妙な冒険",
+    "brandSlug": "jojo",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "10月 下旬",
+    "color": "#e5b899",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/30133510/%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7SC_POP%E5%88%87%E3%82%8A%E6%8A%9C%E3%81%8D.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/30133510/%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7SC_POP%E5%88%87%E3%82%8A%E6%8A%9C%E3%81%8D.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10085/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-2979f90b",
+    "name": "夢限大みゅーたいぷ　ゆめぬい",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "10月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/05132757/yumemita_yumenui_CP_POP_0522catalog_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/05132757/yumemita_yumenui_CP_POP_0522catalog_ol.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10073/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-335be772",
+    "name": "メゾピアノ ぷちぬいぐるみキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "10月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/21174052/mezzo_nuikey_CP_POP_0512catalog_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/21174052/mezzo_nuikey_CP_POP_0512catalog_ol.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10052/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-79843c11",
+    "name": "ワンパンマン　カプセルラバーキーホルダー",
+    "brand": "ワンパンマン",
+    "brandSlug": "onepunchman",
+    "price": 300,
+    "types": 9,
+    "releaseWeek": "10月",
+    "color": "#99e5a7",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/27030322/OPM_rubber_POP_0423_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/27030322/OPM_rubber_POP_0423_ol.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9997/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-vol1-691832c1",
+    "name": "ハイキュー!!　みあげてすたぁマスコット 烏野高校 vol.1",
+    "brand": "ハイキュー",
+    "brandSlug": "haikyu",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "9月 下旬",
+    "color": "#d5e599",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/26152144/260616_HQ_miagete_vol1_BCR_CP_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/26152144/260616_HQ_miagete_vol1_BCR_CP_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10095/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-7f711eaf",
+    "name": "氷の城壁　カプセルラバーキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 8,
+    "releaseWeek": "9月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/14111152/koorinojyouheki_rubber_POP_OL.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/14111152/koorinojyouheki_rubber_POP_OL.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10068/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-rich-4ff7a102",
+    "name": "名探偵コナン　コナンがいっぱい コレクションフィギュアRICH",
+    "brand": "名探偵コナン",
+    "brandSlug": "conan",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "9月 下旬",
+    "color": "#99e59e",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/03193224/%E3%80%90%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%E3%80%91%E3%82%B3%E3%83%8A%E3%83%B3%E3%81%8C%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2RICH%E3%80%80%E5%95%86%E5%93%81%E7%94%BB%E5%83%8F.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/03193224/%E3%80%90%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%E3%80%91%E3%82%B3%E3%83%8A%E3%83%B3%E3%81%8C%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2RICH%E3%80%80%E5%95%86%E5%93%81%E7%94%BB%E5%83%8F.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10010/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "tvfatestrange-fake-rich-7740d4c4",
+    "name": "TVアニメ『Fate/strange Fake』 コレクションフィギュアRICH",
+    "brand": "Fate",
+    "brandSlug": "fate",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "9月 下旬",
+    "color": "#e599c7",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/05173232/Fate_figure_Rich_POP_0601_page-0001-1280x1261.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/05173232/Fate_figure_Rich_POP_0601_page-0001-1280x1261.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9981/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-073d88ed",
+    "name": "ポンポネット ぷちぬいぐるみキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "9月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/21144404/pomponette_nuikey_CP_POP_0507catalog_ol-1.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/21144404/pomponette_nuikey_CP_POP_0507catalog_ol-1.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9970/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "tv-rich-49a41da1",
+    "name": "TVアニメ「俺だけレベルアップな件」　コレクションフィギュアRICH",
+    "brand": "俺だけレベルアップな件",
+    "brandSlug": "orelevel",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "9月 下旬",
+    "color": "#99e5ac",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/03/30115958/orerebe_CF_%E5%9B%BD%E5%86%85POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/03/30115958/orerebe_CF_%E5%9B%BD%E5%86%85POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9897/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-52946d06",
+    "name": "テレタビーズフロッキーフィギュアキーホルダー",
+    "brand": "テレタビーズ",
+    "brandSlug": "teletubbies",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "9月",
+    "color": "#b8e599",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2025/03/15115910/teletubbies_Flocky_fg_CP_POP_0417_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2025/03/15115910/teletubbies_Flocky_fg_CP_POP_0417_ol.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/7375/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-353e3147",
+    "name": "正反対な君と僕　ゆめぬい",
+    "brand": "正反対な君と僕",
+    "brandSlug": "seihantai",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "8月 下旬",
+    "color": "#99a6e5",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/29132626/seihantai_yumenui_CP_POP_0420_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/29132626/seihantai_yumenui_CP_POP_0420_ol.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10106/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-art-4ea4cdd4",
+    "name": "テレビアニメ『春夏秋冬代行者 春の舞』　カプセルラバーキーホルダーArt",
+    "brand": "春夏秋冬代行者",
+    "brandSlug": "daikousha",
+    "price": 400,
+    "types": 8,
+    "releaseWeek": "8月",
+    "color": "#e5c399",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/05163332/4seasons_rubberArt_POP_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/05163332/4seasons_rubberArt_POP_ol.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10080/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-3443dfda",
+    "name": "スノウボールアース　ぷちアクリルスタンド",
+    "brand": "スノウボールアース",
+    "brandSlug": "snowballearth",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "8月 下旬",
+    "color": "#99e5be",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/26132309/%E3%82%B9%E3%83%8E%E3%82%A6%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%B9%E3%80%80%E3%81%B7%E3%81%A1%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/26132309/%E3%82%B9%E3%83%8E%E3%82%A6%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%B9%E3%80%80%E3%81%B7%E3%81%A1%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10060/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-5ef5f46d",
+    "name": "スノウボールアース　カプセルラバーキーホルダー",
+    "brand": "スノウボールアース",
+    "brandSlug": "snowballearth",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "8月 下旬",
+    "color": "#99e5be",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/26131917/%E3%82%B9%E3%83%8E%E3%82%A6%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%B9%E3%80%80%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%E3%83%A9%E3%83%90%E3%83%BC%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/26131917/%E3%82%B9%E3%83%8E%E3%82%A6%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%B9%E3%80%80%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%E3%83%A9%E3%83%90%E3%83%BC%E3%82%AD%E3%83%BC%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10058/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "silent-hill-3--698c32cb",
+    "name": "SILENT HILL 3　ロビーがいっぱいフィギュアマーカー",
+    "brand": "SILENT HILL",
+    "brandSlug": "silenthill",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "8月 下旬",
+    "color": "#99e59e",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/22110344/SH3_robby_fg_maker_CP_POP_0511_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/22110344/SH3_robby_fg_maker_CP_POP_0511_ol.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10001/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "needy-girl-overdose--4e2d889d",
+    "name": "NEEDY GIRL OVERDOSE　カプセルラバーキーホルダー",
+    "brand": "NEEDY GIRL OVERDOSE",
+    "brandSlug": "needygirl",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "8月 下旬",
+    "color": "#e0e599",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/18182801/260227_NGOD_rubberkey_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/18182801/260227_NGOD_rubberkey_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10000/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-5a737b31",
+    "name": "スーパーの裏でヤニ吸うふたり",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "8月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/06112901/yanisu_acm_pop_o2.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/06112901/yanisu_acm_pop_o2.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9988/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-vol1-1efcc382",
+    "name": "僕のヒーローアカデミア　みあげてすたぁマスコット vol.1",
+    "brand": "ヒロアカ",
+    "brandSlug": "heroaca",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "8月 下旬",
+    "color": "#43A047",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/08142710/hiroaka_figure_vol.1_POP_OL.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/08142710/hiroaka_figure_vol.1_POP_OL.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9984/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-780f90f0",
+    "name": "タイニーチャム　ぬいぐるみキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "8月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/14160313/Tinychum_nuiKey_CP_POP_0406_ol_kokuchi.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/14160313/Tinychum_nuiKey_CP_POP_0406_ol_kokuchi.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9952/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-78588172",
+    "name": "ニャニィニュニェニョン　フロッキーフィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "8月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/06101612/nyaninyunyenyon_Flocky_fg_webAD_1200_1200px_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/06101612/nyaninyunyenyon_Flocky_fg_webAD_1200_1200px_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9913/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-07bc72c6",
+    "name": "名探偵コナン　コナンがいっぱいカプセルラバーキーホルダー",
+    "brand": "名探偵コナン",
+    "brandSlug": "conan",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "8月 下旬",
+    "color": "#99e59e",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/03/26163603/palworld_figure_vol1_CP_POP_260224_ol-1.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/03/26163603/palworld_figure_vol1_CP_POP_260224_ol-1.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9906/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-vol2-25524f5a",
+    "name": "ペルソナ３ リロード ぺたっと ねじまきますこっと　vol.2",
+    "brand": "ペルソナ",
+    "brandSlug": "persona",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "8月 下旬",
+    "color": "#d499e5",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/03/04134532/260217_P3Rmascot02_BCR_CP_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/03/04134532/260217_P3Rmascot02_BCR_CP_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9879/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-vol1-4d72fe6b",
+    "name": "ペルソナ３ リロード ぺたっと ねじまきますこっと　vol.1",
+    "brand": "ペルソナ",
+    "brandSlug": "persona",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "8月 下旬",
+    "color": "#d499e5",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/02/26192542/260217_P3Rmascot01_BCR_CP_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/02/26192542/260217_P3Rmascot01_BCR_CP_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9873/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "gacha-612c6a94",
+    "name": "ブルーロック　みあげてすたぁカプセルラバーキーホルダー",
+    "brand": "ブルーロック",
+    "brandSlug": "bluelock",
+    "price": 300,
+    "types": 8,
+    "releaseWeek": "8月 上旬",
+    "color": "#e5a699",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/11182445/260312_BL_miagete_star_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/11182445/260312_BL_miagete_star_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10027/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-rich-2f415fa6",
+    "name": "呪術廻戦　コレクションフィギュアRICH",
+    "brand": "呪術廻戦",
+    "brandSlug": "jujutsu",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "7月 下旬",
+    "color": "#7986CB",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/03/02185003/jyujyutsu_figure_POP_OL-1.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/03/02185003/jyujyutsu_figure_POP_OL-1.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9904/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "tvsakamoto-days--087aec53",
+    "name": "TVアニメ『SAKAMOTO DAYS』　カプセル缶バッジ",
+    "brand": "SAKAMOTO DAYS",
+    "brandSlug": "sakamotodays",
+    "price": 300,
+    "types": 9,
+    "releaseWeek": "7月 下旬",
+    "color": "#de99e5",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/08151225/SAKAMOTO_canbage_CP_POP_1218_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/08151225/SAKAMOTO_canbage_CP_POP_1218_ol.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10019/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-vol2-1cf9dcab",
+    "name": "ブルーロック ヘアピンコレクション vol.2",
+    "brand": "ブルーロック",
+    "brandSlug": "bluelock",
+    "price": 400,
+    "types": 8,
+    "releaseWeek": "7月 下旬",
+    "color": "#e5a699",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/14104849/BCR_bruelook_rbHAIR_POP_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/14104849/BCR_bruelook_rbHAIR_POP_ol.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9948/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-vol2-094a80ac",
+    "name": "名探偵コナン　みあげてすたぁマスコット vol.2",
+    "brand": "名探偵コナン",
+    "brandSlug": "conan",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "7月 下旬",
+    "color": "#99e59e",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/17145548/Conan_MiageteStar_figure_vol1_POP_OL-1.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/17145548/Conan_MiageteStar_figure_vol1_POP_OL-1.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9942/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
+    "id": "-vol1-697acdb4",
+    "name": "名探偵コナン　みあげてすたぁマスコット vol.1",
+    "brand": "名探偵コナン",
+    "brandSlug": "conan",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "7月 下旬",
+    "color": "#99e59e",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/17145213/Conan_MiageteStar_figure_vol1_POP_OL.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/17145213/Conan_MiageteStar_figure_vol1_POP_OL.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9941/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-15T04:35:03.096Z"
+  },
+  {
     "id": "gacha-7771653f",
     "name": "トップハム・ハット卿 めじるしガチャマスコット",
     "brand": "きかんしゃトーマス",
@@ -16060,25 +16774,5 @@
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-04-16T23:33:33.712Z",
     "description": "熱い食べ物が苦手なネコちゃんたちの表情がリアルで可愛い！200円で手に入る癒し系フィギュアは全4種類で、どの子もクスッと笑える仕草が魅力的です。"
-  },
-  {
-    "id": "gacha-73329c5a",
-    "name": "わになるワニ",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 300,
-    "types": 6,
-    "releaseWeek": "4月 下旬",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/04/waninaru_wani_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/04/waninaru_wani_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/waninaruwani/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-04-15T03:02:42.728Z",
-    "description": "クルクル回して自分の尻尾を咥えちゃう、可愛いワニのフィギュア！300円で癒し系ワニがあなたのもとにやってきます。"
   }
 ]
