@@ -1,5 +1,24 @@
 [
   {
+    "id": "gacha-73329c5a",
+    "name": "わになるワニ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/04/waninaru_wani_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/04/waninaru_wani_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/waninaruwani/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-07-15T05:11:16.843Z"
+  },
+  {
     "id": "capsule-flockies--1028c731",
     "name": "capsule flockies パペットスンスン",
     "brand": "パペットスンスン",
