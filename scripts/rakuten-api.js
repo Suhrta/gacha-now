@@ -35,8 +35,26 @@ loadDotEnv();
 
 const APP_ID = process.env.RAKUTEN_APP_ID;
 const ACCESS_KEY = process.env.RAKUTEN_ACCESS_KEY;
-// アプリの「Allowed websites」に登録済みのドメインと一致する必要がある
-const ORIGIN = process.env.RAKUTEN_ORIGIN || "https://gacha-now.vercel.app";
+
+// アプリの「Allowed websites」に登録済みのドメイン。秘密情報ではなく固定の設定値なので
+// 既定値をコードに持つ（環境変数は上書き用）。スキーム欠落・末尾スラッシュ・空白は
+// そのまま送ると楽天に「Originなし」と判定され全件403になるため正規化する。
+const DEFAULT_ORIGIN = "https://gacha-now.vercel.app";
+function normalizeOrigin(v) {
+  const s = (v || "").trim().replace(/\/+$/, "");
+  if (!s) return DEFAULT_ORIGIN;
+  const withScheme = /^https?:\/\//i.test(s) ? s : `https://${s}`;
+  try {
+    const u = new URL(withScheme);
+    // URL()はかなり寛容なので、ドメインとして妥当な場合のみ採用する。
+    // 壊れた値をそのまま送ると全リクエストが403になり原因が見えづらい。
+    if (!/^[a-z0-9-]+(\.[a-z0-9-]+)+$/i.test(u.hostname)) return DEFAULT_ORIGIN;
+    return u.origin;
+  } catch {
+    return DEFAULT_ORIGIN;
+  }
+}
+const ORIGIN = normalizeOrigin(process.env.RAKUTEN_ORIGIN);
 
 const ENDPOINT =
   "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20220601";

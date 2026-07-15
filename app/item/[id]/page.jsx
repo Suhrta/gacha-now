@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReceiptPaper from "../../../components/ReceiptPaper";
 import RakutenLinks from "../../../components/RakutenLinks";
+import ProductThumb from "../../../components/ProductThumb";
 import Breadcrumb from "../../../components/Breadcrumb";
 import products from "../../../data/products.json";
 import rakutenLinks from "../../../data/rakuten-links.json";
@@ -124,10 +125,9 @@ export default function ItemPage({ params }) {
                 className="block p-3 bg-white rounded-lg border border-cream-border no-underline hover:border-brand-accent transition-colors"
               >
                 {p.img && (
-                  <img
+                  <ProductThumb
                     src={p.img}
                     alt={p.name}
-                    loading="lazy"
                     className="w-full aspect-square object-cover rounded-md bg-cream-dark"
                   />
                 )}

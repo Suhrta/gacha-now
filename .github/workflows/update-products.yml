@@ -64,11 +64,17 @@ jobs:
 
       # 各商品の楽天「コンプセット/予約」検索クエリを楽天APIで検証して生成
       # （0件・無関係リンクを出さない。新商品と古い項目だけAPIを叩くので軽量）
+      #
+      # Origin は秘密情報ではなく固定値なので scripts/rakuten-api.js の既定値を使う
+      # （Secret化すると値の綴り違いに気づけず全件403になるため渡さない）。
+      #
+      # continue-on-error: 楽天API側の障害でこのステップが落ちても、商品更新・Instagram・
+      # Discord という本体パイプラインは止めない（リンクは前回生成分がそのまま残り無害）。
       - name: Build Rakuten purchase links
+        continue-on-error: true
         env:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
-          RAKUTEN_ORIGIN: ${{ secrets.RAKUTEN_ORIGIN }}
         run: node scripts/build-rakuten-links.js
 
       - name: Generate AI descriptions

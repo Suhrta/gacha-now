@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 export default function NewArrivalModal({ products, onOpenReceipt }) {
   const [show, setShow] = useState(false);
   const [product, setProduct] = useState(null);
+  const [imgBroken, setImgBroken] = useState(false);
 
   useEffect(() => {
     // 1日1回だけ表示
@@ -64,12 +65,13 @@ export default function NewArrivalModal({ products, onOpenReceipt }) {
           </div>
         </div>
 
-        {/* 商品画像 */}
-        {product.img && (
+        {/* 商品画像（仕入れ元CDN障害で読めない場合は枠ごと出さない） */}
+        {product.img && !imgBroken && (
           <div style={{ margin: "0 16px", borderRadius: 12, overflow: "hidden", border: "2px solid #E8DDD0" }}>
             <img
               src={product.img}
               alt={product.name}
+              onError={() => setImgBroken(true)}
               style={{ width: "100%", aspectRatio: "1/1", objectFit: "cover", objectPosition: "top", display: "block" }}
             />
           </div>

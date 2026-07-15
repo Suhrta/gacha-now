@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import posts from "../../../data/blog-posts.json";
 import products from "../../../data/products.json";
 import Footer from "../../../components/Footer";
+import ProductThumb from "../../../components/ProductThumb";
 import { isStaleBlogPost } from "../../../lib/quality";
 import { rakutenSearchUrl } from "../../../lib/affiliate";
 
@@ -42,10 +43,9 @@ function ProductCard({ id }) {
       className="flex gap-3 items-center my-4 p-3 bg-cream-dark rounded-lg border border-cream-border no-underline hover:border-brand-accent transition-colors"
     >
       {p.img && (
-        <img
+        <ProductThumb
           src={p.img}
           alt={p.name}
-          loading="lazy"
           className="w-20 h-20 object-cover rounded-md shrink-0 bg-white"
         />
       )}

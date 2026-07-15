@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect, useRef, useCallback } from "react";
+import NoImage from "./NoImage";
 
 const zigzagTop = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,10 8,0 16,10' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
 const zigzagBottom = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,0 8,10 16,0' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
@@ -30,6 +31,9 @@ function ImageSwiper({ images, name }) {
   const [current, setCurrent] = useState(0);
   const [validImages, setValidImages] = useState([images[0]]);
   const [checked, setChecked] = useState(false);
+  // 実際に表示して失敗したURL。1枚目は事前検証せず楽観的に描画する（正常な大多数の
+  // 表示を遅らせないため）ので、壊れていた場合はここに入れてプレースホルダへ倒す。
+  const [failed, setFailed] = useState(() => new Set());
   const touchStartX = useRef(0);
   const touchStartY = useRef(0);
   const touchDeltaX = useRef(0);
@@ -63,7 +67,22 @@ function ImageSwiper({ images, name }) {
     return () => { cancelled = true; };
   }, [images]);
 
-  const validCount = validImages.length;
+  const markFailed = useCallback((src) => {
+    setFailed((prev) => {
+      if (prev.has(src)) return prev;
+      const next = new Set(prev);
+      next.add(src);
+      return next;
+    });
+  }, []);
+
+  const displayImages = validImages.filter((src) => !failed.has(src));
+  const validCount = displayImages.length;
+
+  // 壊れた画像を除いた結果、現在位置が範囲外になることがある
+  useEffect(() => {
+    if (current > validCount - 1) setCurrent(Math.max(0, validCount - 1));
+  }, [current, validCount]);
 
   const handleTouchStart = useCallback((e) => {
     touchStartX.current = e.touches[0].clientX;
@@ -118,10 +137,20 @@ function ImageSwiper({ images, name }) {
     }
   }, [validCount]);
 
+  // 全滅（仕入れ元CDN障害など）→ 壊れアイコンではなく案内を出す
+  if (validCount === 0) {
+    return (
+      <div className="rounded-lg overflow-hidden mb-2 border-2 border-cream-border">
+        <NoImage />
+      </div>
+    );
+  }
+
   if (validCount <= 1 && checked) {
     return (
       <div className="rounded-lg overflow-hidden mb-2 border-2 border-cream-border">
-        <img src={validImages[0]} alt={name} className="w-full block"
+        <img src={displayImages[0]} alt={name} className="w-full block"
+          onError={() => markFailed(displayImages[0])}
           style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />
       </div>
     );
@@ -145,13 +174,14 @@ function ImageSwiper({ images, name }) {
             transition: dragging ? "none" : "transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
           }}
         >
-          {validImages.map((src, i) => (
-            <div key={i} className="w-full shrink-0">
+          {displayImages.map((src, i) => (
+            <div key={src} className="w-full shrink-0">
               <img
                 src={src}
                 alt={`${name} ${i + 1}`}
                 className="w-full block"
                 draggable={false}
+                onError={() => markFailed(src)}
                 style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top", userSelect: "none" }}
               />
             </div>
@@ -186,7 +216,7 @@ function ImageSwiper({ images, name }) {
 
       {validCount > 1 && validCount <= 12 && (
         <div className="flex justify-center gap-1 mt-1.5">
-          {validImages.map((_, i) => (
+          {displayImages.map((_, i) => (
             <div key={i} className="rounded-full transition-all duration-200"
               style={{
                 width: i === current ? 14 : 5, height: 5,

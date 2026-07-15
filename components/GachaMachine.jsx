@@ -1,16 +1,22 @@
 "use client";
 import { useState, useEffect } from "react";
+import NoImage from "./NoImage";
 
 export default function GachaMachine({ product, index, onClick, isFavorite = false }) {
   const [vis, setVis] = useState(false);
   const [pressed, setPressed] = useState(false);
+  // 仕入れ元CDNが落ちている画像は壊れアイコンにせずプレースホルダへ倒す
+  const [imgBroken, setImgBroken] = useState(false);
 
   useEffect(() => {
     const t = setTimeout(() => setVis(true), index * 70);
     return () => clearTimeout(t);
   }, [index]);
 
-  const hasImage = product.img && !product.img.includes("placehold");
+  // 別商品が同じ枠に再利用されたら壊れ判定を持ち越さない
+  useEffect(() => setImgBroken(false), [product.img]);
+
+  const hasImage = product.img && !product.img.includes("placehold") && !imgBroken;
   const color = product.color || "#E8756D";
 
   return (
@@ -68,16 +74,10 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
           {hasImage ? (
             <img src={product.img} alt={product.name} className="w-full block"
               loading="lazy" decoding="async"
+              onError={() => setImgBroken(true)}
               style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />
           ) : (
-            <div className="w-full flex items-center justify-center" style={{ aspectRatio: "1/1", background: "#F9FAFB" }}>
-              <div className="text-center px-2">
-                <span style={{ fontSize: 28 }}>🔒</span>
-                <div className="font-sans text-xs text-brand-sub mt-1 leading-[1.6]">
-                  画像は公式サイトで<br/>ご確認ください
-                </div>
-              </div>
-            </div>
+            <NoImage emojiSize={28} background="#F9FAFB" />
           )}
         </div>
 
