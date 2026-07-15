@@ -16,9 +16,44 @@ const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const NEW_TODAY_PATH = path.join(__dirname, "..", "data", "new-today.json");
 const OUTPUT_DIR = path.join(__dirname, "..", "public", "posts");
 
-function generateHTML(product) {
-  const imgSrc = product.img || "";
-  const hasImage = imgSrc && !imgSrc.includes("placehold");
+// 商品画像を取得して data URI にする。
+//
+// puppeteer に外部URLを読ませると、ヘッドレスChromeを弾くサイトで画像が読めず
+// 投稿画像が空になる（実際にブシロードの商品で真っ白なままInstagramに投稿された）。
+// ここで通常のUAで取得して埋め込めば、ヘッドレス側は一切外部通信しなくて済む。
+// 仕入れ元CDNの障害時に空の投稿を出さないよう、取得できなければ null を返して
+// プレースホルダに倒す。
+async function fetchImageAsDataUri(url) {
+  if (!url || url.includes("placehold")) return null;
+  try {
+    const res = await fetch(url, {
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      },
+      signal: AbortSignal.timeout(20000),
+    });
+    if (!res.ok) {
+      console.log(`    ⚠️ 画像取得失敗 HTTP ${res.status}: ${url.slice(0, 60)}`);
+      return null;
+    }
+    const type = res.headers.get("content-type") || "";
+    // メンテ中のサイトは画像URLに 200 + HTML を返すことがある（タカラトミーアーツで実例）
+    if (!type.startsWith("image/")) {
+      console.log(`    ⚠️ 画像ではない(${type}): ${url.slice(0, 60)}`);
+      return null;
+    }
+    const buf = Buffer.from(await res.arrayBuffer());
+    return `data:${type};base64,${buf.toString("base64")}`;
+  } catch (e) {
+    console.log(`    ⚠️ 画像取得エラー: ${e.message}`);
+    return null;
+  }
+}
+
+function generateHTML(product, imgDataUri) {
+  const imgSrc = imgDataUri || "";
+  const hasImage = Boolean(imgDataUri);
 
   return `<!DOCTYPE html>
 <html>
@@ -168,7 +203,8 @@ async function main() {
 　　const pngPath = path.join(OUTPUT_DIR, `post-${today}-${jstHour}h-${idx}.png`);
 　　const txtPath = path.join(OUTPUT_DIR, `post-${today}-${jstHour}h-${idx}.txt`);
 
-    const html = generateHTML(product);
+    const imgDataUri = await fetchImageAsDataUri(product.img);
+    const html = generateHTML(product, imgDataUri);
     fs.writeFileSync(htmlPath, html, "utf-8");
 
     const page = await browser.newPage();
