@@ -1677,7 +1677,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第3週",
     "brand": "チェンソーマン",
-    "types": null
+    "types": 6
   },
   {
     "title": "機動戦士ガンダム　MOBILE SUIT ENSEMBLE 14",
@@ -2901,7 +2901,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第4週",
     "brand": "ウルトラマン",
-    "types": null
+    "types": 4
   },
   {
     "title": "ユニフォームフレームマグネット サッカー日本代表ver.",
@@ -5256,30 +5256,6 @@
     "types": 4
   },
   {
-    "title": "アニメ「桜蘭高校ホスト部」 カプセルヘアクリップ",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769888397000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年7月 第4週",
-    "brand": "桜蘭高校ホスト部",
-    "types": 9
-  },
-  {
     "title": "うちの3姉妹 名セリフチャーム",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769842443000",
     "source": "バンダイ公式",
@@ -5373,7 +5349,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "ウォレスとグルミット めじるしアクセサリー",
@@ -6238,6 +6214,30 @@
     "releaseWeek": "2026年7月 第4週",
     "brand": "仮面ライダー",
     "types": 6
+  },
+  {
+    "title": "アニメ「桜蘭高校ホスト部」 カプセルヘアクリップ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769888397000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243235_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 第5週",
+    "brand": "桜蘭高校ホスト部",
+    "types": 9
   },
   {
     "title": "グレムリン めじるしアクセサリー",
