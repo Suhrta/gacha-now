@@ -2325,7 +2325,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第4週",
     "brand": "ミッフィー",
-    "types": 5
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ アロハスイングコレクション",
@@ -2589,7 +2589,7 @@
     "price": null,
     "releaseWeek": "2026年6月 第4週",
     "brand": "いきもの大図鑑",
-    "types": null
+    "types": 4
   },
   {
     "title": "サンリオキャラクターズ キーリングハンガー",
