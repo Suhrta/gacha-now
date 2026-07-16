@@ -1,5 +1,35 @@
 [
   {
+    "id": "berbrick-package-chrm-collecti-04bf219e",
+    "name": "BE@RBRICK Package Ch@rm Collection Vol.3",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 10,
+    "releaseWeek": "7月 第4週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118183699000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-07-16T05:55:48.738Z"
+  },
+  {
     "id": "dulla--41679126",
     "name": "デュラハンボーイDulla　コレクションフィギュア",
     "brand": "その他",
