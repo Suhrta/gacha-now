@@ -1,5 +1,35 @@
 [
   {
+    "id": "gacha-4d844a9b",
+    "name": "とっとこハム太郎 シャカシャカアクリルチャーム",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198150000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-07-17T05:46:59.241Z"
+  },
+  {
     "id": "berbrick-package-chrm-collecti-04bf219e",
     "name": "BE@RBRICK Package Ch@rm Collection Vol.3",
     "brand": "その他",
@@ -16782,25 +16812,5 @@
     "source": "キタンクラブ公式",
     "collectedAt": "2026-05-06T11:58:09.203Z",
     "description": "大人気絵本作家おおのたろうさんの可愛い赤ちゃんの世界がガチャに登場。ブーブと一緒に遊ぶ愛らしい表情にほっこり癒されちゃいます。"
-  },
-  {
-    "id": "gacha-34d219af",
-    "name": "ムーミン きりかぶの時計",
-    "brand": "ムーミン",
-    "brandSlug": "moomin",
-    "price": 500,
-    "types": 5,
-    "releaseWeek": "4月 下旬",
-    "color": "#b899e5",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/04/250225_moominwatch_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/04/250225_moominwatch_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/moomin_kirikabu/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-04-17T03:03:00.546Z",
-    "description": "ムーミンの世界観がぎゅっと詰まった切り株の時計が登場！全5種のキュートなデザインで、お部屋に北欧の癒しをお届けします。"
   }
 ]

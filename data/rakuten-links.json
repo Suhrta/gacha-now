@@ -4423,14 +4423,6 @@
       "count": 7
     }
   },
-  "gacha-34d219af": {
-    "sig": "ムーミン きりかぶの時計|5|r",
-    "checkedAt": 1784054646681,
-    "compset": {
-      "q": "ムーミン きりかぶの時計 コンプ",
-      "count": 6
-    }
-  },
   "gacha-73329c5a": {
     "sig": "わになるワニ|6|r",
     "checkedAt": 1784054646681
@@ -4858,5 +4850,13 @@
   "berbrick-package-chrm-collecti-04bf219e": {
     "sig": "BE@RBRICK Package Ch@rm Collection Vol.3|10|r",
     "checkedAt": 1784181351015
+  },
+  "gacha-4d844a9b": {
+    "sig": "とっとこハム太郎 シャカシャカアクリルチャーム|5|r",
+    "checkedAt": 1784267221221,
+    "compset": {
+      "q": "とっとこハム太郎 ガチャ コンプ",
+      "count": 18
+    }
   }
 }
