@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex items-center gap-x-2 gap-y-0 flex-wrap">
           <img src="/icons/logo-mark.png" alt="" className="w-5 h-5" />
           <span className="text-sm font-bold text-brand-text">ガチャなう</span>
-          <span className="text-[10px] text-brand-sub">© 2026 Gacha Now · 楽天アフィリエイト参加中</span>
+          <span className="text-[10px] text-brand-sub">© 2026 Gacha Now · 楽天アフィリエイト・Amazonアソシエイト参加中</span>
         </div>
         <nav className="flex items-center gap-x-4 gap-y-0.5 md:gap-y-1 flex-wrap shrink-0">
           {[
