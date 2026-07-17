@@ -1,5 +1,255 @@
 [
   {
+    "id": "gacha-019ff105",
+    "name": "ホロライブ すわらせ隊 アクリルスタンド カラーライズ3",
+    "brand": "ホロライブ",
+    "brandSlug": "hololive",
+    "price": 500,
+    "types": 7,
+    "releaseWeek": "発売中",
+    "color": "#c199e5",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118184078000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-07-17T09:07:16.961Z"
+  },
+  {
+    "id": "daisuke-kondo--7bd87c85",
+    "name": "DAISUKE KONDO めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "7月 第4週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000239712_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769875731000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-07-17T09:07:16.962Z"
+  },
+  {
+    "id": "-belloworld-2-249e8b3f",
+    "name": "ミニオンズ Belloworld 世界の旅フィギュア2",
+    "brand": "ミニオンズ",
+    "brandSlug": "minions",
+    "price": 400,
+    "types": 3,
+    "releaseWeek": "発売中",
+    "color": "#99e5d0",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901560_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901560_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901560",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-17T09:07:16.963Z"
+  },
+  {
+    "id": "gacha-71b9c2a8",
+    "name": "ハリー・ポッター/ファンタスティック・ビースト 魔法生物 めじるしガチャマスコット",
+    "brand": "ハリー・ポッター",
+    "brandSlug": "harrypotter",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#dd99e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904271_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904271_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904271",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-17T09:07:16.963Z"
+  },
+  {
+    "id": "gacha-1523a9be",
+    "name": "モンスターズ・インク もふもふポーシェット",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "発売中",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908668_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908668_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908668",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-17T09:07:16.963Z"
+  },
+  {
+    "id": "gacha-354bcfbc",
+    "name": "ブルーイ カメラ型プロジェクター",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900853_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900853_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900853",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-17T09:07:16.963Z"
+  },
+  {
+    "id": "gacha-37233271",
+    "name": "トムとジェリー 天使と悪魔めじるしガチャマスコット",
+    "brand": "トムとジェリー",
+    "brandSlug": "tomjerry",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e599a4",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901508_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901508_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901508",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-17T09:07:16.963Z"
+  },
+  {
+    "id": "gacha-6c21c8c6",
+    "name": "ミニオンズ フェイス型シリコンケース",
+    "brand": "ミニオンズ",
+    "brandSlug": "minions",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#99e5d0",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902529_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902529_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902529",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-17T09:07:16.963Z"
+  },
+  {
+    "id": "gacha-745276d8",
+    "name": "トイ・ストーリー アンディが来た！",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "7月 27日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093340_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093340_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093340",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-17T09:07:16.964Z"
+  },
+  {
+    "id": "mother2--18fc8f5c",
+    "name": "MOTHER2 チャームマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "7月 27日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098284_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098284_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098284",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-17T09:07:16.964Z"
+  },
+  {
+    "id": "-vs--4a1d330a",
+    "name": "あそべる生物フィギュアシリーズ ザ・シャーク vs 最強の捕食者",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "7月 27日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900723_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900723_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900723",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-17T09:07:16.964Z"
+  },
+  {
+    "id": "gacha-34d219af",
+    "name": "ムーミン きりかぶの時計",
+    "brand": "ムーミン",
+    "brandSlug": "moomin",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#b899e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/04/250225_moominwatch_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/04/250225_moominwatch_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/moomin_kirikabu/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-07-17T09:07:16.964Z"
+  },
+  {
     "id": "gacha-4d844a9b",
     "name": "とっとこハム太郎 シャカシャカアクリルチャーム",
     "brand": "その他",
