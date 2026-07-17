@@ -4,6 +4,7 @@ import ReceiptPaper from "../../../components/ReceiptPaper";
 import RakutenLinks from "../../../components/RakutenLinks";
 import ProductThumb from "../../../components/ProductThumb";
 import Breadcrumb from "../../../components/Breadcrumb";
+import NewArrivalsSection from "../../../components/NewArrivalsSection";
 import products from "../../../data/products.json";
 import rakutenLinks from "../../../data/rakuten-links.json";
 import { charactersForProduct } from "../../../data/characters";
@@ -142,6 +143,15 @@ export default function ItemPage({ params }) {
           </div>
         </section>
       )}
+
+      <div className="px-4 max-w-2xl mx-auto w-full">
+        <NewArrivalsSection
+          excludeIds={[product.id, ...relatedItems.map((p) => p.id)]}
+          limit={4}
+          className="mt-8"
+          gridClass="grid-cols-2 md:grid-cols-4"
+        />
+      </div>
 
       <section className="px-4 mt-6 mb-10 max-w-2xl mx-auto w-full">
         <div className="flex flex-wrap gap-2">

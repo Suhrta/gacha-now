@@ -6,8 +6,10 @@ import GachaMachine from "../../../components/GachaMachine";
 import ReceiptPaper from "../../../components/ReceiptPaper";
 import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
+import NewArrivalsSection from "../../../components/NewArrivalsSection";
 import products from "../../../data/products.json";
 import { getAllReleaseMonths, getReleaseYearMonth, formatYearMonth } from "../../../lib/release";
+import { getPopularBrands } from "../../../lib/browse";
 
 function releaseWeekToNum(str) {
   if (!str || str === "未定") return 8888;
@@ -30,6 +32,7 @@ export default function ReleaseMonthPage() {
     .sort((a, b) => releaseWeekToNum(a.releaseWeek) - releaseWeekToNum(b.releaseWeek));
   const label = /^\d{4}-\d{2}$/.test(month) ? formatYearMonth(month) : month;
   const otherMonths = getAllReleaseMonths(products).filter((m) => m !== month);
+  const monthBrands = getPopularBrands(items, { limit: 10 });
 
   return (
     <>
@@ -74,6 +77,25 @@ export default function ReleaseMonthPage() {
             😢<br />このつきの<br />しんさくは まだ ないよ
           </div>
         )}
+
+        {monthBrands.length > 0 && (
+          <section className="mt-10 px-1 relative z-[1]">
+            <h2 className="text-sm font-bold text-brand-text mb-3">{label}発売の人気キャラ・ブランドから探す</h2>
+            <div className="flex flex-wrap gap-2">
+              {monthBrands.map((b) => (
+                <Link
+                  key={b.slug}
+                  href={`/brand/${b.slug}`}
+                  className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
+                >
+                  {b.name} ({b.count})
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <NewArrivalsSection excludeIds={items.map((p) => p.id)} />
 
         <section className="mt-10 px-1 relative z-[1]">
           <h2 className="text-sm font-bold text-brand-text mb-3">ほかの月から探す</h2>

@@ -7,7 +7,10 @@ import ReceiptPaper from "../../../components/ReceiptPaper";
 import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
 import CharacterInfo from "../../../components/CharacterInfo";
+import NewArrivalsSection from "../../../components/NewArrivalsSection";
 import products from "../../../data/products.json";
+import { getPopularBrands } from "../../../lib/browse";
+import { getAllReleaseMonths, formatYearMonth } from "../../../lib/release";
 
 export default function BrandPage() {
   const { slug } = useParams();
@@ -15,6 +18,8 @@ export default function BrandPage() {
 
   const brandProducts = products.filter((p) => p.brandSlug === slug);
   const brandName = brandProducts.length > 0 ? brandProducts[0].brand : slug;
+  const popularBrands = getPopularBrands(products, { excludeSlug: slug });
+  const releaseMonths = getAllReleaseMonths(products);
 
   return (
     <>
@@ -55,6 +60,38 @@ export default function BrandPage() {
             😢<br />この ブランドの<br />しんさくは まだ ないよ
           </div>
         )}
+
+        <NewArrivalsSection excludeBrandSlug={slug} />
+
+        <section className="mt-10 px-1 relative z-[1]">
+          <h2 className="text-sm font-bold text-brand-text mb-3">ほかの人気キャラ・ブランドから探す</h2>
+          <div className="flex flex-wrap gap-2">
+            {popularBrands.map((b) => (
+              <Link
+                key={b.slug}
+                href={`/brand/${b.slug}`}
+                className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
+              >
+                {b.name} ({b.count})
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section className="mt-8 px-1 relative z-[1]">
+          <h2 className="text-sm font-bold text-brand-text mb-3">発売月から探す</h2>
+          <div className="flex flex-wrap gap-2">
+            {releaseMonths.map((m) => (
+              <Link
+                key={m}
+                href={`/release/${m}`}
+                className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
+              >
+                📅 {formatYearMonth(m)}
+              </Link>
+            ))}
+          </div>
+        </section>
       </main>
 
       <Footer />
