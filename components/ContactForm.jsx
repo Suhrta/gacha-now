@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-const CONTACT_EMAIL = "info@gacha-now.com";
+const CONTACT_EMAIL = "info@gacha-now.net";
 
 const TOPICS = [
   "掲載内容の修正・削除のお願い",

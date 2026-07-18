@@ -17,7 +17,7 @@ const rows = [
   { label: "URL", value: "https://gacha-now.net" },
   { label: "運営者", value: "ガチャなう（個人運営）" },
   { label: "運営目的", value: "カプセルトイ（ガチャガチャ）の新作情報を、発売日・価格・ブランド別に探しやすくまとめて届けること" },
-  { label: "お問い合わせ", value: "info@gacha-now.com（お問い合わせページからも受付）" },
+  { label: "お問い合わせ", value: "info@gacha-now.net（お問い合わせページからも受付）" },
 ];
 
 const sections = [

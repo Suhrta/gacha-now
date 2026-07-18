@@ -180,4 +180,4 @@ Next.jsアプリ本体は環境変数不要（`data/products.json` を直接読�
 
 ## お問い合わせ
 
-info@gacha-now.com
+info@gacha-now.net
