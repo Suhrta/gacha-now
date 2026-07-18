@@ -41,12 +41,14 @@ export default function ReleaseMonthPage() {
           ← トップにもどる
         </Link>
         <div className="text-center mt-2">
-          <h1 className="font-pixel text-[12px] text-brand-accent animate-float">
-            {label}はつばい
+          <h1 className="m-0 font-normal">
+            <span className="block font-pixel text-[12px] text-brand-accent animate-float">
+              {label}はつばい
+            </span>
+            <span className="block font-pixel text-[10px] text-brand-sub mt-1">
+              の ガチャ いちらん
+            </span>
           </h1>
-          <div className="font-pixel text-[10px] text-brand-sub mt-1">
-            の ガチャ いちらん
-          </div>
         </div>
       </header>
 

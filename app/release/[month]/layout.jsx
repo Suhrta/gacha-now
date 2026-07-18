@@ -16,15 +16,15 @@ export function generateMetadata({ params }) {
   const countTag = count >= 10 ? `【${count}件】` : "【毎日更新】";
   const descText =
     count >= 10
-      ? `${label}発売のカプセルトイ・ガチャガチャ新作${count}件を一覧でチェック。価格・種類数・発売週つき。毎日更新。`
-      : `${label}発売のカプセルトイ・ガチャガチャ新作情報を毎日更新でお届け。価格・種類数・発売週つきで随時追加中。`;
+      ? `${label}発売のガチャガチャ・カプセルトイ新作${count}件まとめ。発売週・価格・種類数つきで毎日更新。発売日チェックや予約の下調べにどうぞ。`
+      : `${label}発売のガチャガチャ・カプセルトイ新作情報を毎日更新でお届け。価格・種類数・発売週つきで随時追加中。`;
 
   return {
-    title: `${label}発売のガチャガチャ新作一覧${countTag}| ガチャなう`,
+    title: `${label}発売のガチャガチャ新作一覧${countTag}最新まとめ | ガチャなう`,
     description: descText,
     alternates: { canonical: `https://gacha-now.net/release/${params.month}` },
     openGraph: {
-      title: `${label}発売のガチャガチャ新作一覧${countTag}`,
+      title: `${label}発売のガチャガチャ新作一覧${countTag}最新まとめ`,
       description: `${label}発売のカプセルトイ新作情報を価格・発売週つきで一覧表示。`,
     },
   };
