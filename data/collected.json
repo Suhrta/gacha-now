@@ -261,7 +261,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第1週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "パペットスンスン もっと！スンスンを探せマスコット",
@@ -5901,7 +5901,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "カラフルピーチ",
-    "types": null
+    "types": 5
   },
   {
     "title": "カラフルピーチ うるるん隊2",
