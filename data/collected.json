@@ -261,7 +261,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第1週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "パペットスンスン もっと！スンスンを探せマスコット",
@@ -909,7 +909,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第2週",
     "brand": "封神演義",
-    "types": null
+    "types": 12
   },
   {
     "title": "【フラットガシャポン】刃牙 ポスターコレクションッッ!!",
@@ -5901,7 +5901,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "カラフルピーチ",
-    "types": 5
+    "types": null
   },
   {
     "title": "カラフルピーチ うるるん隊2",
@@ -6699,9 +6699,9 @@
     "title": "MINECRAFT カラフルマルチチャーム",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770027808000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253524_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253524_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253524_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253524_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253524_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253524_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253524_4.jpg",
@@ -6747,9 +6747,9 @@
     "title": "アイカツ！ ダイキャストドレスチャーム",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770095326000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253511_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253511_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253511_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253511_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253511_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253511_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000253511_4.jpg",
