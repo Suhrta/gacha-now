@@ -189,7 +189,7 @@
     "price": 200,
     "releaseWeek": "2026年6月 第1週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "プリキュアオールスターズ ミニチュアライトセレクション２",
@@ -909,7 +909,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第2週",
     "brand": "封神演義",
-    "types": 12
+    "types": null
   },
   {
     "title": "【フラットガシャポン】刃牙 ポスターコレクションッッ!!",
@@ -1581,7 +1581,7 @@
     "price": null,
     "releaseWeek": "2026年6月 第3週",
     "brand": "いきもの大図鑑",
-    "types": null
+    "types": 3
   },
   {
     "title": "MINECRAFT スイングマスコット4",
