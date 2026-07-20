@@ -3165,7 +3165,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第1週",
     "brand": "サンリオ",
-    "types": null
+    "types": 8
   },
   {
     "title": "アイドリッシュセブン カプセル缶バッジコレクション＋♪vol.7",
@@ -6237,7 +6237,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第5週",
     "brand": "桜蘭高校ホスト部",
-    "types": 9
+    "types": null
   },
   {
     "title": "グレムリン めじるしアクセサリー",
@@ -6285,7 +6285,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第5週",
     "brand": "しまじろう",
-    "types": null
+    "types": 5
   },
   {
     "title": "サンリオキャラクターズ カラともマスコット",
