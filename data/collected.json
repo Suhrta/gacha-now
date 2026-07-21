@@ -813,7 +813,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第2週",
     "brand": "黄泉のツガイ",
-    "types": null
+    "types": 8
   },
   {
     "title": "おジャ魔女どれみ めじるしアクセサリー ポロンタップver.1",
@@ -6406,6 +6406,30 @@
     "releaseWeek": "2026年7月 第5週",
     "brand": "名探偵コナン",
     "types": 6
+  },
+  {
+    "title": "クレヨンしんちゃん ふわふわフロッキードール",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769836336000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 第5週",
+    "brand": "クレヨンしんちゃん",
+    "types": 5
   },
   {
     "title": "怒った銀魂ァァァ！！",

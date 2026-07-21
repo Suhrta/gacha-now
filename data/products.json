@@ -1,5 +1,35 @@
 [
   {
+    "id": "gacha-4761f1d9",
+    "name": "クレヨンしんちゃん ふわふわフロッキードール",
+    "brand": "クレヨンしんちゃん",
+    "brandSlug": "shinchan",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "7月 第5週",
+    "color": "#99d2e5",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769836336000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-07-21T10:29:30.110Z"
+  },
+  {
     "id": "gacha-7cfd6ade",
     "name": "カプセルプラレール きかんしゃトーマス パーシーとジェームスが大変身!?編",
     "brand": "トミカ",
