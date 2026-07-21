@@ -813,7 +813,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第2週",
     "brand": "黄泉のツガイ",
-    "types": 8
+    "types": null
   },
   {
     "title": "おジャ魔女どれみ めじるしアクセサリー ポロンタップver.1",
@@ -5184,30 +5184,6 @@
     "types": 6
   },
   {
-    "title": "wiggle wiggle めじるしアクセサリー",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769867422000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年7月 第4週",
-    "brand": "その他",
-    "types": 6
-  },
-  {
     "title": "ケアベア&trade; ブリスターチャームコレクション",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769889615000",
     "source": "バンダイ公式",
@@ -6237,6 +6213,30 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "仮面ライダー",
+    "types": 6
+  },
+  {
+    "title": "wiggle wiggle めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769867422000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000237864_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月 第5週",
+    "brand": "その他",
     "types": 6
   },
   {
@@ -7515,6 +7515,19 @@
     "releaseWeek": "2026年7月 27日週",
     "brand": "その他",
     "types": 4
+  },
+  {
+    "title": "カプセルプラレール きかんしゃトーマス パーシーとジェームスが大変身!?編",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906244",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906244_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906244_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 27日週",
+    "brand": "トミカ",
+    "types": 10
   },
   {
     "title": "Pokémon Pixel Art つれあるきマスコット",
