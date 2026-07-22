@@ -10,7 +10,7 @@ import FilterTabs from "../components/FilterTabs";
 import products from "../data/products.json";
 import { CHARACTERS } from "../data/characters";
 import { SERIES } from "../data/series";
-import { getAllReleaseMonths, formatYearMonth } from "../lib/release";
+import { getAllReleaseMonths, formatYearMonth, getReleaseYearMonth } from "../lib/release";
 import { DATA_UPDATED } from "../lib/site-meta";
 
 const ITEMS_PER_PAGE = 20;
@@ -98,20 +98,49 @@ function sortProducts(list, tab) {
       return releaseWeekToNum(a.releaseWeek) - releaseWeekToNum(b.releaseWeek);
     });
   }
+  // すべて: 新しさ最優先（当月新作 → 発売予定 → 未定 → 先月=1か月以内 → それ以前）。
+  // HOT（人気ブランド）は同じ鮮度グループ内でのみ優先。以前はHOTが最優先だったため、
+  // 人気ブランドの数か月前の商品が他ブランドの新作を押し下げていた。
   return [...list].sort((a, b) => {
+    const aT = freshnessTier(a);
+    const bT = freshnessTier(b);
+    if (aT !== bT) return aT - bT;
     const aHot = a.hot ? 0 : 1;
     const bHot = b.hot ? 0 : 1;
     if (aHot !== bHot) return aHot - bHot;
-    const statusOrder = { new: 0, upcoming: 1, available: 2 };
-    const aStatus = getStatus(a);
-    const bStatus = getStatus(b);
-    const aIsUndefined = !a.releaseWeek || a.releaseWeek === "未定" || !a.releaseWeek.match(/\d+月/);
-    const bIsUndefined = !b.releaseWeek || b.releaseWeek === "未定" || !b.releaseWeek.match(/\d+月/);
-    let aOrder = aIsUndefined ? 1.5 : (statusOrder[aStatus] ?? 3);
-    let bOrder = bIsUndefined ? 1.5 : (statusOrder[bStatus] ?? 3);
-    if (aOrder !== bOrder) return aOrder - bOrder;
-    return releaseWeekToNum(a.releaseWeek) - releaseWeekToNum(b.releaseWeek);
+    // 発売予定は発売が近い順、発売済みは新しい順
+    const aK = releaseSortKey(a);
+    const bK = releaseSortKey(b);
+    return aT === 1 ? aK - bK : bK - aK;
   });
+}
+
+// 年をまたいでも比較できる発売月インデックス（年*12+月）
+function releaseMonthIndex(product) {
+  const ym = getReleaseYearMonth(product);
+  if (!ym) return null;
+  const [y, m] = ym.split("-").map(Number);
+  return y * 12 + m;
+}
+
+// 鮮度グループ: 0=当月新作 / 1=発売予定 / 2=発売日未定 / 3=先月(1か月以内) / 4=それ以前
+function freshnessTier(product) {
+  const rw = product.releaseWeek || "未定";
+  const idx = releaseMonthIndex(product);
+  if (idx === null) return rw === "発売中" ? 4 : 2;
+  const now = new Date();
+  const monthsAgo = now.getFullYear() * 12 + (now.getMonth() + 1) - idx;
+  if (monthsAgo < 0) return 1;
+  if (monthsAgo === 0) return 0;
+  if (monthsAgo === 1) return 3;
+  return 4;
+}
+
+// 鮮度グループ内の並び替えキー（発売月インデックス + 週）
+function releaseSortKey(product) {
+  const idx = releaseMonthIndex(product);
+  if (idx === null) return 0;
+  return idx * 100 + (releaseWeekToNum(product.releaseWeek) % 100);
 }
 
 const STATUS_TABS = [
