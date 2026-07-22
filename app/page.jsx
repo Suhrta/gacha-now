@@ -337,8 +337,8 @@ export default function HomePage() {
                 />
               </div>
 
-              {/* 統計 */}
-              <div className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:items-center mt-5">
+              {/* 統計（モバイルはファーストビュー整理のため非表示） */}
+              <div className="hidden md:flex md:flex-wrap md:items-center gap-2 mt-5">
                 <button
                   onClick={() => setStatusTab("new")}
                   className="flex items-center justify-center gap-1 sm:gap-1.5 bg-white rounded-full shadow-sm border border-cream-border px-2 sm:pl-2 sm:pr-3 py-1.5 cursor-pointer hover:border-brand-accent transition-colors"
@@ -394,14 +394,27 @@ export default function HomePage() {
                     検索
                   </button>
                 </div>
-                <Link
-                  href="/series"
-                  className="inline-flex items-center gap-2 mt-4 px-5 py-2.5 bg-white border-2 border-brand-accent rounded-full text-sm md:text-base font-bold text-brand-accent no-underline hover:bg-brand-accent hover:text-white transition-colors"
-                  style={{ boxShadow: "0 3px 0 #E8756D33, 0 4px 12px rgba(232,117,109,0.15)" }}
-                >
-                  🎁 シリーズ特集をみる
-                  <span>→</span>
-                </Link>
+                <div className="flex gap-2 mt-4">
+                  <Link
+                    href="/series"
+                    className="flex-1 md:flex-none inline-flex items-center justify-center gap-1.5 md:gap-2 px-3 md:px-5 py-2.5 bg-white border-2 border-brand-accent rounded-full text-sm md:text-base font-bold text-brand-accent no-underline hover:bg-brand-accent hover:text-white transition-colors"
+                    style={{ boxShadow: "0 3px 0 #E8756D33, 0 4px 12px rgba(232,117,109,0.15)" }}
+                  >
+                    🎁 シリーズ特集<span className="hidden md:inline">をみる</span>
+                    <span>→</span>
+                  </Link>
+                  {/* モバイル専用: 翌月新作（PCはタブ下のバナーで案内） */}
+                  {NEXT_MONTH && (
+                    <Link
+                      href={`/release/${NEXT_MONTH}`}
+                      className="flex-1 md:hidden inline-flex items-center justify-center gap-1.5 px-3 py-2.5 bg-white border-2 border-brand-purple rounded-full text-sm font-bold text-brand-purple no-underline transition-colors"
+                      style={{ boxShadow: "0 3px 0 #8B7EC833, 0 4px 12px rgba(139,126,200,0.15)" }}
+                    >
+                      📅 {Number(NEXT_MONTH.split("-")[1])}月の新作
+                      <span>→</span>
+                    </Link>
+                  )}
+                </div>
 
                 {/* モバイル: インスタ紹介カプセル */}
                 <InstaCapsule variant="mobile" />
@@ -452,12 +465,10 @@ export default function HomePage() {
         {NEXT_MONTH && (
           <Link
             href={`/release/${NEXT_MONTH}`}
-            className="flex items-center justify-between gap-2 mt-4 px-4 py-2.5 bg-white border border-cream-border rounded-xl no-underline hover:border-brand-accent transition-colors relative z-10"
+            className="hidden md:flex items-center justify-between gap-2 mt-4 px-4 py-2.5 bg-white border border-cream-border rounded-xl no-underline hover:border-brand-accent transition-colors relative z-10"
           >
             <span className="text-sm font-bold text-brand-text">
-              📅{" "}
-              <span className="md:hidden">{Number(NEXT_MONTH.split("-")[1])}月発売の新作ガチャガチャをチェック</span>
-              <span className="hidden md:inline">{formatYearMonth(NEXT_MONTH)}発売の新作ガチャガチャ一覧をチェック</span>
+              📅 {formatYearMonth(NEXT_MONTH)}発売の新作ガチャガチャ一覧をチェック
             </span>
             <span className="text-sm font-bold shrink-0 text-brand-accent">→</span>
           </Link>
