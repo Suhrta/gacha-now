@@ -4,7 +4,6 @@ import Link from "next/link";
 import Header from "../components/Header";
 import GachaMachine from "../components/GachaMachine";
 import ReceiptPaper from "../components/ReceiptPaper";
-import NewArrivalModal from "../components/NewArrivalModal";
 import Footer from "../components/Footer";
 import FilterTabs from "../components/FilterTabs";
 import InstaCapsule from "../components/InstaCapsule";
@@ -12,7 +11,6 @@ import products from "../data/products.json";
 import { CHARACTERS } from "../data/characters";
 import { SERIES } from "../data/series";
 import { getAllReleaseMonths, formatYearMonth, getReleaseYearMonth } from "../lib/release";
-import { DATA_UPDATED } from "../lib/site-meta";
 
 const ITEMS_PER_PAGE = 20;
 // 自動読み込みは最初の数バッチまで。それ以降は「もっと見る」ボタンに切り替え、
@@ -161,7 +159,6 @@ const STATUS_TABS = [
 ];
 
 // 最終更新日はメタデータ（title・description）と同じ算出元を使い、表示と食い違わないようにする
-const LAST_UPDATED = DATA_UPDATED ? DATA_UPDATED.label : null;
 
 export default function HomePage() {
   const [brand, setBrand] = useState("すべて");
@@ -311,11 +308,6 @@ export default function HomePage() {
               {/* コピー（モバイルは小さい画像と横並び） */}
               <div className="flex items-center gap-3">
                 <div className="flex-1 min-w-0">
-                  {LAST_UPDATED && (
-                    <div className="inline-flex items-center gap-1.5 bg-white/80 border border-cream-border rounded-full px-3 py-1 text-[11px] text-brand-sub mb-3">
-                      <span>✨</span> 毎日更新｜最終更新 {LAST_UPDATED}
-                    </div>
-                  )}
                   <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-brand-text leading-tight break-keep">
                     ガチャガチャ<br />
                     新作・最新情報<br />
@@ -590,7 +582,6 @@ export default function HomePage() {
           onToggleFavorite={toggleFavorite}
         />
       )}
-      <NewArrivalModal products={products} onOpenReceipt={(p) => setSelected(p)} />
     </>
   );
 }
