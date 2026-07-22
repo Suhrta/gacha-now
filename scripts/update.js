@@ -29,10 +29,45 @@ async function main() {
   } else {
     console.log("既存データなし（新規作成）");
   }
+  // 同一商品の判定は sourceUrl を主キーにする（名前だとメーカー側の
+  // 表記修正「根付け→根付」等で別商品として二重登録されるため）。
+  // URL一致の既存商品は削除せず、名前・発売週などの情報だけ更新する。
+  const hasJa = (s) => /[぀-ヿ一-鿿]/.test(s || "");
+  const isSpecificWeek = (s) => /月/.test(s || "");
+  const keyOf = (p) => p.sourceUrl || p.name;
+  const existingByKey = new Map(existing.map((p) => [keyOf(p), p]));
   const existingNames = new Set(existing.map((p) => p.name));
-  const toAdd = newProducts.filter((p) => !existingNames.has(p.name));
+
+  const toAdd = [];
+  let updatedCount = 0;
+  for (const np of newProducts) {
+    const cur = existingByKey.get(keyOf(np));
+    if (!cur) {
+      // URL未登録でも同名商品があればスキップ（旧挙動の保険）
+      if (existingNames.has(np.name)) continue;
+      toAdd.push(np);
+      continue;
+    }
+    // 既存エントリを更新（idとcollectedAtは維持: URL安定・3ヶ月削除サイクル維持）
+    let changed = false;
+    // 名前: 日本語名を英語名(kitan.jpの英語ページ混入)で上書きしない
+    if (np.name !== cur.name && (hasJa(np.name) || !hasJa(cur.name))) {
+      cur.name = np.name;
+      changed = true;
+    }
+    // 発売週: 具体値(「7月 27日週」等)を「未定」で上書きしない
+    if (np.releaseWeek !== cur.releaseWeek && (isSpecificWeek(np.releaseWeek) || np.releaseWeek !== "未定")) {
+      cur.releaseWeek = np.releaseWeek;
+      changed = true;
+    }
+    if (np.price !== cur.price && np.price) { cur.price = np.price; changed = true; }
+    if (np.types != null && np.types !== cur.types) { cur.types = np.types; changed = true; }
+    if (np.img && np.img !== cur.img) { cur.img = np.img; cur.images = np.images || [np.img]; changed = true; }
+    if (changed) updatedCount++;
+  }
   console.log("新規追加: " + toAdd.length + "件");
-  console.log("スキップ（既存）: " + (newProducts.length - toAdd.length) + "件");
+  console.log("既存更新: " + updatedCount + "件");
+  console.log("スキップ（既存）: " + (newProducts.length - toAdd.length - updatedCount) + "件");
   const newTodayNames = toAdd.map((p) => p.name);
   fs.writeFileSync(NEW_TODAY_PATH, JSON.stringify(newTodayNames, null, 2), "utf-8");
   console.log("new-today.json に " + newTodayNames.length + "件を記録");

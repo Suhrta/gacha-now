@@ -128,11 +128,12 @@ async function main() {
     });
   }
 
-  // 重複排除
+  // 重複排除（同一run内）。sourceUrlを主キーにする（名前は表記ゆれで割れるため）
   const seen = new Set();
   const unique = products.filter((p) => {
-    if (seen.has(p.name)) return false;
-    seen.add(p.name);
+    const key = p.sourceUrl || p.name;
+    if (seen.has(key)) return false;
+    seen.add(key);
     return true;
   });
 

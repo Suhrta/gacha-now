@@ -19,25 +19,6 @@
     "collectedAt": "2026-07-22T09:07:41.584Z"
   },
   {
-    "id": "-lets-sing-6c59fcce",
-    "name": "ポケモン根付マスコット Let's Sing!",
-    "brand": "ポケモン",
-    "brandSlug": "pokemon",
-    "price": 300,
-    "types": 4,
-    "releaseWeek": "7月 27日週",
-    "color": "#FFD54F",
-    "hot": true,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903984_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903984_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903984",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-07-22T09:07:41.584Z"
-  },
-  {
     "id": "-vol3-57cbecb7",
     "name": "アニメ「ぼっち・ざ・ろっく！」　ぼっちちゃんがいっぱいフィギュアvol.3",
     "brand": "ぼっち・ざ・ろっく",
@@ -1660,36 +1641,6 @@
     "collectedAt": "2026-07-03T09:07:04.102Z"
   },
   {
-    "id": "npb--30a3e513",
-    "name": "NPB ユニフォームフレームマグネット～パシフィック・リーグ～",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 500,
-    "types": 6,
-    "releaseWeek": "7月 第2週",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253592_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769935848000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-07-02T09:07:29.937Z"
-  },
-  {
     "id": "gacha-6e07b8d8",
     "name": "忍たま乱太郎 まちぼうけ 六年生の段",
     "brand": "まちぼうけ",
@@ -2738,7 +2689,7 @@
   },
   {
     "id": "npb--414291c7",
-    "name": "NPBユニフォーム フレームマグネット～パシフィック・リーグ～",
+    "name": "NPB ユニフォームフレームマグネット～パシフィック・リーグ～",
     "brand": "その他",
     "brandSlug": "other",
     "price": 500,
@@ -6067,12 +6018,12 @@
   },
   {
     "id": "-lets-sing-6c1c4805",
-    "name": "ポケモン根付けマスコット Let's Sing!",
+    "name": "ポケモン根付マスコット Let's Sing!",
     "brand": "ポケモン",
     "brandSlug": "pokemon",
     "price": 300,
     "types": 4,
-    "releaseWeek": "7月",
+    "releaseWeek": "7月 27日週",
     "color": "#FFD54F",
     "hot": true,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903984_b.jpg",
@@ -6505,25 +6456,6 @@
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770054736000",
     "source": "バンダイ公式",
     "collectedAt": "2026-06-26T07:00:51.490Z"
-  },
-  {
-    "id": "mukimuki-no-hamchan-figure-mas-23185f7c",
-    "name": "Mukimuki no Ham-chan Figure Mascot 2",
-    "brand": "New",
-    "brandSlug": "new",
-    "price": 300,
-    "types": null,
-    "releaseWeek": "未定",
-    "color": "#c2e599",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/06/mukihamuchanFG2_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/06/mukihamuchanFG2_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/mkmkhamuchan_2/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-06-26T00:19:07.009Z"
   },
   {
     "id": "gacha-26462579",
@@ -6988,36 +6920,6 @@
     "collectedAt": "2026-06-17T09:06:54.204Z"
   },
   {
-    "id": "dx-ver-316a3d15",
-    "name": "だれでもアクリルチャームDX サッカー日本代表ver.",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 400,
-    "types": 10,
-    "releaseWeek": "発売中",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251587_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770031676000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-06-17T08:33:16.877Z"
-  },
-  {
     "id": "fig--2cd5bd2f",
     "name": "肩ズンFig. 文豪ストレイドッグス",
     "brand": "文豪ストレイドッグス",
@@ -7168,36 +7070,6 @@
     "sourceUrl": "https://kitan.jp/products/aip_moomin6/",
     "source": "キタンクラブ公式",
     "collectedAt": "2026-06-17T08:33:16.880Z"
-  },
-  {
-    "id": "tv--0e167088",
-    "name": "TVアニメ「黄泉のツガイ」 カプセルラバーマスコット",
-    "brand": "黄泉のツガイ",
-    "brandSlug": "yomitsugai",
-    "price": 300,
-    "types": 8,
-    "releaseWeek": "発売中",
-    "color": "#e599c6",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251588_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769968419000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-06-16T08:50:40.683Z"
   },
   {
     "id": "-yummy-food3-01d54654",
@@ -9006,7 +8878,7 @@
   },
   {
     "id": "gacha-04ed1159",
-    "name": "黄泉のツガイ カプセルラバーマスコット",
+    "name": "TVアニメ「黄泉のツガイ」 カプセルラバーマスコット",
     "brand": "黄泉のツガイ",
     "brandSlug": "yomitsugai",
     "price": 300,
@@ -9223,7 +9095,7 @@
   },
   {
     "id": "-ver-03206dbf",
-    "name": "だれでもアクリルチャーム サッカー日本代表ver.",
+    "name": "だれでもアクリルチャームDX サッカー日本代表ver.",
     "brand": "その他",
     "brandSlug": "other",
     "price": 400,
@@ -12177,26 +12049,6 @@
     "description": "猫ちゃんがパン屋さんに大変身！可愛すぎるベーカリー姿の猫フィギュアで、デスク周りが癒しのパン屋さんになっちゃいます。"
   },
   {
-    "id": "punk-drunkers-that-guys-lucky--3748518f",
-    "name": "Punk Drunkers: That Guy's Lucky Charm",
-    "brand": "New",
-    "brandSlug": "new",
-    "price": 300,
-    "types": 5,
-    "releaseWeek": "未定",
-    "color": "#c2e599",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/05/PKDS_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/05/PKDS_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/aitsu_engimono/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-05-25T23:57:13.879Z",
-    "description": "パンクドランカーズのあの人気キャラがラッキーチャームになって登場！全4種のコレクションで、毎日の運気をアップさせちゃおう。"
-  },
-  {
     "id": "-the-thrones-of-justice-and-ev-028c87b3",
     "name": "王座 -The Thrones of Justice and Evil-",
     "brand": "その他",
@@ -12779,26 +12631,6 @@
     "source": "バンダイ公式",
     "collectedAt": "2026-05-13T03:02:21.284Z",
     "description": "手にはめて遊べるパペット仕様のふわふわぬいぐるみが登場！スンスンとした愛らしい表情に癒されること間違いなしです。"
-  },
-  {
-    "id": "cat-in-a-paper-bag-flocky-2-0dc056ab",
-    "name": "Cat in a Paper Bag Flocky 2",
-    "brand": "New",
-    "brandSlug": "new",
-    "price": 300,
-    "types": 6,
-    "releaseWeek": "未定",
-    "color": "#c2e599",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/05/kami_f_2_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/05/kami_f_2_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/kamibukuroneko_flocky2/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-05-13T00:02:44.635Z",
-    "description": "紙袋に入った猫ちゃんの癒し系フィギュア第2弾が登場！ふわふわの植毛仕様で、思わず触りたくなる可愛さです。"
   },
   {
     "id": "-ufo-07942f81",
