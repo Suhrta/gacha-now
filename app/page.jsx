@@ -403,14 +403,14 @@ export default function HomePage() {
                     🎁 シリーズ特集<span className="hidden md:inline">をみる</span>
                     <span>→</span>
                   </Link>
-                  {/* モバイル専用: 翌月新作（PCはタブ下のバナーで案内） */}
+                  {/* 翌月新作への導線（シリーズ特集と同列） */}
                   {NEXT_MONTH && (
                     <Link
                       href={`/release/${NEXT_MONTH}`}
-                      className="flex-1 md:hidden inline-flex items-center justify-center gap-1.5 px-3 py-2.5 bg-white border-2 border-brand-purple rounded-full text-sm font-bold text-brand-purple no-underline transition-colors"
+                      className="flex-1 md:flex-none inline-flex items-center justify-center gap-1.5 md:gap-2 px-3 md:px-5 py-2.5 bg-white border-2 border-brand-purple rounded-full text-sm md:text-base font-bold text-brand-purple no-underline transition-colors"
                       style={{ boxShadow: "0 3px 0 #8B7EC833, 0 4px 12px rgba(139,126,200,0.15)" }}
                     >
-                      📅 {Number(NEXT_MONTH.split("-")[1])}月の新作
+                      📅 {Number(NEXT_MONTH.split("-")[1])}月<span className="hidden md:inline">発売</span>の新作
                       <span>→</span>
                     </Link>
                   )}
@@ -460,19 +460,6 @@ export default function HomePage() {
             );
           })}
         </div>
-
-        {/* 翌月の発売月ページへの導線（発売予定チェック需要 + 内部リンク強化） */}
-        {NEXT_MONTH && (
-          <Link
-            href={`/release/${NEXT_MONTH}`}
-            className="hidden md:flex items-center justify-between gap-2 mt-4 px-4 py-2.5 bg-white border border-cream-border rounded-xl no-underline hover:border-brand-accent transition-colors relative z-10"
-          >
-            <span className="text-sm font-bold text-brand-text">
-              📅 {formatYearMonth(NEXT_MONTH)}発売の新作ガチャガチャ一覧をチェック
-            </span>
-            <span className="text-sm font-bold shrink-0 text-brand-accent">→</span>
-          </Link>
-        )}
 
         <div className="font-sans text-xs text-brand-sub mb-2.5 px-1 relative">
           {statusTab === "favorites"
