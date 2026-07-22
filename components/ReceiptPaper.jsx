@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef, useCallback } from "react";
 import NoImage from "./NoImage";
+import { rakutenSearchUrl, amazonSearchUrl } from "../lib/affiliate";
 
 const zigzagTop = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,10 8,0 16,10' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
 const zigzagBottom = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,0 8,10 16,0' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
@@ -24,6 +25,21 @@ function getShopSearchUrl(product) {
   }
 
   return null;
+}
+
+/* GA4 アフィリエイトクリック計測（RakutenLinks と同一イベント名・パラメータ） */
+function trackAffiliateClick(affiliate, intent, product) {
+  if (typeof window === "undefined" || typeof window.gtag !== "function") return;
+  window.gtag("event", "affiliate_click", {
+    affiliate,
+    link_intent: intent,
+    item_id: product.id,
+    item_name: product.name,
+    item_brand: product.brand,
+    search_query: product.name,
+    value: product.price || 0,
+    currency: "JPY",
+  });
 }
 
 /* 画像ギャラリーコンポーネント（スワイプ + タップ両対応） */
@@ -344,9 +360,10 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
               </div>
             ))}
 
-            {/* 楽天で探すボタン（メインCTA） */}
-            <a href={`https://hb.afl.rakuten.co.jp/ichiba/5419daa8.c81c3582.5419daa9.cef22a14/?pc=${encodeURIComponent(`https://search.rakuten.co.jp/search/mall/${product.name}/`)}&link_type=text`}
+            {/* 楽天で探すボタン（メインCTA）。計測IDで商品ページ/ポップアップを区別 */}
+            <a href={rakutenSearchUrl(product.name, isPage ? "receipt_page" : "receipt_modal")}
               target="_blank" rel="nofollow sponsored noopener"
+              onClick={() => trackAffiliateClick("rakuten", isPage ? "receipt_page" : "receipt_modal", product)}
               className="block w-full py-3 md:py-3.5 mt-2 rounded-lg font-sans text-[12px] md:text-base font-bold text-white text-center no-underline"
               style={{
                 background: "linear-gradient(135deg, #E60000, #BF0000)",
@@ -354,6 +371,21 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
               }}>
               🛒 楽天市場で探す
             </a>
+
+            {/* Amazonで探すボタン（AMAZON_ASSOCIATE_TAG 設定後に自動表示） */}
+            {amazonSearchUrl(product.name) && (
+              <a href={amazonSearchUrl(product.name)}
+                target="_blank" rel="nofollow sponsored noopener"
+                onClick={() => trackAffiliateClick("amazon", isPage ? "receipt_page" : "receipt_modal", product)}
+                className="block w-full py-2.5 md:py-3 mt-1.5 rounded-lg font-sans text-[11px] md:text-sm font-bold text-center no-underline border-2"
+                style={{
+                  background: "#FFFFFF",
+                  borderColor: "#FF9900",
+                  color: "#B45309",
+                }}>
+                📦 Amazonで探す
+              </a>
+            )}
 
             {/* 店舗検索ボタン */}
             {shopUrl && (

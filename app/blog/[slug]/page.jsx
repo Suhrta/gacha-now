@@ -104,7 +104,7 @@ function parseInline(text, keyPrefix) {
 function RakutenButton({ keyword, label }) {
   return (
     <a
-      href={rakutenSearchUrl(keyword)}
+      href={rakutenSearchUrl(keyword, "blog")}
       target="_blank"
       rel="nofollow sponsored noopener noreferrer"
       className="flex items-center gap-2 my-3 px-4 py-3 rounded-lg border-2 no-underline"

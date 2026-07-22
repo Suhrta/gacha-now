@@ -1,5 +1,5 @@
 "use client";
-import { rakutenSearchUrl } from "../lib/affiliate";
+import { rakutenSearchUrl, amazonSearchUrl } from "../lib/affiliate";
 
 /**
  * 商品ページの「楽天で確実に買う/予約する」導線。
@@ -14,10 +14,10 @@ import { rakutenSearchUrl } from "../lib/affiliate";
 export default function RakutenLinks({ product, links }) {
   if (!links || (!links.compset && !links.preorder)) return null;
 
-  const track = (intent, query) => {
+  const track = (intent, query, affiliate = "rakuten") => {
     if (typeof window === "undefined" || typeof window.gtag !== "function") return;
     window.gtag("event", "affiliate_click", {
-      affiliate: "rakuten",
+      affiliate,
       link_intent: intent, // "compset" | "preorder"
       item_id: product.id,
       item_name: product.name,
@@ -52,7 +52,7 @@ export default function RakutenLinks({ product, links }) {
         {/* コンプセット（ダブり回避・全種まとめ買い） */}
         {links.compset && (
           <a
-            href={rakutenSearchUrl(links.compset.q)}
+            href={rakutenSearchUrl(links.compset.q, "item_compset")}
             target="_blank"
             rel="nofollow sponsored noopener"
             onClick={() => track("compset", links.compset.q)}
@@ -69,10 +69,28 @@ export default function RakutenLinks({ product, links }) {
           </a>
         )}
 
+        {/* Amazon（AMAZON_ASSOCIATE_TAG 設定後に自動表示） */}
+        {links.compset && amazonSearchUrl(links.compset.q) && (
+          <a
+            href={amazonSearchUrl(links.compset.q)}
+            target="_blank"
+            rel="nofollow sponsored noopener"
+            onClick={() => track("compset", links.compset.q, "amazon")}
+            className="block w-full py-2.5 md:py-3 mt-2 rounded-lg font-sans text-[12px] md:text-sm font-bold text-center no-underline border-2"
+            style={{
+              background: "#FFFFFF",
+              borderColor: "#FF9900",
+              color: "#B45309",
+            }}
+          >
+            📦 Amazonでコンプセットを探す
+          </a>
+        )}
+
         {/* 予約（発売前のみ・検証で在庫確認済み） */}
         {links.preorder && (
           <a
-            href={rakutenSearchUrl(links.preorder.q)}
+            href={rakutenSearchUrl(links.preorder.q, "item_preorder")}
             target="_blank"
             rel="nofollow sponsored noopener"
             onClick={() => track("preorder", links.preorder.q)}

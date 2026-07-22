@@ -10,6 +10,7 @@ import products from "../../../data/products.json";
 import { CHARACTERS, getCharacterBySlug, filterProductsByCharacter } from "../../../data/characters";
 import { getCharacterIntro } from "../../../data/character-intros";
 import CharacterInfo from "../../../components/CharacterInfo";
+import CharacterAffiliateCTA from "../../../components/CharacterAffiliateCTA";
 
 export default function CharacterPage() {
   const { slug } = useParams();
@@ -44,6 +45,8 @@ export default function CharacterPage() {
         <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: `${name}のガチャ` }]} />
 
         <CharacterInfo name={name} items={items} intro={intro} />
+
+        {character && items.length > 0 && <CharacterAffiliateCTA name={name} />}
 
         <div className="font-pixel text-[10px] text-brand-sub mb-2.5 px-1 relative">
           {items.length}けん
