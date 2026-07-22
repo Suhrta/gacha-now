@@ -789,7 +789,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第2週",
     "brand": "アイドリッシュセブン",
-    "types": null
+    "types": 16
   },
   {
     "title": "TVアニメ「黄泉のツガイ」 カプセルラバーマスコット",
@@ -4245,7 +4245,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第3週",
     "brand": "ディズニー",
-    "types": null
+    "types": 4
   },
   {
     "title": "それいけ！アンパンマン ピコピコマスコットNEW３",
@@ -5277,7 +5277,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第4週",
     "brand": "パペットスンスン",
-    "types": 5
+    "types": null
   },
   {
     "title": "ドラえもん めじるしアクセサリー vol.4",
@@ -5566,30 +5566,6 @@
     "releaseWeek": "2026年7月 第4週",
     "brand": "サンリオ",
     "types": 5
-  },
-  {
-    "title": "カードキャプターさくら カメオリボンチャーム",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118187147000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年7月 第4週",
-    "brand": "カードキャプターさくら",
-    "types": 4
   },
   {
     "title": "CANDYCARIES（キャンディーカリエス） めじるしアクセサリー",
@@ -6336,6 +6312,30 @@
     "types": 5
   },
   {
+    "title": "カードキャプターさくら カメオリボンチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118187147000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253557_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年7月 第5週",
+    "brand": "カードキャプターさくら",
+    "types": 4
+  },
+  {
     "title": "サンリオキャラクターズ カラともマスコット",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118205568000",
     "source": "バンダイ公式",
@@ -6720,30 +6720,6 @@
     "types": 5
   },
   {
-    "title": "Lil ala mode なかよしさくらんぼスイング",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026597000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年7月 第5週",
-    "brand": "その他",
-    "types": 6
-  },
-  {
     "title": "【フラットガシャポン】クリアポーチコレクション 仮面ライダー",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770027747000",
     "source": "バンダイ公式",
@@ -6790,6 +6766,30 @@
     "releaseWeek": "2026年7月 第5週",
     "brand": "マインクラフト",
     "types": 6
+  },
+  {
+    "title": "にゃんこ大戦争 ふわふわマスコット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770053845000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年7月 第5週",
+    "brand": "にゃんこ大戦争",
+    "types": 4
   },
   {
     "title": "HG ウルトラマン 新たなる戦い～ヴァージョンアップ・ファイト!～編",
@@ -6864,28 +6864,28 @@
     "types": 4
   },
   {
-    "title": "にゃんこ大戦争 ふわふわマスコット",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770053845000",
+    "title": "Lil ala mode なかよしさくらんぼスイング",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026597000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_1.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251517_12.jpg"
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253531_12.jpg"
     ],
-    "price": 500,
+    "price": 300,
     "releaseWeek": "2026年7月 第5週",
-    "brand": "にゃんこ大戦争",
-    "types": 4
+    "brand": "その他",
+    "types": 6
   },
   {
     "title": "にゃんこ大戦争 めじるしアクセサリー",
@@ -11309,5 +11309,18 @@
     "releaseWeek": "2026年11月 下旬",
     "brand": "その他",
     "types": 4
+  },
+  {
+    "title": "アニメ「ぼっち・ざ・ろっく！」　ぼっちちゃんがいっぱいフィギュアvol.3",
+    "url": "https://capsule.bushiroad-creative.com/product/10092/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/10152317/btr_bocchi_figure_vol3_CP_POP_0701ol_catalog-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/10152317/btr_bocchi_figure_vol3_CP_POP_0701ol_catalog-1280x1280.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年11月 下旬",
+    "brand": "ぼっち・ざ・ろっく",
+    "types": 5
   }
 ]
