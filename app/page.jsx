@@ -7,6 +7,7 @@ import ReceiptPaper from "../components/ReceiptPaper";
 import NewArrivalModal from "../components/NewArrivalModal";
 import Footer from "../components/Footer";
 import FilterTabs from "../components/FilterTabs";
+import InstaCapsule from "../components/InstaCapsule";
 import products from "../data/products.json";
 import { CHARACTERS } from "../data/characters";
 import { SERIES } from "../data/series";
@@ -388,16 +389,20 @@ export default function HomePage() {
                   🎁 シリーズ特集をみる
                   <span>→</span>
                 </Link>
+
+                {/* モバイル: インスタ紹介カプセル */}
+                <InstaCapsule variant="mobile" />
               </div>
             </div>
 
-            {/* 右: ガチャマシン画像（PCのみ・やや中央寄り） */}
-            <div className="hidden md:flex justify-center items-center">
+            {/* 右: ガチャマシン画像（PCのみ・やや中央寄り）+ インスタ紹介カプセル */}
+            <div className="hidden md:flex justify-center items-center relative">
               <img
                 src="/icons/hero-gacha-machine.png"
                 alt="ガチャマシン"
                 className="w-[200px] lg:w-[260px] xl:w-[300px] animate-float pointer-events-none"
               />
+              <InstaCapsule variant="desktop" />
             </div>
           </div>
         </section>
