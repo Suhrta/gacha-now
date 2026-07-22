@@ -320,32 +320,47 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
   // 発売ステータスに合わせてCTA文言を変える（買えるか？という不安に答える）
   const rakutenLabel = getStatus(product) === "upcoming" ? "📅 楽天で予約できるか見る" : "🛒 楽天で在庫を見る";
 
-  // 商品名 + お気に入り☆（モバイルは最上部、デスクトップは右カラムに表示）
-  const nameRow = (
-    <div className="flex items-start gap-2 mb-1.5 md:mb-2">
+  const clampStyle = isPage
+    ? undefined
+    : { display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" };
+
+  const closeBtn = onClose && (
+    <button
+      onClick={close}
+      aria-label="閉じる"
+      className="shrink-0 flex items-center justify-center w-9 h-9 rounded-full border-2 cursor-pointer transition-all duration-150"
+      style={{
+        background: "#FFFFFF",
+        borderColor: "#E8DDD0",
+        color: "#9B8978",
+        fontSize: 15,
+        lineHeight: 1,
+      }}
+    >
+      ✕
+    </button>
+  );
+
+  // モバイル: タイトル横に✕（縦スペース節約）
+  const nameRowMobile = (
+    <div className="flex items-start gap-2 mb-1.5">
+      <div className="flex-1 font-sans text-[13px] font-bold text-brand-text leading-snug" style={clampStyle}>
+        <ProductName name={product.name} />
+      </div>
+      {closeBtn}
+    </div>
+  );
+
+  // PC: ✕を右上の独立行にし、一段下からタイトル（右カラムに余白があるため）
+  const nameRowDesktop = (
+    <div className="mb-2">
+      {closeBtn && <div className="flex justify-end">{closeBtn}</div>}
       <div
-        className="flex-1 font-sans text-[13px] md:text-base font-bold text-brand-text leading-snug"
-        style={isPage ? undefined : { display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}
+        className={`font-sans text-base font-bold text-brand-text leading-snug ${onClose ? "mt-1" : ""}`}
+        style={clampStyle}
       >
         <ProductName name={product.name} />
       </div>
-      {/* 閉じるボタン（モーダル時のみ・常に見える一等地に） */}
-      {onClose && (
-        <button
-          onClick={close}
-          aria-label="閉じる"
-          className="shrink-0 flex items-center justify-center w-9 h-9 rounded-full border-2 cursor-pointer transition-all duration-150"
-          style={{
-            background: "#FFFFFF",
-            borderColor: "#E8DDD0",
-            color: "#9B8978",
-            fontSize: 15,
-            lineHeight: 1,
-          }}
-        >
-          ✕
-        </button>
-      )}
     </div>
   );
 
@@ -355,7 +370,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
 
       <div className="w-full px-4 pt-2 pb-3 md:px-6 md:pt-4 md:pb-4" style={{ background: "#FFFDF8", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
         {/* モバイル: 商品名を最上部に（CTAまでの視線距離を短縮） */}
-        <div className="md:hidden">{nameRow}</div>
+        <div className="md:hidden">{nameRowMobile}</div>
 
         <div className="md:flex md:flex-row md:gap-5">
           {/* 左カラム: 画像 */}
@@ -380,8 +395,8 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
 
           {/* 右カラム: 情報 */}
           <div className="md:flex-1 mt-2 md:mt-0">
-            {/* 商品名 + お気に入り☆（デスクトップ） */}
-            <div className="hidden md:block">{nameRow}</div>
+            {/* 商品名（デスクトップ・✕は上段） */}
+            <div className="hidden md:block">{nameRowDesktop}</div>
 
             {/* 説明文 */}
             {product.description && (
