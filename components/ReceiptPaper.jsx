@@ -329,20 +329,21 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
       >
         <ProductName name={product.name} />
       </div>
-      {onToggleFavorite && (
+      {/* 閉じるボタン（モーダル時のみ・常に見える一等地に） */}
+      {onClose && (
         <button
-          onClick={(e) => { e.stopPropagation(); onToggleFavorite(product.id); }}
-          aria-label={isFavorite ? "お気に入りを解除" : "お気に入りに登録"}
-          title={isFavorite ? "お気に入りを解除" : "お気に入りに登録"}
+          onClick={close}
+          aria-label="閉じる"
           className="shrink-0 flex items-center justify-center w-9 h-9 rounded-full border-2 cursor-pointer transition-all duration-150"
           style={{
-            background: isFavorite ? "#FFF8E7" : "#FFFFFF",
-            borderColor: isFavorite ? "#F5A623" : "#E8DDD0",
-            fontSize: 18,
+            background: "#FFFFFF",
+            borderColor: "#E8DDD0",
+            color: "#9B8978",
+            fontSize: 15,
             lineHeight: 1,
           }}
         >
-          {isFavorite ? "⭐" : "☆"}
+          ✕
         </button>
       )}
     </div>
@@ -418,8 +419,17 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
               </a>
             )}
 
-            {/* 公式サイト・閉じる（最下部の小リンク） */}
+            {/* お気に入り・公式サイト・閉じる（最下部の小リンク） */}
             <div className="flex items-center justify-center gap-6 mt-2.5">
+              {onToggleFavorite && (
+                <button
+                  onClick={(e) => { e.stopPropagation(); onToggleFavorite(product.id); }}
+                  className="bg-transparent border-0 p-0 cursor-pointer font-sans text-[10px] md:text-xs"
+                  style={{ color: isFavorite ? "#D4910A" : "#9B8978" }}
+                >
+                  {isFavorite ? "⭐ お気に入り済み" : "☆ お気に入りに登録"}
+                </button>
+              )}
               {product.sourceUrl && (
                 <a href={product.sourceUrl} target="_blank" rel="noopener noreferrer"
                   className="no-underline font-sans text-[10px] md:text-xs" style={{ color: "#9B8978" }}>

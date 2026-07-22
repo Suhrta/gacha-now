@@ -190,10 +190,15 @@ export default function HomePage() {
   const toggleFavorite = useCallback((productId) => {
     setFavorites((prev) => {
       const next = new Set(prev);
-      if (next.has(productId)) {
-        next.delete(productId);
-      } else {
+      const adding = !next.has(productId);
+      if (adding) {
         next.add(productId);
+      } else {
+        next.delete(productId);
+      }
+      // 利用実態の計測（localStorageのみだと集計不能なため）
+      if (typeof window !== "undefined" && typeof window.gtag === "function") {
+        window.gtag("event", "favorite_toggle", { action: adding ? "add" : "remove", item_id: productId });
       }
       try { localStorage.setItem("gacha-favorites", JSON.stringify([...next])); } catch {}
       return next;
