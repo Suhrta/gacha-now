@@ -474,9 +474,6 @@ export default function HomePage() {
           </Link>
         )}
 
-        <h2 className="text-xl font-bold text-brand-text flex items-center gap-2 mt-4 mb-4 px-1">
-          <span>✨</span> 注目の新作
-        </h2>
         <div className="font-sans text-xs text-brand-sub mb-2.5 px-1 relative">
           {statusTab === "favorites"
             ? `⭐ ${filtered.length}件のお気に入り`
