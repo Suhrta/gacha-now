@@ -20,6 +20,14 @@ const ITEMS_PER_PAGE = 20;
 const AUTO_LOAD_MAX = ITEMS_PER_PAGE * 3; // 60件まで自動、以降は手動
 const RELEASE_MONTHS = getAllReleaseMonths(products);
 
+// 翌月の発売月ページ（存在する場合のみ）。「来月何が出る？」需要への上部導線 + 内部リンク強化
+const NEXT_MONTH = (() => {
+  const now = new Date();
+  const m = now.getMonth() + 2;
+  const ym = `${m > 12 ? now.getFullYear() + 1 : now.getFullYear()}-${String(m > 12 ? m - 12 : m).padStart(2, "0")}`;
+  return RELEASE_MONTHS.includes(ym) ? ym : null;
+})();
+
 const PRIORITY_BRANDS = ["サンリオ", "たまごっち", "ちいかわ", "ポケモン"];
 const FIXED_OTHER = "その他";
 
@@ -434,6 +442,19 @@ export default function HomePage() {
             );
           })}
         </div>
+
+        {/* 翌月の発売月ページへの導線（発売予定チェック需要 + 内部リンク強化） */}
+        {NEXT_MONTH && (
+          <Link
+            href={`/release/${NEXT_MONTH}`}
+            className="flex items-center justify-between gap-2 mt-4 px-4 py-2.5 bg-white border border-cream-border rounded-xl no-underline hover:border-brand-accent transition-colors relative z-10"
+          >
+            <span className="text-sm font-bold text-brand-text">
+              📅 {formatYearMonth(NEXT_MONTH)}発売の新作ガチャガチャ一覧をチェック
+            </span>
+            <span className="text-sm font-bold shrink-0 text-brand-accent">→</span>
+          </Link>
+        )}
 
         <h2 className="text-xl font-bold text-brand-text flex items-center gap-2 mt-4 mb-4 px-1">
           <span>✨</span> 注目の新作
