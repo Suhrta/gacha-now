@@ -5277,7 +5277,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第4週",
     "brand": "パペットスンスン",
-    "types": null
+    "types": 5
   },
   {
     "title": "ドラえもん めじるしアクセサリー vol.4",
@@ -7372,6 +7372,19 @@
     "types": 5
   },
   {
+    "title": "かえるの合唱団♪",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903885",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903885_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903885_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月",
+    "brand": "その他",
+    "types": 7
+  },
+  {
     "title": "ミスター＆ミセス・ポテトヘッド めじるしガチャマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904196",
     "source": "タカラトミーアーツ公式",
@@ -7515,7 +7528,7 @@
     "types": 4
   },
   {
-    "title": "ポケモン根付けマスコット Let's Sing!",
+    "title": "ポケモン根付マスコット Let's Sing!",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903984",
     "source": "タカラトミーアーツ公式",
     "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903984_b.jpg",

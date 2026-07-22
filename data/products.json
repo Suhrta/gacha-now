@@ -1,5 +1,43 @@
 [
   {
+    "id": "gacha-74028854",
+    "name": "かえるの合唱団♪",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903885_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903885_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903885",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-22T09:07:41.584Z"
+  },
+  {
+    "id": "-lets-sing-6c59fcce",
+    "name": "ポケモン根付マスコット Let's Sing!",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "7月 27日週",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903984_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903984_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903984",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-22T09:07:41.584Z"
+  },
+  {
     "id": "-vol3-57cbecb7",
     "name": "アニメ「ぼっち・ざ・ろっく！」　ぼっちちゃんがいっぱいフィギュアvol.3",
     "brand": "ぼっち・ざ・ろっく",
