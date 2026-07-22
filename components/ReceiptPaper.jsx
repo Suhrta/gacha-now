@@ -2,6 +2,11 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import NoImage from "./NoImage";
 import { rakutenSearchUrl, amazonSearchUrl } from "../lib/affiliate";
+import { getStatus } from "../lib/product-status";
+
+// rakuten-links.json はコンプセットバッジ表示にのみ使うため遅延読み込みする
+// （初回レシート表示時に非同期チャンクとして取得。初期バンドルには含めない）
+let rakutenLinksCache = null;
 
 const zigzagTop = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,10 8,0 16,10' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
 const zigzagBottom = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpolygon points='0,0 8,10 16,0' fill='%23FFFDF8'/%3E%3C/svg%3E")`;
@@ -248,10 +253,38 @@ function ImageSwiper({ images, name }) {
 
 export default function ReceiptPaper({ product, onClose, isPage = false, isFavorite = false, onToggleFavorite }) {
   const [show, setShow] = useState(isPage);
+  const [compset, setCompset] = useState(null);
 
   useEffect(() => {
     if (!isPage) requestAnimationFrame(() => setShow(true));
   }, [isPage]);
+
+  // レシート表示を計測（affiliate_click の分母 = CTR算出用）
+  useEffect(() => {
+    if (typeof window === "undefined" || typeof window.gtag !== "function") return;
+    window.gtag("event", "receipt_view", {
+      view_type: isPage ? "page" : "modal",
+      item_id: product.id,
+      item_name: product.name,
+      item_brand: product.brand,
+    });
+  }, [product.id, product.name, product.brand, isPage]);
+
+  // コンプセット取扱バッジ用データ（実在検証済みの rakuten-links.json を遅延取得）
+  useEffect(() => {
+    let cancelled = false;
+    const apply = (data) => {
+      if (!cancelled) setCompset((data && data[product.id] && data[product.id].compset) || null);
+    };
+    if (rakutenLinksCache) {
+      apply(rakutenLinksCache);
+    } else {
+      import("../data/rakuten-links.json")
+        .then((m) => { rakutenLinksCache = m.default || m; apply(rakutenLinksCache); })
+        .catch(() => {});
+    }
+    return () => { cancelled = true; };
+  }, [product.id]);
 
   // モーダル表示中は背景スクロールをロック
   useEffect(() => {
@@ -282,11 +315,46 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
     ? product.images
     : (product.img ? [product.img] : []);
 
+  const placement = isPage ? "receipt_page" : "receipt_modal";
+  // 発売ステータスに合わせてCTA文言を変える（買えるか？という不安に答える）
+  const rakutenLabel = getStatus(product) === "upcoming" ? "📅 楽天で予約できるか見る" : "🛒 楽天で在庫を見る";
+
+  // 商品名 + お気に入り☆（モバイルは最上部、デスクトップは右カラムに表示）
+  const nameRow = (
+    <div className="flex items-start gap-2 mb-1.5 md:mb-2">
+      <div
+        className="flex-1 font-sans text-[13px] md:text-base font-bold text-brand-text leading-snug"
+        style={isPage ? undefined : { display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}
+      >
+        {product.name}
+      </div>
+      {onToggleFavorite && (
+        <button
+          onClick={(e) => { e.stopPropagation(); onToggleFavorite(product.id); }}
+          aria-label={isFavorite ? "お気に入りを解除" : "お気に入りに登録"}
+          title={isFavorite ? "お気に入りを解除" : "お気に入りに登録"}
+          className="shrink-0 flex items-center justify-center w-9 h-9 rounded-full border-2 cursor-pointer transition-all duration-150"
+          style={{
+            background: isFavorite ? "#FFF8E7" : "#FFFFFF",
+            borderColor: isFavorite ? "#F5A623" : "#E8DDD0",
+            fontSize: 18,
+            lineHeight: 1,
+          }}
+        >
+          {isFavorite ? "⭐" : "☆"}
+        </button>
+      )}
+    </div>
+  );
+
   const receiptContent = (
     <>
       <div className="w-full shrink-0" style={{ height: 10, background: zigzagTop, backgroundSize: "16px 10px", backgroundRepeat: "repeat-x" }} />
 
-      <div className="w-full px-4 pt-2 pb-3 md:px-6 md:pt-4 md:pb-6" style={{ background: "#FFFDF8", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
+      <div className="w-full px-4 pt-2 pb-3 md:px-6 md:pt-4 md:pb-4" style={{ background: "#FFFDF8", boxShadow: isPage ? "none" : "0 8px 32px rgba(74,55,40,0.2)", overflowY: "auto" }}>
+        {/* モバイル: 商品名を最上部に（CTAまでの視線距離を短縮） */}
+        <div className="md:hidden">{nameRow}</div>
+
         <div className="md:flex md:flex-row md:gap-5">
           {/* 左カラム: 画像 */}
           <div className="md:w-[300px] lg:w-[360px] md:shrink-0">
@@ -306,37 +374,12 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
               </div>
             )}
 
-            {/* 公式サイトリンク（小さめ・画像の下） */}
-            <a href={product.sourceUrl || "#"} target="_blank" rel="noopener noreferrer"
-              className="flex items-center justify-center gap-1 mt-0.5 mb-1 no-underline font-sans text-[9px] md:text-[11px]"
-              style={{ color: "#9B8978" }}>
-              🔗 公式サイトで詳しく見る
-            </a>
           </div>
 
           {/* 右カラム: 情報 */}
           <div className="md:flex-1 mt-2 md:mt-0">
-            {/* 商品名 */}
-            <div className="mb-1 md:mb-2">
-              <div className="font-sans text-[11px] md:text-base text-brand-text leading-[1.9] md:leading-snug md:font-bold">{product.name}</div>
-            </div>
-
-            {/* お気に入りボタン */}
-            {onToggleFavorite && (
-              <button
-                onClick={(e) => { e.stopPropagation(); onToggleFavorite(product.id); }}
-                className="flex items-center justify-center gap-1.5 w-full py-2 md:py-2.5 mb-2 rounded-lg border-2 cursor-pointer transition-all duration-150"
-                style={{
-                  background: isFavorite ? "#FFF8E7" : "#FFFFFF",
-                  borderColor: isFavorite ? "#F5A623" : "#E8DDD0",
-                }}
-              >
-                <span style={{ fontSize: 22, lineHeight: 1 }}>{isFavorite ? "⭐" : "☆"}</span>
-                <span className="font-sans text-[10px] md:text-sm" style={{ color: isFavorite ? "#D4910A" : "#9B8978" }}>
-                  {isFavorite ? "お気に入り登録済み" : "お気に入り登録"}
-                </span>
-              </button>
-            )}
+            {/* 商品名 + お気に入り☆（デスクトップ） */}
+            <div className="hidden md:block">{nameRow}</div>
 
             {/* 説明文 */}
             {product.description && (
@@ -360,60 +403,69 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
               </div>
             ))}
 
-            {/* 楽天で探すボタン（メインCTA）。計測IDで商品ページ/ポップアップを区別 */}
-            <a href={rakutenSearchUrl(product.name, isPage ? "receipt_page" : "receipt_modal")}
-              target="_blank" rel="nofollow sponsored noopener"
-              onClick={() => trackAffiliateClick("rakuten", isPage ? "receipt_page" : "receipt_modal", product)}
-              className="block w-full py-3 md:py-3.5 mt-2 rounded-lg font-sans text-[12px] md:text-base font-bold text-white text-center no-underline"
-              style={{
-                background: "linear-gradient(135deg, #E60000, #BF0000)",
-                boxShadow: "0 3px 0 #8C0000, 0 4px 12px rgba(191,0,0,0.3)",
-              }}>
-              🛒 楽天市場で探す
-            </a>
-
-            {/* Amazonで探すボタン（AMAZON_ASSOCIATE_TAG 設定後に自動表示） */}
-            {amazonSearchUrl(product.name) && (
-              <a href={amazonSearchUrl(product.name)}
-                target="_blank" rel="nofollow sponsored noopener"
-                onClick={() => trackAffiliateClick("amazon", isPage ? "receipt_page" : "receipt_modal", product)}
-                className="block w-full py-2.5 md:py-3 mt-1.5 rounded-lg font-sans text-[11px] md:text-sm font-bold text-center no-underline border-2"
-                style={{
-                  background: "#FFFFFF",
-                  borderColor: "#FF9900",
-                  color: "#B45309",
-                }}>
-                📦 Amazonで探す
-              </a>
-            )}
-
-            {/* 店舗検索ボタン */}
+            {/* 店舗検索（EC導線より控えめなトーン） */}
             {shopUrl && (
               <a href={shopUrl} target="_blank" rel="noopener noreferrer"
-                className="block w-full py-2.5 md:py-3 mt-1.5 rounded-lg font-sans text-[11px] md:text-sm text-center no-underline border-2"
-                style={{
-                  background: "#FFFFFF",
-                  borderColor: "#5B8C6D",
-                  color: "#5B8C6D",
-                  boxShadow: "0 2px 8px rgba(91,140,109,0.15)",
-                }}>
-                🏪 近くの店舗を探す
+                className="flex flex-col items-center justify-center w-full py-2 mt-2 rounded-lg no-underline font-sans text-[11px] md:text-xs"
+                style={{ background: "#F3F8F4", color: "#5B8C6D" }}>
+                <span>🏪 近くの店舗を探す</span>
                 {product.sourceUrl && product.sourceUrl.includes("takaratomy-arts.co.jp") && (
-                  <div className="font-sans text-[10px] md:text-xs mt-0.5 opacity-70">
+                  <span className="text-[9px] md:text-[10px] mt-0.5 opacity-70">
                     ※ページ内「この商品の取扱店舗」から検索
-                  </div>
+                  </span>
                 )}
               </a>
             )}
 
-            {onClose && (
-              <button onClick={close}
-                className="block w-full py-2 md:py-2.5 mt-1.5 bg-transparent border-2 border-cream-border rounded-lg font-sans text-[10px] md:text-xs text-brand-sub cursor-pointer">
-                ✕ 閉じる
-              </button>
-            )}
+            {/* 公式サイト・閉じる（最下部の小リンク） */}
+            <div className="flex items-center justify-center gap-6 mt-2.5">
+              {product.sourceUrl && (
+                <a href={product.sourceUrl} target="_blank" rel="noopener noreferrer"
+                  className="no-underline font-sans text-[10px] md:text-xs" style={{ color: "#9B8978" }}>
+                  🔗 公式サイト
+                </a>
+              )}
+              {onClose && (
+                <button onClick={close}
+                  className="bg-transparent border-0 p-0 cursor-pointer font-sans text-[10px] md:text-xs text-brand-sub">
+                  ✕ 閉じる
+                </button>
+              )}
+            </div>
           </div>
         </div>
+      </div>
+
+      {/* 購入CTAバー（モーダルではスクロール位置によらず常時表示） */}
+      <div className="w-full shrink-0 px-4 pt-2.5 pb-3 md:px-6" style={{ background: "#FFFDF8", borderTop: "1px dashed #E8DDD0" }}>
+        {compset && (
+          <div className="font-sans text-[10px] md:text-xs font-bold text-center mb-1.5" style={{ color: "#B45309" }}>
+            🎁 ダブりなし{product.types ? `全${product.types}種` : ""}コンプセットの取扱あり
+          </div>
+        )}
+        <a href={rakutenSearchUrl(product.name, placement)}
+          target="_blank" rel="nofollow sponsored noopener"
+          onClick={() => trackAffiliateClick("rakuten", placement, product)}
+          className="block w-full py-3 md:py-3.5 rounded-lg font-sans text-[13px] md:text-base font-bold text-white text-center no-underline"
+          style={{
+            background: "linear-gradient(135deg, #E60000, #BF0000)",
+            boxShadow: "0 3px 0 #8C0000, 0 4px 12px rgba(191,0,0,0.3)",
+          }}>
+          {rakutenLabel}
+        </a>
+        {amazonSearchUrl(product.name) && (
+          <a href={amazonSearchUrl(product.name)}
+            target="_blank" rel="nofollow sponsored noopener"
+            onClick={() => trackAffiliateClick("amazon", placement, product)}
+            className="block w-full py-2.5 md:py-3 mt-1.5 rounded-lg font-sans text-[11px] md:text-sm font-bold text-center no-underline border-2"
+            style={{
+              background: "#FFFFFF",
+              borderColor: "#FF9900",
+              color: "#B45309",
+            }}>
+            📦 Amazonで探す
+          </a>
+        )}
       </div>
 
       <div className="w-full shrink-0" style={{ height: 10, background: zigzagBottom, backgroundSize: "16px 10px", backgroundRepeat: "repeat-x" }} />
