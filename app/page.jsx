@@ -396,13 +396,16 @@ export default function HomePage() {
             </div>
 
             {/* 右: ガチャマシン画像（PCのみ・やや中央寄り）+ インスタ紹介カプセル */}
-            <div className="hidden md:flex justify-center items-center relative">
-              <img
-                src="/icons/hero-gacha-machine.png"
-                alt="ガチャマシン"
-                className="w-[200px] lg:w-[260px] xl:w-[300px] animate-float pointer-events-none"
-              />
-              <InstaCapsule variant="desktop" />
+            <div className="hidden md:flex justify-center items-center">
+              {/* カプセルは筐体画像基準(%)で配置するため、画像サイズのラッパーに relative を張る */}
+              <div className="relative">
+                <img
+                  src="/icons/hero-gacha-machine.png"
+                  alt="ガチャマシン"
+                  className="w-[200px] lg:w-[260px] xl:w-[300px] animate-float pointer-events-none"
+                />
+                <InstaCapsule variant="desktop" />
+              </div>
             </div>
           </div>
         </section>

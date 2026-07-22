@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { IG_URL, trackSnsFollow } from "./InstaCapsule";
+import { IG_URL, trackSnsFollow, InstaIcon } from "./InstaCapsule";
 
 export default function Footer() {
   return (
@@ -31,9 +31,9 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => trackSnsFollow("footer")}
-            className="text-xs text-brand-sub hover:text-brand-text transition-colors no-underline"
+            className="inline-flex items-center gap-1 text-xs text-brand-sub hover:text-brand-text transition-colors no-underline"
           >
-            📸 Instagram
+            <InstaIcon size={13} /> Instagram
           </a>
         </nav>
       </div>
