@@ -1269,7 +1269,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第3週",
     "brand": "ケロロ軍曹",
-    "types": 8
+    "types": null
   },
   {
     "title": "東宝怪獣 ゴジラまちぼうけ デフォルメの場合",
@@ -6309,7 +6309,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第5週",
     "brand": "しまじろう",
-    "types": 5
+    "types": null
   },
   {
     "title": "カードキャプターさくら カメオリボンチャーム",
