@@ -25,6 +25,9 @@ export const CHARACTERS = [
   { slug: "jewelpet", name: "ジュエルペット", pattern: "ジュエルペット" },
   { slug: "twisted-wonderland", name: "ツイステッドワンダーランド", pattern: "ツイステ" },
   { slug: "star-wars", name: "スター・ウォーズ", pattern: "スター・?ウォーズ|グローグー|マンダロリアン" },
+  { slug: "tensura", name: "転スラ", pattern: "転生したらスライム|転スラ" },
+  { slug: "haikyu", name: "ハイキュー!!", pattern: "ハイキュー" },
+  { slug: "dragon-quest", name: "ドラゴンクエスト", pattern: "ドラゴンクエスト|ドラクエ" },
 ];
 
 export function getCharacterBySlug(slug) {
