@@ -455,7 +455,9 @@ export default function HomePage() {
             className="flex items-center justify-between gap-2 mt-4 px-4 py-2.5 bg-white border border-cream-border rounded-xl no-underline hover:border-brand-accent transition-colors relative z-10"
           >
             <span className="text-sm font-bold text-brand-text">
-              📅 {formatYearMonth(NEXT_MONTH)}発売の新作ガチャガチャ一覧をチェック
+              📅{" "}
+              <span className="md:hidden">{Number(NEXT_MONTH.split("-")[1])}月発売の新作ガチャガチャをチェック</span>
+              <span className="hidden md:inline">{formatYearMonth(NEXT_MONTH)}発売の新作ガチャガチャ一覧をチェック</span>
             </span>
             <span className="text-sm font-bold shrink-0 text-brand-accent">→</span>
           </Link>
