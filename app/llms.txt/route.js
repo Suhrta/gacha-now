@@ -10,6 +10,21 @@ export const dynamic = "force-static";
 
 const BASE = "https://gacha-now.net";
 
+// 掲載2件以上のブランド(=作品/メーカー)ハブを商品数順に。GSCで転スラ・ハイキュー等の
+// brandページが上位流入源になっているため、AIクローラにも明示する
+function topBrands() {
+  const counts = {};
+  for (const p of products) {
+    if (!p.brandSlug || p.brand === "その他") continue;
+    counts[p.brandSlug] = counts[p.brandSlug] || { slug: p.brandSlug, name: p.brand, n: 0 };
+    counts[p.brandSlug].n += 1;
+  }
+  return Object.values(counts)
+    .filter((b) => b.n >= 2)
+    .sort((a, b) => b.n - a.n)
+    .slice(0, 20);
+}
+
 export function GET() {
   const months = getAllReleaseMonths(products).sort().reverse().slice(0, 4);
   const guides = blogPosts.filter((p) => p.evergreen);
@@ -30,6 +45,10 @@ export function GET() {
     "## キャラクター別 新作ガチャ一覧",
     "",
     ...CHARACTERS.map((c) => `- [${c.name}のガチャガチャ新作](${BASE}/character/${c.slug})`),
+    "",
+    "## 作品・メーカー別 新作ガチャ一覧",
+    "",
+    ...topBrands().map((b) => `- [${b.name}のガチャガチャ新作一覧](${BASE}/brand/${b.slug})`),
     "",
     "## シリーズ特集",
     "",
