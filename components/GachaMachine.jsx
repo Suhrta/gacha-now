@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import NoImage from "./NoImage";
+import ProductName from "./ProductName";
 
 export default function GachaMachine({ product, index, onClick, isFavorite = false }) {
   const [vis, setVis] = useState(false);
@@ -102,7 +103,7 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
         {/* 商品名 */}
         <div className="px-2 pt-1.5 pointer-events-none" style={{ minHeight: 36 }}>
           <div className="font-sans text-xs text-brand-text text-center leading-[1.7] line-clamp-2">
-            {product.name}
+            <ProductName name={product.name} />
           </div>
         </div>
 

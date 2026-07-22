@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReceiptPaper from "../../../components/ReceiptPaper";
 import RakutenLinks from "../../../components/RakutenLinks";
+import ProductName from "../../../components/ProductName";
 import ProductThumb from "../../../components/ProductThumb";
 import Breadcrumb from "../../../components/Breadcrumb";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
@@ -133,7 +134,7 @@ export default function ItemPage({ params }) {
                   />
                 )}
                 <div className="text-xs font-bold text-brand-text leading-snug mt-2 line-clamp-2">
-                  {p.name}
+                  <ProductName name={p.name} />
                 </div>
                 <div className="text-[10px] text-brand-sub mt-1">
                   ¥{p.price}{p.types ? `・全${p.types}種` : ""}

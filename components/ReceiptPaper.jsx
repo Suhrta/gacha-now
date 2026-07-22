@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import NoImage from "./NoImage";
 import { rakutenSearchUrl, amazonSearchUrl } from "../lib/affiliate";
 import { getStatus } from "../lib/product-status";
+import ProductName from "./ProductName";
 
 // rakuten-links.json はコンプセットバッジ表示にのみ使うため遅延読み込みする
 // （初回レシート表示時に非同期チャンクとして取得。初期バンドルには含めない）
@@ -326,7 +327,7 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
         className="flex-1 font-sans text-[13px] md:text-base font-bold text-brand-text leading-snug"
         style={isPage ? undefined : { display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}
       >
-        {product.name}
+        <ProductName name={product.name} />
       </div>
       {onToggleFavorite && (
         <button
