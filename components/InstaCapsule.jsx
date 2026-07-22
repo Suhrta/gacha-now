@@ -114,7 +114,7 @@ export default function InstaCapsule({ variant }) {
           />
         </div>
         <div className="animate-float">
-          <OpenCapsule size={76} />
+          <OpenCapsule size={62} />
         </div>
       </a>
     );

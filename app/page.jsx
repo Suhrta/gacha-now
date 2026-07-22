@@ -286,7 +286,7 @@ export default function HomePage() {
       >
         {/* ヒーローセクション */}
         <section
-          className="rounded-3xl p-5 md:p-10 relative overflow-hidden"
+          className="rounded-3xl p-5 md:px-10 md:pt-8 md:pb-6 relative overflow-hidden"
           style={{ background: "linear-gradient(135deg, #FFF9F5 0%, #FFFFFF 40%, #F8FAFE 100%)" }}
         >
           {/* 装飾スパークル */}
@@ -420,7 +420,7 @@ export default function HomePage() {
                 <img
                   src="/icons/hero-gacha-machine.png"
                   alt="ガチャマシン"
-                  className="w-[200px] lg:w-[260px] xl:w-[300px] animate-float pointer-events-none"
+                  className="w-[150px] lg:w-[190px] xl:w-[210px] animate-float pointer-events-none"
                 />
                 <InstaCapsule variant="desktop" />
               </div>
@@ -429,7 +429,7 @@ export default function HomePage() {
         </section>
 
         {/* ブランドフィルター */}
-        <div className="mt-6 px-1">
+        <div className="mt-3 px-1">
           <FilterTabs brands={BRANDS} selected={brand} onSelect={setBrand} />
         </div>
 
