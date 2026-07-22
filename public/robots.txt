@@ -1,6 +1,32 @@
 User-agent: *
 Allow: /
 
+# AI検索・LLMクローラを明示的に許可（LLMO対策）。
+# AIの回答にソースとして引用されることを歓迎する。サイト概要は /llms.txt を参照。
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 # 正規ドメインを指すこと。以前は gacha-now.vercel.app を指しており、
 # robots.txt を読む gacha-now.net から見て別ドメインの申告になっていた
 # （別ドメインのサイトマップ宣言は検索エンジンに無視されることがある）
