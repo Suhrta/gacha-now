@@ -13,9 +13,9 @@ import { SERIES } from "../data/series";
 import { getAllReleaseMonths, formatYearMonth, getReleaseYearMonth } from "../lib/release";
 
 const ITEMS_PER_PAGE = 20;
-// 自動読み込みは最初の数バッチまで。それ以降は「もっと見る」ボタンに切り替え、
-// 下部のキャラ・メーカー・発売月ナビへ到達できるようにする
-const AUTO_LOAD_MAX = ITEMS_PER_PAGE * 3; // 60件まで自動、以降は手動
+// 一覧に一度に並べる件数。以降は「もっと見る」ボタンでのみ増やす
+// トップに出す導線チップの件数。残りは各一覧ページ側が持つ
+const DISCOVERY_PREVIEW = 12;
 const RELEASE_MONTHS = getAllReleaseMonths(products);
 
 // 翌月の発売月ページ（存在する場合のみ）。「来月何が出る？」需要への上部導線 + 内部リンク強化
@@ -56,6 +56,36 @@ const BRAND_LINKS = Object.values(
 )
   .filter((b) => b.count >= 2)
   .sort((a, b) => b.count - a.count);
+
+// トップ下部の探索導線。各カテゴリは上位 DISCOVERY_PREVIEW 件だけ出し、
+// 全件は一覧ページ（/character・/release・/brand・/series）へ送る。
+// 全件並べるとブランドだけで79件になり、スマホで2〜3画面分がチップで埋まる。
+const DISCOVERY = [
+  {
+    icon: "\ud83d\udd0e",
+    title: "キャラ・テーマから探す",
+    href: "/character",
+    items: CHARACTERS.map((c) => ({ href: `/character/${c.slug}`, label: `#${c.name}` })),
+  },
+  {
+    icon: "\ud83d\udcc5",
+    title: "発売月から探す",
+    href: "/release",
+    items: RELEASE_MONTHS.map((m) => ({ href: `/release/${m}`, label: `${formatYearMonth(m)}発売` })),
+  },
+  {
+    icon: "\ud83c\udfed",
+    title: "メーカー・ブランドから探す",
+    href: "/brand",
+    items: BRAND_LINKS.map((b) => ({ href: `/brand/${b.slug}`, label: b.name })),
+  },
+  {
+    icon: "\ud83c\udf81",
+    title: "シリーズから探す",
+    href: "/series",
+    items: SERIES.map((sr) => ({ href: `/series/${sr.slug}`, label: sr.name })),
+  },
+];
 
 function getLiveCounts() {
   let available = 0;
@@ -166,10 +196,8 @@ export default function HomePage() {
   const [statusTab, setStatusTab] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
-  const [loading, setLoading] = useState(false);
   const [favorites, setFavorites] = useState(new Set());
   const heroSearchRef = useRef(null);
-  const loaderRef = useRef(null);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
 
@@ -219,23 +247,6 @@ export default function HomePage() {
     setVisibleCount(ITEMS_PER_PAGE);
     window.scrollTo(0, 0);
   }, [brand, statusTab, searchQuery]);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting && !loading) {
-          setLoading(true);
-          setTimeout(() => {
-            setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
-            setLoading(false);
-          }, 1400);
-        }
-      },
-      { threshold: 0.1 }
-    );
-    if (loaderRef.current) observer.observe(loaderRef.current);
-    return () => observer.disconnect();
-  }, [brand, statusTab, searchQuery, loading]);
 
   const handleTouchStart = (e) => {
     touchStartX.current = e.touches[0].clientX;
@@ -471,26 +482,14 @@ export default function HomePage() {
           ))}
         </div>
 
-        {/* 60件までは自動読み込み（スクロール検知） */}
-        {hasMore && visibleCount < AUTO_LOAD_MAX && (
-          <div ref={loaderRef} className="flex flex-col items-center py-6 gap-2">
-            <div className="flex gap-3">
-              <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0s", color: "#F5A8A2" }}>●</span>
-              <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.15s", color: "#A8D8EA" }}>●</span>
-              <span style={{ fontSize: 24, animation: "bounce 0.6s ease-in-out infinite", animationDelay: "0.3s", color: "#F9E4B7" }}>●</span>
-            </div>
-            <div className="font-sans text-sm text-brand-sub" style={{ animation: "pulse 1.5s ease-in-out infinite" }}>
-              Loading...
-            </div>
-          </div>
-        )}
-
-        {/* 60件以降は手動ボタン（自動で下に伸び続けるのを止め、下部ナビへ到達できるように） */}
-        {hasMore && visibleCount >= AUTO_LOAD_MAX && (
+        {/* 読み込みは常に手動。スクロールで自動的に伸ばすと一覧が下へ流れ続け、
+            この下のキャラ・メーカー・シリーズ導線に永久に到達できなくなるため */}
+        {hasMore && (
           <div className="flex justify-center py-6">
             <button
-              onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE * 2)}
-              className="px-6 py-2.5 bg-white border border-cream-border rounded-full text-sm font-bold text-brand-text hover:border-brand-accent transition-colors cursor-pointer"
+              onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE)}
+              className="px-6 py-3 bg-white border-2 border-cream-border rounded-full text-sm font-bold text-brand-text hover:border-brand-accent transition-colors cursor-pointer"
+              style={{ boxShadow: "0 3px 0 #E8DDD0" }}
             >
               もっと見る（残り{filtered.length - visibleCount}件）
             </button>
@@ -509,67 +508,35 @@ export default function HomePage() {
           </div>
         )}
 
-        {/* キャラ・発売月別ページへの導線 */}
+        {/* キャラ・発売月・ブランド・シリーズへの導線。
+            各カテゴリは先頭 DISCOVERY_PREVIEW 件だけ出し、残りは一覧ページへ送る */}
         <section className="mt-12 px-1">
-          <h2 className="text-xl font-bold text-brand-text flex items-center gap-2 mb-3">
-            <span>🔎</span> キャラ・テーマから探す
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {CHARACTERS.map((c) => (
-              <Link
-                key={c.slug}
-                href={`/character/${c.slug}`}
-                className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
-              >
-                #{c.name}
-              </Link>
-            ))}
-          </div>
-
-          <h2 className="text-xl font-bold text-brand-text flex items-center gap-2 mt-6 mb-3">
-            <span>📅</span> 発売月から探す
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {RELEASE_MONTHS.map((m) => (
-              <Link
-                key={m}
-                href={`/release/${m}`}
-                className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
-              >
-                {formatYearMonth(m)}発売
-              </Link>
-            ))}
-          </div>
-
-          <h2 className="text-xl font-bold text-brand-text flex items-center gap-2 mt-6 mb-3">
-            <span>🏭</span> メーカー・ブランドから探す
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {BRAND_LINKS.map((b) => (
-              <Link
-                key={b.slug}
-                href={`/brand/${b.slug}`}
-                className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
-              >
-                {b.name}
-              </Link>
-            ))}
-          </div>
-
-          <h2 className="text-xl font-bold text-brand-text flex items-center gap-2 mt-6 mb-3">
-            <span>🎁</span> シリーズから探す
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {SERIES.map((s) => (
-              <Link
-                key={s.slug}
-                href={`/series/${s.slug}`}
-                className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
-              >
-                {s.name}
-              </Link>
-            ))}
-          </div>
+          {DISCOVERY.map((d) => (
+            <div key={d.href} className="mt-6 first:mt-0">
+              <div className="flex items-baseline justify-between gap-2 mb-3">
+                <h2 className="text-lg md:text-xl font-bold text-brand-text flex items-center gap-2">
+                  <span>{d.icon}</span> {d.title}
+                </h2>
+                <Link
+                  href={d.href}
+                  className="text-xs text-brand-accent font-bold no-underline shrink-0 hover:underline"
+                >
+                  すべて見る（{d.items.length}）→
+                </Link>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {d.items.slice(0, DISCOVERY_PREVIEW).map((it) => (
+                  <Link
+                    key={it.href}
+                    href={it.href}
+                    className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
+                  >
+                    {it.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ))}
         </section>
 
       </main>

@@ -76,7 +76,12 @@ export default function sitemap() {
     { url: `${BASE_URL}/contact`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
     { url: `${BASE_URL}/privacy`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.2 },
     { url: `${BASE_URL}/blog`, lastModified: new Date(), changeFrequency: "daily", priority: 0.8 },
+    // 探索の入口となる一覧ページ。トップから全件のリンクを外した分、
+    // ここが brand/character/release 各ページへの主要な内部リンク元になる
     { url: `${BASE_URL}/series`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.5 },
+    { url: `${BASE_URL}/character`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.5 },
+    { url: `${BASE_URL}/brand`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.5 },
+    { url: `${BASE_URL}/release`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.5 },
     ...blogPages,
     ...seriesPages,
     ...productPages,
