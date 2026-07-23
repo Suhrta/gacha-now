@@ -1,5 +1,43 @@
 [
   {
+    "id": "gacha-4ba96475",
+    "name": "パンダの穴 もちばけ 結ノ巻",
+    "brand": "パンダの穴",
+    "brandSlug": "pandanoana",
+    "price": 300,
+    "types": null,
+    "releaseWeek": "7月 27日週",
+    "color": "#90A4AE",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908989_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908989_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908989",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-23T23:55:30.878Z"
+  },
+  {
+    "id": "gacha-31bfaece",
+    "name": "パンダの穴 トリピカルズみっくす",
+    "brand": "パンダの穴",
+    "brandSlug": "pandanoana",
+    "price": 200,
+    "types": null,
+    "releaseWeek": "7月 27日週",
+    "color": "#90A4AE",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908996_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908996_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908996",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-23T23:55:30.878Z"
+  },
+  {
     "id": "bt21--22e07d92",
     "name": "BT21 ぬいぐるみクリップ",
     "brand": "その他",
