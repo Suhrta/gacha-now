@@ -12,8 +12,9 @@ import { CHARACTERS } from "../data/characters";
 import { SERIES } from "../data/series";
 import { getAllReleaseMonths, formatYearMonth, getReleaseYearMonth } from "../lib/release";
 
-const ITEMS_PER_PAGE = 20;
-// 一覧に一度に並べる件数。以降は「もっと見る」ボタンでのみ増やす
+// 1ページの表示件数。グリッドは 2/3/4/6 列に変化するので、
+// どの段でも行が埋まるよう 24 の倍数に揃えている
+const ITEMS_PER_PAGE = 24;
 // トップに出す導線チップの件数。残りは各一覧ページ側が持つ
 const DISCOVERY_PREVIEW = 12;
 const RELEASE_MONTHS = getAllReleaseMonths(products);
@@ -195,7 +196,7 @@ export default function HomePage() {
   const [selected, setSelected] = useState(null);
   const [statusTab, setStatusTab] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
-  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
+  const [page, setPage] = useState(1);
   const [favorites, setFavorites] = useState(new Set());
   const heroSearchRef = useRef(null);
   const touchStartX = useRef(0);
@@ -244,7 +245,7 @@ export default function HomePage() {
   }, []);
 
   useEffect(() => {
-    setVisibleCount(ITEMS_PER_PAGE);
+    setPage(1);
     window.scrollTo(0, 0);
   }, [brand, statusTab, searchQuery]);
 
@@ -283,8 +284,16 @@ export default function HomePage() {
   const hasUpcoming = products.some((p) => getStatus(p) === "upcoming");
   const visibleTabs = hasUpcoming ? STATUS_TABS : STATUS_TABS.filter((t) => t.key !== "upcoming");
 
-  const visible = filtered.slice(0, visibleCount);
-  const hasMore = visibleCount < filtered.length;
+  const totalPages = Math.max(1, Math.ceil(filtered.length / ITEMS_PER_PAGE));
+  // フィルタで件数が減ったとき、現在ページが範囲外にならないようにする
+  const currentPage = Math.min(page, totalPages);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const visible = filtered.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+
+  const goToPage = (next) => {
+    setPage(Math.min(Math.max(next, 1), totalPages));
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <>
@@ -482,18 +491,34 @@ export default function HomePage() {
           ))}
         </div>
 
-        {/* 読み込みは常に手動。スクロールで自動的に伸ばすと一覧が下へ流れ続け、
-            この下のキャラ・メーカー・シリーズ導線に永久に到達できなくなるため */}
-        {hasMore && (
-          <div className="flex justify-center py-6">
-            <button
-              onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE)}
-              className="px-6 py-3 bg-white border-2 border-cream-border rounded-full text-sm font-bold text-brand-text hover:border-brand-accent transition-colors cursor-pointer"
-              style={{ boxShadow: "0 3px 0 #E8DDD0" }}
-            >
-              もっと見る（残り{filtered.length - visibleCount}件）
-            </button>
-          </div>
+        {/* ページ送り。件数を足していく方式だと一覧が下へ伸び続け、
+            この下のキャラ・メーカー・シリーズ導線が遠ざかっていくため、
+            1ページの高さを一定に保つ */}
+        {totalPages > 1 && (
+          <nav className="flex flex-col items-center gap-2 py-6" aria-label="ページ送り">
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => goToPage(currentPage - 1)}
+                disabled={currentPage === 1}
+                className="px-4 py-2.5 bg-white border-2 border-cream-border rounded-full text-sm font-bold text-brand-text disabled:opacity-40 disabled:cursor-default enabled:hover:border-brand-accent enabled:cursor-pointer transition-colors"
+              >
+                ← 前
+              </button>
+              <span className="font-sans text-sm font-bold text-brand-text tabular-nums px-2">
+                {currentPage} / {totalPages}
+              </span>
+              <button
+                onClick={() => goToPage(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                className="px-4 py-2.5 bg-white border-2 border-cream-border rounded-full text-sm font-bold text-brand-text disabled:opacity-40 disabled:cursor-default enabled:hover:border-brand-accent enabled:cursor-pointer transition-colors"
+              >
+                次 →
+              </button>
+            </div>
+            <div className="font-sans text-[11px] text-brand-sub tabular-nums">
+              {startIndex + 1}〜{startIndex + visible.length}件目 / 全{filtered.length}件
+            </div>
+          </nav>
         )}
 
         {filtered.length === 0 && (
