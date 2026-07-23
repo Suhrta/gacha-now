@@ -13,8 +13,13 @@ import { SERIES } from "../data/series";
 import { getAllReleaseMonths, formatYearMonth, getReleaseYearMonth } from "../lib/release";
 
 // 1ページの表示件数。グリッドは 2/3/4/6 列に変化するので、
-// どの段でも行が埋まるよう 24 の倍数に揃えている
+// どの段でも行が埋まるよう 12 の倍数に揃えている（5列のときだけ端数が出る）。
+// スマホは2列なので24件だと12行=約4.4画面ぶんになり、下の導線が遠すぎる。
+// 12件（6行=約2.2画面）に落とす。
 const ITEMS_PER_PAGE = 24;
+const ITEMS_PER_PAGE_MOBILE = 12;
+// グリッドが2列から3列に変わる境界（Tailwind の md）
+const DESKTOP_QUERY = "(min-width: 768px)";
 // トップに出す導線チップの件数。残りは各一覧ページ側が持つ
 const DISCOVERY_PREVIEW = 12;
 const RELEASE_MONTHS = getAllReleaseMonths(products);
@@ -197,6 +202,9 @@ export default function HomePage() {
   const [statusTab, setStatusTab] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
   const [page, setPage] = useState(1);
+  // SSGのHTMLはデスクトップ件数で生成されるため、初期値を合わせてハイドレーション
+  // 不一致を避ける。スマホでは描画後に12件へ絞る（13件目以降は画面外なので目立たない）
+  const [perPage, setPerPage] = useState(ITEMS_PER_PAGE);
   const [favorites, setFavorites] = useState(new Set());
   const heroSearchRef = useRef(null);
   const touchStartX = useRef(0);
@@ -245,6 +253,14 @@ export default function HomePage() {
   }, []);
 
   useEffect(() => {
+    const mq = window.matchMedia(DESKTOP_QUERY);
+    const apply = () => setPerPage(mq.matches ? ITEMS_PER_PAGE : ITEMS_PER_PAGE_MOBILE);
+    apply();
+    mq.addEventListener("change", apply);
+    return () => mq.removeEventListener("change", apply);
+  }, []);
+
+  useEffect(() => {
     setPage(1);
     window.scrollTo(0, 0);
   }, [brand, statusTab, searchQuery]);
@@ -284,11 +300,11 @@ export default function HomePage() {
   const hasUpcoming = products.some((p) => getStatus(p) === "upcoming");
   const visibleTabs = hasUpcoming ? STATUS_TABS : STATUS_TABS.filter((t) => t.key !== "upcoming");
 
-  const totalPages = Math.max(1, Math.ceil(filtered.length / ITEMS_PER_PAGE));
+  const totalPages = Math.max(1, Math.ceil(filtered.length / perPage));
   // フィルタで件数が減ったとき、現在ページが範囲外にならないようにする
   const currentPage = Math.min(page, totalPages);
-  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const visible = filtered.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * perPage;
+  const visible = filtered.slice(startIndex, startIndex + perPage);
 
   const goToPage = (next) => {
     setPage(Math.min(Math.max(next, 1), totalPages));
