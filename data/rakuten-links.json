@@ -5042,5 +5042,65 @@
       "q": "サンリオキャラクターズ なかよしドロップチャーム 予約",
       "count": 3
     }
+  },
+  "bt21--22e07d92": {
+    "sig": "BT21 ぬいぐるみクリップ|7|r",
+    "checkedAt": 1784786313296,
+    "compset": {
+      "q": "ぬいぐるみクリップ ガチャ コンプ",
+      "count": 22
+    }
+  },
+  "fig-vol1-2b0a36b7": {
+    "sig": "肩ズンFig. カラフルピーチ vol.1|5|r",
+    "checkedAt": 1784786313296,
+    "compset": {
+      "q": "肩ズンFig. ガチャ コンプ",
+      "count": 212
+    }
+  },
+  "fig-vol2-20a81c10": {
+    "sig": "肩ズンFig.  カラフルピーチ vol.2|6|r",
+    "checkedAt": 1784786313296,
+    "compset": {
+      "q": "肩ズンFig. ガチャ コンプ",
+      "count": 212
+    }
+  },
+  "gacha-30170715": {
+    "sig": "ディズニーキャラクター ぷかぷかフロートタイム|4|r",
+    "checkedAt": 1784786313296,
+    "compset": {
+      "q": "ディズニー ガチャ コンプ",
+      "count": 381
+    }
+  },
+  "gacha-35ead48c": {
+    "sig": "トイ・ストーリー５　ファッションリング|8|p",
+    "checkedAt": 1784786313296,
+    "compset": {
+      "q": "ディズニー ガチャ コンプ",
+      "count": 381
+    },
+    "preorder": {
+      "q": "ディズニー ガチャ 予約",
+      "count": 40
+    }
+  },
+  "gacha-55b5bb3a": {
+    "sig": "北海道日本ハムファイターズ 歴代ヘルメットコレクション|6|r",
+    "checkedAt": 1784786313296
+  },
+  "needy-girl-overdose-rich-6a32ea8b": {
+    "sig": "NEEDY GIRL OVERDOSE　コレクションフィギュアRICH|6|p",
+    "checkedAt": 1784786313296,
+    "compset": {
+      "q": "コレクションフィギュアRICH ガチャ コンプ",
+      "count": 77
+    },
+    "preorder": {
+      "q": "コレクションフィギュアRICH ガチャ 予約",
+      "count": 30
+    }
   }
 }

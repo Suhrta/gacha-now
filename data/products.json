@@ -1,5 +1,149 @@
 [
   {
+    "id": "bt21--22e07d92",
+    "name": "BT21 ぬいぐるみクリップ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 7,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927508000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-07-23T05:58:30.961Z"
+  },
+  {
+    "id": "fig-vol1-2b0a36b7",
+    "name": "肩ズンFig. カラフルピーチ vol.1",
+    "brand": "カラフルピーチ",
+    "brandSlug": "colorfulpeach",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#99e5da",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y094729_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y094729_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y094729",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-23T05:58:30.962Z"
+  },
+  {
+    "id": "fig-vol2-20a81c10",
+    "name": "肩ズンFig.  カラフルピーチ vol.2",
+    "brand": "カラフルピーチ",
+    "brandSlug": "colorfulpeach",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "発売中",
+    "color": "#99e5da",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901065_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901065_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901065",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-23T05:58:30.962Z"
+  },
+  {
+    "id": "gacha-30170715",
+    "name": "ディズニーキャラクター ぷかぷかフロートタイム",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903410_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903410_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903410",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-23T05:58:30.962Z"
+  },
+  {
+    "id": "gacha-35ead48c",
+    "name": "トイ・ストーリー５　ファッションリング",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 300,
+    "types": 8,
+    "releaseWeek": "7月 27日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904790_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904790_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904790",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-23T05:58:30.962Z"
+  },
+  {
+    "id": "gacha-55b5bb3a",
+    "name": "北海道日本ハムファイターズ 歴代ヘルメットコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/07/NH_hel_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/07/NH_hel_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/hnf_helmet/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-07-23T05:58:30.963Z"
+  },
+  {
+    "id": "needy-girl-overdose-rich-6a32ea8b",
+    "name": "NEEDY GIRL OVERDOSE　コレクションフィギュアRICH",
+    "brand": "NEEDY GIRL OVERDOSE",
+    "brandSlug": "needygirl",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "11月 下旬",
+    "color": "#e0e599",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/23095038/260722_NGO_%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2RICH_BCR_CP_POP.gif",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/23095038/260722_NGO_%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2RICH_BCR_CP_POP.gif"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10121/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-07-23T05:58:30.963Z"
+  },
+  {
     "id": "gacha-5cf89d6f",
     "name": "サンリオキャラクターズ なかよしドロップチャーム",
     "brand": "サンリオ",

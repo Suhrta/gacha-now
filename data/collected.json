@@ -3285,7 +3285,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "BANANA FISH まちぼうけ",
@@ -5760,6 +5760,30 @@
     "types": 5
   },
   {
+    "title": "BT21 ぬいぐるみクリップ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769927508000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253597_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年7月 第4週",
+    "brand": "その他",
+    "types": 7
+  },
+  {
     "title": "たまごっち ぷにぷにし隊",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769928468000",
     "source": "バンダイ公式",
@@ -7112,6 +7136,19 @@
     "types": 4
   },
   {
+    "title": "肩ズンFig. カラフルピーチ vol.1",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y094729",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y094729_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y094729_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年7月 13日週",
+    "brand": "カラフルピーチ",
+    "types": 5
+  },
+  {
     "title": "映画 すみっコぐらし 空の王国とふたりのコ めじるしガチャマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099762",
     "source": "タカラトミーアーツ公式",
@@ -7123,6 +7160,19 @@
     "releaseWeek": "2026年7月 13日週",
     "brand": "すみっコぐらし",
     "types": 4
+  },
+  {
+    "title": "肩ズンFig.  カラフルピーチ vol.2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901065",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901065_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901065_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年7月 13日週",
+    "brand": "カラフルピーチ",
+    "types": 6
   },
   {
     "title": "おいんぼいん　ふわふわてんしちゃん めじるしガチャマスコット",
@@ -7356,6 +7406,19 @@
     "price": 400,
     "releaseWeek": "2026年7月",
     "brand": "きかんしゃトーマス",
+    "types": 4
+  },
+  {
+    "title": "ディズニーキャラクター ぷかぷかフロートタイム",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903410",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903410_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903410_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月",
+    "brand": "ディズニー",
     "types": 4
   },
   {
@@ -7604,6 +7667,19 @@
     "releaseWeek": "2026年7月 27日週",
     "brand": "トランスフォーマー",
     "types": 4
+  },
+  {
+    "title": "トイ・ストーリー５　ファッションリング",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904790",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904790_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904790_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 27日週",
+    "brand": "ディズニー",
+    "types": 8
   },
   {
     "title": "サメ日和 めじるしガチャマスコット",
@@ -10856,6 +10932,19 @@
     "types": 5
   },
   {
+    "title": "北海道日本ハムファイターズ 歴代ヘルメットコレクション",
+    "url": "https://kitan.jp/products/hnf_helmet/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/07/NH_hel_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/07/NH_hel_DP.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月 中旬",
+    "brand": "その他",
+    "types": 6
+  },
+  {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",
     "url": "https://capsule.bushiroad-creative.com/product/10051/",
     "source": "ブシロードクリエイティブ公式",
@@ -11348,5 +11437,18 @@
     "releaseWeek": "2026年11月 下旬",
     "brand": "ぼっち・ざ・ろっく",
     "types": 5
+  },
+  {
+    "title": "NEEDY GIRL OVERDOSE　コレクションフィギュアRICH",
+    "url": "https://capsule.bushiroad-creative.com/product/10121/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/23095038/260722_NGO_%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2RICH_BCR_CP_POP.gif",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/23095038/260722_NGO_%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2RICH_BCR_CP_POP.gif"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年11月 下旬",
+    "brand": "NEEDY GIRL OVERDOSE",
+    "types": 6
   }
 ]
