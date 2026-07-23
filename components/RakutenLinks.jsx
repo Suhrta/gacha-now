@@ -1,5 +1,5 @@
 "use client";
-import { rakutenSearchUrl, amazonSearchUrl } from "../lib/affiliate";
+import { rakutenSearchUrl, amazonSearchUrl, amazonQuery } from "../lib/affiliate";
 
 /**
  * 商品ページの「楽天で確実に買う/予約する」導線。
@@ -29,6 +29,7 @@ export default function RakutenLinks({ product, links }) {
   };
 
   const typesLabel = product.types ? `全${product.types}種` : "全種";
+  const amazonCompsetQuery = amazonQuery(product.name, product.brand, "compset");
 
   return (
     <section className="px-4 mt-6 mb-2 max-w-2xl mx-auto w-full">
@@ -69,18 +70,20 @@ export default function RakutenLinks({ product, links }) {
           </a>
         )}
 
-        {/* Amazon（AMAZON_ASSOCIATE_TAG 設定後に自動表示） */}
-        {links.compset && amazonSearchUrl(links.compset.q) && (
+        {/* Amazon（AMAZON_ASSOCIATE_TAG 設定後に自動表示）
+            楽天用クエリ（links.compset.q）は「コンプ」等の楽天語彙を含みAmazonでは
+            ほぼ0件になるため、商品名から別途組み立てる */}
+        {links.compset && amazonSearchUrl(amazonCompsetQuery) && (
           <a
-            href={amazonSearchUrl(links.compset.q)}
+            href={amazonSearchUrl(amazonCompsetQuery)}
             target="_blank"
             rel="nofollow sponsored noopener"
-            onClick={() => track("compset", links.compset.q, "amazon")}
-            className="block w-full py-2.5 md:py-3 mt-2 rounded-lg font-sans text-[12px] md:text-sm font-bold text-center no-underline border-2"
+            onClick={() => track("compset", amazonCompsetQuery, "amazon")}
+            className="block w-full py-3 md:py-3.5 mt-2 rounded-lg font-sans text-[13px] md:text-base font-bold text-center no-underline"
             style={{
-              background: "#FFFFFF",
-              borderColor: "#FF9900",
-              color: "#B45309",
+              background: "linear-gradient(135deg, #FFA41C, #FF8F00)",
+              boxShadow: "0 3px 0 #C46A00, 0 4px 12px rgba(255,143,0,0.3)",
+              color: "#2E1A00",
             }}
           >
             📦 Amazonでコンプセットを探す
@@ -106,7 +109,7 @@ export default function RakutenLinks({ product, links }) {
         )}
 
         <p className="text-[9px] md:text-[10px] text-brand-sub mt-3 leading-relaxed">
-          ※本リンクは楽天アフィリエイトプログラムを利用しています。リンク先での購入で当サイトに収益が発生する場合があります。価格・在庫・発売状況は楽天市場の各ページをご確認ください。
+          ※本リンクは楽天アフィリエイトプログラム・Amazonアソシエイトプログラムを利用しています。リンク先での購入で当サイトに収益が発生する場合があります。価格・在庫・発売状況は各ストアのページをご確認ください。
         </p>
       </div>
     </section>

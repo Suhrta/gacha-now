@@ -10,14 +10,16 @@ import { rakutenSearchUrl, amazonSearchUrl } from "../lib/affiliate";
  */
 export default function CharacterAffiliateCTA({ name }) {
   const query = `${name} ガチャガチャ`;
+  // Amazonの出品タイトルは「ガチャガチャ」より「ガチャ」表記が多いため語を分ける
+  const amazonQ = `${name} ガチャ`;
 
-  const track = (affiliate) => {
+  const track = (affiliate, searchQuery) => {
     if (typeof window === "undefined" || typeof window.gtag !== "function") return;
     window.gtag("event", "affiliate_click", {
       affiliate,
       link_intent: "character",
       item_name: name,
-      search_query: query,
+      search_query: searchQuery,
     });
   };
 
@@ -41,7 +43,7 @@ export default function CharacterAffiliateCTA({ name }) {
             href={rakutenSearchUrl(query, "character")}
             target="_blank"
             rel="nofollow sponsored noopener"
-            onClick={() => track("rakuten")}
+            onClick={() => track("rakuten", query)}
             className="flex-1 py-2.5 rounded-lg font-sans text-[12px] md:text-sm font-bold text-white text-center no-underline"
             style={{
               background: "linear-gradient(135deg, #E60000, #BF0000)",
@@ -50,17 +52,17 @@ export default function CharacterAffiliateCTA({ name }) {
           >
             🛒 楽天市場で探す
           </a>
-          {amazonSearchUrl(query) && (
+          {amazonSearchUrl(amazonQ) && (
             <a
-              href={amazonSearchUrl(query)}
+              href={amazonSearchUrl(amazonQ)}
               target="_blank"
               rel="nofollow sponsored noopener"
-              onClick={() => track("amazon")}
-              className="flex-1 py-2.5 rounded-lg font-sans text-[12px] md:text-sm font-bold text-center no-underline border-2"
+              onClick={() => track("amazon", amazonQ)}
+              className="flex-1 py-2.5 rounded-lg font-sans text-[12px] md:text-sm font-bold text-center no-underline"
               style={{
-                background: "#FFFFFF",
-                borderColor: "#FF9900",
-                color: "#B45309",
+                background: "linear-gradient(135deg, #FFA41C, #FF8F00)",
+                boxShadow: "0 2px 0 #C46A00, 0 3px 8px rgba(255,143,0,0.25)",
+                color: "#2E1A00",
               }}
             >
               📦 Amazonで探す

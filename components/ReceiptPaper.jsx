@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useRef, useCallback } from "react";
 import NoImage from "./NoImage";
-import { rakutenSearchUrl, amazonSearchUrl } from "../lib/affiliate";
+import { rakutenSearchUrl, amazonSearchUrl, amazonQuery } from "../lib/affiliate";
 import { getStatus } from "../lib/product-status";
 import ProductName from "./ProductName";
 
@@ -479,15 +479,15 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
           }}>
           {rakutenLabel}
         </a>
-        {amazonSearchUrl(product.name) && (
-          <a href={amazonSearchUrl(product.name)}
+        {amazonSearchUrl(amazonQuery(product.name, product.brand)) && (
+          <a href={amazonSearchUrl(amazonQuery(product.name, product.brand))}
             target="_blank" rel="nofollow sponsored noopener"
             onClick={() => trackAffiliateClick("amazon", placement, product)}
-            className="block w-full py-2.5 md:py-3 mt-1.5 rounded-lg font-sans text-[11px] md:text-sm font-bold text-center no-underline border-2"
+            className="block w-full py-3 md:py-3.5 mt-1.5 rounded-lg font-sans text-[13px] md:text-base font-bold text-center no-underline"
             style={{
-              background: "#FFFFFF",
-              borderColor: "#FF9900",
-              color: "#B45309",
+              background: "linear-gradient(135deg, #FFA41C, #FF8F00)",
+              boxShadow: "0 3px 0 #C46A00, 0 4px 12px rgba(255,143,0,0.3)",
+              color: "#2E1A00",
             }}>
             📦 Amazonで探す
           </a>
