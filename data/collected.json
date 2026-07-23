@@ -3285,7 +3285,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "BANANA FISH まちぼうけ",
@@ -5016,30 +5016,6 @@
     "types": 8
   },
   {
-    "title": "トイ・ストーリー まちぼうけ",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769708183000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年7月 第4週",
-    "brand": "ディズニー",
-    "types": 4
-  },
-  {
     "title": "サンリオキャラクターズ マスコットキャップチャーム～パステルカラーver.～",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769769184000",
     "source": "バンダイ公式",
@@ -6214,6 +6190,30 @@
     "releaseWeek": "2026年7月 第4週",
     "brand": "仮面ライダー",
     "types": 6
+  },
+  {
+    "title": "トイ・ストーリー まちぼうけ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769708183000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226692_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年7月 第5週",
+    "brand": "ディズニー",
+    "types": 4
   },
   {
     "title": "wiggle wiggle めじるしアクセサリー",
