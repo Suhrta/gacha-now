@@ -1269,7 +1269,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第3週",
     "brand": "ケロロ軍曹",
-    "types": null
+    "types": 8
   },
   {
     "title": "東宝怪獣 ゴジラまちぼうけ デフォルメの場合",
@@ -6309,7 +6309,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第5週",
     "brand": "しまじろう",
-    "types": null
+    "types": 5
   },
   {
     "title": "カードキャプターさくら カメオリボンチャーム",
@@ -7489,6 +7489,45 @@
     "types": 4
   },
   {
+    "title": "Pokémon Pixel Art つれあるきマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901225",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901225_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901225_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 27日週",
+    "brand": "ポケモン",
+    "types": 5
+  },
+  {
+    "title": "サンリオキャラクターズ バレエリボンフィギュア2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902116",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902116_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902116_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 27日週",
+    "brand": "サンリオ",
+    "types": 4
+  },
+  {
+    "title": "サンリオキャラクターズ ぬいぐるみといっしょフィギュア2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902963",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902963_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902963_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 27日週",
+    "brand": "サンリオ",
+    "types": 4
+  },
+  {
     "title": "サンリオキャラクターズ きらきらこんぺいとうチャーム",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902970",
     "source": "タカラトミーアーツ公式",
@@ -7500,6 +7539,19 @@
     "releaseWeek": "2026年7月 27日週",
     "brand": "サンリオ",
     "types": 5
+  },
+  {
+    "title": "サンリオキャラクターズ なかよしドロップチャーム",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903083",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903083_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903083_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 27日週",
+    "brand": "サンリオ",
+    "types": 4
   },
   {
     "title": "ニック＆ジュディ コスチュームフィギュアコレクション",
@@ -7541,6 +7593,19 @@
     "types": 4
   },
   {
+    "title": "たたかわない!トランスフォーマー ぬいぐるみマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904134",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904134_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904134_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年7月 27日週",
+    "brand": "トランスフォーマー",
+    "types": 4
+  },
+  {
     "title": "サメ日和 めじるしガチャマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905230",
     "source": "タカラトミーアーツ公式",
@@ -7554,6 +7619,19 @@
     "types": 4
   },
   {
+    "title": "ポケモン 30周年 メタルチャームマスコット 〜シンオウ、イッシュ、カロス〜",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905551",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905551_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905551_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 27日週",
+    "brand": "ポケモン",
+    "types": 7
+  },
+  {
     "title": "カプセルプラレール きかんしゃトーマス パーシーとジェームスが大変身!?編",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906244",
     "source": "タカラトミーアーツ公式",
@@ -7565,71 +7643,6 @@
     "releaseWeek": "2026年7月 27日週",
     "brand": "トミカ",
     "types": 10
-  },
-  {
-    "title": "Pokémon Pixel Art つれあるきマスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901225",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901225_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901225_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年7月",
-    "brand": "ポケモン",
-    "types": 5
-  },
-  {
-    "title": "サンリオキャラクターズ バレエリボンフィギュア2",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902116",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902116_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902116_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年7月",
-    "brand": "サンリオ",
-    "types": 4
-  },
-  {
-    "title": "サンリオキャラクターズ ぬいぐるみといっしょフィギュア2",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902963",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902963_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902963_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年7月",
-    "brand": "サンリオ",
-    "types": 4
-  },
-  {
-    "title": "たたかわない!トランスフォーマー ぬいぐるみマスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904134",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904134_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904134_b.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年7月",
-    "brand": "トランスフォーマー",
-    "types": 4
-  },
-  {
-    "title": "ポケモン 30周年 メタルチャームマスコット 〜シンオウ、イッシュ、カロス〜",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905551",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905551_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905551_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年7月",
-    "brand": "ポケモン",
-    "types": 7
   },
   {
     "title": "こぼすシリーズ おみそしる-ネコ編-",
