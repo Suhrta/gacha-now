@@ -1,7 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import NoImage from "./NoImage";
 import ProductName from "./ProductName";
+import { mainImageUrl } from "../lib/images";
 
 export default function GachaMachine({ product, index, onClick, isFavorite = false }) {
   const [vis, setVis] = useState(false);
@@ -73,7 +75,9 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
             background: "linear-gradient(155deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.08) 30%, rgba(255,255,255,0) 45%)",
           }} />
           {hasImage ? (
-            <img src={product.img} alt={product.name} className="w-full block"
+            <Image src={mainImageUrl(product.img)} alt={product.name} className="w-full block"
+              width={384} height={384}
+              sizes="(max-width: 768px) 50vw, 240px"
               loading="lazy" decoding="async"
               onError={() => setImgBroken(true)}
               style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />

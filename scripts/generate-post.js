@@ -10,11 +10,18 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import puppeteer from "puppeteer";
+import { mainImageUrl } from "../lib/images.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const NEW_TODAY_PATH = path.join(__dirname, "..", "data", "new-today.json");
 const OUTPUT_DIR = path.join(__dirname, "..", "public", "posts");
+
+// Instagramのカルーセルは2〜10枚。types=10 の商品は実在11枚になるため上限で切る。
+const CAROUSEL_MAX = 10;
+// PNGだと1枚800KB近くあり、複数枚化でリポジトリが破綻する。
+// JPEG q90 なら約1/5（769KB→161KB）で、InstagramもJPEGを推奨している。
+const JPEG_QUALITY = 90;
 
 // 商品画像を取得して data URI にする。
 //
@@ -49,6 +56,33 @@ async function fetchImageAsDataUri(url) {
     console.log(`    ⚠️ 画像取得エラー: ${e.message}`);
     return null;
   }
+}
+
+// 投稿カードは1080pxで書き出すため、収集時の560px（バンダイ）では拡大されて
+// ボヤける。1200px版（/xl/）を優先し、取れなければ元のURLに戻す。
+// 全件で /xl/ が存在する保証はないので、フォールバックがないと
+// 画質改善のつもりが投稿からプレースホルダを出すことになる。
+async function fetchBestImage(url) {
+  const large = mainImageUrl(url);
+  if (large !== url) {
+    const hit = await fetchImageAsDataUri(large);
+    if (hit) return hit;
+    console.log(`    ↩️ /xl/ が取れないため元サイズに戻します`);
+  }
+  return fetchImageAsDataUri(url);
+}
+
+// 投稿に使う画像URLを決める。
+// バンダイは _1 がパッケージ、_2〜_(types+1) が各種の個別画像で、
+// products.json の images は存在確認せず12枚分生成されている（collect.js）ため、
+// 実在する枚数だけを types から割り出す。Instagramのカルーセルは10枚が上限。
+function postImageUrls(product) {
+  const images = Array.isArray(product.images) ? product.images : [];
+  if (images.length <= 1 || !product.img?.includes("bandai-a.akamaihd.net")) {
+    return [product.img].filter(Boolean);
+  }
+  const real = product.types ? product.types + 1 : 1;
+  return images.slice(0, Math.min(real, CAROUSEL_MAX));
 }
 
 function generateHTML(product, imgDataUri) {
@@ -197,33 +231,41 @@ async function main() {
   for (let i = 0; i < newProducts.length; i++) {
     const product = newProducts[i];
     const idx = i + 1;
-    console.log(`\n  [${idx}/${newProducts.length}] ${product.name}`);
+    const base = `post-${today}-${jstHour}h-${idx}`;
+    const urls = postImageUrls(product);
+    console.log(`\n  [${idx}/${newProducts.length}] ${product.name}（${urls.length}枚）`);
 
-  　const htmlPath = path.join(OUTPUT_DIR, `post-${today}-${jstHour}h-${idx}.html`);
-　　const pngPath = path.join(OUTPUT_DIR, `post-${today}-${jstHour}h-${idx}.png`);
-　　const txtPath = path.join(OUTPUT_DIR, `post-${today}-${jstHour}h-${idx}.txt`);
+    // カルーセルは1スライド1枚のカードとして書き出す。
+    // 連番は -1.jpg, -2.jpg …（1枚だけの商品も同じ規則にして投稿側を単純に保つ）
+    let slide = 0;
+    for (const url of urls) {
+      const imgDataUri = await fetchBestImage(url);
+      // 仕入れ元CDNが落ちている場合、1枚目はプレースホルダを出してでも投稿するが、
+      // 2枚目以降は欠けたまま並べても意味がないので落とす
+      if (!imgDataUri && slide > 0) continue;
+      slide++;
 
-    const imgDataUri = await fetchImageAsDataUri(product.img);
-    const html = generateHTML(product, imgDataUri);
-    fs.writeFileSync(htmlPath, html, "utf-8");
+      const htmlPath = path.join(OUTPUT_DIR, `${base}-${slide}.html`);
+      const jpgPath = path.join(OUTPUT_DIR, `${base}-${slide}.jpg`);
+      fs.writeFileSync(htmlPath, generateHTML(product, imgDataUri), "utf-8");
 
-    const page = await browser.newPage();
-    await page.setViewport({ width: 1080, height: 1080 });
-    await page.goto(`file://${htmlPath}`, { waitUntil: "networkidle0", timeout: 30000 });
-    await page.evaluate(() => document.fonts.ready);
-    await new Promise((r) => setTimeout(r, 1000));
-    await page.screenshot({ path: pngPath, type: "png" });
-    await page.close();
-    console.log(`    \ud83d\udcf7 ${pngPath}`);
+      const page = await browser.newPage();
+      await page.setViewport({ width: 1080, height: 1080 });
+      await page.goto(`file://${htmlPath}`, { waitUntil: "networkidle0", timeout: 30000 });
+      await page.evaluate(() => document.fonts.ready);
+      await new Promise((r) => setTimeout(r, 1000));
+      await page.screenshot({ path: jpgPath, type: "jpeg", quality: JPEG_QUALITY });
+      await page.close();
+      console.log(`    \ud83d\udcf7 ${path.basename(jpgPath)}`);
+    }
 
-    const caption = generateCaption(product);
-    fs.writeFileSync(txtPath, caption, "utf-8");
-    console.log(`    \ud83d\udcdd ${txtPath}`);
+    const txtPath = path.join(OUTPUT_DIR, `${base}.txt`);
+    fs.writeFileSync(txtPath, generateCaption(product), "utf-8");
+    console.log(`    \ud83d\udcdd ${path.basename(txtPath)}`);
 
-    const xTxtPath = path.join(OUTPUT_DIR, `post-${today}-${jstHour}h-${idx}.x.txt`);
-    const xCaption = generateXCaption(product);
-    fs.writeFileSync(xTxtPath, xCaption, "utf-8");
-    console.log(`    \ud83d\udcdd ${xTxtPath} (X用)`);
+    const xTxtPath = path.join(OUTPUT_DIR, `${base}.x.txt`);
+    fs.writeFileSync(xTxtPath, generateXCaption(product), "utf-8");
+    console.log(`    \ud83d\udcdd ${path.basename(xTxtPath)} (X用)`);
   }
 
   await browser.close();

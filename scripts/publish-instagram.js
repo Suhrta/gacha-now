@@ -1,7 +1,8 @@
 /**
  * publish-instagram.js
  * Instagram Graph APIを使って自動投稿する
- * posts/post-YYYY-MM-DD-*.png の全ファイルを順番に投稿
+ * posts/post-YYYY-MM-DD-HHh-{連番}-{スライド}.jpg を商品ごとにまとめて投稿する
+ * （2枚以上ある商品はカルーセル投稿になる）
  * 投稿ファイルが0件ならスキップ
  *
  * 必要な環境変数:
@@ -38,8 +39,8 @@ async function sleep(ms) {
   await new Promise((r) => setTimeout(r, ms));
 }
 
-async function preflightImageUrl(imageUrl) {
-  for (let i = 0; i < PREFLIGHT_MAX_RETRIES; i++) {
+async function preflightImageUrl(imageUrl, maxRetries = PREFLIGHT_MAX_RETRIES) {
+  for (let i = 0; i < maxRetries; i++) {
     try {
       const res = await fetch(imageUrl, { method: "HEAD" });
       const contentType = res.headers.get("content-type") || "";
@@ -47,11 +48,11 @@ async function preflightImageUrl(imageUrl) {
         return;
       }
       console.log(
-        `    ⏳ 画像URL待機中... (${i + 1}/${PREFLIGHT_MAX_RETRIES}) status=${res.status} content-type=${contentType}`
+        `    ⏳ 画像URL待機中... (${i + 1}/${maxRetries}) status=${res.status} content-type=${contentType}`
       );
     } catch (e) {
       console.log(
-        `    ⏳ 画像URL待機中... (${i + 1}/${PREFLIGHT_MAX_RETRIES}) fetch-error=${e.message}`
+        `    ⏳ 画像URL待機中... (${i + 1}/${maxRetries}) fetch-error=${e.message}`
       );
     }
 
@@ -68,24 +69,40 @@ async function preflightImageUrl(imageUrl) {
 
 /**
  * ステップ1: メディアコンテナを作成
+ *
+ * 単票は image_url + caption をそのまま渡す。
+ * カルーセルは「子コンテナを is_carousel_item で作る → 親を CAROUSEL で束ねる」
+ * の2段構えになり、キャプションは親側にだけ付く。
  */
-async function createMediaContainer(imageUrl, caption) {
-  const url = `${GRAPH_API}/${IG_USER_ID}/media`;
-  const res = await fetch(url, {
+async function createContainer(body) {
+  const res = await fetch(`${GRAPH_API}/${IG_USER_ID}/media`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      image_url: imageUrl,
-      caption: caption,
-      access_token: IG_ACCESS_TOKEN,
-    }),
+    body: JSON.stringify({ ...body, access_token: IG_ACCESS_TOKEN }),
   });
-
   const data = await res.json();
   if (data.error) {
     throw new Error(`メディアコンテナ作成失敗: ${data.error.message}`);
   }
   return data.id;
+}
+
+async function createMediaContainer(imageUrls, caption) {
+  if (imageUrls.length === 1) {
+    return createContainer({ image_url: imageUrls[0], caption });
+  }
+
+  const children = [];
+  for (const imageUrl of imageUrls) {
+    children.push(await createContainer({ image_url: imageUrl, is_carousel_item: true }));
+  }
+  console.log(`    🎠 子コンテナ ${children.length}件`);
+
+  return createContainer({
+    media_type: "CAROUSEL",
+    children: children.join(","),
+    caption,
+  });
 }
 
 /**
@@ -150,7 +167,9 @@ async function main() {
   // 投稿対象日（TARGET_DATE 環境変数が指定されていればそれを使用、なければ当日）
   const targetDate = process.env.TARGET_DATE || new Date().toISOString().split("T")[0];
   console.log(`  📅 対象日: ${targetDate}`);
-  const pattern = new RegExp(`^post-${targetDate}-\\d+h-(\\d+)\\.png$`);
+  // post-YYYY-MM-DD-HHh-{商品連番}-{スライド番号}.jpg
+  // 同じ商品連番のファイルを1投稿（カルーセル）としてまとめる
+  const pattern = new RegExp(`^post-${targetDate}-\\d+h-(\\d+)-(\\d+)\\.jpg$`);
 
   // 投稿済みログ（CI/手動実行で永続化して重複投稿を防ぐ）
   const LOG_PATH = path.join(__dirname, "..", "data", "instagram-posted-log.json");
@@ -175,63 +194,76 @@ async function main() {
     return;
   }
 
-  const allMatches = fs
-    .readdirSync(POSTS_DIR)
-    .filter((f) => pattern.test(f))
-    .sort((a, b) => {
-      const numA = parseInt(a.match(pattern)[1]);
-      const numB = parseInt(b.match(pattern)[1]);
-      return numA - numB;
-    });
+  // 商品連番ごとにスライドをまとめる。投稿済みの記録も商品単位（キャプションの
+  // ファイル名と同じ post-YYYY-MM-DD-HHh-{連番}）で持つ。
+  const groups = new Map();
+  for (const f of fs.readdirSync(POSTS_DIR)) {
+    const m = f.match(pattern);
+    if (!m) continue;
+    const key = f.slice(0, f.lastIndexOf("-"));
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push({ file: f, idx: parseInt(m[1], 10), slide: parseInt(m[2], 10) });
+  }
 
-  const pngFiles = allMatches.filter((f) => !postedSet.has(f));
+  const allPosts = [...groups.entries()]
+    .map(([key, slides]) => ({
+      key,
+      idx: slides[0].idx,
+      files: slides.sort((a, b) => a.slide - b.slide).map((s) => s.file),
+    }))
+    .sort((a, b) => a.idx - b.idx);
 
-  if (allMatches.length === 0) {
+  const posts = allPosts.filter((p) => !postedSet.has(p.key));
+
+  if (allPosts.length === 0) {
     console.log("⚠️ 今日の投稿ファイルが見つかりません、スキップ");
     return;
   }
 
-  if (pngFiles.length === 0) {
+  if (posts.length === 0) {
     console.log("⏭️ 対象ファイルはすべて投稿済みのためスキップ");
     return;
   }
 
-  console.log(`  📋 投稿予定: ${pngFiles.length}件`);
+  console.log(`  📋 投稿予定: ${posts.length}件`);
 
   if (DRY_RUN) {
-    for (const f of pngFiles) {
-      console.log(`  - ${f}`);
+    for (const p of posts) {
+      console.log(`  - ${p.key} (${p.files.length}枚)`);
     }
     return;
   }
 
   let successCount = 0;
 
-  for (let i = 0; i < pngFiles.length; i++) {
-    const pngFile = pngFiles[i];
-    const idx = pngFile.match(pattern)[1];
-    const txtFile = pngFile.replace(/\.png$/, ".txt");
-    const txtPath = path.join(POSTS_DIR, txtFile);
+  for (let i = 0; i < posts.length; i++) {
+    const post = posts[i];
+    const txtPath = path.join(POSTS_DIR, `${post.key}.txt`);
 
-    console.log(`\n  [${parseInt(idx)}/${pngFiles.length}] ${pngFile}`);
+    console.log(`\n  [${i + 1}/${posts.length}] ${post.key} (${post.files.length}枚)`);
 
     if (!fs.existsSync(txtPath)) {
-      console.log(`    ⚠️ キャプションファイルなし、スキップ: ${txtFile}`);
+      console.log(`    ⚠️ キャプションファイルなし、スキップ: ${post.key}.txt`);
       continue;
     }
 
     const caption = fs.readFileSync(txtPath, "utf-8");
-    const imageUrl = `${SITE_URL}/posts/${pngFile}`;
-    console.log(`    🖼️ ${imageUrl}`);
+    const imageUrls = post.files.map((f) => `${SITE_URL}/posts/${f}`);
+    console.log(`    🖼️ ${imageUrls[0]}`);
     console.log(`    📝 ${caption.split("\n")[0]}...`);
 
-    // Vercelデプロイ反映待ち（URLが 200 かつ image/* になるまで待機）
-    await preflightImageUrl(imageUrl);
+    // Vercelデプロイ反映待ち（URLが 200 かつ image/* になるまで待機）。
+    // 同じデプロイに含まれるので、1枚目が見えたら残りも見えているはず。
+    // 全スライドで最大回数待つと待ち時間が枚数分に膨らむため、2枚目以降は短く確認する。
+    await preflightImageUrl(imageUrls[0]);
+    for (const u of imageUrls.slice(1)) {
+      await preflightImageUrl(u, 3);
+    }
 
     try {
       // ステップ1: メディアコンテナ作成
       console.log("    1️⃣ メディアコンテナを作成中...");
-      const containerId = await createMediaContainer(imageUrl, caption);
+      const containerId = await createMediaContainer(imageUrls, caption);
       console.log(`    ✅ コンテナID: ${containerId}`);
 
       // ステップ2: 処理完了を待つ
@@ -244,15 +276,15 @@ async function main() {
       console.log(`    ✅ 投稿完了！ Media ID: ${mediaId}`);
       successCount++;
 
-      if (!postedSet.has(pngFile)) {
-        postedSet.add(pngFile);
-        postedLog.push(pngFile);
+      if (!postedSet.has(post.key)) {
+        postedSet.add(post.key);
+        postedLog.push(post.key);
         fs.mkdirSync(path.dirname(LOG_PATH), { recursive: true });
         fs.writeFileSync(LOG_PATH, JSON.stringify(postedLog, null, 2), "utf-8");
       }
 
       // 次の投稿まで待機（最後の投稿の後は不要）
-      if (i < pngFiles.length - 1) {
+      if (i < posts.length - 1) {
         console.log(`    ⏳ ${POST_INTERVAL_SEC}秒待機中...`);
         await new Promise((r) => setTimeout(r, POST_INTERVAL_SEC * 1000));
       }
@@ -262,11 +294,11 @@ async function main() {
     }
   }
 
-  console.log(`\n🎉 Instagram投稿完了！ ${successCount}/${pngFiles.length}件成功`);
+  console.log(`\n🎉 Instagram投稿完了！ ${successCount}/${posts.length}件成功`);
   console.log(`  https://www.instagram.com/gacha.gacha_now/`);
 
   // 投稿対象があるのに成功0件なら失敗として扱い、CIで検知できるようにする
-  if (pngFiles.length > 0 && successCount === 0) {
+  if (posts.length > 0 && successCount === 0) {
     console.error("❌ 投稿対象があるのに成功0件でした");
     process.exit(1);
   }
