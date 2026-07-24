@@ -5138,5 +5138,21 @@
   "virusweets-figure-collection-s-5d911604": {
     "sig": "VIRUSWEETS figure collection ～Summer Festival～|6|p",
     "checkedAt": 1784872572965
+  },
+  "gacha-60256a4a": {
+    "sig": "星のカービィ ライトマスコット|4|r",
+    "checkedAt": 1784884283532,
+    "compset": {
+      "q": "ライトマスコット ガチャ コンプ",
+      "count": 31
+    }
+  },
+  "gacha-7e9fa241": {
+    "sig": "【フラットガシャポン】星のカービィ マウスシートコレクション|8|r",
+    "checkedAt": 1784884283532,
+    "compset": {
+      "q": "星のカービィ ガチャ コンプ",
+      "count": 46
+    }
   }
 }
