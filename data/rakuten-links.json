@@ -1160,11 +1160,15 @@
     }
   },
   "gacha-7bda926d": {
-    "sig": "パワプロくん ゆれるんです。～セントラル・リーグ～|6|r",
-    "checkedAt": 1784053563778,
+    "sig": "パワプロくん ゆれるんです。～セントラル・リーグ～|6|p",
+    "checkedAt": 1784872572965,
     "compset": {
       "q": "セントラル ガチャ コンプ",
       "count": 6
+    },
+    "preorder": {
+      "q": "セントラル ガチャ 予約",
+      "count": 5
     }
   },
   "-vsu20-japan-41313b34": {
@@ -5118,5 +5122,21 @@
       "q": "パンダの穴 ガチャ 予約",
       "count": 6
     }
+  },
+  "-gp01-58e52207": {
+    "sig": "角醒ハンター オメガホーン GPエゴルギア01|8|r",
+    "checkedAt": 1784872572965
+  },
+  "sky--43505912": {
+    "sig": "Sky星を紡ぐ子どもたち めじるしアクセサリー|6|r",
+    "checkedAt": 1784872572965,
+    "compset": {
+      "q": "めじるしアクセサリー ガチャ コンプ",
+      "count": 163
+    }
+  },
+  "virusweets-figure-collection-s-5d911604": {
+    "sig": "VIRUSWEETS figure collection ～Summer Festival～|6|p",
+    "checkedAt": 1784872572965
   }
 }
