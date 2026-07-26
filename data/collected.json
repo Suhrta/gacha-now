@@ -1797,7 +1797,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "サンリオ",
-    "types": 10
+    "types": null
   },
   {
     "title": "めじるしアクセサリー サンリオキャラクターズオールスターズ Part.2",
@@ -2805,7 +2805,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第4週",
     "brand": "ポケモン",
-    "types": null
+    "types": 8
   },
   {
     "title": "ポケットモンスター つまんでつなげてマスコット15",
