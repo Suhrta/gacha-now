@@ -117,7 +117,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第1週",
     "brand": "ひつじのショーン",
-    "types": null
+    "types": 5
   },
   {
     "title": "名探偵プリキュア！ コンパクトハウスコレクション",
@@ -1893,7 +1893,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "サンリオ",
-    "types": 8
+    "types": null
   },
   {
     "title": "クレヨンしんちゃん カラフルマルチチャーム",
