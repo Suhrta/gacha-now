@@ -213,7 +213,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第1週",
     "brand": "プリキュア",
-    "types": null
+    "types": 4
   },
   {
     "title": "ナルミヤキャラクターズ スイングケース",
@@ -429,7 +429,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第2週",
     "brand": "呪術廻戦",
-    "types": null
+    "types": 4
   },
   {
     "title": "魔法少女まどか☆マギカ めじるしアクセサリー",
@@ -1317,7 +1317,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第3週",
     "brand": "ジョジョの奇妙な冒険",
-    "types": 4
+    "types": null
   },
   {
     "title": "とっても！ラッキーマン めじるしアクセサリー",
