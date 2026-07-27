@@ -7,6 +7,7 @@ import ReceiptPaper from "../../../components/ReceiptPaper";
 import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
+import PopularNowSection from "../../../components/PopularNowSection";
 import products from "../../../data/products.json";
 import { getAllReleaseMonths, getReleaseYearMonth, formatYearMonth } from "../../../lib/release";
 import { getPopularBrands } from "../../../lib/browse";
@@ -79,6 +80,10 @@ export default function ReleaseMonthPage() {
             😢<br />このつきの<br />しんさくは まだ ないよ
           </div>
         )}
+
+        {/* 未来の月ほど掲載が数十件・人気IPなしになりがちなので、
+            発売中の人気商品をここで見せて離脱を受け止める */}
+        <PopularNowSection excludeIds={items.map((p) => p.id)} />
 
         {monthBrands.length > 0 && (
           <section className="mt-10 px-1 relative z-[1]">

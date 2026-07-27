@@ -8,7 +8,9 @@ import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
 import CharacterInfo from "../../../components/CharacterInfo";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
+import PopularNowSection from "../../../components/PopularNowSection";
 import products from "../../../data/products.json";
+import { getBrandIntro } from "../../../data/character-intros";
 import { getPopularBrands } from "../../../lib/browse";
 import { getAllReleaseMonths, formatYearMonth } from "../../../lib/release";
 
@@ -43,7 +45,10 @@ export default function BrandPage() {
 
         <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: `${brandName}の新作` }]} />
 
-        <CharacterInfo name={brandName} items={brandProducts} intro={null} />
+        {/* 手書きの紹介文はキャラページでしか使われていなかった。
+            ブランドページは掲載2〜5件でも検索流入が多く（転スラ1,888表示・ハイキュー1,367表示/直近28日）、
+            商品グリッドだけだと読むものが無く数秒で離脱するため、同じ文章をここでも出す */}
+        <CharacterInfo name={brandName} items={brandProducts} intro={getBrandIntro(slug)} />
 
         <div className="font-pixel text-[10px] text-brand-sub mb-2.5 px-1 relative">
           {brandProducts.length}けん
@@ -60,6 +65,8 @@ export default function BrandPage() {
             😢<br />この ブランドの<br />しんさくは まだ ないよ
           </div>
         )}
+
+        <PopularNowSection excludeBrandSlug={slug} limit={6} gridClass="grid-cols-2 md:grid-cols-3 lg:grid-cols-6" />
 
         <NewArrivalsSection excludeBrandSlug={slug} />
 

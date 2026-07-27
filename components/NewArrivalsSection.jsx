@@ -1,5 +1,4 @@
-import Link from "next/link";
-import ProductThumb from "./ProductThumb";
+import ProductLinkCard from "./ProductLinkCard";
 import products from "../data/products.json";
 
 // 直帰対策の回遊セクション。収集日時が新しい商品を「今週の新着」として出す。
@@ -32,24 +31,7 @@ export default function NewArrivalsSection({
       </h2>
       <div className={`grid ${gridClass} gap-3`}>
         {items.map((p) => (
-          <Link
-            key={p.id}
-            href={`/item/${p.id}`}
-            className="block p-3 bg-white rounded-lg border border-cream-border no-underline hover:border-brand-accent transition-colors"
-          >
-            <ProductThumb
-              src={p.img}
-              alt={p.name}
-              className="w-full aspect-square object-cover rounded-md bg-cream-dark"
-            />
-            <div className="text-xs font-bold text-brand-text leading-snug mt-2 line-clamp-2">
-              {p.name}
-            </div>
-            <div className="text-[10px] text-brand-sub mt-1">
-              ¥{p.price}
-              {p.types ? `・全${p.types}種` : ""}・{p.releaseWeek}
-            </div>
-          </Link>
+          <ProductLinkCard key={p.id} product={p} />
         ))}
       </div>
     </section>
