@@ -1,5 +1,24 @@
 [
   {
+    "id": "gacha-1063ad10",
+    "name": "お茶犬 温泉まったり ゆらゆらつながるマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099755_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099755_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099755",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-07-28T09:08:58.215Z"
+  },
+  {
     "id": "crazy-raccoon-1-52ddd2aa",
     "name": "CRAZY RACCOON つまんでつなげてますこっと1",
     "brand": "その他",

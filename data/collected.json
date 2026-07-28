@@ -261,7 +261,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第1週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "パペットスンスン もっと！スンスンを探せマスコット",
@@ -7729,6 +7729,19 @@
     "releaseWeek": "2026年7月 27日週",
     "brand": "その他",
     "types": 7
+  },
+  {
+    "title": "お茶犬 温泉まったり ゆらゆらつながるマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099755",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099755_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099755_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年7月 27日週",
+    "brand": "その他",
+    "types": 4
   },
   {
     "title": "あそべる生物フィギュアシリーズ ザ・シャーク vs 最強の捕食者",
