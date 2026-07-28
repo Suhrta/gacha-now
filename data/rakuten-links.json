@@ -1152,11 +1152,11 @@
     }
   },
   "-vsu20-japan-41313b34": {
-    "sig": "ブルーロック めじるしアクセサリー‐VS.U-20 JAPAN-|5|r",
-    "checkedAt": 1784092279138,
+    "sig": "ブルーロック めじるしアクセサリー-VS.U-20 JAPAN-|5|r",
+    "checkedAt": 1785218639194,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 172
+      "count": 176
     }
   },
   "lil-ala-mode--51ed5e4a": {
@@ -5102,5 +5102,21 @@
   "gacha-35c4cce9": {
     "sig": "体格ブラザーズ ビッグボディー♨コレクション|4|r",
     "checkedAt": 1785110862518
+  },
+  "crazy-raccoon-1-52ddd2aa": {
+    "sig": "CRAZY RACCOON つまんでつなげてますこっと1|12|p",
+    "checkedAt": 1785218639194,
+    "compset": {
+      "q": "つまんでつなげてマスコット ガチャ コンプ",
+      "count": 4
+    }
+  },
+  "crazy-raccoon-2-42d4a4b9": {
+    "sig": "CRAZY RACCOON つまんでつなげてますこっと2|12|p",
+    "checkedAt": 1785218639194,
+    "compset": {
+      "q": "つまんでつなげてマスコット ガチャ コンプ",
+      "count": 4
+    }
   }
 }
