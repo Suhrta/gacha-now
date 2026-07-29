@@ -2493,7 +2493,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "まちぼうけ",
-    "types": 4
+    "types": null
   },
   {
     "title": "お文具といっしょ マスコットフィギュアコレクション～たべすぎたのです～",
@@ -5709,7 +5709,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "お文具といっしょ",
-    "types": 5
+    "types": null
   },
   {
     "title": "ZANMANG LOOPY めじるしアクセサリー",
@@ -6982,6 +6982,30 @@
     "releaseWeek": "2026年7月 第5週",
     "brand": "その他",
     "types": 4
+  },
+  {
+    "title": "Dr.MORICKY toymini series めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769832185000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255292_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年8月 第2週",
+    "brand": "その他",
+    "types": 5
   },
   {
     "title": "パワプロくん ゆれるんです。～セントラル・リーグ～",
