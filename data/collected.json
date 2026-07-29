@@ -2493,7 +2493,7 @@
     "price": 300,
     "releaseWeek": "2026年6月 第4週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 4
   },
   {
     "title": "お文具といっしょ マスコットフィギュアコレクション～たべすぎたのです～",
@@ -2589,7 +2589,7 @@
     "price": null,
     "releaseWeek": "2026年6月 第4週",
     "brand": "いきもの大図鑑",
-    "types": 4
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ キーリングハンガー",
@@ -5709,7 +5709,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "お文具といっしょ",
-    "types": null
+    "types": 5
   },
   {
     "title": "ZANMANG LOOPY めじるしアクセサリー",
