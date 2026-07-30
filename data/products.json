@@ -1,5 +1,35 @@
 [
   {
+    "id": "-cd-0e8843df",
+    "name": "米津玄師 ミニCDコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 11,
+    "releaseWeek": "8月 第5週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769911255000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-07-30T05:47:44.282Z"
+  },
+  {
     "id": "drmoricky-toymini-series--254f0c50",
     "name": "Dr.MORICKY toymini series めじるしアクセサリー",
     "brand": "その他",

@@ -1437,7 +1437,7 @@
     "price": 500,
     "releaseWeek": "2026年6月 第3週",
     "brand": "ジョジョの奇妙な冒険",
-    "types": null
+    "types": 4
   },
   {
     "title": "デュラララ!!×2 ふらっとめじるしアクセサリー",
@@ -3261,7 +3261,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "まちぼうけ",
-    "types": 6
+    "types": null
   },
   {
     "title": "日清カップヌードル めじるしアクセサリー",
@@ -3573,7 +3573,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "パワーパフ ガールズ アクリルスライドミラーコレクション",
@@ -3645,7 +3645,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "【フラットガシャポン】RIZIN クリアファイルコレクション",
@@ -7150,6 +7150,30 @@
     "releaseWeek": "2026年8月 第5週",
     "brand": "その他",
     "types": 12
+  },
+  {
+    "title": "米津玄師 ミニCDコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769911255000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255299_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年8月 第5週",
+    "brand": "その他",
+    "types": 11
   },
   {
     "title": "SKZOO ぷくっとバースデークリアリング ～DWAEEKI＆HAN QUOKKA＆BbokAri～",
