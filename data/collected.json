@@ -2445,7 +2445,7 @@
     "price": 400,
     "releaseWeek": "2026年6月 第4週",
     "brand": "まちぼうけ",
-    "types": 5
+    "types": null
   },
   {
     "title": "HG キン肉マン",
@@ -5181,7 +5181,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "ケアベア",
-    "types": null
+    "types": 5
   },
   {
     "title": "DAISUKE KONDO めじるしアクセサリー",
@@ -6291,9 +6291,9 @@
     "title": "【フラットガシャポン】aespa designed by 田中かえ ミラーコレクション",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118186508000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_4.jpg",
@@ -6405,7 +6405,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "名探偵コナン ねむらせ隊3",
