@@ -3261,7 +3261,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 6
   },
   {
     "title": "日清カップヌードル めじるしアクセサリー",
@@ -3573,7 +3573,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "パワーパフ ガールズ アクリルスライドミラーコレクション",
@@ -3645,7 +3645,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "【フラットガシャポン】RIZIN クリアファイルコレクション",
@@ -5181,7 +5181,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "ケアベア",
-    "types": 5
+    "types": null
   },
   {
     "title": "DAISUKE KONDO めじるしアクセサリー",
@@ -6288,6 +6288,30 @@
     "types": 5
   },
   {
+    "title": "【フラットガシャポン】aespa designed by 田中かえ ミラーコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118186508000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_2.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年7月 第5週",
+    "brand": "その他",
+    "types": 4
+  },
+  {
     "title": "カードキャプターさくら カメオリボンチャーム",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118187147000",
     "source": "バンダイ公式",
@@ -6381,7 +6405,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "名探偵コナン ねむらせ隊3",
@@ -6958,30 +6982,6 @@
     "releaseWeek": "2026年7月 第5週",
     "brand": "アイカツ",
     "types": 6
-  },
-  {
-    "title": "【フラットガシャポン】aespa designed by 田中かえ ミラーコレクション",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118186508000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_2.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251351_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年7月 第5週",
-    "brand": "その他",
-    "types": 4
   },
   {
     "title": "Dr.MORICKY toymini series めじるしアクセサリー",
@@ -8007,7 +8007,7 @@
     "images": [
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y908996_b.jpg"
     ],
-    "price": 200,
+    "price": 300,
     "releaseWeek": "2026年7月 27日週",
     "brand": "パンダの穴",
     "types": null
