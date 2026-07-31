@@ -1,5 +1,24 @@
 [
   {
+    "id": "gacha-18723a15",
+    "name": "鳩のぬいぐるみ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "8月 上旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/07/e2b3f6fe7226f1a46579f1c5c1436343.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/07/e2b3f6fe7226f1a46579f1c5c1436343.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/hato_nui/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-07-31T06:19:32.228Z"
+  },
+  {
     "id": "-cd-0e8843df",
     "name": "米津玄師 ミニCDコレクション",
     "brand": "その他",
