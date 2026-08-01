@@ -1,5 +1,233 @@
 [
   {
+    "id": "-red-horo--76cb13d1",
+    "name": "富士ホーロー Red HORO ミニコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "8月 10日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905216_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905216_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905216",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-01T00:09:49.372Z"
+  },
+  {
+    "id": "gacha-4be6a7fb",
+    "name": "ガちャマガ おもちゃのカメラを子どもが怖がる件",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "8月 10日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906480_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906480_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906480",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-01T00:09:49.372Z"
+  },
+  {
+    "id": "gacha-79f9e2fa",
+    "name": "つながリングチャーム どうぶつの森",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 8,
+    "releaseWeek": "8月 10日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906893_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906893_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906893",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-01T00:09:49.372Z"
+  },
+  {
+    "id": "gacha-27469eeb",
+    "name": "チャギントン フェイスウォッチコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 3,
+    "releaseWeek": "8月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y097232_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y097232_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y097232",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-01T00:09:49.372Z"
+  },
+  {
+    "id": "fig--01704a35",
+    "name": "肩ズンFig. ぐ〜チョコランタン",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "8月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098406_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098406_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098406",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-01T00:09:49.372Z"
+  },
+  {
+    "id": "gacha-65bc7544",
+    "name": "ミニオンズ＆モンスターズ プロジェクターライト",
+    "brand": "ミニオンズ",
+    "brandSlug": "minions",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "8月",
+    "color": "#99e5d0",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900846_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900846_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900846",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-01T00:09:49.372Z"
+  },
+  {
+    "id": "fig--63830c90",
+    "name": "肩ズンFig. モンチッチ",
+    "brand": "モンチッチ",
+    "brandSlug": "monchhichi",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "8月",
+    "color": "#e5b099",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901966_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901966_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901966",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-01T00:09:49.372Z"
+  },
+  {
+    "id": "gacha-221e9a26",
+    "name": "ドラえもん ぬいぐるみマスコット",
+    "brand": "ドラえもん",
+    "brandSlug": "doraemon",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "8月",
+    "color": "#ac99e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903076_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903076_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903076",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-01T00:09:49.372Z"
+  },
+  {
+    "id": "-the-treasure-box-0739bc41",
+    "name": "宝箱 -The Treasure Box-",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 8,
+    "releaseWeek": "8月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905742_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905742_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905742",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-01T00:09:49.372Z"
+  },
+  {
+    "id": "gacha-180c156f",
+    "name": "ミニオンズ＆モンスターズ スタンドフィギュア",
+    "brand": "ミニオンズ",
+    "brandSlug": "minions",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "8月",
+    "color": "#99e5d0",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905858_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905858_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905858",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-01T00:09:49.372Z"
+  },
+  {
+    "id": "gacha-15610a53",
+    "name": "サンリオキャラクターズ ファッションリング オーロラコレクション2",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 12,
+    "releaseWeek": "8月",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908828_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908828_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908828",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-01T00:09:49.372Z"
+  },
+  {
+    "id": "badboy--2a27d60f",
+    "name": "BADBOY ナップサックコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "8月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909573_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909573_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909573",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-01T00:09:49.372Z"
+  },
+  {
     "id": "gacha-18723a15",
     "name": "鳩のぬいぐるみ",
     "brand": "その他",
