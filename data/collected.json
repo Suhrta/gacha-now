@@ -93,7 +93,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第1週",
     "brand": "ディズニー",
-    "types": null
+    "types": 4
   },
   {
     "title": "豆ガシャ本 サンリオキャラクターズ×朝日文庫 Ichigo Keywords２",
@@ -5541,7 +5541,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "アニメ『呪術廻戦』5周年 シールグッズコレクション",
@@ -6717,7 +6717,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第5週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "SKZOO ぷくっとバースデークリアリング ～DWAEEKI＆HAN QUOKKA＆BbokAri～",
