@@ -5982,5 +5982,13 @@
       "q": "ミニCDコレクション ガチャ コンプ",
       "count": 3
     }
+  },
+  "food-zoo-4e19020d": {
+    "sig": "Food Zoo||p",
+    "checkedAt": 1785714792443,
+    "preorder": {
+      "q": "Food Zoo 予約",
+      "count": 222
+    }
   }
 }

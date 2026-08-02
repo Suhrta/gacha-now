@@ -236,7 +236,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
-    "brand": "その他",
+    "brand": "カップヌードル",
     "types": 6
   },
   {
@@ -308,7 +308,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
-    "brand": "その他",
+    "brand": "チロルチョコ",
     "types": 6
   },
   {
@@ -428,7 +428,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
-    "brand": "その他",
+    "brand": "PEZ",
     "types": 6
   },
   {
@@ -620,7 +620,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
-    "brand": "その他",
+    "brand": "RIZIN",
     "types": 10
   },
   {
@@ -692,7 +692,7 @@
     ],
     "price": 500,
     "releaseWeek": "2026年7月 第2週",
-    "brand": "その他",
+    "brand": "NPB",
     "types": 6
   },
   {
@@ -932,7 +932,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年7月 第3週",
-    "brand": "その他",
+    "brand": "ニャッキ！",
     "types": 6
   },
   {
@@ -1052,7 +1052,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年7月 第3週",
-    "brand": "その他",
+    "brand": "どこでもいっしょ",
     "types": 9
   },
   {
@@ -1076,7 +1076,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年7月 第3週",
-    "brand": "その他",
+    "brand": "不二家",
     "types": 5
   },
   {
@@ -1244,7 +1244,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年7月 第3週",
-    "brand": "その他",
+    "brand": "とっとこハム太郎",
     "types": 5
   },
   {
@@ -1292,7 +1292,7 @@
     ],
     "price": 500,
     "releaseWeek": "2026年7月 第3週",
-    "brand": "その他",
+    "brand": "ドズル社",
     "types": 6
   },
   {
@@ -1412,8 +1412,8 @@
     ],
     "price": 500,
     "releaseWeek": "2026年7月 第3週",
-    "brand": "その他",
-    "types": 6
+    "brand": "MLB",
+    "types": null
   },
   {
     "title": "TOY STORY サウンドロップ",
@@ -1604,7 +1604,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年7月 第3週",
-    "brand": "その他",
+    "brand": "花ざかりの君たちへ",
     "types": 9
   },
   {
@@ -1724,7 +1724,7 @@
     ],
     "price": 500,
     "releaseWeek": "2026年7月 第3週",
-    "brand": "その他",
+    "brand": "阪神甲子園球場",
     "types": 6
   },
   {
@@ -1796,7 +1796,7 @@
     ],
     "price": 800,
     "releaseWeek": "2026年7月 第3週",
-    "brand": "その他",
+    "brand": "ハイパーヨーヨー",
     "types": 6
   },
   {
@@ -2180,7 +2180,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年7月 第4週",
-    "brand": "その他",
+    "brand": "うちの3姉妹",
     "types": 6
   },
   {
@@ -2252,7 +2252,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年7月 第4週",
-    "brand": "その他",
+    "brand": "おしゅしだよ",
     "types": 5
   },
   {
@@ -2348,7 +2348,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
-    "brand": "その他",
+    "brand": "BE@RBRICK",
     "types": 10
   },
   {
@@ -2708,7 +2708,7 @@
     ],
     "price": 500,
     "releaseWeek": "2026年7月 第4週",
-    "brand": "その他",
+    "brand": "BT21",
     "types": 7
   },
   {
@@ -3260,7 +3260,7 @@
     ],
     "price": 500,
     "releaseWeek": "2026年7月 第5週",
-    "brand": "その他",
+    "brand": "aespa",
     "types": 4
   },
   {
@@ -3356,7 +3356,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
-    "brand": "その他",
+    "brand": "Sky 星を紡ぐ子どもたち",
     "types": 6
   },
   {
@@ -4148,7 +4148,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年8月 第2週",
-    "brand": "その他",
+    "brand": "パックマン",
     "types": 12
   },
   {
@@ -4388,7 +4388,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
-    "brand": "その他",
+    "brand": "MLB",
     "types": 6
   },
   {
@@ -4604,7 +4604,7 @@
     ],
     "price": 500,
     "releaseWeek": "2026年8月 第2週",
-    "brand": "その他",
+    "brand": "パワプロ",
     "types": 6
   },
   {
@@ -4628,7 +4628,7 @@
     ],
     "price": 500,
     "releaseWeek": "2026年8月 第2週",
-    "brand": "その他",
+    "brand": "パワプロ",
     "types": 6
   },
   {
@@ -4676,7 +4676,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
-    "brand": "その他",
+    "brand": "ディズニー",
     "types": 4
   },
   {
@@ -4964,7 +4964,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
-    "brand": "その他",
+    "brand": "宇宙兄弟",
     "types": 23
   },
   {
@@ -5060,7 +5060,7 @@
     ],
     "price": 500,
     "releaseWeek": "2026年8月 第2週",
-    "brand": "その他",
+    "brand": "ニャンちゅう",
     "types": 4
   },
   {
@@ -5084,7 +5084,7 @@
     ],
     "price": null,
     "releaseWeek": "2026年8月 第2週",
-    "brand": "その他",
+    "brand": "仮面ライダー",
     "types": 4
   },
   {
@@ -5348,7 +5348,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
-    "brand": "その他",
+    "brand": "明治",
     "types": 7
   },
   {
@@ -5540,7 +5540,7 @@
     ],
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
-    "brand": "その他",
+    "brand": "週刊少年ジャンプ",
     "types": 6
   },
   {
@@ -5684,7 +5684,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
-    "brand": "その他",
+    "brand": "ぜんまいざむらい",
     "types": 6
   },
   {
@@ -5756,7 +5756,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年8月 第4週",
-    "brand": "その他",
+    "brand": "スーパー戦隊",
     "types": 5
   },
   {
@@ -5852,7 +5852,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年8月 第4週",
-    "brand": "その他",
+    "brand": "ナルミヤ",
     "types": 8
   },
   {
@@ -6092,7 +6092,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年8月 第5週",
-    "brand": "その他",
+    "brand": "スーパーマン",
     "types": 8
   },
   {
@@ -6116,7 +6116,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年8月 第5週",
-    "brand": "その他",
+    "brand": "CRAZY RACCOON",
     "types": 12
   },
   {
@@ -6140,7 +6140,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年8月 第5週",
-    "brand": "その他",
+    "brand": "CRAZY RACCOON",
     "types": 12
   },
   {
@@ -6284,7 +6284,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年8月 第5週",
-    "brand": "その他",
+    "brand": "ガンダム",
     "types": 5
   },
   {
@@ -6428,7 +6428,7 @@
     ],
     "price": 500,
     "releaseWeek": "2026年8月 第5週",
-    "brand": "その他",
+    "brand": "米津玄師",
     "types": 11
   },
   {
@@ -6620,7 +6620,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年8月 第5週",
-    "brand": "その他",
+    "brand": "はなかっぱ",
     "types": 10
   },
   {
@@ -6812,7 +6812,7 @@
     ],
     "price": 300,
     "releaseWeek": "未定",
-    "brand": "その他",
+    "brand": "おじゃる丸",
     "types": 5
   },
   {
@@ -6860,7 +6860,7 @@
     ],
     "price": 400,
     "releaseWeek": "未定",
-    "brand": "その他",
+    "brand": "NCT WISH",
     "types": 6
   },
   {
@@ -6908,7 +6908,7 @@
     ],
     "price": 500,
     "releaseWeek": "未定",
-    "brand": "その他",
+    "brand": "aespa",
     "types": 4
   },
   {
@@ -6932,7 +6932,7 @@
     ],
     "price": 500,
     "releaseWeek": "未定",
-    "brand": "その他",
+    "brand": "Kep1er",
     "types": 7
   },
   {
@@ -6945,7 +6945,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年8月 10日週",
-    "brand": "その他",
+    "brand": "富士ホーロー",
     "types": 4
   },
   {
@@ -6971,7 +6971,7 @@
     ],
     "price": 300,
     "releaseWeek": "2026年8月 10日週",
-    "brand": "その他",
+    "brand": "どうぶつの森",
     "types": 8
   },
   {
@@ -6984,7 +6984,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年8月",
-    "brand": "その他",
+    "brand": "チャギントン",
     "types": 3
   },
   {
@@ -6997,7 +6997,7 @@
     ],
     "price": 400,
     "releaseWeek": "2026年8月",
-    "brand": "その他",
+    "brand": "ぐ〜チョコランタン",
     "types": 4
   },
   {
@@ -10314,6 +10314,19 @@
     "releaseWeek": "2022年12月 上旬",
     "brand": "カービィ",
     "types": 5
+  },
+  {
+    "title": "Food Zoo",
+    "url": "https://kitan.jp/products/tabemono_zoo/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2023/05/tabemonoZOO_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2023/05/tabemonoZOO_DP.jpg"
+    ],
+    "price": null,
+    "releaseWeek": "未定",
+    "brand": "New",
+    "types": null
   },
   {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",

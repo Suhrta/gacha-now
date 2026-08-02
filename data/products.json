@@ -1,5 +1,24 @@
 [
   {
+    "id": "food-zoo-4e19020d",
+    "name": "Food Zoo",
+    "brand": "New",
+    "brandSlug": "new",
+    "price": 300,
+    "types": null,
+    "releaseWeek": "未定",
+    "color": "#c2e599",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2023/05/tabemonoZOO_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2023/05/tabemonoZOO_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/tabemono_zoo/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-08-02T23:53:10.143Z"
+  },
+  {
     "id": "gacha-5460c3dd",
     "name": "ディズニーツムツム めじるしアクセサリー",
     "brand": "ディズニー",
