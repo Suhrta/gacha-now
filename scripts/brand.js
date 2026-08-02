@@ -31,7 +31,7 @@ export const BRAND_MAP = [
   { keywords: ["すみっコ"], brand: "すみっコぐらし" },
   { keywords: ["リラックマ"], brand: "リラックマ" },
   { keywords: ["San-X"], brand: "San-X" },
-  { keywords: ["ディズニー", "Disney", "ミッキー", "プリンセス", "ピクサー", "トイ・ストーリー", "TOY STORY", "トイストーリー", "ポテトヘッド", "ズートピア", "ニック＆ジュディ", "リメンバー", "くまのプーさん", "プーさん", "ラプンツェル", "リロ&スティッチ", "リロ＆スティッチ", "スティッチ", "ベイマックス", "モンスターズ・インク", "ナイトメアー・ビフォア・クリスマス"], brand: "ディズニー" },
+  { keywords: ["ディズニー", "Disney", "ミッキー", "プリンセス", "ピクサー", "トイ・ストーリー", "TOY STORY", "トイストーリー", "ポテトヘッド", "ズートピア", "ニック＆ジュディ", "リメンバー", "くまのプーさん", "プーさん", "Winnie the Pooh", "ラプンツェル", "リロ&スティッチ", "リロ＆スティッチ", "スティッチ", "ベイマックス", "モンスターズ・インク", "ナイトメアー・ビフォア・クリスマス"], brand: "ディズニー" },
   // 「ルフィ」は使わない: 「カプセルフィギュア」「プールフィギュア」が “〜ルフィギュア” で
   // 部分一致し、初音ミクやジョジョの商品までワンピース扱いになっていた（実測4件すべて誤爆、
   // 逆に「ルフィ」だけで判定が必要な商品は0件）。ONE PIECE / ワンピース表記で足りる。
@@ -39,8 +39,8 @@ export const BRAND_MAP = [
   { keywords: ["ドラゴンボール"], brand: "ドラゴンボール" },
   { keywords: ["鬼滅", "鬼滅の刃"], brand: "鬼滅の刃" },
   { keywords: ["呪術廻戦", "呪術"], brand: "呪術廻戦" },
-  { keywords: ["仮面ライダー", "CTION RIDE"], brand: "仮面ライダー" },
-  { keywords: ["ガンダム", "機動戦士"], brand: "ガンダム" },
+  { keywords: ["仮面ライダー", "CTION RIDE", "KAMEN RIDER"], brand: "仮面ライダー" },
+  { keywords: ["ガンダム", "機動戦士", "ガンプラ"], brand: "ガンダム" },
   { keywords: ["プリキュア", "ぷちきゅあ"], brand: "プリキュア" },
   { keywords: ["SPY×FAMILY", "スパイファミリー"], brand: "SPY×FAMILY" },
   { keywords: ["転スラ", "転生したらスライム"], brand: "転スラ" },
@@ -193,6 +193,96 @@ export const BRAND_MAP = [
   { keywords: ["正反対な君と僕"], brand: "正反対な君と僕" },
   { keywords: ["スノウボールアース"], brand: "スノウボールアース" },
   { keywords: ["春夏秋冬代行者"], brand: "春夏秋冬代行者" },
+
+  // ── 2026-08 追加分 ────────────────────────────────────────────
+  // 「その他」213件（全体の27%）の棚卸しで、検索需要のあるIP・ブランドを救出する。
+  //
+  // 【なぜ末尾に置くか】
+  // BRAND_MAP は上から順に評価され最初の一致が勝つ。ここに並ぶキーワードの一部は
+  // 既存ブランドの商品名にも含まれており、上に置くと既存の判定を奪ってしまう:
+  //   「とっとこハム太郎 まちぼうけ」   → まちぼうけ のまま残したい
+  //   「みいつけた！ まちぼうけ」       → 同上
+  //   「まちぼうけ スーパー戦隊のおともだち」→ 同上
+  //   「富士ホーロー MOOMIN ミニコレクション2」→ ムーミン のまま残したい
+  // 末尾に置くことで既存ブランドが優先され、これらは一切変化しない。
+  // 新規追加時は原則このブロックの末尾に足すこと。
+  { keywords: ["どうぶつの森"], brand: "どうぶつの森" },
+  { keywords: ["とっとこハム太郎"], brand: "とっとこハム太郎" },
+  { keywords: ["ブルーイ"], brand: "ブルーイ" },
+  { keywords: ["パックマン"], brand: "パックマン" },
+  { keywords: ["MOTHER2"], brand: "MOTHER2" },
+  { keywords: ["スーパーマン"], brand: "スーパーマン" },
+  { keywords: ["BT21"], brand: "BT21" },
+  { keywords: ["宇宙兄弟"], brand: "宇宙兄弟" },
+  { keywords: ["氷の城壁"], brand: "氷の城壁" },
+  { keywords: ["スーパーの裏でヤニ吸うふたり"], brand: "スーパーの裏でヤニ吸うふたり" },
+  { keywords: ["アシベ"], brand: "少年アシベ" },
+  { keywords: ["花ざかりの君たちへ"], brand: "花ざかりの君たちへ" },
+  { keywords: ["うちの3姉妹"], brand: "うちの3姉妹" },
+  { keywords: ["マリッジトキシン"], brand: "マリッジトキシン" },
+  { keywords: ["Sky星を紡ぐ"], brand: "Sky 星を紡ぐ子どもたち" },
+  { keywords: ["PICO PARK"], brand: "PICO PARK" },
+  { keywords: ["duolingo"], brand: "Duolingo" },
+  { keywords: ["LOVOT"], brand: "LOVOT" },
+  { keywords: ["Polly Pocket"], brand: "Polly Pocket" },
+  { keywords: ["BE@RBRICK"], brand: "BE@RBRICK" },
+  { keywords: ["PEZ"], brand: "PEZ" },
+  { keywords: ["UNO"], brand: "UNO" },
+  { keywords: ["パワプロ"], brand: "パワプロ" },
+  { keywords: ["ハイパーヨーヨー"], brand: "ハイパーヨーヨー" },
+  { keywords: ["どこでもいっしょ"], brand: "どこでもいっしょ" },
+  { keywords: ["チャギントン"], brand: "チャギントン" },
+  { keywords: ["ニャンちゅう"], brand: "ニャンちゅう" },
+  { keywords: ["ニャッキ"], brand: "ニャッキ！" },
+  { keywords: ["おじゃる丸"], brand: "おじゃる丸" },
+  { keywords: ["ぜんまいざむらい"], brand: "ぜんまいざむらい" },
+  { keywords: ["はなかっぱ"], brand: "はなかっぱ" },
+  { keywords: ["みいつけた"], brand: "みいつけた！" },
+  { keywords: ["ぐ〜チョコランタン"], brand: "ぐ〜チョコランタン" },
+  { keywords: ["モリゾーとキッコロ"], brand: "モリゾーとキッコロ" },
+  { keywords: ["こんなこいるかな"], brand: "こんなこいるかな" },
+  { keywords: ["コロコロコミック"], brand: "コロコロコミック" },
+  { keywords: ["週刊少年ジャンプ"], brand: "週刊少年ジャンプ" },
+  { keywords: ["おしゅしだよ"], brand: "おしゅしだよ" },
+  { keywords: ["にしむらゆうじ"], brand: "にしむらゆうじ" },
+  { keywords: ["パンクドランカーズ"], brand: "パンクドランカーズ" },
+  { keywords: ["水森亜土"], brand: "水森亜土" },
+  { keywords: ["お茶犬"], brand: "お茶犬" },
+  { keywords: ["平成ファンシー"], brand: "平成ファンシー" },
+  { keywords: ["ナルミヤ"], brand: "ナルミヤ" },
+  { keywords: ["夢限大みゅーたいぷ"], brand: "夢限大みゅーたいぷ" },
+  { keywords: ["スーパー戦隊"], brand: "スーパー戦隊" },
+  { keywords: ["不思議の国のアリス"], brand: "不思議の国のアリス" },
+  // 音楽・アーティスト
+  { keywords: ["米津玄師"], brand: "米津玄師" },
+  { keywords: ["GLAY"], brand: "GLAY" },
+  { keywords: ["aespa"], brand: "aespa" },
+  { keywords: ["Kep1er"], brand: "Kep1er" },
+  { keywords: ["NCT WISH"], brand: "NCT WISH" },
+  { keywords: ["2PM"], brand: "2PM" },
+  // スポーツ
+  { keywords: ["MLB"], brand: "MLB" },
+  { keywords: ["NPB"], brand: "NPB" },
+  { keywords: ["B.LEAGUE"], brand: "B.LEAGUE" },
+  { keywords: ["RIZIN"], brand: "RIZIN" },
+  { keywords: ["サッカー日本代表"], brand: "サッカー日本代表" },
+  { keywords: ["日本ハムファイターズ"], brand: "北海道日本ハムファイターズ" },
+  { keywords: ["甲子園"], brand: "阪神甲子園球場" },
+  // 企業・食品ミニチュア（パッケージ系は元ブランド名で検索される）
+  { keywords: ["ペコちゃん"], brand: "不二家" },
+  { keywords: ["カップヌードル"], brand: "カップヌードル" },
+  { keywords: ["チロルチョコ"], brand: "チロルチョコ" },
+  { keywords: ["ミンティア"], brand: "ミンティア" },
+  { keywords: ["meiji"], brand: "明治" },
+  { keywords: ["ニチレイ"], brand: "ニチレイ" },
+  { keywords: ["ヤシノミ洗剤"], brand: "ヤシノミ洗剤" },
+  { keywords: ["シュガーバターサンドの木"], brand: "シュガーバターサンドの木" },
+  { keywords: ["富士ホーロー"], brand: "富士ホーロー" },
+  { keywords: ["Pigeon"], brand: "ピジョン" },
+  // ストリーマー・eスポーツ
+  { keywords: ["ドズル社"], brand: "ドズル社" },
+  { keywords: ["CRAZY RACCOON"], brand: "CRAZY RACCOON" },
+  { keywords: ["赤見かるび"], brand: "赤見かるび" },
 ];
 
 // カテゴリタグ除外リスト（ブランドではないタグ）
@@ -317,6 +407,45 @@ const SLUG_MAP = {
   "SILENT HILL": "silenthill", "NEEDY GIRL OVERDOSE": "needygirl",
   "テレタビーズ": "teletubbies", "正反対な君と僕": "seihantai",
   "スノウボールアース": "snowballearth", "春夏秋冬代行者": "daikousha",
+  // 2026-08 追加分
+  "どうぶつの森": "animalcrossing", "とっとこハム太郎": "hamtaro",
+  "ブルーイ": "bluey", "パックマン": "pacman", "MOTHER2": "mother2",
+  "スーパーマン": "superman", "BT21": "bt21", "宇宙兄弟": "uchukyodai",
+  "氷の城壁": "koorinojouheki",
+  "スーパーの裏でヤニ吸うふたり": "yanifutari",
+  "少年アシベ": "ashibe", "花ざかりの君たちへ": "hanakimi",
+  "うちの3姉妹": "uchino3shimai", "マリッジトキシン": "marriagetoxin",
+  "Sky 星を紡ぐ子どもたち": "skychildren", "PICO PARK": "picopark",
+  "Duolingo": "duolingo", "LOVOT": "lovot", "Polly Pocket": "pollypocket",
+  // BE@RBRICK は自動生成だと "@" が落ちて berbrick になるため明示する
+  "BE@RBRICK": "bearbrick",
+  "PEZ": "pez", "UNO": "uno", "パワプロ": "powerpro",
+  "ハイパーヨーヨー": "hyperyoyo", "どこでもいっしょ": "dokodemoissho",
+  "チャギントン": "chuggington", "ニャンちゅう": "nyanchu",
+  "ニャッキ！": "nyakki", "おじゃる丸": "ojarumaru",
+  "ぜんまいざむらい": "zenmaizamurai", "はなかっぱ": "hanakappa",
+  "みいつけた！": "miitsuketa", "ぐ〜チョコランタン": "guchocolantan",
+  "モリゾーとキッコロ": "morizokkoro", "こんなこいるかな": "konnakoirukana",
+  "コロコロコミック": "corocoro", "週刊少年ジャンプ": "shonenjump",
+  "おしゅしだよ": "oshushidayo", "にしむらゆうじ": "nishimurayuji",
+  "パンクドランカーズ": "punkdrunkers", "水森亜土": "mizumoriado",
+  "お茶犬": "ochaken", "平成ファンシー": "heiseifancy", "ナルミヤ": "narumiya",
+  "夢限大みゅーたいぷ": "mugendaimutype", "スーパー戦隊": "supersentai",
+  "不思議の国のアリス": "alice",
+  // 音楽・アーティスト
+  "米津玄師": "yonezukenshi", "GLAY": "glay", "aespa": "aespa",
+  "Kep1er": "kep1er", "NCT WISH": "nctwish", "2PM": "2pm",
+  // スポーツ
+  "MLB": "mlb", "NPB": "npb", "B.LEAGUE": "bleague", "RIZIN": "rizin",
+  "サッカー日本代表": "soccerjapan",
+  "北海道日本ハムファイターズ": "fighters", "阪神甲子園球場": "koshien",
+  // 企業・食品ミニチュア
+  "不二家": "fujiya", "カップヌードル": "cupnoodle", "チロルチョコ": "tirol",
+  "ミンティア": "mintia", "明治": "meiji", "ニチレイ": "nichirei",
+  "ヤシノミ洗剤": "yashinomi", "シュガーバターサンドの木": "sugarbutter",
+  "富士ホーロー": "fujihoro", "ピジョン": "pigeon",
+  // ストリーマー・eスポーツ
+  "ドズル社": "dozle", "CRAZY RACCOON": "crazyraccoon", "赤見かるび": "akamikarubi",
 };
 
 export function toBrandSlug(brand) {
