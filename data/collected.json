@@ -3597,7 +3597,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "カラフルピーチ",
-    "types": null
+    "types": 5
   },
   {
     "title": "カラフルピーチ うるるん隊2",
@@ -4581,7 +4581,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第2週",
     "brand": "コジコジ",
-    "types": null
+    "types": 5
   },
   {
     "title": "Dr.MORICKY toymini series めじるしアクセサリー",
@@ -4869,7 +4869,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "ドラゴンクエスト",
-    "types": null
+    "types": 4
   },
   {
     "title": "日曜劇場『VIVANT』 まちぼうけ",
