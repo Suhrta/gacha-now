@@ -1413,7 +1413,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第3週",
     "brand": "MLB",
-    "types": null
+    "types": 6
   },
   {
     "title": "TOY STORY サウンドロップ",
@@ -3069,7 +3069,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "仮面ライダー",
-    "types": 6
+    "types": null
   },
   {
     "title": "角醒ハンター オメガホーン GPエゴルギア01",
