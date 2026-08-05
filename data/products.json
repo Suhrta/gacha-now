@@ -1,5 +1,176 @@
 [
   {
+    "id": "gacha-19da94a3",
+    "name": "リロ＆スティッチ ゆらゆらつながるマスコット",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "8月 10日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903403_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903403_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903403",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-05T09:07:45.379Z"
+  },
+  {
+    "id": "-hideseek--08aca824",
+    "name": "コスチュームベイマックス Hide&Seek かくれんぼフィギュア",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "8月 10日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904479_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904479_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904479",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-05T09:07:45.379Z"
+  },
+  {
+    "id": "-hideseek--1ce10fd2",
+    "name": "トイ・ストーリー　Hide&Seek かくれんぼフィギュア アンディのおもちゃ オールスターズ",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 8,
+    "releaseWeek": "8月 10日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909481_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909481_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909481",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-05T09:07:45.379Z"
+  },
+  {
+    "id": "gacha-2daeccb5",
+    "name": "パワーパフガールズ めじるしガチャマスコット",
+    "brand": "パワーパフガールズ",
+    "brandSlug": "powerpuff",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "8月",
+    "color": "#d5e599",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y091636_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y091636_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y091636",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-05T09:07:45.379Z"
+  },
+  {
+    "id": "gacha-373343e7",
+    "name": "ポケモン ニャースいっぱいコレクション",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "8月",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902987_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902987_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902987",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-05T09:07:45.379Z"
+  },
+  {
+    "id": "fig--34ea60d7",
+    "name": "肩ズンFig. シュガー・ラッシュ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "8月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903380_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903380_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903380",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-05T09:07:45.379Z"
+  },
+  {
+    "id": "fig--58fa31f5",
+    "name": "肩ズンFig. カーズ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "8月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905179_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905179_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905179",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-05T09:07:45.379Z"
+  },
+  {
+    "id": "fig--06a02861",
+    "name": "肩ズンFig. ディズニープリンセス",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "8月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906039_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906039_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906039",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-05T09:07:45.379Z"
+  },
+  {
+    "id": "fig-in--4bb3d772",
+    "name": "肩ズンFig. ズートピア in サバンナ・セントラル",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "8月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909580_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909580_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909580",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-05T09:07:45.379Z"
+  },
+  {
     "id": "gacha-32036e66",
     "name": "ホイッピ＆ラッピ めじるしアクセサリー",
     "brand": "その他",
