@@ -54,7 +54,7 @@ const GENERIC_BRANDS = new Set(["その他", "New", "キャラクター"]);
 
 // 既存の説明文がこの文字数未満なら作り直す。
 // 旧版は40〜80文字仕様だったため、既存分もすべてこの閾値を下回る。
-const MIN_LENGTH = 120;
+const MIN_LENGTH = Number(process.env.MIN_LENGTH || 120);
 
 const LIMIT = process.env.LIMIT ? Number(process.env.LIMIT) : Infinity;
 const DRY_RUN = !!process.env.DRY_RUN;
