@@ -283,6 +283,80 @@ export const BRAND_MAP = [
   { keywords: ["ドズル社"], brand: "ドズル社" },
   { keywords: ["CRAZY RACCOON"], brand: "CRAZY RACCOON" },
   { keywords: ["赤見かるび"], brand: "赤見かるび" },
+
+  // ── 2026-08-06 追加分（第2次棚卸し）─────────────────────────
+  // 残り135件の「その他」を再棚卸しした結果。前ブロックと同じ理由で末尾に置く。
+
+  // 【表記ゆれによる取りこぼしの修正】
+  // 既にBRAND_MAPに存在するブランドなのに、商品名の表記が違うため
+  // その他に落ちて noindex されていたもの。
+  // "Esther Bunny"（空白あり）しか登録がなく "EstherBunny" が漏れていた
+  { keywords: ["EstherBunny"], brand: "エスターバニー" },
+  // ナルミヤ傘下のレーベル名で出品されるため、ブランド名では拾えない
+  { keywords: ["メゾピアノ", "ポンポネット"], brand: "ナルミヤ" },
+  // "NANA" 単体は BANANA FISH に誤爆するため、商品名側で限定する
+  { keywords: ["NANA CD"], brand: "矢沢あい" },
+
+  // 実写・映像IP
+  { keywords: ["踊る大捜査線"], brand: "踊る大捜査線" },
+  { keywords: ["映画泥棒"], brand: "NO MORE映画泥棒" },
+  { keywords: ["What’s Michael", "What's Michael"], brand: "What's Michael?" },
+  { keywords: ["ゴジにゃ"], brand: "ゴジにゃ。" },
+  { keywords: ["仮面にゃいだー"], brand: "仮面にゃいだー" },
+
+  // 音楽・アーティスト
+  { keywords: ["IVE FROM"], brand: "IVE" },
+  { keywords: ["kikuo"], brand: "きくお" },
+
+  // 企業・自動車ブランド（パッケージ／ミニチュア系は元ブランド名で検索される）
+  { keywords: ["NISSAN", "GT-R"], brand: "日産" },
+  { keywords: ["MAZDA", "RX-7"], brand: "マツダ" },
+  { keywords: ["ミズノ"], brand: "ミズノ" },
+  { keywords: ["CHUMS"], brand: "CHUMS" },
+  { keywords: ["コラショ"], brand: "コラショ" },
+  { keywords: ["wiggle wiggle"], brand: "wiggle wiggle" },
+  { keywords: ["JOGUMAN"], brand: "JOGUMAN" },
+  { keywords: ["ファグラー"], brand: "ファグラー" },
+  { keywords: ["onちゃん"], brand: "onちゃん" },
+  { keywords: ["東京ラーメンストリート"], brand: "東京ラーメンストリート" },
+
+  // 作家・イラストレーター（作家名で指名検索される）
+  { keywords: ["はしもとみお"], brand: "はしもとみお" },
+  { keywords: ["てらおかなつみ"], brand: "てらおかなつみ" },
+  { keywords: ["よこみぞゆり"], brand: "よこみぞゆり" },
+  { keywords: ["森口修"], brand: "森口修" },
+  { keywords: ["タカハシカオリ"], brand: "タカハシカオリ" },
+  { keywords: ["KIYATA"], brand: "KIYATA" },
+
+  // メーカー人気シリーズ（IPではないがシリーズ名単独で検索される）
+  { keywords: ["Lil ala mode"], brand: "Lil ala mode" },
+  { keywords: ["紙袋に入った猫"], brand: "紙袋に入った猫" },
+  { keywords: ["あそべる生物フィギュア"], brand: "あそべる生物フィギュアシリーズ" },
+  { keywords: ["わんちゃあぁぁん"], brand: "わんちゃあぁぁん" },
+  { keywords: ["猫ちゃあぁぁん"], brand: "猫ちゃあぁぁん" },
+  { keywords: ["VIRUSWEETS"], brand: "VIRUSWEETS" },
+  { keywords: ["MINITEEN"], brand: "MINITEEN" },
+  { keywords: ["角醒ハンター", "オメガホーン"], brand: "角醒ハンター オメガホーン" },
+  { keywords: ["まてぼうけ"], brand: "まてぼうけ" },
+  { keywords: ["こぼすシリーズ"], brand: "こぼすシリーズ" },
+  { keywords: ["ムキムキのハムちゃん"], brand: "ムキムキのハムちゃん" },
+  { keywords: ["ひま太郎"], brand: "ひまのかたまり ひま太郎" },
+  { keywords: ["芝犬ヶ丘"], brand: "芝犬ヶ丘" },
+  { keywords: ["ニャニィニュニェニョン"], brand: "ニャニィニュニェニョン" },
+  { keywords: ["タイニーチャム"], brand: "タイニーチャム" },
+  { keywords: ["デュラハンボーイ"], brand: "デュラハンボーイ" },
+  { keywords: ["こむしちゃん"], brand: "こむしちゃんのかんづめ!" },
+  { keywords: ["フレブルフレンズ"], brand: "フレブルフレンズ" },
+  { keywords: ["おしりを見せてくれる犬"], brand: "おしりを見せてくれる犬" },
+  { keywords: ["やさいのようせい"], brand: "やさいのようせい" },
+  { keywords: ["うんたねこ"], brand: "うんたねこ" },
+  { keywords: ["パーフェクトピギー"], brand: "パーフェクトピギー" },
+  { keywords: ["蕾狐", "つぼみっこ"], brand: "蕾狐 -つぼみっこ-" },
+  { keywords: ["ばあちゃんちの昭和レトロライト"], brand: "昭和レトロライト" },
+  { keywords: ["えんぴつけずり森の家"], brand: "えんぴつけずり森の家" },
+  { keywords: ["コスチュームエイリアン"], brand: "コスチュームエイリアン" },
+  { keywords: ["伝説の御神輿"], brand: "伝説の御神輿" },
+  { keywords: ["ふっくら福福すずめ"], brand: "ふっくら福福すずめ" },
 ];
 
 // カテゴリタグ除外リスト（ブランドではないタグ）
@@ -446,6 +520,33 @@ const SLUG_MAP = {
   "富士ホーロー": "fujihoro", "ピジョン": "pigeon",
   // ストリーマー・eスポーツ
   "ドズル社": "dozle", "CRAZY RACCOON": "crazyraccoon", "赤見かるび": "akamikarubi",
+  // 2026-08-06 追加分（第2次棚卸し）
+  // 日本語のみのブランド名は未登録だと brand-xxxx のハッシュslugになるため必ず書く
+  "踊る大捜査線": "odoru", "NO MORE映画泥棒": "eigadorobo",
+  "What's Michael?": "whatsmichael", "ゴジにゃ。": "gojinya",
+  "仮面にゃいだー": "kamennyaider", "IVE": "ive", "きくお": "kikuo",
+  "日産": "nissan", "マツダ": "mazda", "ミズノ": "mizuno",
+  "CHUMS": "chums", "コラショ": "korasho", "wiggle wiggle": "wigglewiggle",
+  "JOGUMAN": "joguman", "ファグラー": "fuggler", "onちゃん": "onchan",
+  "東京ラーメンストリート": "tokyoramenstreet",
+  "はしもとみお": "hashimotomio", "てらおかなつみ": "teraokanatsumi",
+  "よこみぞゆり": "yokomizoyuri", "森口修": "moriguchiosamu",
+  "タカハシカオリ": "takahashikaori", "KIYATA": "kiyata",
+  "Lil ala mode": "lilalamode", "紙袋に入った猫": "kamibukuroneko",
+  "あそべる生物フィギュアシリーズ": "asoberuseibutsu",
+  "わんちゃあぁぁん": "wanchaan", "猫ちゃあぁぁん": "nekochaan",
+  "VIRUSWEETS": "virusweets", "MINITEEN": "miniteen",
+  "角醒ハンター オメガホーン": "omegahorn", "まてぼうけ": "mateboke",
+  "こぼすシリーズ": "kobosu", "ムキムキのハムちゃん": "mukimukihamchan",
+  "ひまのかたまり ひま太郎": "himataro", "芝犬ヶ丘": "shibainugaoka",
+  "ニャニィニュニェニョン": "nyanyinyunyenyon", "タイニーチャム": "tinycham",
+  "デュラハンボーイ": "dullahanboy", "こむしちゃんのかんづめ!": "komushichan",
+  "フレブルフレンズ": "freblefriends", "おしりを見せてくれる犬": "oshiriinu",
+  "やさいのようせい": "yasainoyousei", "うんたねこ": "untaneko",
+  "パーフェクトピギー": "perfectpiggy", "蕾狐 -つぼみっこ-": "tsubomikko",
+  "昭和レトロライト": "showaretrolight", "えんぴつけずり森の家": "enpitsukezuri",
+  "コスチュームエイリアン": "costumealien", "伝説の御神輿": "densetsunomikoshi",
+  "ふっくら福福すずめ": "fukufukusuzume",
 };
 
 export function toBrandSlug(brand) {
