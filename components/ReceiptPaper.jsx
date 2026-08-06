@@ -398,26 +398,23 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
             {/* 商品名（デスクトップ・✕は上段） */}
             <div className="hidden md:block">{nameRowDesktop}</div>
 
-            {/* 説明文 */}
-            {product.description && (
+            {/* 説明文は1つだけ表示する。
+                公式紹介文とAI生成文を併記したところ、同じことを2回言っていて
+                読み手には区別がつかなかったため統合した（2026-08-07）。
+                公式があればそれを使う（一次情報で事実として強い）。無い商品は
+                AI生成文にフォールバックする。
+                なお meta description には常に AI生成文（product.description）を使う。
+                公式文をそのまま meta に入れるとメーカー公式サイトと重複するため。 */}
+            {(product.officialDescription || product.description) && (
               <div className="mb-2" style={{ padding: "6px 10px", background: "#FFF4E8", borderRadius: 8, border: "1px solid #F0E6D6" }}>
                 <div className="font-sans text-[10px] md:text-sm" style={{ color: "#6B5B4E", lineHeight: 1.7 }}>
-                  💬 {product.description}
+                  💬 {product.officialDescription || product.description}
                 </div>
-              </div>
-            )}
-
-            {/* メーカー公式の紹介文。
-                出典を明示して引用の体裁にする。AI生成の説明文と役割が違うので併記し、
-                置き換えはしない（公式＝一次情報、上の説明文＝当サイトの要約）。 */}
-            {product.officialDescription && (
-              <div className="mb-2" style={{ padding: "6px 10px", background: "#F5F7FA", borderRadius: 8, border: "1px solid #E3E8EF" }}>
-                <div className="font-sans text-[9px] md:text-[11px] mb-1" style={{ color: "#8A94A6" }}>
-                  {(product.source || "メーカー").replace(/公式$/, "")}公式より
-                </div>
-                <div className="font-sans text-[10px] md:text-sm" style={{ color: "#5A6472", lineHeight: 1.7 }}>
-                  {product.officialDescription}
-                </div>
+                {product.officialDescription && (
+                  <div className="font-sans text-[9px] md:text-[10px] mt-1.5 text-right" style={{ color: "#A89880" }}>
+                    出典: {(product.source || "メーカー").replace(/公式$/, "")}公式サイト
+                  </div>
+                )}
               </div>
             )}
 
