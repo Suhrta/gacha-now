@@ -52,7 +52,7 @@ export default function SeriesLayout({ children, params }) {
   };
 
   // ページに表示しているQ&Aと同じ文面を構造化データにする（lib/hub-info.js が共通の元）
-  const info = buildHubInfo({ name: series.name, items });
+  const info = buildHubInfo({ name: series.name, items, intro: series.intro });
   const faqLd = info ? buildFaqLd(info.faq) : null;
 
   return (

@@ -1,6 +1,7 @@
 import products from "../../../data/products.json";
 import { isLowValueBrandPage } from "../../../lib/quality";
 import { buildHubInfo, buildFaqLd } from "../../../lib/hub-info";
+import { getBrandIntro } from "../../../data/character-intros";
 
 export function generateMetadata({ params }) {
   const brandProducts = products.filter((p) => p.brandSlug === params.slug);
@@ -52,7 +53,7 @@ export default function BrandLayout({ children, params }) {
   };
 
   // ページに表示しているQ&Aと同じ文面を構造化データにする（lib/hub-info.js が共通の元）
-  const info = buildHubInfo({ name: brandName, items });
+  const info = buildHubInfo({ name: brandName, items, intro: getBrandIntro(params.slug) });
   const faqLd = info ? buildFaqLd(info.faq) : null;
 
   return (

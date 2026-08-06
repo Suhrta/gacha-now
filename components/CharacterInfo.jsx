@@ -9,15 +9,19 @@ import { buildHubInfo } from "../lib/hub-info";
 // 各 layout.jsx が同じ関数から FAQPage の構造化データを組み立てるため、
 // ここの文面を変えると検索エンジンへの申告も自動で追従する（食い違わない）。
 export default function CharacterInfo({ name, items, intro }) {
-  const info = buildHubInfo({ name, items });
+  const info = buildHubInfo({ name, items, intro });
   if (!info) return null;
 
   const { stats, faq } = info;
 
   return (
     <section className="relative z-[1] mb-5 bg-white rounded-xl border-2 border-cream-border p-4" style={{ boxShadow: "0 4px 16px rgba(74,55,40,0.06)" }}>
+      {/* 解説文がある場合は「○○とは？」を見出しにする。
+          「フロッキーマスコットとは」等の定義を求めるクエリが170表示あるのに
+          クリック0だった（GSC 2026-08-07）。答えは intro に書いてあったが、
+          見出しが「最新情報」だったため答えるページだと伝わっていなかった。 */}
       <h2 className="text-sm font-bold text-brand-text mb-2">
-        {name}のガチャガチャ・カプセルトイ最新情報
+        {intro ? `${name}とは？` : `${name}のガチャガチャ・カプセルトイ最新情報`}
       </h2>
 
       {intro && (
