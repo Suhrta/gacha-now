@@ -407,11 +407,48 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
               </div>
             )}
 
+            {/* メーカー公式の紹介文。
+                出典を明示して引用の体裁にする。AI生成の説明文と役割が違うので併記し、
+                置き換えはしない（公式＝一次情報、上の説明文＝当サイトの要約）。 */}
+            {product.officialDescription && (
+              <div className="mb-2" style={{ padding: "6px 10px", background: "#F5F7FA", borderRadius: 8, border: "1px solid #E3E8EF" }}>
+                <div className="font-sans text-[9px] md:text-[11px] mb-1" style={{ color: "#8A94A6" }}>
+                  {(product.source || "メーカー").replace(/公式$/, "")}公式より
+                </div>
+                <div className="font-sans text-[10px] md:text-sm" style={{ color: "#5A6472", lineHeight: 1.7 }}>
+                  {product.officialDescription}
+                </div>
+              </div>
+            )}
+
+            {/* ラインナップ（収録内容）。
+                キャラクター名が入るため「○○ ガチャ」級の検索面をこのページが持てる。
+                掲載しているメーカーが限られるので、取れている商品だけ表示する。 */}
+            {isPage && product.lineup?.length > 0 && (
+              <div className="mb-2" style={{ padding: "8px 10px", background: "#FFFDF7", borderRadius: 8, border: "1px solid #F0E6D6" }}>
+                <h2 className="font-sans font-bold text-[11px] md:text-sm mb-1.5" style={{ color: "#6B5B4E" }}>
+                  ラインナップ全{product.lineup.length}種
+                </h2>
+                <ul className="font-sans text-[10px] md:text-sm m-0 pl-0 list-none" style={{ color: "#6B5B4E", lineHeight: 1.9 }}>
+                  {product.lineup.map((name) => (
+                    <li key={name} className="flex gap-1.5">
+                      <span style={{ color: "#C9B79C" }}>◆</span>
+                      <span>{name}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
             <div className="border-b border-dashed border-cream-border mb-1.5 md:mb-3" />
 
             {[
               { l: "価格", v: `¥${product.price}` },
               ...(product.types ? [{ l: "種類", v: `全${product.types}種` }] : []),
+              // サイズ・対象年齢は収集元の公式ページから取得した一次情報
+              // （scripts/official-info.js）。掲載が無いメーカーもあるので都度判定する。
+              ...(product.size ? [{ l: "サイズ", v: product.size }] : []),
+              ...(product.ageRating ? [{ l: "対象年齢", v: product.ageRating }] : []),
               { l: "発売", v: product.releaseWeek },
             ].map((r) => (
               <div key={r.l} className="flex justify-between py-1.5 md:py-2 border-b border-dotted border-cream-border">

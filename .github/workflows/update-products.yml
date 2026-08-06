@@ -67,6 +67,20 @@ jobs:
       - name: Re-detect brands for existing products
         run: node scripts/rebrand.js
 
+      # 収集元の公式ページから一次情報（公式紹介文・サイズ・ラインナップ内訳・対象年齢）を取得する。
+      # collect.js は一覧ページからしか情報を取っておらず、これらは商品詳細ページ側にある。
+      # 特に「ラインナップ内訳」は収録キャラ名が入るため、商品ページが
+      # 「○○ ガチャ」級のロングテールを持てるようになる（2026-08-07 追加）。
+      #
+      # 未取得のものだけを対象にするので、毎日の実行では新商品ぶんしか叩かない。
+      # gashapon.jp はまとめて叩くとレート制限に掛かるため既定を2並列/500msにしている。
+      #
+      # continue-on-error: 収集元の一時的な不調でパイプライン全体を止めない
+      # （取れなかった商品は翌日の実行で再挑戦される）。
+      - name: Enrich with official product info
+        continue-on-error: true
+        run: node scripts/enrich-official.js
+
       # 各商品の楽天「コンプセット/予約」検索クエリを楽天APIで検証して生成
       # （0件・無関係リンクを出さない。新商品と古い項目だけAPIを叩くので軽量）
       #
