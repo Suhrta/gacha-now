@@ -21,6 +21,20 @@ export function generateStaticParams() {
 // 本物の404を返す（ソフト404を防ぐ）
 export const dynamicParams = false;
 
+// 上限内に収まる最後の句点までを返す。
+//
+// 単純な slice だと語の途中で切れ、直後に連結される価格とくっついて
+// 「…ミニチュアフィギュアチ¥400・全9種」のようにSERPで意味が通らなくなる。
+// description の平均が29文字だった頃は80文字に届かず発動しなかったが、
+// 2026-08-07に平均129文字へ伸ばしたことで全商品で顕在化した。
+function clampToSentence(text, max) {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max);
+  const lastPeriod = cut.lastIndexOf("。");
+  // 1文目すら収まらない場合だけ文字数で切り、切れていることを示す
+  return lastPeriod > 0 ? cut.slice(0, lastPeriod + 1) : `${cut}… `;
+}
+
 export function generateMetadata({ params }) {
   const product = products.find((p) => p.id === params.id);
   if (!product) return { title: "商品が見つかりません | ガチャなう" };
@@ -32,7 +46,7 @@ export function generateMetadata({ params }) {
   const releaseTag = released ? "発売中" : `${product.releaseWeek}発売`;
   // 汎用テンプレより実際の商品紹介文の方がSERPで訴求できるため優先して使う
   const descLead = product.description
-    ? product.description.slice(0, 80)
+    ? clampToSentence(product.description, 80)
     : `${product.name}（${product.brand}）のカプセルトイ。`;
   return {
     title: `${product.name}｜¥${product.price}${typesText}【${releaseTag}】| ガチャなう`,
