@@ -45,7 +45,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第1週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 5
   },
   {
     "title": "プリキュアオールスターズ 変身めじるしアクセサリー",
@@ -5445,7 +5445,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
     "brand": "ディズニー",
-    "types": 4
+    "types": null
   },
   {
     "title": "TOY STORY5 めじるしアクセサリー",
@@ -5493,7 +5493,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "カラフルピーチ",
-    "types": 11
+    "types": null
   },
   {
     "title": "HG ONE PIECE 02",
