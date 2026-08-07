@@ -8136,6 +8136,19 @@
     "types": 5
   },
   {
+    "title": "きかんしゃトーマス ファニーなフェイスのめじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905797",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905797_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905797_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年8月",
+    "brand": "きかんしゃトーマス",
+    "types": 6
+  },
+  {
     "title": "ミニオンズ＆モンスターズ スタンドフィギュア",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905858",
     "source": "タカラトミーアーツ公式",
@@ -12008,5 +12021,31 @@
     "releaseWeek": "2026年8月 下旬",
     "brand": "その他",
     "types": 5
+  },
+  {
+    "title": "TVアニメ「薫る花は凛と咲く」　カプセルラバーキーホルダー",
+    "url": "https://capsule.bushiroad-creative.com/product/10136/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/30163720/kaoruhana_rubberkey_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/30163720/kaoruhana_rubberkey_POP.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年12月 下旬",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "ハイキュー!!　みあげてすたぁマスコット 青葉城西高校・白鳥沢学園高校",
+    "url": "https://capsule.bushiroad-creative.com/product/10150/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/07121315/260731_HQ_miagete_aoba_shiratori_BCR_CP_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/07121315/260731_HQ_miagete_aoba_shiratori_BCR_CP_POP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年11月 下旬",
+    "brand": "ハイキュー",
+    "types": 4
   }
 ]
