@@ -189,7 +189,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "ミズノ",
-    "types": null
+    "types": 6
   },
   {
     "title": "忍たま乱太郎 まちぼうけ 六年生の段",
@@ -5829,7 +5829,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "【フラットガシャポン】サンリオキャラクターズ いちご新聞クリアラバーコースター",
@@ -7221,7 +7221,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第5週",
     "brand": "ウルトラマン",
-    "types": 5
+    "types": null
   },
   {
     "title": "ポケットモンスター スイングコレクション Type:Grass",
