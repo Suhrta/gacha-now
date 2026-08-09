@@ -2925,7 +2925,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "ガンダム",
-    "types": 4
+    "types": null
   },
   {
     "title": "機動戦士ガンダム EXVS.（エクストリームバーサス） あそーとコレクション",
@@ -5949,7 +5949,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "呪術廻戦",
-    "types": null
+    "types": 10
   },
   {
     "title": "パーフェクトピギー めじるしアクセサリー",
