@@ -789,7 +789,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第2週",
     "brand": "クレヨンしんちゃん",
-    "types": 8
+    "types": null
   },
   {
     "title": "カプキャラ　クレヨンしんちゃん4",
@@ -5637,7 +5637,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第4週",
     "brand": "その他",
-    "types": 10
+    "types": null
   },
   {
     "title": "meiji 乳製品シリーズミニチュアチャーム",
