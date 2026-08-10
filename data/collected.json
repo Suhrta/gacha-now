@@ -3813,7 +3813,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "マインクラフト",
-    "types": 6
+    "types": null
   },
   {
     "title": "にゃんこ大戦争 ふわふわマスコット",
@@ -3861,7 +3861,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第5週",
     "brand": "まちぼうけ",
-    "types": 5
+    "types": null
   },
   {
     "title": "HG ウルトラマン 新たなる戦い～ヴァージョンアップ・ファイト!～編",
@@ -4149,7 +4149,7 @@
     "price": 200,
     "releaseWeek": "2026年8月 第2週",
     "brand": "カラフルピーチ",
-    "types": 12
+    "types": null
   },
   {
     "title": "パワーパフ ガールズ カラフルマルチチャーム",
@@ -6285,7 +6285,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第4週",
     "brand": "ゴジにゃ。",
-    "types": null
+    "types": 4
   },
   {
     "title": "Fate/Grand Order 宝具コレクション",
