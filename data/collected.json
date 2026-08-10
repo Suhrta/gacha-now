@@ -3141,7 +3141,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "wiggle wiggle",
-    "types": null
+    "types": 6
   },
   {
     "title": "ちいかわ きゃらまかろん",
@@ -3645,7 +3645,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "スヌーピー",
-    "types": null
+    "types": 4
   },
   {
     "title": "ファグラー フロッキーチャーム",
@@ -8017,6 +8017,19 @@
     "types": 5
   },
   {
+    "title": "ポケモン プルバックマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y094149",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y094149_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y094149_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年8月",
+    "brand": "ポケモン",
+    "types": 4
+  },
+  {
     "title": "チャギントン フェイスウォッチコレクション",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y097232",
     "source": "タカラトミーアーツ公式",
@@ -8066,6 +8079,19 @@
     "price": 400,
     "releaseWeek": "2026年8月",
     "brand": "ミニオンズ",
+    "types": 4
+  },
+  {
+    "title": "ポケピース きらめきハートキーホルダー",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901133",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901133_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901133_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年8月",
+    "brand": "ポケモン",
     "types": 4
   },
   {
@@ -8210,6 +8236,19 @@
     "releaseWeek": "2026年8月",
     "brand": "踊る大捜査線",
     "types": 6
+  },
+  {
+    "title": "ポケモン 　ボールでゲット! ポケモンステッカーコレクション3",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908217",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908217_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908217_b.jpg"
+    ],
+    "price": 200,
+    "releaseWeek": "2026年8月",
+    "brand": "ポケモン",
+    "types": 5
   },
   {
     "title": "サンリオキャラクターズ ファッションリング オーロラコレクション2",
