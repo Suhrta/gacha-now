@@ -2925,7 +2925,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "ガンダム",
-    "types": null
+    "types": 4
   },
   {
     "title": "機動戦士ガンダム EXVS.（エクストリームバーサス） あそーとコレクション",
@@ -3141,7 +3141,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "wiggle wiggle",
-    "types": 6
+    "types": null
   },
   {
     "title": "ちいかわ きゃらまかろん",
@@ -3645,7 +3645,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "スヌーピー",
-    "types": 4
+    "types": null
   },
   {
     "title": "ファグラー フロッキーチャーム",
