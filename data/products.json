@@ -1,12 +1,115 @@
 [
   {
+    "id": "peanuts-i-like-color-face-pouc-5e1b2a13",
+    "name": "PEANUTS  I LIKE... Color Face Pouch",
+    "brand": "スヌーピー",
+    "brandSlug": "snoopy",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "8月 15日週",
+    "color": "#e5b699",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908187_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908187_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908187",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-11T23:34:19.126Z",
+    "officialDescription": "2026年のテーマである「PEANUTS I LIKE...」の表情やカラーを使用した、かわいさと実用性を備えたポーチです。サイドの「PEANUTS I LIKE...」ロゴ、カラフルなカラビナ、触り心地のよい生地など、高級感ある仕上がりとなっています。本体サイズは縦約11.5&times;横約11.5cm。ラインナップは「スヌーピーA」「スヌーピーB」「スヌーピーC」「スヌーピーD」「スヌーピーE」「スヌーピーF」の全6種。",
+    "lineup": [
+      "スヌーピーA",
+      "スヌーピーB",
+      "スヌーピーC",
+      "スヌーピーD",
+      "スヌーピーE",
+      "スヌーピーF"
+    ],
+    "description": "世界中で愛されるキャラクター、スヌーピーをモチーフにしたカプセルトイ「PEANUTS I LIKE... Color Face Pouch」がタカラトミーアーツより登場します。全6種で価格は1回500円、8月15日週からの発売が予定されています。"
+  },
+  {
+    "id": "gacha-683e17ff",
+    "name": "パンダの穴　美術缶",
+    "brand": "パンダの穴",
+    "brandSlug": "pandanoana",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "8月 24日週",
+    "color": "#90A4AE",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y092794_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y092794_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y092794",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-11T23:34:19.126Z",
+    "officialDescription": "ガチャブランド「パンダの穴」シリーズ第101弾！開缶で出会う、世界の名画たち。「美術缶」のラインナップは「モナ・リザ缶」「富嶽三十六景缶」「落穂ひろい缶」「ヴィーナス誕生缶」「叫び缶」の全5種。",
+    "lineup": [
+      "モナ・リザ缶",
+      "富嶽三十六景缶",
+      "落穂ひろい缶",
+      "ヴィーナス誕生缶",
+      "叫び缶"
+    ],
+    "description": "タカラトミーアーツから、パンダの穴の「美術缶」がカプセルトイとして登場します。全5種で、価格は1回500円です。発売時期は8月24日週が予定されています。"
+  },
+  {
+    "id": "chucky--0e7ff167",
+    "name": "CHUCKY ビッグサイズフィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": null,
+    "releaseWeek": "8月 24日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": null,
+    "images": [],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y879814",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-11T23:34:19.126Z"
+  },
+  {
+    "id": "-vol2-34b29dc8",
+    "name": "ファグラー もふもふポーシェット Vol.2",
+    "brand": "ファグラー",
+    "brandSlug": "fuggler",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "8月 24日週",
+    "color": "#e5c399",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909405_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909405_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909405",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-11T23:34:19.126Z",
+    "officialDescription": "\"テディベアに義歯を付けたらおもしろいかも！\"から誕生したキャラクター、「ファグラー」のもふもふポーシェット第2弾。裏面には「ファグラー」のお尻についているボタンが刺繍されており、両側のタグに手持ちの紐をつけるとポーチからポシェットになる2WAY仕様です。本体サイズは、縦約9&times;横約11.5cm。ラインナップは「アノイド」「スケッチー」「ワイドアイ」「グリングリン」「インデサイシブ」「ギャップトゥース」の全6種。",
+    "lineup": [
+      "アノイド",
+      "スケッチー",
+      "ワイドアイ",
+      "グリングリン",
+      "インデサイシブ",
+      "ギャップトゥース"
+    ],
+    "description": "タカラトミーアーツから、ファグラーの「もふもふポーシェット」シリーズ第2弾がカプセルトイに登場します。ラインナップは全6種で、1回の価格は500円です。発売時期は8月24日週が予定されています。"
+  },
+  {
     "id": "gacha-1da3975a",
     "name": "ポケモン プルバックマスコット",
     "brand": "ポケモン",
     "brandSlug": "pokemon",
     "price": 400,
     "types": 4,
-    "releaseWeek": "8月",
+    "releaseWeek": "8月 24日週",
     "color": "#FFD54F",
     "hot": true,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y094149_b.jpg",
@@ -41,7 +144,7 @@
     "collectedAt": "2026-08-10T04:34:40.479Z",
     "officialDescription": "ポケモンたちのピースなくらしを描いた「ポケピース」より、キラキラハートを持ったかわいいマスコットが登場。ハート部分はそれぞれ色の違うメタリック塗装で、両手にハートを抱えているピカチュウとポッチャマはほっぺがムニッとなっています。本体サイズは約3.5〜5cm。ラインナップはピカチュウポッチャマニャスパーヒバニーの全4種。",
     "size": "約3.5〜5cm",
-    "description": "世界的な人気を誇るモンスター育成ゲーム「ポケモン」のキャラクターをテーマにしたカプセルトイ、ポケピース きらめきハートキーホルダーがタカラトミーアーツから登場します。1回300円で全4種がラインナップされ、8月に発売予定です。"
+    "description": "世界的な人気を誇るゲーム・アニメ作品「ポケモン」より、ポケピース きらめきハートキーホルダーがカプセルトイに登場します。タカラトミーアーツから発売されるこのシリーズは全4種のラインナップで、1回の価格は300円です。発売時期は8月が予定されています。"
   },
   {
     "id": "gacha-29da0eb7",
@@ -156,7 +259,7 @@
     "brandSlug": "thomas",
     "price": 400,
     "types": 6,
-    "releaseWeek": "8月",
+    "releaseWeek": "8月 24日週",
     "color": "#a399e5",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905797_b.jpg",
@@ -681,7 +784,7 @@
     "brandSlug": "powerpuff",
     "price": 300,
     "types": 5,
-    "releaseWeek": "8月",
+    "releaseWeek": "8月 24日週",
     "color": "#d5e599",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y091636_b.jpg",
@@ -710,7 +813,7 @@
     "brandSlug": "pokemon",
     "price": 300,
     "types": 4,
-    "releaseWeek": "8月",
+    "releaseWeek": "8月 24日週",
     "color": "#FFD54F",
     "hot": true,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902987_b.jpg",
@@ -876,7 +979,7 @@
     "brandSlug": "sanrio",
     "price": 400,
     "types": 4,
-    "releaseWeek": "8月",
+    "releaseWeek": "8月 24日週",
     "color": "#F06292",
     "hot": true,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098741_b.jpg",
@@ -904,7 +1007,7 @@
     "brandSlug": "sanrio",
     "price": 300,
     "types": 5,
-    "releaseWeek": "8月",
+    "releaseWeek": "8月 24日週",
     "color": "#F06292",
     "hot": true,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905247_b.jpg",
@@ -2093,7 +2196,7 @@
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907821",
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-08-03T06:32:01.744Z",
-    "description": "タカラトミーアーツから、カプセルトイ「伝説の御神輿」が登場します。全5種のラインナップで、1回の価格は300円です。発売は8月15日週を予定しています。",
+    "description": "タカラトミーアーツから、カプセルトイ「伝説の御神輿」が登場します。全5種で、1回の価格は300円です。発売は8月15日週を予定しています。",
     "officialDescription": "誰もが知っているお祭りの象徴\"御神輿\"の、ありそうでなかった組み立て式のミニチュアモデルです。本体から屋根の上の大鳥、飾紐まで、代表的なお神輿のイメージに沿って、各部位を緻密なディテールで立体化しています。本体サイズは約W2.8&times;H6.8&times;D11.0cm。ラインナップは「赤の神輿」「黒の神輿」「赤透明の神輿」「黄透明の神輿」「白透明の神輿」の全5種。",
     "lineup": [
       "赤の神輿",
@@ -4678,7 +4781,7 @@
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770055689000",
     "source": "バンダイ公式",
     "collectedAt": "2026-08-01T06:01:12.872Z",
-    "description": "バンダイのカプセルトイ「ゴジにゃ。」が登場します。全4種のラインナップで、1回400円で楽しめます。発売時期は8月第4週を予定しています。ガチャガチャの新作として展開されるシリーズで、これからの登場が予定されています。",
+    "description": "バンダイから展開されているカプセルトイ「ゴジにゃ。」がラインナップに登場します。全4種で価格は1回400円、発売時期は8月第4週です。ガチャガチャとして各種取扱店舗に順次入荷される予定です。",
     "officialDescription": "ゴジラの新たなフロッキードールコレクションが登場！猫たちがゴジラをはじめ様々な怪獣になりきった姿を、オリジナルデザインで立体化！全種が肌触りに癒されるフロッキー加工仕様の豪華なアイテムです。更に猫の目は別プラパーツ（フロッキー加工なしのパーツ）を採用することで、異なる素材感が組み合わさった、ハイクオリティで可愛らしいビジュアルでお届けします！",
     "ageRating": "15才以上"
   },
@@ -6113,7 +6216,7 @@
     "brandSlug": "doraemon",
     "price": 500,
     "types": 4,
-    "releaseWeek": "8月",
+    "releaseWeek": "8月 24日週",
     "color": "#ac99e5",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903076_b.jpg",
@@ -6171,7 +6274,7 @@
     "brandSlug": "minions",
     "price": 400,
     "types": 4,
-    "releaseWeek": "8月",
+    "releaseWeek": "8月 24日週",
     "color": "#99e5d0",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905858_b.jpg",
@@ -7897,7 +8000,7 @@
     "sourceUrl": "https://capsule.bushiroad-creative.com/product/10068/",
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-07-15T04:35:03.096Z",
-    "description": "ブシロードクリエイティブより「氷の城壁」を題材にしたカプセルラバーキーホルダーがカプセルトイに登場します。全8種のラインナップで、価格は1回300円です。発売時期は9月下旬を予定しています。",
+    "description": "ブシロードクリエイティブより、氷の城壁のカプセルラバーキーホルダーがガチャガチャに登場します。全8種で、価格は1回300円です。発売時期は9月下旬を予定しています。",
     "officialDescription": "TVアニメ『氷の城壁』からカプセルラバーキーホルダーが登場！"
   },
   {
@@ -8149,7 +8252,7 @@
     "sourceUrl": "https://capsule.bushiroad-creative.com/product/9988/",
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-07-15T04:35:03.096Z",
-    "description": "ブシロードクリエイティブより、カプセルトイ「スーパーの裏でヤニ吸うふたり」が登場します。全6種のラインナップで、1回300円で楽しめます。発売は8月を予定しています。",
+    "description": "ブシロードクリエイティブより、カプセルトイ「スーパーの裏でヤニ吸うふたり」が登場します。全6種で価格は1回300円、8月発売予定です。",
     "officialDescription": "TVアニメ「スーパーの裏でヤニ吸うふたり」より、傘や小物につけられるアクリルマーカーが登場！"
   },
   {
@@ -10813,7 +10916,7 @@
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202048000",
     "source": "バンダイ公式",
     "collectedAt": "2026-07-01T07:18:08.575Z",
-    "description": "バンダイから登場したカプセルトイ「ヤバイTシャツ屋さん まちぼうけ」は、全5種のラインナップで1回400円にて展開されています。ガチャガチャとして現在発売中で、店頭のガチャガチャ機を通じて手に入れることができます。",
+    "description": "バンダイから登場したカプセルトイ「ヤバイTシャツ屋さん まちぼうけ」は、全5種のラインナップで発売中です。1回400円で楽しめるガチャガチャとして、ガチャなうでも取り扱っております。",
     "officialDescription": "ヤバイTシャツ屋さんがまちぼうけシリーズに登場！",
     "ageRating": "15才以上"
   },
@@ -15629,7 +15732,7 @@
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904813",
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-06-10T11:37:34.868Z",
-    "description": "タカラトミーアーツから、カプセルトイ「芝犬ヶ丘」が登場します。価格は1回300円で、全6種のラインナップです。発売時期は6月15日週を予定しています。",
+    "description": "タカラトミーアーツより、カプセルトイ「芝犬ヶ丘」が登場します。1回300円で全6種の展開となっており、6月15日週より稼働開始予定です。",
     "officialDescription": "アーツオリジナルの切り口で話題の「T-ARTS 超生物研究所」から新たな商品が登場！たくさんの柴犬が暮らす「芝犬ヶ丘」、そこに現れた大きくて愛らしい謎の生き物「芝犬」。ボリュームたっぷりの芝犬たちは、それぞれ口元や色味が異なっていて、1丁目の芝犬は口元がきりっと凛々しく、2丁目の芝犬はぽかんと口が開いており、3丁目の芝犬はベロをしまい忘れた姿となっています。芝の毛並みをイメージしてフロッキー加工が施されているほか、キュートな肉球やお尻にも注目です。本体サイズはW約5cm。ラインナップは「1丁目の芝犬（新緑）」「1丁目の芝犬（紅葉）」「2丁目の芝犬（新緑）」「2丁目の芝犬（紅葉）」「3丁目の芝犬（新緑）」「3丁目の芝犬（紅葉）」の全6種。",
     "lineup": [
       "1丁目の芝犬（新緑）",
@@ -21570,35 +21673,5 @@
     "description": "揺れる動きが楽しいバンダイのマスコットシリーズ「スイング」から、バンダイの人気キャラクター育成ゲーム「たまごっち」をモチーフにした「たまごっち UFOスイング」が登場します。カプセルトイとして全5種がラインアップされ、1回300円で楽しめます。発売は5月第5週の予定です。",
     "officialDescription": "たまごっちより、UFOにぶら下がる姿がかわいいスイングが登場♪UFOとキャラクターはカニカンで接続されているためキャラクターの付け替えも楽しめる！",
     "ageRating": "15才以上"
-  },
-  {
-    "id": "-vol2-74806490",
-    "name": "でふぉラバ! ディズニー ツイステッドワンダーランド ブルームバースデーvol.2",
-    "brand": "ディズニー",
-    "brandSlug": "disney",
-    "price": 300,
-    "types": 7,
-    "releaseWeek": "5月",
-    "color": "#CE93D8",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905315_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905315_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905315",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-05-11T11:00:05.014Z",
-    "description": "多くのファンを持つディズニー作品「ツイステッドワンダーランド」より、「でふぉラバ! ディズニー ツイステッドワンダーランド ブルームバースデーvol.2」がカプセルトイとして登場します。価格は1回300円で、全7種の展開です。発売時期は5月を予定しており、タカラトミーアーツより発売されます。",
-    "officialDescription": "タカラトミーアーツオリジナルのデフォルメシリーズ「でふぉラバ！」のイラストを使用した、『ディズニー ツイステッドワンダーランド』のラバーキーホルダー第2弾。「ブルームバースデー」の衣装を身にまとったクールなデザインに注目です。本体サイズは高さ約4.5m。ラインナップは「レオナ・キングスカラー（誕生日:7月）」「オルト・シュラウド（誕生日:8月）」「リドル・ローズハート（誕生日:8月）」「ジャミル・バイパー（誕生日:9月）」「エース・トラッポラ（誕生日:9月）」「ジャック・ハウル（誕生日:10月）」「トレイ・クローバー（誕生日:10月）」の全7種。",
-    "lineup": [
-      "レオナ・キングスカラー（誕生日:7月）",
-      "オルト・シュラウド（誕生日:8月）",
-      "リドル・ローズハート（誕生日:8月）",
-      "ジャミル・バイパー（誕生日:9月）",
-      "エース・トラッポラ（誕生日:9月）",
-      "ジャック・ハウル（誕生日:10月）",
-      "トレイ・クローバー（誕生日:10月）"
-    ]
   }
 ]

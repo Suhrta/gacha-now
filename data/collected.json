@@ -3597,7 +3597,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "カラフルピーチ",
-    "types": 5
+    "types": null
   },
   {
     "title": "カラフルピーチ うるるん隊2",
@@ -7952,6 +7952,19 @@
     "types": 5
   },
   {
+    "title": "PEANUTS  I LIKE... Color Face Pouch",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908187",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908187_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908187_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年8月 15日週",
+    "brand": "スヌーピー",
+    "types": 6
+  },
+  {
     "title": "おしてパカッと! パウ・パトロール　ザ・ダイノ・ムービー",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909023",
     "source": "タカラトミーアーツ公式",
@@ -8012,8 +8025,21 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y091636_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年8月",
+    "releaseWeek": "2026年8月 24日週",
     "brand": "パワーパフガールズ",
+    "types": 5
+  },
+  {
+    "title": "パンダの穴　美術缶",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y092794",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y092794_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y092794_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年8月 24日週",
+    "brand": "パンダの穴",
     "types": 5
   },
   {
@@ -8025,9 +8051,111 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y094149_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年8月",
+    "releaseWeek": "2026年8月 24日週",
     "brand": "ポケモン",
     "types": 4
+  },
+  {
+    "title": "ハローキティ かわいいおもちゃミニチュアチャーム",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098741",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098741_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098741_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年8月 24日週",
+    "brand": "サンリオ",
+    "types": 4
+  },
+  {
+    "title": "CHUCKY ビッグサイズフィギュア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y879814",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": null,
+    "images": [],
+    "price": null,
+    "releaseWeek": "2026年8月 24日週",
+    "brand": "その他",
+    "types": null
+  },
+  {
+    "title": "ポケモン ニャースいっぱいコレクション",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902987",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902987_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902987_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年8月 24日週",
+    "brand": "ポケモン",
+    "types": 4
+  },
+  {
+    "title": "ドラえもん ぬいぐるみマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903076",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903076_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903076_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年8月 24日週",
+    "brand": "ドラえもん",
+    "types": 4
+  },
+  {
+    "title": "サンリオキャラクターズ ぞうきんがけレースフィギュア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905247",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905247_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905247_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年8月 24日週",
+    "brand": "サンリオ",
+    "types": 5
+  },
+  {
+    "title": "きかんしゃトーマス ファニーなフェイスのめじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905797",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905797_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905797_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年8月 24日週",
+    "brand": "きかんしゃトーマス",
+    "types": 6
+  },
+  {
+    "title": "ミニオンズ＆モンスターズ スタンドフィギュア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905858",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905858_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905858_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年8月 24日週",
+    "brand": "ミニオンズ",
+    "types": 4
+  },
+  {
+    "title": "ファグラー もふもふポーシェット Vol.2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909405",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909405_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909405_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年8月 24日週",
+    "brand": "ファグラー",
+    "types": 6
   },
   {
     "title": "チャギントン フェイスウォッチコレクション",
@@ -8053,19 +8181,6 @@
     "price": 400,
     "releaseWeek": "2026年8月",
     "brand": "ぐ〜チョコランタン",
-    "types": 4
-  },
-  {
-    "title": "ハローキティ かわいいおもちゃミニチュアチャーム",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y098741",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y098741_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y098741_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年8月",
-    "brand": "サンリオ",
     "types": 4
   },
   {
@@ -8121,32 +8236,6 @@
     "types": 4
   },
   {
-    "title": "ポケモン ニャースいっぱいコレクション",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902987",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902987_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902987_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年8月",
-    "brand": "ポケモン",
-    "types": 4
-  },
-  {
-    "title": "ドラえもん ぬいぐるみマスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903076",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903076_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903076_b.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年8月",
-    "brand": "ドラえもん",
-    "types": 4
-  },
-  {
     "title": "肩ズンFig. シュガー・ラッシュ",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903380",
     "source": "タカラトミーアーツ公式",
@@ -8170,45 +8259,6 @@
     "price": 400,
     "releaseWeek": "2026年8月",
     "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "サンリオキャラクターズ ぞうきんがけレースフィギュア",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905247",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905247_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905247_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年8月",
-    "brand": "サンリオ",
-    "types": 5
-  },
-  {
-    "title": "きかんしゃトーマス ファニーなフェイスのめじるしガチャマスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905797",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905797_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905797_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年8月",
-    "brand": "きかんしゃトーマス",
-    "types": 6
-  },
-  {
-    "title": "ミニオンズ＆モンスターズ スタンドフィギュア",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905858",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905858_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905858_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年8月",
-    "brand": "ミニオンズ",
     "types": 4
   },
   {
