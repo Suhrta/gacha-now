@@ -3117,7 +3117,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "ディズニー",
-    "types": null
+    "types": 4
   },
   {
     "title": "wiggle wiggle めじるしアクセサリー",
@@ -3837,7 +3837,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第5週",
     "brand": "にゃんこ大戦争",
-    "types": null
+    "types": 4
   },
   {
     "title": "まちぼうけ 思い出の場合～夏～",
@@ -3933,7 +3933,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "アイカツ",
-    "types": null
+    "types": 6
   },
   {
     "title": "ディズニーツムツム めじるしアクセサリー",
@@ -4005,7 +4005,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第1週",
     "brand": "ワンピース",
-    "types": null
+    "types": 4
   },
   {
     "title": "HGD+ ゴジラ05",
@@ -6837,7 +6837,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第5週",
     "brand": "IVE",
-    "types": null
+    "types": 6
   },
   {
     "title": "東京ラーメンストリート ミニチュアフィギュアチャームコレクション01",
