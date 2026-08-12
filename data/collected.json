@@ -3117,7 +3117,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "ディズニー",
-    "types": 4
+    "types": null
   },
   {
     "title": "wiggle wiggle めじるしアクセサリー",
@@ -3165,7 +3165,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "ちいかわ",
-    "types": null
+    "types": 4
   },
   {
     "title": "アニメ「桜蘭高校ホスト部」 カプセルヘアクリップ",
@@ -3837,7 +3837,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第5週",
     "brand": "にゃんこ大戦争",
-    "types": 4
+    "types": null
   },
   {
     "title": "まちぼうけ 思い出の場合～夏～",
@@ -3933,7 +3933,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "アイカツ",
-    "types": 6
+    "types": null
   },
   {
     "title": "ディズニーツムツム めじるしアクセサリー",
@@ -4005,7 +4005,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第1週",
     "brand": "ワンピース",
-    "types": 4
+    "types": null
   },
   {
     "title": "HGD+ ゴジラ05",
@@ -6837,7 +6837,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第5週",
     "brand": "IVE",
-    "types": 6
+    "types": null
   },
   {
     "title": "東京ラーメンストリート ミニチュアフィギュアチャームコレクション01",
