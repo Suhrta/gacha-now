@@ -3165,7 +3165,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "ちいかわ",
-    "types": 4
+    "types": null
   },
   {
     "title": "アニメ「桜蘭高校ホスト部」 カプセルヘアクリップ",
@@ -3597,7 +3597,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "カラフルピーチ",
-    "types": null
+    "types": 5
   },
   {
     "title": "カラフルピーチ うるるん隊2",
