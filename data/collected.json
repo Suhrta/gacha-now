@@ -405,7 +405,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "ルーニー・テューンズ",
-    "types": null
+    "types": 5
   },
   {
     "title": "PEZ めじるしアクセサリー",
@@ -2541,7 +2541,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第4週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 5
   },
   {
     "title": "まちぼうけ 仮面ライダーの場合 その4",
@@ -7533,7 +7533,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第5週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "yeyeムンゲ ぬいぐるみクリップ",
