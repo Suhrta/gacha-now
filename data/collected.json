@@ -5613,7 +5613,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
     "brand": "アイカツ",
-    "types": 5
+    "types": null
   },
   {
     "title": "FIM’S CLUB つまんでつなげてますこっと でらっくす！",
@@ -5709,7 +5709,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "たまごっち",
-    "types": 6
+    "types": null
   },
   {
     "title": "なめこ栽培キット まちぼうけ",
