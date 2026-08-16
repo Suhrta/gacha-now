@@ -93,7 +93,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第1週",
     "brand": "ディズニー",
-    "types": 4
+    "types": null
   },
   {
     "title": "豆ガシャ本 サンリオキャラクターズ×朝日文庫 Ichigo Keywords２",
@@ -4989,7 +4989,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第2週",
     "brand": "ディズニー",
-    "types": 4
+    "types": null
   },
   {
     "title": "パペットスンスン アクリルスライドミラーコレクション",
@@ -5613,7 +5613,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
     "brand": "アイカツ",
-    "types": null
+    "types": 5
   },
   {
     "title": "FIM’S CLUB つまんでつなげてますこっと でらっくす！",
@@ -5709,7 +5709,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "たまごっち",
-    "types": null
+    "types": 6
   },
   {
     "title": "なめこ栽培キット まちぼうけ",
