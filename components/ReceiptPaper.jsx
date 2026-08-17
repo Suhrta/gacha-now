@@ -4,6 +4,8 @@ import NoImage from "./NoImage";
 import { rakutenSearchUrl, amazonSearchUrl, amazonQuery } from "../lib/affiliate";
 import { getStatus } from "../lib/product-status";
 import ProductName from "./ProductName";
+import ShareButtons from "./ShareButtons";
+import ExpandableText from "./ExpandableText";
 
 // rakuten-links.json はコンプセットバッジ表示にのみ使うため遅延読み込みする
 // （初回レシート表示時に非同期チャンクとして取得。初期バンドルには含めない）
@@ -391,6 +393,11 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
               </div>
             )}
 
+            {/* 共有（PC）。画像下に余白ができるカラムなので、ここを使う。
+                モバイルは1カラムで画像直下が商品情報になるため情報カラム末尾に出す。 */}
+            <div className="hidden md:block">
+              <ShareButtons product={product} placement={placement} variant="card" />
+            </div>
           </div>
 
           {/* 右カラム: 情報 */}
@@ -407,9 +414,14 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
                 公式文をそのまま meta に入れるとメーカー公式サイトと重複するため。 */}
             {(product.officialDescription || product.description) && (
               <div className="mb-2" style={{ padding: "6px 10px", background: "#FFF4E8", borderRadius: 8, border: "1px solid #F0E6D6" }}>
-                <div className="font-sans text-[10px] md:text-sm" style={{ color: "#6B5B4E", lineHeight: 1.7 }}>
+                {/* 長い紹介文は畳む。公式文は最大551字あり、そのまま出すと
+                    価格・発売日といった判断材料が画面外へ押し出されるため。 */}
+                <ExpandableText
+                  className="font-sans text-[10px] md:text-sm"
+                  style={{ color: "#6B5B4E", lineHeight: 1.7 }}
+                >
                   💬 {product.officialDescription || product.description}
-                </div>
+                </ExpandableText>
                 {product.officialDescription && (
                   <div className="font-sans text-[9px] md:text-[10px] mt-1.5 text-right" style={{ color: "#A89880" }}>
                     出典: {(product.source || "メーカー").replace(/公式$/, "")}公式サイト
@@ -467,6 +479,11 @@ export default function ReceiptPaper({ product, onClose, isPage = false, isFavor
                 )}
               </a>
             )}
+
+            {/* 共有（モバイル）。PCでは画像下の余白に枠付きで置くのでここには出さない */}
+            <div className="md:hidden">
+              <ShareButtons product={product} placement={placement} />
+            </div>
 
             {/* お気に入り・公式サイト・閉じる（最下部の小リンク） */}
             <div className="flex items-center justify-center gap-6 mt-2.5">

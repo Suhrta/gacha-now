@@ -58,6 +58,18 @@ export function generateMetadata({ params }) {
       description: `${product.brand}のカプセルトイ「${product.name}」¥${product.price}${typesText} ── ${releaseTag}`,
       images: [product.img],
     },
+    // twitter を指定しないと、ルートlayoutの汎用（サイト名・サイト説明）が
+    // そのまま継承され、X上で商品名が出ない。共有ボタンから飛ぶ先なので上書きする。
+    //
+    // card は summary（正方形サムネ）にしている。商品画像は正方形で、
+    // ラインナップ全種を縦に並べた構図が多く、summary_large_image の
+    // 1.91:1 センタークロップだと上下の種類が切り落とされるため。
+    twitter: {
+      card: "summary",
+      title: `${product.name}｜¥${product.price}${typesText}【${releaseTag}】`,
+      description: `${product.brand}のカプセルトイ「${product.name}」¥${product.price}${typesText} ── ${releaseTag}`,
+      images: [product.img],
+    },
   };
 }
 
