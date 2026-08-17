@@ -208,7 +208,10 @@ export default function HomePage() {
   const [favorites, setFavorites] = useState(new Set());
   const heroSearchRef = useRef(null);
   const touchStartX = useRef(0);
+  const touchStartY = useRef(0);
   const touchEndX = useRef(0);
+  // 横スクロールできる要素の上で始まった指の動きは、ブランド切替に横取りしない
+  const swipeIgnored = useRef(false);
 
   const { available, newCount, total } = getLiveCounts();
 
@@ -260,24 +263,57 @@ export default function HomePage() {
     return () => mq.removeEventListener("change", apply);
   }, []);
 
+  // タブを切り替えたら1ページ目に戻すが、スクロール位置はそのままにする。
+  // 一覧を見ている途中でタブを押すと先頭へ飛ばされ、押したタブ自体が画面外へ
+  // 出てしまうため、ページが再読み込みされたように感じられていた（2026-08-18）。
+  useEffect(() => {
+    setPage(1);
+  }, [brand, statusTab]);
+
+  // 検索だけは先頭へ戻す。ヘッダーは sticky でどこからでも検索できるので、
+  // 結果が出たときに一覧のどこにいるか分からなくなるのを避ける。
   useEffect(() => {
     setPage(1);
     window.scrollTo(0, 0);
-  }, [brand, statusTab, searchQuery]);
+  }, [searchQuery]);
+
+  // 指を置いた位置から <main> までの間に、横スクロールできる要素があるか。
+  //
+  // ブランドタブやステータスタブは横スクロールする帯なので、そこを送る指の動きは
+  // 「タブを見せて」であって「隣のブランドに切り替えて」ではない。両方が反応すると、
+  // タブを1つ横へ送るたびにブランドが変わり、先頭スクロール＋一覧の再描画が走って
+  // ページが再読み込みされたように見えていた（2026-08-17 に報告）。
+  //
+  // 個々の要素に印を付ける代わりにCSSの overflow-x で判定する。後から横スクロール
+  // する帯を足したときに、ここへの追記を忘れて同じ不具合が再発しないようにするため。
+  //
+  // 「今この幅で実際に溢れているか」は見ない。ステータスタブのように画面幅次第で
+  // 溢れたり溢れなかったりする帯があり、幅で判定すると端末によって挙動が変わるため。
+  const startedInHorizontalScroller = (target, root) => {
+    for (let el = target; el && el !== root; el = el.parentElement) {
+      const overflowX = window.getComputedStyle(el).overflowX;
+      if (overflowX === "auto" || overflowX === "scroll") return true;
+    }
+    return false;
+  };
 
   const handleTouchStart = (e) => {
     touchStartX.current = e.touches[0].clientX;
+    touchStartY.current = e.touches[0].clientY;
+    swipeIgnored.current = startedInHorizontalScroller(e.target, e.currentTarget);
   };
   const handleTouchEnd = (e) => {
+    if (swipeIgnored.current) return;
     touchEndX.current = e.changedTouches[0].clientX;
     const diff = touchStartX.current - touchEndX.current;
+    const vertical = Math.abs(touchStartY.current - e.changedTouches[0].clientY);
+    // 縦スクロールのついでの横ブレで切り替わらないよう、明確に横向きのときだけ効かせる
+    if (Math.abs(diff) <= 80 || Math.abs(diff) < vertical * 1.5) return;
     const currentIdx = BRANDS.findIndex((b) => b === brand);
-    if (Math.abs(diff) > 80) {
-      if (diff > 0 && currentIdx < BRANDS.length - 1) {
-        setBrand(BRANDS[currentIdx + 1]);
-      } else if (diff < 0 && currentIdx > 0) {
-        setBrand(BRANDS[currentIdx - 1]);
-      }
+    if (diff > 0 && currentIdx < BRANDS.length - 1) {
+      setBrand(BRANDS[currentIdx + 1]);
+    } else if (diff < 0 && currentIdx > 0) {
+      setBrand(BRANDS[currentIdx - 1]);
     }
   };
 
@@ -495,10 +531,18 @@ export default function HomePage() {
             : `${filtered.length}件 ── タップで詳しく！`
           }
         </div>
-        <div key={statusTab + brand + searchQuery} className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3 relative z-[1]">
+        {/* ここに key を付けて作り直すと、タブを押すたびに入場アニメーションが
+            最初から流れる。先頭へ戻していた頃は演出として成立していたが、
+            その場で切り替えるようにした今は、見ている範囲が一度空になって
+            1個ずつ現れるだけで落ち着かない。ページ送りと同じく差し替えで扱う。 */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3 relative z-[1]">
           {visible.map((p, i) => (
             <GachaMachine
-              key={`${statusTab}-${p.id}`}
+              // 商品IDで持つと、タブを変えたとき全部が別物になって作り直され、
+              // 結局その場で1個ずつ現れる動きになる。枠を使い回して中身だけ
+              // 差し替えたいので位置で持つ。壊れ画像の判定は GachaMachine 側が
+              // product.img の変化で作り直しているため持ち越さない。
+              key={i}
               product={p}
               index={i}
               onClick={setSelected}
