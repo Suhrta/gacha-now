@@ -1,6 +1,6 @@
 import products from "../../../data/products.json";
 import { CHARACTERS, getCharacterBySlug, filterProductsByCharacter } from "../../../data/characters";
-import { buildHubInfo, buildFaqLd } from "../../../lib/hub-info";
+import { buildHubInfo, buildFaqLd, buildHubMeta } from "../../../lib/hub-info";
 import { getCharacterIntro } from "../../../data/character-intros";
 
 export function generateStaticParams() {
@@ -10,11 +10,16 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const character = getCharacterBySlug(params.slug);
   if (!character) return { title: "キャラクターが見つかりません | ガチャなう" };
-  const count = filterProductsByCharacter(products, character).length;
+  const items = filterProductsByCharacter(products, character);
+  const count = items.length;
+  // 件数・最新の発売月・代表商品を入れた具体的なスニペットにする（lib/hub-info.js に理由）
+  const meta = buildHubMeta({ name: character.name, items, kind: "character" });
 
   return {
-    title: `${character.name}のガチャガチャ新作・最新情報【2026年】| ガチャなう`,
-    description: `${character.name}のカプセルトイ・ガチャガチャ新作${count}件を一覧でチェック。価格・種類数・発売日つき。毎日更新。`,
+    title: meta ? meta.title : `${character.name}のガチャガチャ新作・最新情報【2026年】| ガチャなう`,
+    description: meta
+      ? meta.description
+      : `${character.name}のカプセルトイ・ガチャガチャ新作${count}件を一覧でチェック。価格・種類数・発売日つき。毎日更新。`,
     alternates: { canonical: `https://gacha-now.net/character/${params.slug}` },
     openGraph: {
       title: `${character.name}のガチャガチャ新作・最新情報【2026年】`,

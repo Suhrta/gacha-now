@@ -1,6 +1,6 @@
 import products from "../../../data/products.json";
 import { SERIES, getSeriesBySlug, filterProductsBySeries } from "../../../data/series";
-import { buildHubInfo, buildFaqLd } from "../../../lib/hub-info";
+import { buildHubInfo, buildFaqLd, buildHubMeta } from "../../../lib/hub-info";
 
 export function generateStaticParams() {
   return SERIES.map((s) => ({ slug: s.slug }));
@@ -9,11 +9,19 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const series = getSeriesBySlug(params.slug);
   if (!series) return { title: "シリーズが見つかりません | ガチャなう" };
-  const count = filterProductsBySeries(products, series).length;
+  const items = filterProductsBySeries(products, series);
+  const count = items.length;
+  // 件数・最新の発売月・代表商品を入れた具体的なスニペットにする（lib/hub-info.js に理由）。
+  // description は手書きの metaDescription があればそちらを優先する（シリーズ個別に書いてある）。
+  const meta = buildHubMeta({ name: series.name, items, kind: "series" });
 
   return {
-    title: `${series.name}の新作・全種一覧【2026年】| ガチャなう`,
-    description: series.metaDescription || `${series.name}のカプセルトイ・ガチャガチャ${count}件を一覧でチェック。${series.intro.slice(0, 60)}`,
+    title: meta ? meta.title : `${series.name}の新作・全種一覧【2026年】| ガチャなう`,
+    description:
+      series.metaDescription ||
+      (meta
+        ? meta.description
+        : `${series.name}のカプセルトイ・ガチャガチャ${count}件を一覧でチェック。${series.intro.slice(0, 60)}`),
     alternates: { canonical: `https://gacha-now.net/series/${params.slug}` },
     openGraph: {
       title: `${series.name}の新作・全種一覧【2026年】`,

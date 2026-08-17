@@ -1,6 +1,6 @@
 import products from "../../../data/products.json";
 import { isLowValueBrandPage } from "../../../lib/quality";
-import { buildHubInfo, buildFaqLd } from "../../../lib/hub-info";
+import { buildHubInfo, buildFaqLd, buildHubMeta } from "../../../lib/hub-info";
 import { getBrandIntro } from "../../../data/character-intros";
 
 export function generateMetadata({ params }) {
@@ -9,9 +9,14 @@ export function generateMetadata({ params }) {
   // 商品が少なすぎるブランドのハブページは薄いのでインデックスさせない
   const thin = isLowValueBrandPage(brandProducts);
 
+  // 件数・最新の発売月・代表商品を入れた具体的なスニペットにする（lib/hub-info.js に理由）
+  const meta = buildHubMeta({ name: brandName, items: brandProducts, kind: "brand" });
+
   return {
-    title: `${brandName}のガチャガチャ新作一覧【2026年最新】| ガチャなう`,
-    description: `${brandName}のカプセルトイ・ガチャガチャ新作情報を一覧でチェック。価格・種類数・発売日つき。毎日更新。`,
+    title: meta ? meta.title : `${brandName}のガチャガチャ新作一覧【2026年最新】| ガチャなう`,
+    description: meta
+      ? meta.description
+      : `${brandName}のカプセルトイ・ガチャガチャ新作情報を一覧でチェック。価格・種類数・発売日つき。毎日更新。`,
     robots: thin ? { index: false, follow: true } : { index: true, follow: true },
     alternates: { canonical: `https://gacha-now.net/brand/${params.slug}` },
     openGraph: {
