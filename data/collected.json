@@ -93,7 +93,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第1週",
     "brand": "ディズニー",
-    "types": null
+    "types": 4
   },
   {
     "title": "豆ガシャ本 サンリオキャラクターズ×朝日文庫 Ichigo Keywords２",
@@ -8130,6 +8130,19 @@
     "types": 4
   },
   {
+    "title": "トイ・ストーリー5 フィギュアマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903878",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903878_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903878_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年8月 24日週",
+    "brand": "ディズニー",
+    "types": 5
+  },
+  {
     "title": "サンリオキャラクターズ ぞうきんがけレースフィギュア",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905247",
     "source": "タカラトミーアーツ公式",
@@ -8167,6 +8180,19 @@
     "releaseWeek": "2026年8月 24日週",
     "brand": "ミニオンズ",
     "types": 4
+  },
+  {
+    "title": "でふぉラバ! 忍たま乱太郎 めじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908200",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908200_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908200_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年8月 24日週",
+    "brand": "その他",
+    "types": 13
   },
   {
     "title": "ファグラー もふもふポーシェット Vol.2",
@@ -11640,6 +11666,19 @@
     "types": 5
   },
   {
+    "title": "土下座マーカーチャーム",
+    "url": "https://kitan.jp/products/dogeza_mc/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/07/Doge_CP_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/07/Doge_CP_DP.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年8月 中旬",
+    "brand": "wp-emoji-settings\",t=document.querySelector(e);if(!(t",
+    "types": 8
+  },
+  {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",
     "url": "https://capsule.bushiroad-creative.com/product/10051/",
     "source": "ブシロードクリエイティブ公式",
@@ -12195,6 +12234,32 @@
     ],
     "price": 400,
     "releaseWeek": "2026年11月 下旬",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "アニメ「グロウアップショウ ～ひまわりのサーカス団～」　カプセルラバーキーホルダー",
+    "url": "https://capsule.bushiroad-creative.com/product/10129/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/17110029/GUS_rubberkey_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/17110029/GUS_rubberkey_POP.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 下旬",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "Ave Mujica 額縁アートコレクション",
+    "url": "https://capsule.bushiroad-creative.com/product/10149/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/17102457/gakubuchi_art_Mujica_CP_POP_0710_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/17102457/gakubuchi_art_Mujica_CP_POP_0710_ol.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 下旬",
     "brand": "その他",
     "types": 5
   }
