@@ -101,6 +101,17 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/generate-descriptions.js
 
+      # 一覧のサムネイルを自前生成して public/thumb/ に置く。
+      # Vercelの画像最適化（Hobby無料枠）を使い切って新規変換が402で止まったため、
+      # next/image をやめてこれを素の<img>で配信している。
+      # 未生成のぶんだけ作るので、毎日の実行で叩くのは新商品ぶんだけ。
+      #
+      # continue-on-error: 仕入れ元CDNの一時的な不調でパイプライン全体を止めない。
+      # 取れなかった商品は仕入れ元URLで表示され、翌日の実行で再挑戦される。
+      - name: Build product thumbnails
+        continue-on-error: true
+        run: node scripts/build-thumbs.js
+
       - name: Generate Instagram post images
         run: node scripts/generate-post.js
 
@@ -115,6 +126,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/products.json data/new-today.json data/collected.json data/rakuten-links.json
           git add -A public/posts/
+          git add -A public/thumb/
           git diff --staged --quiet || git commit -m "🎪 auto-update products $(date -u +%Y-%m-%d)"
           git push
 

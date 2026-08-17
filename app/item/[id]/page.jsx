@@ -142,8 +142,7 @@ export default function ItemPage({ params }) {
               >
                 {p.img && (
                   <ProductThumb
-                    src={p.img}
-                    alt={p.name}
+                    product={p}
                     className="w-full aspect-square object-cover rounded-md bg-cream-dark"
                   />
                 )}

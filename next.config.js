@@ -1,30 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    // 生成する幅を絞って画像変換の回数を抑える（Hobbyは5,000回/月）。
-    // next/image を通すのは一覧のサムネイルと関連商品だけで、
-    // 全画面表示はしないため広い幅は要らない。
+    // Vercelの画像最適化は使わない。
     //
-    // 4本（256/384/640/1080）だと商品1件あたり2〜3変換になり、
-    // 商品659件 × 毎月のキャッシュ失効で無料枠を使い切った（2026-08）。
-    // 実表示は240px前後なので 384（等倍〜低DPR）と 640（Retina）の2本で足りる。
-    // quality は既定の75のまま。変えると変換キーが変わり全画像が再変換になる。
-    deviceSizes: [640],
-    imageSizes: [384],
-    formats: ["image/webp"],
-    // 既定の60秒だとキャッシュが切れるたびに再変換となり課金対象になる。
-    // 商品画像は差し替わらないので長く持たせる。
-    minimumCacheTTL: 2678400, // 31日
-    remotePatterns: [
-      { protocol: "https", hostname: "placehold.co" },
-      { protocol: "https", hostname: "m.media-amazon.com" },
-      { protocol: "https", hostname: "thumbnail.image.rakuten.co.jp" },
-      // 商品画像の仕入れ元CDN
-      { protocol: "https", hostname: "bandai-a.akamaihd.net" },
-      { protocol: "https", hostname: "www.takaratomy-arts.co.jp" },
-      { protocol: "https", hostname: "kitan.jp" },
-      { protocol: "https", hostname: "capsule.bushiroad-creative.com" },
-    ],
+    // Hobbyの無料枠（変換5,000回・キャッシュリード30万ユニット/月）を2026-08に
+    // 使い切り、新規の変換が402で返るようになった。超過しても課金はされないが、
+    // キャッシュに無い画像が表示されなくなる = 新商品ほど画像が出ない、という
+    // 一番まずい壊れ方をする。deviceSizes/minimumCacheTTL は既に絞りきっており、
+    // 設定で削れる余地は残っていなかった。
+    //
+    // 代わりに scripts/build-thumbs.js が仕入れ元CDNの画像を縮小・WebP化して
+    // public/thumb/ に置き、素の <img> で配信している（lib/images.js）。
+    // 静的ファイル配信はこの上限の対象外なので、枠から完全に降りられる。
+    //
+    // unoptimized はその状態を固定するための保険。今は next/image を使っている
+    // 箇所は無いが、うっかり足しても課金枠に戻らないようにしてある。
+    unoptimized: true,
   },
 };
 

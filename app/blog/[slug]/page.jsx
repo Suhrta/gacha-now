@@ -44,8 +44,7 @@ function ProductCard({ id }) {
     >
       {p.img && (
         <ProductThumb
-          src={p.img}
-          alt={p.name}
+          product={p}
           className="w-20 h-20 object-cover rounded-md shrink-0 bg-white"
         />
       )}

@@ -10,8 +10,7 @@ export default function ProductLinkCard({ product }) {
       className="block p-3 bg-white rounded-lg border border-cream-border no-underline hover:border-brand-accent transition-colors"
     >
       <ProductThumb
-        src={product.img}
-        alt={product.name}
+        product={product}
         className="w-full aspect-square object-cover rounded-md bg-cream-dark"
       />
       <div className="text-xs font-bold text-brand-text leading-snug mt-2 line-clamp-2">

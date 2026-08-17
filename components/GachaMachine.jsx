@@ -1,15 +1,15 @@
 "use client";
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import NoImage from "./NoImage";
 import ProductName from "./ProductName";
-import { mainImageUrl } from "../lib/images";
+import { thumbSources } from "../lib/images";
 
 export default function GachaMachine({ product, index, onClick, isFavorite = false }) {
   const [vis, setVis] = useState(false);
   const [pressed, setPressed] = useState(false);
-  // 仕入れ元CDNが落ちている画像は壊れアイコンにせずプレースホルダへ倒す
-  const [imgBroken, setImgBroken] = useState(false);
+  // 表示元は「自前生成の縮小版 → 仕入れ元CDNの元画像」の順。
+  // 読めなかったら次の候補へ、尽きたらプレースホルダへ倒す（lib/images.js 参照）
+  const [imgStep, setImgStep] = useState(0);
 
   useEffect(() => {
     const t = setTimeout(() => setVis(true), index * 70);
@@ -17,9 +17,9 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
   }, [index]);
 
   // 別商品が同じ枠に再利用されたら壊れ判定を持ち越さない
-  useEffect(() => setImgBroken(false), [product.img]);
+  useEffect(() => setImgStep(0), [product.img]);
 
-  const hasImage = product.img && !product.img.includes("placehold") && !imgBroken;
+  const imgSrc = thumbSources(product)[imgStep];
   const color = product.color || "#E8756D";
 
   return (
@@ -74,12 +74,13 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
             borderRadius: "8px",
             background: "linear-gradient(155deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.08) 30%, rgba(255,255,255,0) 45%)",
           }} />
-          {hasImage ? (
-            <Image src={mainImageUrl(product.img)} alt={product.name} className="w-full block"
-              width={384} height={384}
-              sizes="(max-width: 768px) 50vw, 240px"
-              loading="lazy" decoding="async"
-              onError={() => setImgBroken(true)}
+          {imgSrc ? (
+            <img src={imgSrc} alt={product.name} className="w-full block"
+              width={480} height={480}
+              // 先頭4件はモバイル2列でほぼファーストビューに入る。
+              // ここを遅延させるとLCPがそのぶん遅れるので先に読ませる。
+              loading={index < 4 ? "eager" : "lazy"} decoding="async"
+              onError={() => setImgStep((s) => s + 1)}
               style={{ aspectRatio: "1/1", objectFit: "cover", objectPosition: "top" }} />
           ) : (
             <NoImage emojiSize={28} background="#F9FAFB" />
