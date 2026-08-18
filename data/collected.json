@@ -3717,7 +3717,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第5週",
     "brand": "たまごっち",
-    "types": null
+    "types": 6
   },
   {
     "title": "ブルーロック めじるしアクセサリー-VS.U-20 JAPAN-",
@@ -5376,28 +5376,28 @@
     "types": 5
   },
   {
-    "title": "まちぼうけ たまごっち",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769708466000",
+    "title": "【ガシャポンバンダイオフィシャルショップ限定再販】モンチッチ めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769776267000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_1.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_12.jpg"
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_12.jpg"
     ],
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
-    "brand": "たまごっち",
-    "types": 5
+    "brand": "モンチッチ",
+    "types": 6
   },
   {
     "title": "たまごっち スイングケース3",
@@ -5541,7 +5541,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
     "brand": "ワンピース",
-    "types": 4
+    "types": null
   },
   {
     "title": "魔法少女まどか☆マギカ マスコットコレクション",
@@ -6117,7 +6117,7 @@
     "price": 200,
     "releaseWeek": "2026年8月 第4週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "クレヨンしんちゃん なつやすみマスコット",
@@ -6141,7 +6141,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "クレヨンしんちゃん",
-    "types": null
+    "types": 5
   },
   {
     "title": "【フラットガシャポン】クリアポーチコレクション スーパー戦隊",
@@ -6381,6 +6381,30 @@
     "price": 400,
     "releaseWeek": "2026年8月 第4週",
     "brand": "おジャ魔女どれみ",
+    "types": 5
+  },
+  {
+    "title": "まちぼうけ たまごっち",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769708466000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000221663_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年8月 第5週",
+    "brand": "たまごっち",
     "types": 5
   },
   {
@@ -7413,30 +7437,6 @@
     "price": 500,
     "releaseWeek": "2026年8月 第5週",
     "brand": "コラショ",
-    "types": 6
-  },
-  {
-    "title": "【ガシャポンバンダイオフィシャルショップ限定再販】モンチッチ めじるしアクセサリー",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769776267000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000226642_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年8月 第5週",
-    "brand": "モンチッチ",
     "types": 6
   },
   {
