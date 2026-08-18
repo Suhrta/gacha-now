@@ -3717,7 +3717,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第5週",
     "brand": "たまごっち",
-    "types": 6
+    "types": null
   },
   {
     "title": "ブルーロック めじるしアクセサリー-VS.U-20 JAPAN-",
@@ -6141,7 +6141,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "クレヨンしんちゃん",
-    "types": 5
+    "types": null
   },
   {
     "title": "【フラットガシャポン】クリアポーチコレクション スーパー戦隊",
@@ -6627,9 +6627,9 @@
     "title": "クレヨンしんちゃん ペンライトステッキ",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118187284000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_4.jpg",
@@ -7227,9 +7227,9 @@
     "title": "ポケットモンスター スイングコレクション Type:Grass",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770054132000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_4.jpg",
@@ -7251,9 +7251,9 @@
     "title": "ジェムリーズ ポケットモンスター13 Summer",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770054149000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_4.jpg",
@@ -11677,6 +11677,19 @@
     "releaseWeek": "2022年12月 上旬",
     "brand": "カービィ",
     "types": 5
+  },
+  {
+    "title": "雅太郎玩具店 ねこちゃん可動フィギュア",
+    "url": "https://kitan.jp/products/masataro_neko/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/08/masatarotoys_catfigure_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/masatarotoys_catfigure_DP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年8月 下旬",
+    "brand": "wp-emoji-settings\",t=document.querySelector(e);if(!(t",
+    "types": 6
   },
   {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",

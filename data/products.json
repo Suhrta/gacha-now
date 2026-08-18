@@ -1,5 +1,27 @@
 [
   {
+    "id": "gacha-4c121eb7",
+    "name": "雅太郎玩具店 ねこちゃん可動フィギュア",
+    "brand": "wp-emoji-settings\",t=document.querySelector(e);if(!(t",
+    "brandSlug": "wpemojisettingstdocumentqueryselectoreift",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "8月 下旬",
+    "color": "#e5b599",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/08/masatarotoys_catfigure_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/masatarotoys_catfigure_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/masataro_neko/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-08-18T03:49:59.147Z",
+    "officialDescription": "首・前脚・後脚・しっぽの全６ヵ所が可動する、フロッキー加工を施したねこちゃんのフィギュアが登場！ふわっとした質感で、まるでぬいぐるみのようなかわいらしい仕上がりです。 首・手足・しっぽの計6箇所が可動し、おすわりやのび～、寝そべりなど、ねこらしいさまざまなポーズを自由に楽しめるフィギュアです。約54mmの存在感あるサイズで、猫の柄は全6種。可動によって生まれる多彩なポージングで、思わず何匹も並べたくなります。 目や首輪、おしりのタグボタンはフロッキー加工を施していない別パーツで表現しており、ふわっとした本体との質感の違いがアクセントに。 自由自在にポージングして遊んだり、お気に入りのポーズで飾ったりと楽しみ方はいろいろ。並べるほどに、ねこちゃんたちのかわいらしい世界が広がります。 ラインナップは「 トラねこ 、ミケねこ 、ハチワレ 、アメショー 、しろねこ 、くろねこ 」の全6種。",
+    "description": "キタンクラブより登場するカプセルトイで、雅太郎玩具店によるねこちゃん可動フィギュアです。価格は1回500円で、全6種がラインナップされます。発売時期は8月下旬を予定しており、店頭のガチャガチャコーナーで展開される見込みです。",
+    "thumb": "/thumb/gacha-4c121eb7.webp"
+  },
+  {
     "id": "gacha-28737f9d",
     "name": "トイ・ストーリー5 フィギュアマスコット",
     "brand": "ディズニー",
@@ -95,7 +117,7 @@
       "超土下座",
       "シークレット"
     ],
-    "description": "キタンクラブによるカプセルトイ「土下座マーカーチャーム」が登場です。全8種の展開で、価格は1回300円となっています。現在すでに発売中で、店頭のガチャガチャ機で購入することができます。",
+    "description": "キタンクラブが手がけるカプセルトイ「土下座マーカーチャーム」は全8種のラインナップで展開されています。1回300円で購入でき、現在発売中です。",
     "thumb": "/thumb/gacha-1f07ae96.webp"
   },
   {
@@ -865,9 +887,9 @@
     "releaseWeek": "8月 第5週",
     "color": "#FFD54F",
     "hot": true,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255216_4.jpg",
@@ -906,9 +928,9 @@
     "releaseWeek": "8月 第5週",
     "color": "#FFD54F",
     "hot": true,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255215_4.jpg",
@@ -5469,9 +5491,9 @@
     "releaseWeek": "8月 第5週",
     "color": "#99d2e5",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_4.jpg",
@@ -8477,7 +8499,7 @@
     "sourceUrl": "https://capsule.bushiroad-creative.com/product/10068/",
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-07-15T04:35:03.096Z",
-    "description": "ブシロードクリエイティブより、氷の城壁のカプセルラバーキーホルダーがカプセルトイとして登場します。1回300円で全8種がラインナップされ、9月下旬より順次展開予定です。",
+    "description": "ブシロードクリエイティブより、氷の城壁のカプセルラバーキーホルダーがカプセルトイとして登場します。全8種のラインナップで、価格は1回300円です。発売時期は9月下旬を予定しています。",
     "officialDescription": "TVアニメ『氷の城壁』からカプセルラバーキーホルダーが登場！",
     "thumb": "/thumb/gacha-7f711eaf.webp"
   },
@@ -8741,7 +8763,7 @@
     "sourceUrl": "https://capsule.bushiroad-creative.com/product/9988/",
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-07-15T04:35:03.096Z",
-    "description": "ブシロードクリエイティブより、「スーパーの裏でヤニ吸うふたり」のカプセルトイが登場しています。1回300円で、全6種のラインナップとなっており、現在発売中です。",
+    "description": "ブシロードクリエイティブより「スーパーの裏でヤニ吸うふたり」がカプセルトイになって登場です。全6種のラインナップで、価格は1回300円となっています。すでに発売中のため、店頭のガチャガチャコーナーで見つけることができます。",
     "officialDescription": "TVアニメ「スーパーの裏でヤニ吸うふたり」より、傘や小物につけられるアクリルマーカーが登場！",
     "thumb": "/thumb/gacha-5a737b31.webp"
   },
@@ -8785,7 +8807,7 @@
     "sourceUrl": "https://capsule.bushiroad-creative.com/product/9952/",
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-07-15T04:35:03.096Z",
-    "description": "ブシロードクリエイティブより、タイニーチャムのぬいぐるみキーホルダーがカプセルトイに登場しています。全6種のラインナップで、価格は1回500円です。現在発売中で、ガチャガチャの機械で購入できます。",
+    "description": "ブシロードクリエイティブより、タイニーチャムのぬいぐるみキーホルダーがカプセルトイに登場しています。ラインナップは全6種で、価格は1回500円です。現在発売中となっており、ガチャガチャの店頭で入手できます。",
     "officialDescription": "“ハローキティのおともだち”「タイニーチャム」がぬいぐるみキーホルダーになって登場♪",
     "thumb": "/thumb/gacha-780f90f0.webp"
   },
@@ -16465,7 +16487,7 @@
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904813",
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-06-10T11:37:34.868Z",
-    "description": "タカラトミーアーツから、カプセルトイ「芝犬ヶ丘」が登場します。全6種のラインナップで、価格は1回300円です。発売時期は6月15日週を予定しており、ガチャガチャコーナーでの取り扱いが始まります。",
+    "description": "タカラトミーアーツから、カプセルトイ「芝犬ヶ丘」が登場します。1回300円で全6種がラインナップされ、6月15日週より順次発売される予定です。",
     "officialDescription": "アーツオリジナルの切り口で話題の「T-ARTS 超生物研究所」から新たな商品が登場！たくさんの柴犬が暮らす「芝犬ヶ丘」、そこに現れた大きくて愛らしい謎の生き物「芝犬」。ボリュームたっぷりの芝犬たちは、それぞれ口元や色味が異なっていて、1丁目の芝犬は口元がきりっと凛々しく、2丁目の芝犬はぽかんと口が開いており、3丁目の芝犬はベロをしまい忘れた姿となっています。芝の毛並みをイメージしてフロッキー加工が施されているほか、キュートな肉球やお尻にも注目です。本体サイズはW約5cm。ラインナップは「1丁目の芝犬（新緑）」「1丁目の芝犬（紅葉）」「2丁目の芝犬（新緑）」「2丁目の芝犬（紅葉）」「3丁目の芝犬（新緑）」「3丁目の芝犬（紅葉）」の全6種。",
     "lineup": [
       "1丁目の芝犬（新緑）",
