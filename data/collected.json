@@ -5541,7 +5541,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
     "brand": "ワンピース",
-    "types": null
+    "types": 4
   },
   {
     "title": "魔法少女まどか☆マギカ マスコットコレクション",
@@ -6117,7 +6117,7 @@
     "price": 200,
     "releaseWeek": "2026年8月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "クレヨンしんちゃん なつやすみマスコット",
