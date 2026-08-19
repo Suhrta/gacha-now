@@ -1581,7 +1581,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 4
   },
   {
     "title": "花ざかりの君たちへ ふらっとめじるしアクセサリー",
@@ -1773,7 +1773,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第3週",
     "brand": "いきもの大図鑑",
-    "types": null
+    "types": 6
   },
   {
     "title": "ハイパーヨーヨーカプセルスフィア",
@@ -1989,7 +1989,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 6
   },
   {
     "title": "アイカツ！ グッズコレクション２～大スター宮いちごまつり～",
@@ -2589,7 +2589,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 3
   },
   {
     "title": "mofusand めじるしアクセサリー ベーカリーにゃん",
@@ -2853,7 +2853,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第4週",
     "brand": "HUNTER×HUNTER",
-    "types": null
+    "types": 5
   },
   {
     "title": "TVアニメ『光が死んだ夏』 まちぼうけ",
@@ -8257,6 +8257,19 @@
     "price": 300,
     "releaseWeek": "2026年8月",
     "brand": "ポケモン",
+    "types": 4
+  },
+  {
+    "title": "MOOMIN Hide&Seek かくれんぼフィギュア3",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901157",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901157_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901157_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年8月",
+    "brand": "ムーミン",
     "types": 4
   },
   {
