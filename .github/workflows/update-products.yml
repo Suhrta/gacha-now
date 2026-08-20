@@ -135,6 +135,19 @@ jobs:
           echo "⏳ Vercelデプロイ待機 (60秒)..."
           sleep 60
 
+      # 更新したURLをIndexNow（Bing/Yandex等）に即時通知する。
+      # GA4実測(2026-08-19)で bing/organic が流入の約4割を占めており、
+      # 1日3回更新するこのサイトはプッシュ通知の効きが大きい。
+      #
+      # デプロイ待機の「後」に置くこと。先に通知すると、まだ反映されていない
+      # 古い内容をクロールされて逆効果になる。
+      #
+      # continue-on-error: 通知は補助施策なので、失敗してもInstagram投稿や
+      # Discord通知という本体パイプラインは止めない。
+      - name: Notify IndexNow
+        continue-on-error: true
+        run: node scripts/ping-indexnow.js
+
       - name: Publish to Instagram
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
