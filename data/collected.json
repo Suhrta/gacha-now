@@ -333,7 +333,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "ディズニー",
-    "types": null
+    "types": 8
   },
   {
     "title": "SKZOO ベーカリーチャーム",
@@ -4677,7 +4677,7 @@
     "price": null,
     "releaseWeek": "2026年8月 第2週",
     "brand": "いきもの大図鑑",
-    "types": null
+    "types": 3
   },
   {
     "title": "COCOちゃん ならぶんです。",
