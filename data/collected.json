@@ -357,7 +357,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "SKZOO",
-    "types": 8
+    "types": null
   },
   {
     "title": "シュガーバニーズ ふわふわめじるしアクセサリー",
@@ -981,7 +981,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第3週",
     "brand": "マインクラフト",
-    "types": null
+    "types": 5
   },
   {
     "title": "DEATH NOTE めじるしアクセサリー",
@@ -2853,7 +2853,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第4週",
     "brand": "HUNTER×HUNTER",
-    "types": 5
+    "types": null
   },
   {
     "title": "TVアニメ『光が死んだ夏』 まちぼうけ",
@@ -3717,7 +3717,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第5週",
     "brand": "たまごっち",
-    "types": null
+    "types": 6
   },
   {
     "title": "ブルーロック めじるしアクセサリー-VS.U-20 JAPAN-",
@@ -7629,7 +7629,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "ガンダム",
-    "types": null
+    "types": 5
   },
   {
     "title": "NCT WISH ぷくっとリング",
