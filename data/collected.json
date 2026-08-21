@@ -141,7 +141,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第1週",
     "brand": "アイドリッシュセブン",
-    "types": null
+    "types": 16
   },
   {
     "title": "ポケットモンスター 組立可動！コライドン・ミライドン",
@@ -981,7 +981,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第3週",
     "brand": "マインクラフト",
-    "types": 5
+    "types": null
   },
   {
     "title": "DEATH NOTE めじるしアクセサリー",
@@ -3717,7 +3717,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第5週",
     "brand": "たまごっち",
-    "types": 6
+    "types": null
   },
   {
     "title": "ブルーロック めじるしアクセサリー-VS.U-20 JAPAN-",
@@ -6789,7 +6789,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第5週",
     "brand": "テレタビーズ",
-    "types": null
+    "types": 5
   },
   {
     "title": "それいけ！アンパンマン ぽちっとプロジェクター2",
@@ -7629,7 +7629,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "ガンダム",
-    "types": 5
+    "types": null
   },
   {
     "title": "NCT WISH ぷくっとリング",
