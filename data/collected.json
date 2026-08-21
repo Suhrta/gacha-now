@@ -189,7 +189,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "ミズノ",
-    "types": 6
+    "types": null
   },
   {
     "title": "忍たま乱太郎 まちぼうけ 六年生の段",
@@ -333,7 +333,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "ディズニー",
-    "types": 8
+    "types": null
   },
   {
     "title": "SKZOO ベーカリーチャーム",
@@ -1341,7 +1341,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第3週",
     "brand": "サンリオ",
-    "types": 8
+    "types": null
   },
   {
     "title": "なりきりシマエナガ お寿司",
@@ -2181,7 +2181,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第4週",
     "brand": "うちの3姉妹",
-    "types": 6
+    "types": null
   },
   {
     "title": "パペットスンスン めじるしアクセサリー",
@@ -5853,7 +5853,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "プリキュア",
-    "types": 6
+    "types": null
   },
   {
     "title": "VIRUSWEETS figure collection ～Summer Festival～",
@@ -7152,6 +7152,30 @@
     "types": 4
   },
   {
+    "title": "パンどろぼう ミニチュアパッケージチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770054231000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255214_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年8月 第5週",
+    "brand": "パンどろぼう",
+    "types": 5
+  },
+  {
     "title": "まちぼうけ おもちゃの場合",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770054545000",
     "source": "バンダイ公式",
@@ -7779,9 +7803,9 @@
     "title": "角醒ハンター オメガホーン GP変形合体なりきり オメガホーン",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770096040000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255191_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255191_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255191_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255191_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255191_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255191_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255191_4.jpg",
@@ -11770,6 +11794,19 @@
     "types": 6
   },
   {
+    "title": "CAPWATCH ベーシックカラー１",
+    "url": "https://kitan.jp/products/capwatch_basic/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/08/CAPWATCHbasiccolor1_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/CAPWATCHbasiccolor1_DP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年8月 下旬",
+    "brand": "wp-emoji-settings\",t=document.querySelector(e);if(!(t",
+    "types": 7
+  },
+  {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",
     "url": "https://capsule.bushiroad-creative.com/product/10051/",
     "source": "ブシロードクリエイティブ公式",
@@ -12352,6 +12389,19 @@
     "price": 400,
     "releaseWeek": "2026年10月 下旬",
     "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない　コレクションフィギュアRICH",
+    "url": "https://capsule.bushiroad-creative.com/product/10165/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/18102556/jojo_du_pop.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/18102556/jojo_du_pop.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年12月 下旬",
+    "brand": "ジョジョの奇妙な冒険",
     "types": 5
   }
 ]
