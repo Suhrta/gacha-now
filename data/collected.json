@@ -141,7 +141,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第1週",
     "brand": "アイドリッシュセブン",
-    "types": 16
+    "types": null
   },
   {
     "title": "ポケットモンスター 組立可動！コライドン・ミライドン",
@@ -189,7 +189,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "ミズノ",
-    "types": null
+    "types": 6
   },
   {
     "title": "忍たま乱太郎 まちぼうけ 六年生の段",
@@ -333,7 +333,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "ディズニー",
-    "types": null
+    "types": 8
   },
   {
     "title": "SKZOO ベーカリーチャーム",
@@ -1341,7 +1341,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第3週",
     "brand": "サンリオ",
-    "types": null
+    "types": 8
   },
   {
     "title": "なりきりシマエナガ お寿司",
@@ -2181,7 +2181,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第4週",
     "brand": "うちの3姉妹",
-    "types": null
+    "types": 6
   },
   {
     "title": "パペットスンスン めじるしアクセサリー",
@@ -5853,7 +5853,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "プリキュア",
-    "types": null
+    "types": 6
   },
   {
     "title": "VIRUSWEETS figure collection ～Summer Festival～",
@@ -6046,6 +6046,30 @@
     "releaseWeek": "2026年8月 第4週",
     "brand": "ぜんまいざむらい",
     "types": 6
+  },
+  {
+    "title": "ホロライブ ガシャポンパレット フェアリースイング1",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118203366000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年8月 第4週",
+    "brand": "ホロライブ",
+    "types": 5
   },
   {
     "title": "【フラットガシャポン】たまごっち ミニおりたたみコンテナ2",
@@ -6765,7 +6789,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第5週",
     "brand": "テレタビーズ",
-    "types": 5
+    "types": null
   },
   {
     "title": "それいけ！アンパンマン ぽちっとプロジェクター2",
