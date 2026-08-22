@@ -357,7 +357,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第2週",
     "brand": "SKZOO",
-    "types": null
+    "types": 8
   },
   {
     "title": "シュガーバニーズ ふわふわめじるしアクセサリー",
@@ -2853,7 +2853,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第4週",
     "brand": "HUNTER×HUNTER",
-    "types": null
+    "types": 5
   },
   {
     "title": "TVアニメ『光が死んだ夏』 まちぼうけ",
