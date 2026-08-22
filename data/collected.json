@@ -117,7 +117,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第1週",
     "brand": "サンリオ",
-    "types": 8
+    "types": null
   },
   {
     "title": "アイドリッシュセブン カプセル缶バッジコレクション＋♪vol.7",
@@ -429,7 +429,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "PEZ",
-    "types": 6
+    "types": null
   },
   {
     "title": "ぷよぷよ #ハッシュタグつける",
@@ -549,7 +549,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "パワーパフガールズ",
-    "types": 5
+    "types": null
   },
   {
     "title": "涼を感じるゆらゆらチャーム",
@@ -1461,7 +1461,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第3週",
     "brand": "初音ミク",
-    "types": null
+    "types": 5
   },
   {
     "title": "BLEACH めじるしアクセサリー3～千年血戦篇～",
@@ -4173,7 +4173,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第2週",
     "brand": "パワーパフガールズ",
-    "types": null
+    "types": 5
   },
   {
     "title": "犬夜叉 ぎゅーこっと",
@@ -5517,7 +5517,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "ディズニー",
-    "types": null
+    "types": 5
   },
   {
     "title": "カラフルピーチ めじるしアクセサリー2",
