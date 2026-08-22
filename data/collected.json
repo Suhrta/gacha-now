@@ -453,7 +453,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "ぷよぷよ",
-    "types": null
+    "types": 10
   },
   {
     "title": "ジョジョの奇妙な冒険 ラバーマスコットコレクション05",
@@ -1461,7 +1461,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第3週",
     "brand": "初音ミク",
-    "types": 5
+    "types": null
   },
   {
     "title": "BLEACH めじるしアクセサリー3～千年血戦篇～",
@@ -4173,7 +4173,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第2週",
     "brand": "パワーパフガールズ",
-    "types": 5
+    "types": null
   },
   {
     "title": "犬夜叉 ぎゅーこっと",
@@ -5517,7 +5517,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "ディズニー",
-    "types": 5
+    "types": null
   },
   {
     "title": "カラフルピーチ めじるしアクセサリー2",
