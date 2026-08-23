@@ -117,7 +117,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第1週",
     "brand": "サンリオ",
-    "types": null
+    "types": 8
   },
   {
     "title": "アイドリッシュセブン カプセル缶バッジコレクション＋♪vol.7",
@@ -429,7 +429,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "PEZ",
-    "types": null
+    "types": 6
   },
   {
     "title": "ぷよぷよ #ハッシュタグつける",
@@ -549,7 +549,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第2週",
     "brand": "パワーパフガールズ",
-    "types": null
+    "types": 5
   },
   {
     "title": "涼を感じるゆらゆらチャーム",
@@ -3621,7 +3621,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "カラフルピーチ",
-    "types": 6
+    "types": null
   },
   {
     "title": "PEANUTS フロッキーマスコットチャーム",
