@@ -117,7 +117,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第1週",
     "brand": "サンリオ",
-    "types": 8
+    "types": null
   },
   {
     "title": "アイドリッシュセブン カプセル缶バッジコレクション＋♪vol.7",
@@ -885,7 +885,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第3週",
     "brand": "黒子のバスケ",
-    "types": null
+    "types": 7
   },
   {
     "title": "ONE PIECE まちぼうけ",
@@ -1053,7 +1053,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第3週",
     "brand": "どこでもいっしょ",
-    "types": null
+    "types": 9
   },
   {
     "title": "ペコちゃん お菓子のめじるしアクセサリー2026",
@@ -6261,7 +6261,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
     "brand": "いきもの大図鑑",
-    "types": null
+    "types": 5
   },
   {
     "title": "まちぼうけ たまごっち",
@@ -6309,7 +6309,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第5週",
     "brand": "ジョジョの奇妙な冒険",
-    "types": null
+    "types": 6
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】サンリオキャラクターズ ミニチュアパッケージコレクション",
