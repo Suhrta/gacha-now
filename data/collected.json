@@ -885,7 +885,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第3週",
     "brand": "黒子のバスケ",
-    "types": 7
+    "types": null
   },
   {
     "title": "ONE PIECE まちぼうけ",
@@ -1053,7 +1053,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第3週",
     "brand": "どこでもいっしょ",
-    "types": 9
+    "types": null
   },
   {
     "title": "ペコちゃん お菓子のめじるしアクセサリー2026",
@@ -3621,7 +3621,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第5週",
     "brand": "カラフルピーチ",
-    "types": null
+    "types": 6
   },
   {
     "title": "PEANUTS フロッキーマスコットチャーム",
@@ -6261,7 +6261,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
     "brand": "いきもの大図鑑",
-    "types": 5
+    "types": null
   },
   {
     "title": "まちぼうけ たまごっち",
@@ -6309,7 +6309,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第5週",
     "brand": "ジョジョの奇妙な冒険",
-    "types": 6
+    "types": null
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】サンリオキャラクターズ ミニチュアパッケージコレクション",
