@@ -117,7 +117,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第1週",
     "brand": "サンリオ",
-    "types": null
+    "types": 8
   },
   {
     "title": "アイドリッシュセブン カプセル缶バッジコレクション＋♪vol.7",
@@ -1269,7 +1269,7 @@
     "price": 400,
     "releaseWeek": "2026年7月 第3週",
     "brand": "まちぼうけ",
-    "types": 5
+    "types": null
   },
   {
     "title": "【フラットガシャポン】ドズル社 ミニおりたたみコンテナ",
