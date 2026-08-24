@@ -5349,7 +5349,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "ディズニー",
-    "types": 5
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ Solid & Cool style めじるしアクセサリー",
@@ -5445,7 +5445,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
     "brand": "週刊少年ジャンプ",
-    "types": 6
+    "types": null
   },
   {
     "title": "サマーウォーズ めじるしアクセサリー2",
@@ -5949,7 +5949,7 @@
     "price": null,
     "releaseWeek": "2026年8月 第4週",
     "brand": "はしもとみお",
-    "types": 3
+    "types": null
   },
   {
     "title": "豆ガシャ本 「週刊少年ジャンプ ジャンプコミックスコレクション」05",
