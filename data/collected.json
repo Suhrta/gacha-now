@@ -3909,7 +3909,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第5週",
     "brand": "カービィ",
-    "types": 8
+    "types": null
   },
   {
     "title": "アイカツ！ ダイキャストドレスチャーム",
@@ -11854,6 +11854,19 @@
     "price": 500,
     "releaseWeek": "2022年12月 上旬",
     "brand": "カービィ",
+    "types": 5
+  },
+  {
+    "title": "PUTITTO サンリオキャラクターズ いちごみるくなフロッキー",
+    "url": "https://kitan.jp/products/sanrio_ichigomilk/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/08/PUTITTOsanrio-strawberryilk_DP_ap.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/PUTITTOsanrio-strawberryilk_DP_ap.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年8月 下旬",
+    "brand": "サンリオ",
     "types": 5
   },
   {
