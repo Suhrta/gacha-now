@@ -5373,7 +5373,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第3週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】モンチッチ めじるしアクセサリー",
@@ -8383,19 +8383,6 @@
     "price": 400,
     "releaseWeek": "2026年8月",
     "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "おさるのジョージ のりもの めじるしガチャマスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903502",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903502_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903502_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年8月",
-    "brand": "おさるのジョージ",
     "types": 4
   },
   {
