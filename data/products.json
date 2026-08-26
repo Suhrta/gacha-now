@@ -1,5 +1,83 @@
 [
   {
+    "id": "gacha-5c158dfc",
+    "name": "とっとこハム太郎 手作りおやつチャーム #平成女児チョコ",
+    "brand": "とっとこハム太郎",
+    "brandSlug": "hamtaro",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "8月 第5週",
+    "color": "#e5999f",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198112000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-08-26T03:58:50.119Z",
+    "officialDescription": "ハム太郎たちが平成女児チョコ風のマスコットになって登場！アルミカップに入った手づくりチョコ風のデザインが可愛いシリーズです！",
+    "ageRating": "15才以上",
+    "description": "バンダイより、人気アニメ「とっとこハム太郎」をモチーフにしたカプセルトイ「とっとこハム太郎 手作りおやつチャーム #平成女児チョコ」が登場します。1回300円で全7種の展開となり、8月第5週の発売が予定されています。",
+    "thumb": "/thumb/gacha-5c158dfc.webp"
+  },
+  {
+    "id": "-big--05f8244c",
+    "name": "かわいい かわいい ぬいぐるみ BIG ラッコ",
+    "brand": "wp-emoji-settings\",t=document.querySelector(e);if(!(t",
+    "brandSlug": "wpemojisettingstdocumentqueryselectoreift",
+    "price": 500,
+    "types": 3,
+    "releaseWeek": "発売中",
+    "color": "#e5b599",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/08/KKN_BIG_rakko_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/KKN_BIG_rakko_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/kkn_bigseaotter/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-08-26T03:58:50.120Z",
+    "officialDescription": "大好評「かわいい かわいい ぬいぐるみ」シリーズより、水族館の人気者・ラッコがBIGサイズで登場します！ なんと全長約170mm！カプセルトイとは思えない大ボリュームにこだわり、カプセルの中にぎゅうぎゅうに詰まった姿も思わず笑顔になるかわいらしい仕上がりです。 ふわふわな生地を使用し、思わず撫でたくなるような心地よい手触りもポイント。大きなサイズと相まって、手の中でぎゅっと包みたくなる存在感たっぷりのぬいぐるみに仕上げました。 ラインナップは、貝殻を大切そうに持つ姿や、お顔にちょこんと手を当てたポーズなど、ポーズ違い＆色違いの全３種。それぞれ異なる姿を楽しめます。 さらに全種ボールチェーン付きなので、バッグやポーチなどに付けていつでも一緒にお出かけ可能！ 大きくて、ふわふわで、とにかくかわいい。BIGサイズでお届けするラッコたちを、ぜひお手元でお楽しみください♪ ラインナップは「 ラッコA 、ラッコB 、ラッコC 」の全3種。",
+    "size": "約170mm",
+    "description": "キタンクラブより、かわいい かわいい ぬいぐるみ BIG ラッコのカプセルトイが登場しています。全3種で価格は1回500円、現在発売中で店頭のガチャガチャ機で入手できます。",
+    "thumb": "/thumb/-big--05f8244c.webp"
+  },
+  {
+    "id": "tv--688f7669",
+    "name": "TVアニメ「薫る花は凛と咲く」　ゆめぬい",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "12月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/24163208/kaoruhana_yumenui_CP_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/24163208/kaoruhana_yumenui_CP_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10156/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-08-26T03:58:50.121Z",
+    "officialDescription": "「ゆめみるまなざし」がコンセプトのぬいぐるみシリーズ「ゆめぬい」に、TVアニメ「薫る花は凛と咲く」のキャラクターが登場！",
+    "thumb": "/thumb/tv--688f7669.webp"
+  },
+  {
     "id": "gacha-457e66a6",
     "name": "パンクドランカーズ あいつ縁起物",
     "brand": "パンクドランカーズ",
@@ -516,7 +594,7 @@
       "超土下座",
       "シークレット"
     ],
-    "description": "キタンクラブから登場したカプセルトイ「土下座マーカーチャーム」は、全8種のラインナップで展開されています。価格は1回300円で、現在販売中です。ガチャガチャ専門機での取り扱いとなっています。",
+    "description": "キタンクラブから登場するカプセルトイ「土下座マーカーチャーム」は、全8種のラインナップで展開されています。1回の価格は300円で、現在ガチャガチャの店頭で発売中です。",
     "thumb": "/thumb/gacha-1f07ae96.webp"
   },
   {
@@ -5449,9 +5527,9 @@
     "releaseWeek": "8月 第5週",
     "color": "#99e5c9",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_4.jpg",
@@ -8898,7 +8976,7 @@
     "sourceUrl": "https://capsule.bushiroad-creative.com/product/10068/",
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-07-15T04:35:03.096Z",
-    "description": "ブシロードクリエイティブより、氷の城壁のカプセルラバーキーホルダーがカプセルトイとして登場します。1回300円で全8種がラインナップされ、9月下旬の発売が予定されています。",
+    "description": "ブシロードクリエイティブより、氷の城壁のカプセルラバーキーホルダーがカプセルトイとして登場します。全8種のラインナップで、1回の価格は300円です。発売時期は9月下旬を予定しています。",
     "officialDescription": "TVアニメ『氷の城壁』からカプセルラバーキーホルダーが登場！",
     "thumb": "/thumb/gacha-7f711eaf.webp"
   },
@@ -16886,7 +16964,7 @@
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904813",
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-06-10T11:37:34.868Z",
-    "description": "タカラトミーアーツより、カプセルトイ「芝犬ヶ丘」が登場します。1回300円で、全6種のラインナップです。発売時期は6月15日週を予定しています。",
+    "description": "タカラトミーアーツから、カプセルトイ「芝犬ヶ丘」が登場します。全6種のラインナップで、1回の価格は300円です。発売時期は6月15日週を予定しています。",
     "officialDescription": "アーツオリジナルの切り口で話題の「T-ARTS 超生物研究所」から新たな商品が登場！たくさんの柴犬が暮らす「芝犬ヶ丘」、そこに現れた大きくて愛らしい謎の生き物「芝犬」。ボリュームたっぷりの芝犬たちは、それぞれ口元や色味が異なっていて、1丁目の芝犬は口元がきりっと凛々しく、2丁目の芝犬はぽかんと口が開いており、3丁目の芝犬はベロをしまい忘れた姿となっています。芝の毛並みをイメージしてフロッキー加工が施されているほか、キュートな肉球やお尻にも注目です。本体サイズはW約5cm。ラインナップは「1丁目の芝犬（新緑）」「1丁目の芝犬（紅葉）」「2丁目の芝犬（新緑）」「2丁目の芝犬（紅葉）」「3丁目の芝犬（新緑）」「3丁目の芝犬（紅葉）」の全6種。",
     "lineup": [
       "1丁目の芝犬（新緑）",

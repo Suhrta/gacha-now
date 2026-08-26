@@ -2829,7 +2829,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第4週",
     "brand": "カービィ",
-    "types": 3
+    "types": null
   },
   {
     "title": "HUNTER×HUNTER すわらせ隊 幻影旅団編Vol.2",
@@ -4941,7 +4941,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第2週",
     "brand": "アンパンマン",
-    "types": null
+    "types": 6
   },
   {
     "title": "“ディズニーキャラクター” なかよしペアスイング2",
@@ -6624,6 +6624,30 @@
     "types": 4
   },
   {
+    "title": "とっとこハム太郎 手作りおやつチャーム #平成女児チョコ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118198112000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255281_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年8月 第5週",
+    "brand": "とっとこハム太郎",
+    "types": 7
+  },
+  {
     "title": "名探偵コナン Q posket ミニチュアコレクション",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118198297000",
     "source": "バンダイ公式",
@@ -7107,9 +7131,9 @@
     "title": "カプキャラ にゃんこ大戦争12",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770053869000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255221_4.jpg",
@@ -7437,7 +7461,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第5週",
     "brand": "SKZOO",
-    "types": null
+    "types": 12
   },
   {
     "title": "おじゃる丸 めじるしアクセサリー",
@@ -11857,6 +11881,19 @@
     "types": 5
   },
   {
+    "title": "かわいい かわいい ぬいぐるみ BIG ラッコ",
+    "url": "https://kitan.jp/products/kkn_bigseaotter/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/08/KKN_BIG_rakko_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/KKN_BIG_rakko_DP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年8月 下旬",
+    "brand": "wp-emoji-settings\",t=document.querySelector(e);if(!(t",
+    "types": 3
+  },
+  {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",
     "url": "https://capsule.bushiroad-creative.com/product/10051/",
     "source": "ブシロードクリエイティブ公式",
@@ -12453,5 +12490,18 @@
     "releaseWeek": "2026年12月 下旬",
     "brand": "ジョジョの奇妙な冒険",
     "types": 5
+  },
+  {
+    "title": "TVアニメ「薫る花は凛と咲く」　ゆめぬい",
+    "url": "https://capsule.bushiroad-creative.com/product/10156/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/24163208/kaoruhana_yumenui_CP_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/24163208/kaoruhana_yumenui_CP_POP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年12月 下旬",
+    "brand": "その他",
+    "types": 6
   }
 ]
