@@ -2373,7 +2373,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第4週",
     "brand": "プリキュア",
-    "types": 6
+    "types": null
   },
   {
     "title": "名探偵プリキュア！ プリキュアマコトジュエルコレクション３",
@@ -7224,6 +7224,30 @@
     "types": 5
   },
   {
+    "title": "hololive DEV_IS ReGLOSS ぷくっとリング",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770054460000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年8月 第5週",
+    "brand": "その他",
+    "types": 8
+  },
+  {
     "title": "まちぼうけ おもちゃの場合",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770054545000",
     "source": "バンダイ公式",
@@ -8305,6 +8329,19 @@
     "price": 400,
     "releaseWeek": "2026年8月 10日週",
     "brand": "富士ホーロー",
+    "types": 4
+  },
+  {
+    "title": "スポンジ・ボブ フェイス型シリコンケース",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905650",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905650_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905650_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年8月 15日週",
+    "brand": "スポンジ・ボブ",
     "types": 4
   },
   {
@@ -12204,6 +12241,19 @@
     "releaseWeek": "2026年8月 下旬",
     "brand": "wp-emoji-settings\",t=document.querySelector(e);if(!(t",
     "types": 3
+  },
+  {
+    "title": "ヒトツブカンロのグミッツェルマスコット３",
+    "url": "https://kitan.jp/products/gummitzels_mc3/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/08/gummitzel3_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/gummitzel3_DP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年9月 下旬",
+    "brand": "wp-emoji-settings\",t=document.querySelector(e);if(!(t",
+    "types": 5
   },
   {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",

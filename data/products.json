@@ -1,5 +1,89 @@
 [
   {
+    "id": "hololive-dev_is-regloss--1506dba5",
+    "name": "hololive DEV_IS ReGLOSS ぷくっとリング",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 8,
+    "releaseWeek": "8月 第5週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255213_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770054460000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-08-27T09:10:42.891Z",
+    "officialDescription": "デフォルメがかわいいReGLOSSのぷくっとリングが登場！表情は各タレントごとに通常ver.、ウインクver.の2種ずつをラインナップ。グループロゴがプリントされたオリジナルケース付き仕様です。",
+    "ageRating": "15才以上",
+    "thumb": "/thumb/hololive-dev_is-regloss--1506dba5.webp"
+  },
+  {
+    "id": "gacha-27f47d13",
+    "name": "スポンジ・ボブ フェイス型シリコンケース",
+    "brand": "スポンジ・ボブ",
+    "brandSlug": "spongebob",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#99e5e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905650_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905650_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905650",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-08-27T09:10:42.891Z",
+    "officialDescription": "「スポンジ・ボブ」と「パトリック」の顔がそのままデザインされた、おしゃれかわいいシリコンケース。表面のスポッツも凹凸で表現されています。小銭やアクセサリー、小物などを入れて持ち歩くのに便利なサイズ感です。本体サイズは約4.3cm。ラインナップは「スポンジ・ボブA」「スポンジ・ボブB」「パトリックA」「パトリックB」の全4種。",
+    "size": "約4.3cm",
+    "lineup": [
+      "スポンジ・ボブA",
+      "スポンジ・ボブB",
+      "パトリックA",
+      "パトリックB"
+    ],
+    "description": "アメリカのアニメ作品として知られるスポンジ・ボブをモチーフにしたカプセルトイ「スポンジ・ボブ フェイス型シリコンケース」がタカラトミーアーツより登場しています。ラインナップは全4種で、価格は1回400円です。ガチャガチャとして現在発売中です。",
+    "thumb": "/thumb/gacha-27f47d13.webp"
+  },
+  {
+    "id": "gacha-483c5fd1",
+    "name": "ヒトツブカンロのグミッツェルマスコット３",
+    "brand": "wp-emoji-settings\",t=document.querySelector(e);if(!(t",
+    "brandSlug": "wpemojisettingstdocumentqueryselectoreift",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "9月 下旬",
+    "color": "#e5b599",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/08/gummitzel3_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/gummitzel3_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/gummitzels_mc3/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-08-27T09:10:42.893Z",
+    "officialDescription": "好評の「グミッツェルマスコットシリーズ」に、待望の第3弾が登場します！ SNSやASMR動画などでも話題の「グミッツェル」はもちろん、今回は「ピュレショコラティエ」が仲間入りしました。 お菓子の形や質感に加え、外袋やトレー、成分表示まで忠実に再現。実物と見間違えてしまいそうなほどそっくりな仕上がりで、思わず手に取って食べたくなってしまうほどのかわいさです。 カラフルなワイヤーリング付きで、バッグやポーチにつけて持ち歩くことも可能。お気に入りのお菓子をいつでも身近に楽しめます♪ 第１弾・第２弾と一緒に並べれば、シリーズを通したコレクションの魅力もさらに広がります！ミニチュアならではのかわいさが詰まった「グミッツェル」シリーズをお楽しみください♪ ラインナップは「 グミッツェル グレープ 、グミッツェル ソーダ 、Fun ＆Choice グミッツェルプチ グレープフルーツ 、ピュレショコラティエ レモン＆ビター 、ピュレショコラティエ グレープ＆ホワイト 」の全5種。",
+    "description": "キタンクラブより「ヒトツブカンロのグミッツェルマスコット３」がカプセルトイで登場します。全5種のラインナップで、価格は1回500円です。発売時期は9月下旬を予定しています。",
+    "thumb": "/thumb/gacha-483c5fd1.webp"
+  },
+  {
     "id": "gacha-5e7f6e76",
     "name": "名探偵プリキュア！ 名探偵スイング2",
     "brand": "プリキュア",
@@ -199,7 +283,7 @@
     "collectedAt": "2026-08-27T04:16:57.540Z",
     "officialDescription": "Capsuleトルソーアイカツ！第2弾が登場！1弾と合わせて飾っても可愛いです♪",
     "ageRating": "15才以上",
-    "description": "アイドルアニメ「アイカツ」を題材にしたカプセルトイ、Capsuleトルソー アイカツ！ 2がバンダイより登場します。全3種のラインナップで、価格は1回500円です。発売時期は現時点で未定となっており、詳細情報の続報が待たれるところです。",
+    "description": "アイドルを題材にした人気アニメ「アイカツ」より、バンダイよりカプセルトイ「Capsuleトルソー アイカツ！ 2」が登場します。全3種のラインナップで、1回500円で楽しめます。発売時期は現時点で未定となっており、詳細情報は続報が待たれるところです。",
     "thumb": "/thumb/capsule-2-31d8db37.webp"
   },
   {
@@ -300,7 +384,7 @@
     "collectedAt": "2026-08-27T04:16:57.540Z",
     "officialDescription": "アクリルパーツの好きな場所にマスコットのカニカンを通してぶら下げられる♪ゆらゆら揺れるデザインがかわいい商品です★好きなマスコットに付け替えても可愛い！",
     "ageRating": "15才以上",
-    "description": "バンダイのカプセルトイとして展開される「たまごっち ゆらぷらチャーム」は、育成ゲームとして長年親しまれてきた「たまごっち」シリーズのアイテムです。全5種のラインナップで、価格は1回400円となっています。発売時期は現時点で未定です。",
+    "description": "育成ゲームとして長く愛されている「たまごっち」から、カプセルトイ「たまごっち ゆらぷらチャーム」が登場します。1回400円で全5種がラインナップされており、バンダイより展開される予定です。発売時期については現在のところ未定となっています。",
     "thumb": "/thumb/gacha-6e8f3e62.webp"
   },
   {
@@ -541,7 +625,7 @@
     "collectedAt": "2026-08-26T03:58:50.120Z",
     "officialDescription": "大好評「かわいい かわいい ぬいぐるみ」シリーズより、水族館の人気者・ラッコがBIGサイズで登場します！ なんと全長約170mm！カプセルトイとは思えない大ボリュームにこだわり、カプセルの中にぎゅうぎゅうに詰まった姿も思わず笑顔になるかわいらしい仕上がりです。 ふわふわな生地を使用し、思わず撫でたくなるような心地よい手触りもポイント。大きなサイズと相まって、手の中でぎゅっと包みたくなる存在感たっぷりのぬいぐるみに仕上げました。 ラインナップは、貝殻を大切そうに持つ姿や、お顔にちょこんと手を当てたポーズなど、ポーズ違い＆色違いの全３種。それぞれ異なる姿を楽しめます。 さらに全種ボールチェーン付きなので、バッグやポーチなどに付けていつでも一緒にお出かけ可能！ 大きくて、ふわふわで、とにかくかわいい。BIGサイズでお届けするラッコたちを、ぜひお手元でお楽しみください♪ ラインナップは「 ラッコA 、ラッコB 、ラッコC 」の全3種。",
     "size": "約170mm",
-    "description": "キタンクラブより「かわいい かわいい ぬいぐるみ BIG ラッコ」が登場するカプセルトイです。1回500円で全3種がラインナップされており、現在発売中となっています。ガチャガチャの機種にて展開されている商品です。",
+    "description": "キタンクラブから登場するカプセルトイ「かわいい かわいい ぬいぐるみ BIG ラッコ」です。ガチャガチャ1回の価格は500円で、全3種の中からどれが出るかは選べません。すでに発売されており、店頭のガチャガチャ機で見つけたら手に入れられます。",
     "thumb": "/thumb/-big--05f8244c.webp"
   },
   {
@@ -1082,7 +1166,7 @@
       "超土下座",
       "シークレット"
     ],
-    "description": "キタンクラブから登場するカプセルトイ「土下座マーカーチャーム」は、全8種のラインナップで展開されています。1回の料金は300円で、現在発売中です。ガチャガチャ専門店や量販店の店頭で見つけることができます。",
+    "description": "キタンクラブから登場するカプセルトイ「土下座マーカーチャーム」は、全8種のラインナップで展開されています。1回の価格は300円で、現在発売中です。",
     "thumb": "/thumb/gacha-1f07ae96.webp"
   },
   {
@@ -9464,7 +9548,7 @@
     "sourceUrl": "https://capsule.bushiroad-creative.com/product/10068/",
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-07-15T04:35:03.096Z",
-    "description": "ブシロードクリエイティブより、氷の城壁のカプセルラバーキーホルダーがカプセルトイとして登場します。全8種のラインナップで、価格は1回300円です。発売時期は9月下旬を予定しています。",
+    "description": "ブシロードクリエイティブより、氷の城壁のカプセルラバーキーホルダーがカプセルトイに登場します。1回300円で全8種のラインナップとなっており、9月下旬より順次発売される予定です。",
     "officialDescription": "TVアニメ『氷の城壁』からカプセルラバーキーホルダーが登場！",
     "thumb": "/thumb/gacha-7f711eaf.webp"
   },
@@ -17452,7 +17536,7 @@
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904813",
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-06-10T11:37:34.868Z",
-    "description": "タカラトミーアーツから、カプセルトイ「芝犬ヶ丘」が登場します。1回300円で全6種がラインナップされ、6月15日週より発売予定です。",
+    "description": "タカラトミーアーツから、カプセルトイ「芝犬ヶ丘」が登場します。1回300円で、全6種のラインナップが用意されています。発売時期は6月15日週を予定しており、店頭のガチャガチャコーナーで展開される見込みです。",
     "officialDescription": "アーツオリジナルの切り口で話題の「T-ARTS 超生物研究所」から新たな商品が登場！たくさんの柴犬が暮らす「芝犬ヶ丘」、そこに現れた大きくて愛らしい謎の生き物「芝犬」。ボリュームたっぷりの芝犬たちは、それぞれ口元や色味が異なっていて、1丁目の芝犬は口元がきりっと凛々しく、2丁目の芝犬はぽかんと口が開いており、3丁目の芝犬はベロをしまい忘れた姿となっています。芝の毛並みをイメージしてフロッキー加工が施されているほか、キュートな肉球やお尻にも注目です。本体サイズはW約5cm。ラインナップは「1丁目の芝犬（新緑）」「1丁目の芝犬（紅葉）」「2丁目の芝犬（新緑）」「2丁目の芝犬（紅葉）」「3丁目の芝犬（新緑）」「3丁目の芝犬（紅葉）」の全6種。",
     "lineup": [
       "1丁目の芝犬（新緑）",
@@ -22689,68 +22773,5 @@
     "officialDescription": "NiziU公式キャラクターのNIZOOがガシャポンに登場！つままれたデザインが可愛い「つまんでつなげてマスコット」を各キャラごとにボールチェーンとカニカンの２パターンで展開！たくさん集めてつなげよう！※NiziU Live with U 2026 “NiziU : THE CINEMA” 開催に合わせ、6/6(土)より一部先行販売をいたします。詳しくは下記お知らせページをご覧ください。https://gashapon.jp/news/?p=13880",
     "ageRating": "15才以上",
     "thumb": "/thumb/nizoo--4100db88.webp"
-  },
-  {
-    "id": "gacha-241758dc",
-    "name": "ドラゴンクエスト まちぼうけ～しかし たすけは こなかった～",
-    "brand": "まちぼうけ",
-    "brandSlug": "machiboke",
-    "price": 400,
-    "types": 5,
-    "releaseWeek": "発売中",
-    "color": "#FFB74D",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251559_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769979552000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-05-27T07:05:48.324Z",
-    "description": "人気ゲームシリーズを題材にした「まちぼうけ」をモチーフにしたカプセルトイが、バンダイより登場しています。「ドラゴンクエスト まちぼうけ～しかし たすけは こなかった～」は全5種のラインナップで、1回400円で購入できます。現在発売中で、店舗のガチャガチャコーナーなどで見つけることができます。",
-    "officialDescription": "「ドラゴンクエスト」からまちぼうけが登場！なかまをよぶもたすけがこずまちぼうけた姿をラインナップ！",
-    "ageRating": "15才以上",
-    "thumb": "/thumb/gacha-241758dc.webp"
-  },
-  {
-    "id": "gacha-6eea3c1f",
-    "name": "かわいい かわいい ぬいぐるみ 和菓子",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 500,
-    "types": 5,
-    "releaseWeek": "発売中",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/05/KKN_wagashi_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/05/KKN_wagashi_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/kkn_wagashi/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-05-27T07:05:48.325Z",
-    "description": "ふわふわの和菓子がぬいぐるみになって登場！見た目も可愛くて思わず食べたくなっちゃう、癒し系の全5種コレクション。",
-    "officialDescription": "どうぶつや海のいきものをテーマに展開している「かわいい かわいい ぬいぐるみ」シリーズに、まさかのモチーフが仲間入り！？最新作は、見ているだけでほっこり癒される“和菓子”たちをぬいぐるみ化しました。 ころんとしたフォルムに、やさしいカラーリング。かわいさとおいしそうさを両立した仕上がり。ボリュームたっぷりのBIGサイズで存在感も抜群。もちもちした生地に、むっちり綿をたっぷり詰め込んだ、やわらかくぬくもりのある手触りも魅力です。思わず「もちもち」「むにむに」したくなる触感は、一度触れたらやみつきになるかも。さらに全種ボールチェーン付きなので、カバンやポーチにつけて一緒にお出かけも楽しめます♪ 全国の和菓子ファンのみなさん、お待たせいたしました。 かわいくて癒される“かわいい かわいい ぬいぐるみ 和菓子”たちを、ぜひお手元でお楽しみください。 ラインナップは「 椿 、どら焼き 、桜 、黄梅 、毛毬 」の全5種。",
-    "lineup": [
-      "椿",
-      "どら焼き",
-      "桜",
-      "黄梅",
-      "毛毬"
-    ],
-    "thumb": "/thumb/gacha-6eea3c1f.webp"
   }
 ]
