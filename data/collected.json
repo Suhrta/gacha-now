@@ -2373,7 +2373,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第4週",
     "brand": "プリキュア",
-    "types": null
+    "types": 6
   },
   {
     "title": "名探偵プリキュア！ プリキュアマコトジュエルコレクション３",
@@ -6454,6 +6454,30 @@
     "releaseWeek": "2026年8月 第5週",
     "brand": "プリキュア",
     "types": 4
+  },
+  {
+    "title": "ホロライブ すわらせ隊 アクリルスタンド カラーライズ4",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184092000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年8月 第5週",
+    "brand": "ホロライブ",
+    "types": 8
   },
   {
     "title": "ハリー・ポッター ミニチュアコレクション ～魔法の杖～",
