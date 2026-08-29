@@ -93,7 +93,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第1週",
     "brand": "ディズニー",
-    "types": 4
+    "types": null
   },
   {
     "title": "豆ガシャ本 サンリオキャラクターズ×朝日文庫 Ichigo Keywords２",
@@ -4653,7 +4653,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "まちぼうけ",
-    "types": 4
+    "types": null
   },
   {
     "title": "いきもの大図鑑アドバンス セミ02 アブラゼミ",
