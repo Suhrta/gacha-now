@@ -3861,7 +3861,7 @@
     "price": 300,
     "releaseWeek": "2026年7月 第5週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 5
   },
   {
     "title": "HG ウルトラマン 新たなる戦い～ヴァージョンアップ・ファイト!～編",
@@ -4101,7 +4101,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 12
   },
   {
     "title": "ナルミヤキャラクターズ Twinkle ゴム",
@@ -5133,7 +5133,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第2週",
     "brand": "にゃんこ大戦争",
-    "types": 6
+    "types": null
   },
   {
     "title": "銀河特急 ミルキー☆サブウェイ めじるしアクセサリー",
