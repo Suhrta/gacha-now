@@ -4,6 +4,7 @@ import { CHARACTERS, filterProductsByCharacter } from "../data/characters";
 import { SERIES, filterProductsBySeries } from "../data/series";
 import { getAllReleaseMonths, getReleaseYearMonth } from "../lib/release";
 import { indexableProducts, indexableBlogPosts, isLowValueBrandPage } from "../lib/quality";
+import { isConsolidated } from "../data/hub-canonical";
 
 const BASE_URL = "https://gacha-now.net";
 
@@ -33,10 +34,12 @@ export default function sitemap() {
 
   // 商品が少なく noindex にしているブランドは、サイトマップにも載せない
   // （載せるとnoindexページを自分で申告することになり矛盾する）
+  // canonicalを別ハブに向けたページも同様に載せない（data/hub-canonical.js）
   const brandSlugs = [...new Set(products.map((p) => p.brandSlug))];
   const brandPages = brandSlugs
     .map((slug) => ({ slug, items: products.filter((p) => p.brandSlug === slug) }))
     .filter(({ items }) => !isLowValueBrandPage(items))
+    .filter(({ slug }) => !isConsolidated("brand", slug))
     .map(({ slug, items }) => ({
       url: `${BASE_URL}/brand/${slug}`,
       lastModified: latestCollectedAt(items),
@@ -47,6 +50,8 @@ export default function sitemap() {
   const characterPages = CHARACTERS.map((c) => {
     const items = filterProductsByCharacter(products, c);
     if (items.length === 0) return null;
+    // brand側を正規ページにしたキャラは申告しない（data/hub-canonical.js）
+    if (isConsolidated("character", c.slug)) return null;
     return {
       url: `${BASE_URL}/character/${c.slug}`,
       lastModified: latestCollectedAt(items),

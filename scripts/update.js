@@ -14,6 +14,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PRODUCTS_PATH = process.env.PRODUCTS_PATH
   || path.join(__dirname, "../data/products.json");
 const NEW_TODAY_PATH = path.join(__dirname, "../data/new-today.json");
+// 削除した商品の墓標。next.config.js がこれを読んで /item/{id} を
+// ブランドハブへ301で送る（消しっぱなしにすると404が積み上がる。理由はそちら）
+const RETIRED_PATH = path.join(__dirname, "../data/retired-items.json");
 async function main() {
   const structuredPath = path.join(__dirname, "../data/structured.json");
   if (!fs.existsSync(structuredPath)) {
@@ -81,6 +84,36 @@ async function main() {
   const removed = merged.length - filtered.length;
   if (removed > 0) {
     console.log("古いデータ削除: " + removed + "件");
+  }
+
+  // 消した商品を墓標に記録する。ここを通さずに消すと /item/{id} が404になり、
+  // 四半期あたり約200件ずつ「見つかりませんでした（404）」が増える。
+  const keptIds = new Set(filtered.map((p) => p.id));
+  const retiredNow = merged.filter((p) => !keptIds.has(p.id));
+  if (retiredNow.length > 0) {
+    let tombstones = [];
+    if (fs.existsSync(RETIRED_PATH)) {
+      tombstones = JSON.parse(fs.readFileSync(RETIRED_PATH, "utf-8"));
+    }
+    const known = new Set(tombstones.map((p) => p.id));
+    const today = new Date().toISOString().slice(0, 10);
+    const added = retiredNow
+      .filter((p) => p.id && !known.has(p.id))
+      .map((p) => ({
+        id: p.id,
+        name: p.name,
+        brand: p.brand,
+        brandSlug: p.brandSlug,
+        lastSeen: today,
+      }));
+    if (added.length > 0) {
+      fs.writeFileSync(
+        RETIRED_PATH,
+        JSON.stringify([...added, ...tombstones], null, 2) + "\n",
+        "utf-8"
+      );
+      console.log("retired-items.json に " + added.length + "件を記録");
+    }
   }
   fs.writeFileSync(PRODUCTS_PATH, JSON.stringify(filtered, null, 2), "utf-8");
   console.log("products.json を更新しました（合計: " + filtered.length + "件）");

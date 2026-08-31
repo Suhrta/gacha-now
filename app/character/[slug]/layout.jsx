@@ -2,6 +2,7 @@ import products from "../../../data/products.json";
 import { CHARACTERS, getCharacterBySlug, filterProductsByCharacter } from "../../../data/characters";
 import { buildHubInfo, buildFaqLd, buildHubMeta } from "../../../lib/hub-info";
 import { getCharacterIntro } from "../../../data/character-intros";
+import { hubCanonical } from "../../../data/hub-canonical";
 
 export function generateStaticParams() {
   return CHARACTERS.map((c) => ({ slug: c.slug }));
@@ -20,7 +21,9 @@ export function generateMetadata({ params }) {
     description: meta
       ? meta.description
       : `${character.name}のカプセルトイ・ガチャガチャ新作${count}件を一覧でチェック。価格・種類数・発売日つき。毎日更新。`,
-    alternates: { canonical: `https://gacha-now.net/character/${params.slug}` },
+    // 同名の /brand/ ページと商品が重複していて、そちらが勝っているIPは
+    // brand 側を正規ページにする（data/hub-canonical.js に実測値と判断理由）
+    alternates: { canonical: hubCanonical("character", params.slug) },
     openGraph: {
       title: `${character.name}のガチャガチャ新作・最新情報【2026年】`,
       description: `${character.name}のカプセルトイ新作情報を価格・発売日つきで一覧表示。`,
