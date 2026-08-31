@@ -26,6 +26,7 @@ import {
   isHot,
   GENERIC_BRANDS,
   BRAND_MAP,
+  isPlausibleBrand,
 } from "./brand.js";
 
 const MAP_BRANDS = new Set(BRAND_MAP.map((e) => e.brand));
@@ -53,11 +54,20 @@ function main() {
 
   const changes = [];
   const fixes = [];
+  const junk = [];
   for (const p of products) {
     const byName = detectBrand(p.name);
     let brand = null;
 
-    if (GENERIC_BRANDS.has(p.brand)) {
+    if (!isPlausibleBrand(p.brand)) {
+      // 収集側がページから拾い間違えた文字列がブランドとして保存されているケース。
+      // タグ由来のブランドは通常このスクリプトでは触らないが、これは「正しいブランドを
+      // 壊すリスク」より「意味不明な /brand/ ページが index されている実害」が上回る。
+      // 実例: 'wp-emoji-settings",t=document.querySelector(e);if(!(t' に商品10件（2026-09-01）。
+      // 名前から判定できなければ「その他」に落として noindex にする。
+      brand = GENERIC_BRANDS.has(byName) ? "その他" : byName;
+      junk.push({ name: p.name, from: p.brand, to: brand });
+    } else if (GENERIC_BRANDS.has(p.brand)) {
       // 「その他」からの昇格（BRAND_MAP拡張の取りこぼし回収）
       if (GENERIC_BRANDS.has(byName)) continue; // 依然として判定できず
       brand = byName;
@@ -76,12 +86,19 @@ function main() {
     p.hot = isHot(p.name, brand);
   }
 
-  if (changes.length === 0 && fixes.length === 0) {
+  if (changes.length === 0 && fixes.length === 0 && junk.length === 0) {
     console.log("✅ 再判定: 変更なし");
     return;
   }
 
   fs.writeFileSync(PRODUCTS_PATH, JSON.stringify(products, null, 2), "utf-8");
+
+  if (junk.length) {
+    console.log(`🧹 壊れたブランド名を除去: ${junk.length}件`);
+    for (const j of junk) {
+      console.log(`   ${JSON.stringify(j.from).slice(0, 40)} → ${j.to} | ${j.name.slice(0, 30)}`);
+    }
+  }
 
   if (fixes.length) {
     console.log(`🔧 誤判定を訂正: ${fixes.length}件`);

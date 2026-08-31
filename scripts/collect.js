@@ -387,8 +387,19 @@ async function collectFromKitan() {
 
           // カテゴリタグ: ページ本文中のハッシュタグのみ取得
           // ※ナビゲーションの /products_category/ リンクは全ページ共通なので使わない
+          //
+          // script/style を先に落としてから本文を読むこと。
+          // kitan.jp は WordPress で、絵文字ローダーのインラインJSに
+          // CSSセレクタ "#wp-emoji-settings" が含まれる。素の $("body").text() だと
+          // それがハッシュタグとして拾われ、detectBrand の第2段が未知タグを
+          // そのままブランド名にするため、'wp-emoji-settings",t=document.querySelector(e);if(!(t'
+          // というブランドと /brand/ ページが実際に生成された（商品10件・2026-09-01発見）。
+          // 同じ壊れ方は wovn 翻訳ウィジェットでも起きており、除外リストへの
+          // 個別追加で凌いでいた。JSやCSSからタグを拾わないのが本来の対処。
+          const $body = $("body").clone();
+          $body.find("script, style, noscript, template").remove();
           const categoryTags = [];
-          const bodyText = $("body").text();
+          const bodyText = $body.text();
           const hashMatches = bodyText.match(/#[^\s#<>]{2,}/g);
           if (hashMatches) {
             for (const tag of hashMatches) {

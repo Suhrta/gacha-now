@@ -1,3 +1,4 @@
+import { notFound } from "next/navigation";
 import products from "../../../data/products.json";
 import { isLowValueBrandPage } from "../../../lib/quality";
 import { buildHubInfo, buildFaqLd, buildHubMeta } from "../../../lib/hub-info";
@@ -34,7 +35,11 @@ export function generateMetadata({ params }) {
 // 「サンリオの一覧」ページなのに全628件を申告している状態なので、他のハブと揃える。
 export default function BrandLayout({ children, params }) {
   const items = products.filter((p) => p.brandSlug === params.slug);
-  if (items.length === 0) return children;
+  // 商品0件のslugは200で「しんさくは まだ ないよ」を返しており、実質ソフト404だった。
+  // /brand/[slug] は generateStaticParams を持たない＝任意の文字列でページが出るため、
+  // 収集ミスで生まれたブランド（例: wp-emoji-settings… 2026-09-01）も
+  // 200のまま index されていた。存在しないブランドは素直に404を返す。
+  if (items.length === 0) notFound();
 
   const brandName = items[0].brand;
 

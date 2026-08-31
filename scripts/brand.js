@@ -367,6 +367,29 @@ export const CATEGORY_IGNORE = new Set([
   "wovn-translate-widget[wovn]", // WOVNウィジェットの注入テキストを除外
 ]);
 
+// ブランド名として採用してよい文字列か。
+//
+// detectBrand() の第2段は「未知のタグはそのまま新ブランドにする」ので、
+// 収集側がページから拾い間違えた文字列がそのまま /brand/{slug} のページになる。
+// 実際に2回起きている:
+//   1回目 "wovn-translate-widget[wovn]"（翻訳ウィジェット）→ CATEGORY_IGNORE に個別追加
+//   2回目 'wp-emoji-settings",t=document.querySelector(e);if(!(t'
+//         （kitan.jp の WordPress絵文字ローダーのインラインJS）→ 商品10件が巻き込まれ、
+//         index,follow の実ページとして本番に出ていた（2026-09-01発見）
+// 個別に除外リストへ足すのはいたちごっこなので、「人が読むブランド名の形か」で弾く。
+//
+// 収集側（collect.js）で script/style を除去するのが一次対策で、これは二重の防御。
+// タグ由来のブランドは products.json にタグが残らず後から名前で再現できないため、
+// 一度入ると手で消すまで残る。入口で止めるほうが安い。
+const CODE_LIKE = /[<>{}()\[\];=+*/|`\\]|document\.|function\s|=>|https?:|\.(?:js|css|php|html)\b/i;
+
+export function isPlausibleBrand(s) {
+  const v = (s || "").trim();
+  if (v.length < 2 || v.length > 30) return false;
+  if (CODE_LIKE.test(v)) return false;
+  return true;
+}
+
 /**
  * ブランド判定（3段階フォールバック）
  * 1. BRAND_MAP キーワードマッチ
@@ -392,8 +415,9 @@ export function detectBrand(name, categoryTags = []) {
           if (cleaned.includes(kw)) return entry.brand;
         }
       }
-      // 一致しなければタグ名をそのまま新ブランドとして採用
-      return cleaned;
+      // 一致しなければタグ名をそのまま新ブランドとして採用。
+      // ただしコード片やウィジェットの注入テキストは弾く（isPlausibleBrand に経緯）
+      if (isPlausibleBrand(cleaned)) return cleaned;
     }
   }
 
