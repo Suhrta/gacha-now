@@ -261,7 +261,7 @@
     "price": 500,
     "releaseWeek": "2026年7月 第2週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 4
   },
   {
     "title": "ズートピア2 ならぶんです。",
@@ -7488,30 +7488,6 @@
     "types": 5
   },
   {
-    "title": "SKZOO ぷくっとバースデークリアリング ～DWAEEKI＆HAN QUOKKA＆BbokAri～",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184252000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_2.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250258_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年8月 第5週",
-    "brand": "SKZOO",
-    "types": 12
-  },
-  {
     "title": "VIRUSWEETS figure collection ～甘味処～",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769867071000",
     "source": "バンダイ公式",
@@ -7582,6 +7558,30 @@
     "releaseWeek": "未定",
     "brand": "プリキュア",
     "types": 5
+  },
+  {
+    "title": "SKZOO ぷくっとバースデークリアリング ～PuppyM＆Wolf Chan＆Leebit～",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184276000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "未定",
+    "brand": "SKZOO",
+    "types": 12
   },
   {
     "title": "RIIZE ぷくっとリング",
@@ -11778,6 +11778,19 @@
     "types": 5
   },
   {
+    "title": "カエルの森工房 無事カエルストラップ弐 山野草色",
+    "url": "https://kitan.jp/products/forest_buzikaeru4/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/08/bujikaeru_sanyasou_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/bujikaeru_sanyasou_DP.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 上旬",
+    "brand": "wp-emoji-settings\",t=document.querySelector(e);if(!(t",
+    "types": 4
+  },
+  {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",
     "url": "https://capsule.bushiroad-creative.com/product/10051/",
     "source": "ブシロードクリエイティブ公式",
@@ -12413,5 +12426,18 @@
     "releaseWeek": "2026年10月 下旬",
     "brand": "ハイキュー",
     "types": 4
+  },
+  {
+    "title": "キャッチ！ティニピン　コスメティックアクセサリーケース",
+    "url": "https://capsule.bushiroad-creative.com/product/10127/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/14132806/tinipin_CP_POP_OL.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/14132806/tinipin_CP_POP_OL.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年9月 下旬",
+    "brand": "その他",
+    "types": 5
   }
 ]
