@@ -3957,7 +3957,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "おじゃる丸",
-    "types": 5
+    "types": null
   },
   {
     "title": "【フラットガシャポン】どうぶつの森 クリアラバーコースター",
@@ -6885,7 +6885,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第4週",
     "brand": "IVE",
-    "types": 6
+    "types": null
   },
   {
     "title": "星のカービィ プププなおかしやさん マスコットチャーム",
@@ -7533,7 +7533,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第5週",
     "brand": "NCT WISH",
-    "types": 6
+    "types": null
   },
   {
     "title": "光るまちぼうけ ガシャポンの場合",
@@ -8009,6 +8009,19 @@
     "releaseWeek": "2026年9月",
     "brand": "ポケモン",
     "types": 4
+  },
+  {
+    "title": "『真・女神転生』シリーズ 悪魔いっぱいコレクション",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905377",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905377_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905377_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月",
+    "brand": "その他",
+    "types": 5
   },
   {
     "title": "ポケモン　30周年 メタルチャームマスコット ～アローラ、ガラル、パルデア～",
