@@ -3957,7 +3957,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "おじゃる丸",
-    "types": null
+    "types": 5
   },
   {
     "title": "【フラットガシャポン】どうぶつの森 クリアラバーコースター",
@@ -6765,7 +6765,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第4週",
     "brand": "ディズニー",
-    "types": 4
+    "types": null
   },
   {
     "title": "fisher-price めじるしアクセサリー",
@@ -6885,7 +6885,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第4週",
     "brand": "IVE",
-    "types": null
+    "types": 6
   },
   {
     "title": "星のカービィ プププなおかしやさん マスコットチャーム",
@@ -7533,7 +7533,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第5週",
     "brand": "NCT WISH",
-    "types": null
+    "types": 6
   },
   {
     "title": "光るまちぼうけ ガシャポンの場合",
