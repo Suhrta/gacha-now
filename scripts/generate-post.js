@@ -23,6 +23,25 @@ const CAROUSEL_MAX = 10;
 // JPEG q90 なら約1/5（769KB→161KB）で、InstagramもJPEGを推奨している。
 const JPEG_QUALITY = 90;
 
+// 1回の実行で投稿を作る上限。
+//
+// 2026-09-01、収集側の変化で new-today.json が138件になり、カルーセル展開で
+// その日だけ public/posts に2,152ファイルが積まれた。public/ が449MBまで膨らみ、
+// 以降のVercel本番デプロイが全て失敗 → 投稿画像が公開されない →
+// publish-instagram.js のpreflightが404を待ち続ける、という連鎖で
+// 更新パイプラインごと止まった。上限が無いのが根本。
+//
+// 実際にInstagramへ出るのは1日2〜19件で、138件生成しても大半は元々捨てていた。
+// hot順にソート済みなので、切っても残るのは注目度の高いものから。
+const MAX_POSTS_PER_RUN = parseInt(process.env.MAX_POSTS_PER_RUN || "8", 10);
+
+// 投稿カードのHTMLは puppeteer に file:// で読ませるためだけの中間物で、
+// サイトからも publish-instagram.js からも参照されない（使うのは .jpg と .txt）。
+// 商品画像をdata URIで埋め込む都合で1枚160KB前後あり、放置するとjpg本体より嵩む
+// （2026-09-02時点で .html 233MB > .jpg 164MB）。撮影後に消す。
+// 中身を確認したいときだけ KEEP_POST_HTML=true。
+const KEEP_POST_HTML = String(process.env.KEEP_POST_HTML || "").toLowerCase() === "true";
+
 // 商品画像を取得して data URI にする。
 //
 // puppeteer に外部URLを読ませると、ヘッドレスChromeを弾くサイトで画像が読めず
@@ -216,6 +235,13 @@ async function main() {
     return 0;
   });
 
+  // 上限を超えたぶんは翌日に回さず捨てる。new-today.json はその日の差分なので
+  // 持ち越すと「もう出ている商品」を後から投稿することになり、鮮度が売りの導線と噛み合わない。
+  const targets = newProducts.slice(0, MAX_POSTS_PER_RUN);
+  if (newProducts.length > targets.length) {
+    console.log(`  ✂️ ${newProducts.length}件中 ${targets.length}件に制限（MAX_POSTS_PER_RUN=${MAX_POSTS_PER_RUN}）`);
+  }
+
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
   const now = new Date();
@@ -228,12 +254,12 @@ async function main() {
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
 
-  for (let i = 0; i < newProducts.length; i++) {
-    const product = newProducts[i];
+  for (let i = 0; i < targets.length; i++) {
+    const product = targets[i];
     const idx = i + 1;
     const base = `post-${today}-${jstHour}h-${idx}`;
     const urls = postImageUrls(product);
-    console.log(`\n  [${idx}/${newProducts.length}] ${product.name}（${urls.length}枚）`);
+    console.log(`\n  [${idx}/${targets.length}] ${product.name}（${urls.length}枚）`);
 
     // カルーセルは1スライド1枚のカードとして書き出す。
     // 連番は -1.jpg, -2.jpg …（1枚だけの商品も同じ規則にして投稿側を単純に保つ）
@@ -256,6 +282,7 @@ async function main() {
       await new Promise((r) => setTimeout(r, 1000));
       await page.screenshot({ path: jpgPath, type: "jpeg", quality: JPEG_QUALITY });
       await page.close();
+      if (!KEEP_POST_HTML) fs.unlinkSync(htmlPath);
       console.log(`    \ud83d\udcf7 ${path.basename(jpgPath)}`);
     }
 
@@ -269,7 +296,7 @@ async function main() {
   }
 
   await browser.close();
-  console.log(`\n\u2705 \u5b8c\u4e86\uff01 ${newProducts.length}\u4ef6\u306e\u6295\u7a3f\u3092\u751f\u6210\u3057\u307e\u3057\u305f`);
+  console.log(`\n\u2705 \u5b8c\u4e86\uff01 ${targets.length}\u4ef6\u306e\u6295\u7a3f\u3092\u751f\u6210\u3057\u307e\u3057\u305f`);
 }
 
 main().catch((e) => { console.error("\u274c \u30a8\u30e9\u30fc:", e); process.exit(1); });
