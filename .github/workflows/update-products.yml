@@ -201,3 +201,33 @@ jobs:
             echo "⏭️ 新着なし、Discord通知（新着なしメッセージ）を送信"
           fi
 
+      # 退役商品の301は next.config.js が毎ビルド組み立てる。保持365日なので
+      # 消えずに積み上がり、月初の一斉入荷（毎月125〜153件）が3ヶ月後の退役で
+      # そのまま乗ってくる。2026-09-02時点で506件。
+      #
+      # Vercelにはルート数の上限があり、超えると「next build は通るのに本番
+      # デプロイだけ落ちる」という壊れ方をする。2026-09-01のEdge Function
+      # 1MB超過（OG画像がproducts.jsonをimportしていた）と同じで、ローカルでは
+      # 再現しないため切り分けに丸一日かかった。同じ轍を踏まないよう先に知らせる。
+      #
+      # 対処は next.config.js の RETENTION_DAYS を縮めるだけ。
+      # 件数は next.config.js の redirects() をそのまま呼んで数える
+      # （ここにロジックを写すと本体と必ずズレるため）。
+      #
+      # continue-on-error: 警告は補助施策なので、失敗してもパイプラインは止めない。
+      - name: Warn if redirects are piling up
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          WARN_THRESHOLD: '800'
+        run: |
+          COUNT=$(node -e "require('./next.config.js').redirects().then(r=>console.log(r.length))")
+          echo "リダイレクト数: ${COUNT} / 閾値 ${WARN_THRESHOLD}"
+
+          if [ "$COUNT" -ge "$WARN_THRESHOLD" ]; then
+            curl -s -H "Content-Type: application/json" \
+              -d "{\"content\":\"⚠️ **リダイレクトが ${COUNT} 件**になりました（閾値 ${WARN_THRESHOLD}）。\nVercelのルート数上限に近づいています。超えると本番デプロイだけが落ちます（next build では気づけません）。\n対処: next.config.js の RETENTION_DAYS を縮めて古い301を落としてください。\"}" \
+              "$DISCORD_WEBHOOK_URL"
+            echo "⚠️ 閾値超過をDiscordに通知しました"
+          fi
+
