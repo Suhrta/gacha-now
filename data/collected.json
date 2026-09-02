@@ -981,7 +981,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第2週",
     "brand": "キン肉マン",
-    "types": 11
+    "types": null
   },
   {
     "title": "それいけ！アンパンマン ハンディコンサートDX9",
@@ -2469,7 +2469,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第5週",
     "brand": "トムとジェリー",
-    "types": null
+    "types": 4
   },
   {
     "title": "ホイッピ＆ラッピ めじるしアクセサリー",
@@ -6885,7 +6885,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第4週",
     "brand": "IVE",
-    "types": 6
+    "types": null
   },
   {
     "title": "星のカービィ プププなおかしやさん マスコットチャーム",
