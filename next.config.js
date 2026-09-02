@@ -43,8 +43,37 @@ function retiredRedirects() {
     }));
 }
 
+// ── OG画像に渡す集計値 ──────────────────────────────────────────
+//
+// app/opengraph-image.jsx は Edge Function として動く。そこで products.json を
+// import すると1.5MBのJSONが丸ごとバンドルに載り、Hobbyの1MB上限を超えて
+// デプロイが落ちる（2026-09-01に商品が876件へ増えて超過、以降の本番デプロイが
+// 全滅した。エラーは "The Edge Function opengraph-image size is 1 MB and
+// your plan size limit is 1 MB"。ビルド自体は通るのでローカルでは再現しない）。
+//
+// OG画像が実際に使うのは「総件数」と「今月の件数」の2つだけなので、
+// ここでビルド時に数えて env で文字列として埋め込む。バンドルに載るのは
+// 数十バイトで済み、商品が何件に増えても上限に近づかない。
+//
+// 月別に持つのは、OG画像が「今月」をリクエスト時刻から決めるため。
+// products.json はビルド時にしか変わらないので、鮮度は import 版と変わらない。
+function ogMonthCounts() {
+  const counts = {};
+  for (const p of products) {
+    const m = p.releaseWeek?.match(/(\d+)月/);
+    if (!m) continue; // 9割は「発売中」等で月が取れない
+    const key = String(parseInt(m[1], 10));
+    counts[key] = (counts[key] || 0) + 1;
+  }
+  return counts;
+}
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  env: {
+    OG_TOTAL_ITEMS: String(products.length),
+    OG_MONTH_COUNTS: JSON.stringify(ogMonthCounts()),
+  },
   images: {
     // Vercelの画像最適化は使わない。
     //

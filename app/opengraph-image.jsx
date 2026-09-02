@@ -1,6 +1,10 @@
 import { ImageResponse } from "next/og";
-import products from "../data/products.json";
 
+// products.json はここで import しないこと。
+// このルートはEdge Functionで、Hobbyのサイズ上限は1MB。1.5MBのJSONを import すると
+// バンドルに丸ごと載って上限を超え、デプロイが落ちる（2026-09-01に実際に起きた。
+// `next build` は通ってしまうのでローカルでは気づけない）。
+// 必要な集計値は next.config.js がビルド時に数えて env に埋め込んでいる。
 export const runtime = "edge";
 export const alt = "ガチャなう - カプセルトイ新作情報サイト";
 export const size = { width: 1200, height: 630 };
@@ -60,10 +64,15 @@ function Capsules() {
 export default async function OGImage() {
   const now = new Date();
   const currentMonth = now.getMonth() + 1;
-  const thisMonthCount = products.filter((p) => {
-    const m = p.releaseWeek?.match(/(\d+)月/);
-    return m && parseInt(m[1]) === currentMonth;
-  }).length;
+
+  // next.config.js がビルド時に埋め込む値。数え直しではなく引き当てるだけ。
+  const totalItems = Number(process.env.OG_TOTAL_ITEMS) || 0;
+  let thisMonthCount = 0;
+  try {
+    thisMonthCount = JSON.parse(process.env.OG_MONTH_COUNTS || "{}")[String(currentMonth)] || 0;
+  } catch {
+    // 埋め込みが壊れていてもOG画像は出す（バッジが0になるだけ）
+  }
 
   const [regular, bold] = await Promise.all([loadFont(500), loadFont(900)]);
   const hasJapanese = !!(regular || bold);
@@ -76,8 +85,8 @@ export default async function OGImage() {
     ? `🎪 ${currentMonth}月新作 ${thisMonthCount}件`
     : `🎪 ${thisMonthCount} new this month`;
   const totalBadge = hasJapanese
-    ? `📦 全${products.length}件掲載中`
-    : `📦 ${products.length} items total`;
+    ? `📦 全${totalItems}件掲載中`
+    : `📦 ${totalItems} items total`;
 
   const fonts = [];
   if (regular) fonts.push({ name: "NotoJP", data: regular, weight: 500, style: "normal" });
