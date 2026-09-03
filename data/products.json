@@ -2188,7 +2188,7 @@
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118202260000",
     "source": "バンダイ公式",
     "collectedAt": "2026-09-01T01:36:35.079Z",
-    "description": "パーツをつまんでつなげて遊べるマスコットシリーズに、赤見かるびが登場するカプセルトイです。バンダイから発売される「赤見かるび ～つまんでつなげてますこっと～」は全10種で、1回400円で楽しめます。発売時期は9月第3週の予定です。",
+    "description": "パーツをつまんでつなげて遊べるマスコットシリーズに、赤見かるびが登場するカプセルトイです。バンダイから発売される本商品は全10種で、価格は1回400円。複数個をつなげて楽しめる仕様が特徴のシリーズで、9月第3週の発売が予定されています。",
     "thumb": "/thumb/gacha-6a6cc9cf.webp",
     "officialDescription": "おにくの国のお姫様「赤見かるび」がつまんでつなげてますこっとになって登場です。集めてつなげてくださいね♪",
     "ageRating": "15才以上"
@@ -2966,7 +2966,7 @@
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770055825000",
     "source": "バンダイ公式",
     "collectedAt": "2026-09-01T01:36:35.079Z",
-    "description": "バンダイから登場する「まちぼうけ」シリーズのカプセルトイに、サイレントヒルをテーマにした新作が加わります。全4種のラインナップで、価格は1回400円です。発売時期は9月第3週を予定しており、店頭のガチャガチャコーナーで展開される予定です。",
+    "description": "バンダイから展開されるカプセルトイ「サイレントヒル まちぼうけ」は、全4種のラインナップで登場します。1回の価格は400円で、9月第3週の発売が予定されています。",
     "thumb": "/thumb/gacha-1a40e7a9.webp",
     "officialDescription": "「サイレントヒル」シリーズからまちぼうけが登場！",
     "ageRating": "18才以上"
@@ -4623,7 +4623,7 @@
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770055467000",
     "source": "バンダイ公式",
     "collectedAt": "2026-09-01T01:36:35.080Z",
-    "description": "人気漫画・アニメ「キン肉マン」のカプセルトイとして、バンダイから「キン肉マン ドットフィギュアチャーム2」が登場します。価格は1回400円で、全6種のラインナップとなっています。発売時期は9月第5週を予定しています。",
+    "description": "人気漫画・アニメ「キン肉マン」をモチーフにしたカプセルトイ「キン肉マン ドットフィギュアチャーム2」がバンダイより登場します。1回400円で全6種がラインナップされ、9月第5週の発売が予定されています。",
     "thumb": "/thumb/gacha-685a9837.webp",
     "officialDescription": "「キン肉マン」より、ドットデザインが特徴的なフィギュアチャームの第2弾が登場！カバンなどに付けて持ち歩くことも、飾って楽しむこともできるフィギュアチャームです。",
     "ageRating": "15才以上"
@@ -4911,17 +4911,29 @@
     "name": "宇宙からの輪ゴムGUN",
     "brand": "その他",
     "brandSlug": "other",
-    "price": 300,
-    "types": null,
-    "releaseWeek": "9月 未定",
+    "price": 200,
+    "types": 5,
+    "releaseWeek": "9月 14日週",
     "color": "#e5b499",
     "hot": false,
-    "img": null,
-    "images": [],
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907739_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907739_b.jpg"
+    ],
     "affiliateUrl": "#",
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907739",
     "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-09-01T00:04:31.700Z"
+    "collectedAt": "2026-09-01T00:04:31.700Z",
+    "officialDescription": "トリガーを引くと輪ゴムが発射できる「輪ゴムGUN」シリーズに、クリア＆ラメ仕様が仲間入り。輪ゴムは一度に複数個を装填することができるため、トリガーを引くごとに1発ずつ連発することも可能です（輪ゴムは付属していません）。本体サイズは約10〜13cm。ラインナップは「輪ゴムGUN SBRB-01」「輪ゴムGUN SRBR-02」「輪ゴムGUN SC-03」「輪ゴムGUN SY-04」「輪ゴムGUN GCG-05」の全5種。",
+    "size": "約10〜13cm",
+    "lineup": [
+      "輪ゴムGUN SBRB-01",
+      "輪ゴムGUN SRBR-02",
+      "輪ゴムGUN SC-03",
+      "輪ゴムGUN SY-04",
+      "輪ゴムGUN GCG-05"
+    ],
+    "thumb": "/thumb/gun-2d70d9c0.webp"
   },
   {
     "id": "gacha-2d0ab4b9",
@@ -4959,7 +4971,7 @@
     "brandSlug": "tomica",
     "price": 400,
     "types": 4,
-    "releaseWeek": "9月",
+    "releaseWeek": "9月 11日週",
     "color": "#e599a8",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909566_b.jpg",

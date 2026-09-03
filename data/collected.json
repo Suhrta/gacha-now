@@ -1845,7 +1845,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "たまごっち",
-    "types": null
+    "types": 6
   },
   {
     "title": "なめこ栽培キット まちぼうけ",
@@ -7972,6 +7972,32 @@
     "types": 9
   },
   {
+    "title": "tomica PREMIUM BOX型シリコンポーチ2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909566",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909566_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909566_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 11日週",
+    "brand": "トミカ",
+    "types": 4
+  },
+  {
+    "title": "宇宙からの輪ゴムGUN",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907739",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907739_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907739_b.jpg"
+    ],
+    "price": 200,
+    "releaseWeek": "2026年9月 14日週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
     "title": "ポケモン しゃぼんたいむマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903304",
     "source": "タカラトミーアーツ公式",
@@ -8037,17 +8063,6 @@
     "types": 7
   },
   {
-    "title": "宇宙からの輪ゴムGUN",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907739",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": null,
-    "images": [],
-    "price": null,
-    "releaseWeek": "2026年9月 未定",
-    "brand": "その他",
-    "types": null
-  },
-  {
     "title": "トミカキーホルダー8",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908965",
     "source": "タカラトミーアーツ公式",
@@ -8056,19 +8071,6 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y908965_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年9月",
-    "brand": "トミカ",
-    "types": 4
-  },
-  {
-    "title": "tomica PREMIUM BOX型シリコンポーチ2",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909566",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909566_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909566_b.jpg"
-    ],
-    "price": 400,
     "releaseWeek": "2026年9月",
     "brand": "トミカ",
     "types": 4
