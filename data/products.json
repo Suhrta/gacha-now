@@ -1,5 +1,67 @@
 [
   {
+    "id": "-camera-negafilm-charm-07309daf",
+    "name": "パペットスンスン CAMERA NEGAFILM CHARM",
+    "brand": "パペットスンスン",
+    "brandSlug": "sunsun",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "9月 第3週",
+    "color": "#e599a1",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256835_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769995248000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-09-04T08:03:19.422Z",
+    "officialDescription": "パーツを引っ張るとスンスンたちのフィルム風写真シートが出てくるカメラ型マスコット。チャーム仕様で持ち運びたくなるデザインです。",
+    "ageRating": "15才以上",
+    "description": "バンダイより、パペットスンスンをモチーフにしたカプセルトイ「パペットスンスン CAMERA NEGAFILM CHARM」が登場します。1回400円で、全4種の中からランダムに手に入る仕組みです。発売時期は9月第3週を予定しており、ガチャガチャ専門店をはじめ全国のカプセルトイ販売機で取り扱われる見込みです。",
+    "thumb": "/thumb/-camera-negafilm-charm-07309daf.webp"
+  },
+  {
+    "id": "gacha-20daf2a6",
+    "name": "東京靴流通センター 靴下＆靴袋コレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "9月 11日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908170_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908170_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908170",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-04T08:03:19.423Z",
+    "officialDescription": "全国各地にある\"あの靴屋さん\"が、実際に履ける靴下と、実用的な靴袋になりました。なつかしの玩具店『ハローマック』デザインの靴下と靴袋もあり、あの頃の記憶がよみがえります。東京靴流通センターとハローマックの靴下は店舗の外観をイメージしたデザインになっています。本体サイズは、靴下：約23～25cmサイズ、靴袋：約Ｗ28&times;Ｈ33cm。※靴袋は、女性用24.5cmのシンプルなスニーカーが1組入るサイズです。靴のサイズや形状により、入らない場合がございます。ラインナップは「〈靴下〉東京靴流通センター」「〈靴下〉SHOE PLAZA」「〈靴下〉ハローマック」「〈靴袋〉東京靴流通センター」「〈靴袋〉ハローマック」の全5種。",
+    "lineup": [
+      "〈靴下〉東京靴流通センター",
+      "〈靴下〉SHOE PLAZA",
+      "〈靴下〉ハローマック",
+      "〈靴袋〉東京靴流通センター",
+      "〈靴袋〉ハローマック"
+    ],
+    "thumb": "/thumb/gacha-20daf2a6.webp"
+  },
+  {
     "id": "fig--2bdfb5af",
     "name": "肩ズンFig. ガチャピン・ムックと仲間たち",
     "brand": "その他",
@@ -102,9 +164,9 @@
     "releaseWeek": "9月 第3週",
     "color": "#FFD54F",
     "hot": true,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256870_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256870_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256870_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256870_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256870_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256870_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256870_4.jpg",
@@ -123,7 +185,7 @@
     "collectedAt": "2026-09-03T07:53:23.278Z",
     "officialDescription": "90mmのビッグサイズカプセル「ガシャっとコレクト」の第6弾が登場！ビッグサイズのカビゴンに、約4cmサイズのピカチュウ、ゲンガー、スターミー、コイルの全5種類。ボールチェーン付なので、スイングとしてもモンスターボール型カプセルを台座にしてフィギュアとして飾ってもOKの2WAY仕様です。ガシャっと回して、ポケモンをGET！いっぱいコレクトしよう♪",
     "ageRating": "6才以上",
-    "description": "世界的な人気を誇るポケモンをモチーフにしたカプセルトイ「ポケットモンスター ガシャっとコレクト07」がバンダイより登場します。全5種のラインナップで、価格は1回500円です。発売は9月第3週を予定しています。",
+    "description": "世界的に人気のポケモンをテーマにしたカプセルトイ「ポケットモンスター ガシャっとコレクト07」がバンダイより登場します。1回500円で全5種がラインナップされ、9月第3週の発売が予定されています。",
     "thumb": "/thumb/-07-25d1a958.webp"
   },
   {
@@ -834,9 +896,9 @@
     "releaseWeek": "9月 第2週",
     "color": "#e5b499",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256862_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256862_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256862_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256862_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256862_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256862_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256862_4.jpg",
@@ -1341,9 +1403,9 @@
     "releaseWeek": "9月 第2週",
     "color": "#d5e599",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256888_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256888_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256888_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256888_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256888_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256888_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256888_4.jpg",
@@ -3237,9 +3299,9 @@
     "releaseWeek": "9月 第3週",
     "color": "#B71C1C",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256802_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256802_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256802_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256802_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256802_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256802_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256802_4.jpg",
@@ -3305,9 +3367,9 @@
     "releaseWeek": "9月 第3週",
     "color": "#FFCC80",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256793_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256793_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256793_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256793_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256793_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256793_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256793_4.jpg",
@@ -4249,9 +4311,9 @@
     "releaseWeek": "9月 第4週",
     "color": "#CE93D8",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256853_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256853_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256853_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256853_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256853_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256853_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256853_4.jpg",
@@ -24115,39 +24177,5 @@
       "マイメロディ・クロミ（お電話ありました）"
     ],
     "thumb": "/thumb/gacha-559990fa.webp"
-  },
-  {
-    "id": "gacha-3c144a68",
-    "name": "パペットスンスン もっと！スンスンを探せマスコット",
-    "brand": "パペットスンスン",
-    "brandSlug": "sunsun",
-    "price": 400,
-    "types": 5,
-    "releaseWeek": "発売中",
-    "color": "#e599a1",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251600_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769927133000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-06-04T07:24:21.596Z",
-    "description": "バンダイから展開されているカプセルトイ「パペットスンスン もっと！スンスンを探せマスコット」がラインナップされています。パペットスンスンをモチーフにしたマスコットで、全5種の中からランダムに1つが手に入る仕組みです。価格は1回400円で、現在発売中となっています。",
-    "officialDescription": "スンスンを探せマスコットに2弾が登場！今回はゾンゾンもラインナップ！みんなでなかよく並べて飾りたくなるマスコットです。",
-    "ageRating": "15才以上",
-    "thumb": "/thumb/gacha-3c144a68.webp"
   }
 ]
