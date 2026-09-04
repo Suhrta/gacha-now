@@ -477,7 +477,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "Lil ala mode",
-    "types": null
+    "types": 4
   },
   {
     "title": "Esther Bunny（エスターバニー） めじるしアクセサリー2",
@@ -4293,7 +4293,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第2週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "mofusand もふもふジャーニーポーチ",
@@ -8018,6 +8018,32 @@
     "types": 5
   },
   {
+    "title": "肩ズンFig. ガチャピン・ムックと仲間たち",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y097256",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y097256_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y097256_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 7日週",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "おさるのジョージ のりもの めじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903502",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903502_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903502_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 7日週",
+    "brand": "おさるのジョージ",
+    "types": 4
+  },
+  {
     "title": "BEYBLADE X 歴代カプセルシューター大集合",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906367",
     "source": "タカラトミーアーツ公式",
@@ -8093,19 +8119,6 @@
     "price": 400,
     "releaseWeek": "2026年9月",
     "brand": "ポケモン",
-    "types": 4
-  },
-  {
-    "title": "おさるのジョージ のりもの めじるしガチャマスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903502",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903502_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903502_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年9月",
-    "brand": "おさるのジョージ",
     "types": 4
   },
   {

@@ -1,5 +1,33 @@
 [
   {
+    "id": "fig--2bdfb5af",
+    "name": "肩ズンFig. ガチャピン・ムックと仲間たち",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "9月 7日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y097256_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y097256_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y097256",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-04T00:09:06.137Z",
+    "officialDescription": "隣の人の肩に頭を\"ズン\"ともたれてうとうとする姿で人気の「肩ズンFig.」シリーズに、「ガチャピン・ムックと仲間たち」が登場。穏やかな表情で眠る姿は、全種類集めて並べたくなります。本体サイズは約4.2〜5cm。ラインナップは「ガチャピン」「ムック」「Pちゃん」「コニーちゃん」の全4種。",
+    "size": "約4.2〜5cm",
+    "lineup": [
+      "ガチャピン",
+      "ムック",
+      "Pちゃん",
+      "コニーちゃん"
+    ],
+    "thumb": "/thumb/fig--2bdfb5af.webp"
+  },
+  {
     "id": "5-part1-1ed323c1",
     "name": "トイ・ストーリー5 ゆらゆらつながるマスコット Part1",
     "brand": "ディズニー",
@@ -95,7 +123,7 @@
     "collectedAt": "2026-09-03T07:53:23.278Z",
     "officialDescription": "90mmのビッグサイズカプセル「ガシャっとコレクト」の第6弾が登場！ビッグサイズのカビゴンに、約4cmサイズのピカチュウ、ゲンガー、スターミー、コイルの全5種類。ボールチェーン付なので、スイングとしてもモンスターボール型カプセルを台座にしてフィギュアとして飾ってもOKの2WAY仕様です。ガシャっと回して、ポケモンをGET！いっぱいコレクトしよう♪",
     "ageRating": "6才以上",
-    "description": "世界的な人気を誇るポケモンのカプセルトイ新作として、バンダイより「ポケットモンスター ガシャっとコレクト07」が登場します。1回500円で、全5種のラインナップが用意されています。発売は9月第3週を予定しています。",
+    "description": "世界的に人気のポケモンをテーマにしたカプセルトイ「ポケットモンスター ガシャっとコレクト07」がバンダイより登場します。1回500円で全5種がラインナップされており、9月第3週の発売が予定されています。",
     "thumb": "/thumb/-07-25d1a958.webp"
   },
   {
@@ -6827,7 +6855,7 @@
     "brandSlug": "george",
     "price": 400,
     "types": 4,
-    "releaseWeek": "9月",
+    "releaseWeek": "9月 7日週",
     "color": "#99afe5",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903502_b.jpg",
