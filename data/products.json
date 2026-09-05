@@ -185,7 +185,7 @@
     "collectedAt": "2026-09-03T07:53:23.278Z",
     "officialDescription": "90mmのビッグサイズカプセル「ガシャっとコレクト」の第6弾が登場！ビッグサイズのカビゴンに、約4cmサイズのピカチュウ、ゲンガー、スターミー、コイルの全5種類。ボールチェーン付なので、スイングとしてもモンスターボール型カプセルを台座にしてフィギュアとして飾ってもOKの2WAY仕様です。ガシャっと回して、ポケモンをGET！いっぱいコレクトしよう♪",
     "ageRating": "6才以上",
-    "description": "世界的に人気を集めるポケモンをテーマにしたカプセルトイ「ポケットモンスター ガシャっとコレクト07」がバンダイより登場します。全5種のラインナップで、価格は1回500円です。発売は9月第3週を予定しています。",
+    "description": "世界的に人気のポケモンをテーマにしたカプセルトイとして、バンダイより「ポケットモンスター ガシャっとコレクト07」が登場します。全5種のラインナップで、1回500円で楽しめます。発売は9月第3週を予定しています。",
     "thumb": "/thumb/-07-25d1a958.webp"
   },
   {
@@ -23663,65 +23663,5 @@
       "Ｅ"
     ],
     "thumb": "/thumb/zizone-pingo--34a0a2eb.webp"
-  },
-  {
-    "id": "jiggy-boys--4896262b",
-    "name": "JIGGY BOYS アクリルめじるしガチャマスコット",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 300,
-    "types": 7,
-    "releaseWeek": "6月 8日週",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906848_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906848_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906848",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-06-05T09:02:07.219Z",
-    "description": "JIGGY BOYSのキュートなキャラたちがアクリルマスコットになって登場！お気に入りの推しを見つけて、バッグや鍵につけて一緒にお出かけしよう。",
-    "officialDescription": "傘やペットボトルのマーカーとしても使えるアクリル仕様の「めじるしガチャマスコット」に、BATTLE OF TOKYOの『JIGGY BOYS』が登場。シリコンリングとカニカンで、ペットボトルやペンライトなどのマーカーとして、いろいろなところに付けられます。本体サイズは約4.5cm。ラインナップは「Skeet&ne;砂田将宏」「Flory&ne;海沼流星」「Future&ne;深堀未来」「Claude&ne;日髙竜太」「Yuki&ne;加納嘉将」「Libra&ne;奥田力也」「X&ne;松井利樹」の全7種。",
-    "size": "約4.5cm",
-    "lineup": [
-      "Skeet&ne;砂田将宏",
-      "Flory&ne;海沼流星",
-      "Future&ne;深堀未来",
-      "Claude&ne;日髙竜太",
-      "Yuki&ne;加納嘉将",
-      "Libra&ne;奥田力也",
-      "X&ne;松井利樹"
-    ],
-    "thumb": "/thumb/jiggy-boys--4896262b.webp"
-  },
-  {
-    "id": "aip--39668df8",
-    "name": "AIP 森口修の猫 フィギュアマスコット３",
-    "brand": "森口修",
-    "brandSlug": "moriguchiosamu",
-    "price": 500,
-    "types": 4,
-    "releaseWeek": "発売中",
-    "color": "#a499e5",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/02/moriguchi3_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/02/moriguchi3_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/moriguchiosamu_cat3/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-06-05T09:02:07.220Z",
-    "description": "キタンクラブから、森口修による作品をモチーフにしたカプセルトイ「AIP 森口修の猫 フィギュアマスコット３」が登場しています。全4種のラインナップで、価格は1回500円です。ガチャガチャとして現在発売中で、店頭のカプセルトイ機で購入することができます。",
-    "officialDescription": "“まるで本物！生きているみたい”と好評をいただいている、『森口修の猫』シリーズに第3弾が登場します。猫の魅力を余すことなく表現するため、通常のフィギュアよりもサイズを大きめにし、毛並みの流れや質感、肉球のふくらみまで、細部にこだわって精密に再現しています。立ち姿や座り姿、体重のかかり方まで意識して造形することで、今にも動き出しそうなリアリティを追求しました。どの角度から見ても見応えのある仕上がり。 今回はカプセルトイオリジナルのポーズもラインナップに仲間入り！日常のワンシーンを切り取ったような自然な姿を楽しめます。 ラインナップは「 Ａ 、Ｂ 、Ｃ 、Ｄ 」の全4種。",
-    "lineup": [
-      "Ａ",
-      "Ｂ",
-      "Ｃ",
-      "Ｄ"
-    ],
-    "thumb": "/thumb/aip--39668df8.webp"
   }
 ]
