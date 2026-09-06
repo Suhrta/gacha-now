@@ -1,5 +1,39 @@
 [
   {
+    "id": "gacha-5efa82cc",
+    "name": "仮面ライダーシリーズ ビジュアルアートコレクション",
+    "brand": "仮面ライダー",
+    "brandSlug": "kamenrider",
+    "price": 300,
+    "types": 10,
+    "releaseWeek": "9月 第3週",
+    "color": "#4DB6AC",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_2.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770122442000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-09-06T07:46:10.881Z",
+    "officialDescription": "仮面ライダーシリーズの新たなアクリルチャームが登場！歴代の激戦やビジュアルを想起する美麗なイラストを持ち運びしやすいサイズ感に凝縮しました。全種描き起こしイラストを採用＆アクリルの表裏にデザインを印刷することで立体的な表現を実現した豪華仕様！",
+    "ageRating": "3才以上",
+    "description": "長年愛され続ける特撮ヒーロー、仮面ライダーをテーマにしたカプセルトイ「仮面ライダーシリーズ ビジュアルアートコレクション」がバンダイから登場します。1回300円で楽しめる全10種のラインナップで、発売は9月第3週を予定しています。",
+    "thumb": "/thumb/gacha-5efa82cc.webp"
+  },
+  {
     "id": "aip--39668df8",
     "name": "AIP 森口修の猫 フィギュアマスコット３",
     "brand": "森口修",
@@ -24,7 +58,7 @@
       "Ｃ",
       "Ｄ"
     ],
-    "description": "キタンクラブから、森口修によるフィギュアマスコットのカプセルトイ第3弾が登場しています。全4種のラインナップで、価格は1回500円です。森口修を題材にしたシリーズとして展開されており、現在発売中となっています。",
+    "description": "キタンクラブから、森口修によるフィギュアマスコットの第3弾がカプセルトイとして登場しています。全4種のラインナップで、価格は1回500円です。現在発売中で、店頭のガチャガチャ機で購入することができます。",
     "thumb": "/thumb/aip--39668df8.webp"
   },
   {
@@ -213,7 +247,7 @@
     "collectedAt": "2026-09-03T07:53:23.278Z",
     "officialDescription": "90mmのビッグサイズカプセル「ガシャっとコレクト」の第6弾が登場！ビッグサイズのカビゴンに、約4cmサイズのピカチュウ、ゲンガー、スターミー、コイルの全5種類。ボールチェーン付なので、スイングとしてもモンスターボール型カプセルを台座にしてフィギュアとして飾ってもOKの2WAY仕様です。ガシャっと回して、ポケモンをGET！いっぱいコレクトしよう♪",
     "ageRating": "6才以上",
-    "description": "世界的な人気を誇るポケモンのカプセルトイとして、バンダイより「ポケットモンスター ガシャっとコレクト07」が登場します。全5種のラインナップで、1回500円で楽しめます。発売は9月第3週を予定しています。",
+    "description": "バンダイより、世界的に人気のポケモンをモチーフにしたカプセルトイ「ポケットモンスター ガシャっとコレクト07」が登場します。全5種のラインナップで、1回500円で楽しめるガチャガチャです。発売は9月第3週を予定しています。",
     "thumb": "/thumb/-07-25d1a958.webp"
   },
   {

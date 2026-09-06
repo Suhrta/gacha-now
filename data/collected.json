@@ -1461,7 +1461,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "モンチッチ",
-    "types": null
+    "types": 6
   },
   {
     "title": "たまごっち スイングケース3",
@@ -4365,7 +4365,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "ディズニー",
-    "types": null
+    "types": 5
   },
   {
     "title": "お茶犬 和菓子マスコット",
@@ -6526,6 +6526,30 @@
     "releaseWeek": "2026年9月 第3週",
     "brand": "どうぶつの森",
     "types": 12
+  },
+  {
+    "title": "仮面ライダーシリーズ ビジュアルアートコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770122442000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_2.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月 第3週",
+    "brand": "仮面ライダー",
+    "types": 10
   },
   {
     "title": "ナルミヤキャラクターズ ぷくっとクリアリング",
