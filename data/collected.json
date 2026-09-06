@@ -1461,7 +1461,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "モンチッチ",
-    "types": 6
+    "types": null
   },
   {
     "title": "たまごっち スイングケース3",
@@ -4365,7 +4365,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "ディズニー",
-    "types": 5
+    "types": null
   },
   {
     "title": "お茶犬 和菓子マスコット",
