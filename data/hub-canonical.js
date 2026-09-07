@@ -51,17 +51,40 @@ export const BRAND_CANONICAL = {
   kirby: "/character/kirby",
 };
 
+// /series/{slug} → 正規化先URL
+//
+// brand↔character と同じ問題がシリーズ間でも起きていた。
+// GSC実測（2026-09-07・直近28日）:
+//   /series/mejirushi       799clk / 20,940imp / 8.1位   （バンダイ「めじるしアクセサリー」103件）
+//   /series/mejirushi-gacha   1clk /     17imp / 27.1位  （タカラトミーアーツ「めじるしガチャマスコット」13件）
+//
+// 27位はGoogleが候補にすら入れていない状態で、単独で打てる手が無い。
+// 実際のSERP（2026-09-07に「めじるしアクセサリー ガチャガチャ 最新」を確認）でも、
+// 上位の gacha-island.jp は「めじるしアクセサリー系」として
+// めじるしチャーム / mineチャーム / めじるしガチャマスコット をメーカー横断で1ページに束ねている。
+// 分けて持っているのはこちらだけだった。
+//
+// mejirushi 側の pattern を「めじるし」に広げて両方を載せ、
+// mejirushi-gacha からは canonical を張ってシグナルを寄せる。
+export const SERIES_CANONICAL = {
+  "mejirushi-gacha": "/series/mejirushi",
+};
+
+const CANONICAL_MAPS = {
+  brand: BRAND_CANONICAL,
+  character: CHARACTER_CANONICAL,
+  series: SERIES_CANONICAL,
+};
+
 const ORIGIN = "https://gacha-now.net";
 
 /** ハブページの canonical URL。統合先が無ければ自分自身。 */
 export function hubCanonical(kind, slug) {
-  const map = kind === "character" ? CHARACTER_CANONICAL : BRAND_CANONICAL;
-  const target = map[slug];
+  const target = (CANONICAL_MAPS[kind] || {})[slug];
   return target ? `${ORIGIN}${target}` : `${ORIGIN}/${kind}/${slug}`;
 }
 
 /** 統合される側（自分が正規ページでない）かどうか */
 export function isConsolidated(kind, slug) {
-  const map = kind === "character" ? CHARACTER_CANONICAL : BRAND_CANONICAL;
-  return Boolean(map[slug]);
+  return Boolean((CANONICAL_MAPS[kind] || {})[slug]);
 }

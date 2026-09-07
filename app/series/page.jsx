@@ -1,6 +1,6 @@
 import Link from "next/link";
 import products from "../../data/products.json";
-import { SERIES, filterProductsBySeries } from "../../data/series";
+import { browsableSeries, filterProductsBySeries } from "../../data/series";
 
 export const metadata = {
   title: "ガチャガチャ シリーズ特集一覧｜めじるしアクセサリー・肩ズン ほか | ガチャなう",
@@ -10,7 +10,7 @@ export const metadata = {
 };
 
 export default function SeriesIndexPage() {
-  const list = SERIES.map((s) => ({
+  const list = browsableSeries().map((s) => ({
     ...s,
     count: filterProductsBySeries(products, s).length,
   }));

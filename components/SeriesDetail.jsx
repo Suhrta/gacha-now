@@ -15,7 +15,7 @@ import Footer from "./Footer";
 import Breadcrumb from "./Breadcrumb";
 import CharacterInfo from "./CharacterInfo";
 import products from "../data/products.json";
-import { SERIES, getSeriesBySlug, filterProductsBySeries } from "../data/series";
+import { browsableSeries, getSeriesBySlug, filterProductsBySeries } from "../data/series";
 
 export default function SeriesDetail({ historyTotal = null }) {
   const { slug } = useParams();
@@ -25,7 +25,7 @@ export default function SeriesDetail({ historyTotal = null }) {
   const items = series ? filterProductsBySeries(products, series) : [];
   const name = series ? series.name : decodeURIComponent(slug);
   const intro = series ? series.intro : null;
-  const others = SERIES.filter((s) => s.slug !== slug);
+  const others = browsableSeries().filter((s) => s.slug !== slug);
 
   return (
     <>
