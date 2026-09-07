@@ -82,8 +82,12 @@ function main() {
 
     p.brand = brand;
     p.brandSlug = toBrandSlug(brand);
-    p.color = getBrandColor(brand);
-    p.hot = isHot(p.name, brand);
+    // color / hot は元から持っているレコードにだけ書く。
+    // このスクリプトは PRODUCTS_PATH で data/retired-items.json にも使う
+    // （そちらは id/name/brand/brandSlug/lastSeen だけの軽いレコードで、
+    //   表示に使わない color / hot を足すとファイルが太るだけになる）。
+    if ("color" in p) p.color = getBrandColor(brand);
+    if ("hot" in p) p.hot = isHot(p.name, brand);
   }
 
   if (changes.length === 0 && fixes.length === 0 && junk.length === 0) {
