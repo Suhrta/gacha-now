@@ -1,6 +1,6 @@
 import products from "../../../data/products.json";
 import { SERIES, getSeriesBySlug, filterProductsBySeries } from "../../../data/series";
-import { buildHubInfo, buildFaqLd, buildHubMeta } from "../../../lib/hub-info";
+import { buildHubMeta } from "../../../lib/hub-info";
 
 export function generateStaticParams() {
   return SERIES.map((s) => ({ slug: s.slug }));
@@ -30,47 +30,9 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function SeriesLayout({ children, params }) {
-  const series = getSeriesBySlug(params.slug);
-  if (!series) return children;
-
-  const items = filterProductsBySeries(products, series);
-
-  const itemListLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: `${series.name}の新作一覧`,
-    numberOfItems: items.length,
-    itemListElement: items.slice(0, 20).map((p, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      url: `https://gacha-now.net/item/${p.id}`,
-      name: p.name,
-    })),
-  };
-
-  const breadcrumbLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://gacha-now.net" },
-      { "@type": "ListItem", position: 2, name: "シリーズ特集", item: "https://gacha-now.net/series" },
-      { "@type": "ListItem", position: 3, name: series.name, item: `https://gacha-now.net/series/${series.slug}` },
-    ],
-  };
-
-  // ページに表示しているQ&Aと同じ文面を構造化データにする（lib/hub-info.js が共通の元）
-  const info = buildHubInfo({ name: series.name, items, intro: series.intro });
-  const faqLd = info ? buildFaqLd(info.faq) : null;
-
-  return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
-      {faqLd && (
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
-      )}
-      {children}
-    </>
-  );
+// 構造化データ（ItemList / FAQPage）は page.jsx が出す。
+// layout は /series/[slug]/history にも適用されるため、ここに置くと
+// 歴代ページにシリーズ側の申告が混入する。
+export default function SeriesLayout({ children }) {
+  return children;
 }

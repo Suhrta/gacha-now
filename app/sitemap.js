@@ -67,6 +67,15 @@ export default function sitemap() {
     priority: 0.6,
   }));
 
+  // 歴代ページ（掲載終了分を含む一覧）。history: true のシリーズのみ存在する。
+  // 掲載中の商品が入れ替わるたびに中身が増えるので lastModified は同じ基準でよい。
+  const seriesHistoryPages = SERIES.filter((s) => s.history).map((s) => ({
+    url: `${BASE_URL}/series/${s.slug}/history`,
+    lastModified: latestCollectedAt(filterProductsBySeries(products, s)),
+    changeFrequency: "weekly",
+    priority: 0.6,
+  }));
+
   const releasePages = getAllReleaseMonths(products).map((ym) => ({
     url: `${BASE_URL}/release/${ym}`,
     lastModified: latestCollectedAt(products.filter((p) => getReleaseYearMonth(p) === ym)),
@@ -89,6 +98,7 @@ export default function sitemap() {
     { url: `${BASE_URL}/release`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.5 },
     ...blogPages,
     ...seriesPages,
+    ...seriesHistoryPages,
     ...productPages,
     ...brandPages,
     ...characterPages,

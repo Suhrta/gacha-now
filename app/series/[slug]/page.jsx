@@ -1,91 +1,49 @@
-"use client";
-import { useState } from "react";
-import { useParams } from "next/navigation";
-import Link from "next/link";
-import GachaMachine from "../../../components/GachaMachine";
-import ReceiptPaper from "../../../components/ReceiptPaper";
-import Footer from "../../../components/Footer";
-import Breadcrumb from "../../../components/Breadcrumb";
-import CharacterInfo from "../../../components/CharacterInfo";
 import products from "../../../data/products.json";
-import { SERIES, getSeriesBySlug, filterProductsBySeries } from "../../../data/series";
+import retired from "../../../data/retired-items.json";
+import { getSeriesBySlug, filterProductsBySeries } from "../../../data/series";
+import { buildHubInfo, buildFaqLd } from "../../../lib/hub-info";
+import { buildSeriesHistory } from "../../../lib/series-history";
+import SeriesDetail from "../../../components/SeriesDetail";
 
-export default function SeriesPage() {
-  const { slug } = useParams();
-  const [selected, setSelected] = useState(null);
+// 構造化データはここ（サーバー側）で出す。
+// layout.jsx に置くと /series/[slug]/history にも同じものが付いてしまい、
+// 歴代ページが「掲載中商品のItemList」と「シリーズページを現在地とするパンくず」を
+// 申告することになる。パンくずは components/Breadcrumb が表示と同時に出すので
+// ここでは重複させない（layout にあった breadcrumbLd はそれと二重だった）。
+export default function SeriesPage({ params }) {
+  const series = getSeriesBySlug(params.slug);
+  if (!series) return <SeriesDetail />;
 
-  const series = getSeriesBySlug(slug);
-  const items = series ? filterProductsBySeries(products, series) : [];
-  const name = series ? series.name : decodeURIComponent(slug);
-  const intro = series ? series.intro : null;
-  const others = SERIES.filter((s) => s.slug !== slug);
+  const items = filterProductsBySeries(products, series);
+
+  const itemListLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${series.name}の新作一覧`,
+    numberOfItems: items.length,
+    itemListElement: items.slice(0, 20).map((p, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `https://gacha-now.net/item/${p.id}`,
+      name: p.name,
+    })),
+  };
+
+  // ページに表示しているQ&Aと同じ文面を構造化データにする（lib/hub-info.js が共通の元）
+  const info = buildHubInfo({ name: series.name, items, intro: series.intro });
+  const faqLd = info ? buildFaqLd(info.faq) : null;
+
+  const history = series.history
+    ? buildSeriesHistory({ series, products, retired })
+    : null;
 
   return (
     <>
-      <header className="bg-cream border-b-2 border-cream-border px-4 pt-4 pb-3">
-        <Link href="/" className="font-pixel text-[10px] text-brand-sub no-underline hover:text-brand-accent transition-colors">
-          ← トップにもどる
-        </Link>
-        <div className="text-center mt-2">
-          <h1 className="animate-float">
-            <span className="block font-pixel text-[12px] text-brand-accent">{name}</span>
-            <span className="block font-pixel text-[10px] text-brand-sub mt-1">シリーズ 新作・全種一覧</span>
-          </h1>
-        </div>
-      </header>
-
-      <main className="px-2.5 pt-3 pb-20 relative" style={{ minHeight: "calc(100vh - 120px)" }}>
-        <div className="absolute inset-0 pointer-events-none opacity-50"
-          style={{ backgroundImage: "radial-gradient(circle, #F0E6D6 1px, transparent 1px)", backgroundSize: "20px 20px" }} />
-
-        <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "シリーズ特集", href: "/series" }, { name: name }]} />
-
-        <CharacterInfo name={name} items={items} intro={intro} />
-
-        {series && series.guide && (
-          <Link
-            href={series.guide.url}
-            className="relative z-[1] flex items-center gap-2 mb-4 px-4 py-3 bg-white border-2 border-brand-accent rounded-xl no-underline hover:bg-cream-dark transition-colors"
-          >
-            <span className="text-lg shrink-0">🎀</span>
-            <span className="text-xs font-bold text-brand-text leading-snug">{series.guide.label}</span>
-            <span className="text-brand-accent text-sm shrink-0 ml-auto">→</span>
-          </Link>
-        )}
-
-        <div className="font-pixel text-[10px] text-brand-sub mb-2.5 px-1 relative">{items.length}けん</div>
-
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3 relative z-[1]">
-          {items.map((p, i) => (
-            <GachaMachine key={p.id} product={p} index={i} onClick={setSelected} />
-          ))}
-        </div>
-
-        {items.length === 0 && (
-          <div className="text-center py-10 text-brand-sub font-pixel text-[11px] leading-[2.2]">
-            😢<br />このシリーズの<br />しんさくは まだ ないよ
-          </div>
-        )}
-
-        <section className="mt-10 px-1 relative z-[1]">
-          <h2 className="text-sm font-bold text-brand-text mb-3">ほかのシリーズ特集</h2>
-          <div className="flex flex-wrap gap-2">
-            {others.map((s) => (
-              <Link
-                key={s.slug}
-                href={`/series/${s.slug}`}
-                className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
-              >
-                {s.name}
-              </Link>
-            ))}
-          </div>
-        </section>
-      </main>
-
-      <Footer />
-
-      {selected && <ReceiptPaper product={selected} onClose={() => setSelected(null)} />}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
+      {faqLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      )}
+      <SeriesDetail historyTotal={history ? history.total : null} />
     </>
   );
 }

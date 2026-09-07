@@ -87,6 +87,8 @@ function main() {
   for (const s of SERIES) {
     if (filterProductsBySeries(newProducts, s).length > 0) {
       urls.add(`${BASE}/series/${s.slug}`);
+      // 歴代ページ（history: true のシリーズのみ実在）も掲載中の件数と一覧が変わる
+      if (s.history) urls.add(`${BASE}/series/${s.slug}/history`);
     }
   }
 
