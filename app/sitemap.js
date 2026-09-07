@@ -60,7 +60,8 @@ export default function sitemap() {
     };
   }).filter(Boolean);
 
-  const seriesPages = SERIES.map((s) => ({
+  // 統合された側（canonicalが別ページを指す）は申告しない。brand/character と同じ扱い。
+  const seriesPages = SERIES.filter((s) => !isConsolidated("series", s.slug)).map((s) => ({
     url: `${BASE_URL}/series/${s.slug}`,
     lastModified: latestCollectedAt(filterProductsBySeries(products, s)),
     changeFrequency: "weekly",
@@ -69,7 +70,9 @@ export default function sitemap() {
 
   // 歴代ページ（掲載終了分を含む一覧）。history: true のシリーズのみ存在する。
   // 掲載中の商品が入れ替わるたびに中身が増えるので lastModified は同じ基準でよい。
-  const seriesHistoryPages = SERIES.filter((s) => s.history).map((s) => ({
+  const seriesHistoryPages = SERIES.filter(
+    (s) => s.history && !isConsolidated("series", s.slug)
+  ).map((s) => ({
     url: `${BASE_URL}/series/${s.slug}/history`,
     lastModified: latestCollectedAt(filterProductsBySeries(products, s)),
     changeFrequency: "weekly",

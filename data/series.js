@@ -1,3 +1,8 @@
+// 拡張子つきで書く。このファイルは Next のバンドラだけでなく
+// scripts/ からも素の Node ESM で読まれる（ping-indexnow.js / build-rakuten-links.js /
+// generate-descriptions.js）。拡張子を省くと Node 側だけ ERR_MODULE_NOT_FOUND で落ちる。
+import { isConsolidated } from "./hub-canonical.js";
+
 // シリーズ特集ページの定義。キャラ・ブランドとは別の「横断シリーズ」軸。
 // 同じコンセプト・仕掛けのカプセルトイを作品をまたいで集める。
 // pattern は商品名との正規表現マッチで判定する。
@@ -5,7 +10,11 @@ export const SERIES = [
   {
     slug: "mejirushi",
     name: "めじるしアクセサリー",
-    pattern: "めじるしアクセサリー",
+    // pattern は「めじるしアクセサリー」ではなく「めじるし」。
+    // バンダイの「めじるしアクセサリー」103件に加えて、タカラトミーアーツの
+    // 「めじるしガチャマスコット」13件も同じページに載せるため（data/hub-canonical.js に経緯）。
+    // 分けていた頃の /series/mejirushi-gacha は27.1位・28日で1クリックだった。
+    pattern: "めじるし",
     // 歴代ページ（/series/[slug]/history）を出すシリーズ。
     //
     // 全シリーズには付けない。GSC実測（2026-09-07・直近28日）で「歴代・過去」意図の
@@ -16,7 +25,7 @@ export const SERIES = [
     // GSCで同じ意図の表示回数が出てから1行ずつ足す。
     history: true,
     intro:
-      "めじるしアクセサリーは、バッグやポーチの持ち手につけて“自分の目印”にできるラバー製のチャームシリーズで、めじるしチャーム・目印チャーム・目印アクセサリーとも呼ばれます。サンリオ・ディズニー・ワンピースから音楽アーティストとのコラボまで膨大なラインナップがあり、ガチャガチャの定番中の定番として絶大な人気を誇ります。",
+      "めじるしアクセサリーは、バッグやポーチの持ち手につけて“自分の目印”にできるラバー製のチャームシリーズで、めじるしチャーム・目印チャーム・目印アクセサリーとも呼ばれます。サンリオ・ディズニー・ワンピースから音楽アーティストとのコラボまで膨大なラインナップがあり、ガチャガチャの定番中の定番として絶大な人気を誇ります。このページではバンダイの「めじるしアクセサリー」を中心に、タカラトミーアーツの「めじるしガチャマスコット」など同じ仕掛けのシリーズもあわせて掲載しています。",
     // 表記ゆれのクエリが約1,300表示あるのに順位9〜14位と明確に低い
     // （GSC 2026-09-07・直近28日／着地 /series/mejirushi）:
     //   めじるしチャーム 新作 355imp 2.5% 7.1位 ／ めじ る しチャーム ガチャガチャ 217imp 0.9% 9.6位
@@ -106,6 +115,9 @@ export const SERIES = [
   // （character と brand で22組が二重化している問題と同じ轍を踏む）。
   // 逆に複数IPをまたぐシリーズは、ブランドページには原理的に作れない一覧になる。
   {
+    // 2026-09-08に /series/mejirushi へ統合した（data/hub-canonical.js の SERIES_CANONICAL）。
+    // 27.1位・28日で1クリックしか無く、単独では動かしようが無かった。
+    // ページ自体は残す（canonicalで評価を寄せる。noindexだと評価ごと落ちる）。
     slug: "mejirushi-gacha",
     name: "めじるしガチャマスコット",
     pattern: "めじるしガチャマスコット",
@@ -146,12 +158,21 @@ export function getSeriesBySlug(slug) {
   return SERIES.find((s) => s.slug === slug);
 }
 
+// 一覧・回遊リンクに出すシリーズ。統合された側は出さない
+// （canonicalを別ページに向けたURLへ内部リンクを集めても評価が乗らない）。
+export function browsableSeries() {
+  return SERIES.filter((s) => !isConsolidated("series", s.slug));
+}
+
 export function filterProductsBySeries(products, series) {
   const re = new RegExp(series.pattern);
   return products.filter((p) => re.test(p.name));
 }
 
-// 商品が属するシリーズ（item ページのシリーズ導線用）
+// 商品が属するシリーズ（item ページのシリーズ導線用）。
+// 統合された側は返さない。pattern を広げた結果、めじるしガチャマスコットの商品が
+// mejirushi と mejirushi-gacha の両方に一致するようになったため、
+// そのままだと item ページに同じ意味のリンクが2本並ぶ。
 export function seriesForProduct(product) {
-  return SERIES.filter((s) => new RegExp(s.pattern).test(product.name));
+  return browsableSeries().filter((s) => new RegExp(s.pattern).test(product.name));
 }

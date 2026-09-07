@@ -1,6 +1,7 @@
 import products from "../../../data/products.json";
 import { SERIES, getSeriesBySlug, filterProductsBySeries } from "../../../data/series";
 import { buildHubMeta } from "../../../lib/hub-info";
+import { hubCanonical } from "../../../data/hub-canonical";
 
 export function generateStaticParams() {
   return SERIES.map((s) => ({ slug: s.slug }));
@@ -22,7 +23,8 @@ export function generateMetadata({ params }) {
       (meta
         ? meta.description
         : `${series.name}のカプセルトイ・ガチャガチャ${count}件を一覧でチェック。${series.intro.slice(0, 60)}`),
-    alternates: { canonical: `https://gacha-now.net/series/${params.slug}` },
+    // 統合された側は正規ページを指す（data/hub-canonical.js）
+    alternates: { canonical: hubCanonical("series", params.slug) },
     openGraph: {
       title: `${series.name}の新作・全種一覧【2026年】`,
       description: `${series.name}のカプセルトイ新作情報を価格・発売日つきで一覧表示。`,

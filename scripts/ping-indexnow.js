@@ -18,7 +18,7 @@ import { fileURLToPath } from "url";
 import { isLowValueProduct } from "../lib/quality.js";
 import { getReleaseYearMonth } from "../lib/release.js";
 import { CHARACTERS, filterProductsByCharacter } from "../data/characters.js";
-import { SERIES, filterProductsBySeries } from "../data/series.js";
+import { browsableSeries, filterProductsBySeries } from "../data/series.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -84,7 +84,7 @@ function main() {
       urls.add(`${BASE}/character/${c.slug}`);
     }
   }
-  for (const s of SERIES) {
+  for (const s of browsableSeries()) {
     if (filterProductsBySeries(newProducts, s).length > 0) {
       urls.add(`${BASE}/series/${s.slug}`);
       // 歴代ページ（history: true のシリーズのみ実在）も掲載中の件数と一覧が変わる
