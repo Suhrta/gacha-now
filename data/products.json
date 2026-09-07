@@ -1,5 +1,247 @@
 [
   {
+    "id": "gacha-73fb3999",
+    "name": "ディズニーキャラクター しゃぼリズム!",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903168_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903168_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903168",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-07T08:03:18.978Z",
+    "officialDescription": "ディズニーキャラクターたちが、楽しそうにシャボン玉を膨らませているフィギュア「しゃぼリズム！」。クリア成形にオーロラ塗装が施されたシャボン玉は、各キャラクターのアイコニックな形に膨らんでいます。本体サイズは最大約4.8cm。ラインナップは「プー」「ベイマックス」「ディズニー スティッチ」「エンジェル」の全4種。",
+    "lineup": [
+      "プー",
+      "ベイマックス",
+      "ディズニー スティッチ",
+      "エンジェル"
+    ],
+    "description": "タカラトミーアーツから展開されているディズニーキャラクターのカプセルトイで、「しゃぼリズム!」という商品名で登場しています。世界中で親しまれているディズニーのキャラクターをモチーフにした一品で、価格は1回400円、全4種の中からひとつが手に入ります。現在発売中です。",
+    "thumb": "/thumb/gacha-73fb3999.webp"
+  },
+  {
+    "id": "gacha-7bc33a8a",
+    "name": "くまのプーさん コスチュームフィギュアコレクション4",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "9月 14日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900945_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900945_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900945",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-07T08:03:18.978Z",
+    "officialDescription": "『くまのプーさん』の物語の中で、プーさんが着ていた印象的なコスチュームを手のひらサイズでフィギュア化！　シリーズ第4弾となる今作も、表情やポージング、仕草がかわいく、人気の\"ミツバチプー\"もモデル化されています。本体サイズは約4.7cm。ラインナップは「プー（ハニーポット）」「プー（積み木）」「プー（みつばち）」「プー（エプロン）」の全4種。",
+    "size": "約4.7cm",
+    "lineup": [
+      "プー（ハニーポット）",
+      "プー（積み木）",
+      "プー（みつばち）",
+      "プー（エプロン）"
+    ],
+    "description": "世界中で愛されるディズニーのくまのプーさんが登場するカプセルトイ「くまのプーさん コスチュームフィギュアコレクション4」です。タカラトミーアーツより、全4種のラインアップで展開されます。価格は1回400円で、9月14日週より稼働予定です。",
+    "thumb": "/thumb/gacha-7bc33a8a.webp"
+  },
+  {
+    "id": "gacha-18805af2",
+    "name": "ディズニーキャラクター バレエリボンフィギュア",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "9月 14日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904455_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904455_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904455",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-07T08:03:18.978Z",
+    "officialDescription": "つやつやの大きなリボンをつけた「バレエリボンフィギュア」に、ディズニーキャラクターが仲間入り。上品にキラキラと輝いているリボンと、「ルシファー」の不服そうな表情に注目です。本体サイズは約4.6cm。ラインナップは「ディズニー マリー」「ディズニー スティッチ」「エンジェル」「ルシファー」の全4種。",
+    "size": "約4.6cm",
+    "lineup": [
+      "ディズニー マリー",
+      "ディズニー スティッチ",
+      "エンジェル",
+      "ルシファー"
+    ],
+    "description": "世界的に人気のディズニーキャラクターたちを題材にしたカプセルトイが、タカラトミーアーツより登場します。「ディズニーキャラクター バレエリボンフィギュア」というタイトルで展開され、全4種のラインナップが用意されています。価格は1回400円で、9月14日週より順次カプセルトイ売り場に並ぶ予定です。",
+    "thumb": "/thumb/gacha-18805af2.webp"
+  },
+  {
+    "id": "-hideseek--15d673fd",
+    "name": "ディズニープリンセス Hide&Seek かくれんぼフィギュア",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "9月 14日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904462_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904462_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904462",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-07T08:03:18.978Z",
+    "officialDescription": "小物などで顔をかくしているタカラトミーアーツオリジナルの「Hide&Seekかくれんぼフィギュア」シリーズに、ディズニープリンセスが仲間入り。それぞれの作品のアイコニックなアイテムで顔をかくしていて、「モアナ」や「アリエル」の貝にはパール塗装が施されています。本体サイズは約4.6cm。ラインナップは「ラプンツェル?」「モアナ?」「ベル?」「アリエル?」の全4種。",
+    "size": "約4.6cm",
+    "lineup": [
+      "ラプンツェル",
+      "モアナ",
+      "ベル",
+      "アリエル"
+    ],
+    "description": "世界中で愛されるディズニーのプリンセスたちをモチーフにしたカプセルトイが登場します。タカラトミーアーツから発売される「ディズニープリンセス Hide&Seek かくれんぼフィギュア」は全4種のラインナップで、1回400円で楽しめます。発売時期は9月14日週を予定しています。",
+    "thumb": "/thumb/-hideseek--15d673fd.webp"
+  },
+  {
+    "id": "gacha-0a0ac326",
+    "name": "ナイトメア・ビフォア・クリスマス ファッションリング",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "9月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904448_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904448_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904448",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-07T08:03:18.978Z",
+    "officialDescription": "人気映画『ナイトメア・ビフォア・クリスマス』のキャラクターを、作品再現&times;超造形&times;極彩色でモデル化したファションリングです。「ジャック・スケリントン」と「ゼロ」にはオーロラ塗装を施したレア仕様も用意されています。本体サイズは約4.7cm。ラインナップは「ジャック・スケリントンA」「ジャック・スケリントンB」「ゼロ」「ヴァンパイア・テディ」「町長」「ジャック・スケリントン（レア）」「ゼロ（レア）」の全7種。",
+    "size": "約4.7cm",
+    "lineup": [
+      "ジャック・スケリントンA",
+      "ジャック・スケリントンB",
+      "ゼロ",
+      "ヴァンパイア・テディ",
+      "町長",
+      "ジャック・スケリントン（レア）",
+      "ゼロ（レア）"
+    ],
+    "thumb": "/thumb/gacha-0a0ac326.webp"
+  },
+  {
+    "id": "gacha-0dfdf601",
+    "name": "夏目友人帳 ニャンコ先生まったりコレクション",
+    "brand": "夏目友人帳",
+    "brandSlug": "natsume",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "9月",
+    "color": "#c6e599",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911422_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y911422_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911422",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-07T08:03:18.978Z",
+    "officialDescription": "本アイテムオリジナルの\"まったり\"ポーズでモデル化された、ニャンコ先生の置き型ミニフィギュア。見ているだけで癒されるかわいさで、全種類そろえたくなること間違いなし！　本体サイズは約28〜34mm。ラインナップは「大の字でまったり」「足くみでまったり」「お茶とまったり」「ぬくぬくまったり」「丸くなってまったり」の全5種。",
+    "size": "約28〜34mm",
+    "lineup": [
+      "大の字でまったり",
+      "足くみでまったり",
+      "お茶とまったり",
+      "ぬくぬくまったり",
+      "丸くなってまったり"
+    ],
+    "description": "猫の姿をした不思議な存在「ニャンコ先生」が人気の「夏目友人帳」から、カプセルトイ「ニャンコ先生まったりコレクション」が登場します。タカラトミーアーツが手がける全5種のラインナップで、1回300円で楽しめます。発売は9月を予定しています。",
+    "thumb": "/thumb/gacha-0dfdf601.webp"
+  },
+  {
+    "id": "gacha-3f2c5290",
+    "name": "ハイキュー!!　みあげてすたぁマスコット 音駒高校",
+    "brand": "ハイキュー",
+    "brandSlug": "haikyu",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "12月 下旬",
+    "color": "#d5e599",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/07112616/260722_HQ_miagete_nekoma_BCR_CP_POP-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/07112616/260722_HQ_miagete_nekoma_BCR_CP_POP-1280x1280.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10166/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-09-07T08:03:18.979Z",
+    "officialDescription": "アニメ「ハイキュー!!」より、みあげてすたぁマスコットに、音駒高校のメンバーたちが登場！",
+    "description": "バレーボール漫画として人気の高い「ハイキュー!!」から、音駒高校をテーマにしたカプセルトイが登場します。「みあげてすたぁマスコット」と題されたシリーズで、全4種のラインナップです。価格は1回500円で、発売はブシロードクリエイティブより12月下旬を予定しています。",
+    "thumb": "/thumb/gacha-3f2c5290.webp"
+  },
+  {
+    "id": "-vol4-3ad2a654",
+    "name": "カラフルピーチ　ぺたっとねじまきますこっと vol.4",
+    "brand": "カラフルピーチ",
+    "brandSlug": "colorfulpeach",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "9月 下旬",
+    "color": "#99e5da",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/07111948/karapichi_PT_mascot_vol4_POP-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/07111948/karapichi_PT_mascot_vol4_POP-1280x1280.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10048/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-09-07T08:03:18.979Z",
+    "officialDescription": "「カラフルピーチ」から、ぺたっとねじまきますこっと vol.4が登場！ vol.3・vol.4 同時発売予定！",
+    "description": "ブシロードクリエイティブより、カラフルピーチをモチーフにしたカプセルトイ「カラフルピーチ　ぺたっとねじまきますこっと vol.4」が登場します。全6種のラインナップで、価格は1回500円です。発売時期は9月下旬を予定しています。",
+    "thumb": "/thumb/-vol4-3ad2a654.webp"
+  },
+  {
+    "id": "-vol3-20b72796",
+    "name": "カラフルピーチ　ぺたっとねじまきますこっと vol.3",
+    "brand": "カラフルピーチ",
+    "brandSlug": "colorfulpeach",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "9月 下旬",
+    "color": "#99e5da",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/07111909/karapichi_PT_mascot_vol3_POP-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/07111909/karapichi_PT_mascot_vol3_POP-1280x1280.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10047/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-09-07T08:03:18.979Z",
+    "officialDescription": "「カラフルピーチ」から、ぺたっとねじまきますこっと vol.3が登場！ vol.3・vol.4 同時発売予定！",
+    "description": "人気キャラクターたちが登場するカラフルピーチのカプセルトイ「ぺたっとねじまきますこっと」シリーズ第3弾です。ブシロードクリエイティブから発売される本商品は全5種のラインナップで、価格は1回500円となっています。発売時期は9月下旬を予定しています。",
+    "thumb": "/thumb/-vol3-20b72796.webp"
+  },
+  {
     "id": "zizone-pingo--34a0a2eb",
     "name": "ZIZONE PINGO フィギュアマスコット",
     "brand": "キャラクター",
@@ -275,7 +517,7 @@
     "collectedAt": "2026-09-03T07:53:23.278Z",
     "officialDescription": "90mmのビッグサイズカプセル「ガシャっとコレクト」の第6弾が登場！ビッグサイズのカビゴンに、約4cmサイズのピカチュウ、ゲンガー、スターミー、コイルの全5種類。ボールチェーン付なので、スイングとしてもモンスターボール型カプセルを台座にしてフィギュアとして飾ってもOKの2WAY仕様です。ガシャっと回して、ポケモンをGET！いっぱいコレクトしよう♪",
     "ageRating": "6才以上",
-    "description": "世界的な人気を誇るポケモンのカプセルトイとして登場するのが、ガシャっとコレクト07です。バンダイから展開される本シリーズは全5種で、1回500円で購入できます。発売時期は9月第3週を予定しています。",
+    "description": "世界中で人気を集めるゲーム・アニメ作品「ポケモン」をテーマにしたカプセルトイ「ポケットモンスター ガシャっとコレクト07」がバンダイから登場します。価格は1回500円で、全5種のラインナップとなっています。発売時期は9月第3週を予定しています。",
     "thumb": "/thumb/-07-25d1a958.webp"
   },
   {
@@ -12567,7 +12809,7 @@
     "brandSlug": "shinchan",
     "price": 400,
     "types": 5,
-    "releaseWeek": "9月 第5週",
+    "releaseWeek": "9月 第2週",
     "color": "#99d2e5",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_1.jpg",

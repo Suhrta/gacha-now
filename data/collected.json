@@ -4104,6 +4104,30 @@
     "types": 6
   },
   {
+    "title": "クレヨンしんちゃん ペンライトステッキ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118187284000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 第2週",
+    "brand": "クレヨンしんちゃん",
+    "types": 5
+  },
+  {
     "title": "豆ガシャ本 「LaLaコミックス」",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769897900000",
     "source": "バンダイ公式",
@@ -7632,30 +7656,6 @@
     "types": 10
   },
   {
-    "title": "クレヨンしんちゃん ペンライトステッキ",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118187284000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年9月 第5週",
-    "brand": "クレヨンしんちゃん",
-    "types": 5
-  },
-  {
     "title": "NCT WISH ぷくっとリング",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769776601000",
     "source": "バンダイ公式",
@@ -8079,6 +8079,19 @@
     "types": 4
   },
   {
+    "title": "ディズニーキャラクター しゃぼリズム!",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903168",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903168_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903168_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 7日週",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
     "title": "おさるのジョージ のりもの めじるしガチャマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903502",
     "source": "タカラトミーアーツ公式",
@@ -8157,6 +8170,45 @@
     "types": 4
   },
   {
+    "title": "くまのプーさん コスチュームフィギュアコレクション4",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900945",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900945_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900945_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 14日週",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
+    "title": "ディズニーキャラクター バレエリボンフィギュア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904455",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904455_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904455_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 14日週",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
+    "title": "ディズニープリンセス Hide&Seek かくれんぼフィギュア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904462",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904462_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904462_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 14日週",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
     "title": "宇宙からの輪ゴムGUN",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907739",
     "source": "タカラトミーアーツ公式",
@@ -8209,6 +8261,19 @@
     "types": 4
   },
   {
+    "title": "ナイトメア・ビフォア・クリスマス ファッションリング",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904448",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904448_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904448_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月",
+    "brand": "その他",
+    "types": 7
+  },
+  {
     "title": "『真・女神転生』シリーズ 悪魔いっぱいコレクション",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905377",
     "source": "タカラトミーアーツ公式",
@@ -8246,6 +8311,19 @@
     "releaseWeek": "2026年9月",
     "brand": "トミカ",
     "types": 4
+  },
+  {
+    "title": "夏目友人帳 ニャンコ先生まったりコレクション",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911422",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911422_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y911422_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月",
+    "brand": "夏目友人帳",
+    "types": 5
   },
   {
     "title": "ふっくら福福フクロウ フロッキー",
@@ -12301,6 +12379,45 @@
     "price": 500,
     "releaseWeek": "2026年9月 下旬",
     "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ハイキュー!!　みあげてすたぁマスコット 音駒高校",
+    "url": "https://capsule.bushiroad-creative.com/product/10166/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/07112616/260722_HQ_miagete_nekoma_BCR_CP_POP-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/07112616/260722_HQ_miagete_nekoma_BCR_CP_POP-1280x1280.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年12月 下旬",
+    "brand": "ハイキュー",
+    "types": 4
+  },
+  {
+    "title": "カラフルピーチ　ぺたっとねじまきますこっと vol.4",
+    "url": "https://capsule.bushiroad-creative.com/product/10048/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/07111948/karapichi_PT_mascot_vol4_POP-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/07111948/karapichi_PT_mascot_vol4_POP-1280x1280.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年9月 下旬",
+    "brand": "カラフルピーチ",
+    "types": 6
+  },
+  {
+    "title": "カラフルピーチ　ぺたっとねじまきますこっと vol.3",
+    "url": "https://capsule.bushiroad-creative.com/product/10047/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/07111909/karapichi_PT_mascot_vol3_POP-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/05/07111909/karapichi_PT_mascot_vol3_POP-1280x1280.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年9月 下旬",
+    "brand": "カラフルピーチ",
     "types": 5
   }
 ]
