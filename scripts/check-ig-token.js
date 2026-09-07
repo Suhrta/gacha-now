@@ -39,9 +39,22 @@ async function notifyDiscord(content) {
   }
 }
 
+// 更新手順。通知を見た時点で迷わず作業できるよう、2026-07-27に実際に再発行して
+// 確定した具体値をそのまま書いておく（毎回Metaの画面を探し直すことになるため）。
+//
+// 有効期限「無期限」は選べない。このビジネスのシステムユーザーでは選択肢が
+// 60日間しか出ない（2026-07-27に確認済み）。60日ごとの手動更新は避けられないので、
+// 無期限化を再調査しないこと。
 const UPDATE_HINT =
-  "更新先: GitHub → Settings → Secrets and variables → Actions → IG_ACCESS_TOKEN\n" +
-  "（Metaビジネス設定のシステムユーザーで新トークンを発行 → 上記Secretを更新）";
+  "① https://business.facebook.com/latest/settings/system_users?business_id=2420339395071196\n" +
+  "   → システムユーザー gacha-bot → 「トークンを生成」\n" +
+  "   アプリ: gacha-now-v2（app_id 920288600372000。旧アプリ gacha-now も選択肢に出るので注意）\n" +
+  "   有効期限: 60日間（無期限は選べない）\n" +
+  "   権限5件: business_management / instagram_basic / instagram_content_publish /\n" +
+  "            pages_read_engagement / pages_show_list（既定でチェック済み）\n" +
+  "② GitHub → Settings → Secrets and variables → Actions → IG_ACCESS_TOKEN を更新\n" +
+  "③ ローカルで手動実行する場合は .env の IG_ACCESS_TOKEN も同じ値に差し替える\n" +
+  "※ 新トークンを生成しても旧トークンは失効しないので、切り替え失敗のリスクは低い";
 
 async function main() {
   if (!TOKEN) {
