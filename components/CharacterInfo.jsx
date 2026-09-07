@@ -8,8 +8,8 @@ import { buildHubInfo } from "../lib/hub-info";
 // 表示する統計・FAQの中身は lib/hub-info.js に集約している。
 // 各 layout.jsx が同じ関数から FAQPage の構造化データを組み立てるため、
 // ここの文面を変えると検索エンジンへの申告も自動で追従する（食い違わない）。
-export default function CharacterInfo({ name, items, intro }) {
-  const info = buildHubInfo({ name, items, intro });
+export default function CharacterInfo({ name, items, intro, extraFaq }) {
+  const info = buildHubInfo({ name, items, intro, extraFaq });
   if (!info) return null;
 
   const { stats, faq } = info;

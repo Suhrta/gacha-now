@@ -30,7 +30,7 @@ export default function SeriesPage({ params }) {
   };
 
   // ページに表示しているQ&Aと同じ文面を構造化データにする（lib/hub-info.js が共通の元）
-  const info = buildHubInfo({ name: series.name, items, intro: series.intro });
+  const info = buildHubInfo({ name: series.name, items, intro: series.intro, extraFaq: series.faq });
   const faqLd = info ? buildFaqLd(info.faq) : null;
 
   const history = series.history

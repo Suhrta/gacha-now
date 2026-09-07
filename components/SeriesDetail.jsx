@@ -47,7 +47,7 @@ export default function SeriesDetail({ historyTotal = null }) {
 
         <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "シリーズ特集", href: "/series" }, { name: name }]} />
 
-        <CharacterInfo name={name} items={items} intro={intro} />
+        <CharacterInfo name={name} items={items} intro={intro} extraFaq={series ? series.faq : null} />
 
         {/* 「歴代」「過去」意図のクエリは約1,270表示ある（lib/series-history.js）。
             このページは掲載中しか出していないので、専用ページへ明示的に送る。 */}
