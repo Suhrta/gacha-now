@@ -69,7 +69,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第1週",
     "brand": "ワンピース",
-    "types": 4
+    "types": null
   },
   {
     "title": "HGD+ ゴジラ05",
@@ -2949,7 +2949,7 @@
     "price": 800,
     "releaseWeek": "2026年8月 第5週",
     "brand": "ガンダム",
-    "types": null
+    "types": 3
   },
   {
     "title": "【箱売】機動戦士ガンダム MSメカニカルバストDX ユニコーンガンダム2号機 バンシィ",
@@ -4536,6 +4536,30 @@
     "types": 5
   },
   {
+    "title": "HYSTERIC MINI めじるしアクセサリー ～アナザーカラー～",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995323000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月 第2週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
     "title": "LOONEY TUNES まだねむたい",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026511000",
     "source": "バンダイ公式",
@@ -5856,7 +5880,7 @@
     "types": 6
   },
   {
-    "title": "幻想水滸伝&#8545; あそーとこれくしょん",
+    "title": "幻想水滸伝&#8545; HDリマスター あそーとこれくしょん",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770027082000",
     "source": "バンダイ公式",
     "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256869_1.jpg",
@@ -8103,6 +8127,19 @@
     "releaseWeek": "2026年9月 7日週",
     "brand": "おさるのジョージ",
     "types": 4
+  },
+  {
+    "title": "お部屋ぐまルーミー もふもふポーシェット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905018",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905018_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905018_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年9月 11日週",
+    "brand": "その他",
+    "types": 5
   },
   {
     "title": "BEYBLADE X 歴代カプセルシューター大集合",
@@ -12419,5 +12456,18 @@
     "releaseWeek": "2026年9月 下旬",
     "brand": "カラフルピーチ",
     "types": 5
+  },
+  {
+    "title": "New PANTY ＆ STOCKING with GARTERBELT　コレクションフィギュアRICH",
+    "url": "https://capsule.bushiroad-creative.com/product/10083/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/07180116/newpsg_figure_POP_ol_re_0821-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/07180116/newpsg_figure_POP_ol_re_0821-1280x1280.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年10月 下旬",
+    "brand": "その他",
+    "types": 4
   }
 ]

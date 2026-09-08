@@ -1,5 +1,87 @@
 [
   {
+    "id": "hysteric-mini--10ae37d0",
+    "name": "HYSTERIC MINI めじるしアクセサリー ～アナザーカラー～",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255242_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769995323000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-09-08T07:56:00.880Z",
+    "officialDescription": "子供服ブランドHYSTERIC MINIのマスコットキャラクターMINIちゃんたちのめじるしアクセサリーがアナザーカラーになって登場！",
+    "ageRating": "15才以上",
+    "thumb": "/thumb/hysteric-mini--10ae37d0.webp"
+  },
+  {
+    "id": "gacha-39dc5a73",
+    "name": "お部屋ぐまルーミー もふもふポーシェット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "9月 11日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905018_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905018_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905018",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-08T07:56:00.882Z",
+    "officialDescription": "もこもこ生地と刺繍でキャラクターをデザインしたタカラトミーアーツのオリジナルシリーズ「もふもふポーシェット」に、SNS漫画『お部屋ぐまルーミー』が仲間入り。「ルーミーちゃん」の表情にあわせたカラバリがかわいく、両側のタグに紐を通すと、ポーチからポシェットになる2WAY仕様です。本体サイズは約11.5&times;9.5cm。ラインナップは「わくわく」「照れ」「優しさ」「やる気」「虚無」の全5種。",
+    "lineup": [
+      "わくわく",
+      "照れ",
+      "優しさ",
+      "やる気",
+      "虚無"
+    ],
+    "thumb": "/thumb/gacha-39dc5a73.webp"
+  },
+  {
+    "id": "new-panty-stocking-with-garter-549c6556",
+    "name": "New PANTY ＆ STOCKING with GARTERBELT　コレクションフィギュアRICH",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "10月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/07180116/newpsg_figure_POP_ol_re_0821-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/07180116/newpsg_figure_POP_ol_re_0821-1280x1280.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10083/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-09-08T07:56:00.883Z",
+    "officialDescription": "『New PANTY ＆ STOCKING with GARTERBELT』より、コレクションフィギュアRICHが登場！",
+    "thumb": "/thumb/new-panty-stocking-with-garter-549c6556.webp"
+  },
+  {
     "id": "gacha-73fb3999",
     "name": "ディズニーキャラクター しゃぼリズム!",
     "brand": "ディズニー",
@@ -3082,7 +3164,7 @@
   },
   {
     "id": "8545--481f2ac7",
-    "name": "幻想水滸伝&#8545; あそーとこれくしょん",
+    "name": "幻想水滸伝&#8545; HDリマスター あそーとこれくしょん",
     "brand": "その他",
     "brandSlug": "other",
     "price": 400,
