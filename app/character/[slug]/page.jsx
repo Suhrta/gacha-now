@@ -9,7 +9,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import products from "../../../data/products.json";
 import { CHARACTERS, getCharacterBySlug, filterProductsByCharacter } from "../../../data/characters";
 import { getCharacterIntro } from "../../../data/character-intros";
-import CharacterInfo from "../../../components/CharacterInfo";
+import { HubLead, HubDetails } from "../../../components/HubInfo";
 import CharacterAffiliateCTA from "../../../components/CharacterAffiliateCTA";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
 import PopularNowSection from "../../../components/PopularNowSection";
@@ -60,7 +60,7 @@ export default function CharacterPage() {
 
         <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: `${name}のガチャ` }]} />
 
-        <CharacterInfo name={name} items={items} intro={intro} />
+        <HubLead name={name} items={items} intro={intro} />
 
         {character && items.length > 0 && <CharacterAffiliateCTA name={name} />}
 
@@ -79,6 +79,8 @@ export default function CharacterPage() {
             😢<br />このキャラクターの<br />しんさくは まだ ないよ
           </div>
         )}
+
+        <HubDetails name={name} items={items} intro={intro} />
 
         {relatedSeries.length > 0 && (
           <section className="mt-10 px-1 relative z-[1]">

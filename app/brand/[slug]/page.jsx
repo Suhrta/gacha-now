@@ -6,7 +6,7 @@ import GachaMachine from "../../../components/GachaMachine";
 import ReceiptPaper from "../../../components/ReceiptPaper";
 import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
-import CharacterInfo from "../../../components/CharacterInfo";
+import { HubLead, HubDetails } from "../../../components/HubInfo";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
 import PopularNowSection from "../../../components/PopularNowSection";
 import products from "../../../data/products.json";
@@ -48,7 +48,7 @@ export default function BrandPage() {
         {/* 手書きの紹介文はキャラページでしか使われていなかった。
             ブランドページは掲載2〜5件でも検索流入が多く（転スラ1,888表示・ハイキュー1,367表示/直近28日）、
             商品グリッドだけだと読むものが無く数秒で離脱するため、同じ文章をここでも出す */}
-        <CharacterInfo name={brandName} items={brandProducts} intro={getBrandIntro(slug)} />
+        <HubLead name={brandName} items={brandProducts} intro={getBrandIntro(slug)} />
 
         <div className="font-pixel text-[10px] text-brand-sub mb-2.5 px-1 relative">
           {brandProducts.length}けん
@@ -65,6 +65,8 @@ export default function BrandPage() {
             😢<br />この ブランドの<br />しんさくは まだ ないよ
           </div>
         )}
+
+        <HubDetails name={brandName} items={brandProducts} intro={getBrandIntro(slug)} />
 
         <PopularNowSection excludeBrandSlug={slug} limit={6} gridClass="grid-cols-2 md:grid-cols-3 lg:grid-cols-6" />
 

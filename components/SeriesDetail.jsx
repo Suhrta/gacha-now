@@ -13,7 +13,7 @@ import GachaMachine from "./GachaMachine";
 import ReceiptPaper from "./ReceiptPaper";
 import Footer from "./Footer";
 import Breadcrumb from "./Breadcrumb";
-import CharacterInfo from "./CharacterInfo";
+import { HubLead, HubDetails } from "./HubInfo";
 import products from "../data/products.json";
 import { browsableSeries, getSeriesBySlug, filterProductsBySeries } from "../data/series";
 
@@ -47,7 +47,7 @@ export default function SeriesDetail({ historyTotal = null }) {
 
         <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "シリーズ特集", href: "/series" }, { name: name }]} />
 
-        <CharacterInfo name={name} items={items} intro={intro} extraFaq={series ? series.faq : null} />
+        <HubLead name={name} items={items} intro={intro} />
 
         {/* 「歴代」「過去」意図のクエリは約1,270表示ある（lib/series-history.js）。
             このページは掲載中しか出していないので、専用ページへ明示的に送る。 */}
@@ -88,6 +88,8 @@ export default function SeriesDetail({ historyTotal = null }) {
             😢<br />このシリーズの<br />しんさくは まだ ないよ
           </div>
         )}
+
+        <HubDetails name={name} items={items} intro={intro} extraFaq={series ? series.faq : null} />
 
         <section className="mt-10 px-1 relative z-[1]">
           <h2 className="text-sm font-bold text-brand-text mb-3">ほかのシリーズ特集</h2>
