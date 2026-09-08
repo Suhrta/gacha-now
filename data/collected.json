@@ -2661,7 +2661,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第5週",
     "brand": "ディズニー",
-    "types": null
+    "types": 5
   },
   {
     "title": "アルティメットルミナスプレミアム 仮面ライダー",
@@ -2757,7 +2757,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第5週",
     "brand": "名探偵コナン",
-    "types": null
+    "types": 4
   },
   {
     "title": "パンどろぼう フィギュアウォッチコレクション",
@@ -2949,7 +2949,7 @@
     "price": 800,
     "releaseWeek": "2026年8月 第5週",
     "brand": "ガンダム",
-    "types": null
+    "types": 3
   },
   {
     "title": "【箱売】機動戦士ガンダム MSメカニカルバストDX ユニコーンガンダム2号機 バンシィ",
@@ -4677,7 +4677,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第2週",
     "brand": "ハイキュー",
-    "types": 5
+    "types": null
   },
   {
     "title": "【バンダイナムコアミューズメント限定再販】ジョジョの奇妙な冒険 カプセルフィギュアコレクション～JOJO WORLD EDITION～",
@@ -6021,7 +6021,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "トムとジェリー",
-    "types": 6
+    "types": null
   },
   {
     "title": "モンチッチ ミニチュアパッケージチャーム",
@@ -7317,7 +7317,7 @@
     "price": null,
     "releaseWeek": "2026年9月 第4週",
     "brand": "いきもの大図鑑",
-    "types": null
+    "types": 5
   },
   {
     "title": "妖怪ウォッチ サウンドロップ",
@@ -7581,7 +7581,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第5週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 5
   },
   {
     "title": "プリキュアオールスターズ プリキュアあそーと2026",
