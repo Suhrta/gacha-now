@@ -69,7 +69,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第1週",
     "brand": "ワンピース",
-    "types": null
+    "types": 4
   },
   {
     "title": "HGD+ ゴジラ05",
@@ -2661,7 +2661,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第5週",
     "brand": "ディズニー",
-    "types": 5
+    "types": null
   },
   {
     "title": "アルティメットルミナスプレミアム 仮面ライダー",
@@ -2757,7 +2757,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第5週",
     "brand": "名探偵コナン",
-    "types": 4
+    "types": null
   },
   {
     "title": "パンどろぼう フィギュアウォッチコレクション",
@@ -2949,7 +2949,7 @@
     "price": 800,
     "releaseWeek": "2026年8月 第5週",
     "brand": "ガンダム",
-    "types": 3
+    "types": null
   },
   {
     "title": "【箱売】機動戦士ガンダム MSメカニカルバストDX ユニコーンガンダム2号機 バンシィ",
@@ -7317,7 +7317,7 @@
     "price": null,
     "releaseWeek": "2026年9月 第4週",
     "brand": "いきもの大図鑑",
-    "types": 5
+    "types": null
   },
   {
     "title": "妖怪ウォッチ サウンドロップ",
@@ -7581,7 +7581,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第5週",
     "brand": "まちぼうけ",
-    "types": 5
+    "types": null
   },
   {
     "title": "プリキュアオールスターズ プリキュアあそーと2026",
