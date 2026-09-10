@@ -600,6 +600,10 @@ export default function HomePage() {
         {/* 表示件数が少なくて帯を挟む行が無いときだけ、グリッドの直下に落とす */}
         {visible.length > 0 && visible.length <= firstBandAt && <AdUnit name="inFeed" />}
 
+        {/* 一覧を見終わって「次を探す」文脈。カードのグリッドが続くページなので
+            グリッド型のネイティブ広告が馴染む。ラベルはGoogleが枠内に描く */}
+        <AdUnit name="multiplex" format="autorelaxed" label="" minHeight={320} />
+
         {/* キャラ・発売月・ブランド・シリーズへの導線。
             各カテゴリは先頭 DISCOVERY_PREVIEW 件だけ出し、残りは一覧ページへ送る */}
         <section className="mt-12 px-1">
@@ -630,8 +634,6 @@ export default function HomePage() {
             </div>
           ))}
         </section>
-
-        <AdUnit name="pageBottom" />
       </main>
       <Footer />
       {selected && (
