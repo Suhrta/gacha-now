@@ -94,6 +94,17 @@ const DISCOVERY = [
   },
 ];
 
+// ハブ導線が実際に押されているかの計測。一覧の下に置く価値があるのか、
+// ページ送りを「もっと見る」に変えてよいのかを推測でなく実測で決めるため。
+function trackHubClick(sectionHref, href, placement) {
+  if (typeof window === "undefined" || typeof window.gtag !== "function") return;
+  window.gtag("event", "hub_click", {
+    category: sectionHref.replace("/", ""),
+    link_url: href,
+    placement,
+  });
+}
+
 function getLiveCounts() {
   let available = 0;
   let newCount = 0;
@@ -615,6 +626,7 @@ export default function HomePage() {
                 </h2>
                 <Link
                   href={d.href}
+                  onClick={() => trackHubClick(d.href, d.href, "all")}
                   className="text-xs text-brand-accent font-bold no-underline shrink-0 hover:underline"
                 >
                   すべて見る（{d.items.length}）→
@@ -625,6 +637,7 @@ export default function HomePage() {
                   <Link
                     key={it.href}
                     href={it.href}
+                    onClick={() => trackHubClick(d.href, it.href, "chip")}
                     className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
                   >
                     {it.label}
