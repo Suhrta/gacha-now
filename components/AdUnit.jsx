@@ -15,11 +15,19 @@ import { AD_CLIENT, adSlot } from "../lib/ads";
 // 「スクロール1.5画面に1つ」というインフィードの目安に合う。
 // 最初だけ3行で少し早めに出すのは、多くの人が数行見て離脱するため。
 //
-// 上限は設けていない。実データ（2026-09）でブランド224ページの中央値は1件、
-// 12件超はわずか7ページ（最大ディズニー54件）で、いちばん多いページでも
-// スマホ6本に収まる。トップは1ページ12〜24件なので1〜2本。
+// 1ページの本数には上限を設ける。間隔だけで決めると、掲載件数の多いページで
+// 際限なく増えるため。実測（2026-09-11、本番）で /release/2026-09 は167件あり
+// スマホで**21本**、/series/mejirushi は117件で14本出ていた。この2つは
+// PVの35%を占める最大の流入先（[[gsc-baseline]]）。
+//
+// 問題は広告の比率ではなく読み込みの重さ。adsbygoogle は画面外の枠も含めて
+// ページ読み込み時に全部リクエストするので、21枠は21回のリクエストと
+// iframe になる。深くまでスクロールする人は一部なのに、その負荷は全員が負う。
+// 6本なら先頭46件ぶん（スマホで約10画面）をカバーでき、そこから先は
+// 視認率が落ちて収益がほとんど積み上がらない。
 const FIRST_BAND_ROW = 3;
 const BAND_EVERY_ROWS = 4;
+const MAX_BANDS = 6;
 
 // Tailwind の grid-cols-* と同じ境界。広い方から順に見る
 const GRID_COLUMNS = [
@@ -56,7 +64,10 @@ export function useInFeedGrid() {
 
   const firstBandAt = columns * FIRST_BAND_ROW;
   const interval = columns * BAND_EVERY_ROWS;
-  const isBandAt = (i) => i >= firstBandAt && (i - firstBandAt) % interval === 0;
+  const isBandAt = (i) =>
+    i >= firstBandAt &&
+    (i - firstBandAt) % interval === 0 &&
+    (i - firstBandAt) / interval < MAX_BANDS;
 
   return { isBandAt, firstBandAt };
 }
