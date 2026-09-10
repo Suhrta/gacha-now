@@ -309,7 +309,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "サンリオ",
-    "types": 6
+    "types": null
   },
   {
     "title": "ジュエルペット めじるしアクセサリー２",
@@ -2205,7 +2205,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "クレヨンしんちゃん",
-    "types": 5
+    "types": null
   },
   {
     "title": "【フラットガシャポン】クリアポーチコレクション スーパー戦隊",
@@ -2925,7 +2925,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第5週",
     "brand": "アンパンマン",
-    "types": 5
+    "types": null
   },
   {
     "title": "機動戦士ガンダム MSメカニカルバストDX ユニコーンガンダム2号機 バンシィ",
@@ -3021,7 +3021,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第5週",
     "brand": "クレヨンしんちゃん",
-    "types": null
+    "types": 6
   },
   {
     "title": "機動戦士ガンダム ガシャポン戦士ZERO 02",
@@ -5085,7 +5085,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "どこでもいっしょ",
-    "types": null
+    "types": 6
   },
   {
     "title": "モンチッチ めじるしアクセサリー2",
