@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import GachaMachine from "../../../components/GachaMachine";
@@ -7,6 +7,7 @@ import ReceiptPaper from "../../../components/ReceiptPaper";
 import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
+import AdUnit, { useInFeedGrid } from "../../../components/AdUnit";
 import PopularNowSection from "../../../components/PopularNowSection";
 import products from "../../../data/products.json";
 import { getAllReleaseMonths, getReleaseYearMonth, formatYearMonth } from "../../../lib/release";
@@ -27,6 +28,7 @@ function releaseWeekToNum(str) {
 export default function ReleaseMonthPage() {
   const { month } = useParams();
   const [selected, setSelected] = useState(null);
+  const { isBandAt, firstBandAt } = useInFeedGrid();
 
   const items = products
     .filter((p) => getReleaseYearMonth(p) === month)
@@ -71,7 +73,10 @@ export default function ReleaseMonthPage() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3 relative z-[1]">
           {items.map((p, i) => (
-            <GachaMachine key={p.id} product={p} index={i} onClick={setSelected} />
+            <Fragment key={p.id}>
+              {isBandAt(i) && <AdUnit name="inFeed" className="col-span-full my-2" insClass="min-h-[280px] md:min-h-[120px]" />}
+              <GachaMachine product={p} index={i} onClick={setSelected} />
+            </Fragment>
           ))}
         </div>
 
@@ -80,6 +85,9 @@ export default function ReleaseMonthPage() {
             😢<br />このつきの<br />しんさくは まだ ないよ
           </div>
         )}
+
+        {/* 掲載が少なくて帯を挟む行が無いページ。ここだけグリッドの直下に落とす */}
+        {items.length > 0 && items.length <= firstBandAt && <AdUnit name="inFeed" />}
 
         {/* 未来の月ほど掲載が数十件・人気IPなしになりがちなので、
             発売中の人気商品をここで見せて離脱を受け止める */}
@@ -118,6 +126,7 @@ export default function ReleaseMonthPage() {
             ))}
           </div>
         </section>
+        <AdUnit name="pageBottom" />
       </main>
 
       <Footer />

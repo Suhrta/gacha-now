@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import posts from "../../../data/blog-posts.json";
 import products from "../../../data/products.json";
 import Footer from "../../../components/Footer";
+import AdUnit from "../../../components/AdUnit";
 import ProductThumb from "../../../components/ProductThumb";
 import { isStaleBlogPost } from "../../../lib/quality";
 import { rakutenSearchUrl } from "../../../lib/affiliate";
@@ -267,6 +268,10 @@ export default function BlogDetailPage({ params }) {
           </div>
         </article>
 
+        {/* 量産まとめ（noindex）には広告を出さない。generateMetadata と同じ判定。
+            クリックは28日で6件しかなく、[[adsense-recovery]] の再来リスクに見合わない */}
+        {!isStaleBlogPost(post) && <AdUnit name="inArticle" format="fluid" layout="in-article" minHeight={200} />}
+
         {related.length > 0 && (
           <section className="mt-8">
             <h2 className="text-lg font-bold text-brand-text mb-3 border-l-4 border-brand-accent pl-3">
@@ -305,6 +310,7 @@ export default function BlogDetailPage({ params }) {
             ガチャ一覧に戻る
           </Link>
         </div>
+        {!isStaleBlogPost(post) && <AdUnit name="pageBottom" />}
       </main>
 
       <Footer />

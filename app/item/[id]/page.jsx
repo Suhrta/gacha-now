@@ -6,6 +6,7 @@ import ProductName from "../../../components/ProductName";
 import ProductThumb from "../../../components/ProductThumb";
 import Breadcrumb from "../../../components/Breadcrumb";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
+import AdUnit from "../../../components/AdUnit";
 import products from "../../../data/products.json";
 import rakutenLinks from "../../../data/rakuten-links.json";
 import { charactersForProduct } from "../../../data/characters";
@@ -121,6 +122,10 @@ export default function ItemPage({ params }) {
     });
   });
   const relatedItems = related.slice(0, 6);
+  // 薄い商品ページには広告を出さない。generateMetadata で noindex にしている
+  // のと同じ判定で、[[adsense-recovery]] の「有用性の低いコンテンツ」を
+  // 広告付きで晒し続けないため（noindexでも人と審査担当者は到達できる）
+  const showAds = !isLowValueProduct(product);
   const releaseMonth = getReleaseYearMonth(product);
 
   return (
@@ -139,6 +144,13 @@ export default function ItemPage({ params }) {
       <ReceiptPaper product={product} isPage={true} />
 
       <RakutenLinks product={product} links={rakutenLinks[product.id]} />
+
+      {/* 商品情報を読み切った直後に置く。商品画像やレシートより上だと本題が押し下がる */}
+      {showAds && (
+        <div className="px-4 max-w-2xl mx-auto w-full">
+          <AdUnit name="inContent" />
+        </div>
+      )}
 
       {relatedItems.length > 0 && (
         <section className="px-4 mt-8 max-w-2xl mx-auto w-full">
@@ -215,6 +227,12 @@ export default function ItemPage({ params }) {
           )}
         </div>
       </section>
+
+      {showAds && (
+        <div className="px-4 mb-10 max-w-2xl mx-auto w-full">
+          <AdUnit name="pageBottom" />
+        </div>
+      )}
     </>
   );
 }

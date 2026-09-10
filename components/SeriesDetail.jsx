@@ -6,13 +6,14 @@
 // もともと layout.jsx が出していたが、layout は /series/[slug]/history にも
 // 適用されるため、歴代ページに「シリーズの新作ItemList」と
 // 「シリーズページを現在地とするパンくず」が混入していた。
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import GachaMachine from "./GachaMachine";
 import ReceiptPaper from "./ReceiptPaper";
 import Footer from "./Footer";
 import Breadcrumb from "./Breadcrumb";
+import AdUnit, { useInFeedGrid } from "./AdUnit";
 import { HubLead, HubDetails } from "./HubInfo";
 import products from "../data/products.json";
 import { browsableSeries, getSeriesBySlug, filterProductsBySeries } from "../data/series";
@@ -20,6 +21,7 @@ import { browsableSeries, getSeriesBySlug, filterProductsBySeries } from "../dat
 export default function SeriesDetail({ historyTotal = null }) {
   const { slug } = useParams();
   const [selected, setSelected] = useState(null);
+  const { isBandAt, firstBandAt } = useInFeedGrid();
 
   const series = getSeriesBySlug(slug);
   const items = series ? filterProductsBySeries(products, series) : [];
@@ -79,7 +81,10 @@ export default function SeriesDetail({ historyTotal = null }) {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3 relative z-[1]">
           {items.map((p, i) => (
-            <GachaMachine key={p.id} product={p} index={i} onClick={setSelected} />
+            <Fragment key={p.id}>
+              {isBandAt(i) && <AdUnit name="inFeed" className="col-span-full my-2" insClass="min-h-[280px] md:min-h-[120px]" />}
+              <GachaMachine product={p} index={i} onClick={setSelected} />
+            </Fragment>
           ))}
         </div>
 
@@ -88,6 +93,9 @@ export default function SeriesDetail({ historyTotal = null }) {
             😢<br />このシリーズの<br />しんさくは まだ ないよ
           </div>
         )}
+
+        {/* 掲載が少なくて帯を挟む行が無いページ。ここだけグリッドの直下に落とす */}
+        {items.length > 0 && items.length <= firstBandAt && <AdUnit name="inFeed" />}
 
         <HubDetails name={name} items={items} intro={intro} extraFaq={series ? series.faq : null} />
 
@@ -105,6 +113,7 @@ export default function SeriesDetail({ historyTotal = null }) {
             ))}
           </div>
         </section>
+        <AdUnit name="pageBottom" />
       </main>
 
       <Footer />

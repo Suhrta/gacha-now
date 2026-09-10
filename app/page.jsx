@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useRef, useCallback } from "react";
+import { Fragment, useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import Header from "../components/Header";
 import GachaMachine from "../components/GachaMachine";
@@ -7,6 +7,7 @@ import ReceiptPaper from "../components/ReceiptPaper";
 import Footer from "../components/Footer";
 import FilterTabs from "../components/FilterTabs";
 import InstaCapsule from "../components/InstaCapsule";
+import AdUnit, { useInFeedGrid } from "../components/AdUnit";
 import products from "../data/products.json";
 import { CHARACTERS } from "../data/characters";
 import { SERIES } from "../data/series";
@@ -206,6 +207,7 @@ export default function HomePage() {
   // 不一致を避ける。スマホでは描画後に12件へ絞る（13件目以降は画面外なので目立たない）
   const [perPage, setPerPage] = useState(ITEMS_PER_PAGE);
   const [favorites, setFavorites] = useState(new Set());
+  const { isBandAt, firstBandAt } = useInFeedGrid();
   const heroSearchRef = useRef(null);
   const touchStartX = useRef(0);
   const touchStartY = useRef(0);
@@ -537,17 +539,19 @@ export default function HomePage() {
             1個ずつ現れるだけで落ち着かない。ページ送りと同じく差し替えで扱う。 */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3 relative z-[1]">
           {visible.map((p, i) => (
-            <GachaMachine
-              // 商品IDで持つと、タブを変えたとき全部が別物になって作り直され、
-              // 結局その場で1個ずつ現れる動きになる。枠を使い回して中身だけ
-              // 差し替えたいので位置で持つ。壊れ画像の判定は GachaMachine 側が
-              // product.img の変化で作り直しているため持ち越さない。
-              key={i}
-              product={p}
-              index={i}
-              onClick={setSelected}
-              isFavorite={favorites.has(p.id)}
-            />
+            // 商品IDで持つと、タブを変えたとき全部が別物になって作り直され、
+            // 結局その場で1個ずつ現れる動きになる。枠を使い回して中身だけ
+            // 差し替えたいので位置で持つ。壊れ画像の判定は GachaMachine 側が
+            // product.img の変化で作り直しているため持ち越さない。
+            <Fragment key={i}>
+              {isBandAt(i) && <AdUnit name="inFeed" className="col-span-full my-2" insClass="min-h-[280px] md:min-h-[120px]" />}
+              <GachaMachine
+                product={p}
+                index={i}
+                onClick={setSelected}
+                isFavorite={favorites.has(p.id)}
+              />
+            </Fragment>
           ))}
         </div>
 
@@ -593,6 +597,9 @@ export default function HomePage() {
           </div>
         )}
 
+        {/* 表示件数が少なくて帯を挟む行が無いときだけ、グリッドの直下に落とす */}
+        {visible.length > 0 && visible.length <= firstBandAt && <AdUnit name="inFeed" />}
+
         {/* キャラ・発売月・ブランド・シリーズへの導線。
             各カテゴリは先頭 DISCOVERY_PREVIEW 件だけ出し、残りは一覧ページへ送る */}
         <section className="mt-12 px-1">
@@ -624,6 +631,7 @@ export default function HomePage() {
           ))}
         </section>
 
+        <AdUnit name="pageBottom" />
       </main>
       <Footer />
       {selected && (

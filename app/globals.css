@@ -38,3 +38,9 @@ body {
 .animate-fade-in-up {
   animation: fadeInUp 0.5s ease-out forwards;
 }
+
+/* ── 広告枠（components/AdUnit.jsx）────────────────────────────
+   在庫が無いとAdSenseは <ins> を data-ad-status="unfilled" にして
+   高さ0にする。こちらで min-height を持たせている（CLS対策）ぶん、
+   そのままだと「スポンサーリンク」の下に空白だけが残る。枠ごと畳む。 */
+.ad-slot:has(ins.adsbygoogle[data-ad-status="unfilled"]) { display: none; }
