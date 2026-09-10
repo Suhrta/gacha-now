@@ -381,7 +381,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第2週",
     "brand": "パックマン",
-    "types": 12
+    "types": null
   },
   {
     "title": "TVアニメ『ダンダダン』 つまんでつなげてますこっと",
@@ -525,7 +525,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "よこみぞゆり",
-    "types": 6
+    "types": null
   },
   {
     "title": "HGドラゴンボール06 GOKU EDITION2",
@@ -765,7 +765,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "その他",
-    "types": 4
+    "types": null
   },
   {
     "title": "アニメ「桜蘭高校ホスト部」 おなまえなふだバッジ",
@@ -6237,7 +6237,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "まちぼうけ",
-    "types": 4
+    "types": null
   },
   {
     "title": "転生したらスライムだった件 リムルさまがいっぱいぬいぐるみ",
@@ -8322,6 +8322,19 @@
     "types": 5
   },
   {
+    "title": "MOOMIN Flowers for you マスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905759",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905759_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905759_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 14日週",
+    "brand": "ムーミン",
+    "types": 4
+  },
+  {
     "title": "宇宙からの輪ゴムGUN",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907739",
     "source": "タカラトミーアーツ公式",
@@ -8343,7 +8356,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y903304_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年9月",
+    "releaseWeek": "2026年9月 24日週",
     "brand": "ポケモン",
     "types": 4
   },
@@ -8356,9 +8369,61 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y903601_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年9月",
+    "releaseWeek": "2026年9月 24日週",
     "brand": "ディズニー",
     "types": 6
+  },
+  {
+    "title": "『真・女神転生』シリーズ 悪魔いっぱいコレクション",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905377",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905377_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905377_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 24日週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "ポムポムヒーロー",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905995",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905995_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905995_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 24日週",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "トミカキーホルダー8",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908965",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908965_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908965_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月 24日週",
+    "brand": "トミカ",
+    "types": 4
+  },
+  {
+    "title": "夏目友人帳 ニャンコ先生まったりコレクション",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911422",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911422_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y911422_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月 24日週",
+    "brand": "夏目友人帳",
+    "types": 5
   },
   {
     "title": "肩ズンFig. サンリオキャラクターズ 縁側のんびり",
@@ -8372,19 +8437,6 @@
     "releaseWeek": "2026年9月",
     "brand": "サンリオ",
     "types": 5
-  },
-  {
-    "title": "ポケモン おやすみフレンズ なかよくうとうと",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903991",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903991_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903991_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年9月",
-    "brand": "ポケモン",
-    "types": 4
   },
   {
     "title": "サンリオキャラクターズ Yummy!スイーツマスコット　チルサイダー",
@@ -8413,19 +8465,6 @@
     "types": 7
   },
   {
-    "title": "『真・女神転生』シリーズ 悪魔いっぱいコレクション",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905377",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905377_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905377_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年9月",
-    "brand": "その他",
-    "types": 5
-  },
-  {
     "title": "ポケモン　30周年 メタルチャームマスコット ～アローラ、ガラル、パルデア～",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905568",
     "source": "タカラトミーアーツ公式",
@@ -8439,19 +8478,6 @@
     "types": 7
   },
   {
-    "title": "MOOMIN Flowers for you マスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905759",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905759_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905759_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年9月",
-    "brand": "ムーミン",
-    "types": 4
-  },
-  {
     "title": "マイメロディ＆クロミ DOLLY MIX　みずいろ天使",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905766",
     "source": "タカラトミーアーツ公式",
@@ -8463,45 +8489,6 @@
     "releaseWeek": "2026年9月",
     "brand": "サンリオ",
     "types": 4
-  },
-  {
-    "title": "ポムポムヒーロー",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905995",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905995_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905995_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年9月",
-    "brand": "その他",
-    "types": 4
-  },
-  {
-    "title": "トミカキーホルダー8",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908965",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908965_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908965_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年9月",
-    "brand": "トミカ",
-    "types": 4
-  },
-  {
-    "title": "夏目友人帳 ニャンコ先生まったりコレクション",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911422",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911422_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y911422_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年9月",
-    "brand": "夏目友人帳",
-    "types": 5
   },
   {
     "title": "ふっくら福福フクロウ フロッキー",
