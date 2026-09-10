@@ -1077,7 +1077,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "パペットスンスン",
-    "types": null
+    "types": 5
   },
   {
     "title": "ONE PIECE つまんでつなげてますこっと ギア5コレクション",
@@ -3021,7 +3021,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第5週",
     "brand": "クレヨンしんちゃん",
-    "types": 6
+    "types": null
   },
   {
     "title": "機動戦士ガンダム ガシャポン戦士ZERO 02",
@@ -5085,7 +5085,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "どこでもいっしょ",
-    "types": 6
+    "types": null
   },
   {
     "title": "モンチッチ めじるしアクセサリー2",
