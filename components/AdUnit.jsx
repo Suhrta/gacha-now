@@ -91,19 +91,50 @@ function AdSlot({ slot, format, layout, minHeight, insClass, className, label })
   const insRef = useRef(null);
   const pushed = useRef(false);
 
+  // 画面に近づくまで広告を読み込まない。
+  //
+  // adsbygoogle は push した枠を即座に取りに行くので、素直に全部 push すると
+  // ページ最下部の枠まで読み込み時にリクエストされる。一覧ページは帯が最大6本
+  // あり、大半の人はそこまでスクロールしない。見られない広告のために全員が
+  // 待たされることになる（PV/セッション1.44 = 1ページ見て帰る構造なので、
+  // ページの重さがそのまま離脱に効く）。
+  //
+  // 手前 600px（スマホでおよそ1画面ぶん）で読み込むので、スクロールして
+  // 到達した時にはもう表示されている。視認されない広告を出さないぶん、
+  // 視認率（RPMに効く指標）はむしろ上がる。
   useEffect(() => {
-    if (pushed.current) return;
     const el = insRef.current;
     if (!el) return;
-    // 一度埋まった <ins> に再度 push すると
-    // "adsbygoogle.push() error: All ins elements ... already have ads" で例外になる
-    if (el.getAttribute("data-adsbygoogle-status")) return;
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-      pushed.current = true;
-    } catch {
-      // 広告ブロッカーやスクリプト読み込み失敗。広告が出ないだけでページは壊さない
+
+    const load = () => {
+      if (pushed.current) return;
+      // 一度埋まった <ins> に再度 push すると
+      // "adsbygoogle.push() error: All ins elements ... already have ads" で例外になる
+      if (el.getAttribute("data-adsbygoogle-status")) return;
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+        pushed.current = true;
+      } catch {
+        // 広告ブロッカーやスクリプト読み込み失敗。広告が出ないだけでページは壊さない
+      }
+    };
+
+    // 非対応環境では従来どおり即読み込み（広告が出ない方が損)
+    if (typeof IntersectionObserver !== "function") {
+      load();
+      return;
     }
+
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (!entries.some((e) => e.isIntersecting)) return;
+        load();
+        io.disconnect();
+      },
+      { rootMargin: "600px 0px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
   }, []);
 
   return (
