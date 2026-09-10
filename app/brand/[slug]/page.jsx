@@ -80,6 +80,10 @@ export default function BrandPage() {
 
         <NewArrivalsSection excludeBrandSlug={slug} />
 
+        {/* 一覧を見終わって「次を探す」文脈。カードのグリッドが続くページなので
+            グリッド型のネイティブ広告が馴染む。ラベルはGoogleが枠内に描く */}
+        <AdUnit name="multiplex" format="autorelaxed" label="" minHeight={320} />
+
         <section className="mt-10 px-1 relative z-[1]">
           <h2 className="text-sm font-bold text-brand-text mb-3">ほかの人気キャラ・ブランドから探す</h2>
           <div className="flex flex-wrap gap-2">
@@ -109,8 +113,6 @@ export default function BrandPage() {
             ))}
           </div>
         </section>
-
-        <AdUnit name="pageBottom" />
       </main>
 
       <Footer />

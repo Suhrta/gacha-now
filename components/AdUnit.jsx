@@ -139,7 +139,9 @@ function AdSlot({ slot, format, layout, minHeight, insClass, className, label })
 
   return (
     <div className={`ad-slot text-center ${className}`}>
-      <div className="text-[10px] text-brand-sub tracking-wider mb-1">{label}</div>
+      {label ? (
+        <div className="text-[10px] text-brand-sub tracking-wider mb-1">{label}</div>
+      ) : null}
       <ins
         ref={insRef}
         className={`adsbygoogle ${insClass}`}
