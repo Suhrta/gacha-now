@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import GachaMachine from "../../../components/GachaMachine";
@@ -8,6 +8,7 @@ import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
 import { HubLead, HubDetails } from "../../../components/HubInfo";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
+import AdUnit, { useInFeedGrid } from "../../../components/AdUnit";
 import PopularNowSection from "../../../components/PopularNowSection";
 import products from "../../../data/products.json";
 import { getBrandIntro } from "../../../data/character-intros";
@@ -17,6 +18,7 @@ import { getAllReleaseMonths, formatYearMonth } from "../../../lib/release";
 export default function BrandPage() {
   const { slug } = useParams();
   const [selected, setSelected] = useState(null);
+  const { isBandAt, firstBandAt } = useInFeedGrid();
 
   const brandProducts = products.filter((p) => p.brandSlug === slug);
   const brandName = brandProducts.length > 0 ? brandProducts[0].brand : slug;
@@ -56,7 +58,10 @@ export default function BrandPage() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3 relative z-[1]">
           {brandProducts.map((p, i) => (
-            <GachaMachine key={p.id} product={p} index={i} onClick={setSelected} />
+            <Fragment key={p.id}>
+              {isBandAt(i) && <AdUnit name="inFeed" className="col-span-full my-2" insClass="min-h-[280px] md:min-h-[120px]" />}
+              <GachaMachine product={p} index={i} onClick={setSelected} />
+            </Fragment>
           ))}
         </div>
 
@@ -65,6 +70,9 @@ export default function BrandPage() {
             😢<br />この ブランドの<br />しんさくは まだ ないよ
           </div>
         )}
+
+        {/* 掲載が少なくて帯を挟む行が無いページ。ここだけグリッドの直下に落とす */}
+        {brandProducts.length > 0 && brandProducts.length <= firstBandAt && <AdUnit name="inFeed" />}
 
         <HubDetails name={brandName} items={brandProducts} intro={getBrandIntro(slug)} />
 
@@ -101,6 +109,8 @@ export default function BrandPage() {
             ))}
           </div>
         </section>
+
+        <AdUnit name="pageBottom" />
       </main>
 
       <Footer />

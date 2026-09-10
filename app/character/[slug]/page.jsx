@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import GachaMachine from "../../../components/GachaMachine";
@@ -12,6 +12,7 @@ import { getCharacterIntro } from "../../../data/character-intros";
 import { HubLead, HubDetails } from "../../../components/HubInfo";
 import CharacterAffiliateCTA from "../../../components/CharacterAffiliateCTA";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
+import AdUnit, { useInFeedGrid } from "../../../components/AdUnit";
 import PopularNowSection from "../../../components/PopularNowSection";
 import { getAllReleaseMonths, formatYearMonth } from "../../../lib/release";
 import { SERIES, filterProductsBySeries } from "../../../data/series";
@@ -19,6 +20,7 @@ import { SERIES, filterProductsBySeries } from "../../../data/series";
 export default function CharacterPage() {
   const { slug } = useParams();
   const [selected, setSelected] = useState(null);
+  const { isBandAt, firstBandAt } = useInFeedGrid();
 
   const character = getCharacterBySlug(slug);
   const items = character ? filterProductsByCharacter(products, character) : [];
@@ -70,7 +72,10 @@ export default function CharacterPage() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-3 relative z-[1]">
           {items.map((p, i) => (
-            <GachaMachine key={p.id} product={p} index={i} onClick={setSelected} />
+            <Fragment key={p.id}>
+              {isBandAt(i) && <AdUnit name="inFeed" className="col-span-full my-2" insClass="min-h-[280px] md:min-h-[120px]" />}
+              <GachaMachine product={p} index={i} onClick={setSelected} />
+            </Fragment>
           ))}
         </div>
 
@@ -79,6 +84,9 @@ export default function CharacterPage() {
             😢<br />このキャラクターの<br />しんさくは まだ ないよ
           </div>
         )}
+
+        {/* 掲載が少なくて帯を挟む行が無いページ。ここだけグリッドの直下に落とす */}
+        {items.length > 0 && items.length <= firstBandAt && <AdUnit name="inFeed" />}
 
         <HubDetails name={name} items={items} intro={intro} />
 
@@ -145,6 +153,7 @@ export default function CharacterPage() {
             ))}
           </div>
         </section>
+        <AdUnit name="pageBottom" />
       </main>
 
       <Footer />

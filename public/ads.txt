@@ -1,0 +1,4 @@
+# Google AdSense の販売者申告（IAB ads.txt）。
+# 無いと AdSense 管理画面に「収益に影響する問題」警告が出て配信が絞られる。
+# pub ID は app/layout.jsx のローダー、lib/ads.js の AD_CLIENT と同じもの。
+google.com, pub-1657546819928079, DIRECT, f08c47fec0942fa0
