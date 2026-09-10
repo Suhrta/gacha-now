@@ -381,7 +381,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第2週",
     "brand": "パックマン",
-    "types": null
+    "types": 12
   },
   {
     "title": "TVアニメ『ダンダダン』 つまんでつなげてますこっと",
@@ -525,7 +525,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "よこみぞゆり",
-    "types": null
+    "types": 6
   },
   {
     "title": "HGドラゴンボール06 GOKU EDITION2",
@@ -765,7 +765,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 4
   },
   {
     "title": "アニメ「桜蘭高校ホスト部」 おなまえなふだバッジ",
@@ -6237,7 +6237,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 4
   },
   {
     "title": "転生したらスライムだった件 リムルさまがいっぱいぬいぐるみ",
