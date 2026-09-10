@@ -152,7 +152,7 @@ export default function CharacterPage() {
                 href={`/release/${m}`}
                 className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
               >
-                📅 {formatYearMonth(m)}
+                {formatYearMonth(m)}
               </Link>
             ))}
           </div>

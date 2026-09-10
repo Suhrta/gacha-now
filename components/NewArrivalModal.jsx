@@ -107,7 +107,7 @@ export default function NewArrivalModal({ products, onOpenReceipt }) {
             </span>
           ) : null}
           <span className="font-sans" style={{ fontSize: 11, color: "#9B8978" }}>
-            📅 {product.releaseWeek}
+            {product.releaseWeek}
           </span>
         </div>
 

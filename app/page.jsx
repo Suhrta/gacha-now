@@ -476,7 +476,7 @@ export default function HomePage() {
                       className="flex-1 md:flex-none inline-flex items-center justify-center gap-1.5 md:gap-2 px-3 md:px-5 py-2.5 bg-white border-2 border-brand-purple rounded-full text-sm md:text-base font-bold text-brand-purple no-underline transition-colors"
                       style={{ boxShadow: "0 3px 0 #8B7EC833, 0 4px 12px rgba(139,126,200,0.15)" }}
                     >
-                      📅 {Number(NEXT_MONTH.split("-")[1])}月<span className="hidden md:inline">発売</span>の新作
+                      {Number(NEXT_MONTH.split("-")[1])}月<span className="hidden md:inline">発売</span>の新作
                       <span>→</span>
                     </Link>
                   )}

@@ -222,7 +222,7 @@ export default function ItemPage({ params }) {
               href={`/release/${releaseMonth}`}
               className="px-3 py-1.5 bg-white border border-cream-border rounded-full text-xs text-brand-text no-underline hover:border-brand-accent transition-colors"
             >
-              📅 {formatYearMonth(releaseMonth)}発売の一覧
+              {formatYearMonth(releaseMonth)}発売の一覧
             </Link>
           )}
         </div>

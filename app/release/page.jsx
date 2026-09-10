@@ -24,7 +24,7 @@ export default function ReleaseIndexPage() {
       </Link>
 
       <div className="mt-6 text-center">
-        <h1 className="font-pixel text-[14px] text-brand-accent">📅 発売月から探す</h1>
+        <h1 className="font-pixel text-[14px] text-brand-accent">発売月から探す</h1>
         <p className="font-pixel text-[10px] text-brand-sub mt-2 tracking-[1px]">
           ぜんぶで {months.length} かげつ
         </p>
