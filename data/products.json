@@ -678,7 +678,7 @@
     "brandSlug": "other",
     "price": 500,
     "types": 5,
-    "releaseWeek": "9月 11日週",
+    "releaseWeek": "発売中",
     "color": "#e5b499",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905018_b.jpg",
@@ -1093,7 +1093,7 @@
     "brandSlug": "other",
     "price": 400,
     "types": 5,
-    "releaseWeek": "9月 11日週",
+    "releaseWeek": "発売中",
     "color": "#e5b499",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908170_b.jpg",
@@ -1282,7 +1282,7 @@
     "brandSlug": "other",
     "price": 400,
     "types": 4,
-    "releaseWeek": "9月 11日週",
+    "releaseWeek": "発売中",
     "color": "#e5b499",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911118_b.jpg",
@@ -6274,7 +6274,7 @@
     "brandSlug": "tomica",
     "price": 400,
     "types": 4,
-    "releaseWeek": "9月 11日週",
+    "releaseWeek": "発売中",
     "color": "#e599a8",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909566_b.jpg",
@@ -24487,28 +24487,5 @@
       "ランドール"
     ],
     "thumb": "/thumb/gacha-1c233bf6.webp"
-  },
-  {
-    "id": "-maxmegamax-075b22ed",
-    "name": "ホビーガチャ ワイルド・スピード MAX/MEGAMAX",
-    "brand": "ワイルド・スピード",
-    "brandSlug": "wildspeed",
-    "price": 500,
-    "types": 4,
-    "releaseWeek": "6月 22日週",
-    "color": "#e599c2",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y087684_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y087684_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y087684",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-06-11T00:02:06.624Z",
-    "description": "人気カーアクション映画「ワイルド・スピード」をテーマにしたホビーガチャ「ワイルド・スピード MAX/MEGAMAX」がタカラトミーアーツより登場します。カプセルトイとして全4種がラインナップされ、価格は1回500円です。発売は6月22日週を予定しており、ガチャガチャの新作として店頭に並びます。",
-    "officialDescription": "映画『ワイルド・スピード/MAX』と『ワイルド・スピード/MEGAMAX』に登場するマシンを、劇中資料をもとに徹底再現。「Dodge Charger SRT-9 （＋金庫パーツ）」は、2台の車で金庫を引っ張る名シーンが再現できます。サイズは約7.2〜7.6cm。ラインナップは「日産 SKYLINE GT-R（＋ロゴパーツ）」「日産 SKYLINE GT-R（＋スモークパーツ）」「Dodge Charger SRT-8（＋ロゴパーツ）」「Dodge Charger SRT-8 （＋金庫パーツ）」の全4種。",
-    "size": "約7.2〜7.6cm",
-    "thumb": "/thumb/-maxmegamax-075b22ed.webp"
   }
 ]
