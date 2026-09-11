@@ -2805,7 +2805,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第5週",
     "brand": "まどか☆マギカ",
-    "types": 10
+    "types": null
   },
   {
     "title": "８番らーめん ミニチュアフィギュアチャームコレクション",
@@ -3885,7 +3885,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "ポケットモンスター スイングコレクション Type:Normal",
@@ -4221,7 +4221,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "それいけ！アンパンマン めじるしアクセサリー",
@@ -4486,6 +4486,30 @@
     "releaseWeek": "2026年9月 第2週",
     "brand": "DEATH NOTE",
     "types": 12
+  },
+  {
+    "title": "NCT WISH ぷくっとリング",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769776601000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 第2週",
+    "brand": "NCT WISH",
+    "types": 6
   },
   {
     "title": "MLB&trade; サイン入りユニフォーム フレームマグネット",
@@ -6957,7 +6981,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第4週",
     "brand": "モリゾーとキッコロ",
-    "types": 6
+    "types": null
   },
   {
     "title": "“ディズニーキャラクター” カラフルキャンディチャーム2",
@@ -7702,30 +7726,6 @@
     "releaseWeek": "2026年9月 第5週",
     "brand": "仮面ライダー",
     "types": 10
-  },
-  {
-    "title": "NCT WISH ぷくっとリング",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769776601000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_2.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251796_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年9月 第5週",
-    "brand": "NCT WISH",
-    "types": 6
   },
   {
     "title": "シャカシャカビーズチャーム aespa FANLIGHT ver.",
