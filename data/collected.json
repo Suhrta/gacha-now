@@ -885,7 +885,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "ディズニー",
-    "types": null
+    "types": 4
   },
   {
     "title": "ドラゴンクエスト ぷにぷにし隊",
@@ -4800,6 +4800,30 @@
     "types": 7
   },
   {
+    "title": "TOY STORY めじるしアクセサリー NEW",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769793349000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月 第3週",
+    "brand": "ディズニー",
+    "types": 5
+  },
+  {
     "title": "ケロロ軍曹 めじるしアクセサリー～どうぶつ変身であります～",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769842085000",
     "source": "バンダイ公式",
@@ -6069,7 +6093,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "ざわざわ森のがんこちゃん めじるしアクセサリー",
@@ -6195,9 +6219,9 @@
     "title": "クレヨンしんちゃん ゆらゆらマスコット",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770055054000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_4.jpg",
@@ -6579,9 +6603,9 @@
     "title": "仮面ライダーシリーズ ビジュアルアートコレクション",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770122442000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_4.jpg",
@@ -7587,9 +7611,9 @@
     "title": "ナルミヤキャラクターズ ペンケースチャーム",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770055313000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_4.jpg",
@@ -7803,9 +7827,9 @@
     "title": "名探偵プリキュア！ サウンドロップ",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118181862000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_4.jpg",
@@ -7875,9 +7899,9 @@
     "title": "ちいかわ カプセルステッキ",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_4.jpg",
@@ -12019,6 +12043,19 @@
     "types": 7
   },
   {
+    "title": "ntc.Puff アザラシ マーカーチャーム",
+    "url": "https://kitan.jp/products/azarashi_mc/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/09/42df42129e29581edaef2d00e1ccff9f.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/09/42df42129e29581edaef2d00e1ccff9f.jpg"
+    ],
+    "price": null,
+    "releaseWeek": "2026年9月 中旬",
+    "brand": "その他",
+    "types": 6
+  },
+  {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",
     "url": "https://capsule.bushiroad-creative.com/product/10051/",
     "source": "ブシロードクリエイティブ公式",
@@ -12797,5 +12834,31 @@
     "releaseWeek": "2027年1月 下旬",
     "brand": "バンドリ",
     "types": 5
+  },
+  {
+    "title": "イナズマイレブン 英雄たちのヴィクトリーロード　つながるぷちアクリルスタンド",
+    "url": "https://capsule.bushiroad-creative.com/product/10177/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/19191115/IE_tsunagaruakst_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/19191115/IE_tsunagaruakst_POP.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年12月 下旬",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "平成ファンシー　ミニデニムペンケース",
+    "url": "https://capsule.bushiroad-creative.com/product/10158/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/10150837/heisei_fancy_keyholder_CP_POP_kokuchi.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/10150837/heisei_fancy_keyholder_CP_POP_kokuchi.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年12月 下旬",
+    "brand": "平成ファンシー",
+    "types": 4
   }
 ]

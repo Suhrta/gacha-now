@@ -1,5 +1,104 @@
 [
   {
+    "id": "toy-story-new-1b9f52b7",
+    "name": "TOY STORY めじるしアクセサリー NEW",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "9月 第3週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000229241_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769793349000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-09-11T07:55:51.492Z",
+    "officialDescription": "傘の取っ手やペンなどいろいろな持ち物に“めじるし”をつけられる便利なカニカン付きチャーム！クリア素材がかわいい商品です♪※本商品は、初回発売後、複数回の出荷を予定しております。",
+    "ageRating": "15才以上",
+    "description": "バッグやポーチの持ち手に付けて自分の目印にできるラバーチャーム、めじるしアクセサリーシリーズにディズニーの人気作をモチーフにした「TOY STORY めじるしアクセサリー NEW」が登場します。全5種で、価格はカプセルトイ1回300円。バンダイより9月第3週に発売予定です。",
+    "thumb": "/thumb/toy-story-new-1b9f52b7.webp"
+  },
+  {
+    "id": "ntcpuff--4be6c8a4",
+    "name": "ntc.Puff アザラシ マーカーチャーム",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "9月 中旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/09/42df42129e29581edaef2d00e1ccff9f.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/09/42df42129e29581edaef2d00e1ccff9f.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/azarashi_mc/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-09-11T07:55:51.494Z",
+    "officialDescription": "ほんわりキュートな生き物フィギュアシリーズ「ntc.Puff」より、「アザラシ」が新たな仕様でリバイバルします！ 動物らしさを残しながら、絶妙にデフォルメされた姿が人気の「ntc.Puff」シリーズ。今回は、アザラシたちがシリコンリング＆チャーム仕様になって登場します。 ラインナップは、さかなをくわえた“くいしんぼ”や、まんまるとした姿がかわいい“うたたね”、水面から顔を出すような存在感のある“たちおよぎ”など、個性豊かな全６種。体色は、ほわほわの赤ちゃんをイメージした「シロ」と、斑点とグラデーションがリアルな「ゴマ」の２種類で、アザラシたちの愛らしい姿をたっぷりと楽しめます。 きゅるんとしたつやのある瞳で、こちらをじっと見つめてくるような表情も、思わず手元に置いておきたくなるかわいさ。傘やバッグ、ポーチなどに取り付ければ、いつでもどこでも癒しをもらえます♪ やさしい雰囲気と、動物らしいかわいさが詰まった「ntc.Puff アザラシ マーカーチャーム」。その愛くるしさに、ぜひ癒されてください！ ラインナップは「 およぐ（ゴマ） 、くいしんぼ（シロ） 、うたたね（シロ） 、見返り（ゴマ） 、たちおよぎ（シロ） 、たちおよぎ（ゴマ） 」の全6種。",
+    "size": "約45mm",
+    "thumb": "/thumb/ntcpuff--4be6c8a4.webp"
+  },
+  {
+    "id": "gacha-3c9da793",
+    "name": "イナズマイレブン 英雄たちのヴィクトリーロード　つながるぷちアクリルスタンド",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "12月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/19191115/IE_tsunagaruakst_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/19191115/IE_tsunagaruakst_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10177/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-09-11T07:55:51.495Z",
+    "officialDescription": "『イナズマイレブン 英雄たちのヴィクトリーロード』より、つながるぷちアクリルスタンドが登場！",
+    "thumb": "/thumb/gacha-3c9da793.webp"
+  },
+  {
+    "id": "gacha-70359fd5",
+    "name": "平成ファンシー　ミニデニムペンケース",
+    "brand": "平成ファンシー",
+    "brandSlug": "heiseifancy",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "12月 下旬",
+    "color": "#e599cd",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/10150837/heisei_fancy_keyholder_CP_POP_kokuchi.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/10150837/heisei_fancy_keyholder_CP_POP_kokuchi.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10158/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-09-11T07:55:51.495Z",
+    "officialDescription": "カミオジャパン・クラックスの平成キャラクターたちのペンケースが、ミニサイズのカプセルトイに！",
+    "description": "平成レトロな雰囲気を感じさせるアイテムを展開する「平成ファンシー」シリーズより、平成ファンシー ミニデニムペンケースがカプセルトイに登場します。ブシロードクリエイティブより発売されるこの商品は全4種で、1回500円で楽しめます。発売時期は12月下旬を予定しています。",
+    "thumb": "/thumb/gacha-70359fd5.webp"
+  },
+  {
     "id": "gacha-0b330dfd",
     "name": "くまのがっこう カラフルマルチチャーム",
     "brand": "くまのがっこう",
@@ -1000,9 +1099,9 @@
     "releaseWeek": "9月 第3週",
     "color": "#4DB6AC",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256778_4.jpg",
@@ -4216,9 +4315,9 @@
     "releaseWeek": "9月 第3週",
     "color": "#99d2e5",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_4.jpg",
@@ -5873,9 +5972,9 @@
     "releaseWeek": "9月 第5週",
     "color": "#bf99e5",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256807_4.jpg",
@@ -6553,9 +6652,9 @@
     "releaseWeek": "未定",
     "color": "#F48FB1",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256907_4.jpg",
@@ -6620,9 +6719,9 @@
     "releaseWeek": "未定",
     "color": "#4FC3F7",
     "hot": true,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_4.jpg",
@@ -24436,56 +24535,5 @@
       "ねむれないムーミン"
     ],
     "thumb": "/thumb/moomin--2511be28.webp"
-  },
-  {
-    "id": "tomica-premium-box1-0f2db338",
-    "name": "tomica PREMIUM BOX型シリコンポーチ1",
-    "brand": "トミカ",
-    "brandSlug": "tomica",
-    "price": 400,
-    "types": 4,
-    "releaseWeek": "6月 15日週",
-    "color": "#e599a8",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906343_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906343_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906343",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-06-11T07:30:18.551Z",
-    "description": "子どもから大人まで人気のミニカーブランド、トミカをモチーフにしたカプセルトイ「tomica PREMIUM BOX型シリコンポーチ1」がタカラトミーアーツより登場します。全4種のラインナップで、価格は1回400円です。発売時期は6月15日週を予定しており、ガチャガチャの店頭に並び次第、手に入れることができます。",
-    "officialDescription": "「tomica PREMIUM（トミカプレミアム）」の玩具パッケージをデザインした、実用性の高いシリコン製ポーチです。セレクトされた車両もカッコよく、ボールチェーン付きなのでバッグやリュックなどに付けて楽しめます。本体サイズは約W7.4&times;H4.5cm。ラインナップは「日産 180SX」「日産 フェアレディZ」「日産 スカイライン GT-R V-SPECII N&uuml;r」「日産 スカイライン GT-R（KPGC10）」の全4種。",
-    "thumb": "/thumb/tomica-premium-box1-0f2db338.webp"
-  },
-  {
-    "id": "gacha-1c233bf6",
-    "name": "モンスターズ・インクへようこそ",
-    "brand": "ディズニー",
-    "brandSlug": "disney",
-    "price": 400,
-    "types": 4,
-    "releaseWeek": "6月 15日週",
-    "color": "#CE93D8",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906671_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906671_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906671",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-06-11T07:30:18.551Z",
-    "description": "タカラトミーアーツより、ディズニーの人気アニメーション作品をモチーフにしたカプセルトイ「モンスターズ・インクへようこそ」が登場します。世界中で愛されるディズニー作品をテーマにした全4種のラインナップで、価格は1回400円です。発売時期は6月15日週を予定しています。",
-    "officialDescription": "2026年で公開25周年を迎える『モンスターズ・インク』のキャラクターたちのフィギュアが、ガチャから登場。それぞれ異なる表情を見せてくれていて、「マイク」や「サリー」たちのキュートな表情にも注目！　全種類そろえると『モンスターズ・インク』の世界観が演出できます。本体サイズは約2.8〜6.0cm。ラインナップは「ブー/ボストンバッグ」「サリー」「マイク」「ランドール」の全4種。",
-    "size": "約2.8〜6.0cm",
-    "lineup": [
-      "ブー/ボストンバッグ",
-      "サリー",
-      "マイク",
-      "ランドール"
-    ],
-    "thumb": "/thumb/gacha-1c233bf6.webp"
   }
 ]
