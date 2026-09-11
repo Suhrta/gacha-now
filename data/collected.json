@@ -3885,7 +3885,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "ポケットモンスター スイングコレクション Type:Normal",
@@ -4221,7 +4221,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "それいけ！アンパンマン めじるしアクセサリー",
@@ -4342,6 +4342,30 @@
     "releaseWeek": "2026年9月 第2週",
     "brand": "ワンピース",
     "types": 19
+  },
+  {
+    "title": "ホロライブ おなまえぷっくりラバーマスコット2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184139000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 第2週",
+    "brand": "ホロライブ",
+    "types": 15
   },
   {
     "title": "“ディズニーキャラクター” めじるしアクセサリー Halloween",
@@ -6528,30 +6552,6 @@
     "types": 6
   },
   {
-    "title": "だれでもアイドル活動アクリルチャーム ～アイカツスターズ！～",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770076554000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年9月 第3週",
-    "brand": "アイカツ",
-    "types": 15
-  },
-  {
     "title": "仮面ライダーマイス ライドギアコレクション",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770098402000",
     "source": "バンダイ公式",
@@ -7515,9 +7515,9 @@
     "title": "パチスロ魂 サウンドコレクション",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935893000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_4.jpg",
@@ -7750,6 +7750,30 @@
     "releaseWeek": "2026年9月 第5週",
     "brand": "aespa",
     "types": 4
+  },
+  {
+    "title": "だれでもアイドル活動アクリルチャーム ～アイカツスターズ！～",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770076554000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256781_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月 第5週",
+    "brand": "アイカツ",
+    "types": 15
   },
   {
     "title": "VIRUSWEETS figure collection ～甘味処～",
