@@ -45,7 +45,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第1週",
     "brand": "クレヨンしんちゃん",
-    "types": 6
+    "types": null
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定】HG ONE PIECE 01 SPECIAL EDITION",
@@ -477,7 +477,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "Lil ala mode",
-    "types": 4
+    "types": null
   },
   {
     "title": "Esther Bunny（エスターバニー） めじるしアクセサリー2",
@@ -3813,7 +3813,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "角醒ハンター オメガホーン",
-    "types": 5
+    "types": null
   },
   {
     "title": "仮面ライダーマイス GPライダーエグズ01",
@@ -6093,7 +6093,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "トムとジェリー",
-    "types": 6
+    "types": null
   },
   {
     "title": "モンチッチ ミニチュアパッケージチャーム",
@@ -7971,9 +7971,9 @@
     "title": "HG HUNTER×HUNTER Vol.1",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968372000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257659_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257659_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257659_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257659_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000257659_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000257659_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000257659_4.jpg",
@@ -8163,9 +8163,9 @@
     "title": "きらちゅるした めじるしリンクチャーム ちっちゃなおばけさん",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770095616000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_4.jpg",
@@ -8187,9 +8187,9 @@
     "title": "【ガシャポンバンダイオフィシャルショップ限定】HGドラゴンボール03 DAIMA SPECIAL EDITION",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770122213000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257651_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257651_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257651_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257651_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000257651_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000257651_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000257651_4.jpg",
