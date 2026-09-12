@@ -45,7 +45,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第1週",
     "brand": "クレヨンしんちゃん",
-    "types": null
+    "types": 6
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定】HG ONE PIECE 01 SPECIAL EDITION",
@@ -477,7 +477,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "Lil ala mode",
-    "types": null
+    "types": 4
   },
   {
     "title": "Esther Bunny（エスターバニー） めじるしアクセサリー2",
@@ -3813,7 +3813,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "角醒ハンター オメガホーン",
-    "types": null
+    "types": 5
   },
   {
     "title": "仮面ライダーマイス GPライダーエグズ01",
@@ -6093,7 +6093,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "トムとジェリー",
-    "types": null
+    "types": 6
   },
   {
     "title": "モンチッチ ミニチュアパッケージチャーム",
