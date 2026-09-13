@@ -2493,7 +2493,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第5週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "プリキュアオールスターズ Q posket ミニチュアコレクション２",
@@ -3813,7 +3813,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "角醒ハンター オメガホーン",
-    "types": null
+    "types": 5
   },
   {
     "title": "仮面ライダーマイス GPライダーエグズ01",
