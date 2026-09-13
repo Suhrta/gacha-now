@@ -837,7 +837,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第2週",
     "brand": "パワプロ",
-    "types": null
+    "types": 6
   },
   {
     "title": "パワプロくん ゆれるんです。～パシフィック・リーグ～",
@@ -8013,7 +8013,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "ポケモン",
-    "types": 10
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ ときめきフリルマスコット",
