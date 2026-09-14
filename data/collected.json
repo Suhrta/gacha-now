@@ -7464,6 +7464,30 @@
     "types": 8
   },
   {
+    "title": "MINECRAFT めじるしアクセサリー スタンダード",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118197115000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245273_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月 第5週",
+    "brand": "マインクラフト",
+    "types": 5
+  },
+  {
     "title": "【フラットガシャポン】お文具といっしょ ガーゼタオルなのです。",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184894000",
     "source": "バンダイ公式",
@@ -7966,6 +7990,30 @@
     "releaseWeek": "未定",
     "brand": "ちいかわ",
     "types": 4
+  },
+  {
+    "title": "モーニング娘。 コスチュームチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118206442000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_2.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "未定",
+    "brand": "その他",
+    "types": 6
   },
   {
     "title": "HG HUNTER×HUNTER Vol.1",
@@ -8490,6 +8538,19 @@
     "releaseWeek": "2026年9月 14日週",
     "brand": "その他",
     "types": 5
+  },
+  {
+    "title": "おねがいアイプリ アクリルカードチャーム",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907838",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907838_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907838_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月 14日週",
+    "brand": "アイプリ",
+    "types": 7
   },
   {
     "title": "ポケモン しゃぼんたいむマスコット",
