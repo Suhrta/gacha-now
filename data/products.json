@@ -1,5 +1,38 @@
 [
   {
+    "id": "plave--16808dca",
+    "name": "PLAVE めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "未定",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770067545000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-09-14T09:08:38.086Z",
+    "officialDescription": "K-POPバーチャルアイドルPLAVEのめじるしアクセサリーが登場！PLAVE公式キャラクターMMMM（ムメミム）の着ぐるみを着たデザインがかわいい♪※本商品は、初回発売後、複数回の出荷を予定しております。※『2026 PLAVE World Tour [KEEP IT MANIC] in Japan』開催に合わせ、9/26(土)より一部先行販売をいたします。詳しくは下記お知らせページをご覧ください。https://gashapon.jp/news/?p=14474",
+    "ageRating": "15才以上",
+    "thumb": "/thumb/plave--16808dca.webp"
+  },
+  {
     "id": "minecraft--12d48103",
     "name": "MINECRAFT めじるしアクセサリー スタンダード",
     "brand": "マインクラフト",
@@ -30,7 +63,7 @@
     "collectedAt": "2026-09-14T08:40:49.220Z",
     "officialDescription": "MINECRAFT（マインクラフト）のめじるしアクセサリーが登場！付属のわっかで傘やペットボトルに付けられる★※本商品は、初回発売後、複数回の出荷を予定しております。",
     "ageRating": "15才以上",
-    "description": "世界的な人気を誇るサンドボックスゲーム「マインクラフト」をモチーフにしたラバーチャームが、バンダイのめじるしアクセサリーシリーズに登場します。全5種で、価格は1回300円のカプセルトイです。発売時期は9月第5週を予定しています。",
+    "description": "世界的人気ゲーム「マインクラフト」をモチーフにしたラバーチャームシリーズから、「MINECRAFT めじるしアクセサリー スタンダード」が登場します。バッグやポーチの持ち手につけて目印にできるタイプのカプセルトイで、バンダイより全5種のラインナップです。価格は1回300円で、9月第5週の発売が予定されています。",
     "thumb": "/thumb/minecraft--12d48103.webp"
   },
   {
@@ -124,7 +157,7 @@
       "カクタス",
       "ぼんすけ"
     ],
-    "description": "キタンクラブより、タカハシカオリによるカプセルトイ「すくすくプランターズ！」が発売中です。1回400円で全5種がラインナップされており、ガチャガチャとして展開されています。",
+    "description": "キタンクラブから、タカハシカオリによる「すくすくプランターズ！」がカプセルトイとして登場しています。全5種のラインナップで、1回400円で楽しめます。すでに発売されており、店舗のガチャガチャコーナーなどで見かける機会があります。",
     "thumb": "/thumb/gacha-1ad1dd50.webp"
   },
   {

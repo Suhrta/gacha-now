@@ -45,7 +45,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第1週",
     "brand": "クレヨンしんちゃん",
-    "types": 6
+    "types": null
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定】HG ONE PIECE 01 SPECIAL EDITION",
@@ -5061,7 +5061,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "まちぼうけ",
-    "types": 5
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ カラフルカラビナマスコットチャーム",
@@ -8134,6 +8134,30 @@
     "releaseWeek": "未定",
     "brand": "VIRUSWEETS",
     "types": 6
+  },
+  {
+    "title": "PLAVE めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770067545000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257847_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "未定",
+    "brand": "その他",
+    "types": 5
   },
   {
     "title": "モンチッチ Twinkle ゴム",
