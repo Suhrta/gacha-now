@@ -45,7 +45,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第1週",
     "brand": "クレヨンしんちゃん",
-    "types": null
+    "types": 6
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定】HG ONE PIECE 01 SPECIAL EDITION",
@@ -5061,7 +5061,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 5
   },
   {
     "title": "サンリオキャラクターズ カラフルカラビナマスコットチャーム",
@@ -12969,5 +12969,18 @@
     "releaseWeek": "2026年12月 下旬",
     "brand": "平成ファンシー",
     "types": 4
+  },
+  {
+    "title": "MyGO!!!!! 額縁アートコレクション",
+    "url": "https://capsule.bushiroad-creative.com/product/10122/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/14182005/gakubuchi_art_MyGo_CP_POP_0724.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/14182005/gakubuchi_art_MyGo_CP_POP_0724.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月 下旬",
+    "brand": "その他",
+    "types": 5
   }
 ]
