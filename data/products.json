@@ -1,5 +1,202 @@
 [
   {
+    "id": "gacha-35835823",
+    "name": "モンスターズ・インク アイテムコレクション2",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904332_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904332_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904332",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-15T08:30:25.463Z",
+    "officialDescription": "ディズニー＆ピクサー映画『モンスターズ・インク』に登場した印象的なアイテムを、手のひらサイズで忠実に再現したコレクションシリーズの第2弾です。人気の「エネルギータンク」のビッグサイズバージョンに加え、ファン待望の「リトル・マイキー」もセレクトされています。本体サイズは約4.5〜6.5cm。ラインナップは「リトル・マイキー／マイクの社員証」「サリーのファイル」「エネルギータンク／ランドールの社員証」「雑誌」「ヘルメット／サリーの社員証 」の全5種。",
+    "size": "約4.5〜6.5cm",
+    "lineup": [
+      "リトル・マイキー／マイクの社員証",
+      "サリーのファイル",
+      "エネルギータンク／ランドールの社員証",
+      "雑誌",
+      "ヘルメット／サリーの社員証"
+    ],
+    "description": "世界中で親しまれるディズニー作品「モンスターズ・インク」をモチーフにしたカプセルトイが登場しました。タカラトミーアーツから発売中の「モンスターズ・インク アイテムコレクション2」は全5種のラインナップで、1回400円で楽しめます。ガチャガチャとして店頭や専門店で販売されているので、気になる方は取り扱い店舗を探してみてください。",
+    "thumb": "/thumb/gacha-35835823.webp"
+  },
+  {
+    "id": "miffy--0da9c041",
+    "name": "miffy もふもふポーシェット",
+    "brand": "ミッフィー",
+    "brandSlug": "miffy",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#99e5b5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907036_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907036_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907036",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-15T08:30:25.463Z",
+    "officialDescription": "両側のタグに紐をつけると、ポーチからポシェットに早変わりする「もふもふポーシェット」シリーズに『miffy』が仲間入り。ふわもこ生地と刺繡がとってもキュート！本体サイズは約11.5&times;9.5cm。ラインナップは「ミッフィー」「ダーン」「おばけミッフィー」「スナッフィー」「ライオン」の全5種。",
+    "lineup": [
+      "ミッフィー",
+      "ダーン",
+      "おばけミッフィー",
+      "スナッフィー",
+      "ライオン"
+    ],
+    "description": "世界的に人気の絵本キャラクター、ミッフィーをモチーフにしたカプセルトイ「miffy もふもふポーシェット」がタカラトミーアーツより登場しています。価格は1回500円で、全5種のラインナップが展開中です。現在発売中で、店頭のガチャガチャ機で購入できます。",
+    "thumb": "/thumb/miffy--0da9c041.webp"
+  },
+  {
+    "id": "gacha-7c3af99f",
+    "name": "あんもにゃいと2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 200,
+    "types": 6,
+    "releaseWeek": "9月 24日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906923_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906923_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906923",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-15T08:30:25.463Z",
+    "officialDescription": "アンモナイトの化石のように、全身を丸くして眠る猫の姿をイメージしたフィギュア「あんもにゃいと」の第2弾。フロッキー加工が施されていて、毛並み感もリアルに再現されています。眠っている姿は2タイプ。「黒のハチワレ」にはハート型の模様が！　本体サイズは約4.5cm。ラインナップは「白猫」「グレー」「黒のハチワレ」「黒猫」「茶猫」「三毛猫」の全6種。",
+    "size": "約4.5cm",
+    "lineup": [
+      "白猫",
+      "グレー",
+      "黒のハチワレ",
+      "黒猫",
+      "茶猫",
+      "三毛猫"
+    ],
+    "thumb": "/thumb/gacha-7c3af99f.webp"
+  },
+  {
+    "id": "gacha-1c39eacb",
+    "name": "カプセルプラレール きかんしゃトーマス ふしぎないわのボルダー編",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 300,
+    "types": 13,
+    "releaseWeek": "9月 24日週",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y910838_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y910838_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910838",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-15T08:30:25.463Z",
+    "officialDescription": "「いわのボルダー」をテーマにした「カプセルプラレール きかんしゃトーマス」。岩場で働く特殊車両もセレクトされており、迫力満点の「ボルダー」は「岩山トンネル」の上にセットできます。本体サイズは本体：約3〜7.5cm。ラインナップは「トーマス（連結パーツ付）＋直線レール」「パーシー（連結パーツ付）＋直線レール」「レニアス（連結パーツ付）＋曲線レール」「ラスティ（ゼンマイ車）」「スカーロイ（ゼンマイ車）」「サンバー」「ボルダー」「顔付き貨車A＋直線レール」「顔付き貨車B＋曲線レール」「岩山トンネル」「鉄橋」「まがレール」「レールセット（直線レール&times;3＋曲線レール&times;3）」の全13種。",
+    "description": "タカラトミーアーツより、トミカのカプセルトイに「カプセルプラレール きかんしゃトーマス ふしぎないわのボルダー編」が登場します。1回300円で全13種がラインナップされており、9月24日週から順次カプセルトイ売り場に並ぶ予定です。",
+    "thumb": "/thumb/gacha-1c39eacb.webp"
+  },
+  {
+    "id": "gacha-5daa505e",
+    "name": "モアナと伝説の海 ゆらゆらつながるマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904837_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904837_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904837",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-15T08:30:25.463Z",
+    "officialDescription": "カニカンで上下に連結できるタカラトミーアーツオリジナルの「ゆらゆらつながるマスコット」シリーズに、ディズニー映画『モアナと伝説の海』が仲間入り。上下につなげると、劇中のアニメーションに登場するシーンが再現できます。本体サイズは約3.7〜6.6m。ラインナップは「モアナ」「マウイ」「プア」「カカモラ」の全4種。",
+    "lineup": [
+      "モアナ",
+      "マウイ",
+      "プア",
+      "カカモラ"
+    ],
+    "thumb": "/thumb/gacha-5daa505e.webp"
+  },
+  {
+    "id": "fig-5-55a0c6da",
+    "name": "肩ズンFig. アニメ『呪術廻戦』5周年",
+    "brand": "呪術廻戦",
+    "brandSlug": "jujutsu",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#7986CB",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905926_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905926_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905926",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-15T08:30:25.463Z",
+    "officialDescription": "隣の人の肩に頭を\"ズン\"ともたれてうとうとする姿で人気の「肩ズンFig.」シリーズに、アニメ『呪術廻戦』が仲間入り。アニメ放送5周年を記念したアイテムで、キャラクターの個性に合わせた表情やポージングにも注目です。本体サイズは約4.8〜5.2cm。ラインナップは「乙骨 憂太（劇場版 呪術廻戦 0）」「狗巻 棘（劇場版 呪術廻戦 0）」「五条 悟（懐玉・玉折）」「夏油 傑（懐玉・玉折）」の全4種。",
+    "size": "約4.8〜5.2cm",
+    "lineup": [
+      "乙骨 憂太（劇場版 呪術廻戦 0）",
+      "狗巻 棘（劇場版 呪術廻戦 0）",
+      "五条 悟（懐玉・玉折）",
+      "夏油 傑（懐玉・玉折）"
+    ],
+    "description": "人気アニメ『呪術廻戦』の5周年を記念したカプセルトイで、キャラクターが肩に寄りかかる姿を立体化した「肩ズンFig.」シリーズの新作です。全4種がラインナップされており、1回400円で楽しめます。タカラトミーアーツから発売中で、店頭のガチャガチャ機で入手できます。",
+    "thumb": "/thumb/fig-5-55a0c6da.webp"
+  },
+  {
+    "id": "gacha-19c2dc17",
+    "name": "ピクサーキャラクター ぷくちゃーむ",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909771_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909771_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909771",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-15T08:30:25.463Z",
+    "officialDescription": "ガチャの新シリーズ「ぷくちゃーむ」に、ピクサーキャラクターが大集合。ぷっくり透明なマスコットに、透明なシリコンバンドが付いたかわいいチャームです。かばんやポーチなどにつけられるので、一緒にお出かけもできます。本体サイズは約3.7〜4.5cm。ラインナップは「エイリアン」「レッサーパンダ メイ」「ロッツォ」「サリー」「マイク」の全5種。",
+    "size": "約3.7〜4.5cm",
+    "lineup": [
+      "エイリアン",
+      "レッサーパンダ メイ",
+      "ロッツォ",
+      "サリー",
+      "マイク"
+    ],
+    "description": "世界中で親しまれるディズニー・ピクサー作品のキャラクターたちをモチーフにしたカプセルトイ「ピクサーキャラクター ぷくちゃーむ」がタカラトミーアーツより登場しています。ガチャガチャ1回の価格は400円で、全5種の展開です。現在発売中となっています。",
+    "thumb": "/thumb/gacha-19c2dc17.webp"
+  },
+  {
     "id": "gacha-2f3e6f46",
     "name": "ポケモン　へんしんが苦手なメタモン! つやふるチャームマスコット",
     "brand": "ポケモン",

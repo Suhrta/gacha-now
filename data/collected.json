@@ -45,7 +45,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第1週",
     "brand": "クレヨンしんちゃん",
-    "types": 6
+    "types": null
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定】HG ONE PIECE 01 SPECIAL EDITION",
@@ -117,7 +117,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "ディズニー",
-    "types": 6
+    "types": null
   },
   {
     "title": "MINECRAFT キーボードチャーム",
@@ -8486,6 +8486,19 @@
     "types": 4
   },
   {
+    "title": "モンスターズ・インク アイテムコレクション2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904332",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904332_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904332_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 14日週",
+    "brand": "ディズニー",
+    "types": 5
+  },
+  {
     "title": "ディズニーキャラクター バレエリボンフィギュア",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904455",
     "source": "タカラトミーアーツ公式",
@@ -8561,6 +8574,19 @@
     "price": 300,
     "releaseWeek": "2026年9月 14日週",
     "brand": "ポケモン",
+    "types": 5
+  },
+  {
+    "title": "miffy もふもふポーシェット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907036",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907036_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907036_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年9月 14日週",
+    "brand": "ミッフィー",
     "types": 5
   },
   {
@@ -8642,6 +8668,19 @@
     "types": 4
   },
   {
+    "title": "あんもにゃいと2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906923",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906923_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906923_b.jpg"
+    ],
+    "price": 200,
+    "releaseWeek": "2026年9月 24日週",
+    "brand": "その他",
+    "types": 6
+  },
+  {
     "title": "トミカキーホルダー8",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908965",
     "source": "タカラトミーアーツ公式",
@@ -8653,6 +8692,19 @@
     "releaseWeek": "2026年9月 24日週",
     "brand": "トミカ",
     "types": 4
+  },
+  {
+    "title": "カプセルプラレール きかんしゃトーマス ふしぎないわのボルダー編",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910838",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y910838_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y910838_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月 24日週",
+    "brand": "トミカ",
+    "types": 13
   },
   {
     "title": "夏目友人帳 ニャンコ先生まったりコレクション",
@@ -8707,6 +8759,19 @@
     "types": 7
   },
   {
+    "title": "モアナと伝説の海 ゆらゆらつながるマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904837",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904837_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904837_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月",
+    "brand": "その他",
+    "types": 4
+  },
+  {
     "title": "ポケモン　30周年 メタルチャームマスコット ～アローラ、ガラル、パルデア～",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905568",
     "source": "タカラトミーアーツ公式",
@@ -8731,6 +8796,32 @@
     "releaseWeek": "2026年9月",
     "brand": "サンリオ",
     "types": 4
+  },
+  {
+    "title": "肩ズンFig. アニメ『呪術廻戦』5周年",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905926",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905926_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905926_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月",
+    "brand": "呪術廻戦",
+    "types": 4
+  },
+  {
+    "title": "ピクサーキャラクター ぷくちゃーむ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909771",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909771_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909771_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月",
+    "brand": "ディズニー",
+    "types": 5
   },
   {
     "title": "ntc.Puff アザラシ マーカーチャーム",
