@@ -1293,7 +1293,7 @@
     "price": null,
     "releaseWeek": "2026年8月 第2週",
     "brand": "仮面ライダー",
-    "types": null
+    "types": 4
   },
   {
     "title": "劇場版『チェンソーマン レゼ篇』 めじるしアクセサリー1",
@@ -4797,7 +4797,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "パワーパフガールズ",
-    "types": null
+    "types": 7
   },
   {
     "title": "TOY STORY めじるしアクセサリー NEW",
@@ -4845,7 +4845,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ケロロ軍曹",
-    "types": null
+    "types": 5
   },
   {
     "title": "カプキャラ たまごっち",
@@ -5133,7 +5133,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "モンチッチ",
-    "types": 6
+    "types": null
   },
   {
     "title": "ウルトラマン MINI ULTRA ART(ミニウルトラアート) めじるしアクセサリー",
@@ -5781,7 +5781,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第3週",
     "brand": "転スラ",
-    "types": 4
+    "types": null
   },
   {
     "title": "たまごっち ケーキチャームコレクション",
@@ -5973,7 +5973,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "たまごっち",
-    "types": null
+    "types": 5
   },
   {
     "title": "くまのがっこう×サンリオ めじるしアクセサリー",
@@ -6573,7 +6573,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "仮面ライダー",
-    "types": null
+    "types": 4
   },
   {
     "title": "ポンデクルール どうぶつの森 マルチカラーパウダー",
@@ -8061,7 +8061,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第1週",
     "brand": "HUNTER×HUNTER",
-    "types": 4
+    "types": null
   },
   {
     "title": "ポケットモンスター つまんでつなげてマスコット16",
