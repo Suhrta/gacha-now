@@ -3261,7 +3261,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第5週",
     "brand": "ポケモン",
-    "types": 5
+    "types": null
   },
   {
     "title": "ジェムリーズ ポケットモンスター13 Summer",
@@ -3813,7 +3813,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "角醒ハンター オメガホーン",
-    "types": 5
+    "types": null
   },
   {
     "title": "仮面ライダーマイス GPライダーエグズ01",
@@ -8588,6 +8588,19 @@
     "types": 4
   },
   {
+    "title": "肩ズンFig. アニメ『呪術廻戦』5周年",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905926",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905926_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905926_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 14日週",
+    "brand": "呪術廻戦",
+    "types": 4
+  },
+  {
     "title": "ポケモン　へんしんが苦手なメタモン! つやふるチャームマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906985",
     "source": "タカラトミーアーツ公式",
@@ -8627,6 +8640,19 @@
     "types": 5
   },
   {
+    "title": "『踊る大捜査線N.E.W.』 めじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907746",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907746_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907746_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 14日週",
+    "brand": "踊る大捜査線",
+    "types": 6
+  },
+  {
     "title": "おねがいアイプリ アクリルカードチャーム",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907838",
     "source": "タカラトミーアーツ公式",
@@ -8638,6 +8664,19 @@
     "releaseWeek": "2026年9月 14日週",
     "brand": "アイプリ",
     "types": 7
+  },
+  {
+    "title": "ピクサーキャラクター ぷくちゃーむ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909771",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909771_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909771_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 14日週",
+    "brand": "ディズニー",
+    "types": 5
   },
   {
     "title": "ポケモン しゃぼんたいむマスコット",
@@ -8833,32 +8872,6 @@
     "releaseWeek": "2026年9月 28日週",
     "brand": "サンリオ",
     "types": 4
-  },
-  {
-    "title": "肩ズンFig. アニメ『呪術廻戦』5周年",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905926",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905926_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905926_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年9月",
-    "brand": "呪術廻戦",
-    "types": 4
-  },
-  {
-    "title": "ピクサーキャラクター ぷくちゃーむ",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909771",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909771_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909771_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年9月",
-    "brand": "ディズニー",
-    "types": 5
   },
   {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",
@@ -9677,6 +9690,19 @@
     "price": 400,
     "releaseWeek": "2026年11月 下旬",
     "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "アニメ「ぼっち・ざ・ろっく！」　ゆめぬい",
+    "url": "https://capsule.bushiroad-creative.com/product/10160/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/17103847/%E3%80%90%E3%83%96%E3%82%B7%E3%83%AD%E3%83%BC%E3%83%89%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%80%91%E3%82%86%E3%82%81%E3%81%AC%E3%81%84_WEB%E7%94%A8%E7%94%BB%E5%83%8F%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3_1%E5%9B%9E%E7%9B%AE-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/17103847/%E3%80%90%E3%83%96%E3%82%B7%E3%83%AD%E3%83%BC%E3%83%89%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%80%91%E3%82%86%E3%82%81%E3%81%AC%E3%81%84_WEB%E7%94%A8%E7%94%BB%E5%83%8F%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3_1%E5%9B%9E%E7%9B%AE-1280x1280.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年12月 下旬",
+    "brand": "ぼっち・ざ・ろっく",
     "types": 5
   }
 ]

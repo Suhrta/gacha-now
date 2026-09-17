@@ -1,5 +1,58 @@
 [
   {
+    "id": "new--49398282",
+    "name": "『踊る大捜査線N.E.W.』 めじるしガチャマスコット",
+    "brand": "踊る大捜査線",
+    "brandSlug": "odoru",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "発売中",
+    "color": "#d299e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907746_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907746_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907746",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-17T08:34:18.220Z",
+    "officialDescription": "『踊る大捜査線』シリーズとタカラトミーアーツのコラボアイテム第2弾は、シリコンリングが付いた「めじるしガチャマスコット」。劇中に登場するおなじみのキャラクターなどセレクトされていて、スコープ型クリアケースの中にいるのはおなじみの\"あの人\"です。本体サイズは約3.5〜4.5cm。ラインナップは「カエル急便」「湾岸君」「台場レインボー最中」「シルエット立体①」「シルエット立体②」「シルエット立体③」の全6種。",
+    "size": "約3.5〜4.5cm",
+    "lineup": [
+      "カエル急便",
+      "湾岸君",
+      "台場レインボー最中",
+      "シルエット立体①",
+      "シルエット立体②",
+      "シルエット立体③"
+    ],
+    "description": "人気刑事ドラマ「踊る大捜査線」をモチーフにしたラバー製の目印チャームが、タカラトミーアーツからガチャガチャに登場しました。『踊る大捜査線N.E.W.』めじるしガチャマスコットの名の通り、バッグの持ち手などに付けて自分の目印にできるタイプのシリーズで、全6種がラインナップされています。価格は1回400円で、現在発売中です。",
+    "thumb": "/thumb/new--49398282.webp"
+  },
+  {
+    "id": "gacha-15ab520c",
+    "name": "アニメ「ぼっち・ざ・ろっく！」　ゆめぬい",
+    "brand": "ぼっち・ざ・ろっく",
+    "brandSlug": "bocchi",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "12月 下旬",
+    "color": "#99e59f",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/17103847/%E3%80%90%E3%83%96%E3%82%B7%E3%83%AD%E3%83%BC%E3%83%89%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%80%91%E3%82%86%E3%82%81%E3%81%AC%E3%81%84_WEB%E7%94%A8%E7%94%BB%E5%83%8F%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3_1%E5%9B%9E%E7%9B%AE-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/17103847/%E3%80%90%E3%83%96%E3%82%B7%E3%83%AD%E3%83%BC%E3%83%89%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%80%91%E3%82%86%E3%82%81%E3%81%AC%E3%81%84_WEB%E7%94%A8%E7%94%BB%E5%83%8F%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3_1%E5%9B%9E%E7%9B%AE-1280x1280.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10160/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-09-17T08:34:18.221Z",
+    "officialDescription": "「ゆめみるまなざし」をコンセプトにしたぬいぐるみシリーズ【ゆめぬい】に、アニメ「ぼっち・ざ・ろっく！」が登場！",
+    "description": "人気アニメ「ぼっち・ざ・ろっく！」のゆめぬいが、カプセルトイに登場します。全5種のラインナップで、価格は1回500円です。発売時期は12月下旬を予定しており、ブシロードクリエイティブからの展開となります。",
+    "thumb": "/thumb/gacha-15ab520c.webp"
+  },
+  {
     "id": "gacha-21881bd7",
     "name": "ひつじのショーン ゆらゆらつながるマスコット",
     "brand": "ひつじのショーン",
@@ -18,7 +71,7 @@
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-09-17T01:04:25.009Z",
     "officialDescription": "カニカンで上下に連結できる「ゆらゆらつながるマスコット」シリーズに、『ひつじのショーン』が仲間入り。ふわふわと空から舞い降りるようなポーズのショーンと仲間たちを集めて、ゆらゆらを楽しもう！　本体サイズは高さ約6cm。ラインナップは「ショーンA」「ティミー」「ビッツァー」「ショーンB」",
-    "description": "羊の姿でおなじみのキャラクターたちが並ぶ「ひつじのショーン ゆらゆらつながるマスコット」は、タカラトミーアーツから登場するカプセルトイです。1回300円で楽しめるガチャガチャとして、9月28日週に発売が予定されています。",
+    "description": "羊のキャラクターとして人気の「ひつじのショーン」が、タカラトミーアーツからカプセルトイに登場します。商品名は「ゆらゆらつながるマスコット」で、1回300円で楽しめます。発売時期は9月28日週を予定しており、ガチャガチャ専門店や設置店舗での取り扱いが見込まれます。",
     "thumb": "/thumb/gacha-21881bd7.webp"
   },
   {
@@ -24479,236 +24532,5 @@
       "ピンク"
     ],
     "thumb": "/thumb/gacha-2faa7974.webp"
-  },
-  {
-    "id": "fig--2cd5bd2f",
-    "name": "肩ズンFig. 文豪ストレイドッグス",
-    "brand": "文豪ストレイドッグス",
-    "brandSlug": "bungosd",
-    "price": 400,
-    "types": 4,
-    "releaseWeek": "発売中",
-    "color": "#99aae5",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y093166_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y093166_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y093166",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-06-17T08:33:16.879Z",
-    "description": "人気作品「文豪ストレイドッグス」のキャラクターが肩に寄りかかる姿を立体化した「肩ズンFig.」シリーズのカプセルトイです。タカラトミーアーツが手がけ、全4種で展開されており、1回400円で楽しめます。すでに発売中となっているため、ガチャガチャの店頭やオンラインで見つけやすくなっています。",
-    "officialDescription": "隣の人の肩に頭を\"ズン\"ともたれる姿の「肩ズンFig.」シリーズに、アニメ『文豪ストレイドッグス』が初登場。どのキャラクターも特徴あるポーズでモデル化されており、全種類並べて飾りたくなります。本体サイズは高さ約5cm。ラインナップは「中島 敦」「太宰 治」「芥川 龍之介」「中原 中也」の全4種。",
-    "lineup": [
-      "中島 敦",
-      "太宰 治",
-      "芥川 龍之介",
-      "中原 中也"
-    ],
-    "thumb": "/thumb/fig--2cd5bd2f.webp"
-  },
-  {
-    "id": "peanuts--75c69200",
-    "name": "PEANUTS リラクシングバスタイム",
-    "brand": "スヌーピー",
-    "brandSlug": "snoopy",
-    "price": 400,
-    "types": 4,
-    "releaseWeek": "発売中",
-    "color": "#e5b699",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903342_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903342_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903342",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-06-17T08:33:16.879Z",
-    "description": "世界中で親しまれる漫画「PEANUTS」のスヌーピーをモチーフにしたカプセルトイ「PEANUTS リラクシングバスタイム」がタカラトミーアーツより発売中です。全4種のラインナップで、1回400円で楽しめます。ガチャガチャの専門店や商業施設の設置機で見つけることができます。",
-    "officialDescription": "『PEANUTS』の仲間たちのバスタイムシーンを表現したフィギュアです。泡はツヤツヤのパール塗装で、リアルな質感を演出。たくさん集めて、お風呂場に飾りたくなること間違いなしです。本体サイズは約4〜4.7cm。ラインナップは「ほかほか」「スポンジ」「ぬくぬく」「あわあわ」の全4種。",
-    "size": "約4〜4.7cm",
-    "lineup": [
-      "ほかほか",
-      "スポンジ",
-      "ぬくぬく",
-      "あわあわ"
-    ],
-    "thumb": "/thumb/peanuts--75c69200.webp"
-  },
-  {
-    "id": "gacha-7b33cc98",
-    "name": "むぎゅっと!ディズニープリンセス",
-    "brand": "ディズニー",
-    "brandSlug": "disney",
-    "price": 400,
-    "types": 3,
-    "releaseWeek": "発売中",
-    "color": "#CE93D8",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903717_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903717_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903717",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-06-17T08:33:16.879Z",
-    "description": "タカラトミーアーツから、ディズニーの人気キャラクターたちをモチーフにしたカプセルトイ「むぎゅっと!ディズニープリンセス」が登場しています。ディズニーは長年愛される作品群で知られるブランドで、その世界観をベースにした商品です。価格は1回400円で、全3種のラインナップとなっています。すでに発売中ですので、店頭のガチャガチャ機で手に入ります。",
-    "officialDescription": "大好きなものを抱きしめている「むぎゅっと!」シリーズに、ディズニープリンセスが仲間入り。「ジャスミン」のゴールド塗装、「ベル」のドレスのプリーツ、「アリエル」が抱くフランダーの表情など、細部にまでこだわって造形されています。本体サイズは高さ約4.6cm。ラインナップは「アリエル」「ジャスミン」「ベル」の全3種。",
-    "lineup": [
-      "アリエル",
-      "ジャスミン",
-      "ベル"
-    ],
-    "thumb": "/thumb/gacha-7b33cc98.webp"
-  },
-  {
-    "id": "gacha-1c56e18c",
-    "name": "くまのプーさん コスチュームフィギュアマスコット",
-    "brand": "ディズニー",
-    "brandSlug": "disney",
-    "price": 400,
-    "types": 6,
-    "releaseWeek": "発売中",
-    "color": "#CE93D8",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906961_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906961_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906961",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-06-17T08:33:16.879Z",
-    "description": "世界的な人気を誇るディズニーのくまのプーさんをモチーフにしたカプセルトイが、タカラトミーアーツから登場しています。商品名は「くまのプーさん コスチュームフィギュアマスコット」で、全6種のラインナップとなっています。価格は1回400円で、現在発売中です。",
-    "officialDescription": "いろいろなコスチュームを着た『くまのプーさん』のフィギュアマスコット。ころんとした手のひらサイズの大きさで、それぞれの衣装にあった表情にも注目です。金色のボールチェーン付きで、いろいろな物につけて楽しめます。本体サイズは約5.6cm。ラインナップは「プー（レインコート）」「プー（パイロットハット）」「プー（パジャマ）」「プー（王様）」「プー（花束）」「プー（リボン）」の全6種。",
-    "size": "約5.6cm",
-    "lineup": [
-      "プー（レインコート）",
-      "プー（パイロットハット）",
-      "プー（パジャマ）",
-      "プー（王様）",
-      "プー（花束）",
-      "プー（リボン）"
-    ],
-    "thumb": "/thumb/gacha-1c56e18c.webp"
-  },
-  {
-    "id": "gacha-0eca58c2",
-    "name": "ディズニーキャラクター テトラポーチコレクション",
-    "brand": "ディズニー",
-    "brandSlug": "disney",
-    "price": 400,
-    "types": 4,
-    "releaseWeek": "発売中",
-    "color": "#CE93D8",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902079_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902079_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902079",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-06-17T08:33:16.880Z",
-    "description": "世界中で親しまれるディズニーのキャラクターたちをモチーフにしたカプセルトイ「テトラポーチコレクション」が登場しました。価格は1回400円で、全4種のラインナップとなっています。タカラトミーアーツから発売中で、店頭のガチャガチャ機で購入できます。",
-    "officialDescription": "ディズニーキャラクターたちがデザインされた、中が透けて見える三角形のビニールポーチです。アクセサリーや小物、お菓子入れなどにもおすすめです。お持ちのストラップなどと一緒につけられるワイヤーリング仕様で、\"じゃらじゃら付け\"もできます。本体サイズは約W6&times;H6&times;D6cm。ラインナップは「プー」「ベイマックス」「ディズニー スティッチ」「ジーニー」の全4種。",
-    "lineup": [
-      "プー",
-      "ベイマックス",
-      "ディズニー スティッチ",
-      "ジーニー"
-    ],
-    "thumb": "/thumb/gacha-0eca58c2.webp"
-  },
-  {
-    "id": "-fig-44c4d9e0",
-    "name": "ベイマックス もぐもぐ!?Fig.",
-    "brand": "ディズニー",
-    "brandSlug": "disney",
-    "price": 400,
-    "types": 4,
-    "releaseWeek": "発売中",
-    "color": "#CE93D8",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y902901_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y902901_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y902901",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-06-17T08:33:16.880Z",
-    "description": "多くの人に親しまれているディズニー作品のキャラクターをモチーフにしたカプセルトイ「ベイマックス もぐもぐ!?Fig.」がタカラトミーアーツより登場しています。全4種のラインナップで、価格は1回400円です。すでに発売中となっており、店頭のガチャガチャコーナーで見つけることができます。",
-    "officialDescription": "食べ物を\"もぐもぐ!?\"している「ベイマックス」のフィギュアです。猫の「モチ」ではなく\"お餅\"をなでて、手がポカポカになっている姿に注目です。立っている「ベイマックス」には台座が付属。本体サイズは約4.2〜5.1cm。ラインナップは「せんべい/ベイマックス」「もち/ベイマックス」「さくらもち/ベイマックス」「寿司/ベイマックス」の全4種。",
-    "size": "約4.2〜5.1cm",
-    "lineup": [
-      "せんべい/ベイマックス",
-      "もち/ベイマックス",
-      "さくらもち/ベイマックス",
-      "寿司/ベイマックス"
-    ],
-    "thumb": "/thumb/-fig-44c4d9e0.webp"
-  },
-  {
-    "id": "-cutie-little-animals-50d3b058",
-    "name": "ディズニーキャラクター ファッションリング Cutie Little Animals",
-    "brand": "ディズニー",
-    "brandSlug": "disney",
-    "price": 300,
-    "types": 6,
-    "releaseWeek": "発売中",
-    "color": "#CE93D8",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903632_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903632_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903632",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-06-17T08:33:16.880Z",
-    "description": "ミッキーやミニーをはじめとするディズニーキャラクターをモチーフにしたファッションリングが、カプセルトイのラインナップに登場しています。タカラトミーアーツから発売中の「ディズニーキャラクター ファッションリング Cutie Little Animals」は、全6種で1回300円で楽しめる商品です。すでに発売が始まっており、店頭のガチャガチャ機で購入できます。",
-    "officialDescription": "小さくてかわいいディズニーのアニマルキャラクターをモチーフにした、おしゃれなファッションリングです。ころんとしたボリュームのあるサイズ感で、指に着けても置いて飾っても存在感たっぷりです。本体サイズは約3cm。ラインナップは「チップ」「デール」「クラリス」「ディズニー マリー」「チェシャ猫」「ミス・バニー」の全6種。",
-    "size": "約3cm",
-    "lineup": [
-      "チップ",
-      "デール",
-      "クラリス",
-      "ディズニー マリー",
-      "チェシャ猫",
-      "ミス・バニー"
-    ],
-    "thumb": "/thumb/-cutie-little-animals-50d3b058.webp"
-  },
-  {
-    "id": "aip-vol6-219d1b8c",
-    "name": "AIP ムーミン Vol.6",
-    "brand": "ムーミン",
-    "brandSlug": "moomin",
-    "price": 500,
-    "types": 4,
-    "releaseWeek": "発売中",
-    "color": "#b899e5",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/06/AIP_Moomin6_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/06/AIP_Moomin6_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/aip_moomin6/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-06-17T08:33:16.880Z",
-    "description": "キタンクラブより、ムーミンをテーマにしたカプセルトイ「AIP ムーミン Vol.6」が展開されています。世界中で愛される北欧発の物語を題材にしたシリーズで、価格は1回500円、全4種のラインナップとなっています。現在発売中で、店舗のガチャガチャ機で購入することができます。",
-    "officialDescription": "キタンクラブが展開する「ART IN THE POCKET ムーミン」シリーズに、第 6 弾が登場します︕ “ポケットに入るアート”をテーマに展開する本シリーズ、今回もムーミン谷の仲間たちを高品質なフィギュアでお届けします。 なかでも注目なのは今回初立体化となる「じゃこうねずみ」です。小説「ムーミン谷の彗星」の挿絵で使用されている印象的な姿を元に制作しました。手に持ったケーキやスプーン、毛並みなど細かい部分までしっかりと作り込みつつ、水部分にはクリアパーツを使用するなど小さいながらも非常に見どころの多いフィギュアになっています。 他にも帽子の装飾まで細かく再現した人気キャラクターの「スナフキン」、全身の毛を丁寧に制作した「スティンキー」、さらに「フィリフヨンカ」は、Vol.5の「フィリフヨンカのこどもたち」と親子で並べることでムーミン谷の世界観がさらに広がります。 広く知られるメインキャラクターから立体化の機会が少ないキャラクターまで、シリーズを通して収集していただくことであなたのお部屋にも小さなムーミン谷が広がります。 ラインナップは「 スナフキン 、フィリフヨンカ 、スティンキー 、じゃこうねずみ 」の全4種。",
-    "lineup": [
-      "スナフキン",
-      "フィリフヨンカ",
-      "スティンキー",
-      "じゃこうねずみ"
-    ],
-    "thumb": "/thumb/aip-vol6-219d1b8c.webp"
   }
 ]
