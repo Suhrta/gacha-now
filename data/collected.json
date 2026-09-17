@@ -5400,30 +5400,6 @@
     "types": 6
   },
   {
-    "title": "グレムリン もぐもぐかくれんぼ",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184832000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年9月 第3週",
-    "brand": "グレムリン",
-    "types": 4
-  },
-  {
     "title": "お文具といっしょ めじるしアクセサリーなのです",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184917000",
     "source": "バンダイ公式",
@@ -5877,7 +5853,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ドズル社",
-    "types": null
+    "types": 5
   },
   {
     "title": "HELLO KITTY パッケージミニチュアコレクション2",
@@ -7798,6 +7774,30 @@
     "releaseWeek": "2026年10月 第1週",
     "brand": "たまごっち",
     "types": 5
+  },
+  {
+    "title": "グレムリン もぐもぐかくれんぼ",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184832000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 第1週",
+    "brand": "グレムリン",
+    "types": 4
   },
   {
     "title": "キン肉マン ドットフィギュアチャーム2",

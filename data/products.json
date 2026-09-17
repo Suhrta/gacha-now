@@ -1,5 +1,33 @@
 [
   {
+    "id": "gacha-726e5946",
+    "name": "おめかしねこちゃんぬいぐるみ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/03/omekashineko_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/03/omekashineko_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/omekashi_nekochan/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-09-17T13:10:18.912Z",
+    "officialDescription": "お手入れして愛を育む、ふわふわでかわいいねこちゃんのぬいぐるみが登場しました。毛足の長いファーを使用した、思わずなでたくなるような柔らかい触り心地が魅力。つぶらな瞳とおひげ、長いしっぽがチャームポイントのねこちゃんです。 付属のコームで毛並みを整えてブラッシングしたり、おひげを整えたり、手持ちのリボンを結んでおめかししたりと、お世話をするほど愛着がわいていきます。思わず毎日かまってあげたくなるかわいさ♡あなただけのかわいいパートナーとしてお迎えしてみませんか？ ラインナップは「 ホワイト 、ブラック 、グレー 、ピンク 」の全4種。",
+    "size": "約10cm",
+    "lineup": [
+      "ホワイト",
+      "ブラック",
+      "グレー",
+      "ピンク"
+    ],
+    "thumb": "/thumb/gacha-726e5946.webp"
+  },
+  {
     "id": "gacha-1f268310",
     "name": "マジカルステッキねこじゃらし４",
     "brand": "その他",
@@ -104,7 +132,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-09-17T08:34:18.221Z",
     "officialDescription": "「ゆめみるまなざし」をコンセプトにしたぬいぐるみシリーズ【ゆめぬい】に、アニメ「ぼっち・ざ・ろっく！」が登場！",
-    "description": "バンド活動を描く人気アニメ「ぼっち・ざ・ろっく！」より、ゆめぬいがカプセルトイに登場します。全5種のラインナップで、価格は1回500円です。発売時期は12月下旬を予定しており、ブシロードクリエイティブより展開されます。",
+    "description": "バンド活動を描いた人気アニメ「ぼっち・ざ・ろっく！」のゆめぬいが、カプセルトイに登場します。ブシロードクリエイティブより発売される本商品は全5種で、1回500円で楽しめます。発売時期は12月下旬を予定しています。",
     "thumb": "/thumb/gacha-15ab520c.webp"
   },
   {
@@ -3964,7 +3992,7 @@
     "brandSlug": "gremlins",
     "price": 400,
     "types": 4,
-    "releaseWeek": "発売中",
+    "releaseWeek": "10月 第1週",
     "color": "#e599d2",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256850_1.jpg",
