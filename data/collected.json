@@ -5133,7 +5133,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "モンチッチ",
-    "types": null
+    "types": 6
   },
   {
     "title": "ウルトラマン MINI ULTRA ART(ミニウルトラアート) めじるしアクセサリー",
@@ -5781,7 +5781,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第3週",
     "brand": "転スラ",
-    "types": null
+    "types": 4
   },
   {
     "title": "たまごっち ケーキチャームコレクション",
@@ -8061,7 +8061,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第1週",
     "brand": "HUNTER×HUNTER",
-    "types": null
+    "types": 4
   },
   {
     "title": "ポケットモンスター つまんでつなげてマスコット16",
