@@ -2613,7 +2613,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第5週",
     "brand": "CRAZY RACCOON",
-    "types": 12
+    "types": null
   },
   {
     "title": "CRAZY RACCOON つまんでつなげてますこっと2",
@@ -8718,6 +8718,19 @@
     "types": 5
   },
   {
+    "title": "パンダの穴 マッチョ棒",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905841",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905841_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905841_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月 24日週",
+    "brand": "パンダの穴",
+    "types": 5
+  },
+  {
     "title": "ポムポムヒーロー",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905995",
     "source": "タカラトミーアーツ公式",
@@ -8742,6 +8755,19 @@
     "releaseWeek": "2026年9月 24日週",
     "brand": "その他",
     "types": 6
+  },
+  {
+    "title": "パンダの穴　マウンテンタートルズ2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906954",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906954_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906954_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月 24日週",
+    "brand": "パンダの穴",
+    "types": 4
   },
   {
     "title": "トミカキーホルダー8",
