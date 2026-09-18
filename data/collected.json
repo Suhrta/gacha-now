@@ -813,7 +813,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 4
   },
   {
     "title": "パワプロくん ゆれるんです。～セントラル・リーグ～",
@@ -4077,7 +4077,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "サンリオ",
-    "types": null
+    "types": 6
   },
   {
     "title": "クレヨンしんちゃん ペンライトステッキ",
@@ -8277,7 +8277,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第1週",
     "brand": "アイカツ",
-    "types": null
+    "types": 5
   },
   {
     "title": "きらちゅるした めじるしリンクチャーム ちっちゃなおばけさん",
