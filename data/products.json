@@ -1,5 +1,38 @@
 [
   {
+    "id": "twice-lovelys--1c81247a",
+    "name": "TWICE LOVELYS めじるしアクセサリー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 9,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769708145000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-09-18T08:06:18.306Z",
+    "officialDescription": "世界中で人気を集めるAsia No.1最強ガールズグループ『TWICE』からうまれたキャラクター『TWICE LOVELYS』の新商品が登場！レインコート衣装を身にまとったオリジナルデザイン！クリア感がとってもキュートです❤",
+    "ageRating": "15才以上",
+    "thumb": "/thumb/twice-lovelys--1c81247a.webp"
+  },
+  {
     "id": "gacha-288aff77",
     "name": "パンダの穴 マッチョ棒",
     "brand": "パンダの穴",

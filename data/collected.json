@@ -1173,7 +1173,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "宇宙兄弟",
-    "types": 23
+    "types": null
   },
   {
     "title": "にゃんこ大戦争 めじるしアクセサリー",
@@ -4942,6 +4942,30 @@
     "releaseWeek": "2026年9月 第3週",
     "brand": "プリキュア",
     "types": 6
+  },
+  {
+    "title": "TWICE LOVELYS めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769708145000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000236404_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月 第3週",
+    "brand": "その他",
+    "types": 9
   },
   {
     "title": "幽☆遊☆白書 めじるしアクセサリー",
