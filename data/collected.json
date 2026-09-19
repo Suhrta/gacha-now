@@ -525,7 +525,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "よこみぞゆり",
-    "types": null
+    "types": 6
   },
   {
     "title": "HGドラゴンボール06 GOKU EDITION2",
@@ -837,7 +837,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第2週",
     "brand": "パワプロ",
-    "types": null
+    "types": 6
   },
   {
     "title": "パワプロくん ゆれるんです。～パシフィック・リーグ～",
@@ -4653,7 +4653,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第2週",
     "brand": "学園アイドルマスター",
-    "types": null
+    "types": 6
   },
   {
     "title": "ゴジラ くるんとーと2",
@@ -4821,7 +4821,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ディズニー",
-    "types": 5
+    "types": null
   },
   {
     "title": "ケロロ軍曹 めじるしアクセサリー～どうぶつ変身であります～",
