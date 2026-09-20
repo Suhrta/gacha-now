@@ -1845,7 +1845,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "たまごっち",
-    "types": null
+    "types": 6
   },
   {
     "title": "なめこ栽培キット まちぼうけ",
@@ -7389,7 +7389,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第4週",
     "brand": "Kep1er",
-    "types": 7
+    "types": null
   },
   {
     "title": "【フラットガシャポン】ガンダムシリーズ マウスシートコレクション",
@@ -12366,6 +12366,19 @@
     "price": 500,
     "releaseWeek": "2022年12月 上旬",
     "brand": "カービィ",
+    "types": 5
+  },
+  {
+    "title": "サングラスをかけたモルモット",
+    "url": "https://kitan.jp/products/sunglasses_guineapig/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2025/01/sunglassesguineapig_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2025/01/sunglassesguineapig_DP.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2025年1月 下旬",
+    "brand": "その他",
     "types": 5
   },
   {
