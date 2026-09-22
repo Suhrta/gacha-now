@@ -5013,7 +5013,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "どうぶつの森",
-    "types": 9
+    "types": null
   },
   {
     "title": "スーパーダンガンロンパ2 まちぼうけ",
@@ -5061,7 +5061,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "サンリオ",
-    "types": 5
+    "types": null
   },
   {
     "title": "名探偵コナン めじるしアクセサリー3",
@@ -6045,7 +6045,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "トムとジェリー",
-    "types": 6
+    "types": null
   },
   {
     "title": "モンチッチ ミニチュアパッケージチャーム",
@@ -6309,7 +6309,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第3週",
     "brand": "初音ミク",
-    "types": 8
+    "types": null
   },
   {
     "title": "劇場版『チェンソーマン レゼ篇』 めじるしアクセサリー2",
@@ -13212,5 +13212,18 @@
     "releaseWeek": "2026年12月 下旬",
     "brand": "ぼっち・ざ・ろっく",
     "types": 5
+  },
+  {
+    "title": "カードファイト!! ヴァンガード Divinez　ミニアクリルスタンドマーカー カードイラストver.",
+    "url": "https://capsule.bushiroad-creative.com/product/10179/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/21143942/VGDivinez_genshin_Akst_ari.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/21143942/VGDivinez_genshin_Akst_ari.jpg"
+    ],
+    "price": 550,
+    "releaseWeek": "2026年10月 上旬",
+    "brand": "その他",
+    "types": 7
   }
 ]

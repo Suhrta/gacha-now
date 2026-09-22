@@ -1,5 +1,55 @@
 [
   {
+    "id": "gacha-3a398159",
+    "name": "ひまのかたまり ひま太郎 毛糸であそぼうフィギュア",
+    "brand": "ひまのかたまり ひま太郎",
+    "brandSlug": "himataro",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#99bfe5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/06/dd8c7e1eb96540b7db4d5f4b71186fc3.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/06/dd8c7e1eb96540b7db4d5f4b71186fc3.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/himataro_figure/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-09-22T13:10:40.559Z",
+    "officialDescription": "セーターの毛玉から生まれたふわふわのキャラクター『ひまのかたまり ひま太郎』が、カプセルといっしょに飾れるフィギュアになりました！毛糸玉で元気いっぱいに遊ぶ、愛らしい姿を立体化。モコモコなフォルムや毛糸玉で遊ぶ生き生きとした動きなど、『ひま太郎』たちの魅力をたっぷり詰め込んでいます。 本商品は毛糸玉型のカプセルにフィギュアが入っている仕様。カプセルとフィギュアを組み合わせることで、全長100mmを超える大ボリュームのディスプレイに！さらに店頭でも、まるでたくさんの毛糸玉がそのまま筐体に入っているような、可愛らしいビジュアルをお楽しみいただけます。 毛糸玉カプセルには、毛糸の切れ端をイメージした専用台座が付属。ころころと転がることなく安定して飾ることができます。カプセルは小物入れとして使うこともでき、飾った後も楽しみ方が広がります。 存在感抜群のBIGサイズで楽しめる『ひま太郎』たち。ぜひお気に入りの場所に飾ってお楽しみください！ ラインナップは「 ひま太郎とけいとのはしっこ 、ひま太郎（ひっぱり） 、モップとトントン 、モップ（ひっぱり） 」の全4種。",
+    "size": "約105mm",
+    "lineup": [
+      "ひま太郎とけいとのはしっこ",
+      "ひま太郎（ひっぱり）",
+      "モップとトントン",
+      "モップ（ひっぱり）"
+    ],
+    "description": "キタンクラブより「ひまのかたまり ひま太郎 毛糸であそぼうフィギュア」がカプセルトイとして登場しています。ひまのかたまり ひま太郎をモチーフにした全4種のラインナップで、1回500円で楽しめます。現在発売中です。",
+    "thumb": "/thumb/gacha-3a398159.webp"
+  },
+  {
+    "id": "-divinez-ver-54407f86",
+    "name": "カードファイト!! ヴァンガード Divinez　ミニアクリルスタンドマーカー カードイラストver.",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 550,
+    "types": 7,
+    "releaseWeek": "10月 上旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/21143942/VGDivinez_genshin_Akst_ari.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/21143942/VGDivinez_genshin_Akst_ari.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10179/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-09-22T13:10:40.560Z",
+    "officialDescription": "『カードファイト!! ヴァンガード Divinez』からミニアクリルスタンドマーカー カードイラストver.が登場！ ※モーリーファンタジー・PALO限定カプセルです。",
+    "thumb": "/thumb/-divinez-ver-54407f86.webp"
+  },
+  {
     "id": "gacha-5028863a",
     "name": "ムーミン ぬいぐるみマスコット３",
     "brand": "ムーミン",
