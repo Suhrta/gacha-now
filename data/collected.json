@@ -3621,7 +3621,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第1週",
     "brand": "ムーミン",
-    "types": 10
+    "types": null
   },
   {
     "title": "Richell ミニチュアチャーム",
@@ -3669,7 +3669,7 @@
     "price": 600,
     "releaseWeek": "2026年9月 第1週",
     "brand": "Polly Pocket",
-    "types": null
+    "types": 4
   },
   {
     "title": "富江 アソートコレクション",
@@ -3813,7 +3813,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "角醒ハンター オメガホーン",
-    "types": 5
+    "types": null
   },
   {
     "title": "仮面ライダーマイス GPライダーエグズ01",
@@ -4077,7 +4077,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "サンリオ",
-    "types": 6
+    "types": null
   },
   {
     "title": "クレヨンしんちゃん ペンライトステッキ",
