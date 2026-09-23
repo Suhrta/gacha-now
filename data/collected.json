@@ -5013,7 +5013,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "どうぶつの森",
-    "types": null
+    "types": 9
   },
   {
     "title": "スーパーダンガンロンパ2 まちぼうけ",
@@ -5061,7 +5061,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "名探偵コナン めじるしアクセサリー3",
@@ -5181,7 +5181,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ウルトラマン",
-    "types": 7
+    "types": null
   },
   {
     "title": "るかっぷ ミニチュアコレクション 鬼滅の刃",
@@ -6045,7 +6045,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "トムとジェリー",
-    "types": null
+    "types": 6
   },
   {
     "title": "モンチッチ ミニチュアパッケージチャーム",
@@ -6309,7 +6309,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第3週",
     "brand": "初音ミク",
-    "types": null
+    "types": 8
   },
   {
     "title": "劇場版『チェンソーマン レゼ篇』 めじるしアクセサリー2",
