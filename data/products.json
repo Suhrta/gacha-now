@@ -1,5 +1,174 @@
 [
   {
+    "id": "-hideseek--65061a22",
+    "name": "ファンタスティック・ビースト　ニフラー Hide&Seek かくれんぼフィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 3,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903120_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903120_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903120",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-24T08:16:25.193Z",
+    "officialDescription": "小物などで顔をかくしているタカラトミーアーツオリジナルの「Hide&Seekかくれんぼフィギュア」に、映画『ファンタスティック・ビースト』の魔法生物「ニフラー」が仲間入り。劇中に登場する小物でかくれんぼをする、かわいいポーズに注目です。本体サイズは高さ約4.3cm。ラインナップは「ガリオン硬貨」「血の誓いペンダント」「ダンブルドアのネクタイ」の全3種。",
+    "lineup": [
+      "ガリオン硬貨",
+      "血の誓いペンダント",
+      "ダンブルドアのネクタイ"
+    ],
+    "thumb": "/thumb/-hideseek--65061a22.webp"
+  },
+  {
+    "id": "gacha-34d73cb1",
+    "name": "トムとジェリー なかよくけんかしな　ニコイチマスコット",
+    "brand": "トムとジェリー",
+    "brandSlug": "tomjerry",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e599a4",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904806_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904806_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904806",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-24T08:16:25.193Z",
+    "officialDescription": "透明成形のカラフルなトムとジェリーが、2体セットになった豪華なマスコットです。トムとジェリーの関係性をイメージしたポージングで、持ち物につけやすいキーリングもついています。本体サイズは高さ約4cm。ラインナップは「A」「B」「C」「D」の全4種。",
+    "lineup": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "description": "世界中で人気の猫と鼠のドタバタコメディ「トムとジェリー」のカプセルトイが、タカラトミーアーツより登場しています。商品名は「トムとジェリー なかよくけんかしな　ニコイチマスコット」で、全4種のラインナップです。価格は1回400円で、現在発売中です。",
+    "thumb": "/thumb/gacha-34d73cb1.webp"
+  },
+  {
+    "id": "-85th--3157aa98",
+    "name": "おさるのジョージ 85th ハートフィギュア",
+    "brand": "おさるのジョージ",
+    "brandSlug": "george",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#99afe5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905896_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905896_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905896",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-24T08:16:25.193Z",
+    "officialDescription": "2026年で誕生85周年を迎えた『おさるのジョージ』。こちらのアニバーサリーイヤーをお祝いする、ハートをモチーフにした日本限定の記念アートがフィギュアになりました。ツヤツヤなハートがポイントで、飾るだけでハッピーな気分になれるハズです♪　本体サイズは高さ約4cm。ラインナップは「ふうせん」「帽子」「クッション」「ビッグハート」の全4種。",
+    "lineup": [
+      "ふうせん",
+      "帽子",
+      "クッション",
+      "ビッグハート"
+    ],
+    "description": "絵本やアニメで親しまれている「おさるのジョージ」から、85th ハートフィギュアがカプセルトイに登場しました。タカラトミーアーツより発売中で、全4種のラインナップを1回400円で楽しめます。",
+    "thumb": "/thumb/-85th--3157aa98.webp"
+  },
+  {
+    "id": "gacha-66556360",
+    "name": "ベイマックス ぷくちゃーむ",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "9月 28日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905964_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905964_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905964",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-24T08:16:25.193Z",
+    "officialDescription": "ガチャから新シリーズ「ぷくちゃーむ」が誕生。ぷっくりした『ベイマックス』のツヤっとクリアなフィギュアで、クリア仕様のシリコンバンドも付いた豪華仕様です。バッグやリュックにつけて、いつでも一緒にお出かけできます。本体サイズは約3.2〜4.2cm。ラインナップは「ベイマックスA」「ベイマックスB」「ベイマックスC」「ベイマックスD」の全4種。",
+    "size": "約3.2〜4.2cm",
+    "lineup": [
+      "ベイマックスA",
+      "ベイマックスB",
+      "ベイマックスC",
+      "ベイマックスD"
+    ],
+    "description": "タカラトミーアーツから、ディズニー作品に登場するキャラクターをモチーフにしたカプセルトイ「ベイマックス ぷくちゃーむ」が登場します。ディズニーは世界中で親しまれているアニメーション作品を数多く手がけるブランドとして知られています。価格は1回400円で、全4種のラインナップです。発売は9月28日の週を予定しています。",
+    "thumb": "/thumb/gacha-66556360.webp"
+  },
+  {
+    "id": "hahahafig-2-657ff7e2",
+    "name": "HAHAHA!Fig. ズートピア2",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "9月 28日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907005_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907005_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907005",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-24T08:16:25.193Z",
+    "officialDescription": "今にも\"HAHAHA!\"と笑い声が聞こえてきそうな、笑顔あふれる表情がコンセプトのオリジナリフィギュアシリーズに、ディズニー映画『ズートピア2』が仲間入り。ボリュームあるサイズ感と、個性たっぷりの表情やポーズに注目です。本体サイズは約4〜5cm。ラインナップは「ニック・ワイルド」「ジュディ・ホップス」「ゲイリー」「ニブルズ」の全4種。",
+    "size": "約4〜5cm",
+    "lineup": [
+      "ニック・ワイルド",
+      "ジュディ・ホップス",
+      "ゲイリー",
+      "ニブルズ"
+    ],
+    "description": "ディズニーの人気映像作品をモチーフにしたカプセルトイ「HAHAHA!Fig. ズートピア2」がタカラトミーアーツから登場します。全4種のラインナップで、価格は1回400円です。発売時期は9月28日週を予定しています。",
+    "thumb": "/thumb/hahahafig-2-657ff7e2.webp"
+  },
+  {
+    "id": "gacha-79031507",
+    "name": "ぷにるんず×サンリオキャラクターズ ぷっくりクリアガチャマスコット",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907852_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907852_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907852",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-09-24T08:16:25.193Z",
+    "officialDescription": "「ぷにるんず」と「サンリオキャラクターズ」が、半立体のぷっくりクリアマスコットになりました。シリコンリングとカニカン付きの仕様で、傘やペットボトルなどにつけることも可能です。本体サイズは高さ約2.3cm。ラインナップは「あいるん&times;ハローキティ」「らぶるん&times;マイメロディ」「うるるん&times;シナモロール」「えねるん&times;ポムポムプリン」「くーるん&times;クロミ」の全5種。",
+    "lineup": [
+      "あいるん&times;ハローキティ",
+      "らぶるん&times;マイメロディ",
+      "うるるん&times;シナモロール",
+      "えねるん&times;ポムポムプリン",
+      "くーるん&times;クロミ"
+    ],
+    "description": "タカラトミーアーツから、サンリオキャラクターズとぷにるんずがコラボしたカプセルトイ「ぷにるんず×サンリオキャラクターズ ぷっくりクリアガチャマスコット」が登場しています。サンリオはハローキティなどで知られる人気キャラクターブランドで、全5種のラインナップとなっています。価格は1回300円で、現在発売中です。",
+    "thumb": "/thumb/gacha-79031507.webp"
+  },
+  {
     "id": "gacha-2869fec9",
     "name": "かわいい かわいい ぬいぐるみ サメ",
     "brand": "その他",
@@ -24264,68 +24433,5 @@
     "officialDescription": "台座にのっけてもよし、のっけなくてもよしの新デフォルメフィギュアシリーズ「のっかるんです♪」！台座を外して色々なところのふちにのっけることができます！「のっかるんです♪」シリーズ第1弾として転生したらスライムだった件のキャラクター達が登場！台座の裏面にはリムルの表情が入っております！",
     "ageRating": "15才以上",
     "thumb": "/thumb/gacha-26462579.webp"
-  },
-  {
-    "id": "disney-princess--1b4282d3",
-    "name": "Disney Princess コスチュームめじるしアクセサリー",
-    "brand": "ディズニー",
-    "brandSlug": "disney",
-    "price": 300,
-    "types": 5,
-    "releaseWeek": "発売中",
-    "color": "#CE93D8",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250082_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118205483000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-06-24T07:33:24.348Z",
-    "description": "世界的に人気を集めるディズニーの世界観をラバー製のチャームで楽しめるカプセルトイが「Disney Princess コスチュームめじるしアクセサリー」です。バッグやポーチの持ち手に付けて自分の目印にできるめじるしアクセサリーシリーズの一つで、全5種のラインナップとなっています。1回300円で発売中です。",
-    "officialDescription": "ディズニープリンセスのコスチュームがめじるしアクセサリーになって登場！",
-    "ageRating": "15才以上",
-    "thumb": "/thumb/disney-princess--1b4282d3.webp"
-  },
-  {
-    "id": "gacha-207b5e25",
-    "name": "えんぴつけずり森の家® ミニチュアマスコット",
-    "brand": "えんぴつけずり森の家",
-    "brandSlug": "enpitsukezuri",
-    "price": 500,
-    "types": 5,
-    "releaseWeek": "発売中",
-    "color": "#e599b8",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/06/morinoie_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/06/morinoie_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/morinoie_enpitsu/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-06-24T07:33:24.350Z",
-    "description": "キタンクラブが手がけるカプセルトイ「えんぴつけずり森の家 ミニチュアマスコット」が発売中です。ガチャガチャの価格は1回500円で、全5種の展開となっています。えんぴつけずり森の家の世界observedをかたどったミニチュアマスコットとして、カプセルトイ店頭で入手できます。",
-    "officialDescription": "昭和から平成にかけて、多くの子どもたちに親しまれたレトロでかわいい「えんぴつけずり 森の家®」が、手のひらサイズのカプセルトイになって登場します！ コンパクトなサイズながら、本物と同じように手動で鉛筆を削ることができる本格仕様。削りかすは窓の引き出しにたまる仕組みで、細かな部分までできる限り本物に近づけて再現しました。 さらに、ハンドルは遊びとして回せる仕様になっており、飾るだけではない楽しさも魅力。レッド、ブルー、イエロー、ピンク、ライトブルーの豊富なカラーバリエーションも見どころです。 そのまま飾るだけでも可愛らしく、お手持ちのフィギュアと組み合わせたり、ミニチュアやジオラマの小物として楽しんだりと、さまざまなシーンで活躍します！ レトロな雰囲気をそのまま詰め込んだ、遊び心あふれるミニチュアえんぴつけずりをぜひお楽しみください。 ラインナップは「 レッド 、ブルー 、イエロー 、ピンク 、ライトブルー 」の全5種。",
-    "lineup": [
-      "レッド",
-      "ブルー",
-      "イエロー",
-      "ピンク",
-      "ライトブルー"
-    ],
-    "thumb": "/thumb/gacha-207b5e25.webp"
   }
 ]

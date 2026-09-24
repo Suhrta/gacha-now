@@ -7677,7 +7677,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第5週",
     "brand": "仮面ライダー",
-    "types": null
+    "types": 10
   },
   {
     "title": "Capsuleトルソー アイカツ！ 2",
@@ -8521,6 +8521,19 @@
     "types": 4
   },
   {
+    "title": "ファンタスティック・ビースト　ニフラー Hide&Seek かくれんぼフィギュア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903120",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903120_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903120_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 14日週",
+    "brand": "その他",
+    "types": 3
+  },
+  {
     "title": "サンリオキャラクターズ 和んこフィギュア",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904288",
     "source": "タカラトミーアーツ公式",
@@ -8729,6 +8742,19 @@
     "types": 6
   },
   {
+    "title": "トムとジェリー なかよくけんかしな　ニコイチマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904806",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904806_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904806_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 24日週",
+    "brand": "トムとジェリー",
+    "types": 4
+  },
+  {
     "title": "『真・女神転生』シリーズ 悪魔いっぱいコレクション",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905377",
     "source": "タカラトミーアーツ公式",
@@ -8753,6 +8779,19 @@
     "releaseWeek": "2026年9月 24日週",
     "brand": "パンダの穴",
     "types": 5
+  },
+  {
+    "title": "おさるのジョージ 85th ハートフィギュア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905896",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905896_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905896_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 24日週",
+    "brand": "おさるのジョージ",
+    "types": 4
   },
   {
     "title": "ポムポムヒーロー",
@@ -8922,6 +8961,45 @@
     "releaseWeek": "2026年9月 28日週",
     "brand": "サンリオ",
     "types": 4
+  },
+  {
+    "title": "ベイマックス ぷくちゃーむ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905964",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905964_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905964_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 28日週",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
+    "title": "HAHAHA!Fig. ズートピア2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907005",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907005_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907005_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年9月 28日週",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
+    "title": "ぷにるんず×サンリオキャラクターズ ぷっくりクリアガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907852",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907852_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907852_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年9月",
+    "brand": "サンリオ",
+    "types": 5
   },
   {
     "title": "マジカルステッキねこじゃらし４",
