@@ -1,5 +1,34 @@
 [
   {
+    "id": "gacha-207b5e25",
+    "name": "えんぴつけずり森の家® ミニチュアマスコット",
+    "brand": "えんぴつけずり森の家",
+    "brandSlug": "enpitsukezuri",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e599b8",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/06/morinoie_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/06/morinoie_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/morinoie_enpitsu/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-09-24T09:08:39.487Z",
+    "officialDescription": "昭和から平成にかけて、多くの子どもたちに親しまれたレトロでかわいい「えんぴつけずり 森の家®」が、手のひらサイズのカプセルトイになって登場します！ コンパクトなサイズながら、本物と同じように手動で鉛筆を削ることができる本格仕様。削りかすは窓の引き出しにたまる仕組みで、細かな部分までできる限り本物に近づけて再現しました。 さらに、ハンドルは遊びとして回せる仕様になっており、飾るだけではない楽しさも魅力。レッド、ブルー、イエロー、ピンク、ライトブルーの豊富なカラーバリエーションも見どころです。 そのまま飾るだけでも可愛らしく、お手持ちのフィギュアと組み合わせたり、ミニチュアやジオラマの小物として楽しんだりと、さまざまなシーンで活躍します！ レトロな雰囲気をそのまま詰め込んだ、遊び心あふれるミニチュアえんぴつけずりをぜひお楽しみください。 ラインナップは「 レッド 、ブルー 、イエロー 、ピンク 、ライトブルー 」の全5種。",
+    "lineup": [
+      "レッド",
+      "ブルー",
+      "イエロー",
+      "ピンク",
+      "ライトブルー"
+    ],
+    "description": "キタンクラブが手がけるカプセルトイ「えんぴつけずり森の家 ミニチュアマスコット」は全5種展開で、1回500円で楽しめます。すでに発売が始まっているので、ガチャガチャの取扱店舗で見つけたら手に入れやすい商品です。",
+    "thumb": "/thumb/gacha-207b5e25.webp"
+  },
+  {
     "id": "-hideseek--65061a22",
     "name": "ファンタスティック・ビースト　ニフラー Hide&Seek かくれんぼフィギュア",
     "brand": "その他",
@@ -78,7 +107,7 @@
       "クッション",
       "ビッグハート"
     ],
-    "description": "絵本やアニメで親しまれている「おさるのジョージ」から、85th ハートフィギュアがカプセルトイに登場しました。タカラトミーアーツより発売中で、全4種のラインナップを1回400円で楽しめます。",
+    "description": "世界的な人気を誇る絵本・アニメ「おさるのジョージ」をモチーフにしたカプセルトイ、「おさるのジョージ 85th ハートフィギュア」がタカラトミーアーツより登場しています。価格は1回400円で、全4種の展開です。現在発売中で、ガチャガチャ店舗などで購入できます。",
     "thumb": "/thumb/-85th--3157aa98.webp"
   },
   {
@@ -136,7 +165,7 @@
       "ゲイリー",
       "ニブルズ"
     ],
-    "description": "ディズニーの人気映像作品をモチーフにしたカプセルトイ「HAHAHA!Fig. ズートピア2」がタカラトミーアーツから登場します。全4種のラインナップで、価格は1回400円です。発売時期は9月28日週を予定しています。",
+    "description": "世界中で親しまれるディズニー作品を題材にしたカプセルトイ「HAHAHA!Fig. ズートピア2」がタカラトミーアーツより登場します。1回400円で、全4種の中からどれが出るかが決まる仕組みです。発売時期は9月28日週を予定しています。",
     "thumb": "/thumb/hahahafig-2-657ff7e2.webp"
   },
   {
@@ -15582,12 +15611,12 @@
     "brandSlug": "aespa",
     "price": 500,
     "types": 4,
-    "releaseWeek": "9月 第5週",
+    "releaseWeek": "発売中",
     "color": "#99d6e5",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255406_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255406_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255406_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255406_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255406_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255406_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255406_4.jpg",
