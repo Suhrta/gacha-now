@@ -3621,7 +3621,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第1週",
     "brand": "ムーミン",
-    "types": null
+    "types": 10
   },
   {
     "title": "Richell ミニチュアチャーム",
@@ -3813,7 +3813,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "角醒ハンター オメガホーン",
-    "types": null
+    "types": 5
   },
   {
     "title": "仮面ライダーマイス GPライダーエグズ01",
@@ -4077,7 +4077,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "サンリオ",
-    "types": null
+    "types": 6
   },
   {
     "title": "クレヨンしんちゃん ペンライトステッキ",
