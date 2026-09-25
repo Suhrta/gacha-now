@@ -1,5 +1,60 @@
 [
   {
+    "id": "wiggle-wiggle--422bc014",
+    "name": "wiggle wiggle カラフルマルチチャーム",
+    "brand": "wiggle wiggle",
+    "brandSlug": "wigglewiggle",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "発売中",
+    "color": "#e599a3",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770053777000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-09-25T08:42:49.164Z",
+    "officialDescription": "韓国発の大人気ライフスタイルブランド「wiggle wiggle」のガシャポン商品第2弾が登場！",
+    "ageRating": "15才以上",
+    "description": "バンダイより展開されているガチャガチャ「wiggle wiggle カラフルマルチチャーム」は、全6種のラインナップで登場するカプセルトイです。1回400円で楽しめ、現在発売中となっています。",
+    "thumb": "/thumb/wiggle-wiggle--422bc014.webp"
+  },
+  {
+    "id": "-reload-vol1-2ab3bbbc",
+    "name": "ダンガンロンパ１・２ Reload　カプセルラバーキーホルダー vol.1",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "1月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/25154402/dangan12Re_rubberkey_vol1_POP_re.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/25154402/dangan12Re_rubberkey_vol1_POP_re.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10175/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-09-25T08:42:49.167Z",
+    "officialDescription": "「ダンガンロンパ１・２ Reload」 より、カプセルラバーキーホルダーが登場！",
+    "thumb": "/thumb/-reload-vol1-2ab3bbbc.webp"
+  },
+  {
     "id": "gacha-207b5e25",
     "name": "えんぴつけずり森の家® ミニチュアマスコット",
     "brand": "えんぴつけずり森の家",
@@ -25,7 +80,7 @@
       "ピンク",
       "ライトブルー"
     ],
-    "description": "キタンクラブから展開されているカプセルトイ「えんぴつけずり森の家 ミニチュアマスコット」は、全5種のラインナップで1回500円で楽しめます。現在発売中で、ガチャガチャとして店頭で購入することができます。",
+    "description": "キタンクラブから展開されているカプセルトイ「えんぴつけずり森の家 ミニチュアマスコット」は、現在発売中で全5種がラインナップされています。1回500円で購入でき、ガチャガチャ専門店や量販店の設置機で見つけることができます。",
     "thumb": "/thumb/gacha-207b5e25.webp"
   },
   {
@@ -6653,7 +6708,7 @@
     "brandSlug": "lilalamode",
     "price": 400,
     "types": 5,
-    "releaseWeek": "発売中",
+    "releaseWeek": "10月 第1週",
     "color": "#de99e5",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_1.jpg",
@@ -24428,39 +24483,5 @@
     "officialDescription": "ぷっくり膨らむ空気ビニール製のキャラクターがついた、クリアバッグが新登場！夏場のお出かけで使うサブバッグにぴったり☆",
     "ageRating": "15才以上",
     "thumb": "/thumb/gacha-0705ce1e.webp"
-  },
-  {
-    "id": "gacha-26462579",
-    "name": "転生したらスライムだった件 のっかるんです♪フィギュア",
-    "brand": "転スラ",
-    "brandSlug": "tensura",
-    "price": 500,
-    "types": 4,
-    "releaseWeek": "発売中",
-    "color": "#4FC3F7",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253552_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769981821000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-06-25T06:52:58.260Z",
-    "description": "大人気アニメ「転スラ」こと転生したらスライムだった件のカプセルトイとして、バンダイから「のっかるんです♪フィギュア」が登場しています。全4種のラインナップで、1回500円で楽しめるガチャガチャです。すでに発売中のため、ガチャなうをチェックしている方は取り扱い店舗で見つけたらぜひ手を伸ばしてみてください。",
-    "officialDescription": "台座にのっけてもよし、のっけなくてもよしの新デフォルメフィギュアシリーズ「のっかるんです♪」！台座を外して色々なところのふちにのっけることができます！「のっかるんです♪」シリーズ第1弾として転生したらスライムだった件のキャラクター達が登場！台座の裏面にはリムルの表情が入っております！",
-    "ageRating": "15才以上",
-    "thumb": "/thumb/gacha-26462579.webp"
   }
 ]

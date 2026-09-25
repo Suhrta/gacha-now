@@ -1173,7 +1173,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "宇宙兄弟",
-    "types": 23
+    "types": null
   },
   {
     "title": "にゃんこ大戦争 めじるしアクセサリー",
@@ -2373,7 +2373,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第5週",
     "brand": "ジョジョの奇妙な冒険",
-    "types": null
+    "types": 6
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】サンリオキャラクターズ ミニチュアパッケージコレクション",
@@ -4629,7 +4629,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第2週",
     "brand": "宇宙兄弟",
-    "types": null
+    "types": 23
   },
   {
     "title": "学園アイドルマスター リバラバ！",
@@ -4917,7 +4917,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "サンリオ",
-    "types": null
+    "types": 4
   },
   {
     "title": "ぷちきゅあ めじるしアクセサリー2",
@@ -7176,28 +7176,28 @@
     "types": 4
   },
   {
-    "title": "Lil ala mode お星さまライトスイング",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770053883000",
+    "title": "wiggle wiggle カラフルマルチチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770053777000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_1.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_12.jpg"
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256797_12.jpg"
     ],
     "price": 400,
     "releaseWeek": "2026年9月 第4週",
-    "brand": "Lil ala mode",
-    "types": 5
+    "brand": "wiggle wiggle",
+    "types": 6
   },
   {
     "title": "みいつけた！ ミニチュアパッケージチャーム",
@@ -7798,6 +7798,30 @@
     "releaseWeek": "2026年10月 第1週",
     "brand": "グレムリン",
     "types": 4
+  },
+  {
+    "title": "Lil ala mode お星さまライトスイング",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770053883000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256818_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 第1週",
+    "brand": "Lil ala mode",
+    "types": 5
   },
   {
     "title": "キン肉マン ドットフィギュアチャーム2",
@@ -13290,5 +13314,18 @@
     "releaseWeek": "2026年10月 上旬",
     "brand": "その他",
     "types": 7
+  },
+  {
+    "title": "ダンガンロンパ１・２ Reload　カプセルラバーキーホルダー vol.1",
+    "url": "https://capsule.bushiroad-creative.com/product/10175/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/25154402/dangan12Re_rubberkey_vol1_POP_re.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/25154402/dangan12Re_rubberkey_vol1_POP_re.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2027年1月 下旬",
+    "brand": "その他",
+    "types": 6
   }
 ]
