@@ -2685,7 +2685,7 @@
     "price": null,
     "releaseWeek": "2026年8月 第5週",
     "brand": "仮面ライダー",
-    "types": 5
+    "types": null
   },
   {
     "title": "まちぼうけ 牙狼＜GARO＞シリーズの場合",
@@ -5877,7 +5877,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ドズル社",
-    "types": null
+    "types": 5
   },
   {
     "title": "HELLO KITTY パッケージミニチュアコレクション2",
@@ -8253,7 +8253,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "モンチッチ",
-    "types": null
+    "types": 8
   },
   {
     "title": "学園アイドルマスター リバラバ！2",
