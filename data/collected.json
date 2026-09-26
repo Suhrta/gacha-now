@@ -213,7 +213,7 @@
     "price": 200,
     "releaseWeek": "2026年8月 第2週",
     "brand": "カラフルピーチ",
-    "types": 12
+    "types": null
   },
   {
     "title": "パワーパフ ガールズ カラフルマルチチャーム",
@@ -1173,7 +1173,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第2週",
     "brand": "宇宙兄弟",
-    "types": 23
+    "types": null
   },
   {
     "title": "にゃんこ大戦争 めじるしアクセサリー",
@@ -1581,7 +1581,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "ディズニー",
-    "types": 5
+    "types": null
   },
   {
     "title": "カラフルピーチ めじるしアクセサリー2",
@@ -1629,7 +1629,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
     "brand": "ワンピース",
-    "types": 4
+    "types": null
   },
   {
     "title": "魔法少女まどか☆マギカ マスコットコレクション",
@@ -2133,7 +2133,7 @@
     "price": 500,
     "releaseWeek": "2026年8月 第4週",
     "brand": "ホロライブ",
-    "types": null
+    "types": 5
   },
   {
     "title": "【フラットガシャポン】たまごっち ミニおりたたみコンテナ2",
@@ -7389,7 +7389,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第4週",
     "brand": "Kep1er",
-    "types": 7
+    "types": null
   },
   {
     "title": "仮面ライダーシリーズ ビジュアルアートコレクション",
