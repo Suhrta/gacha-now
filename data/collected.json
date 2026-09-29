@@ -285,7 +285,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第2週",
     "brand": "サンリオ",
-    "types": 5
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ シャカシャカテトラチャーム",
@@ -3045,7 +3045,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第5週",
     "brand": "ガンダム",
-    "types": null
+    "types": 15
   },
   {
     "title": "サンリオキャラクターズ みんなでおめかしフィギュア",
@@ -3333,7 +3333,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第5週",
     "brand": "その他",
-    "types": 8
+    "types": null
   },
   {
     "title": "まちぼうけ おもちゃの場合",
@@ -7800,6 +7800,30 @@
     "types": 6
   },
   {
+    "title": "SKZOO ぷくっとバースデークリアリング ～PuppyM＆Wolf Chan＆Leebit～",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184276000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年10月 第2週",
+    "brand": "SKZOO",
+    "types": 12
+  },
+  {
     "title": "サンリオキャラクターズ モノトーンマスコット",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770054712000",
     "source": "バンダイ公式",
@@ -8086,30 +8110,6 @@
     "releaseWeek": "2026年10月 第4週",
     "brand": "プリキュア",
     "types": 5
-  },
-  {
-    "title": "SKZOO ぷくっとバースデークリアリング ～PuppyM＆Wolf Chan＆Leebit～",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184276000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000250257_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年10月 第4週",
-    "brand": "SKZOO",
-    "types": 12
   },
   {
     "title": "RIIZE ぷくっとリング",
