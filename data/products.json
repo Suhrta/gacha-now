@@ -240,7 +240,7 @@
       "ピンク",
       "ライトブルー"
     ],
-    "description": "キタンクラブから展開されているカプセルトイ「えんぴつけずり森の家 ミニチュアマスコット」が発売中です。1回500円で全5種がラインナップされています。ガチャガチャとして各所の販売機で入手できます。",
+    "description": "キタンクラブから展開されているカプセルトイ「えんぴつけずり森の家 ミニチュアマスコット」は、全5種のラインナップで登場しています。1回500円で楽しめるガチャガチャとして、現在発売中です。",
     "thumb": "/thumb/gacha-207b5e25.webp"
   },
   {
@@ -7208,7 +7208,7 @@
     "brandSlug": "other",
     "price": 500,
     "types": 5,
-    "releaseWeek": "発売中",
+    "releaseWeek": "10月 第1週",
     "color": "#e5b499",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_1.jpg",
@@ -8657,7 +8657,7 @@
     "brandSlug": "aikatsu",
     "price": 500,
     "types": 3,
-    "releaseWeek": "発売中",
+    "releaseWeek": "10月 第1週",
     "color": "#99d2e5",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_1.jpg",

@@ -3045,7 +3045,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第5週",
     "brand": "ガンダム",
-    "types": 15
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ みんなでおめかしフィギュア",
@@ -7536,30 +7536,6 @@
     "types": 6
   },
   {
-    "title": "パチスロ魂 サウンドコレクション",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935893000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年9月 第5週",
-    "brand": "その他",
-    "types": 5
-  },
-  {
     "title": "TVアニメ『逃げ上手の若君』 まちぼうけ",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769979477000",
     "source": "バンダイ公式",
@@ -7656,30 +7632,6 @@
     "types": 10
   },
   {
-    "title": "Capsuleトルソー アイカツ！ 2",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995682000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年9月 第5週",
-    "brand": "アイカツ",
-    "types": 3
-  },
-  {
     "title": "mofusand めじるしアクセサリー2",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118245601000",
     "source": "バンダイ公式",
@@ -7750,6 +7702,54 @@
     "releaseWeek": "2026年10月 第1週",
     "brand": "グレムリン",
     "types": 4
+  },
+  {
+    "title": "パチスロ魂 サウンドコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769935893000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256879_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年10月 第1週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "Capsuleトルソー アイカツ！ 2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995682000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256878_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年10月 第1週",
+    "brand": "アイカツ",
+    "types": 3
   },
   {
     "title": "Lil ala mode お星さまライトスイング",
