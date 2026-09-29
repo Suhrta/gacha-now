@@ -285,7 +285,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第2週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "サンリオキャラクターズ シャカシャカテトラチャーム",
@@ -1845,7 +1845,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "たまごっち",
-    "types": 6
+    "types": null
   },
   {
     "title": "なめこ栽培キット まちぼうけ",
@@ -3333,7 +3333,7 @@
     "price": 400,
     "releaseWeek": "2026年8月 第5週",
     "brand": "その他",
-    "types": null
+    "types": 8
   },
   {
     "title": "まちぼうけ おもちゃの場合",
@@ -8325,7 +8325,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "モンチッチ Twinkle ゴム",

@@ -1,5 +1,39 @@
 [
   {
+    "id": "gacha-6d8f63be",
+    "name": "なめこ栽培キット まちぼうけ",
+    "brand": "まちぼうけ",
+    "brandSlug": "machiboke",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#FFB74D",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253540_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769995262000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-09-29T09:35:59.244Z",
+    "officialDescription": "なめこたちは収穫の時を待っている――なめこ栽培キットから「まちぼうけ」が初登場！並べた場所が栽培キットになる！？座った姿がかわいく、飾って楽しいマスコットです！",
+    "ageRating": "15才以上",
+    "description": "バンダイから展開されている「まちぼうけ」を題材にしたカプセルトイで、なめこ栽培キットとのコラボ商品です。価格は1回300円で、全5種のラインナップとなっています。現在ガチャガチャとして稼働中で、店頭のカプセルトイ機で入手できます。",
+    "thumb": "/thumb/gacha-6d8f63be.webp"
+  },
+  {
     "id": "capin-gallery-designed-by--525188e2",
     "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
     "brand": "その他",
@@ -240,7 +274,7 @@
       "ピンク",
       "ライトブルー"
     ],
-    "description": "キタンクラブから展開されているカプセルトイ「えんぴつけずり森の家 ミニチュアマスコット」は、全5種のラインナップで登場します。価格は1回500円で、現在発売中です。",
+    "description": "キタンクラブから展開されているカプセルトイ「えんぴつけずり森の家 ミニチュアマスコット」です。全5種のラインナップで、1回500円で楽しめます。現在発売中で、ガチャガチャの店頭やオンラインクレーンゲームなどで見つけることができます。",
     "thumb": "/thumb/gacha-207b5e25.webp"
   },
   {
