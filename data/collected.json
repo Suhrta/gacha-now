@@ -1845,7 +1845,7 @@
     "price": 300,
     "releaseWeek": "2026年8月 第4週",
     "brand": "たまごっち",
-    "types": null
+    "types": 6
   },
   {
     "title": "なめこ栽培キット まちぼうけ",
@@ -4653,7 +4653,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第2週",
     "brand": "学園アイドルマスター",
-    "types": 6
+    "types": null
   },
   {
     "title": "ゴジラ くるんとーと2",
@@ -8325,7 +8325,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "モンチッチ Twinkle ゴム",
