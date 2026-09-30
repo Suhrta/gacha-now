@@ -5805,7 +5805,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "たまごっち",
-    "types": 5
+    "types": null
   },
   {
     "title": "パペットスンスン CAMERA NEGAFILM CHARM",
@@ -6357,7 +6357,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ディズニー",
-    "types": 5
+    "types": null
   },
   {
     "title": "mofusand ヘアコームチャーム",
@@ -6837,7 +6837,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第4週",
     "brand": "桜蘭高校ホスト部",
-    "types": 7
+    "types": null
   },
   {
     "title": "ICCHI ファッションカラビナマスコットチャーム",
@@ -8187,9 +8187,9 @@
     "title": "モーニング娘。 コスチュームチャーム",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118206442000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000257840_4.jpg",
