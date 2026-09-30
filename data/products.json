@@ -1,5 +1,26 @@
 [
   {
+    "id": "gacha-0d339bca",
+    "name": "新種の生き物？クリオネにゃんこ　フィギュアマーカー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "12月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/29093716/260929_ClioneNyanko-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/29093716/260929_ClioneNyanko-1280x1280.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10212/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-09-30T09:08:34.502Z",
+    "officialDescription": "クリオネになっちゃったねこちゃん、「クリオネにゃんこ」 クリア仕様のフィギュアマーカーで登場！",
+    "thumb": "/thumb/gacha-0d339bca.webp"
+  },
+  {
     "id": "gacha-6d8f63be",
     "name": "なめこ栽培キット まちぼうけ",
     "brand": "まちぼうけ",
@@ -30,7 +51,7 @@
     "collectedAt": "2026-09-29T09:35:59.244Z",
     "officialDescription": "なめこたちは収穫の時を待っている――なめこ栽培キットから「まちぼうけ」が初登場！並べた場所が栽培キットになる！？座った姿がかわいく、飾って楽しいマスコットです！",
     "ageRating": "15才以上",
-    "description": "バンダイから展開されているカプセルトイ「なめこ栽培キット まちぼうけ」の商品ページです。まちぼうけをモチーフにしたラインナップで、全5種の中からどれが出るかは開けてみるまで分かりません。1回の価格は300円で、現在発売中です。",
+    "description": "バンダイから展開されている「まちぼうけ」を題材にしたカプセルトイが、なめこ栽培キット まちぼうけとして登場します。全5種のラインナップで、価格は1回300円です。現在すでに発売中で、店頭のガチャガチャ機で購入できます。",
     "thumb": "/thumb/gacha-6d8f63be.webp"
   },
   {
@@ -274,7 +295,7 @@
       "ピンク",
       "ライトブルー"
     ],
-    "description": "キタンクラブより、えんぴつけずり森の家のミニチュアマスコットがカプセルトイとして登場しています。全5種のラインナップで、価格は1回500円です。現在発売中で、店頭のガチャガチャ機で入手できます。",
+    "description": "キタンクラブから展開されているカプセルトイ「えんぴつけずり森の家 ミニチュアマスコット」は、全5種のラインナップで登場します。1回500円で楽しめるガチャガチャとして、現在発売中です。",
     "thumb": "/thumb/gacha-207b5e25.webp"
   },
   {
