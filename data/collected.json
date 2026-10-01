@@ -6141,7 +6141,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "ディズニー",
-    "types": null
+    "types": 4
   },
   {
     "title": "サンリオキャラクターズ ときめきフリルマスコット",
@@ -8098,6 +8098,19 @@
     "releaseWeek": "2026年10月",
     "brand": "夏目友人帳",
     "types": 5
+  },
+  {
+    "title": "肩ズンFig. ゴジラ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907630",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907630_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907630_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月",
+    "brand": "ゴジラ",
+    "types": 4
   },
   {
     "title": "カプセルプラレール エアポート特急!大集合スペシャル",
