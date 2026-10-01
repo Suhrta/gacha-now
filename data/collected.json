@@ -45,7 +45,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "MOOMIN つまんでつなげてマスコット2",
@@ -4462,6 +4462,30 @@
     "releaseWeek": "2026年10月 第2週",
     "brand": "パワーパフガールズ",
     "types": 4
+  },
+  {
+    "title": "CRAZY RACCOON キーボード風クリッカー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118202222000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257437_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 第2週",
+    "brand": "CRAZY RACCOON",
+    "types": 6
   },
   {
     "title": "モーニング娘。 コスチュームチャーム",
