@@ -45,7 +45,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "MOOMIN つまんでつなげてマスコット2",
@@ -2517,7 +2517,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "モンチッチ",
-    "types": 5
+    "types": null
   },
   {
     "title": "mojojojo カラフルマルチチャーム",
@@ -5163,9 +5163,9 @@
     "title": "ドラえもん ひみつ道具カラフルマルチチャーム",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026757000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258624_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258624_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258624_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258624_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000258624_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000258624_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000258624_4.jpg",
@@ -6459,9 +6459,9 @@
     "title": "ナルミヤキャラクターズ モノトーンマスコット",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770071207000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258529_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258529_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258529_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258529_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000258529_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000258529_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000258529_4.jpg",
@@ -6843,9 +6843,9 @@
     "title": "ONE PIECE ゆらゆらし隊",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258612_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258612_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258612_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258612_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000258612_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000258612_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000258612_4.jpg",
@@ -7587,9 +7587,9 @@
     "title": "ZETT（ゼット） 野球グローブコレクション",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770095357000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_4.jpg",
