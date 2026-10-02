@@ -645,7 +645,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "Maison terrier カラフルマルチチャーム",
@@ -5565,7 +5565,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "【フラットガシャポン】Mezzo Piano アクリルコースターディスプレイ",
@@ -5949,7 +5949,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "【CAP'in GALLERY】atmos TENKYU フィギュアコレクション",
@@ -6790,30 +6790,6 @@
     "releaseWeek": "2026年10月 第5週",
     "brand": "くまのがっこう",
     "types": 5
-  },
-  {
-    "title": "おジャ魔女どれみ めじるしアクセサリー ポロンタップver.1",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968501000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年10月 第5週",
-    "brand": "おジャ魔女どれみ",
-    "types": 9
   },
   {
     "title": "ちいかわ カプセルステッキ",
@@ -7846,6 +7822,30 @@
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
     "types": 5
+  },
+  {
+    "title": "おジャ魔女どれみ めじるしアクセサリー ポロンタップver.1",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968501000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251592_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "未定",
+    "brand": "おジャ魔女どれみ",
+    "types": 9
   },
   {
     "title": "aespa ぷくっとリング",
