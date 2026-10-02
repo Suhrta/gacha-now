@@ -45,7 +45,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "MOOMIN つまんでつなげてマスコット2",
@@ -3021,7 +3021,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "仮面ライダー",
-    "types": 4
+    "types": null
   },
   {
     "title": "ポンデクルール どうぶつの森 マルチカラーパウダー",
@@ -5949,7 +5949,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "【CAP'in GALLERY】atmos TENKYU フィギュアコレクション",
@@ -8134,6 +8134,19 @@
     "price": 400,
     "releaseWeek": "2026年10月",
     "brand": "ゴジラ",
+    "types": 4
+  },
+  {
+    "title": "ゴマ豆腐アザラシ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907722",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907722_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907722_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月",
+    "brand": "その他",
     "types": 4
   },
   {

@@ -1,5 +1,32 @@
 [
   {
+    "id": "gacha-42571b74",
+    "name": "ゴマ豆腐アザラシ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "10月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907722_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907722_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907722",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-02T09:08:56.171Z",
+    "officialDescription": "アザラシフォルムがかわいいい、もちもち？ふるふる？の豆腐モチーフのフィギュアです。「ごま豆腐」「焼き豆腐」「冷ややっこ」はつやつやの乳白色成型で、「焼き豆腐」はこだわりの焼き目付きのマットカラーになっています。本体サイズは縦約2.7〜3.5cm、横約3.7cm。ラインナップは「ごま豆腐」「焼き豆腐」「冷ややっこ」「たまごどうふ」の全4種。",
+    "lineup": [
+      "ごま豆腐",
+      "焼き豆腐",
+      "冷ややっこ",
+      "たまごどうふ"
+    ],
+    "thumb": "/thumb/gacha-42571b74.webp"
+  },
+  {
     "id": "skzoo-dwaekkihan-quokkabbokari-06061b16",
     "name": "SKZOO ぷくっとバースデークリアリング ～DWAEKKI＆HAN QUOKKA＆BbokAri～",
     "brand": "SKZOO",
@@ -393,7 +420,7 @@
     "collectedAt": "2026-10-01T01:46:08.269Z",
     "officialDescription": "絶好調の「ぜんまいざむらい」から「まちぼうけ」が新登場！並べるとからくり大江戸のみんながのんびりすごすシーンがお手元で広がります！",
     "ageRating": "15才以上",
-    "description": "バンダイより「まちぼうけ」をテーマにしたカプセルトイ、ぜんまいざむらい まちぼうけが登場します。1回400円で全5種がラインナップされており、10月第2週の発売が予定されています。ガチャガチャとして各店舗に展開される予定です。",
+    "description": "バンダイより、「まちぼうけ」をテーマにしたカプセルトイ「ぜんまいざむらい まちぼうけ」が登場します。1回400円で全5種がラインナップされており、10月第2週の発売が予定されています。ガチャガチャ専門店や量販店の設置機にて展開される見込みです。",
     "thumb": "/thumb/gacha-73a4e030.webp"
   },
   {
@@ -3024,7 +3051,7 @@
     "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118196859000",
     "source": "バンダイ公式",
     "collectedAt": "2026-10-01T01:46:08.271Z",
-    "description": "バンダイから展開されるカプセルトイ「鋼の錬金術師 まちぼうけ」は、全4種のラインナップで登場します。1回500円で楽しめるガチャガチャとして、10月第5週の発売が予定されています。",
+    "description": "人気作品「鋼の錬金術師」のキャラクターたちがちょこんとたたずむ「まちぼうけ」シリーズのカプセルトイがバンダイより登場します。価格は1回500円で、全4種の展開です。発売時期は10月第5週を予定しています。",
     "thumb": "/thumb/gacha-6ec1eb87.webp",
     "officialDescription": "「鋼の錬金術師」がまちぼうけに登場！",
     "ageRating": "15才以上"
@@ -23760,107 +23787,5 @@
       "MALIK&ne;WEESA"
     ],
     "thumb": "/thumb/dung-beat-posse--3cb0e236.webp"
-  },
-  {
-    "id": "gacha-6e07b8d8",
-    "name": "忍たま乱太郎 まちぼうけ 六年生の段",
-    "brand": "まちぼうけ",
-    "brandSlug": "machiboke",
-    "price": 400,
-    "types": 6,
-    "releaseWeek": "発売中",
-    "color": "#FFB74D",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000243212_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769916113000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-07-02T06:45:53.290Z",
-    "description": "バンダイから発売されているカプセルトイ「忍たま乱太郎 まちぼうけ 六年生の段」の商品ページです。まちぼうけは人気キャラクターをモチーフにした立体化シリーズとして知られており、本商品は全6種のラインナップで展開されています。価格は1回400円で、現在発売中です。",
-    "officialDescription": "人気シリーズ「まちぼうけ」に『忍たま乱太郎』から忍術学園六年生たちが登場！",
-    "ageRating": "15才以上",
-    "thumb": "/thumb/gacha-6e07b8d8.webp"
-  },
-  {
-    "id": "gacha-40332bde",
-    "name": "アイカツ！ グッズコレクション２～大スター宮いちごまつり～",
-    "brand": "アイカツ",
-    "brandSlug": "aikatsu",
-    "price": 400,
-    "types": 15,
-    "releaseWeek": "発売中",
-    "color": "#99d2e5",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000232571_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769875786000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-07-02T06:45:53.291Z",
-    "description": "女児から大人まで人気のアイドルアニメ「アイカツ！」をテーマにしたグッズコレクションのカプセルトイです。バンダイより発売中で、全15種のラインナップを1回400円で楽しめます。「アイカツ！ グッズコレクション」シリーズの第2弾として登場した商品です。",
-    "officialDescription": "大スター宮いちごまつりの魅力を詰め込んだグッズコレクションが登場！ドラム式オルゴールやラバーコースター、カードバインダーミニチュア、アイカツ！カードデザインのミニチャームなど全15種のラインナップでお届けします。ディスプレイに記載された二次元コードを読み込むことで、「アイカツ！」の音楽プレイリストを聴くことが可能！人気のあの曲やこの曲、この機会にぜひ聴いてくださいね！※対応音楽配信サービス：Spotify、Apple Music、Amazon Musichttps://lnk.to/aikatsu_official_PL_d",
-    "ageRating": "15才以上",
-    "thumb": "/thumb/gacha-40332bde.webp"
-  },
-  {
-    "id": "gacha-1bdbbe73",
-    "name": "おしゅしだよ めじるしアクセサリー",
-    "brand": "おしゅしだよ",
-    "brandSlug": "oshushidayo",
-    "price": 300,
-    "types": 5,
-    "releaseWeek": "発売中",
-    "color": "#99a4e5",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000245394_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582769889165000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-07-02T06:45:53.291Z",
-    "description": "バッグやポーチの持ち手に付けられる目印用ラバーチャームとして人気の「めじるしアクセサリー」シリーズから、「おしゅしだよ めじるしアクセサリー」がバンダイより登場しました。カプセルトイとして1回300円で展開され、全5種がラインナップされています。現在発売中で、ガチャガチャの店舗などで入手できます。",
-    "officialDescription": "「おしゅしだよ」がついにめじるしアクセサリーになって登場！",
-    "ageRating": "15才以上",
-    "thumb": "/thumb/gacha-1bdbbe73.webp"
   }
 ]
