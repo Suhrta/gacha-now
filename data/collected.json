@@ -45,7 +45,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "MOOMIN つまんでつなげてマスコット2",
@@ -2709,7 +2709,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "まちぼうけ",
-    "types": 4
+    "types": null
   },
   {
     "title": "転生したらスライムだった件 リムルさまがいっぱいぬいぐるみ",
@@ -3021,7 +3021,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "仮面ライダー",
-    "types": null
+    "types": 4
   },
   {
     "title": "ポンデクルール どうぶつの森 マルチカラーパウダー",
@@ -4173,7 +4173,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第1週",
     "brand": "グレムリン",
-    "types": 4
+    "types": null
   },
   {
     "title": "パチスロ魂 サウンドコレクション",
@@ -7101,7 +7101,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ポケモン",
-    "types": 10
+    "types": null
   },
   {
     "title": "TVアニメ「らんま1/2」 めじるしアクセサリー",
