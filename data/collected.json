@@ -261,7 +261,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "角醒ハンター オメガホーン",
-    "types": 5
+    "types": null
   },
   {
     "title": "仮面ライダーマイス GPライダーエグズ01",
@@ -2709,7 +2709,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 4
   },
   {
     "title": "転生したらスライムだった件 リムルさまがいっぱいぬいぐるみ",
@@ -4173,7 +4173,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第1週",
     "brand": "グレムリン",
-    "types": null
+    "types": 4
   },
   {
     "title": "パチスロ魂 サウンドコレクション",
@@ -5757,7 +5757,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "スヌーピー",
-    "types": 5
+    "types": null
   },
   {
     "title": "ジュエルポッド ミニチュアチャームコレクション",
@@ -7101,7 +7101,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ポケモン",
-    "types": null
+    "types": 10
   },
   {
     "title": "TVアニメ「らんま1/2」 めじるしアクセサリー",
