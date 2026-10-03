@@ -1557,7 +1557,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ディズニー",
-    "types": null
+    "types": 5
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】どこでもいっしょ めじるしアクセサリー",
@@ -3789,7 +3789,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第4週",
     "brand": "ブルーロック",
-    "types": 4
+    "types": null
   },
   {
     "title": "まちぼうけ ウルトラマンの場合2",
@@ -5136,30 +5136,6 @@
     "types": 10
   },
   {
-    "title": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026689000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_2.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年10月 第3週",
-    "brand": "プリキュア",
-    "types": 10
-  },
-  {
     "title": "ドラえもん ひみつ道具カラフルマルチチャーム",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026757000",
     "source": "バンダイ公式",
@@ -6477,7 +6453,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第4週",
     "brand": "ナルミヤ",
-    "types": null
+    "types": 5
   },
   {
     "title": "いたずらねこちゃあぁぁん",
@@ -7248,6 +7224,54 @@
     "types": 6
   },
   {
+    "title": "アニメ『薬屋のひとりごと』 カプセルラバーマスコット3",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770054927000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_2.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258564_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 第5週",
+    "brand": "その他",
+    "types": 9
+  },
+  {
+    "title": "【フラットガシャポン/ジャンボカードダス】アニメ『薬屋のひとりごと』 クリアポスター3",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770054934000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_2.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258637_12.jpg"
+    ],
+    "price": 200,
+    "releaseWeek": "2026年10月 第5週",
+    "brand": "その他",
+    "types": 12
+  },
+  {
     "title": "ジョジョの奇妙な冒険 黄金の風 めじるしアクセサリー01",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000",
     "source": "バンダイ公式",
@@ -7894,6 +7918,30 @@
     "releaseWeek": "未定",
     "brand": "NCT WISH",
     "types": 12
+  },
+  {
+    "title": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026689000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_2.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "未定",
+    "brand": "プリキュア",
+    "types": 10
   },
   {
     "title": "SKZOO ミニチュアパッケージチャーム",
