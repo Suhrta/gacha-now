@@ -69,7 +69,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第1週",
     "brand": "ムーミン",
-    "types": null
+    "types": 10
   },
   {
     "title": "Richell ミニチュアチャーム",
@@ -117,7 +117,7 @@
     "price": 600,
     "releaseWeek": "2026年9月 第1週",
     "brand": "Polly Pocket",
-    "types": null
+    "types": 4
   },
   {
     "title": "富江 アソートコレクション",
@@ -429,7 +429,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "おじゃる丸",
-    "types": 5
+    "types": null
   },
   {
     "title": "ポケットモンスター 旅立ちの3匹アクリルスイング",
@@ -3741,7 +3741,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第4週",
     "brand": "妖怪ウォッチ",
-    "types": 8
+    "types": null
   },
   {
     "title": "機動戦士ガンダム ならぶんです。～なりきりハロ～",
