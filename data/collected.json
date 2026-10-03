@@ -117,7 +117,7 @@
     "price": 600,
     "releaseWeek": "2026年9月 第1週",
     "brand": "Polly Pocket",
-    "types": 4
+    "types": null
   },
   {
     "title": "富江 アソートコレクション",
@@ -3981,7 +3981,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第5週",
     "brand": "IVE",
-    "types": null
+    "types": 6
   },
   {
     "title": "TVアニメ『逃げ上手の若君』 まちぼうけ",
@@ -5493,7 +5493,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第4週",
     "brand": "VIRUSWEETS",
-    "types": null
+    "types": 6
   },
   {
     "title": "カードキャプターさくら めじるしアクセサリー2",
