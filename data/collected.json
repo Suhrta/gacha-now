@@ -69,7 +69,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第1週",
     "brand": "ムーミン",
-    "types": 10
+    "types": null
   },
   {
     "title": "Richell ミニチュアチャーム",
@@ -3789,7 +3789,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第4週",
     "brand": "ブルーロック",
-    "types": null
+    "types": 4
   },
   {
     "title": "まちぼうけ ウルトラマンの場合2",
@@ -3981,7 +3981,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第5週",
     "brand": "IVE",
-    "types": 6
+    "types": null
   },
   {
     "title": "TVアニメ『逃げ上手の若君』 まちぼうけ",
@@ -5493,7 +5493,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第4週",
     "brand": "VIRUSWEETS",
-    "types": 6
+    "types": null
   },
   {
     "title": "カードキャプターさくら めじるしアクセサリー2",
