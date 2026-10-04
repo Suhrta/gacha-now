@@ -4893,7 +4893,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第3週",
     "brand": "ハリー・ポッター",
-    "types": 5
+    "types": null
   },
   {
     "title": "サマーウォーズ めじるしアクセサリー",
@@ -7317,7 +7317,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "刀剣乱舞",
-    "types": null
+    "types": 6
   },
   {
     "title": "HG レジェンドライダーvol.6",
@@ -11628,6 +11628,45 @@
     "releaseWeek": "2022年12月 中旬",
     "brand": "mofusand",
     "types": 6
+  },
+  {
+    "title": "ばけねこぞろぞろ フィギュアマスコット 其の３",
+    "url": "https://kitan.jp/products/bakeneko_3/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2022/12/bake3_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2022/12/bake3_DP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2022年12月 中旬",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "ちいかわ アクリルキーホルダー４",
+    "url": "https://kitan.jp/products/chiikawaackey4/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2022/11/chiikawaAckey4_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2022/11/chiikawaAckey4_DP.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2022年12月 上旬",
+    "brand": "ちいかわ",
+    "types": 7
+  },
+  {
+    "title": "座る星のカービィ",
+    "url": "https://kitan.jp/products/suwaru_kirby/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2022/11/KB_Suwaru_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2022/11/KB_Suwaru_DP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2022年12月 上旬",
+    "brand": "カービィ",
+    "types": 5
   },
   {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",
