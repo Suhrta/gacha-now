@@ -429,7 +429,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "おじゃる丸",
-    "types": null
+    "types": 5
   },
   {
     "title": "ポケットモンスター 旅立ちの3匹アクリルスイング",
@@ -2541,7 +2541,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "ざわざわ森のがんこちゃん めじるしアクセサリー",
@@ -3741,7 +3741,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第4週",
     "brand": "妖怪ウォッチ",
-    "types": null
+    "types": 8
   },
   {
     "title": "機動戦士ガンダム ならぶんです。～なりきりハロ～",
@@ -5085,7 +5085,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第3週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "名探偵コナン なりきりコレクション",
