@@ -1,5 +1,55 @@
 [
   {
+    "id": "uno-2-2415a2bb",
+    "name": "UNO™ バラエティカードコレクション2",
+    "brand": "UNO",
+    "brandSlug": "uno",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "10月",
+    "color": "#e599e3",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906916_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906916_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906916",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-05T09:20:29.843Z",
+    "officialDescription": "通常の約1/4サイズで、かさばらずに持ち運びしやすいガチャの「UNO&trade;​ バラエティコレクション」の第2弾です。全種56枚入りで、「UNO&trade;​」は玩具と同じルールで遊べ、「うそウノ」はガチャオリジナルのルールで楽しめます。本体サイズは高さ約5.5cm。ラインナップは「UNO&trade;​ All Wild（日本語）」「UNO&trade; Junior（アニマル版、英語）」「UNO&trade; うそウノ（日本語）」「UNO&trade; レトロ（英語）」の全4種。",
+    "description": "世界中で親しまれているカードゲーム「UNO」をモチーフにしたカプセルトイ「UNO™ バラエティカードコレクション2」がタカラトミーアーツより登場します。価格は1回400円で、全4種がラインナップされています。発売時期は10月を予定しています。",
+    "thumb": "/thumb/uno-2-2415a2bb.webp"
+  },
+  {
+    "id": "gacha-4decc1c3",
+    "name": "エイの裏側かわいい マーカーチャーム",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/10/kawaii_CP_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/10/kawaii_CP_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/einoura_mc/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-10-05T09:20:29.843Z",
+    "officialDescription": "「エイの裏側かわいいフィギュア」が令和仕様のマーカーチャームになって登場します！開発のきっかけは「エイの裏側ってかわいいよね～」という何気ない発想。今回、そんなにっこり笑っているように見えるエイたちが令和仕様にアップデート！フィギュアからマーカーチャームへと姿を変え、身の回りのさまざまな場所に取り付けて楽しめるアイテムになりました。ふんわりピンクの身体に天使の笑顔が炸裂の「あかちゃんエイ」、ブラウン×イエローの配色がかわいい「アカエイ」、その名の通り変わった頭の形状を持つ「ウシバナトビエイ」、水玉模様がおしゃれな「マダラトビエイ」に加え、なぜかかわいくない?!「エイの干物」もラインナップ！かわいらしくディフォルメされた姿ですが、そこは生き物フィギュアのパイオニア・キタンクラブ！種類ごとの特徴をしっかりと捉えた造形や彩色にも注目です！令和によみがえったエイたちをお楽しみください！ ラインナップは「 マダラトビエイ 、ウシバナトビエイ 、あかちゃんエイ 、アカエイ 、エイの干物 」の全5種。",
+    "lineup": [
+      "マダラトビエイ",
+      "ウシバナトビエイ",
+      "あかちゃんエイ",
+      "アカエイ",
+      "エイの干物"
+    ],
+    "thumb": "/thumb/gacha-4decc1c3.webp"
+  },
+  {
     "id": "gacha-17799fbb",
     "name": "アニメ『薬屋のひとりごと』 カプセルラバーマスコット3",
     "brand": "その他",
