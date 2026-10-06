@@ -4848,30 +4848,6 @@
     "types": 5
   },
   {
-    "title": "パンどろぼう めじるしアクセサリー",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4549660973492000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年10月 第3週",
-    "brand": "パンどろぼう",
-    "types": 5
-  },
-  {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】ハリー・ポッター めじるしアクセサリー＋",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118246844000",
     "source": "バンダイ公式",
@@ -6648,6 +6624,30 @@
     "types": 6
   },
   {
+    "title": "パンどろぼう めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4549660973492000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 第5週",
+    "brand": "パンどろぼう",
+    "types": 5
+  },
+  {
     "title": "お文具といっしょ めじるしアクセサリー ～おっきなペロペロキャンディなのです～",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769866340000",
     "source": "バンダイ公式",
@@ -8209,6 +8209,19 @@
     "releaseWeek": "2026年10月",
     "brand": "その他",
     "types": 4
+  },
+  {
+    "title": "プラレール ぷっくりドロップめじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907845",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907845_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907845_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月",
+    "brand": "トミカ",
+    "types": 5
   },
   {
     "title": "カプセルプラレール エアポート特急!大集合スペシャル",

@@ -1,5 +1,35 @@
 [
   {
+    "id": "gacha-054f283c",
+    "name": "プラレール ぷっくりドロップめじるしガチャマスコット",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "10月",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907845_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907845_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907845",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-06T09:07:35.728Z",
+    "officialDescription": "半立体でぷっくりつやつやな、プラレールのマスコットです。シリコンリングとカニカン付きのめじるし仕様で、傘やペットボトルなどにつけて、自分用のマーカーとして使えます。黄色いプラレールロゴのプレート付き。本体サイズは約3cm。ラインナップは「新幹線 N700S」「E5系新幹線はやぶさ」「923形ドクターイエロー」「E6系新幹線こまち」「パンダくろしお「Smileアドベンチャートレイン」」の全5種。",
+    "size": "約3cm",
+    "lineup": [
+      "新幹線 N700S",
+      "E5系新幹線はやぶさ",
+      "923形ドクターイエロー",
+      "E6系新幹線こまち",
+      "パンダくろしお「Smileアドベンチャートレイン"
+    ],
+    "description": "ミニカーで人気のトミカをモチーフにした「プラレール ぷっくりドロップめじるしガチャマスコット」は、バッグなどの目印として使えるラバー製チャームのガチャガチャシリーズです。全5種がラインナップされ、1回300円で楽しめます。発売はタカラトミーアーツより10月を予定しています。",
+    "thumb": "/thumb/gacha-054f283c.webp"
+  },
+  {
     "id": "uno-2-2415a2bb",
     "name": "UNO™ バラエティカードコレクション2",
     "brand": "UNO",
@@ -816,7 +846,7 @@
     "brandSlug": "pandorobo",
     "price": 300,
     "types": 5,
-    "releaseWeek": "10月 第3週",
+    "releaseWeek": "10月 第5週",
     "color": "#ade599",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000198474_1.jpg",
@@ -23809,34 +23839,5 @@
       "スパイダーマン/スパイダーセンス"
     ],
     "thumb": "/thumb/sr-deluxe-edition-6ed5ff64.webp"
-  },
-  {
-    "id": "gacha-3fc0c875",
-    "name": "たたかわない!トランスフォーマー ぬいぐるみマスコット",
-    "brand": "トランスフォーマー",
-    "brandSlug": "transformers",
-    "price": 500,
-    "types": 4,
-    "releaseWeek": "発売中",
-    "color": "#99e5c3",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904134_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904134_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904134",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-07-06T07:29:09.460Z",
-    "description": "ロボットとクルマなどが変形するSFアクションとして知られるトランスフォーマーが、ぬいぐるみマスコットになったカプセルトイです。「たたかわない!トランスフォーマー ぬいぐるみマスコット」はタカラトミーアーツより発売中で、全4種のラインナップが1回500円のガチャガチャとして展開されています。",
-    "officialDescription": "平和だいすき\"おーとぼっと\"と、悪いことはしない\"でぃせぷてぃこん\"のメンバーが、ゆる〜い感じのぬいぐるみになりました。みんな笑顔のゴム仕様なので、バッグやポーチなどの持ち物につけて楽しめます。本体サイズは約6.5cm。ラインナップは「おぷさん」「びーさん」「めがさん」「すたすくさん」の全4種。",
-    "size": "約6.5cm",
-    "lineup": [
-      "おぷさん",
-      "びーさん",
-      "めがさん",
-      "すたすくさん"
-    ],
-    "thumb": "/thumb/gacha-3fc0c875.webp"
   }
 ]
