@@ -3213,7 +3213,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第4週",
     "brand": "フリーレン",
-    "types": null
+    "types": 12
   },
   {
     "title": "CYILABO（チイラボ） ミニチュアフィギュアコレクション",
@@ -5757,7 +5757,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
@@ -6069,7 +6069,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第4週",
     "brand": "初音ミク",
-    "types": 4
+    "types": null
   },
   {
     "title": "“ディズニーキャラクター” CAT スイングマスコット",
