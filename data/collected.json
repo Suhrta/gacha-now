@@ -2517,7 +2517,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "モンチッチ",
-    "types": 5
+    "types": null
   },
   {
     "title": "mojojojo カラフルマルチチャーム",
@@ -3573,7 +3573,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第4週",
     "brand": "ドラゴンボール",
-    "types": null
+    "types": 4
   },
   {
     "title": "サンリオキャラクターズ なりきりごっこカー",
@@ -8081,6 +8081,32 @@
     "types": 4
   },
   {
+    "title": "おさるのジョージ コスチュームめじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y900679",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y900679_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y900679_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 13日週",
+    "brand": "おさるのジョージ",
+    "types": 4
+  },
+  {
+    "title": "サンリオキャラクターズ ねぇだっこして〜",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903908",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903908_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903908_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 13日週",
+    "brand": "サンリオ",
+    "types": 5
+  },
+  {
     "title": "ポケモン おやすみフレンズ なかよくうとうと",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903991",
     "source": "タカラトミーアーツ公式",
@@ -8105,6 +8131,32 @@
     "releaseWeek": "2026年10月 13日週",
     "brand": "ポケモン",
     "types": 7
+  },
+  {
+    "title": "スター・ウォーズ プラプラマスコット PART3",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905810",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905810_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905810_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 13日週",
+    "brand": "スター・ウォーズ",
+    "types": 5
+  },
+  {
+    "title": "ブルーイ フロッキーフィギュア2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906220",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906220_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906220_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 13日週",
+    "brand": "ブルーイ",
+    "types": 4
   },
   {
     "title": "moz　つながリングチャーム",
@@ -8159,6 +8211,32 @@
     "types": 5
   },
   {
+    "title": "サンリオキャラクターズ みんなでなっちゃお!-歯-2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904240",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904240_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904240_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月",
+    "brand": "サンリオ",
+    "types": 6
+  },
+  {
+    "title": "サンリオキャラクターズ みんなでなっちゃお！ -歯-　ぬいぐるみ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904431",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904431_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904431_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年10月",
+    "brand": "サンリオ",
+    "types": 5
+  },
+  {
     "title": "ポケモン みんなのリザードン",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905582",
     "source": "タカラトミーアーツ公式",
@@ -8185,6 +8263,19 @@
     "types": 4
   },
   {
+    "title": "スパイダーマン ファッションリング",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905834",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905834_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905834_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月",
+    "brand": "マーベル",
+    "types": 5
+  },
+  {
     "title": "肩ズンFig. アニメ『呪術廻戦』5周年 -弍-",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905933",
     "source": "タカラトミーアーツ公式",
@@ -8195,6 +8286,19 @@
     "price": 400,
     "releaseWeek": "2026年10月",
     "brand": "呪術廻戦",
+    "types": 4
+  },
+  {
+    "title": "サンリオキャラクターズ 夢見る魔女見習い",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906008",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906008_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906008_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月",
+    "brand": "サンリオ",
     "types": 4
   },
   {
@@ -8222,6 +8326,19 @@
     "releaseWeek": "2026年10月",
     "brand": "UNO",
     "types": 4
+  },
+  {
+    "title": "サンリオキャラクターズ トキメキステッキチャーム",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907524",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907524_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907524_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月",
+    "brand": "サンリオ",
+    "types": 5
   },
   {
     "title": "肩ズンFig. ゴジラ",
@@ -8261,6 +8378,32 @@
     "releaseWeek": "2026年10月",
     "brand": "トミカ",
     "types": 5
+  },
+  {
+    "title": "ピクサーキャラクター ぺろちょこ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907937",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907937_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907937_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月",
+    "brand": "ディズニー",
+    "types": 5
+  },
+  {
+    "title": "パワーパフガールズ もふもふポーシェット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908781",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908781_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908781_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年10月",
+    "brand": "パワーパフガールズ",
+    "types": 4
   },
   {
     "title": "カプセルプラレール エアポート特急!大集合スペシャル",
