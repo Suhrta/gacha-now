@@ -5757,7 +5757,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
@@ -6069,7 +6069,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第4週",
     "brand": "初音ミク",
-    "types": null
+    "types": 4
   },
   {
     "title": "“ディズニーキャラクター” CAT スイングマスコット",
@@ -8042,6 +8042,19 @@
     "types": 8
   },
   {
+    "title": "めざましコラショ めじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910708",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y910708_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y910708_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 5日週",
+    "brand": "コラショ",
+    "types": 5
+  },
+  {
     "title": "ホビーガチャ バック・トゥ・ザ・フューチャー デロリアン（タイムマシン） -SECOND EDITION-",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y055508",
     "source": "タカラトミーアーツ公式",
@@ -8120,6 +8133,19 @@
     "types": 12
   },
   {
+    "title": "とことこヨッシー",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910456",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y910456_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y910456_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 13日週",
+    "brand": "スーパーマリオ",
+    "types": 6
+  },
+  {
     "title": "トミカ　ぷっくり　めじるしガチャチャーム",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910548",
     "source": "タカラトミーアーツ公式",
@@ -8156,6 +8182,19 @@
     "price": 400,
     "releaseWeek": "2026年10月",
     "brand": "ポケモン",
+    "types": 4
+  },
+  {
+    "title": "肩ズンFig. アニメ『呪術廻戦』5周年 -弍-",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905933",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905933_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905933_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月",
+    "brand": "呪術廻戦",
     "types": 4
   },
   {

@@ -1,5 +1,94 @@
 [
   {
+    "id": "gacha-0f41e6cc",
+    "name": "めざましコラショ めじるしガチャマスコット",
+    "brand": "コラショ",
+    "brandSlug": "korasho",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#999ce5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y910708_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y910708_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910708",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-07T00:07:09.221Z",
+    "officialDescription": "「進研ゼミ 小学講座」の代名詞でもある「コラショ」が、傘やペットボトルなどにつけて自分用のマーカーとして使える「めじるしガチャマスコット」になりました。2026年1月発売の「めざましコラショ ミニチュアコレクション」の彩色を一部変え、違う年代の「めざましコラショ」にモデルチェンジしています。本体サイズは約4.5〜6cm。ラインナップは「2001年モデル」「2005年モデル」「2010年モデル」「2023年モデル」「2026年モデル」の全5種。",
+    "size": "約4.5〜6cm",
+    "lineup": [
+      "2001年モデル",
+      "2005年モデル",
+      "2010年モデル",
+      "2023年モデル",
+      "2026年モデル"
+    ],
+    "description": "学習教材のキャラクターとして親しまれるコラショをモチーフにしたカプセルトイで、タカラトミーアーツから展開されているめじるしガチャマスコットです。バッグや持ち物につけやすいラバー製チャームの仕組みを採用したシリーズの一つで、全5種がラインナップされています。価格は1回400円で、現在発売中です。",
+    "thumb": "/thumb/gacha-0f41e6cc.webp"
+  },
+  {
+    "id": "gacha-7a217972",
+    "name": "とことこヨッシー",
+    "brand": "スーパーマリオ",
+    "brandSlug": "mario",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "10月 13日週",
+    "color": "#e5b899",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y910456_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y910456_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910456",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-07T00:07:09.221Z",
+    "officialDescription": "カラフルなヨッシーたちが、ゼンマイを回すとトコトコと歩き出します。ヨッシーの歩く姿は、何度もゼンマイを回したくなるほどの可愛さです！　全高約6cm。ラインナップは「ヨッシー」「あかヨッシー」「ピンクヨッシー」「きいろヨッシー」「みずいろヨッシー」「あおヨッシー」の全6種。",
+    "lineup": [
+      "ヨッシー",
+      "あかヨッシー",
+      "ピンクヨッシー",
+      "きいろヨッシー",
+      "みずいろヨッシー",
+      "あおヨッシー"
+    ],
+    "description": "世界的に人気のゲームシリーズ、スーパーマリオをモチーフにしたカプセルトイ「とことこヨッシー」が登場します。全6種のラインナップで、1回の価格は400円です。タカラトミーアーツより、10月13日週の発売が予定されています。",
+    "thumb": "/thumb/gacha-7a217972.webp"
+  },
+  {
+    "id": "fig-5--26016b49",
+    "name": "肩ズンFig. アニメ『呪術廻戦』5周年 -弍-",
+    "brand": "呪術廻戦",
+    "brandSlug": "jujutsu",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "10月",
+    "color": "#7986CB",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905933_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905933_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905933",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-07T00:07:09.221Z",
+    "officialDescription": "隣の人の肩に頭を\"ズン\"ともたれてうとうとする姿で人気の「肩ズンFig.」シリーズに、アニメ『呪術廻戦』5周年の第2弾が登場。キャラクターの個性に合わせた表情やポージングが特徴で、全員を集めて並べたくなります。本体サイズは約4.8〜5.2cm。ラインナップは「虎杖 悠仁」「伏黒 恵」「釘崎 野薔薇」「五条 悟」の全4種。",
+    "size": "約4.8〜5.2cm",
+    "lineup": [
+      "虎杖 悠仁",
+      "伏黒 恵",
+      "釘崎 野薔薇",
+      "五条 悟"
+    ],
+    "description": "キャラクターが肩にズンと寄りかかる姿を立体化した「肩ズンFig.」シリーズから、人気アニメ『呪術廻戦』5周年を記念した-弍-が登場するカプセルトイです。タカラトミーアーツより全4種がラインナップされ、1回400円で遊べます。発売は10月を予定しています。",
+    "thumb": "/thumb/fig-5--26016b49.webp"
+  },
+  {
     "id": "gacha-054f283c",
     "name": "プラレール ぷっくりドロップめじるしガチャマスコット",
     "brand": "トミカ",
