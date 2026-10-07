@@ -3573,7 +3573,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第4週",
     "brand": "ドラゴンボール",
-    "types": 4
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ なりきりごっこカー",
@@ -5206,30 +5206,6 @@
     "releaseWeek": "2026年10月 第3週",
     "brand": "ナルミヤ",
     "types": 6
-  },
-  {
-    "title": "“ディズニーキャラクター” ふわふわめじるしアクセサリー",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770068252000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年10月 第3週",
-    "brand": "ディズニー",
-    "types": 5
   },
   {
     "title": "mofusand 給食当番がんばるにゃん",
@@ -7413,6 +7389,30 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "“ディズニーキャラクター” ふわふわめじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770068252000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258555_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 第5週",
+    "brand": "ディズニー",
     "types": 5
   },
   {
