@@ -2589,7 +2589,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "まちぼうけ",
-    "types": 5
+    "types": null
   },
   {
     "title": "まちぼうけ レトロ家電の場合",
@@ -8211,6 +8211,45 @@
     "types": 5
   },
   {
+    "title": "スパイダーマン ファッションリング",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905834",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905834_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905834_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "マーベル",
+    "types": 5
+  },
+  {
+    "title": "サンリオキャラクターズ 夢見る魔女見習い",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906008",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906008_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906008_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "サンリオ",
+    "types": 4
+  },
+  {
+    "title": "UNO™ バラエティカードコレクション2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906916",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906916_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906916_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "UNO",
+    "types": 4
+  },
+  {
     "title": "サンリオキャラクターズ みんなでなっちゃお!-歯-2",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904240",
     "source": "タカラトミーアーツ公式",
@@ -8263,19 +8302,6 @@
     "types": 4
   },
   {
-    "title": "スパイダーマン ファッションリング",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905834",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905834_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905834_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年10月",
-    "brand": "マーベル",
-    "types": 5
-  },
-  {
     "title": "肩ズンFig. アニメ『呪術廻戦』5周年 -弍-",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905933",
     "source": "タカラトミーアーツ公式",
@@ -8286,19 +8312,6 @@
     "price": 400,
     "releaseWeek": "2026年10月",
     "brand": "呪術廻戦",
-    "types": 4
-  },
-  {
-    "title": "サンリオキャラクターズ 夢見る魔女見習い",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906008",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906008_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906008_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年10月",
-    "brand": "サンリオ",
     "types": 4
   },
   {
@@ -8313,19 +8326,6 @@
     "releaseWeek": "2026年10月",
     "brand": "夏目友人帳",
     "types": 5
-  },
-  {
-    "title": "UNO™ バラエティカードコレクション2",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906916",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906916_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906916_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年10月",
-    "brand": "UNO",
-    "types": 4
   },
   {
     "title": "サンリオキャラクターズ トキメキステッキチャーム",
