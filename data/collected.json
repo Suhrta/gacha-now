@@ -1749,7 +1749,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第3週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "プロ野球マスコット フェイスぬいぐるみ ～パ・リーグ～",
@@ -2829,7 +2829,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "mofusand",
-    "types": null
+    "types": 5
   },
   {
     "title": "なめこ栽培キット カラフルマルチチャーム",
