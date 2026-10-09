@@ -4341,7 +4341,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第2週",
     "brand": "その他",
-    "types": 8
+    "types": null
   },
   {
     "title": "ガシャポンメンバーズ景品ガシャポン(アソートコレクション)",
@@ -4880,30 +4880,6 @@
     "price": 400,
     "releaseWeek": "2026年10月 第3週",
     "brand": "ハリー・ポッター",
-    "types": 5
-  },
-  {
-    "title": "サマーウォーズ めじるしアクセサリー",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769860607000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年10月 第3週",
-    "brand": "サマーウォーズ",
     "types": 5
   },
   {
@@ -5697,30 +5673,6 @@
     "releaseWeek": "2026年10月 第4週",
     "brand": "スヌーピー",
     "types": 5
-  },
-  {
-    "title": "ジュエルポッド ミニチュアチャームコレクション",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118186942000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年10月 第4週",
-    "brand": "その他",
-    "types": 6
   },
   {
     "title": "夢のクレヨン王国 めじるしアクセサリー",
@@ -6659,6 +6611,30 @@
     "types": 6
   },
   {
+    "title": "サマーウォーズ めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769860607000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 第5週",
+    "brand": "サマーウォーズ",
+    "types": 5
+  },
+  {
     "title": "はらぺこあおむし めじるしアクセサリー",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769776236000",
     "source": "バンダイ公式",
@@ -6755,6 +6731,30 @@
     "types": 5
   },
   {
+    "title": "ジュエルポッド ミニチュアチャームコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118186942000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 第5週",
+    "brand": "その他",
+    "types": 6
+  },
+  {
     "title": "ちいかわ カプセルステッキ",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
     "source": "バンダイ公式",
@@ -6800,7 +6800,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ワンピース",
-    "types": 4
+    "types": null
   },
   {
     "title": "鋼の錬金術師 まちぼうけ",
@@ -9920,7 +9920,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 6
   },
   {
     "title": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
@@ -10328,7 +10328,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "ちいかわ",
-    "types": 10
+    "types": 6
   },
   {
     "title": "ちびまる子ちゃん×クレヨンしんちゃん ラバーマスコット",
@@ -10537,6 +10537,19 @@
     "types": 12
   },
   {
+    "title": "きかんしゃトーマス おしごとラバーマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910333",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y910333_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y910333_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 13日週",
+    "brand": "きかんしゃトーマス",
+    "types": 8
+  },
+  {
     "title": "とことこヨッシー",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910456",
     "source": "タカラトミーアーツ公式",
@@ -10561,6 +10574,32 @@
     "releaseWeek": "2026年10月 13日週",
     "brand": "トミカ",
     "types": 5
+  },
+  {
+    "title": "肩ズンFig. ベイマックス",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903175",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903175_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903175_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
+    "title": "ディズニープリンセス　身じたくFig.",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904370",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904370_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904370_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "ディズニー",
+    "types": 3
   },
   {
     "title": "スパイダーマン ファッションリング",
@@ -10615,6 +10654,19 @@
     "types": 6
   },
   {
+    "title": "肩ズンFig. トイ・ストーリー5 Part.1",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904295",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904295_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904295_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月",
+    "brand": "ディズニー",
+    "types": 5
+  },
+  {
     "title": "サンリオキャラクターズ みんなでなっちゃお！ -歯-　ぬいぐるみ",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904431",
     "source": "タカラトミーアーツ公式",
@@ -10654,6 +10706,19 @@
     "types": 4
   },
   {
+    "title": "HAHAHA!Fig. トイ・ストーリー5",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905872",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905872_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905872_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月",
+    "brand": "ディズニー",
+    "types": 5
+  },
+  {
     "title": "肩ズンFig. アニメ『呪術廻戦』5周年 -弍-",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905933",
     "source": "タカラトミーアーツ公式",
@@ -10664,6 +10729,19 @@
     "price": 400,
     "releaseWeek": "2026年10月",
     "brand": "呪術廻戦",
+    "types": 4
+  },
+  {
+    "title": "くまのプーさん ゆらゆらつながるマスコット-赤シャツフレンズ-",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906268",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906268_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906268_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月",
+    "brand": "ディズニー",
     "types": 4
   },
   {
@@ -10756,6 +10834,19 @@
     "releaseWeek": "2026年10月",
     "brand": "パワーパフガールズ",
     "types": 4
+  },
+  {
+    "title": "Disney SERIES CREATED by MUS Wear Collection Vol.2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909443",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909443_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909443_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月",
+    "brand": "ディズニー",
+    "types": 10
   },
   {
     "title": "カプセルプラレール エアポート特急!大集合スペシャル",

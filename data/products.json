@@ -1,5 +1,216 @@
 [
   {
+    "id": "gacha-5cf19c33",
+    "name": "きかんしゃトーマス おしごとラバーマスコット",
+    "brand": "きかんしゃトーマス",
+    "brandSlug": "thomas",
+    "price": 400,
+    "types": 8,
+    "releaseWeek": "10月 13日週",
+    "color": "#a399e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y910333_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y910333_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910333",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-09T02:47:03.738Z",
+    "officialDescription": "『きかんしゃトーマス』のLINEスタンプが、ラバーマスコットになりました。アニメシリーズでは見られないシュールなセリフや表情で、思わず集めたくなるラインナップです。本体サイズは約4.5cm。ラインナップは「トーマス①」「トーマス②」「トーマス③」「パーシー」「ジェームス」「ゴードン」「トップハム・ハット卿」「駅員」の全8種。",
+    "size": "約4.5cm",
+    "lineup": [
+      "トーマス①",
+      "トーマス②",
+      "トーマス③",
+      "パーシー",
+      "ジェームス",
+      "ゴードン",
+      "トップハム・ハット卿",
+      "駅員"
+    ],
+    "description": "世界中で親しまれている機関車のキャラクターたちが登場する「きかんしゃトーマス おしごとラバーマスコット」が、タカラトミーアーツからカプセルトイとして登場します。価格は1回400円で、全8種がラインナップされています。発売は10月13日週を予定しています。",
+    "thumb": "/thumb/gacha-5cf19c33.webp"
+  },
+  {
+    "id": "fig--0eafb7b0",
+    "name": "肩ズンFig. ベイマックス",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "10月 19日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903175_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903175_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903175",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-09T02:47:03.739Z",
+    "officialDescription": "隣の人の肩に頭を\"ズン\"ともたれてうとうとする姿で人気の「肩ズンFig.」シリーズに、ディズニー映画『ベイマックス』が登場。「ベイマックス」は全高約5.1cmのビッグサイズで、「ベイマックス」を作り上げた「ヒロ」の兄の「タダシ」もモデル化されています。本体サイズは最大約5.1cm。ラインナップは「タダシ」「ヒロ」「ベイマックス」「モチ」の全4種。",
+    "lineup": [
+      "タダシ",
+      "ヒロ",
+      "ベイマックス",
+      "モチ"
+    ],
+    "description": "ディズニー作品のキャラクターが肩に寄りかかる姿を立体化した「肩ズンFig.」シリーズから、「肩ズンFig. ベイマボックス」ならぬベイマックスが登場します。全4種で、1回400円のカプセルトイとして展開されます。発売は10月19日週を予定しています。",
+    "thumb": "/thumb/fig--0eafb7b0.webp"
+  },
+  {
+    "id": "-fig-0c02c0c2",
+    "name": "ディズニープリンセス　身じたくFig.",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 3,
+    "releaseWeek": "10月 19日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904370_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904370_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904370",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-09T02:47:03.739Z",
+    "officialDescription": "劇中のシーンに出てくる姿を再現した、ディズニープリンセスたちが、身じたくを整えているフィギュアです。髪の毛はツヤのある塗装で、髪をとかす仕草にフォーカスしています。本体サイズは約4.7cm。ラインナップは「ラプンツェル」「アリエル」「ジャスミン」の全3種。",
+    "size": "約4.7cm",
+    "lineup": [
+      "ラプンツェル",
+      "アリエル",
+      "ジャスミン"
+    ],
+    "description": "世界中で親しまれているディズニープリンセスをモチーフにしたカプセルトイ「ディズニープリンセス　身じたくFig.」がタカラトミーアーツから登場します。価格は1回400円で、全3種のラインナップです。発売は10月19日週を予定しています。",
+    "thumb": "/thumb/-fig-0c02c0c2.webp"
+  },
+  {
+    "id": "fig-5-part1-7391a187",
+    "name": "肩ズンFig. トイ・ストーリー5 Part.1",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "10月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904295_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904295_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904295",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-09T02:47:03.739Z",
+    "officialDescription": "隣の人の肩に頭を\"ズン\"ともたれてうとうとする姿で人気の「肩ズンFig.」シリーズに、ディズニー＆ピクサー映画『トイ・ストーリー5』が登場。新規造形の「ブルズアイ」に加え、『トイ・ストーリー5』の新キャラクターに注目です。本体サイズは約3cm～5.3cm。ラインナップは「ブルズアイ」「ジェシー」「アトラス」「スマーティー・パンツ」「スナッピー」の全5種。",
+    "size": "約3cm",
+    "lineup": [
+      "ブルズアイ",
+      "ジェシー",
+      "アトラス",
+      "スマーティー・パンツ",
+      "スナッピー"
+    ],
+    "description": "ディズニーの人気作品キャラクターが肩に寄りかかる姿を立体化した「肩ズンFig.」シリーズに、トイ・ストーリー5 Part.1が登場します。全5種のラインナップで、価格は1回400円のカプセルトイです。発売はタカラトミーアーツより10月を予定しています。",
+    "thumb": "/thumb/fig-5-part1-7391a187.webp"
+  },
+  {
+    "id": "hahahafig-5-68eddcb5",
+    "name": "HAHAHA!Fig. トイ・ストーリー5",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "10月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905872_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905872_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905872",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-09T02:47:03.739Z",
+    "officialDescription": "今にも\"HAHAHA!\"と笑い声が聞こえてきそうな、笑顔あふれる表情がコンセプトの「HAHAHA!Fig. 」シリーズに、ディズニー＆ピクサー映画『トイ・ストーリー5』が仲間入り。「スマーティ・パンツ」の取っ手は可動式で、「スナッピー」は裏面までしっかり再現されています。本体サイズは高さ約2〜4.8cm。ラインナップは「ジェシー」「ウッディ」「スナッピー」「スマーティー・パンツ」「アトラス」の全5種。",
+    "lineup": [
+      "ジェシー",
+      "ウッディ",
+      "スナッピー",
+      "スマーティー・パンツ",
+      "アトラス"
+    ],
+    "description": "世界中で親しまれるディズニー作品をモチーフにしたカプセルトイ「HAHAHA!Fig. トイ・ストーリー5」がタカラトミーアーツより登場します。全5種のラインナップで、1回400円で楽しめます。発売は10月を予定しています。",
+    "thumb": "/thumb/hahahafig-5-68eddcb5.webp"
+  },
+  {
+    "id": "gacha-75ec0dc2",
+    "name": "くまのプーさん ゆらゆらつながるマスコット-赤シャツフレンズ-",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "10月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906268_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906268_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906268",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-09T02:47:03.739Z",
+    "officialDescription": "カニカンで上下に連結できる「ゆらゆらつながるマスコット」シリーズに、『くまのプーさん』の仲間たちが初登場。『くまのプーさん』の原作デビュー100周年をお祝いする特別アートで、プーのシャツをみんなで着ている\"赤シャツフレンズ\"仕様になっています。本体サイズは約5.2cm（イーヨー）。ラインナップは「プー」「ピグレット」「イーヨー」「ティガー」の全4種。",
+    "size": "約5.2cm",
+    "lineup": [
+      "プー",
+      "ピグレット",
+      "イーヨー",
+      "ティガー"
+    ],
+    "description": "世界的に人気のディズニーキャラクターから、くまのプーさんをモチーフにしたカプセルトイが登場します。商品名は「くまのプーさん ゆらゆらつながるマスコット-赤シャツフレンズ-」で、タカラトミーアーツより発売されます。価格は1回400円、全4種のラインナップで、10月に展開が始まる予定です。",
+    "thumb": "/thumb/gacha-75ec0dc2.webp"
+  },
+  {
+    "id": "disney-series-created-by-mus-w-4b688d91",
+    "name": "Disney SERIES CREATED by MUS Wear Collection Vol.2",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 10,
+    "releaseWeek": "10月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909443_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909443_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909443",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-09T02:47:03.739Z",
+    "officialDescription": "「Disney SERIES CREATED by MUS」の服をミニチュア化した、ガチャで話題のシリーズ第2弾です。「NATUVENTURE TSJ」は2026年10月に発売される新商品と同じデザインがプリントされています。本体サイズは高さ約4.5〜5.5cm。ラインナップは「FACE ニット WHT」「FACE ニット PNK」「FACE ニット BLU」「FACE ニット YEL」「DANCING PARTY ジャケット」「IDOL&FUN MM プルオーバー」「VOLUME SLEEVE ニットトップス」「MALL YARN セーター」「NATUVENTURE TSJ」「NATUVENTURE TSJ2」の全10種。",
+    "lineup": [
+      "FACE ニット WHT",
+      "FACE ニット PNK",
+      "FACE ニット BLU",
+      "FACE ニット YEL",
+      "DANCING PARTY ジャケット",
+      "IDOL&FUN MM プルオーバー",
+      "VOLUME SLEEVE ニットトップス",
+      "MALL YARN セーター",
+      "NATUVENTURE TSJ",
+      "NATUVENTURE TSJ2"
+    ],
+    "description": "タカラトミーアーツから、ディズニーをテーマにしたカプセルトイ「Disney SERIES CREATED by MUS Wear Collection Vol.2」が登場します。世界的に親しまれているディズニー作品をモチーフにした商品で、全10種がラインナップされています。価格は1回400円で、10月より順次ガチャガチャ専門店や量販店などの筐体で展開される予定です。",
+    "thumb": "/thumb/disney-series-created-by-mus-w-4b688d91.webp"
+  },
+  {
     "id": "gacha-3b91fec9",
     "name": "ガシャポンメンバーズ景品ガシャポン(アソートコレクション)",
     "brand": "その他",
@@ -1669,7 +1880,7 @@
     "collectedAt": "2026-10-08T02:29:13.077Z",
     "officialDescription": "ぬいぐるみをぎゅっと抱きしめている姿が可愛いマスコット『ぎゅーこっと』の第2弾！",
     "ageRating": "15才以上",
-    "description": "推理漫画「名探偵コナン」をテーマにしたカプセルトイとして、バンダイから「名探偵コナン ぎゅーこっと2」が登場します。全5種のラインナップで、1回の価格は500円です。発売時期は現時点で未定となっており、詳細は続報が待たれる状況です。",
+    "description": "バンダイより、人気推理漫画「名探偵コナン」のカプセルトイ「名探偵コナン ぎゅーこっと2」が登場します。全5種のラインナップで、価格は1回500円です。発売時期は現時点で未定となっており、詳細情報の公開が待たれる状況です。",
     "thumb": "/thumb/gacha-5e24d1c7.webp"
   },
   {
@@ -3272,7 +3483,7 @@
     "brand": "ちいかわ",
     "brandSlug": "chiikawa",
     "price": 500,
-    "types": 10,
+    "types": 6,
     "releaseWeek": "未定",
     "color": "#4FC3F7",
     "hot": true,
@@ -4676,7 +4887,7 @@
     "brandSlug": "summerwars",
     "price": 300,
     "types": 5,
-    "releaseWeek": "10月 第3週",
+    "releaseWeek": "10月 第5週",
     "color": "#e5d199",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000234141_1.jpg",
@@ -5789,7 +6000,7 @@
     "brandSlug": "other",
     "price": 300,
     "types": 6,
-    "releaseWeek": "10月 第4週",
+    "releaseWeek": "10月 第5週",
     "color": "#e5b499",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258613_1.jpg",
