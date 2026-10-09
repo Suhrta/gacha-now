@@ -1,5 +1,56 @@
 [
   {
+    "id": "gacha-3b91fec9",
+    "name": "ガシャポンメンバーズ景品ガシャポン(アソートコレクション)",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 9,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": null,
+    "images": [],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=2026100900000000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-10-09T00:09:12.870Z",
+    "officialDescription": "ガシャポンメンバーズ特製アソートコレクション（1回ガシャポイント300pt）",
+    "ageRating": "15才以上"
+  },
+  {
+    "id": "gacha-7c7f433f",
+    "name": "おねがいアイプリ ぷっくりドロップめじるしガチャマスコット",
+    "brand": "アイプリ",
+    "brandSlug": "aipri",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "10月 13日週",
+    "color": "#99e5c8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907876_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907876_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907876",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-09T00:09:12.874Z",
+    "officialDescription": "『おねがいアイプリ』のかわいい半立体でぷっくりつやつやのテクスチャーが、シリコンリングとカニカン付きのめじるし仕様のマスコットになりました。うるうるでかわいい3D感満載の仕上がりで、傘やペットボトルなどにつけて自分用のマーカーとして使えます。本体サイズは約3cm。ラインナップは「いのり」「あおい」「ぐみ」「おりびあ」「ナナ」「エマ」「フォーチュ」の全7種。",
+    "size": "約3cm",
+    "lineup": [
+      "いのり",
+      "あおい",
+      "ぐみ",
+      "おりびあ",
+      "ナナ",
+      "エマ",
+      "フォーチュ"
+    ],
+    "description": "人気作品「アイプリ」をモチーフにしたラバーチャームが、タカラトミーアーツからカプセルトイに登場します。商品名は「おねがいアイプリ ぷっくりドロップめじるしガチャマスコット」で、全7種がラインナップされ、1回300円で楽しめます。発売は10月13日週が予定されています。",
+    "thumb": "/thumb/gacha-7c7f433f.webp"
+  },
+  {
     "id": "gacha-19f519d4",
     "name": "サンリオキャラクターズ がんばれないチャーム",
     "brand": "サンリオ",
@@ -1618,7 +1669,7 @@
     "collectedAt": "2026-10-08T02:29:13.077Z",
     "officialDescription": "ぬいぐるみをぎゅっと抱きしめている姿が可愛いマスコット『ぎゅーこっと』の第2弾！",
     "ageRating": "15才以上",
-    "description": "多くの謎解き劇場版やアニメで親しまれている「名探偵コナン」のカプセルトイとして、バンダイから「名探偵コナン ぎゅーこっと2」が登場します。全5種のラインナップで、価格は1回500円です。発売時期は現時点では未定となっています。",
+    "description": "推理漫画「名探偵コナン」をテーマにしたカプセルトイとして、バンダイから「名探偵コナン ぎゅーこっと2」が登場します。全5種のラインナップで、1回の価格は500円です。発売時期は現時点で未定となっており、詳細は続報が待たれる状況です。",
     "thumb": "/thumb/gacha-5e24d1c7.webp"
   },
   {

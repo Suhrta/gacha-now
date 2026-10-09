@@ -4344,6 +4344,17 @@
     "types": 8
   },
   {
+    "title": "ガシャポンメンバーズ景品ガシャポン(アソートコレクション)",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=2026100900000000",
+    "source": "バンダイ公式",
+    "imageUrl": null,
+    "images": [],
+    "price": 0,
+    "releaseWeek": "2026年10月 第2週",
+    "brand": "その他",
+    "types": 9
+  },
+  {
     "title": "KPOPガールズ！ デーモン・ハンターズ ミニCDコレクション",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118184191000",
     "source": "バンダイ公式",
@@ -9909,7 +9920,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "まちぼうけ",
-    "types": 6
+    "types": null
   },
   {
     "title": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
@@ -10498,6 +10509,19 @@
     "releaseWeek": "2026年10月 13日週",
     "brand": "その他",
     "types": 5
+  },
+  {
+    "title": "おねがいアイプリ ぷっくりドロップめじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907876",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907876_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907876_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 13日週",
+    "brand": "アイプリ",
+    "types": 7
   },
   {
     "title": "ゼルダの伝説 ヒストリカルチャーム＋",
