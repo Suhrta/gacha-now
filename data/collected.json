@@ -4341,7 +4341,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 8
   },
   {
     "title": "ガシャポンメンバーズ景品ガシャポン(アソートコレクション)",
@@ -6800,7 +6800,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ワンピース",
-    "types": null
+    "types": 4
   },
   {
     "title": "鋼の錬金術師 まちぼうけ",
@@ -10678,6 +10678,19 @@
     "releaseWeek": "2026年10月",
     "brand": "サンリオ",
     "types": 5
+  },
+  {
+    "title": "レトロファービー めじるしガチャマスコットふわふわフロッキー",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905513",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905513_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905513_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月",
+    "brand": "その他",
+    "types": 6
   },
   {
     "title": "ポケモン みんなのリザードン",
