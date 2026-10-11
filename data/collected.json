@@ -4125,7 +4125,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第1週",
     "brand": "たまごっち",
-    "types": 5
+    "types": null
   },
   {
     "title": "名探偵プリキュア！ カプセルラバーマスコット２",
@@ -6704,7 +6704,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "トムとジェリー",
-    "types": 4
+    "types": null
   },
   {
     "title": "くまのがっこう カラフルマルチチャーム",
@@ -7208,7 +7208,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "サンリオ",
-    "types": null
+    "types": 10
   },
   {
     "title": "HELLOKITTY スクールガールスイング",
@@ -7640,7 +7640,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": 8
+    "types": null
   },
   {
     "title": "ZETT（ゼット） 野球グローブコレクション",
@@ -9968,7 +9968,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "クレヨンしんちゃん",
-    "types": null
+    "types": 5
   },
   {
     "title": "ナルミヤキャラクターズ めじるしアクセサリー2",
@@ -10040,7 +10040,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "ハイキュー",
-    "types": null
+    "types": 7
   },
   {
     "title": "PROJECT R.E.D. まちぼうけ",
@@ -10160,7 +10160,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "ウルトラマン",
-    "types": 6
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ フロッキークリップ～ラテクマデザイン～",
@@ -10328,7 +10328,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "ちいかわ",
-    "types": null
+    "types": 6
   },
   {
     "title": "ちびまる子ちゃん×クレヨンしんちゃん ラバーマスコット",
