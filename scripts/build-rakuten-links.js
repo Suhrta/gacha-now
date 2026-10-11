@@ -134,11 +134,19 @@ async function main() {
   if (preflight.error) {
     // 失敗の層ごとに直す場所が違う。2026-10-11に実測で切り分けた対応表:
     //
-    //   API Configuration not found … applicationId が楽天に認識されていない。
-    //     無関係なランダムUUIDを投げても同じ文言が返るので、キーやOriginではなく
-    //     「アプリのAPI設定が存在しない」という意味。→ 楽天Developersでアプリを
-    //     確認し、Ichiba Item Search を有効化して App ID / Access Key を再発行、
-    //     .env と GitHub Secrets の両方を差し替える。コード側は直すところが無い。
+    //   API Configuration not found … **叩いている API の版が廃止されている**。
+    //     文言から認証やアプリ設定を疑いがちだが全部ハズレ。2026-10に実際に
+    //     管理画面まで見に行って、アプリACTIVE・App ID一致・Allowed websites一致・
+    //     Ichibaスコープ有効と全部正しいのに直らず、Edit保存のやり直しも空振りした。
+    //     真因は rakuten-api.js の ENDPOINT 末尾が旧版(20220601)だったこと。
+    //     → https://webservice.rakuten.co.jp/documentation/ichiba-item-search の
+    //       「Endpoint」に出ている現行版に ENDPOINT を差し替える。認証情報は触らない。
+    //     見分け方: キーが違えば 403 Invalid Access Key、Originが許可外なら
+    //     403 HTTP_REFERRER_NOT_ALLOWED で手前で弾かれる。400まで来ている時点で
+    //     認証情報とOriginは正しいと断定してよい。
+    //   Invalid Access Key … accessKey が違う。→ 管理画面の👁で実値を確認して差し替え。
+    //   HTTP_REFERRER_NOT_ALLOWED … Origin が Allowed websites に無い。
+    //     → 管理画面の Allowed websites と DEFAULT_ORIGIN を一致させる。
     //   REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING … Origin が送れていない。
     //     → rakuten-api.js が node:https を使っているか確認（fetchだと消される）。
     //   accessKey must be present … Secret が空。→ GitHub Secrets を確認。
@@ -146,9 +154,10 @@ async function main() {
     // この導線が黙って死んでいても商品更新は通るので continue-on-error のままにし、
     // 代わりにワークフロー側が outcome を見て Discord に通知する。
     const hint = /API Configuration not found/.test(preflight.error)
-      ? `   → applicationId が楽天に登録されていません（キーやOriginの問題ではない）。\n` +
-        `     楽天Developersでアプリの Ichiba Item Search を有効化し、\n` +
-        `     App ID / Access Key を再発行して .env と GitHub Secrets を差し替えてください。`
+      ? `   → APIの版が廃止されています。認証情報・アプリ設定は正常です。\n` +
+        `     （キー違いなら Invalid Access Key、Origin違いなら HTTP_REFERRER_NOT_ALLOWED）\n` +
+        `     https://webservice.rakuten.co.jp/documentation/ichiba-item-search の\n` +
+        `     「Endpoint」に出ている現行版に rakuten-api.js の ENDPOINT を差し替えてください。`
       : `   → RAKUTEN_APP_ID / RAKUTEN_ACCESS_KEY / RAKUTEN_ORIGIN を確認してください。\n` +
         `     （Origin は楽天アプリの「Allowed websites」と一致する必要があります）`;
     console.error(`❌ 楽天APIプリフライト失敗: ${preflight.error}\n${hint}`);

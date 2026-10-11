@@ -56,8 +56,16 @@ function normalizeOrigin(v) {
 }
 const ORIGIN = normalizeOrigin(process.env.RAKUTEN_ORIGIN);
 
+// エンドポイント末尾はAPIの「版」で、楽天は旧版を予告なく畳む。ここが古いと
+// 認証が全部正しくても 400 `API Configuration not found` が返る（下の注意書き参照）。
+//
+// 2026-08-18に 20220601 が畳まれて以降、約2ヶ月間この導線が死んでいた。
+// 現行版は公式ドキュメントの「Endpoint」に出ている:
+//   https://webservice.rakuten.co.jp/documentation/ichiba-item-search
+// 同ページ末尾の「Old Versions」に載っていない版は既に廃止されている。
+// 2026-10-12時点: 現行 20260701 / 旧版として生存 20260401（どちらも200で同じ構造）。
 const ENDPOINT =
-  "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20220601";
+  "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701";
 
 export function hasCredentials() {
   return Boolean(APP_ID && ACCESS_KEY);
