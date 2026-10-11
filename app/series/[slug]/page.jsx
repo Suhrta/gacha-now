@@ -3,6 +3,7 @@ import retired from "../../../data/retired-items.json";
 import { getSeriesBySlug, filterProductsBySeries } from "../../../data/series";
 import { buildHubInfo, buildFaqLd } from "../../../lib/hub-info";
 import { buildSeriesHistory } from "../../../lib/series-history";
+import { buildSeriesUpcoming } from "../../../lib/series-upcoming";
 import SeriesDetail from "../../../components/SeriesDetail";
 
 // 構造化データはここ（サーバー側）で出す。
@@ -37,13 +38,18 @@ export default function SeriesPage({ params }) {
     ? buildSeriesHistory({ series, products, retired })
     : null;
 
+  const upcoming = series.upcoming ? buildSeriesUpcoming({ series, products }) : null;
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
       {faqLd && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       )}
-      <SeriesDetail historyTotal={history ? history.total : null} />
+      <SeriesDetail
+        historyTotal={history ? history.total : null}
+        upcomingTotal={upcoming ? upcoming.total : null}
+      />
     </>
   );
 }

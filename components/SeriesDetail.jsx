@@ -18,7 +18,7 @@ import { HubLead, HubDetails } from "./HubInfo";
 import products from "../data/products.json";
 import { browsableSeries, getSeriesBySlug, filterProductsBySeries } from "../data/series";
 
-export default function SeriesDetail({ historyTotal = null }) {
+export default function SeriesDetail({ historyTotal = null, upcomingTotal = null }) {
   const { slug } = useParams();
   const [selected, setSelected] = useState(null);
   const { isBandAt, firstBandAt } = useInFeedGrid();
@@ -61,6 +61,21 @@ export default function SeriesDetail({ historyTotal = null }) {
             <span className="text-lg shrink-0">🗂️</span>
             <span className="text-xs font-bold text-brand-text leading-snug">
               歴代の{name}を見る（掲載終了分ふくむ全{historyTotal}件）
+            </span>
+            <span className="text-brand-accent text-sm shrink-0 ml-auto">→</span>
+          </Link>
+        ) : null}
+
+        {/* 「発売予定」「販売予定」意図のクエリは約2,000表示ある（lib/series-upcoming.js）。
+            このページは発売済みと発売前を混ぜているので、専用ページへ明示的に送る。 */}
+        {series && series.upcoming && upcomingTotal ? (
+          <Link
+            href={`/series/${slug}/upcoming`}
+            className="relative z-[1] flex items-center gap-2 mb-3 px-4 py-3 bg-white border-2 border-brand-accent rounded-xl no-underline hover:bg-cream-dark transition-colors"
+          >
+            <span className="text-lg shrink-0">📅</span>
+            <span className="text-xs font-bold text-brand-text leading-snug">
+              これから出る{name}を見る（発売予定{upcomingTotal}件）
             </span>
             <span className="text-brand-accent text-sm shrink-0 ml-auto">→</span>
           </Link>

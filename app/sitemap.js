@@ -5,6 +5,7 @@ import { SERIES, filterProductsBySeries } from "../data/series";
 import { getAllReleaseMonths, getReleaseYearMonth } from "../lib/release";
 import { indexableProducts, indexableBlogPosts, isLowValueBrandPage } from "../lib/quality";
 import { isConsolidated } from "../data/hub-canonical";
+import { buildSeriesUpcoming } from "../lib/series-upcoming";
 
 const BASE_URL = "https://gacha-now.net";
 
@@ -79,6 +80,19 @@ export default function sitemap() {
     priority: 0.6,
   }));
 
+  // 発売予定ページ。upcoming: true かつ、実際に発売前の商品が残っているシリーズだけ。
+  // 全部出し切ると page.jsx 側は404を返すので、申告だけ残ると404をsitemapに載せてしまう。
+  const seriesUpcomingPages = SERIES.filter(
+    (s) => s.upcoming && !isConsolidated("series", s.slug)
+  )
+    .filter((s) => buildSeriesUpcoming({ series: s, products }))
+    .map((s) => ({
+      url: `${BASE_URL}/series/${s.slug}/upcoming`,
+      lastModified: latestCollectedAt(filterProductsBySeries(products, s)),
+      changeFrequency: "weekly",
+      priority: 0.6,
+    }));
+
   const releasePages = getAllReleaseMonths(products).map((ym) => ({
     url: `${BASE_URL}/release/${ym}`,
     lastModified: latestCollectedAt(products.filter((p) => getReleaseYearMonth(p) === ym)),
@@ -102,6 +116,7 @@ export default function sitemap() {
     ...blogPages,
     ...seriesPages,
     ...seriesHistoryPages,
+    ...seriesUpcomingPages,
     ...productPages,
     ...brandPages,
     ...characterPages,
