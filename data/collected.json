@@ -3669,7 +3669,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第4週",
     "brand": "みいつけた！",
-    "types": 4
+    "types": null
   },
   {
     "title": "僕のヒーローアカデミア すわらせ隊3",
@@ -9296,7 +9296,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "銀魂",
-    "types": 5
+    "types": null
   },
   {
     "title": "【CAP'in GALLERY】Mooney the Ghost by Koichi Yairi フィギュアコレクション",
@@ -10456,6 +10456,19 @@
     "price": 300,
     "releaseWeek": "2026年10月 13日週",
     "brand": "ポケモン",
+    "types": 4
+  },
+  {
+    "title": "トムとジェリー ジェリー　Funny moment めじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904783",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904783_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904783_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 13日週",
+    "brand": "トムとジェリー",
     "types": 4
   },
   {
