@@ -132,11 +132,26 @@ async function main() {
   // 誤設定のまま全商品を「ボタンなし」で黙って通すのを防ぐ（特にCI）。
   const preflight = await searchCount("ちいかわ");
   if (preflight.error) {
-    console.error(
-      `❌ 楽天APIプリフライト失敗: ${preflight.error}\n` +
-        `   RAKUTEN_APP_ID / RAKUTEN_ACCESS_KEY / RAKUTEN_ORIGIN を確認してください。\n` +
-        `   （Origin は楽天アプリの「Allowed websites」と一致する必要があります）`
-    );
+    // 失敗の層ごとに直す場所が違う。2026-10-11に実測で切り分けた対応表:
+    //
+    //   API Configuration not found … applicationId が楽天に認識されていない。
+    //     無関係なランダムUUIDを投げても同じ文言が返るので、キーやOriginではなく
+    //     「アプリのAPI設定が存在しない」という意味。→ 楽天Developersでアプリを
+    //     確認し、Ichiba Item Search を有効化して App ID / Access Key を再発行、
+    //     .env と GitHub Secrets の両方を差し替える。コード側は直すところが無い。
+    //   REQUEST_CONTEXT_BODY_HTTP_REFERRER_MISSING … Origin が送れていない。
+    //     → rakuten-api.js が node:https を使っているか確認（fetchだと消される）。
+    //   accessKey must be present … Secret が空。→ GitHub Secrets を確認。
+    //
+    // この導線が黙って死んでいても商品更新は通るので continue-on-error のままにし、
+    // 代わりにワークフロー側が outcome を見て Discord に通知する。
+    const hint = /API Configuration not found/.test(preflight.error)
+      ? `   → applicationId が楽天に登録されていません（キーやOriginの問題ではない）。\n` +
+        `     楽天Developersでアプリの Ichiba Item Search を有効化し、\n` +
+        `     App ID / Access Key を再発行して .env と GitHub Secrets を差し替えてください。`
+      : `   → RAKUTEN_APP_ID / RAKUTEN_ACCESS_KEY / RAKUTEN_ORIGIN を確認してください。\n` +
+        `     （Origin は楽天アプリの「Allowed websites」と一致する必要があります）`;
+    console.error(`❌ 楽天APIプリフライト失敗: ${preflight.error}\n${hint}`);
     process.exit(1);
   }
   await sleep();

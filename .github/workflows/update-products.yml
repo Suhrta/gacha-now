@@ -89,12 +89,46 @@ jobs:
       #
       # continue-on-error: 楽天API側の障害でこのステップが落ちても、商品更新・Instagram・
       # Discord という本体パイプラインは止めない（リンクは前回生成分がそのまま残り無害）。
+      #
+      # 【2026-10-11】「前回生成分が残り無害」は短い障害の前提だった。実際には
+      # 2026-08-18から約2ヶ月間ずっと落ちていて誰も気づかず、data/rakuten-links.json は
+      # 8/17で止まり、直近2ヶ月の新着（一番クリックされる層）が導線なしになっていた。
+      # continue-on-error は維持しつつ、黙って腐らないよう次のステップで通知する。
       - name: Build Rakuten purchase links
+        id: rakuten
         continue-on-error: true
         env:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
         run: node scripts/build-rakuten-links.js
+
+      # 楽天ステップが落ちたらDiscordに通知する。
+      # continue-on-error のステップは job を失敗させないので outcome を直接見る。
+      #
+      # 毎ラン（1日3〜5回）鳴る。時刻でランを絞ろうとしたが、GitHubのcronは実測で
+      # 1〜2時間遅れて発火する（23:00UTC指定が01:23UTCに来ている）ため「朝のランだけ」
+      # という条件が当てにならない。リダイレクト警告と同じく毎ラン鳴らす設計に揃えた。
+      # 鳴りやませたい＝直せば止まる、で自己完結する。
+      #
+      # 経過日数はファイルのmtimeではなくJSONの中身(checkedAt)から出す。
+      # checkout直後のmtimeはチェックアウト時刻になるので常に0日と出てしまう。
+      - name: Notify Discord if Rakuten step failed
+        if: steps.rakuten.outcome == 'failure'
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          STALE=$(node -e "
+            try {
+              const d = JSON.parse(require('fs').readFileSync('data/rakuten-links.json','utf8'));
+              const ts = Object.values(d).map(v => v && v.checkedAt).filter(Boolean);
+              console.log(ts.length ? Math.floor((Date.now() - Math.max(...ts)) / 86400000) : '?');
+            } catch (e) { console.log('?') }
+          ")
+          curl -s -H "Content-Type: application/json" \
+            -d "{\"content\":\"⚠️ **楽天リンク生成が失敗しています**（商品更新とInstagramは正常）。\nrakuten-links.json は約 ${STALE} 日更新されておらず、新着商品に楽天導線が付いていません。\n原因はActionsログの \`Build Rakuten purchase links\` に出ています。\`API Configuration not found\` なら楽天Developers側でアプリのAPI設定が消えているので、App ID / Access Key の再発行と Secrets 差し替えが必要です。\"}" \
+            "$DISCORD_WEBHOOK_URL"
+          echo "⚠️ 楽天ステップの失敗をDiscordに通知しました"
 
       - name: Generate AI descriptions
         env:

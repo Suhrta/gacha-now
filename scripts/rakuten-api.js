@@ -75,6 +75,20 @@ function get(url) {
   });
 }
 
+// 楽天のエラー本文は2形式あり、どちらで来るかは失敗の層で変わる。
+//   ゲートウェイ層: {"errors":{"errorCode":403,"errorMessage":"REQUEST_CONTEXT_..."}}
+//   API設定層:     {"error":"wrong_parameter","error_description":"API Configuration not found"}
+// 以前は前者しか読んでいなかったため、2026-08-18から2ヶ月間ずっと `http-400` だけが
+// ログに出て、本当の原因（API Configuration not found）が捨てられていた。両方拾う。
+function errorMessage(status, body) {
+  try {
+    const j = JSON.parse(body);
+    const msg = j?.errors?.errorMessage || j?.error_description || j?.error;
+    if (msg) return `${msg} (http-${status})`;
+  } catch {}
+  return `http-${status}`;
+}
+
 /**
  * キーワード検索し、ヒット総件数と上位商品を返す。
  * @returns {Promise<{count:number, items:Array<{name,price,url,image}>, error?:string}>}
@@ -93,11 +107,7 @@ export async function searchItems(keyword, { hits = 3 } = {}) {
   const { status, body, error } = await get(`${ENDPOINT}?${params}`);
   if (error) return { count: 0, items: [], error };
   if (status !== 200) {
-    let msg = `http-${status}`;
-    try {
-      msg = JSON.parse(body)?.errors?.errorMessage || msg;
-    } catch {}
-    return { count: 0, items: [], error: msg };
+    return { count: 0, items: [], error: errorMessage(status, body) };
   }
   let data;
   try {
