@@ -32,11 +32,28 @@ const GENERIC_BRANDS = new Set(["その他", "New", "キャラクター"]);
 // 「365→270」のような刻み方は1件も減らない。減らしたいときは
 // 落としたい塊の直後に来る値を選ぶこと。
 //
-// 現在は365日のまま685件（.github/workflows/update-products.yml の警告は800件）。
-// 次に四半期分（約200件）が退役すると閾値を超えるので、そのときに180日へ落とす。
-// 2026-03の塊は301を張ったのが2026-08-31なので、いま落とすと
-// リダイレクトが仕事をする前に404へ戻ることになる。
+// 現在は365日のまま687件（.github/workflows/update-products.yml の警告は800件）。
 const RETENTION_DAYS = 365;
+
+// 日数だけで制御するのは2026-10-11に打ち止めにした。理由は2つ:
+//
+// 1. 日数を縮めても件数が階段状にしか動かない（上の内訳のとおり）。365→210に
+//    しないと1件も減らず、210にすると2026-03の塊198件が丸ごと落ちる。
+//    その塊は301を張ったのが2026-08-31で、6週間しか経っていない＝
+//    リダイレクトが仕事を終える前に404へ戻すことになる。
+// 2. 退役は3ヶ月サイクルで必ず来るので、日数を手で縮める運用はいつか忘れる。
+//    在庫の collectedAt から見た実測見込み（2026-10-11）:
+//      10月退役後 768件 → 11月 984件 → 12月 1,167件 → 2027-01 1,365件
+//    Vercelのルート数上限(1,024)も2026-12に超える。
+//
+// そこで「新しい順に MAX_REDIRECTS 件まで」で硬く蓋をする。日数フィルタは
+// 意味のフィルタとして残し、件数の上限はこちらが保証する。
+// - 2026-10-11時点の出力は687件なので、この変更で落ちるURLは無い（回帰ゼロ）。
+// - 波が来ると古い lastSeen から自動で溢れる。301の価値は新しいものほど高いので、
+//   落とす順番としてこれが正しい。
+// - 800の警告（update-products.yml）はキャップが効いていれば鳴らない。
+//   鳴ったらキャップが外れた合図として扱う。
+const MAX_REDIRECTS = 750;
 
 function retiredRedirects() {
   const liveBrands = new Set(products.map((p) => p.brandSlug).filter(Boolean));
@@ -49,6 +66,9 @@ function retiredRedirects() {
       const seen = Date.parse(p.lastSeen);
       return Number.isFinite(seen) && seen >= cutoff;
     })
+    // 新しい順に並べてから上限で切る（溢れるのは常に一番古い301）
+    .sort((a, b) => Date.parse(b.lastSeen) - Date.parse(a.lastSeen))
+    .slice(0, MAX_REDIRECTS)
     .map((p) => ({
       source: `/item/${p.id}`,
       destination: `/brand/${p.brandSlug}`,
