@@ -3885,7 +3885,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第4週",
     "brand": "ガンダム",
-    "types": null
+    "types": 8
   },
   {
     "title": "MINECRAFT めじるしアクセサリー スタンダード",
@@ -6872,7 +6872,7 @@
     "price": 800,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ゴジラ",
-    "types": 4
+    "types": null
   },
   {
     "title": "yeye ムンゲのフィギュア",
