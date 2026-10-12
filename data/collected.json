@@ -1485,7 +1485,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "まちぼうけ",
-    "types": 5
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ カラフルカラビナマスコットチャーム",
@@ -1845,7 +1845,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "サンリオ",
-    "types": 5
+    "types": null
   },
   {
     "title": "シュガーバニーズ カップケーキチャーム",
@@ -4424,7 +4424,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "サンリオ",
-    "types": 5
+    "types": null
   },
   {
     "title": "コジコジ BIGカプキャラ",
@@ -4496,7 +4496,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第2週",
     "brand": "CRAZY RACCOON",
-    "types": 6
+    "types": null
   },
   {
     "title": "モーニング娘。 コスチュームチャーム",
@@ -6872,7 +6872,7 @@
     "price": 800,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ゴジラ",
-    "types": null
+    "types": 4
   },
   {
     "title": "yeye ムンゲのフィギュア",
