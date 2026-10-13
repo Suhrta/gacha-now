@@ -125,7 +125,23 @@ const nextConfig = {
     unoptimized: true,
   },
   async redirects() {
-    return retiredRedirects();
+    return [
+      // 旧サムネイルURL → Cloudflare R2（2026-10-13移行）。
+      //
+      // 移行後は products.json が絶対URLを持つので、サイト自身がこのパスを
+      // 叩くことはない。拾うのは外部に残った参照（Google画像検索のインデックス、
+      // 他サイトからの直リンク）だけ。873本ではなくワイルドカード1本なので、
+      // 上の MAX_REDIRECTS の枠を圧迫しない。
+      //
+      // 301はVercelを経由するためCDNリクエストを1消費する。それでも、
+      // 画像本体（40KB前後）を毎回Vercelから返すのに比べれば桁違いに軽い。
+      {
+        source: "/thumb/:file*",
+        destination: "https://gachaimg.com/thumb/:file*",
+        permanent: true,
+      },
+      ...retiredRedirects(),
+    ];
   },
 };
 

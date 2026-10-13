@@ -8,6 +8,16 @@ node_modules
 .env.development
 .env.production
 
+# 商品サムネイル（2026-10-13にCloudflare R2へ移行）
+#
+# scripts/build-thumbs.js が生成してR2へアップロードする作業用の出力先。
+# リポジトリには入れない。以前はここをコミットしていて、次の3つを同時に起こしていた:
+#   - VercelのCDNリクエストが上限100万に対して137万（1ページに40〜90枚ある）
+#   - デプロイ容量が1デプロイ約47MB、保持分の合計で7.05GB
+#   - git履歴に45MB（posts 1.4GB・data 865MB ほどではないが積み上がる）
+# 配信元は scripts/r2.js の PUBLIC_BASE（https://gachaimg.com）。
+public/thumb/
+
 # ログ・OS
 *.log
 .DS_Store

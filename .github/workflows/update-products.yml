@@ -160,7 +160,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/products.json data/new-today.json data/collected.json data/rakuten-links.json
           git add -A public/posts/
-          git add -A public/thumb/
+          # public/thumb/ はコミットしない（2026-10-13にCloudflare R2へ移行）。
+          # build-thumbs.js がR2へ直接アップロードし、products.json には
+          # https://gachaimg.com/thumb/... の絶対URLが入る。理由は .gitignore に記載。
           git diff --staged --quiet || git commit -m "🎪 auto-update products $(date -u +%Y-%m-%d)"
           git push
 

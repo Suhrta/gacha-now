@@ -30,6 +30,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import sharp from "sharp";
+import { hasR2, putObject, deleteObject, listKeys, publicUrl } from "./r2.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PRODUCTS_PATH = process.env.PRODUCTS_PATH
@@ -62,6 +63,27 @@ function thumbPath(id) {
   return path.join(THUMB_DIR, `${id}.webp`);
 }
 
+function thumbKey(id) {
+  return `thumb/${id}.webp`;
+}
+
+// R2に移行済みかどうかで、「生成済みの一覧」と「thumbに入れるURL」の両方が変わる。
+// 認証情報が無い間は今まで通りローカル配信に倒れるので、移行の途中でCIが走っても壊れない。
+//
+// 【ここが移行で一番危ない所】
+// 生成済み判定を fs.existsSync のままにすると、public/thumb をコミットしなくなった時点で
+// CIのチェックアウト直後は常に空になり、毎ラン873件を作り直して仕入れ元CDNを叩きに行く。
+// R2を使う場合は判定もR2のキー一覧に移すこと。
+let r2Keys = null; // Set<string> | null（nullならローカル運用）
+
+function thumbExists(id) {
+  return r2Keys ? r2Keys.has(thumbKey(id)) : fs.existsSync(thumbPath(id));
+}
+
+function thumbUrlFor(id) {
+  return r2Keys ? publicUrl(thumbKey(id)) : `/${thumbKey(id)}`;
+}
+
 async function fetchImage(url) {
   const res = await fetch(url, {
     headers: { "User-Agent": UA, Accept: "image/*" },
@@ -82,7 +104,13 @@ async function buildOne(product) {
     .resize({ width: WIDTH, withoutEnlargement: true })
     .webp({ quality: QUALITY, effort: EFFORT })
     .toBuffer();
+  // ローカルにも書く。R2運用でも、生成直後の確認や --dry-run 的な検証に使えるため。
+  // コミット対象からは外してある（.gitignore）。
   fs.writeFileSync(thumbPath(product.id), out);
+  if (r2Keys) {
+    await putObject(thumbKey(product.id), out);
+    r2Keys.add(thumbKey(product.id));
+  }
   return out.length;
 }
 
@@ -91,13 +119,26 @@ function hasSource(product) {
   return Boolean(product.img) && !product.img.includes("placehold");
 }
 
-function prune(products) {
+async function prune(products) {
   const alive = new Set(products.map((p) => `${p.id}.webp`));
   let removed = 0;
+
   for (const file of fs.readdirSync(THUMB_DIR)) {
     if (!file.endsWith(".webp") || alive.has(file)) continue;
     fs.unlinkSync(path.join(THUMB_DIR, file));
-    removed++;
+    if (!r2Keys) removed++;
+  }
+
+  // R2側も同じ基準で掃除する。放っておいても無料枠10GBに対して1件32KBなので
+  // すぐには困らないが、退役した商品の画像を残し続ける理由も無い。
+  if (r2Keys) {
+    for (const key of [...r2Keys]) {
+      const file = key.slice("thumb/".length);
+      if (alive.has(file)) continue;
+      await deleteObject(key);
+      r2Keys.delete(key);
+      removed++;
+    }
   }
   return removed;
 }
@@ -106,10 +147,16 @@ async function main() {
   const products = JSON.parse(fs.readFileSync(PRODUCTS_PATH, "utf-8"));
   fs.mkdirSync(THUMB_DIR, { recursive: true });
 
-  // 既にファイルがある商品は作り直さない。毎日の実行で叩くのは新商品ぶんだけになる。
-  let targets = products.filter(
-    (p) => hasSource(p) && (FORCE || !fs.existsSync(thumbPath(p.id)))
-  );
+  // R2が使えるなら、生成済みの一覧をR2から取る（理由は thumbExists の上のコメント）。
+  if (hasR2()) {
+    r2Keys = new Set(await listKeys("thumb/"));
+    console.log(`R2 (${publicUrl("")}) の既存サムネイル: ${r2Keys.size}件`);
+  } else {
+    console.log("R2の認証情報が無いためローカル配信のまま動作します");
+  }
+
+  // 既に生成済みの商品は作り直さない。毎日の実行で叩くのは新商品ぶんだけになる。
+  let targets = products.filter((p) => hasSource(p) && (FORCE || !thumbExists(p.id)));
   if (LIMIT > 0) targets = targets.slice(0, LIMIT);
 
   console.log(`商品 ${products.length}件 / 生成対象 ${targets.length}件`);
@@ -141,7 +188,7 @@ async function main() {
   // 表示側は thumb があればそれを、無ければ仕入れ元URLを使う。
   let changed = 0;
   for (const p of products) {
-    const url = fs.existsSync(thumbPath(p.id)) ? `/thumb/${p.id}.webp` : undefined;
+    const url = thumbExists(p.id) ? thumbUrlFor(p.id) : undefined;
     if (p.thumb === url) continue;
     if (url) p.thumb = url;
     else delete p.thumb;
@@ -152,7 +199,7 @@ async function main() {
   }
 
   // 3ヶ月で削除された商品のサムネイルは残しても誰も見ない。デプロイサイズを増やさない。
-  const removed = prune(products);
+  const removed = await prune(products);
 
   console.log(`✅ 生成 ${done}件 (${(bytes / 1024 / 1024).toFixed(1)}MB)`);
   if (changed) console.log(`   products.json の thumb を ${changed}件更新`);
