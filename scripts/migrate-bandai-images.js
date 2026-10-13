@@ -28,6 +28,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { isStrictIp } from "../lib/strict-ip.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
@@ -35,25 +36,46 @@ const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 // （順番を逆にすると、切り替えが失敗したときに戻せなくなる）。
 const PENDING_PATH = path.join(__dirname, "..", "data", "r2-pending-delete.json");
 
-const BANDAI_HOST = "bandai-a.akamaihd.net";
+// 自前コピーをやめる対象の仕入れ元。
+//   bandai  … 直リンクに切り替え済み（/model/m/ が8.9KBで軽い）
+//   takaratomy … 楽天画像へ切り替え。CDNに解像度バリアントが無く平均714KBあるため
+//                直リンクにはできない。楽天で見つからないものは画像なしになる。
+// HOST=takaratomy-arts.co.jp のように指定して対象を切り替える。
+const DEFAULT_HOST = "bandai-a.akamaihd.net";
+const HOST = process.env.HOST || DEFAULT_HOST;
 const DRY_RUN = !!process.env.DRY_RUN;
+// STRICT_IP_ONLY=1 で、そのホストのうち厳格IPの商品だけを対象にする。
+// タカラトミーアーツは一度に全160件を移すと画像なしが106件出るため、
+// ディズニー・任天堂/ポケモン・サンリオから段階的に移す（lib/strict-ip.js）。
+const STRICT_IP_ONLY = String(process.env.STRICT_IP_ONLY || "") === "1";
 
 function main() {
   const products = JSON.parse(fs.readFileSync(PRODUCTS_PATH, "utf8"));
 
   const targets = products.filter(
-    (p) => p.thumb && p.img && p.img.includes(BANDAI_HOST)
+    (p) =>
+      p.thumb &&
+      p.img &&
+      p.img.includes(HOST) &&
+      (!STRICT_IP_ONLY || isStrictIp(p))
   );
 
-  console.log(`🖼  バンダイ商品の直リンク切り替え`);
+  console.log(
+    `🖼  自前サムネイルの切り離し（対象ホスト: ${HOST}${STRICT_IP_ONLY ? " / 厳格IPのみ" : ""}）`
+  );
   console.log(`   全商品: ${products.length}件`);
-  console.log(`   対象  : ${targets.length}件（thumbを持つバンダイ商品）`);
+  console.log(`   対象  : ${targets.length}件（thumbを持つ対象商品）`);
 
-  const pendingKeys = [];
+  // 既に削除待ちのキーがあれば引き継ぐ（対象ホストを分けて複数回実行するため）。
+  const existingPending = fs.existsSync(PENDING_PATH)
+    ? JSON.parse(fs.readFileSync(PENDING_PATH, "utf8")).keys || []
+    : [];
+  const pendingKeys = [...existingPending];
+
   for (const p of targets) {
     // thumb は "https://gachaimg.com/thumb/<id>.webp" か "/thumb/<id>.webp"
     const m = String(p.thumb).match(/thumb\/([^/]+\.webp)$/);
-    if (m) pendingKeys.push(`thumb/${m[1]}`);
+    if (m && !pendingKeys.includes(`thumb/${m[1]}`)) pendingKeys.push(`thumb/${m[1]}`);
     if (!DRY_RUN) delete p.thumb;
   }
 
