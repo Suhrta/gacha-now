@@ -615,6 +615,23 @@ export default function HomePage() {
             グリッド型のネイティブ広告が馴染む。ラベルはGoogleが枠内に描く */}
         <AdUnit name="multiplex" format="autorelaxed" label="" minHeight={320} />
 
+        {/* 食玩カテゴリへの導線。
+            DISCOVERY に混ぜず単独のカードにしているのは、このページが "use client" で
+            既に products.json をクライアントに積んでおり、月別チップを出すために
+            shokugan.json まで積むとバンドルがさらに膨らむため。
+            リンク1本ならデータ参照が要らない。 */}
+        <Link
+          href="/shokugan"
+          onClick={() => trackHubClick("/shokugan", "/shokugan", "all")}
+          className="mt-12 flex items-center gap-2 px-4 py-3 bg-white border-2 border-brand-accent rounded-xl no-underline hover:bg-cream-dark transition-colors"
+        >
+          <span className="text-lg shrink-0">🍬</span>
+          <span className="text-xs font-bold text-brand-text leading-snug">
+            食玩（ウエハース・シール付きなど）の新作もチェックする
+          </span>
+          <span className="text-brand-accent text-sm shrink-0 ml-auto">→</span>
+        </Link>
+
         {/* キャラ・発売月・ブランド・シリーズへの導線。
             各カテゴリは先頭 DISCOVERY_PREVIEW 件だけ出し、残りは一覧ページへ送る */}
         <section className="mt-12 px-1">

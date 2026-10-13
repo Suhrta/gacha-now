@@ -14,6 +14,12 @@ import products from "../../../data/products.json";
 import { getBrandIntro } from "../../../data/character-intros";
 import { getPopularBrands } from "../../../lib/browse";
 import { getAllReleaseMonths, formatYearMonth } from "../../../lib/release";
+import shokugan from "../../../data/shokugan.json";
+import {
+  isPublishable as isPublishableShokugan,
+  shokuganForBrand,
+  shortReleaseLabel,
+} from "../../../lib/shokugan";
 
 export default function BrandPage() {
   const { slug } = useParams();
@@ -24,6 +30,10 @@ export default function BrandPage() {
   const brandName = brandProducts.length > 0 ? brandProducts[0].brand : slug;
   const popularBrands = getPopularBrands(products, { excludeSlug: slug });
   const releaseMonths = getAllReleaseMonths(products);
+  const relatedShokugan = shokuganForBrand(
+    brandName,
+    shokugan.filter(isPublishableShokugan)
+  );
 
   return (
     <>
@@ -98,6 +108,39 @@ export default function BrandPage() {
             ))}
           </div>
         </section>
+
+        {/* 同じ作品の食玩への相互リンク。ガチャで来た人に別ジャンルの選択肢を出す。
+            食玩側のブランド判定は持たせず、ガチャ側で判定済みのブランド名が
+            食玩の商品名に含まれるかで突き合わせている（lib/shokugan.js に理由）。 */}
+        {relatedShokugan.length > 0 && (
+          <section className="mt-8 px-1 relative z-[1]">
+            <h2 className="text-sm font-bold text-brand-text mb-1">{brandName}の食玩</h2>
+            <p className="text-[10px] text-brand-sub mb-3">
+              ウエハースやグミなど、お菓子売り場で買えるシリーズです
+            </p>
+            <ul className="bg-white border-2 border-cream-border rounded-xl overflow-hidden">
+              {relatedShokugan.map((i) => (
+                <li key={i.id} className="border-b border-dotted border-cream-border last:border-b-0">
+                  <Link
+                    href={`/shokugan/${i.id}`}
+                    className="flex items-center gap-2 px-3 py-2 text-[11px] text-brand-text no-underline hover:text-brand-accent transition-colors"
+                  >
+                    <span className="flex-1 leading-relaxed">{i.name}</span>
+                    <span className="shrink-0 text-[9px] text-brand-sub">
+                      {shortReleaseLabel(i)}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <Link
+              href="/shokugan"
+              className="inline-block mt-2 text-xs text-brand-accent no-underline hover:underline"
+            >
+              食玩の新作一覧を見る →
+            </Link>
+          </section>
+        )}
 
         <section className="mt-8 px-1 relative z-[1]">
           <h2 className="text-sm font-bold text-brand-text mb-3">発売月から探す</h2>
