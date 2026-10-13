@@ -130,6 +130,29 @@ export default function RootLayout({ children }) {
         <div className="max-w-site mx-auto relative px-4 min-h-screen flex flex-col">
           {children}
         </div>
+
+        {/* 楽天ウェブサービスの規約で必須のクレジット表示。
+            https://webservice.rakuten.co.jp/guide/credit に
+            「Giving credit with a badge is required for all apps that use the Rakuten API」とある。
+            フッターの「楽天アフィリエイト参加中」はアフィリエイトの開示であって、APIのクレジットとは別物。
+            2026-07に楽天APIを使い始めてから入っていなかったので、ここで入れる。
+
+            components/Footer.jsx ではなく RootLayout に置いている。Footerは8ページでしか
+            使われておらず、**商品詳細ページ（/item/[id]）には無い**（レシート風デザインのため）。
+            楽天の価格・購入リンクを一番出しているのがそのページなので、Footer側だと穴が空く。
+
+            バッジ画像(221x21のGIF)版もあるが、楽天のサーバーから読む外部画像が増えるのと
+            サイトのデザインに合わないため、規約が併記しているテキスト版を使う。 */}
+        <div className="max-w-site mx-auto px-4 pb-3 text-center">
+          <a
+            href="https://developers.rakuten.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[10px] text-brand-sub hover:text-brand-text transition-colors no-underline"
+          >
+            Supported by Rakuten Developers
+          </a>
+        </div>
       </body>
     </html>
   );
