@@ -26,9 +26,15 @@
  * 判定した候補セットを記録し、新しい候補が増えた時だけAIを呼ぶ。
  * 判定の要否・間隔・打ち切りの規則は scripts/image-pick-state.js に集約している。
  *
+ * 【手動で回すとき】
+ * コストの記録はCI枠と手動枠に分かれている（scripts/image-pick-state.js）。
+ * 既定は "ci" なので、手でまとめて回すときは LEDGER=manual を必ず付ける。
+ * 付け忘れると無人の日次ランの枠を食い潰し、その月のCIが止まる。
+ * 手動枠にも月上限はかかるので、実行時に MONTHLY_BUDGET を明示する。
+ *
  * 実行例:
  *   DRY_RUN=1 LIMIT=5 node scripts/pick-gacha-images.js
- *   LIMIT=200 node scripts/pick-gacha-images.js
+ *   LEDGER=manual MONTHLY_BUDGET=0.95 MAX_SPEND=0.33 LIMIT=200 node scripts/pick-gacha-images.js
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -36,14 +42,18 @@ import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { searchItems, hasCredentials, sleep } from "./rakuten-api.js";
 import {
+  LEDGER,
   MAX_MISSES,
   candKeys,
   costOf,
   hasNewCandidate,
   isPlaceholderImage,
+  ledgerTotal,
+  loadLedger,
   needsRecheck,
   parseChoice,
   requestOptions,
+  saveLedger,
   sortByStaleness,
   todayStamp,
 } from "./image-pick-state.js";
@@ -67,19 +77,6 @@ const MAX_SPEND = Number(process.env.MAX_SPEND || 0.1);
 const TARGET_HOST = "takaratomy-arts.co.jp";
 
 const client = new Anthropic();
-
-function loadSpend() {
-  const month = new Date().toISOString().slice(0, 7);
-  try {
-    const s = JSON.parse(fs.readFileSync(SPEND_PATH, "utf8"));
-    if (s.month === month) return s;
-  } catch {}
-  return { month, usd: 0, judged: 0 };
-}
-
-function saveSpend(s) {
-  fs.writeFileSync(SPEND_PATH, JSON.stringify(s, null, 2) + "\n", "utf-8");
-}
 
 /** 検索に使うキーワード。商品名そのままだと長すぎて0件になりやすい。 */
 function searchKeyword(product) {
@@ -159,13 +156,20 @@ async function main() {
     process.exit(1);
   }
 
-  const spend = loadSpend();
-  if (spend.usd >= MONTHLY_BUDGET) {
+  const ledger = loadLedger(SPEND_PATH);
+  const bucket = ledger[LEDGER];
+  const other = LEDGER === "ci" ? "manual" : "ci";
+  if (bucket.usd >= MONTHLY_BUDGET) {
     console.error(
-      `⛔ 今月(${spend.month})の判定コストが $${spend.usd.toFixed(3)} で上限 $${MONTHLY_BUDGET} に達しています。`
+      `⛔ 今月(${ledger.month})の${LEDGER === "ci" ? "CI枠" : "手動枠"}が ` +
+        `$${bucket.usd.toFixed(3)} で上限 $${MONTHLY_BUDGET} に達しています` +
+        `（もう一方の枠 $${ledger[other].usd.toFixed(3)} / 合計 $${ledgerTotal(ledger).toFixed(3)}）。`
     );
     process.exit(78);
   }
+  // 以降の加算はこのランの開始時点を基準にする（flush を何度呼んでも二重に乗らない）。
+  const baseUsd = bucket.usd;
+  const baseJudged = bucket.judged;
 
   const products = JSON.parse(fs.readFileSync(PRODUCTS_PATH, "utf8"));
 
@@ -193,7 +197,8 @@ async function main() {
   console.log(`🖼  タカラトミーアーツ商品の画像選定: 対象 ${targets.length}件`);
   console.log(`   未採用 ${pool.length}件 / 見送り${MAX_MISSES}回で除外 ${excluded}件`);
   console.log(
-    `   今月の累計 $${spend.usd.toFixed(3)} / 上限 $${MONTHLY_BUDGET}（1ラン上限 $${MAX_SPEND}）`
+    `   ${LEDGER === "ci" ? "CI枠" : "手動枠"} $${bucket.usd.toFixed(3)} / 上限 $${MONTHLY_BUDGET}` +
+      `（1ラン上限 $${MAX_SPEND} / 今月の実支出 合計 $${ledgerTotal(ledger).toFixed(3)}）`
   );
 
   let picked = 0;
@@ -208,7 +213,9 @@ async function main() {
   const flush = () => {
     if (DRY_RUN) return;
     fs.writeFileSync(PRODUCTS_PATH, JSON.stringify(products, null, 2), "utf-8");
-    saveSpend({ ...spend, usd: spend.usd + costOf(inTok, outTok), judged: spend.judged + picked + none });
+    bucket.usd = baseUsd + costOf(inTok, outTok);
+    bucket.judged = baseJudged + picked + none;
+    saveLedger(SPEND_PATH, ledger);
   };
 
   for (const p of targets) {
@@ -241,8 +248,10 @@ async function main() {
       console.error(`⛔ 1ラン上限 $${MAX_SPEND} に達したので打ち切ります（残りは次回）`);
       break;
     }
-    if (spend.usd + runCost >= MONTHLY_BUDGET) {
-      console.error(`⛔ 今月の累計上限 $${MONTHLY_BUDGET} に達したので打ち切ります`);
+    if (baseUsd + runCost >= MONTHLY_BUDGET) {
+      console.error(
+        `⛔ ${LEDGER === "ci" ? "CI枠" : "手動枠"}の月上限 $${MONTHLY_BUDGET} に達したので打ち切ります`
+      );
       break;
     }
 
@@ -284,7 +293,10 @@ async function main() {
   if (judged > 0) console.log(`   採用率: ${Math.round((picked / judged) * 100)}%`);
   console.log(`   コスト: $${cost.toFixed(4)}（1件 $${judged ? (cost / judged).toFixed(4) : "-"}）`);
   if (!DRY_RUN) {
-    console.log(`   今月の累計: $${(spend.usd + cost).toFixed(3)} / 上限 $${MONTHLY_BUDGET}`);
+    console.log(
+      `   ${LEDGER === "ci" ? "CI枠" : "手動枠"}の累計: $${bucket.usd.toFixed(3)} / 上限 $${MONTHLY_BUDGET}` +
+        `（今月の実支出 合計 $${ledgerTotal(ledger).toFixed(3)}）`
+    );
   } else {
     console.log("   ※ DRY_RUN のため保存していません");
   }

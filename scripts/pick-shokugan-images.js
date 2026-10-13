@@ -15,9 +15,16 @@
  * 「販促文字・バナーが焼き込まれていないもの」を選ばせる。
  * 選べたものだけ cleanImage に保存する。選べなければ画像なしのまま。
  *
+ * 【手動で回すとき】
+ * コストの記録はCI枠と手動枠に分かれている（scripts/image-pick-state.js）。
+ * 既定は "ci" なので、手でまとめて回すときは LEDGER=manual を必ず付ける。
+ * 付け忘れると無人の日次ランの枠を食い潰し、その月のCIが止まる。
+ * 手動枠にも月上限はかかるので、実行時に MONTHLY_BUDGET を明示する。
+ *
  * 実行例:
  *   LIMIT=10 node scripts/pick-shokugan-images.js        … 10件だけ試す
  *   DRY_RUN=1 LIMIT=3 node scripts/pick-shokugan-images.js
+ *   LEDGER=manual MONTHLY_BUDGET=0.15 LIMIT=31 node scripts/pick-shokugan-images.js
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -25,14 +32,18 @@ import https from "node:https";
 import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import {
+  LEDGER,
   MAX_MISSES,
   candKeys,
   costOf,
   hasNewCandidate,
   isPlaceholderImage,
+  ledgerTotal,
+  loadLedger,
   needsRecheck,
   parseChoice,
   requestOptions,
+  saveLedger,
   sortByStaleness,
   todayStamp,
 } from "./image-pick-state.js";
@@ -55,20 +66,6 @@ const MONTHLY_BUDGET = Number(process.env.MONTHLY_BUDGET || 0.3);
 // 累計上限だけでは1回のランで月ぶん全部を使い切ってしまう。
 const MAX_SPEND = Number(process.env.MAX_SPEND || 0.1);
 const SPEND_PATH = path.join(__dirname, "..", "data", "shokugan-image-spend.json");
-
-/** その月に使った額を読む。月が変わったらゼロから数え直す。 */
-function loadSpend() {
-  const month = new Date().toISOString().slice(0, 7);
-  try {
-    const s = JSON.parse(fs.readFileSync(SPEND_PATH, "utf8"));
-    if (s.month === month) return s;
-  } catch {}
-  return { month, usd: 0, judged: 0 };
-}
-
-function saveSpend(spend) {
-  fs.writeFileSync(SPEND_PATH, JSON.stringify(spend, null, 2) + "\n", "utf-8");
-}
 
 function loadDotEnv() {
   const envPath = path.join(__dirname, "../.env");
@@ -173,16 +170,22 @@ async function main() {
     process.exit(1);
   }
 
-  const spend = loadSpend();
-  if (spend.usd >= MONTHLY_BUDGET) {
+  const ledger = loadLedger(SPEND_PATH);
+  const bucket = ledger[LEDGER];
+  const other = LEDGER === "ci" ? "manual" : "ci";
+  if (bucket.usd >= MONTHLY_BUDGET) {
     // 上限に当たったらこのランでは何もしない。呼び出し側（ワークフロー）が
     // この終了コードを見てDiscordに通知する。
     console.error(
-      `⛔ 今月(${spend.month})の画像判定コストが $${spend.usd.toFixed(3)} に達しており、` +
-        `上限 $${MONTHLY_BUDGET} を超えています。今月はこれ以上判定しません。`
+      `⛔ 今月(${ledger.month})の${LEDGER === "ci" ? "CI枠" : "手動枠"}が ` +
+        `$${bucket.usd.toFixed(3)} で上限 $${MONTHLY_BUDGET} に達しています` +
+        `（もう一方の枠 $${ledger[other].usd.toFixed(3)} / 合計 $${ledgerTotal(ledger).toFixed(3)}）。`
     );
     process.exit(78);
   }
+  // 以降の加算はこのランの開始時点を基準にする（flush を何度呼んでも二重に乗らない）。
+  const baseUsd = bucket.usd;
+  const baseJudged = bucket.judged;
 
   const items = JSON.parse(fs.readFileSync(DATA_PATH, "utf8"));
 
@@ -212,7 +215,8 @@ async function main() {
   console.log(`🍬 画像の選定: 対象 ${targets.length}件`);
   console.log(`   未採用 ${pool.length}件 / 見送り${MAX_MISSES}回で除外 ${excluded}件`);
   console.log(
-    `   今月の累計 $${spend.usd.toFixed(3)} / 上限 $${MONTHLY_BUDGET}（1ラン上限 $${MAX_SPEND}）`
+    `   ${LEDGER === "ci" ? "CI枠" : "手動枠"} $${bucket.usd.toFixed(3)} / 上限 $${MONTHLY_BUDGET}` +
+      `（1ラン上限 $${MAX_SPEND} / 今月の実支出 合計 $${ledgerTotal(ledger).toFixed(3)}）`
   );
 
   let picked = 0;
@@ -227,11 +231,9 @@ async function main() {
   const flush = () => {
     if (DRY_RUN) return;
     fs.writeFileSync(DATA_PATH, JSON.stringify(items, null, 2), "utf-8");
-    saveSpend({
-      ...spend,
-      usd: spend.usd + costOf(inTok, outTok),
-      judged: spend.judged + picked + none,
-    });
+    bucket.usd = baseUsd + costOf(inTok, outTok);
+    bucket.judged = baseJudged + picked + none;
+    saveLedger(SPEND_PATH, ledger);
   };
 
   for (const item of targets) {
@@ -264,8 +266,10 @@ async function main() {
       console.error(`⛔ 1ラン上限 $${MAX_SPEND} に達したので打ち切ります（残りは次回）`);
       break;
     }
-    if (spend.usd + runCost >= MONTHLY_BUDGET) {
-      console.error(`⛔ 今月の累計上限 $${MONTHLY_BUDGET} に達したので打ち切ります`);
+    if (baseUsd + runCost >= MONTHLY_BUDGET) {
+      console.error(
+        `⛔ ${LEDGER === "ci" ? "CI枠" : "手動枠"}の月上限 $${MONTHLY_BUDGET} に達したので打ち切ります`
+      );
       break;
     }
 
@@ -310,7 +314,10 @@ async function main() {
   console.log(`   トークン: 入力${inTok.toLocaleString()} / 出力${outTok.toLocaleString()}`);
   console.log(`   コスト: $${cost.toFixed(4)}（1件あたり $${judged ? (cost / judged).toFixed(4) : "-"}）`);
   if (!DRY_RUN) {
-    console.log(`   今月の累計: $${(spend.usd + cost).toFixed(3)} / 上限 $${MONTHLY_BUDGET}`);
+    console.log(
+      `   ${LEDGER === "ci" ? "CI枠" : "手動枠"}の累計: $${bucket.usd.toFixed(3)} / 上限 $${MONTHLY_BUDGET}` +
+        `（今月の実支出 合計 $${ledgerTotal(ledger).toFixed(3)}）`
+    );
   } else {
     console.log("   ※ DRY_RUN のため保存していません");
   }

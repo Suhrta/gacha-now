@@ -1,5 +1,11 @@
 {
   "month": "2026-10",
-  "usd": 0.04175,
-  "judged": 17
+  "ci": {
+    "usd": 0,
+    "judged": 0
+  },
+  "manual": {
+    "usd": 0.04175,
+    "judged": 17
+  }
 }

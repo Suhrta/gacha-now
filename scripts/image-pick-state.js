@@ -28,6 +28,68 @@
  * 増えていないのに再判定してしまう。
  */
 import crypto from "node:crypto";
+import fs from "node:fs";
+
+/**
+ * 判定コストの記録を「CI枠」と「手動枠」に分ける。
+ *
+ * 【なぜ分けるか】
+ * 2026-10-14、移行作業と再判定を手でまとめて回して月$0.83を使った。
+ * 記録が1本だったため、日次CIの月上限$0.30の判定にその$0.83が含まれ、
+ * 翌日から月末までCI側が起動直後に exit 78 で止まる状態になった。
+ * 手動実行は人が都度上限を決めて回すもので、無人の日次ランを守るための
+ * 枠とは別に数えないと、片方の都合でもう片方が止まる。
+ *
+ * ファイルは1本のまま（その月に実際いくら使ったかを1か所で見たいので）。
+ *   { month, ci: {usd, judged}, manual: {usd, judged} }
+ *
+ * 既定は "ci"。手動実行のときだけ LEDGER=manual を付ける。
+ * 既定を手動側にすると、付け忘れた手動実行がCI枠を削るので逆にする。
+ */
+export const LEDGER = process.env.LEDGER === "manual" ? "manual" : "ci";
+
+const emptyBucket = () => ({ usd: 0, judged: 0 });
+
+function currentMonth() {
+  return new Date().toISOString().slice(0, 7);
+}
+
+export function loadLedger(filePath) {
+  const month = currentMonth();
+  const empty = { month, ci: emptyBucket(), manual: emptyBucket() };
+  let raw;
+  try {
+    raw = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch {
+    return empty;
+  }
+  // 月が変わったら両方ゼロから数え直す。
+  if (raw.month !== month) return empty;
+  // 旧フォーマット { month, usd, judged } は手動枠に寄せる。
+  // ガチャ側は今日までCI未投入で、食玩側の記録もローカル実行で作ったものなので、
+  // 現時点の記録は全額が手動実行ぶん。
+  if (raw.usd !== undefined && !raw.ci && !raw.manual) {
+    return {
+      month,
+      ci: emptyBucket(),
+      manual: { usd: Number(raw.usd) || 0, judged: Number(raw.judged) || 0 },
+    };
+  }
+  return {
+    month,
+    ci: { usd: Number(raw.ci?.usd) || 0, judged: Number(raw.ci?.judged) || 0 },
+    manual: { usd: Number(raw.manual?.usd) || 0, judged: Number(raw.manual?.judged) || 0 },
+  };
+}
+
+export function saveLedger(filePath, ledger) {
+  fs.writeFileSync(filePath, JSON.stringify(ledger, null, 2) + "\n", "utf-8");
+}
+
+/** その月の実支出（両枠の合計）。ログに出して実額が見えなくなるのを防ぐ。 */
+export function ledgerTotal(ledger) {
+  return ledger.ci.usd + ledger.manual.usd;
+}
 
 /**
  * 店舗の「画像なし」プレースホルダを弾く。

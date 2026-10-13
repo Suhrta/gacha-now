@@ -213,9 +213,9 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          SPENT=$(node -e "try{const s=require('./data/shokugan-image-spend.json');console.log('\$'+s.usd.toFixed(3)+'（'+s.judged+'件）')}catch(e){console.log('不明')}")
+          SPENT=$(node -e "try{const s=require('./data/shokugan-image-spend.json');const b=s.ci||s;console.log('\$'+b.usd.toFixed(3)+'（'+b.judged+'件）')}catch(e){console.log('不明')}")
           curl -s -H "Content-Type: application/json" \
-            -d "{\"content\":\"⚠️ **食玩の画像判定が止まりました**。\n今月の判定コストが ${SPENT} で、上限 \\\$0.30 に達した可能性があります（または実行時エラー）。\n画像が付かないだけで、食玩の掲載・ガチャ本体には影響しません。\n詳細はActionsログの \`Pick clean shokugan images\` を確認してください。\"}" \
+            -d "{\"content\":\"⚠️ **食玩の画像判定が止まりました**。\n今月の**CI枠**が ${SPENT} で、上限 \\\$0.30 に達した可能性があります（または実行時エラー）。\n手動実行ぶんは別枠なのでこの判定には含まれません。\n画像が付かないだけで、食玩の掲載・ガチャ本体には影響しません。\n詳細はActionsログの \`Pick clean shokugan images\` を確認してください。\"}" \
             "$DISCORD_WEBHOOK_URL"
 
       # タカラトミーアーツ商品の一覧画像を楽天から選ぶ。
@@ -245,9 +245,9 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          SPENT=$(node -e "try{const s=require('./data/gacha-image-spend.json');console.log('\$'+s.usd.toFixed(3)+'（'+s.judged+'件）')}catch(e){console.log('不明')}")
+          SPENT=$(node -e "try{const s=require('./data/gacha-image-spend.json');const b=s.ci||s;console.log('\$'+b.usd.toFixed(3)+'（'+b.judged+'件）')}catch(e){console.log('不明')}")
           curl -s -H "Content-Type: application/json" \
-            -d "{\"content\":\"⚠️ **ガチャ商品の画像判定が止まりました**。\n今月の判定コストが ${SPENT} で、上限 \\\$0.30 に達した可能性があります（または実行時エラー）。\nタカラトミーアーツの新商品に画像が付かないだけで、掲載自体には影響しません。\n詳細はActionsログの \`Pick gacha images from Rakuten\` を確認してください。\"}" \
+            -d "{\"content\":\"⚠️ **ガチャ商品の画像判定が止まりました**。\n今月の**CI枠**が ${SPENT} で、上限 \\\$0.30 に達した可能性があります（または実行時エラー）。\n手動実行ぶんは別枠なのでこの判定には含まれません。\nタカラトミーアーツの新商品に画像が付かないだけで、掲載自体には影響しません。\n詳細はActionsログの \`Pick gacha images from Rakuten\` を確認してください。\"}" \
             "$DISCORD_WEBHOOK_URL"
 
       - name: Notify Discord if shokugan collection failed
@@ -288,7 +288,10 @@ jobs:
           git add data/shokugan.json 2>/dev/null || true
           # 画像判定の月次コスト記録。これをコミットしないと毎ラン0から数え直しになり、
           # 上限のガードが効かなくなる。
+          # ガチャ側を足し忘れていて、まさにその状態だった（2026-10-14に修正）。
+          # 記録は { month, ci: {...}, manual: {...} } で、CIが書くのは ci 枠だけ。
           git add data/shokugan-image-spend.json 2>/dev/null || true
+          git add data/gacha-image-spend.json 2>/dev/null || true
           git add -A public/posts/
           # public/thumb/ はコミットしない（2026-10-13にCloudflare R2へ移行）。
           # build-thumbs.js がR2へ直接アップロードし、products.json には
