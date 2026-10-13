@@ -5,6 +5,8 @@ import { CHARACTERS } from "../../data/characters";
 import { SERIES } from "../../data/series";
 import blogPosts from "../../data/blog-posts.json";
 import { getAllReleaseMonths, formatYearMonth } from "../../lib/release";
+import shokugan from "../../data/shokugan.json";
+import { isPublishable as isPublishableShokugan, releaseMonths } from "../../lib/shokugan";
 
 export const dynamic = "force-static";
 
@@ -28,6 +30,9 @@ function topBrands() {
 export function GET() {
   const months = getAllReleaseMonths(products).sort().reverse().slice(0, 4);
   const guides = blogPosts.filter((p) => p.evergreen);
+  // 食玩はページ側と同じ掲載条件で絞る。llms.txt にだけ載って404になることを防ぐ。
+  const shokuganItems = shokugan.filter(isPublishableShokugan);
+  const shokuganMonths = releaseMonths(shokuganItems);
 
   const lines = [
     "# ガチャなう (Gacha Now)",
@@ -53,6 +58,16 @@ export function GET() {
     "## シリーズ特集",
     "",
     ...SERIES.map((s) => `- [${s.name}の一覧・全種情報](${BASE}/series/${s.slug})`),
+    "",
+    "## 食玩（お菓子付き玩具）",
+    "",
+    `> ガチャガチャとは別ジャンル。お菓子売り場で買える、玩具やシール付きのお菓子。${shokuganItems.length}件を掲載。`,
+    "",
+    `- [食玩の新作・発売予定一覧](${BASE}/shokugan): バンダイ キャンディ事業部の商品を発売日順に掲載`,
+    ...shokuganMonths.map(
+      (ym) =>
+        `- [${ym.split("-")[0]}年${Number(ym.split("-")[1])}月発売の食玩一覧](${BASE}/shokugan/release/${ym})`
+    ),
     "",
     "## ガイド記事（編集部執筆）",
     "",
