@@ -981,7 +981,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第2週",
     "brand": "MLB",
-    "types": null
+    "types": 6
   },
   {
     "title": "“ディズニーキャラクター” カプセルリングライトコレクション",
@@ -3501,7 +3501,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第4週",
     "brand": "ドラゴンボール",
-    "types": null
+    "types": 5
   },
   {
     "title": "星のカービィ プププなおかしやさん マスコットチャーム",
@@ -9728,7 +9728,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "なめこ栽培キット",
-    "types": null
+    "types": 6
   },
   {
     "title": "牧場物語 スイングコレクション",
