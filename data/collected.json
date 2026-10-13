@@ -981,7 +981,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第2週",
     "brand": "MLB",
-    "types": 6
+    "types": null
   },
   {
     "title": "“ディズニーキャラクター” カプセルリングライトコレクション",
@@ -3501,7 +3501,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第4週",
     "brand": "ドラゴンボール",
-    "types": 5
+    "types": null
   },
   {
     "title": "星のカービィ プププなおかしやさん マスコットチャーム",
@@ -4905,6 +4905,30 @@
     "releaseWeek": "2026年10月 第3週",
     "brand": "その他",
     "types": 9
+  },
+  {
+    "title": "暗殺教室 殺せんせー めじるしアクセサリー2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118219367000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 第3週",
+    "brand": "その他",
+    "types": 13
   },
   {
     "title": "ノンタン パッケージミニチュアコレクション",
@@ -7811,30 +7835,6 @@
     "types": 8
   },
   {
-    "title": "暗殺教室 殺せんせー めじるしアクセサリー2",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118219367000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000246959_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年10月 第5週",
-    "brand": "その他",
-    "types": 13
-  },
-  {
     "title": "RIIZE ぷくっとリング",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118186324000",
     "source": "バンダイ公式",
@@ -9728,7 +9728,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "なめこ栽培キット",
-    "types": 6
+    "types": null
   },
   {
     "title": "牧場物語 スイングコレクション",
