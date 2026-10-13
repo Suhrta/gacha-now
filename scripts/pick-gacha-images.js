@@ -40,6 +40,7 @@ import {
   candKeys,
   costOf,
   hasNewCandidate,
+  isPlaceholderImage,
   needsRecheck,
   parseChoice,
   requestOptions,
@@ -98,7 +99,7 @@ async function candidates(product) {
       url: String(i.image || "").replace(/_ex=\d+x\d+/, "_ex=400x400"),
       name: i.name,
     }))
-    .filter((x) => x.url);
+    .filter((x) => x.url && !isPlaceholderImage(x.url));
 }
 
 async function pick(product, cands) {

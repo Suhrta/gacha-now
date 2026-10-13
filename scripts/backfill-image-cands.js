@@ -29,7 +29,7 @@ import path from "node:path";
 import https from "node:https";
 import { fileURLToPath } from "node:url";
 import { searchItems, hasCredentials, sleep } from "./rakuten-api.js";
-import { candKeys, todayStamp } from "./image-pick-state.js";
+import { candKeys, isPlaceholderImage, todayStamp } from "./image-pick-state.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
@@ -56,7 +56,7 @@ async function gachaCandidateUrls(product) {
   if (r.error || !r.items?.length) return [];
   return r.items
     .map((i) => String(i.image || "").replace(/_ex=\d+x\d+/, "_ex=400x400"))
-    .filter(Boolean);
+    .filter((u) => u && !isPlaceholderImage(u));
 }
 
 /** pick-shokugan-images.js の candidateImages と同一（JAN検索・hits=10から6枚）。 */
@@ -83,7 +83,8 @@ function shokuganCandidateUrls(jan) {
                 .map((x) => x.Item || x)
                 .map((i) => i.mediumImageUrls?.[0]?.imageUrl)
                 .filter(Boolean)
-                .map((u) => u.replace(/_ex=\d+x\d+/, "_ex=400x400"));
+                .map((u) => u.replace(/_ex=\d+x\d+/, "_ex=400x400"))
+                .filter((u) => !isPlaceholderImage(u));
               resolve([...new Set(urls)].slice(0, MAX_CANDIDATES));
             } catch {
               resolve([]);

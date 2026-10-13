@@ -29,6 +29,7 @@ import {
   candKeys,
   costOf,
   hasNewCandidate,
+  isPlaceholderImage,
   needsRecheck,
   parseChoice,
   requestOptions,
@@ -69,8 +70,6 @@ function saveSpend(spend) {
   fs.writeFileSync(SPEND_PATH, JSON.stringify(spend, null, 2) + "\n", "utf-8");
 }
 
-const client = new Anthropic();
-
 function loadDotEnv() {
   const envPath = path.join(__dirname, "../.env");
   if (!fs.existsSync(envPath)) return;
@@ -84,6 +83,12 @@ function loadDotEnv() {
   }
 }
 loadDotEnv();
+
+// クライアントは .env を読んだ**後**に作る。
+// SDKは生成時にAPIキーを解決するので、順番が逆だとローカル実行で必ず
+// 「Could not resolve authentication method」になる。
+// CIでは ANTHROPIC_API_KEY が本物の環境変数として渡るため、この取り違えに気づけない。
+const client = new Anthropic();
 
 function candidateImages(jan) {
   return new Promise((resolve) => {
@@ -108,7 +113,8 @@ function candidateImages(jan) {
                 .map((x) => x.Item || x)
                 .map((i) => i.mediumImageUrls?.[0]?.imageUrl)
                 .filter(Boolean)
-                .map((u) => u.replace(/_ex=\d+x\d+/, "_ex=400x400"));
+                .map((u) => u.replace(/_ex=\d+x\d+/, "_ex=400x400"))
+                .filter((u) => !isPlaceholderImage(u));
               resolve([...new Set(urls)].slice(0, MAX_CANDIDATES));
             } catch {
               resolve([]);
@@ -155,6 +161,7 @@ async function pickClean(item, urls) {
   const { idx, raw } = parseChoice(res, urls.length);
   return {
     url: idx >= 0 ? urls[idx] : null,
+    idx,
     raw,
     usage: res.usage,
   };
@@ -276,7 +283,7 @@ async function main() {
           delete item.cleanImageMisses;
         }
         picked++;
-        console.log(`   ✅ ${item.name.slice(0, 30)} … 候補${urls.length}枚中 ${r.raw}`);
+        console.log(`   ✅ ${item.name.slice(0, 30)} … 候補${urls.length}枚中 #${r.idx}`);
       } else {
         none++;
         if (!DRY_RUN) item.cleanImageMisses = (item.cleanImageMisses || 0) + 1;

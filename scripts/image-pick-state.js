@@ -29,6 +29,22 @@
  */
 import crypto from "node:crypto";
 
+/**
+ * 店舗の「画像なし」プレースホルダを弾く。
+ *
+ * 楽天の出品画像には、店舗が画像を用意していないときの代替画像が混じる
+ * （実測: gacha-samurai/cabinet/noimage.jpg）。
+ * これは無地に近いので「販促バナーが無く商品名と矛盾しない画像」として
+ * AI判定を通ってしまい、実際に1件採用されてしまった。
+ * 中身を見て判断する話ではなくURLで確定的に分かるので、候補に入れる前に落とす。
+ */
+const PLACEHOLDER_RE =
+  /\b(no[-_]?image|no[-_]?photo|noimg|dummy|coming[-_]?soon|now[-_]?printing|preparing)\b|noimage|nowprinting/i;
+
+export function isPlaceholderImage(url) {
+  return PLACEHOLDER_RE.test(String(url || ""));
+}
+
 /** 候補が増えていないか見るだけなので、衝突確率より短さを優先して8桁に切る。 */
 export function candKey(url) {
   return crypto.createHash("sha1").update(String(url)).digest("hex").slice(0, 8);
