@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { thumbSources } from "../lib/images";
+import { thumbSources, bandaiSrcSet } from "../lib/images";
 
 /**
  * サムネイル用の商品画像。
@@ -35,9 +35,16 @@ export default function ProductThumb({ product, alt, className = "" }) {
     );
   }
 
+  // バンダイのCDNは解像度違いのURLを持つので srcset で渡し、表示幅に応じて
+  // ブラウザに選ばせる（lib/images.js の bandaiSrcSet）。
+  // sizes は一覧カードの実寸に合わせてある。詳細ページは大きく出るが、
+  // その場合もブラウザが b(560px) を選ぶので粗くならない。
+  const srcSet = bandaiSrcSet(src);
+
   return (
     <img
       src={src}
+      {...(srcSet ? { srcSet, sizes: "(min-width: 768px) 200px, 45vw" } : {})}
       alt={alt ?? product.name}
       width={480}
       height={480}

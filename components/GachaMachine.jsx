@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import NoImage from "./NoImage";
 import ProductName from "./ProductName";
-import { thumbSources } from "../lib/images";
+import { thumbSources, bandaiSrcSet } from "../lib/images";
 
 export default function GachaMachine({ product, index, onClick, isFavorite = false }) {
   const [vis, setVis] = useState(false);
@@ -75,7 +75,14 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
             background: "linear-gradient(155deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.08) 30%, rgba(255,255,255,0) 45%)",
           }} />
           {imgSrc ? (
+            // バンダイのCDNは解像度違いのURLを持つので srcset で渡し、
+            // 表示幅に応じてブラウザに選ばせる（lib/images.js の bandaiSrcSet）。
+            // 一覧カードの実表示は150〜200px程度なので多くの環境で m(11KB) が選ばれ、
+            // 以前の自前サムネイル(480px webp・32KB)より軽くなる。
             <img src={imgSrc} alt={product.name} className="w-full block"
+              {...(bandaiSrcSet(imgSrc)
+                ? { srcSet: bandaiSrcSet(imgSrc), sizes: "(min-width: 768px) 200px, 45vw" }
+                : {})}
               width={480} height={480}
               // 先頭4件はモバイル2列でほぼファーストビューに入る。
               // ここを遅延させるとLCPがそのぶん遅れるので先に読ませる。

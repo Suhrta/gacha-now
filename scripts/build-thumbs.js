@@ -119,6 +119,20 @@ function hasSource(product) {
   return Boolean(product.img) && !product.img.includes("placehold");
 }
 
+// バンダイは自前サムネイルを作らない（2026-10-13）。
+//
+// バンダイの「著作権・商標について」が画像の複製・転載を明確に断っているため、
+// 縮小コピーを自サーバーに置く構成をやめ、仕入れ元CDNへ直リンクする方針に変えた。
+// バンダイのCDNは /model/{s|m|b|xl}/ で解像度を選べるので、表示側が srcset で
+// m(200px/11KB) と b(560px/65KB) を渡す（lib/images.js の bandaiSrcSet）。
+//
+// ここを外し忘れると、翌日のランで593件が再生成されて元に戻る。
+const BANDAI_HOST = "bandai-a.akamaihd.net";
+
+function isCopyAllowed(product) {
+  return !String(product.img || "").includes(BANDAI_HOST);
+}
+
 async function prune(products) {
   const alive = new Set(products.map((p) => `${p.id}.webp`));
   let removed = 0;
@@ -156,7 +170,9 @@ async function main() {
   }
 
   // 既に生成済みの商品は作り直さない。毎日の実行で叩くのは新商品ぶんだけになる。
-  let targets = products.filter((p) => hasSource(p) && (FORCE || !thumbExists(p.id)));
+  let targets = products.filter(
+    (p) => hasSource(p) && isCopyAllowed(p) && (FORCE || !thumbExists(p.id))
+  );
   if (LIMIT > 0) targets = targets.slice(0, LIMIT);
 
   console.log(`商品 ${products.length}件 / 生成対象 ${targets.length}件`);
@@ -186,9 +202,13 @@ async function main() {
 
   // 生成済みファイルの有無をそのまま products.json に反映する。
   // 表示側は thumb があればそれを、無ければ仕入れ元URLを使う。
+  //
+  // isCopyAllowed を見るのが重要。thumbExists() はR2のキー一覧を見るので、
+  // 移行直後（R2からまだ消していない期間）はバンダイ商品にも thumb が復活してしまい、
+  // 直リンクへの切り替えが翌日のランで巻き戻る。
   let changed = 0;
   for (const p of products) {
-    const url = thumbExists(p.id) ? thumbUrlFor(p.id) : undefined;
+    const url = isCopyAllowed(p) && thumbExists(p.id) ? thumbUrlFor(p.id) : undefined;
     if (p.thumb === url) continue;
     if (url) p.thumb = url;
     else delete p.thumb;
