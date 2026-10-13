@@ -7434,5 +7434,13 @@
   "ave-mujica--6db2b30d": {
     "sig": "Ave Mujica 額縁アートコレクション|5|p",
     "checkedAt": 1791770643705
+  },
+  "gacha-5a9d8bbb": {
+    "sig": "続・土下座 マーカーチャーム|8|r",
+    "checkedAt": 1791861870450,
+    "compset": {
+      "q": "土下座 ガチャ コンプ",
+      "count": 3
+    }
   }
 }
