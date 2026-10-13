@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { shortReleaseLabel, shortPriceLabel, isReleased } from "../lib/shokugan";
+import { shortReleaseLabel, shortPriceLabel, isReleased, imageUrl } from "../lib/shokugan";
 
 // 食玩の一覧カード。ガチャの ProductLinkCard と見た目を揃えてある。
 //
@@ -15,9 +15,9 @@ export default function ShokuganCard({ item }) {
       href={`/shokugan/${item.id}`}
       className="block p-3 bg-white rounded-lg border border-cream-border no-underline hover:border-brand-accent transition-colors"
     >
-      {item.rakutenImage ? (
+      {imageUrl(item) ? (
         <img
-          src={item.rakutenImage}
+          src={imageUrl(item)}
           alt={item.name}
           width={400}
           height={400}

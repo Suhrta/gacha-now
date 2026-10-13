@@ -24,6 +24,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import https from "node:https";
 import { fileURLToPath } from "node:url";
 import { searchItems, hasCredentials, sleep } from "./rakuten-api.js";
 
@@ -44,6 +45,50 @@ const FORCE_PRICE = String(process.env.FORCE_PRICE || "") === "1";
 function upsizeRakutenImage(url) {
   if (!url) return null;
   return url.replace(/_ex=\d+x\d+/, "_ex=400x400");
+}
+
+/**
+ * 商品価格ナビ（製品マスター）の画像を取る。
+ *
+ * 市場の商品検索(IchibaItem)が返すのは**店舗が作った出品画像**で、
+ * 「送料無料」「500円OFFクーポン」「20個」といった販促バナーが焼き込まれていることが多い。
+ * 商品情報ページに出すと内容を誤認させるので、まずカタログ側の画像を探す。
+ * こちらは製品マスターの画像なのでバナーが乗らない。
+ *
+ * ただしカバレッジは低い（製品登録が無い商品、登録はあるが画像が無い商品がある）。
+ * 取れなかった場合の扱いは表示側で決める。
+ */
+function fetchCatalogImage(jan) {
+  return new Promise((resolve) => {
+    const params = new URLSearchParams({
+      applicationId: process.env.RAKUTEN_APP_ID,
+      accessKey: process.env.RAKUTEN_ACCESS_KEY,
+      keyword: jan,
+      hits: "1",
+      format: "json",
+    });
+    https
+      .get(
+        `https://openapi.rakuten.co.jp/ichibaproduct/api/Product/Search/20250801?${params}`,
+        { headers: { Origin: "https://gacha-now.vercel.app" } },
+        (res) => {
+          let body = "";
+          res.on("data", (c) => (body += c));
+          res.on("end", () => {
+            if (res.statusCode !== 200) return resolve(null);
+            try {
+              const data = JSON.parse(body);
+              const first = (data.Products || [])[0];
+              const p = first ? first.Product || first : null;
+              resolve(p && p.mediumImageUrl ? upsizeRakutenImage(p.mediumImageUrl) : null);
+            } catch {
+              resolve(null);
+            }
+          });
+        }
+      )
+      .on("error", () => resolve(null));
+  });
 }
 
 async function fetchOfficialPrice(url) {
@@ -85,6 +130,7 @@ async function main() {
   let matched = 0;
   let boxed = 0;
   let errors = 0;
+  let catalogHits = 0;
 
   for (const item of targets) {
     // --- 価格（公式・事実のみ） ---
@@ -113,9 +159,20 @@ async function main() {
       await sleep();
       if (!single.error && single.count >= 1 && single.items.length > 0) {
         const top = single.items[0];
-        item.rakutenImage = upsizeRakutenImage(top.image);
+        // shopImage は販促バナー入りのことが多い。表示に使うかは表示側で決める。
+        item.shopImage = upsizeRakutenImage(top.image);
         item.rakutenCount = single.count;
         matched++;
+
+        // カタログ画像（バナーなし）を探す。取れたらこちらを表示に使う。
+        const catalog = await fetchCatalogImage(item.jan);
+        await sleep();
+        if (catalog) {
+          item.catalogImage = catalog;
+          catalogHits++;
+        } else {
+          delete item.catalogImage;
+        }
 
         // --- BOX（箱買い） ---
         const box = await searchItems(`${item.jan} BOX`, { hits: 1 });
@@ -127,7 +184,8 @@ async function main() {
           delete item.rakutenBoxCount;
         }
       } else {
-        delete item.rakutenImage;
+        delete item.shopImage;
+        delete item.catalogImage;
         delete item.rakutenCount;
         delete item.rakutenBoxCount;
       }
@@ -138,10 +196,15 @@ async function main() {
 
   fs.writeFileSync(DATA_PATH, JSON.stringify(items, null, 2), "utf-8");
 
-  console.log(`\n✅ 価格取得 ${priced}件 / 楽天一致 ${matched}件 / BOXあり ${boxed}件 / エラー ${errors}件`);
-  const withImage = items.filter((p) => p.rakutenImage).length;
+  console.log(
+    `\n✅ 価格取得 ${priced}件 / 楽天一致 ${matched}件 / カタログ画像 ${catalogHits}件 / BOXあり ${boxed}件 / エラー ${errors}件`
+  );
+  const withCatalog = items.filter((p) => p.catalogImage).length;
+  const withShop = items.filter((p) => p.shopImage).length;
   const withPrice = items.filter((p) => typeof p.price === "number").length;
-  console.log(`   画像あり: ${withImage}/${items.length} ・ 価格あり: ${withPrice}/${items.length}`);
+  console.log(`   カタログ画像(バナーなし)      : ${withCatalog}/${items.length}`);
+  console.log(`   店舗画像(バナー入りの可能性)  : ${withShop}/${items.length}`);
+  console.log(`   価格あり                      : ${withPrice}/${items.length}`);
   console.log(`💾 ${DATA_PATH}`);
 }
 

@@ -11,6 +11,7 @@ import {
   releaseLabel,
   priceLabel,
   shortPriceLabel,
+  imageUrl,
   relatedGacha,
   byReleaseAsc,
 } from "../../../lib/shokugan";
@@ -46,7 +47,7 @@ export function generateMetadata({ params }) {
     openGraph: {
       title: `${item.name}｜${priceText}【${tag}】`,
       description: `バンダイの食玩「${item.name}」${priceText}。${releaseLabel(item)}。`,
-      images: item.rakutenImage ? [item.rakutenImage] : [],
+      images: imageUrl(item) ? [imageUrl(item)] : [],
     },
   };
 }
@@ -69,7 +70,7 @@ export default function ShokuganItemPage({ params }) {
     "@context": "https://schema.org",
     "@type": "Product",
     name: item.name,
-    ...(item.rakutenImage ? { image: [item.rakutenImage] } : {}),
+    ...(imageUrl(item) ? { image: [imageUrl(item)] } : {}),
     ...(item.description ? { description: item.description } : {}),
     brand: { "@type": "Brand", name: "バンダイ" },
     // 構造化データの price は総額（税込）を申告する。税抜を出すと
@@ -131,9 +132,9 @@ export default function ShokuganItemPage({ params }) {
         >
           <h1 className="text-base font-bold text-brand-text leading-snug mb-3">{item.name}</h1>
 
-          {item.rakutenImage && (
+          {imageUrl(item) && (
             <img
-              src={item.rakutenImage}
+              src={imageUrl(item)}
               alt={item.name}
               width={400}
               height={400}
