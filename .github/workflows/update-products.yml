@@ -186,9 +186,12 @@ jobs:
       # 焼き込まれていることが多く、そのままでは商品情報ページに出せない。
       # 複数店舗の候補から選ばせると実測で採用率88%・1件$0.0049。
       #
-      # 判定済み（cleanImage がある）商品は対象外なので、毎ラン同じコストはかからない。
-      # 新商品は月40〜45件なので運用は月$0.20程度の見込み。
-      # それでも月$1を超えそうなときは scripts 側が exit 78 で止まる（下で通知する）。
+      # 採用済み（cleanImage がある）商品は対象外。さらに、判定した候補セットを
+      # 記録して**候補が増えた時だけ**再判定する（scripts/image-pick-state.js）。
+      # これを入れる前は、候補が全部バナー入りだった22件を毎日判定し直していて
+      # 月$2を超え、14日目に上限で止まったうえ新商品の順番が回ってこなかった。
+      # 新商品は月40〜45件なので運用は月$0.15程度の見込み。
+      # それでも上限を超えそうなときは scripts 側が exit 78 で止まる（下で通知する）。
       - name: Pick clean shokugan images
         if: steps.shokugan_collect.outcome == 'success'
         id: shokugan_images
@@ -198,7 +201,8 @@ jobs:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
           LIMIT: '20'
-          MONTHLY_BUDGET: '1'
+          MONTHLY_BUDGET: '0.30'
+          MAX_SPEND: '0.10'
         run: node scripts/pick-shokugan-images.js
 
       # exit 78 は「今月の予算上限に達した」の意味（scripts/pick-shokugan-images.js）。
@@ -211,7 +215,39 @@ jobs:
         run: |
           SPENT=$(node -e "try{const s=require('./data/shokugan-image-spend.json');console.log('\$'+s.usd.toFixed(3)+'（'+s.judged+'件）')}catch(e){console.log('不明')}")
           curl -s -H "Content-Type: application/json" \
-            -d "{\"content\":\"⚠️ **食玩の画像判定が止まりました**。\n今月の判定コストが ${SPENT} で、上限 \\\$1 に達した可能性があります（または実行時エラー）。\n画像が付かないだけで、食玩の掲載・ガチャ本体には影響しません。\n詳細はActionsログの \`Pick clean shokugan images\` を確認してください。\"}" \
+            -d "{\"content\":\"⚠️ **食玩の画像判定が止まりました**。\n今月の判定コストが ${SPENT} で、上限 \\\$0.30 に達した可能性があります（または実行時エラー）。\n画像が付かないだけで、食玩の掲載・ガチャ本体には影響しません。\n詳細はActionsログの \`Pick clean shokugan images\` を確認してください。\"}" \
+            "$DISCORD_WEBHOOK_URL"
+
+      # タカラトミーアーツ商品の一覧画像を楽天から選ぶ。
+      #
+      # タカトミのサイトポリシーが非営利・私的使用を除く無断使用を禁じているため、
+      # 権利管理が厳しいIP（lib/strict-ip.js の70件）は自前コピーを置けず、
+      # 楽天画像に頼っている。新商品は月45件入るので、CIに入れておかないと
+      # 新しいタカトミ商品に画像が付かないまま積み上がる。
+      #
+      # 食玩と同じ仕組みで、候補が増えた時だけ判定する。見送りが3回続いた商品は外す。
+      - name: Pick gacha images from Rakuten
+        id: gacha_images
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          LIMIT: '15'
+          MONTHLY_BUDGET: '0.30'
+          MAX_SPEND: '0.10'
+        run: node scripts/pick-gacha-images.js
+
+      # exit 78 は「今月の予算上限に達した」の意味（scripts/pick-gacha-images.js）。
+      - name: Notify Discord if gacha image budget hit
+        if: steps.gacha_images.outcome == 'failure'
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          SPENT=$(node -e "try{const s=require('./data/gacha-image-spend.json');console.log('\$'+s.usd.toFixed(3)+'（'+s.judged+'件）')}catch(e){console.log('不明')}")
+          curl -s -H "Content-Type: application/json" \
+            -d "{\"content\":\"⚠️ **ガチャ商品の画像判定が止まりました**。\n今月の判定コストが ${SPENT} で、上限 \\\$0.30 に達した可能性があります（または実行時エラー）。\nタカラトミーアーツの新商品に画像が付かないだけで、掲載自体には影響しません。\n詳細はActionsログの \`Pick gacha images from Rakuten\` を確認してください。\"}" \
             "$DISCORD_WEBHOOK_URL"
 
       - name: Notify Discord if shokugan collection failed

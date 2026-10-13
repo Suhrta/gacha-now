@@ -24,6 +24,17 @@ import path from "node:path";
 import https from "node:https";
 import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
+import {
+  MAX_MISSES,
+  candKeys,
+  costOf,
+  hasNewCandidate,
+  needsRecheck,
+  parseChoice,
+  requestOptions,
+  sortByStaleness,
+  todayStamp,
+} from "./image-pick-state.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = path.join(__dirname, "..", "data", "shokugan.json");
@@ -34,9 +45,14 @@ const DRY_RUN = !!process.env.DRY_RUN;
 const MAX_CANDIDATES = 6;
 
 // 月あたりの判定コストの上限（USD）。超えそうならその月は判定を止める。
-// 実測は1件$0.0049で、新商品は月40〜45件なので通常は月$0.20程度に収まる。
-// 収集元の仕様変更などで対象が急増したときに、黙って課金が膨らむのを防ぐ。
-const MONTHLY_BUDGET = Number(process.env.MONTHLY_BUDGET || 1);
+// 実測は1件$0.0035で、新商品は月40〜45件。候補が増えた時だけ再判定する作りなので
+// 通常は月$0.15程度に収まる。収集元の仕様変更などで対象が急増したときに、
+// 黙って課金が膨らむのを防ぐ。
+const MONTHLY_BUDGET = Number(process.env.MONTHLY_BUDGET || 0.3);
+// 1ランの上限。累計とは別に要る。
+// 月初に累計がゼロの状態で収集元の仕様変更などで対象が急増すると、
+// 累計上限だけでは1回のランで月ぶん全部を使い切ってしまう。
+const MAX_SPEND = Number(process.env.MAX_SPEND || 0.1);
 const SPEND_PATH = path.join(__dirname, "..", "data", "shokugan-image-spend.json");
 
 /** その月に使った額を読む。月が変わったらゼロから数え直す。 */
@@ -123,9 +139,8 @@ async function pickClean(item, urls) {
         `（商品パッケージ自体に印刷されている商品名やキャラクターの絵は問題ありません。\n` +
         `　あくまで「店舗が後から合成した要素」を見てください）\n\n` +
         `画像は0から${urls.length - 1}の番号で渡します。\n` +
-        `ふさわしいものが1枚でもあれば、その番号だけを半角数字で出力してください。\n` +
-        `どれもふさわしくなければ none とだけ出力してください。\n` +
-        `番号か none 以外は何も書かないでください。`,
+        `ふさわしいものが1枚でもあればその番号を、\n` +
+        `どれもふさわしくなければ "none" を choice に入れて返してください。`,
     },
   ];
   for (const url of urls) {
@@ -133,21 +148,14 @@ async function pickClean(item, urls) {
   }
 
   const res = await client.messages.create({
-    model: "claude-sonnet-5",
-    max_tokens: 16,
+    ...requestOptions(urls.length),
     messages: [{ role: "user", content }],
   });
 
-  const text = res.content
-    .filter((c) => c.type === "text")
-    .map((c) => c.text)
-    .join("")
-    .trim();
-
-  const idx = /^\d+$/.test(text) ? Number(text) : -1;
+  const { idx, raw } = parseChoice(res, urls.length);
   return {
-    url: idx >= 0 && idx < urls.length ? urls[idx] : null,
-    raw: text,
+    url: idx >= 0 ? urls[idx] : null,
+    raw,
     usage: res.usage,
   };
 }
@@ -170,38 +178,87 @@ async function main() {
   }
 
   const items = JSON.parse(fs.readFileSync(DATA_PATH, "utf8"));
-  // 判定済み（cleanImage がある）と、カタログ画像がある商品は対象外。
-  // 一度判定したものを再判定しないので、毎ラン同じコストはかからない。
+
+  // 採用済み（cleanImage がある）と、カタログ画像がある商品は対象外。
+  // さらに、見送りが MAX_MISSES 回続いた商品は打ち切る。
   //
-  // 「判定したが採用できなかった」ものは記録していないため、候補が全部バナー入りだった
-  // 商品は翌日も判定し直される。実測で8件中1件なので許容する
-  //（記録を足すほうが複雑になり、採用できる画像が後から出品される可能性もある）。
-  const targets = items
-    .filter((i) => i.jan && !i.catalogImage && !i.cleanImage)
+  // 【ここが以前の壊れ方】
+  // 以前は「cleanImage が無い」だけを条件に配列順で先頭20件を取っていた。
+  // 判定して見送った結果を記録していなかったため、
+  //   - 候補が全部バナー入りだった22件 → 毎日AIを呼び直す（月$2超で14日目に上限）
+  //   - 楽天に候補がゼロの25件        → 毎日楽天APIを叩く
+  // の計47件が永久に消えず、LIMIT=20 の枠を毎日占め続けた。
+  // 結果として**後から入る新商品は順番が回ってこない**。
+  // いまは候補セットを記録し、増えた時だけ判定する（scripts/image-pick-state.js）。
+  const pool = items.filter(
+    (i) => i.jan && !i.catalogImage && !i.cleanImage && (i.cleanImageMisses || 0) < MAX_MISSES
+  );
+  // 確認が古い順。これをしないと上と同じ詰まりが再発する。
+  const targets = sortByStaleness(pool, "cleanImageCheckedAt")
+    .filter((i) => needsRecheck(i.cleanImageCheckedAt))
     .slice(0, LIMIT);
 
+  const excluded = items.filter(
+    (i) => i.jan && !i.catalogImage && !i.cleanImage && (i.cleanImageMisses || 0) >= MAX_MISSES
+  ).length;
+
   console.log(`🍬 画像の選定: 対象 ${targets.length}件`);
-  console.log(`   今月の判定コスト: $${spend.usd.toFixed(3)} / 上限 $${MONTHLY_BUDGET}`);
+  console.log(`   未採用 ${pool.length}件 / 見送り${MAX_MISSES}回で除外 ${excluded}件`);
+  console.log(
+    `   今月の累計 $${spend.usd.toFixed(3)} / 上限 $${MONTHLY_BUDGET}（1ラン上限 $${MAX_SPEND}）`
+  );
 
   let picked = 0;
   let none = 0;
   let noCandidates = 0;
+  let unchanged = 0;
   let inTok = 0;
   let outTok = 0;
+
+  // 判定1件ごとに書く。以前は最後にまとめて書いていたため、途中で停止すると
+  // 消費したコストだけが残り、再実行で同じ商品に二重に課金していた。
+  const flush = () => {
+    if (DRY_RUN) return;
+    fs.writeFileSync(DATA_PATH, JSON.stringify(items, null, 2), "utf-8");
+    saveSpend({
+      ...spend,
+      usd: spend.usd + costOf(inTok, outTok),
+      judged: spend.judged + picked + none,
+    });
+  };
 
   for (const item of targets) {
     const urls = await candidateImages(item.jan);
     await new Promise((r) => setTimeout(r, 1200));
+    const freshKeys = candKeys(urls);
+
     if (urls.length === 0) {
       noCandidates++;
+      if (!DRY_RUN) {
+        item.cleanImageCheckedAt = todayStamp();
+        item.cleanImageCands = [];
+      }
       console.log(`   候補なし: ${item.name.slice(0, 32)}`);
+      flush();
+      continue;
+    }
+
+    // 前回見た候補セットから増えていないなら、同じ答えになるのでAIを呼ばない。
+    if (!hasNewCandidate(freshKeys, item.cleanImageCands)) {
+      unchanged++;
+      if (!DRY_RUN) item.cleanImageCheckedAt = todayStamp();
+      flush();
       continue;
     }
 
     // ラン中にも上限を見る。1ランで大量に処理するときに超過してから気づくのを防ぐ。
-    const spentSoFar = spend.usd + (inTok / 1e6) * 3 + (outTok / 1e6) * 15;
-    if (spentSoFar >= MONTHLY_BUDGET) {
-      console.error(`⛔ 上限 $${MONTHLY_BUDGET} に達したのでここで打ち切ります`);
+    const runCost = costOf(inTok, outTok);
+    if (runCost >= MAX_SPEND) {
+      console.error(`⛔ 1ラン上限 $${MAX_SPEND} に達したので打ち切ります（残りは次回）`);
+      break;
+    }
+    if (spend.usd + runCost >= MONTHLY_BUDGET) {
+      console.error(`⛔ 今月の累計上限 $${MONTHLY_BUDGET} に達したので打ち切ります`);
       break;
     }
 
@@ -209,37 +266,47 @@ async function main() {
       const r = await pickClean(item, urls);
       inTok += r.usage.input_tokens;
       outTok += r.usage.output_tokens;
+      if (!DRY_RUN) {
+        item.cleanImageCheckedAt = todayStamp();
+        item.cleanImageCands = freshKeys;
+      }
       if (r.url) {
-        if (!DRY_RUN) item.cleanImage = r.url;
+        if (!DRY_RUN) {
+          item.cleanImage = r.url;
+          delete item.cleanImageMisses;
+        }
         picked++;
-        console.log(`   ✅ ${item.name.slice(0, 30)} … 候補${urls.length}枚中 #${r.raw}`);
+        console.log(`   ✅ ${item.name.slice(0, 30)} … 候補${urls.length}枚中 ${r.raw}`);
       } else {
         none++;
-        console.log(`   ─ ${item.name.slice(0, 30)} … 候補${urls.length}枚すべて不採用`);
+        if (!DRY_RUN) item.cleanImageMisses = (item.cleanImageMisses || 0) + 1;
+        console.log(
+          `   ─ ${item.name.slice(0, 30)} … 候補${urls.length}枚すべて不採用` +
+            `（${item.cleanImageMisses || 0}/${MAX_MISSES}回目）`
+        );
       }
+      flush();
     } catch (e) {
       console.error(`   ⚠️ ${item.name.slice(0, 30)}: ${e.message}`);
     }
   }
 
-  if (!DRY_RUN) fs.writeFileSync(DATA_PATH, JSON.stringify(items, null, 2), "utf-8");
-
   const judged = picked + none;
-  const cost = (inTok / 1e6) * 3 + (outTok / 1e6) * 15;
+  const cost = costOf(inTok, outTok);
 
-  if (!DRY_RUN) {
-    spend.usd += cost;
-    spend.judged += judged;
-    saveSpend(spend);
-    console.log(`   今月の累計: $${spend.usd.toFixed(3)} / 上限 $${MONTHLY_BUDGET}（${spend.judged}件判定）`);
-  }
-  console.log(`\n✅ 採用 ${picked}件 / 不採用 ${none}件 / 候補なし ${noCandidates}件`);
+  console.log(
+    `\n✅ 採用 ${picked}件 / 不採用 ${none}件 / 候補なし ${noCandidates}件 / 候補に変化なし ${unchanged}件`
+  );
   if (judged > 0) {
     console.log(`   採用率: ${Math.round((picked / judged) * 100)}%（判定できた${judged}件中）`);
   }
   console.log(`   トークン: 入力${inTok.toLocaleString()} / 出力${outTok.toLocaleString()}`);
   console.log(`   コスト: $${cost.toFixed(4)}（1件あたり $${judged ? (cost / judged).toFixed(4) : "-"}）`);
-  if (DRY_RUN) console.log("   ※ DRY_RUN のため保存していません");
+  if (!DRY_RUN) {
+    console.log(`   今月の累計: $${(spend.usd + cost).toFixed(3)} / 上限 $${MONTHLY_BUDGET}`);
+  } else {
+    console.log("   ※ DRY_RUN のため保存していません");
+  }
 }
 
 main().catch((e) => {

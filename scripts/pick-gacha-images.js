@@ -22,6 +22,10 @@
  * 別商品の画像を出すのは画像なしより悪いので、AI判定に
  * 「販促バナーが無いか」だけでなく「商品名と一致する商品の画像か」の確認も含める。
  *
+ * 【再判定のコストを抑える仕組み】
+ * 判定した候補セットを記録し、新しい候補が増えた時だけAIを呼ぶ。
+ * 判定の要否・間隔・打ち切りの規則は scripts/image-pick-state.js に集約している。
+ *
  * 実行例:
  *   DRY_RUN=1 LIMIT=5 node scripts/pick-gacha-images.js
  *   LIMIT=200 node scripts/pick-gacha-images.js
@@ -31,6 +35,17 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { searchItems, hasCredentials, sleep } from "./rakuten-api.js";
+import {
+  MAX_MISSES,
+  candKeys,
+  costOf,
+  hasNewCandidate,
+  needsRecheck,
+  parseChoice,
+  requestOptions,
+  sortByStaleness,
+  todayStamp,
+} from "./image-pick-state.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
@@ -39,7 +54,12 @@ const SPEND_PATH = path.join(__dirname, "..", "data", "gacha-image-spend.json");
 const LIMIT = Number(process.env.LIMIT || 20);
 const DRY_RUN = !!process.env.DRY_RUN;
 const MAX_CANDIDATES = 6;
-const MONTHLY_BUDGET = Number(process.env.MONTHLY_BUDGET || 1);
+// その月の累計の上限。到達したらその月は判定しない（exit 78 でCIが通知する）。
+const MONTHLY_BUDGET = Number(process.env.MONTHLY_BUDGET || 0.3);
+// 1ランの上限。累計とは別に要る。
+// 月初に累計がゼロの状態で収集元の仕様変更などで対象が急増すると、
+// 累計上限だけでは1回のランで月ぶん全部を使い切ってしまう。
+const MAX_SPEND = Number(process.env.MAX_SPEND || 0.1);
 
 // 対象の仕入れ元。ここに無い仕入れ元は触らない。
 // キタンクラブ・ブシロードは明示的な禁止が無く、今回は現状維持と判断した。
@@ -109,28 +129,21 @@ async function pick(product, cands) {
         `- 複数商品のコラージュ、比較表\n` +
         `（商品パッケージ自体に印刷されている文字や絵は問題ありません。\n` +
         `　店舗が後から合成した要素だけを見てください）\n\n` +
-        `両方を満たすものがあればその番号だけを半角数字で、\n` +
-        `無ければ none とだけ出力してください。それ以外は何も書かないでください。`,
+        `両方を満たすものがあればその番号を、無ければ "none" を choice に入れて返してください。`,
     },
   ];
   for (const c of cands) content.push({ type: "image", source: { type: "url", url: c.url } });
 
   const res = await client.messages.create({
-    model: "claude-sonnet-5",
-    max_tokens: 16,
+    ...requestOptions(cands.length),
     messages: [{ role: "user", content }],
   });
 
-  const text = res.content
-    .filter((c) => c.type === "text")
-    .map((c) => c.text)
-    .join("")
-    .trim();
-  const idx = /^\d+$/.test(text) ? Number(text) : -1;
+  const { idx, raw } = parseChoice(res, cands.length);
   return {
-    url: idx >= 0 && idx < cands.length ? cands[idx].url : null,
-    matchedName: idx >= 0 && idx < cands.length ? cands[idx].name : null,
-    raw: text,
+    url: idx >= 0 ? cands[idx].url : null,
+    matchedName: idx >= 0 ? cands[idx].name : null,
+    raw,
     usage: res.usage,
   };
 }
@@ -154,37 +167,81 @@ async function main() {
   }
 
   const products = JSON.parse(fs.readFileSync(PRODUCTS_PATH, "utf8"));
-  const targets = products
-    .filter(
-      (p) =>
-        String(p.img || "").includes(TARGET_HOST) &&
-        !p.rakutenThumb &&
-        !p.rakutenThumbChecked
-    )
+
+  // 採用済みは触らない。見送りが続いた商品は打ち切る。
+  // 残りのうち、前回の確認から RECHECK_DAYS 経ったものだけを今回見る。
+  const pool = products.filter(
+    (p) =>
+      String(p.img || "").includes(TARGET_HOST) &&
+      !p.rakutenThumb &&
+      (p.rakutenThumbMisses || 0) < MAX_MISSES
+  );
+  // 確認が古い順。配列順のままだと先頭の商品だけを毎回見てしまい、
+  // 後ろに積まれた新商品にいつまでも画像が付かない。
+  const targets = sortByStaleness(pool, "rakutenThumbCheckedAt")
+    .filter((p) => needsRecheck(p.rakutenThumbCheckedAt))
     .slice(0, LIMIT);
 
+  const excluded = products.filter(
+    (p) =>
+      String(p.img || "").includes(TARGET_HOST) &&
+      !p.rakutenThumb &&
+      (p.rakutenThumbMisses || 0) >= MAX_MISSES
+  ).length;
+
   console.log(`🖼  タカラトミーアーツ商品の画像選定: 対象 ${targets.length}件`);
-  console.log(`   今月の判定コスト: $${spend.usd.toFixed(3)} / 上限 $${MONTHLY_BUDGET}`);
+  console.log(`   未採用 ${pool.length}件 / 見送り${MAX_MISSES}回で除外 ${excluded}件`);
+  console.log(
+    `   今月の累計 $${spend.usd.toFixed(3)} / 上限 $${MONTHLY_BUDGET}（1ラン上限 $${MAX_SPEND}）`
+  );
 
   let picked = 0;
   let none = 0;
   let noCand = 0;
+  let unchanged = 0;
   let inTok = 0;
   let outTok = 0;
+
+  // 判定1件ごとに書く。以前は最後にまとめて書いていたため、途中で停止すると
+  // 消費したコストだけが残り、再実行で同じ商品に二重に課金していた。
+  const flush = () => {
+    if (DRY_RUN) return;
+    fs.writeFileSync(PRODUCTS_PATH, JSON.stringify(products, null, 2), "utf-8");
+    saveSpend({ ...spend, usd: spend.usd + costOf(inTok, outTok), judged: spend.judged + picked + none });
+  };
 
   for (const p of targets) {
     const cands = await candidates(p);
     await sleep();
+    const freshKeys = candKeys(cands.map((c) => c.url));
+
     if (cands.length === 0) {
       noCand++;
-      if (!DRY_RUN) p.rakutenThumbChecked = true;
+      if (!DRY_RUN) {
+        p.rakutenThumbChecked = true;
+        p.rakutenThumbCheckedAt = todayStamp();
+        p.rakutenThumbCands = [];
+      }
       console.log(`   候補なし: ${p.name.slice(0, 32)}`);
+      flush();
       continue;
     }
 
-    const spentSoFar = spend.usd + (inTok / 1e6) * 3 + (outTok / 1e6) * 15;
-    if (spentSoFar >= MONTHLY_BUDGET) {
-      console.error(`⛔ 上限 $${MONTHLY_BUDGET} に達したので打ち切ります`);
+    // 前回見た候補セットから増えていないなら、同じ答えになるのでAIを呼ばない。
+    if (!hasNewCandidate(freshKeys, p.rakutenThumbCands)) {
+      unchanged++;
+      if (!DRY_RUN) p.rakutenThumbCheckedAt = todayStamp();
+      flush();
+      continue;
+    }
+
+    const runCost = costOf(inTok, outTok);
+    if (runCost >= MAX_SPEND) {
+      console.error(`⛔ 1ラン上限 $${MAX_SPEND} に達したので打ち切ります（残りは次回）`);
+      break;
+    }
+    if (spend.usd + runCost >= MONTHLY_BUDGET) {
+      console.error(`⛔ 今月の累計上限 $${MONTHLY_BUDGET} に達したので打ち切ります`);
       break;
     }
 
@@ -192,35 +249,44 @@ async function main() {
       const r = await pick(p, cands);
       inTok += r.usage.input_tokens;
       outTok += r.usage.output_tokens;
-      if (!DRY_RUN) p.rakutenThumbChecked = true;
+      if (!DRY_RUN) {
+        p.rakutenThumbChecked = true;
+        p.rakutenThumbCheckedAt = todayStamp();
+        p.rakutenThumbCands = freshKeys;
+      }
       if (r.url) {
-        if (!DRY_RUN) p.rakutenThumb = r.url;
+        if (!DRY_RUN) {
+          p.rakutenThumb = r.url;
+          delete p.rakutenThumbMisses;
+        }
         picked++;
         console.log(`   ✅ ${p.name.slice(0, 28)}`);
         console.log(`      → ${String(r.matchedName).slice(0, 52)}`);
       } else {
         none++;
-        console.log(`   ─ ${p.name.slice(0, 28)} … 候補${cands.length}件すべて不採用`);
+        if (!DRY_RUN) p.rakutenThumbMisses = (p.rakutenThumbMisses || 0) + 1;
+        const n = (p.rakutenThumbMisses || 0);
+        console.log(
+          `   ─ ${p.name.slice(0, 28)} … 候補${cands.length}件すべて不採用（${n}/${MAX_MISSES}回目）`
+        );
       }
+      flush();
     } catch (e) {
       console.error(`   ⚠️ ${p.name.slice(0, 28)}: ${e.message}`);
     }
   }
 
   const judged = picked + none;
-  const cost = (inTok / 1e6) * 3 + (outTok / 1e6) * 15;
+  const cost = costOf(inTok, outTok);
 
-  if (!DRY_RUN) {
-    fs.writeFileSync(PRODUCTS_PATH, JSON.stringify(products, null, 2), "utf-8");
-    spend.usd += cost;
-    spend.judged += judged;
-    saveSpend(spend);
-  }
-
-  console.log(`\n✅ 採用 ${picked}件 / 不採用 ${none}件 / 候補なし ${noCand}件`);
+  console.log(`\n✅ 採用 ${picked}件 / 不採用 ${none}件 / 候補なし ${noCand}件 / 候補に変化なし ${unchanged}件`);
   if (judged > 0) console.log(`   採用率: ${Math.round((picked / judged) * 100)}%`);
   console.log(`   コスト: $${cost.toFixed(4)}（1件 $${judged ? (cost / judged).toFixed(4) : "-"}）`);
-  if (DRY_RUN) console.log("   ※ DRY_RUN のため保存していません");
+  if (!DRY_RUN) {
+    console.log(`   今月の累計: $${(spend.usd + cost).toFixed(3)} / 上限 $${MONTHLY_BUDGET}`);
+  } else {
+    console.log("   ※ DRY_RUN のため保存していません");
+  }
 }
 
 main().catch((e) => {
