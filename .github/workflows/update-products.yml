@@ -135,6 +135,95 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/generate-descriptions.js
 
+      # ── 食玩（バンダイ キャンディ） ─────────────────────────────
+      #
+      # JST朝のランだけ実行する。バンダイ側が「毎月月初・中旬に更新」と明記しており、
+      # 1日3回叩いても取れるものは変わらない。ラン数も負荷も増やさないための分岐。
+      #
+      # 取得は当月＋翌月の2ページのみ＝2リクエスト。
+      # 画像は自前で持たず、楽天APIの商品画像を直リンクで表示する
+      # （バンダイが画像の複製・転載を断っているため。scripts/collect-shokugan.js に経緯）。
+      #
+      # continue-on-error: 食玩はまだ試験的なカテゴリで、ここが落ちても
+      # ガチャ本体の更新・Instagram・Discord は止めない。
+      - name: Check if shokugan should run
+        id: shokugan_gate
+        run: |
+          JST_HOUR=$(node -e "console.log((new Date().getUTCHours()+9)%24)")
+          if [ "$JST_HOUR" -ge 6 ] && [ "$JST_HOUR" -le 11 ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "JST ${JST_HOUR}時台なので食玩を更新します"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "JST ${JST_HOUR}時台なので食玩はスキップします（朝の1ランのみ）"
+          fi
+
+      - name: Collect shokugan
+        if: steps.shokugan_gate.outputs.run == 'true'
+        id: shokugan_collect
+        continue-on-error: true
+        run: node scripts/collect-shokugan.js
+
+      - name: Enrich shokugan
+        if: steps.shokugan_collect.outcome == 'success'
+        continue-on-error: true
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+        run: node scripts/enrich-shokugan.js
+
+      - name: Generate shokugan descriptions
+        if: steps.shokugan_collect.outcome == 'success'
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LIMIT: '20'
+        run: node scripts/generate-shokugan-descriptions.js
+
+      # 楽天の候補画像から販促バナーの無いものをAIで選ぶ。
+      #
+      # 市場APIが返すのは店舗の出品画像で「送料無料」「500円OFFクーポン」「20個」が
+      # 焼き込まれていることが多く、そのままでは商品情報ページに出せない。
+      # 複数店舗の候補から選ばせると実測で採用率88%・1件$0.0049。
+      #
+      # 判定済み（cleanImage がある）商品は対象外なので、毎ラン同じコストはかからない。
+      # 新商品は月40〜45件なので運用は月$0.20程度の見込み。
+      # それでも月$1を超えそうなときは scripts 側が exit 78 で止まる（下で通知する）。
+      - name: Pick clean shokugan images
+        if: steps.shokugan_collect.outcome == 'success'
+        id: shokugan_images
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          LIMIT: '20'
+          MONTHLY_BUDGET: '1'
+        run: node scripts/pick-shokugan-images.js
+
+      # exit 78 は「今月の予算上限に達した」の意味（scripts/pick-shokugan-images.js）。
+      # 失敗との区別がつくよう、専用のメッセージで通知する。
+      - name: Notify Discord if shokugan image budget hit
+        if: steps.shokugan_images.outcome == 'failure'
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          SPENT=$(node -e "try{const s=require('./data/shokugan-image-spend.json');console.log('\$'+s.usd.toFixed(3)+'（'+s.judged+'件）')}catch(e){console.log('不明')}")
+          curl -s -H "Content-Type: application/json" \
+            -d "{\"content\":\"⚠️ **食玩の画像判定が止まりました**。\n今月の判定コストが ${SPENT} で、上限 \\\$1 に達した可能性があります（または実行時エラー）。\n画像が付かないだけで、食玩の掲載・ガチャ本体には影響しません。\n詳細はActionsログの \`Pick clean shokugan images\` を確認してください。\"}" \
+            "$DISCORD_WEBHOOK_URL"
+
+      - name: Notify Discord if shokugan collection failed
+        if: steps.shokugan_collect.outcome == 'failure'
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          curl -s -H "Content-Type: application/json" \
+            -d '{"content":"⚠️ **食玩の収集が失敗しました**（ガチャ本体の更新は正常）。\nバンダイ キャンディのカレンダーページの構造が変わった可能性があります。\nActionsログの `Collect shokugan` を確認してください。"}' \
+            "$DISCORD_WEBHOOK_URL"
+
       # 一覧のサムネイルを自前生成して public/thumb/ に置く。
       # Vercelの画像最適化（Hobby無料枠）を使い切って新規変換が402で止まったため、
       # next/image をやめてこれを素の<img>で配信している。
@@ -159,6 +248,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/products.json data/new-today.json data/collected.json data/rakuten-links.json
+          # 食玩。存在しない時期（収集が一度も成功していない等）があるので保護する。
+          git add data/shokugan.json 2>/dev/null || true
+          # 画像判定の月次コスト記録。これをコミットしないと毎ラン0から数え直しになり、
+          # 上限のガードが効かなくなる。
+          git add data/shokugan-image-spend.json 2>/dev/null || true
           git add -A public/posts/
           # public/thumb/ はコミットしない（2026-10-13にCloudflare R2へ移行）。
           # build-thumbs.js がR2へ直接アップロードし、products.json には

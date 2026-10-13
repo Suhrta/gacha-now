@@ -6,6 +6,8 @@ import { getAllReleaseMonths, getReleaseYearMonth } from "../lib/release";
 import { indexableProducts, indexableBlogPosts, isLowValueBrandPage } from "../lib/quality";
 import { isConsolidated } from "../data/hub-canonical";
 import { buildSeriesUpcoming } from "../lib/series-upcoming";
+import shokugan from "../data/shokugan.json";
+import { isPublishable as isPublishableShokugan, releaseMonths } from "../lib/shokugan";
 
 const BASE_URL = "https://gacha-now.net";
 
@@ -93,6 +95,34 @@ export default function sitemap() {
       priority: 0.6,
     }));
 
+  // 食玩。掲載条件（紹介文と事実が揃っている）を満たすものだけ申告する。
+  // ページ側も同じ条件で絞っているので、sitemapにだけ載って404になることはない。
+  const publishableShokugan = shokugan.filter(isPublishableShokugan);
+  const shokuganPages = publishableShokugan.length
+    ? [
+        {
+          url: `${BASE_URL}/shokugan`,
+          lastModified: latestCollectedAt(publishableShokugan),
+          changeFrequency: "weekly",
+          priority: 0.6,
+        },
+        ...releaseMonths(publishableShokugan).map((ym) => ({
+          url: `${BASE_URL}/shokugan/release/${ym}`,
+          lastModified: latestCollectedAt(
+            publishableShokugan.filter((i) => i.releaseYm === ym)
+          ),
+          changeFrequency: "weekly",
+          priority: 0.6,
+        })),
+        ...publishableShokugan.map((i) => ({
+          url: `${BASE_URL}/shokugan/${i.id}`,
+          lastModified: latestCollectedAt([i]),
+          changeFrequency: "monthly",
+          priority: 0.5,
+        })),
+      ]
+    : [];
+
   const releasePages = getAllReleaseMonths(products).map((ym) => ({
     url: `${BASE_URL}/release/${ym}`,
     lastModified: latestCollectedAt(products.filter((p) => getReleaseYearMonth(p) === ym)),
@@ -117,6 +147,7 @@ export default function sitemap() {
     ...seriesPages,
     ...seriesHistoryPages,
     ...seriesUpcomingPages,
+    ...shokuganPages,
     ...productPages,
     ...brandPages,
     ...characterPages,
