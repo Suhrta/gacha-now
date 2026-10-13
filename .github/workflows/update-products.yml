@@ -203,6 +203,9 @@ jobs:
           LIMIT: '20'
           MONTHLY_BUDGET: '0.30'
           MAX_SPEND: '0.10'
+          # 記録先の枠。GITHUB_ACTIONS からも ci と判定されるが、
+          # どの枠に乗るかはここを読めば分かるようにしておく。
+          LEDGER: 'ci'
         run: node scripts/pick-shokugan-images.js
 
       # exit 78 は「今月の予算上限に達した」の意味（scripts/pick-shokugan-images.js）。
@@ -236,6 +239,7 @@ jobs:
           LIMIT: '15'
           MONTHLY_BUDGET: '0.30'
           MAX_SPEND: '0.10'
+          LEDGER: 'ci'
         run: node scripts/pick-gacha-images.js
 
       # exit 78 は「今月の予算上限に達した」の意味（scripts/pick-gacha-images.js）。

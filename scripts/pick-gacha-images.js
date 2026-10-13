@@ -28,13 +28,13 @@
  *
  * 【手動で回すとき】
  * コストの記録はCI枠と手動枠に分かれている（scripts/image-pick-state.js）。
- * 既定は "ci" なので、手でまとめて回すときは LEDGER=manual を必ず付ける。
- * 付け忘れると無人の日次ランの枠を食い潰し、その月のCIが止まる。
- * 手動枠にも月上限はかかるので、実行時に MONTHLY_BUDGET を明示する。
+ * どちらに付けるかは実行環境から決まるので、手元で回すぶんは自動で手動枠になる
+ * （CI上は GITHUB_ACTIONS が立つので "ci"）。LEDGER で明示的に上書きもできる。
+ * 手動枠にも月上限はかかるので、まとめて回すときは MONTHLY_BUDGET を明示する。
  *
  * 実行例:
  *   DRY_RUN=1 LIMIT=5 node scripts/pick-gacha-images.js
- *   LEDGER=manual MONTHLY_BUDGET=0.95 MAX_SPEND=0.33 LIMIT=200 node scripts/pick-gacha-images.js
+ *   MONTHLY_BUDGET=0.95 MAX_SPEND=0.33 LIMIT=200 node scripts/pick-gacha-images.js
  */
 import fs from "node:fs";
 import path from "node:path";

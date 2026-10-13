@@ -43,10 +43,33 @@ import fs from "node:fs";
  * ファイルは1本のまま（その月に実際いくら使ったかを1か所で見たいので）。
  *   { month, ci: {usd, judged}, manual: {usd, judged} }
  *
- * 既定は "ci"。手動実行のときだけ LEDGER=manual を付ける。
- * 既定を手動側にすると、付け忘れた手動実行がCI枠を削るので逆にする。
+ * 【どちらの枠に記録するかの決め方】
+ * 1) 環境変数 LEDGER があればそれに従う（ワークフローは LEDGER: 'ci' を明示している）
+ * 2) 無ければ GITHUB_ACTIONS が立っているかで決める。CI上なら "ci"、それ以外は "manual"
+ *
+ * 固定の既定値を置かないのは、どちらに倒しても片側に穴が開くため。
+ *   既定 "ci"     … 手動実行で付け忘れるとCI枠が削られ、その月のCIが止まる
+ *   既定 "manual" … ワークフローから LEDGER の指定が消えると、CIの支出が手動枠に流れ、
+ *                   CI枠が永久に$0のまま＝月次ガードが機能しなくなる
+ * 実行環境から導けば、人の付け忘れもYAMLの編集ミスもどちらも正しい枠に落ちる。
+ *
+ * 明示された値が "ci" / "manual" 以外のときは落とす。
+ * 枠を取り違えたまま走ると上限のガードが黙って無効になるので、静かに倒すより良い。
  */
-export const LEDGER = process.env.LEDGER === "manual" ? "manual" : "ci";
+function resolveLedger() {
+  const explicit = process.env.LEDGER?.trim().toLowerCase();
+  if (explicit) {
+    if (explicit !== "ci" && explicit !== "manual") {
+      throw new Error(
+        `LEDGER の値が不正です: "${process.env.LEDGER}" … "ci" か "manual" を指定してください`
+      );
+    }
+    return explicit;
+  }
+  return process.env.GITHUB_ACTIONS ? "ci" : "manual";
+}
+
+export const LEDGER = resolveLedger();
 
 const emptyBucket = () => ({ usd: 0, judged: 0 });
 
