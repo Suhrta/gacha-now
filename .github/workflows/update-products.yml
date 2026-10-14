@@ -296,6 +296,7 @@ jobs:
         run: node scripts/cleanup-posts.js
 
       - name: Commit and push if changed
+        id: push_data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -312,8 +313,60 @@ jobs:
           # public/thumb/ はコミットしない（2026-10-13にCloudflare R2へ移行）。
           # build-thumbs.js がR2へ直接アップロードし、products.json には
           # https://gachaimg.com/thumb/... の絶対URLが入る。理由は .gitignore に記載。
-          git diff --staged --quiet || git commit -m "🎪 auto-update products $(date -u +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "変更なし"
+            exit 0
+          fi
+          git commit -m "🎪 auto-update products $(date -u +%Y-%m-%d)"
+
+          # 【なぜ押し直すか】
+          # ランの実行中に人がpushすると、チェックアウトが古いので push が
+          #   ! [rejected] main -> main (fetch first)
+          # で弾かれ、このランの収集結果がまるごと落ちる（2026-10-14に実際に起きた。
+          # Instagram投稿も含めて以降のステップが全部skipされた）。
+          #
+          # まず素でpushを試し、弾かれたときだけ origin/main を取り込んで押し直す。
+          # 先にpullしない理由は、衝突が無い通常時に余計な操作とリスクを足さないため。
+          #
+          # 【衝突したら自動解決しない】
+          # data/products.json や data/*-image-spend.json でCIと人の変更が重なると、
+          # どちらを採っても片方が壊れる:
+          #   CI側を採る … 人の編集（例: rakutenThumb の付与）が消える。再導出できない
+          #   人側を採る … CIがその日収集した新商品が消える。次のランで再収集される
+          # spendファイルはさらに悪く、CIは ci 枠・人は manual 枠を書くので
+          # どちらを採っても片方の予算ガードが壊れる。
+          # よって衝突時は中断して失敗させる。CI側のデータは次のランで再導出されるが、
+          # 人の編集はされないので、黙って混ぜるより落とす方が安全。
+          for i in 1 2 3; do
+            if git push; then
+              echo "push 成功（試行 $i 回目）"
+              exit 0
+            fi
+            echo "pushが弾かれた。origin/main を取り込んで再試行する（$i/3）"
+            if ! git pull --rebase origin main; then
+              git rebase --abort || true
+              echo "::error::rebaseが衝突した。このランのdata変更は破棄する（次のランが収集し直す）"
+              exit 1
+            fi
+          done
+          echo "::error::3回試してもpushできなかった"
+          exit 1
+
+      # 【条件について】
+      # steps.push_data.outcome だけで書くと、GitHubが暗黙に success() を足すため
+      # 「直前のステップが失敗している」この状況では常に false になり、通知が飛ばない。
+      # always() を明示して、そのうえで push_data 自身の失敗だけに絞る。
+      # failure() 単体だと他のステップの失敗でも「pushに失敗」と誤通知してしまう。
+      # 他のステップが先に落ちた場合、push_data は skipped になるのでここは鳴らない。
+      - name: Notify Discord if data push failed
+        if: always() && steps.push_data.outcome == 'failure'
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          curl -s -H "Content-Type: application/json" \
+            -d "{\"content\":\"⚠️ **データのpushに失敗しました**。\nCI実行中に別のpushが入り、rebaseが衝突した可能性があります。\nこのランの収集結果は破棄されましたが、**次のランが収集し直すので恒久的な欠落にはなりません**。\nただし**このランのInstagram投稿はスキップ**されます。取りこぼしたくない場合は Actions から手動で再実行してください。\n詳細はActionsログの \`Commit and push if changed\` を確認してください。\"}" \
+            "$DISCORD_WEBHOOK_URL"
 
       - name: Wait for Vercel deploy
         run: |
