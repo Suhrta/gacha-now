@@ -264,15 +264,27 @@ jobs:
             -d '{"content":"⚠️ **食玩の収集が失敗しました**（ガチャ本体の更新は正常）。\nバンダイ キャンディのカレンダーページの構造が変わった可能性があります。\nActionsログの `Collect shokugan` を確認してください。"}' \
             "$DISCORD_WEBHOOK_URL"
 
-      # 一覧のサムネイルを自前生成して public/thumb/ に置く。
-      # Vercelの画像最適化（Hobby無料枠）を使い切って新規変換が402で止まったため、
-      # next/image をやめてこれを素の<img>で配信している。
+      # 一覧のサムネイルを生成して Cloudflare R2（gachaimg.com）へ上げる。
+      # Vercelの画像最適化（Hobby無料枠）を使い切って新規変換が402で止まったため
+      # next/image をやめ、さらにCDNリクエスト枠も超えたのでR2配信にした。
       # 未生成のぶんだけ作るので、毎日の実行で叩くのは新商品ぶんだけ。
+      #
+      # 【R2_* を渡すのを省略しないこと】
+      # 認証情報が無いと build-thumbs.js はローカル配信モードに落ち、生成済み判定が
+      # fs.existsSync(public/thumb/) になる。public/thumb/ は .gitignore なので
+      # CIのチェックアウト直後は常に空で、**毎ラン全件を仕入れ元CDNから作り直す**。
+      # しかも thumb に絶対URLではなく相対パスが入り、R2へ上がらないため、
+      # 新商品は 301 でR2へ飛んだ先が404になる（Cloudflareは404を4時間キャッシュする）。
+      # 2026-10-13のR2移行時に env を付け忘れ、実際に毎ラン277件を再取得していた。
       #
       # continue-on-error: 仕入れ元CDNの一時的な不調でパイプライン全体を止めない。
       # 取れなかった商品は仕入れ元URLで表示され、翌日の実行で再挑戦される。
       - name: Build product thumbnails
         continue-on-error: true
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
         run: node scripts/build-thumbs.js
 
       - name: Generate Instagram post images
