@@ -40,6 +40,14 @@ export default function Header({ onSearchClick, onFavoritesClick, onNewClick }) 
           >
             ブログ
           </Link>
+          {/* 食玩はサブカテゴリ。主役はガチャガチャなので、他と同じ見た目にして
+              バッジや色は付けず、新作・ブログより後ろに置く。 */}
+          <Link
+            href="/shokugan"
+            className="text-sm text-brand-sub hover:text-brand-text transition-colors no-underline"
+          >
+            食玩
+          </Link>
           <Link
             href="/about"
             className="text-sm text-brand-sub hover:text-brand-text transition-colors no-underline"
@@ -90,6 +98,13 @@ export default function Header({ onSearchClick, onFavoritesClick, onNewClick }) 
               onClick={() => setDrawerOpen(false)}
             >
               ブログ
+            </Link>
+            <Link
+              href="/shokugan"
+              className="text-sm text-brand-text no-underline py-1"
+              onClick={() => setDrawerOpen(false)}
+            >
+              食玩
             </Link>
             <Link
               href="/about"

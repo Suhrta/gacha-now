@@ -13,6 +13,10 @@ export default function Footer() {
         </div>
         <nav className="flex items-center gap-x-4 gap-y-0.5 md:gap-y-1 flex-wrap shrink-0">
           {[
+            // 食玩だけがコンテンツへのリンクで、残りは規約・運営系のメタページ。
+            // 「コンテンツ → メタ」の順になるよう先頭に置く。末尾だと
+            // プライバシーポリシーの後ろになって見つけにくい。
+            { href: "/shokugan", label: "食玩" },
             { href: "/about", label: "このサイトについて" },
             { href: "/operator", label: "運営者情報" },
             { href: "/contact", label: "お問い合わせ" },
