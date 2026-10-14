@@ -10,6 +10,7 @@ import {
   releaseLabel,
   releaseMonths,
   byReleaseAsc,
+  imageFirst,
 } from "../../../../lib/shokugan";
 import { DATA_UPDATED } from "../../../../lib/site-meta";
 
@@ -22,7 +23,8 @@ export function generateStaticParams() {
 export const dynamicParams = false;
 
 function load(month) {
-  const list = items.filter((i) => i.releaseYm === month).sort(byReleaseAsc);
+  // 同じ発売日の中では画像のある商品を先に出す（lib/shokugan.js の imageFirst）。
+  const list = items.filter((i) => i.releaseYm === month).sort(imageFirst(byReleaseAsc));
   if (list.length === 0) return null;
   const [y, m] = month.split("-").map(Number);
   return { list, year: y, month: m };

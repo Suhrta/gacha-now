@@ -8,6 +8,7 @@ import {
   upcoming,
   released,
   byReleaseAsc,
+  imageFirst,
   byCollectedDesc,
   releaseMonths,
   releaseLabel,
@@ -21,7 +22,7 @@ const items = shokugan.filter(isPublishable);
 
 export function generateMetadata() {
   const stamp = DATA_UPDATED ? `【${DATA_UPDATED.label}更新】` : "";
-  const soon = upcoming(items).sort(byReleaseAsc);
+  const soon = upcoming(items).sort(imageFirst(byReleaseAsc));
   const next = soon[0];
 
   return {
@@ -39,8 +40,9 @@ export function generateMetadata() {
 }
 
 export default function ShokuganPage() {
-  const soon = upcoming(items).sort(byReleaseAsc).slice(0, PAGE_SIZE);
-  const latest = released(items).sort(byCollectedDesc).slice(0, PAGE_SIZE);
+  // 同じ発売日の中では画像のある商品を先に出す（lib/shokugan.js の imageFirst）。
+  const soon = upcoming(items).sort(imageFirst(byReleaseAsc)).slice(0, PAGE_SIZE);
+  const latest = released(items).sort(imageFirst(byCollectedDesc)).slice(0, PAGE_SIZE);
   const months = releaseMonths(items);
 
   const itemListLd = {
@@ -89,33 +91,6 @@ export default function ShokuganPage() {
 
         <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "食玩" }]} />
 
-        <section
-          className="relative z-[1] mb-5 bg-white rounded-xl border-2 border-cream-border p-4"
-          style={{ boxShadow: "0 4px 16px rgba(74,55,40,0.06)" }}
-        >
-          <h2 className="text-sm font-bold text-brand-text mb-2">食玩とは</h2>
-          <p className="text-xs text-brand-text leading-relaxed mb-3">
-            食玩は、お菓子といっしょに玩具やカードが入った商品です。ウエハースにシールが付いたもの、
-            グミとマスコットの組み合わせ、組み立て式のフィギュアなど種類は幅広く、
-            スーパーやコンビニのお菓子売り場で買えます。
-            ガチャガチャと違って専用の販売機を探す必要がなく、欲しい商品を選んで買えるのが特徴です。
-          </p>
-          <dl className="grid grid-cols-2 gap-x-3 gap-y-0">
-            <div className="flex flex-col py-1.5 border-b border-dotted border-cream-border">
-              <dt className="text-[10px] text-brand-sub">掲載数</dt>
-              <dd className="text-xs font-bold text-brand-text mt-0.5">{items.length}件</dd>
-            </div>
-            <div className="flex flex-col py-1.5 border-b border-dotted border-cream-border">
-              <dt className="text-[10px] text-brand-sub">発売予定</dt>
-              <dd className="text-xs font-bold text-brand-text mt-0.5">{upcoming(items).length}件</dd>
-            </div>
-          </dl>
-          <p className="text-[10px] text-brand-sub leading-relaxed mt-3">
-            ※ バンダイ キャンディ事業部の商品を掲載しています。発売日はメーカー公表のもので、
-            店頭への入荷は前後することがあります。
-          </p>
-        </section>
-
         {months.length > 0 && (
           <section className="relative z-[1] mb-5">
             <h2 className="text-sm font-bold text-brand-text mb-2 px-1">発売月から探す</h2>
@@ -162,6 +137,36 @@ export default function ShokuganPage() {
             </div>
           </section>
         )}
+
+        {/* 解説は一覧の下。/series/* が components/SeriesDetail.jsx で
+            「グリッド → HubInfo」の順にしているのに揃えた。
+            スマホで最初に出るのが説明文だと、商品にたどり着くまで1画面ぶん読まされる。 */}
+        <section
+          className="relative z-[1] mb-5 bg-white rounded-xl border-2 border-cream-border p-4"
+          style={{ boxShadow: "0 4px 16px rgba(74,55,40,0.06)" }}
+        >
+          <h2 className="text-base font-bold text-brand-text mb-2">食玩とは</h2>
+          <p className="text-base text-brand-text leading-relaxed mb-3">
+            食玩は、お菓子といっしょに玩具やカードが入った商品です。ウエハースにシールが付いたもの、
+            グミとマスコットの組み合わせ、組み立て式のフィギュアなど種類は幅広く、
+            スーパーやコンビニのお菓子売り場で買えます。
+            ガチャガチャと違って専用の販売機を探す必要がなく、欲しい商品を選んで買えるのが特徴です。
+          </p>
+          <dl className="grid grid-cols-2 gap-x-3 gap-y-0">
+            <div className="flex flex-col py-1.5 border-b border-dotted border-cream-border">
+              <dt className="text-xs text-brand-sub">掲載数</dt>
+              <dd className="text-sm font-bold text-brand-text mt-0.5">{items.length}件</dd>
+            </div>
+            <div className="flex flex-col py-1.5 border-b border-dotted border-cream-border">
+              <dt className="text-xs text-brand-sub">発売予定</dt>
+              <dd className="text-sm font-bold text-brand-text mt-0.5">{upcoming(items).length}件</dd>
+            </div>
+          </dl>
+          <p className="text-xs text-brand-sub leading-relaxed mt-3">
+            ※ バンダイ キャンディ事業部の商品を掲載しています。発売日はメーカー公表のもので、
+            店頭への入荷は前後することがあります。
+          </p>
+        </section>
 
         <Link
           href="/"

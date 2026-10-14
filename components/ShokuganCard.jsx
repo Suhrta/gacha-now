@@ -34,11 +34,15 @@ export default function ShokuganCard({ item }) {
         </div>
       )}
 
-      <div className="text-xs font-bold text-brand-text leading-snug mt-2 line-clamp-2">
+      <div className="text-sm font-bold text-brand-text leading-snug mt-2 line-clamp-2">
         {item.name}
       </div>
 
-      <div className="text-[10px] text-brand-sub mt-1">
+      {/* 価格と発売日はこのカードで一番よく読まれる情報なのに 10px / 薄灰で、
+          スマホだと読み取れなかった。12pt未満にしない方針に合わせて 12px へ上げ、
+          色も brand-sub（薄灰）から brand-text（濃）にしてある。
+          商品名を 14px にしているのは、両方 12px だと階層が消えるため。 */}
+      <div className="text-xs text-brand-text mt-1">
         {shortPriceLabel(item) ? `${shortPriceLabel(item)}・` : ""}
         {shortReleaseLabel(item)}
         {released ? "発売中" : item.releaseKind === "ship" ? "発送予定" : "発売予定"}

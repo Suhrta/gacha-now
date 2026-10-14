@@ -103,8 +103,10 @@ export default function GachaMachine({ product, index, onClick, isFavorite = fal
                 🔥HOT
               </span>
             )}
+            {/* 発売週は一覧で一番見られる情報なので 12px を下回らせない。
+                HOTバッジは装飾なので 10px のままにしてある。 */}
             {product.releaseWeek && (
-              <span className="font-sans text-[10px] px-1.5 py-0.5 rounded-md"
+              <span className="font-sans text-xs px-1.5 py-0.5 rounded-md"
                 style={{ background: "#FFF4E8", border: "1px solid #E5E7EB", color: "#6B5B4E" }}>
                 {product.releaseWeek}
               </span>
