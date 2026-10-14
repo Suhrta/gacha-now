@@ -1,5 +1,43 @@
 [
   {
+    "id": "gacha-4a770776",
+    "name": "星のカービィ まんまるソフビフィギュア4",
+    "brand": "カービィ",
+    "brandSlug": "kirby",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "10月 19日週",
+    "color": "#F48FB1",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y096150_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y096150_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y096150",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-14T00:21:56.970Z",
+    "officialDescription": "『星のカービィ２ 』に登場して以来、根強い人気を誇る「リック」「カイン」「クー」の仲間たちが、「星のカービィ まんまるソフビフィギュア」シリーズにも登場！手のひらサイズながら、かわいさと存在感は抜群。机や棚などにちょこんと並べて楽しんで♪本体サイズは約5.5cmラインナップは「カービィ」「リック」「カイン」「クー」の全4種※本商品は、2020年7月に発売した商品を再販売するものです。",
+    "size": "約5.5cm",
+    "lineup": [
+      "カービィ",
+      "リック",
+      "カイン",
+      "クー"
+    ],
+    "description": "任天堂の人気ゲームキャラクターとして知られるカービィをモチーフにしたカプセルトイ「星のカービィ まんまるソフビフィギュア4」が、タカラトミーアーツより登場します。全4種のラインナップで、1回の価格は300円です。発売時期は10月19日週を予定しています。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-10-14",
+    "rakutenThumbCands": [
+      "1c2439aa",
+      "389801a4",
+      "424f361b",
+      "65a6ae62",
+      "a70358cc"
+    ],
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/hobbyzakka-cha3/cabinet/09782991/09782994/imgrc0119193916.jpg?_ex=400x400"
+  },
+  {
     "id": "gacha-2cf26241",
     "name": "こぼすシリーズ おみそしる-ネコ編-",
     "brand": "こぼすシリーズ",
