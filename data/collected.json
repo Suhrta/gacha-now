@@ -1917,7 +1917,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ファグラー",
-    "types": null
+    "types": 5
   },
   {
     "title": "From TV animation ONE PIECE ワンピの実 第二十六海戦",
@@ -8480,7 +8480,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "ドラえもん",
-    "types": null
+    "types": 5
   },
   {
     "title": "aespa ぷくっとリング",
