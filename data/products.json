@@ -1,5 +1,71 @@
 [
   {
+    "id": "gacha-02e6f26d",
+    "name": "うさぎのモフィ もふもふポーシェット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "10月 19日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y910999_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y910999_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910999",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-14T01:50:20.570Z",
+    "officialDescription": "タカラトミーアーツのオリジナルシリーズ「もふもふポーシェット」に、『うさぎのモフィ』が仲間入り。両側のタグに手持ちの紐をつけると、ポーチからポシェットになる2WAY仕様です。本体サイズは高さ約9&times;幅11.5cm。ラインナップは「モフィ（にっこり）」「モフィ（すやすや）」「モフィ（しくしく）」「モグ」「スー」の全5種。",
+    "lineup": [
+      "モフィ（にっこり）",
+      "モフィ（すやすや）",
+      "モフィ（しくしく）",
+      "モグ",
+      "スー"
+    ],
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-10-14",
+    "rakutenThumbCands": [
+      "97006638"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-02e6f26d.webp"
+  },
+  {
+    "id": "-fit-v20-6fd5cd7f",
+    "name": "おさんぽカエル Fit V2.0",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 8,
+    "releaseWeek": "10月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/10/stroll_frog_fit_2.0_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/10/stroll_frog_fit_2.0_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/osanpokaeru_fit2/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-10-14T01:50:20.571Z",
+    "officialDescription": "キタンクラブを代表するシリーズのひとつ「おさんぽカエル」から、リバイバル企画第2弾が登場します！ 「おさんぽカエル」の魅力はそのままに、ストラップ部分をシリコンリング仕様に変更。ペットボトルのめじるしにしたり、傘につけて一緒におさんぽしたり、より使いやすいマーカーチャームになりました！シリコンリングを外せば、ファスナーなどにも取り付け可能で、幅広い用途で楽しめます。 ラインナップには、リボンや蝶ネクタイでおしゃれに装ったカエルたちや、お腹の中に動くミニパーツが入った、クリア素材のカエルも登場。さらに今回は、驚きのシークレットも仲間入りします！ そして最大の魅力は、舌・左手・右手・両足の4カ所が動く可動ギミック。ぶら下げると揺れに合わせて手足がぶらぶら動いたり、舌が左右に動いたりと、ユニークな動きを楽しめます。座らせたり寝そべらせたり、手足を動かしてさまざまなポーズをつけることも可能。飾って楽しむのはもちろん、好きなポーズで写真を撮って遊ぶのもおすすめです。 お気に入りのカエルを連れて、一緒におさんぽを楽しんでみてください！ ラインナップは「 プリンス 、ボーイ 、ガール 、オレンジ 、ハート 、ホネホネ 、コイン 、シークレット 」の全8種",
+    "size": "約35mm",
+    "lineup": [
+      "プリンス",
+      "ボーイ",
+      "ガール",
+      "オレンジ",
+      "ハート",
+      "ホネホネ",
+      "コイン",
+      "シークレット"
+    ],
+    "thumb": "https://gachaimg.com/thumb/-fit-v20-6fd5cd7f.webp"
+  },
+  {
     "id": "gacha-4a770776",
     "name": "星のカービィ まんまるソフビフィギュア4",
     "brand": "カービィ",

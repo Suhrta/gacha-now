@@ -787,6 +787,46 @@
     "priceTaxIn": 2750
   },
   {
+    "id": "shokugan-4549660885931000",
+    "name": "チョコビ いちご味",
+    "officialUrl": "https://www.bandai.co.jp/candy/products/2026/4549660885931000.html",
+    "jan": "4549660885931",
+    "releaseYm": "2026-11",
+    "releaseDay": 2,
+    "releaseKind": "sale",
+    "collectedAt": "2026-10-14T01:50:44.990Z",
+    "price": null,
+    "enrichedAt": 1791942648288,
+    "description": "クレヨンしんちゃんでおなじみのお菓子「チョコビ」に、期間限定のいちご味が加わった食玩です。練乳をきかせた甘酸っぱいいちご味で仕上げられ、サクサクとした食感も楽しめます。おまけには「ラブ・チョコビ！」をテーマにしたシールが付属しており、集める楽しさもあります。バンダイのキャンディ事業部が手がけるこの商品は、2026年11月2日より店頭で販売される予定です。",
+    "cleanImageCheckedAt": "2026-10-14",
+    "cleanImageCands": []
+  },
+  {
+    "id": "shokugan-4549660884903261",
+    "name": "チョコビ チョコレート味（2026年11月リニューアル）",
+    "officialUrl": "https://www.bandai.co.jp/candy/products/2026/4549660884903261.html",
+    "jan": "4549660884903",
+    "releaseYm": "2026-11",
+    "releaseDay": 2,
+    "releaseKind": "sale",
+    "collectedAt": "2026-10-14T01:50:44.991Z",
+    "price": null,
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/okagesama-market/cabinet/06206077/06232411/imgrc0085608516.jpg?_ex=400x400",
+    "rakutenCount": 31,
+    "enrichedAt": 1791942653330,
+    "description": "バンダイが手がけるロングセラー菓子「チョコビ」が、パッケージとシールのデザインを一新して登場する食玩です。サクサクとした食感のチョコレート味本体に加え、「ラブ・チョコビ！」をテーマにしたシールが1枚おまけとして封入されており、全20種のうちどれが入っているかは開けてからのお楽しみです。店頭での販売が予定されており、発売日は2026年11月2日です。",
+    "cleanImageCheckedAt": "2026-10-14",
+    "cleanImageCands": [
+      "094507af",
+      "15166268",
+      "69d10eac",
+      "ca3201fc",
+      "d3214401",
+      "d3b635b3"
+    ],
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/aoigangu/cabinet/shohin/sn/imgrc0151307218.jpg?_ex=400x400"
+  },
+  {
     "id": "shokugan-4570117933387000",
     "name": "にふぉるめーしょん 仮面ライダーシリーズ シールウエハースvol.５",
     "officialUrl": "https://www.bandai.co.jp/candy/products/2026/4570117933387000.html",
