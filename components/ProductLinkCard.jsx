@@ -13,10 +13,15 @@ export default function ProductLinkCard({ product }) {
         product={product}
         className="w-full aspect-square object-cover rounded-md bg-cream-dark"
       />
-      <div className="text-xs font-bold text-brand-text leading-snug mt-2 line-clamp-2">
+      <div className="text-sm font-bold text-brand-text leading-snug mt-2 line-clamp-2">
         {product.name}
       </div>
-      <div className="text-[10px] text-brand-sub mt-1">
+      {/* 価格・発売日はこのカードで一番よく読まれる情報なのに 10px / 薄灰で、
+          スマホだと読み取れなかった。12px未満にしない方針に合わせて上げ、
+          色も brand-sub（薄灰）から brand-text（濃）にしてある。
+          商品名を 14px にしているのは、両方 12px だと階層が消えるため。
+          **ShokuganCard と同じ値にしてあるので、片方だけ変えないこと。** */}
+      <div className="text-xs text-brand-text mt-1">
         ¥{product.price}
         {product.types ? `・全${product.types}種` : ""}・{product.releaseWeek}
       </div>
