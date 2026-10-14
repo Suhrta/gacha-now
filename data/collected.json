@@ -93,7 +93,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第1週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "Polly Pocket ミニチュアコレクション",
@@ -1917,7 +1917,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ファグラー",
-    "types": 5
+    "types": null
   },
   {
     "title": "From TV animation ONE PIECE ワンピの実 第二十六海戦",
@@ -8480,7 +8480,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "ドラえもん",
-    "types": 5
+    "types": null
   },
   {
     "title": "aespa ぷくっとリング",
