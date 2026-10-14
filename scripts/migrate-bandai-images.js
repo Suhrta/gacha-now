@@ -38,9 +38,17 @@ const PENDING_PATH = path.join(__dirname, "..", "data", "r2-pending-delete.json"
 
 // 自前コピーをやめる対象の仕入れ元。
 //   bandai  … 直リンクに切り替え済み（/model/m/ が8.9KBで軽い）
-//   takaratomy … 楽天画像へ切り替え。CDNに解像度バリアントが無く平均714KBあるため
-//                直リンクにはできない。楽天で見つからないものは画像なしになる。
+//   takaratomy … CDNに解像度バリアントが無く平均714KBあるため直リンクにはできない。
+//                楽天画像へ寄せ、見つからないものはR2のコピーを出している。
 // HOST=takaratomy-arts.co.jp のように指定して対象を切り替える。
+//
+// 【現在このスクリプトを厳格IPに使う場面】
+// 通常運転では使わない。厳格IPは SHOW_STRICT_IP_COPIES（lib/strict-ip.js）が true の間、
+// R2のコピーを表示し続ける方針になっている（2026-10-14の方針変更）。
+// **権利者から指摘が来てフラグを false にしたあと**、R2上の実体も消すために
+//   HOST=takaratomy-arts.co.jp STRICT_IP_ONLY=1 node scripts/migrate-bandai-images.js
+// を走らせて削除リストを作り直し、scripts/delete-r2-pending.js を実行する。
+// フラグを倒す前にこれを走らせると、thumb が外れるだけで二度手間になる。
 const DEFAULT_HOST = "bandai-a.akamaihd.net";
 const HOST = process.env.HOST || DEFAULT_HOST;
 const DRY_RUN = !!process.env.DRY_RUN;

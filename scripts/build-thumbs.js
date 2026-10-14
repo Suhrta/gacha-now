@@ -31,7 +31,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import sharp from "sharp";
 import { hasR2, putObject, deleteObject, listKeys, publicUrl } from "./r2.js";
-import { isStrictIp } from "../lib/strict-ip.js";
+import { SHOW_STRICT_IP_COPIES, isStrictIp } from "../lib/strict-ip.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PRODUCTS_PATH = process.env.PRODUCTS_PATH
@@ -127,17 +127,17 @@ function hasSource(product) {
 //    直リンクに切り替えた。/model/{s|m|b|xl}/ で解像度を選べるので、
 //    表示側が srcset で m(200px/8.9KB) と b(560px/65KB) を渡す（lib/images.js）。
 //
-// 2) タカラトミーアーツ … **厳格IPの66件だけ**。
+// 2) タカラトミーアーツ … **SHOW_STRICT_IP_COPIES が false のときだけ、厳格IPを除外**。
 //    サイトポリシーが無断転用・転載を断ったうえで、非営利・私的使用を除き
 //    許諾なく使用できないと明記している。当サイトは広告収益があり非営利に当たらない。
-//    ただしCDNに解像度バリアントが無く平均714KBあるため直リンクにはできず、
-//    楽天画像（scripts/pick-gacha-images.js）に切り替える。楽天で見つからない商品は
-//    画像なしになるため、一度に全160件を移すと /brand/disney が100%→67%まで落ちる。
-//    そこで権利管理が特に厳しいIPから段階的に移す（lib/strict-ip.js）。
-//    **残る94件はコピーを作り続ける**。ここを全件除外にすると、その94件に
-//    新商品の画像が付かなくなる。
+//    この読み自体は変わっていないが、**権利者から指摘が来るまでは表示する**という
+//    判断に変えた（2026-10-14）。詳細と止め方は lib/strict-ip.js に書いてある。
+//    表示の優先順位は「楽天画像 → 無ければこのコピー」（lib/images.js）。
 //
-// キタンクラブ・ブシロードは明示的な禁止が無く、今回は現状維持と判断した。
+//    一時期は厳格IPを無条件に除外しており、楽天で見つからない商品が画像なしになって
+//    /brand/disney が100%→67%まで落ちていた。いまは戻してある。
+//
+// キタンクラブ・ブシロードは明示的な禁止が無く現状維持。
 //
 // ここを外し忘れると、翌日のランで再生成されて切り替えが巻き戻る。
 const BANDAI_HOST = "bandai-a.akamaihd.net";
@@ -146,7 +146,9 @@ const TAKARATOMY_HOST = "takaratomy-arts.co.jp";
 function isCopyAllowed(product) {
   const url = String(product.img || "");
   if (url.includes(BANDAI_HOST)) return false;
-  if (url.includes(TAKARATOMY_HOST) && isStrictIp(product)) return false;
+  if (!SHOW_STRICT_IP_COPIES && url.includes(TAKARATOMY_HOST) && isStrictIp(product)) {
+    return false;
+  }
   return true;
 }
 
