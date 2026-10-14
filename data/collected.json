@@ -7736,7 +7736,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "星のカービィ メタルめじるしアクセサリー",
@@ -8504,7 +8504,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "aespa",
-    "types": 4
+    "types": null
   },
   {
     "title": "ジュエルペット キラキラミラー風コレクション",
@@ -8600,7 +8600,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "ハリー・ポッター",
-    "types": 4
+    "types": null
   },
   {
     "title": "きらりん☆レボリューション つまんでつなげてますこっと",
