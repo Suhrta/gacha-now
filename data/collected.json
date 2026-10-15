@@ -2805,7 +2805,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ディズニー",
-    "types": 5
+    "types": null
   },
   {
     "title": "mofusand ヘアコームチャーム",
@@ -3909,7 +3909,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第5週",
     "brand": "マインクラフト",
-    "types": 5
+    "types": null
   },
   {
     "title": "【フラットガシャポン】お文具といっしょ ガーゼタオルなのです。",
@@ -7520,7 +7520,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "葬送のフリーレン まちぼうけ3",
@@ -10472,6 +10472,19 @@
     "types": 4
   },
   {
+    "title": "スポンジ・ボブ Funny scene コレクション2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905445",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905445_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905445_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 13日週",
+    "brand": "スポンジ・ボブ",
+    "types": 4
+  },
+  {
     "title": "ポケモン 30周年 メタルチャームマスコット ～カントー、ジョウト、ホウエン～",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905544",
     "source": "タカラトミーアーツ公式",
@@ -10534,6 +10547,19 @@
     "price": 300,
     "releaseWeek": "2026年10月 13日週",
     "brand": "アイプリ",
+    "types": 7
+  },
+  {
+    "title": "でふぉラバ! とんがり帽子のアトリエ キーホルダー",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908941",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908941_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908941_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 13日週",
+    "brand": "その他",
     "types": 7
   },
   {
@@ -10706,6 +10732,19 @@
     "types": 5
   },
   {
+    "title": "つながリングチャーム　爬虫類",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908750",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908750_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908750_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "その他",
+    "types": 6
+  },
+  {
     "title": "パワーパフガールズ もふもふポーシェット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908781",
     "source": "タカラトミーアーツ公式",
@@ -10846,6 +10885,19 @@
     "price": 400,
     "releaseWeek": "2026年10月 26日週",
     "brand": "ディズニー",
+    "types": 4
+  },
+  {
+    "title": "ちっちゃなふあふあえあ〜遊具",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907043",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907043_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907043_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 26日週",
+    "brand": "その他",
     "types": 4
   },
   {
