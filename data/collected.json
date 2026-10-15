@@ -6560,7 +6560,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "トムとジェリー",
-    "types": 6
+    "types": null
   },
   {
     "title": "仮面ライダーマイス GPライダーエグズ02",
@@ -7736,7 +7736,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "星のカービィ メタルめじるしアクセサリー",
@@ -8504,7 +8504,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "aespa",
-    "types": null
+    "types": 4
   },
   {
     "title": "ジュエルペット キラキラミラー風コレクション",
@@ -8600,7 +8600,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "ハリー・ポッター",
-    "types": null
+    "types": 4
   },
   {
     "title": "きらりん☆レボリューション つまんでつなげてますこっと",
@@ -10628,6 +10628,19 @@
     "types": 3
   },
   {
+    "title": "サンリオキャラクターズ みんなでなっちゃお！ -歯-　ぬいぐるみ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904431",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904431_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904431_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "サンリオ",
+    "types": 5
+  },
+  {
     "title": "スパイダーマン ファッションリング",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905834",
     "source": "タカラトミーアーツ公式",
@@ -10667,6 +10680,45 @@
     "types": 4
   },
   {
+    "title": "ゴマ豆腐アザラシ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907722",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907722_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907722_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "その他",
+    "types": 4
+  },
+  {
+    "title": "ピクサーキャラクター ぺろちょこ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907937",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907937_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907937_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "ディズニー",
+    "types": 5
+  },
+  {
+    "title": "パワーパフガールズ もふもふポーシェット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908781",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908781_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908781_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "パワーパフガールズ",
+    "types": 4
+  },
+  {
     "title": "うさぎのモフィ もふもふポーシェット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910999",
     "source": "タカラトミーアーツ公式",
@@ -10680,6 +10732,19 @@
     "types": 5
   },
   {
+    "title": "The History Collection -PlayStation™-",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y085680",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y085680_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y085680_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年10月 26日週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
     "title": "サンリオキャラクターズ みんなでなっちゃお!-歯-2",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904240",
     "source": "タカラトミーアーツ公式",
@@ -10688,7 +10753,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y904240_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "サンリオ",
     "types": 6
   },
@@ -10701,21 +10766,8 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y904295_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "ディズニー",
-    "types": 5
-  },
-  {
-    "title": "サンリオキャラクターズ みんなでなっちゃお！ -歯-　ぬいぐるみ",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904431",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904431_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904431_b.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年10月",
-    "brand": "サンリオ",
     "types": 5
   },
   {
@@ -10727,7 +10779,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y905513_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "その他",
     "types": 6
   },
@@ -10740,7 +10792,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y905582_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "ポケモン",
     "types": 4
   },
@@ -10753,7 +10805,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y905629_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "ポケモン",
     "types": 4
   },
@@ -10766,7 +10818,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y905872_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "ディズニー",
     "types": 5
   },
@@ -10779,7 +10831,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y905933_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "呪術廻戦",
     "types": 4
   },
@@ -10792,22 +10844,9 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y906268_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "ディズニー",
     "types": 4
-  },
-  {
-    "title": "夏目友人帳 ニャンコ先生 徒然根付ストラップ Part8",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906633",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906633_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906633_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年10月",
-    "brand": "夏目友人帳",
-    "types": 5
   },
   {
     "title": "サンリオキャラクターズ トキメキステッキチャーム",
@@ -10818,7 +10857,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y907524_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "サンリオ",
     "types": 5
   },
@@ -10831,21 +10870,8 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y907630_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "ゴジラ",
-    "types": 4
-  },
-  {
-    "title": "ゴマ豆腐アザラシ",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907722",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907722_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907722_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年10月",
-    "brand": "その他",
     "types": 4
   },
   {
@@ -10857,35 +10883,9 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y907845_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "トミカ",
     "types": 5
-  },
-  {
-    "title": "ピクサーキャラクター ぺろちょこ",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907937",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907937_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907937_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年10月",
-    "brand": "ディズニー",
-    "types": 5
-  },
-  {
-    "title": "パワーパフガールズ もふもふポーシェット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908781",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908781_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908781_b.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年10月",
-    "brand": "パワーパフガールズ",
-    "types": 4
   },
   {
     "title": "Disney SERIES CREATED by MUS Wear Collection Vol.2",
@@ -10896,7 +10896,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y909443_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "ディズニー",
     "types": 10
   },
@@ -10909,7 +10909,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y910968_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年10月",
+    "releaseWeek": "2026年10月 26日週",
     "brand": "トミカ",
     "types": 12
   },
