@@ -1,5 +1,27 @@
 [
   {
+    "id": "-vol1-24862d4d",
+    "name": "学園アイドルマスター　むぎゅみにコレクションフィギュア vol.1",
+    "brand": "学園アイドルマスター",
+    "brandSlug": "gakumas",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "2月 下旬",
+    "color": "#b8e599",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/14145522/gakuen_imas_mugyumini_fg_CP_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/14145522/gakuen_imas_mugyumini_fg_CP_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10254/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-10-16T08:01:45.358Z",
+    "officialDescription": "『学園アイドルマスター』より、むぎゅみにコレクションフィギュアが登場！",
+    "description": "人気コンテンツ「学園アイドルマスター」をモチーフにしたカプセルトイが登場します。商品名は「学園アイドルマスター　むぎゅみにコレクションフィギュア vol.1」で、全5種がラインナップされており、価格は1回500円です。発売はブシロードクリエイティブより2月下旬を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/-vol1-24862d4d.webp"
+  },
+  {
     "id": "gacha-201c7f23",
     "name": "ダンダダン あっぷりけポーチ",
     "brand": "ダンダダン",
@@ -28,7 +50,7 @@
       "セルポ星人",
       "ドーバーデーモン"
     ],
-    "description": "人気作品「ダンダダン」のカプセルトイとして、あっぷりけポーチが登場します。タカラトミーアーツから発売されるシリーズで、全8種がラインナップされています。価格は1回400円で、10月19日週より順次展開される予定です。",
+    "description": "人気作品「ダンダダン」のカプセルトイとして、あっぷりけポーチが登場します。タカラトミーアーツから展開される本商品は全8種で、1回400円で楽しめます。発売は10月19日週を予定しています。",
     "rakutenThumbChecked": true,
     "rakutenThumbCheckedAt": "2026-10-16",
     "rakutenThumbCands": [
@@ -109,7 +131,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T13:24:29.371Z",
     "officialDescription": "「ゆめみるまなざし」がコンセプトのぬいぐるみシリーズ「ゆめぬい」に、TVアニメ『マリッジトキシン』が登場！",
-    "description": "TVアニメ『マリッジトキシン』のゆめぬいがカプセルトイに登場します。ブシロードクリエイティブより展開される本シリーズは全4種で、価格は1回500円です。発売時期は2月下旬を予定しています。",
+    "description": "ブシロードクリエイティブより、TVアニメ『マリッジトキシン』のゆめぬいがカプセルトイに登場します。全4種がラインナップされ、1回500円で楽しめます。発売は2月下旬を予定しています。",
     "thumb": "https://gachaimg.com/thumb/tv--35e8ef4e.webp"
   },
   {
@@ -372,7 +394,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "TVアニメ『氷の城壁』からカプセルラバーキーホルダーが登場！",
-    "description": "ブシロードクリエイティブより、氷の城壁のカプセルラバーキーホルダーがカプセルトイとして展開されています。1回300円で全8種がラインナップされており、現在発売中です。",
+    "description": "ブシロードクリエイティブより、氷の城壁のカプセルラバーキーホルダーがガチャガチャで登場しています。1回300円で、全8種がラインナップされており、現在発売中です。",
     "thumb": "https://gachaimg.com/thumb/gacha-7f711eaf.webp"
   },
   {
@@ -504,7 +526,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "「ゆめみるまなざし」をコンセプトにしたぬいぐるみシリーズ【ゆめぬい】に、TVアニメ『正反対な君と僕』が登場！",
-    "description": "人気作品「正反対な君と僕」のゆめぬいがカプセルトイに登場しました。ブシロードクリエイティブから発売中で、全4種がラインナップされています。価格は1回500円で、カプセルトイ専門店や量販店の設置機で購入できます。",
+    "description": "ブシロードクリエイティブより、「正反対な君と僕」のゆめぬいがカプセルトイで登場しました。全4種のラインナップで、1回の価格は500円です。現在発売中で、ガチャガチャ専門店や各種設置店舗にて展開されています。",
     "thumb": "https://gachaimg.com/thumb/gacha-353e3147.webp"
   },
   {
@@ -548,7 +570,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "TVアニメ「スノウボールアース」より、ぷちアクリルスタンドが登場！",
-    "description": "ブシロードクリエイティブより、スノウボールアースをモチーフにしたぷちアクリルスタンドがカプセルトイで登場しました。全7種のラインナップで、価格は1回300円です。現在発売中となっており、ガチャガチャ専門店や各種取扱店舗で購入できます。",
+    "description": "ブシロードクリエイティブより、スノウボールアースをモチーフにしたぷちアクリルスタンドがカプセルトイで登場しました。全7種がラインナップされており、1回の価格は300円です。現在発売中となっていますので、店頭のガチャガチャ機を確認してみてください。",
     "thumb": "https://gachaimg.com/thumb/gacha-3443dfda.webp"
   },
   {
@@ -570,7 +592,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "TVアニメ「スノウボールアース 」より、ラバーキーホルダーが登場！",
-    "description": "ブシロードクリエイティブより、スノウボールアースのカプセルラバーキーホルダーがカプセルトイとして発売中です。全7種がラインナップされており、1回の価格は300円です。ガチャガチャとして展開されるシリーズ商品としてお取り扱いしています。",
+    "description": "ブシロードクリエイティブより、スノウボールアースのカプセルラバーキーホルダーがガチャガチャで登場しています。価格は1回300円で、全7種がラインナップされており、現在発売中です。",
     "thumb": "https://gachaimg.com/thumb/gacha-5ef5f46d.webp"
   },
   {
@@ -859,7 +881,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "TVアニメ「ブルーロック」より、ヘアピンコレクションの第2弾が登場！",
-    "description": "サッカー漫画として人気の「ブルーロック」から、ヘアピンコレクション vol.2がカプセルトイで登場しています。ブシロードクリエイティブより発売中で、全8種のラインナップを1回400円で楽しめます。",
+    "description": "サッカー漫画として人気の「ブルーロック」から、ヘアピンコレクション vol.2がカプセルトイで登場しました。ブシロードクリエイティブより発売中で、全8種のラインナップを1回400円で楽しむことができます。",
     "thumb": "https://gachaimg.com/thumb/-vol2-1cf9dcab.webp"
   },
   {
@@ -7375,7 +7397,7 @@
     "brandSlug": "monhun",
     "price": 400,
     "types": 6,
-    "releaseWeek": "10月 第4週",
+    "releaseWeek": "10月 第5週",
     "color": "#c9e599",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_1.jpg",
@@ -11762,7 +11784,7 @@
     "brandSlug": "other",
     "price": 300,
     "types": 8,
-    "releaseWeek": "10月 第4週",
+    "releaseWeek": "10月 第5週",
     "color": "#e5b499",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_1.jpg",
@@ -28136,39 +28158,6 @@
     "collectedAt": "2026-07-17T05:46:59.241Z",
     "description": "人気アニメ「とっとこハム太郎」をモチーフにしたカプセルトイが登場しています。バンダイから展開される「シャカシャカアクリルチャーム」は全5種のラインナップで、1回400円で楽しめます。ガチャガチャ専門店や量販店の景品コーナーなどで発売中です。",
     "officialDescription": "とっとこハム太郎からシャカシャカアクリルチャームが登場！本体を振ると中のハム太郎たちがシャカシャカ揺れます！",
-    "ageRating": "15才以上"
-  },
-  {
-    "id": "berbrick-package-chrm-collecti-04bf219e",
-    "name": "BE@RBRICK Package Ch@rm Collection Vol.3",
-    "brand": "BE@RBRICK",
-    "brandSlug": "bearbrick",
-    "price": 400,
-    "types": 10,
-    "releaseWeek": "発売中",
-    "color": "#99e5a8",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000251795_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118183699000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-07-16T05:55:48.738Z",
-    "description": "世界的に人気の玩具ブランドBE@RBRICKをテーマにしたカプセルトイ「BE@RBRICK Package Ch@rm Collection Vol.3」がバンダイより登場しています。全10種のラインナップで、価格は1回400円です。ガチャガチャの店頭にて発売中です。",
-    "officialDescription": "クマ型ブロックタイプフィギュア「BE＠RBRICK」（ベアブリック）のミニチュアチャームのメッキVer.が登場。",
     "ageRating": "15才以上"
   }
 ]

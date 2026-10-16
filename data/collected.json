@@ -813,7 +813,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第2週",
     "brand": "ホロライブ",
-    "types": null
+    "types": 15
   },
   {
     "title": "“ディズニーキャラクター” めじるしアクセサリー Halloween",
@@ -2589,7 +2589,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 5
   },
   {
     "title": "まちぼうけ レトロ家電の場合",
@@ -5216,7 +5216,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第3週",
     "brand": "ナルミヤ",
-    "types": 6
+    "types": null
   },
   {
     "title": "mofusand 給食当番がんばるにゃん",
@@ -5312,7 +5312,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第3週",
     "brand": "学園アイドルマスター",
-    "types": 6
+    "types": null
   },
   {
     "title": "ケロロ軍曹☆ まちぼうけであります NEW EDITION",
@@ -5747,54 +5747,6 @@
     "types": 5
   },
   {
-    "title": "モンスターハンター めじるしアクセサリー",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769979514000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年10月 第4週",
-    "brand": "モンスターハンター",
-    "types": 6
-  },
-  {
-    "title": "【CAP'in GALLERY】miffy Glint Series",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995279000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年10月 第4週",
-    "brand": "ミッフィー",
-    "types": 4
-  },
-  {
     "title": "rom＆nd ミニチュアコレクション3",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770033625000",
     "source": "バンダイ公式",
@@ -6032,6 +5984,30 @@
     "price": 400,
     "releaseWeek": "2026年10月 第4週",
     "brand": "初音ミク",
+    "types": 4
+  },
+  {
+    "title": "【CAP'in GALLERY】miffy Glint Series",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769995279000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258530_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年10月 第4週",
+    "brand": "ミッフィー",
     "types": 4
   },
   {
@@ -6417,30 +6393,6 @@
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
     "types": 5
-  },
-  {
-    "title": "きらちゅるした めじるしリンクチャーム ちっちゃなおばけさん",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770095616000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年10月 第4週",
-    "brand": "その他",
-    "types": 8
   },
   {
     "title": "仮面ライダーマイス めじるしアクセサリー",
@@ -7643,28 +7595,28 @@
     "types": 8
   },
   {
-    "title": "ZETT（ゼット） 野球グローブコレクション",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770095357000",
+    "title": "きらちゅるした めじるしリンクチャーム ちっちゃなおばけさん",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770095616000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_1.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_12.jpg"
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000257652_12.jpg"
     ],
-    "price": 400,
+    "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": 6
+    "types": 8
   },
   {
     "title": "HG ウルトラマン 60周年記念弾",
@@ -7832,6 +7784,30 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "モンスターハンター めじるしアクセサリー",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769979514000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258592_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 第5週",
+    "brand": "モンスターハンター",
     "types": 6
   },
   {
@@ -10017,6 +9993,30 @@
     "releaseWeek": "未定",
     "brand": "フリーレン",
     "types": 10
+  },
+  {
+    "title": "ZETT（ゼット） 野球グローブコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770095357000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "未定",
+    "brand": "その他",
+    "types": 6
   },
   {
     "title": "ハイキュー!! ねむらせ隊3",
@@ -15384,5 +15384,18 @@
     "releaseWeek": "2027年2月 下旬",
     "brand": "マリッジトキシン",
     "types": 4
+  },
+  {
+    "title": "学園アイドルマスター　むぎゅみにコレクションフィギュア vol.1",
+    "url": "https://capsule.bushiroad-creative.com/product/10254/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/14145522/gakuen_imas_mugyumini_fg_CP_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/14145522/gakuen_imas_mugyumini_fg_CP_POP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2027年2月 下旬",
+    "brand": "学園アイドルマスター",
+    "types": 5
   }
 ]

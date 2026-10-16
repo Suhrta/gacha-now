@@ -215,10 +215,6 @@
       "count": 171
     }
   },
-  "berbrick-package-chrm-collecti-04bf219e": {
-    "sig": "BE@RBRICK Package Ch@rm Collection Vol.3|10|r",
-    "checkedAt": 1791733666406
-  },
   "gacha-4d844a9b": {
     "sig": "とっとこハム太郎 シャカシャカアクリルチャーム|5|r",
     "checkedAt": 1791733666406,
@@ -7493,6 +7489,18 @@
     "preorder": {
       "q": "ダンダダン ガチャ 予約",
       "count": 6
+    }
+  },
+  "-vol1-24862d4d": {
+    "sig": "学園アイドルマスター　むぎゅみにコレクションフィギュア vol.1|5|p",
+    "checkedAt": 1792137711439,
+    "compset": {
+      "q": "学園アイドルマスター ガチャ コンプ",
+      "count": 13
+    },
+    "preorder": {
+      "q": "学園アイドルマスター むぎゅみにコレクションフィギュア vol.1 予約",
+      "count": 3
     }
   }
 }
