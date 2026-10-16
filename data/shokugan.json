@@ -586,6 +586,38 @@
     "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/baton-store/cabinet/ir-m-shopimages/ir-m-shopimages58/stoy-13003-0.jpg?_ex=400x400"
   },
   {
+    "id": "shokugan-4570117935879000",
+    "name": "食べマス スヌーピー 2026 スヌーピー&amp;チャーリー・ブラウン",
+    "officialUrl": "https://www.bandai.co.jp/candy/products/2026/4570117935879000.html",
+    "jan": "4570117935879",
+    "releaseYm": "2026-10",
+    "releaseDay": 20,
+    "releaseKind": "sale",
+    "collectedAt": "2026-10-16T01:00:34.200Z",
+    "price": 369,
+    "priceTaxIn": 398,
+    "enrichedAt": 1792112437670,
+    "description": "和菓子でキャラクターを表現する「食べマス」シリーズから、お馴染みの「スヌーピー」が帰ってきました。今回はスヌーピーとチャーリー・ブラウンの2個セットで登場する食玩です。スヌーピーはミルクティー味の餡、チャーリー・ブラウンはキャラメル味の餡を包んでおり、見た目も味も楽しめる一品に仕上がっています。価格は369円、発売はバンダイのキャンディ事業部より2026年10月20日を予定しており、店頭にて販売されます。",
+    "cleanImageCheckedAt": "2026-10-16",
+    "cleanImageCands": []
+  },
+  {
+    "id": "shokugan-4570117933561000",
+    "name": "食べマス スヌーピー 2026 スヌーピー&amp;ウッドストック",
+    "officialUrl": "https://www.bandai.co.jp/candy/products/2026/4570117933561000.html",
+    "jan": "4570117933561",
+    "releaseYm": "2026-10",
+    "releaseDay": 20,
+    "releaseKind": "sale",
+    "collectedAt": "2026-10-16T01:00:34.200Z",
+    "price": 369,
+    "priceTaxIn": 398,
+    "enrichedAt": 1792112441760,
+    "description": "人気キャラクターを和菓子で表現する食玩シリーズ「食べマス」に、スヌーピーが帰ってきます。今回は「スヌーピー＆ウッドストック 2026」として、スヌーピーがミルク味の餡、ウッドストックがカスタード味の餡という組み合わせの2個セットで登場します。価格は369円で、販売はバンダイのキャンディ事業部が手がけ、店頭にて取り扱われます。発売日は2026年10月20日が予定されています。",
+    "cleanImageCheckedAt": "2026-10-16",
+    "cleanImageCands": []
+  },
+  {
     "id": "shokugan-4570117933523000",
     "name": "キャラパキ発掘恐竜  キャラパキ発掘ピックつきver.",
     "officialUrl": "https://www.bandai.co.jp/candy/products/2026/4570117933523000.html",
