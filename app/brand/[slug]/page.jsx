@@ -7,6 +7,7 @@ import ReceiptPaper from "../../../components/ReceiptPaper";
 import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
 import { HubLead, HubDetails } from "../../../components/HubInfo";
+import { buildHubHeading } from "../../../lib/hub-info";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
 import AdUnit, { useInFeedGrid } from "../../../components/AdUnit";
 import PopularNowSection from "../../../components/PopularNowSection";
@@ -44,8 +45,9 @@ export default function BrandPage() {
         <div className="text-center mt-2">
           <h1 className="animate-float">
             <span className="block font-pixel text-[12px] text-brand-accent">{brandName}</span>
+            {/* title と同じ文言にする（書き換え対策。lib/hub-info.js の buildHubHeading に理由） */}
             <span className="block font-pixel text-[10px] text-brand-sub mt-1">
-              のガチャガチャ 新作・最新情報
+              {buildHubHeading({ items: brandProducts })}
             </span>
           </h1>
         </div>

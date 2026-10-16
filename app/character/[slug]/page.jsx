@@ -10,6 +10,7 @@ import products from "../../../data/products.json";
 import { CHARACTERS, getCharacterBySlug, filterProductsByCharacter } from "../../../data/characters";
 import { getCharacterIntro } from "../../../data/character-intros";
 import { HubLead, HubDetails } from "../../../components/HubInfo";
+import { buildHubHeading } from "../../../lib/hub-info";
 import CharacterAffiliateCTA from "../../../components/CharacterAffiliateCTA";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
 import AdUnit, { useInFeedGrid } from "../../../components/AdUnit";
@@ -49,8 +50,9 @@ export default function CharacterPage() {
         <div className="text-center mt-2">
           <h1 className="animate-float">
             <span className="block font-pixel text-[12px] text-brand-accent">{name}</span>
+            {/* title と同じ文言にする（書き換え対策。lib/hub-info.js の buildHubHeading に理由） */}
             <span className="block font-pixel text-[10px] text-brand-sub mt-1">
-              のガチャガチャ 新作・最新情報
+              {buildHubHeading({ items })}
             </span>
           </h1>
         </div>
