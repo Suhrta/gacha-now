@@ -1,5 +1,49 @@
 [
   {
+    "id": "silent-hill-2-rich-51989b84",
+    "name": "SILENT HILL 2　コレクションフィギュアRICH",
+    "brand": "SILENT HILL",
+    "brandSlug": "silenthill",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "2月 下旬",
+    "color": "#99e59e",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/16185435/image-7-1280x1267.png",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/16185435/image-7-1280x1267.png"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10221/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-10-16T13:21:40.828Z",
+    "officialDescription": "『SILENT HILL 2』より、コレクションフィギュアRICHが登場！",
+    "description": "ホラーゲームの金字塔として知られるSILENT HILLシリーズから、カプセルトイ「SILENT HILL 2　コレクションフィギュアRICH」が登場します。ブシロードクリエイティブより発売されるこのシリーズは全5種で、価格は1回500円です。発売時期は2月下旬を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/silent-hill-2-rich-51989b84.webp"
+  },
+  {
+    "id": "gacha-3b5481c4",
+    "name": "ラブライブ！シリーズ　オフィシャルカードゲーム　ミニアクリルスタンドマーカー",
+    "brand": "ラブライブ",
+    "brandSlug": "lovelive",
+    "price": 500,
+    "types": 13,
+    "releaseWeek": "11月",
+    "color": "#99e5a6",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13131435/LL_OCG_acst-marker_ari.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13131435/LL_OCG_acst-marker_ari.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10249/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-10-16T13:21:40.828Z",
+    "officialDescription": "『ラブライブ！シリーズ オフィシャルカードゲーム』からミニアクリルスタンドマーカーが登場！ ※モーリーファンタジー・PALO限定カプセルです。",
+    "description": "多くのファンに親しまれる人気コンテンツ「ラブライブ！シリーズ」のオフィシャルカードゲームに関連したミニアクリルスタンドマーカーが、カプセルトイとして登場します。ブシロードクリエイティブより展開される本商品は全13種のラインナップで、価格は1回500円です。発売は11月を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/gacha-3b5481c4.webp"
+  },
+  {
     "id": "-vol1-24862d4d",
     "name": "学園アイドルマスター　むぎゅみにコレクションフィギュア vol.1",
     "brand": "学園アイドルマスター",
@@ -131,7 +175,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T13:24:29.371Z",
     "officialDescription": "「ゆめみるまなざし」がコンセプトのぬいぐるみシリーズ「ゆめぬい」に、TVアニメ『マリッジトキシン』が登場！",
-    "description": "ブシロードクリエイティブより、TVアニメ『マリッジトキシン』のゆめぬいがカプセルトイに登場します。全4種がラインナップされ、1回500円で挑戦できます。発売時期は2月下旬が予定されています。",
+    "description": "TVアニメ『マリッジトキシン』を題材にしたカプセルトイとして、ゆめぬいが登場します。ラインナップは全4種で、1回の価格は500円です。発売時期は2月下旬が予定されています。ブシロードクリエイティブからの展開で、ガチャガチャ専門コーナーでの取り扱いが見込まれます。",
     "thumb": "https://gachaimg.com/thumb/tv--35e8ef4e.webp"
   },
   {
@@ -394,7 +438,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "TVアニメ『氷の城壁』からカプセルラバーキーホルダーが登場！",
-    "description": "ブシロードクリエイティブより、氷の城壁のカプセルラバーキーホルダーがカプセルトイとして展開されています。全8種のラインナップで、価格は1回300円です。氷の城壁をモチーフにしたグッズとして発売中です。",
+    "description": "ブシロードクリエイティブより、氷の城壁をモチーフにしたカプセルラバーキーホルダーがガチャガチャで展開されています。価格は1回300円で、全8種がラインナップされており、現在発売中です。",
     "thumb": "https://gachaimg.com/thumb/gacha-7f711eaf.webp"
   },
   {
@@ -526,7 +570,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "「ゆめみるまなざし」をコンセプトにしたぬいぐるみシリーズ【ゆめぬい】に、TVアニメ『正反対な君と僕』が登場！",
-    "description": "人気作品「正反対な君と僕」より、ゆめぬいがカプセルトイに登場しました。ブシロードクリエイティブより発売中で、全4種のラインナップとなっています。価格は1回500円です。",
+    "description": "ブシロードクリエイティブより、「正反対な君と僕」のゆめぬいがカプセルトイに登場しています。価格は1回500円で、全4種の展開です。現在発売中となっており、カプセルトイ専門店や量販店の設置機で購入できます。",
     "thumb": "https://gachaimg.com/thumb/gacha-353e3147.webp"
   },
   {
@@ -592,7 +636,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "TVアニメ「スノウボールアース 」より、ラバーキーホルダーが登場！",
-    "description": "ブシロードクリエイティブより、スノウボールアースをモチーフにしたカプセルトイが登場しました。商品名はスノウボールアース　カプセルラバーキーホルダーで、全7種のラインナップとなっています。価格は1回300円で、現在発売中です。",
+    "description": "ブシロードクリエイティブより、スノウボールアースのカプセルラバーキーホルダーがカプセルトイとして展開されています。全7種のラインナップで、価格は1回300円です。現在発売中で、ガチャガチャ専門店や各種取扱店舗で入手できます。",
     "thumb": "https://gachaimg.com/thumb/gacha-5ef5f46d.webp"
   },
   {
@@ -881,7 +925,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "TVアニメ「ブルーロック」より、ヘアピンコレクションの第2弾が登場！",
-    "description": "サッカー漫画として人気を集める「ブルーロック」から、ヘアピンコレクションのカプセルトイ第2弾が登場しました。ブシロードクリエイティブより発売中で、全8種のラインナップを1回400円で楽しめます。",
+    "description": "サッカー漫画として人気の高い「ブルーロック」から、ヘアピンコレクション vol.2がカプセルトイに登場しました。ブシロードクリエイティブより発売中で、全8種のラインナップを1回400円で楽しめます。",
     "thumb": "https://gachaimg.com/thumb/-vol2-1cf9dcab.webp"
   },
   {
