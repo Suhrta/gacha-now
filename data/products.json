@@ -1,5 +1,38 @@
 [
   {
+    "id": "bt21--11b1b94d",
+    "name": "BT21 ベーカリーチャーム",
+    "brand": "BT21",
+    "brandSlug": "bt21",
+    "price": 400,
+    "types": 7,
+    "releaseWeek": "発売中",
+    "color": "#99e5a4",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258601_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770121841000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-10-17T07:41:28.429Z",
+    "officialDescription": "おいしそうなパンをモチーフにしたスクイーズチャームです。袋の中のパンはぷにぷにやわらかい素材で触り心地もたのしいアイテムです。",
+    "ageRating": "15才以上",
+    "description": "世界中で人気のキャラクター「BT21」をモチーフにしたカプセルトイ「BT21 ベーカリーチャーム」がバンダイより登場しています。1回400円で全7種がラインナップされており、現在発売中です。"
+  },
+  {
     "id": "silent-hill-2-rich-51989b84",
     "name": "SILENT HILL 2　コレクションフィギュアRICH",
     "brand": "SILENT HILL",
@@ -438,7 +471,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "TVアニメ『氷の城壁』からカプセルラバーキーホルダーが登場！",
-    "description": "ブシロードクリエイティブより、氷の城壁のカプセルラバーキーホルダーがカプセルトイとして登場しています。全8種のラインナップで、価格は1回300円です。現在発売中で、ガチャガチャ取扱店舗にて展開されています。",
+    "description": "ブシロードクリエイティブより、氷の城壁をモチーフにしたカプセルラバーキーホルダーがガチャガチャとして登場しています。価格は1回300円で、全8種がラインナップされています。現在発売中です。",
     "thumb": "https://gachaimg.com/thumb/gacha-7f711eaf.webp"
   },
   {
@@ -570,7 +603,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "「ゆめみるまなざし」をコンセプトにしたぬいぐるみシリーズ【ゆめぬい】に、TVアニメ『正反対な君と僕』が登場！",
-    "description": "ブシロードクリエイティブより、「正反対な君と僕」のゆめぬいがカプセルトイに登場しています。価格は1回500円で、全4種の展開です。現在発売中となっており、カプセルトイ専門店や設置店舗で手に入れることができます。",
+    "description": "ブシロードクリエイティブより、「正反対な君と僕」のゆめぬいがカプセルトイに登場しています。価格は1回500円で、全4種の展開です。現在発売中となっており、ガチャガチャとして店頭や専門店で購入できます。",
     "thumb": "https://gachaimg.com/thumb/gacha-353e3147.webp"
   },
   {
@@ -636,7 +669,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "TVアニメ「スノウボールアース 」より、ラバーキーホルダーが登場！",
-    "description": "ブシロードクリエイティブより、スノウボールアースのカプセルラバーキーホルダーがカプセルトイとして展開されています。1回300円で全7種がラインナップされており、現在発売中です。",
+    "description": "ブシロードクリエイティブより、スノウボールアースのカプセルラバーキーホルダーがガチャガチャで登場しています。全7種がラインナップされており、価格は1回300円です。現在発売中となっていますので、カプセルトイ取扱店舗にて見つけることができます。",
     "thumb": "https://gachaimg.com/thumb/gacha-5ef5f46d.webp"
   },
   {
@@ -925,7 +958,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "TVアニメ「ブルーロック」より、ヘアピンコレクションの第2弾が登場！",
-    "description": "サッカー漫画として人気の「ブルーロック」からヘアピンコレクション vol.2がカプセルトイで登場しました。ブシロードクリエイティブより発売されており、全8種のラインナップを1回400円で楽しむことができます。現在発売中です。",
+    "description": "サッカー漫画として人気の「ブルーロック」から、カプセルトイ「ブルーロック ヘアピンコレクション vol.2」が登場しました。ブシロードクリエイティブより発売中で、全8種のラインナップとなっています。価格は1回400円です。",
     "thumb": "https://gachaimg.com/thumb/-vol2-1cf9dcab.webp"
   },
   {
@@ -2496,9 +2529,9 @@
     "releaseWeek": "未定",
     "color": "#e5b499",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259583_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259583_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259583_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259583_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259583_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259583_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259583_4.jpg",
@@ -4034,9 +4067,9 @@
     "releaseWeek": "未定",
     "color": "#e5b499",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259538_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259538_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259538_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259538_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259538_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259538_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259538_4.jpg",
@@ -4434,9 +4467,9 @@
     "releaseWeek": "未定",
     "color": "#d5e599",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259526_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259526_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259526_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259526_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259526_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259526_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259526_4.jpg",
@@ -4467,9 +4500,9 @@
     "releaseWeek": "未定",
     "color": "#FFB74D",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259525_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259525_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259525_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259525_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259525_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259525_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259525_4.jpg",
@@ -28170,38 +28203,5 @@
       "ミムラねえさん"
     ],
     "thumb": "https://gachaimg.com/thumb/gacha-34d219af.webp"
-  },
-  {
-    "id": "gacha-4d844a9b",
-    "name": "とっとこハム太郎 シャカシャカアクリルチャーム",
-    "brand": "とっとこハム太郎",
-    "brandSlug": "hamtaro",
-    "price": 400,
-    "types": 5,
-    "releaseWeek": "発売中",
-    "color": "#e5999f",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253608_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118198150000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-07-17T05:46:59.241Z",
-    "description": "人気アニメ「とっとこハム太郎」をモチーフにしたカプセルトイが登場しています。バンダイから展開される「シャカシャカアクリルチャーム」は全5種のラインナップで、1回400円で楽しめます。ガチャガチャ専門店や量販店の景品コーナーなどで発売中です。",
-    "officialDescription": "とっとこハム太郎からシャカシャカアクリルチャームが登場！本体を振ると中のハム太郎たちがシャカシャカ揺れます！",
-    "ageRating": "15才以上"
   }
 ]
