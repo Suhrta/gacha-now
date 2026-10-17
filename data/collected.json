@@ -45,7 +45,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "MOOMIN つまんでつなげてマスコット2",
@@ -6296,7 +6296,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "マインクラフト",
-    "types": 5
+    "types": null
   },
   {
     "title": "機動戦士ガンダム ガンダムヘッド めじるしアクセサリー2",
