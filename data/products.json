@@ -1,5 +1,56 @@
 [
   {
+    "id": "joguman-hideseek--4420ab7b",
+    "name": "JOGUMAN Hide&Seek かくれんぼフィギュア",
+    "brand": "JOGUMAN",
+    "brandSlug": "joguman",
+    "price": 300,
+    "types": null,
+    "releaseWeek": "発売中",
+    "color": "#e299e5",
+    "hot": false,
+    "img": null,
+    "images": [],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903588",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-19T15:22:21.253Z",
+    "description": "タカラトミーアーツが手がけるカプセルトイ「JOGUMAN Hide&Seek かくれんぼフィギュア」です。JOGUMANを題材にしたガチャガチャシリーズで、1回300円で遊ぶことができます。現在発売中です。"
+  },
+  {
+    "id": "-dgrayman-552468aa",
+    "name": "でふぉラバ! D.Gray-manキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908897_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908897_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908897",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-19T15:22:21.253Z",
+    "officialDescription": "大人気ダークファンタジー『D.Gray-man』が、タカラトミーアーツオリジナルのデフォルメシリーズ「でふぉラバ!」に初登場。「黒の教団」と「ノアの一族」のキャラクターが、個性あふれる表情やポーズでモデル化されています。本体サイズは高さ約5.5cm。ラインナップは「アレン・ウォーカー」「神田ユウ」「ラビ」「リナリー・リー」「ハワード・リンク」「ティキ・ミック」「ロード・キャメロット」の全7種。",
+    "lineup": [
+      "アレン・ウォーカー",
+      "神田ユウ",
+      "ラビ",
+      "リナリー・リー",
+      "ハワード・リンク",
+      "ティキ・ミック",
+      "ロード・キャメロット"
+    ],
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-10-19",
+    "rakutenThumbCands": [],
+    "thumb": "https://gachaimg.com/thumb/-dgrayman-552468aa.webp"
+  },
+  {
     "id": "gacha-235b37e0",
     "name": "おおのたろう 赤ちゃんブーブコレクション２",
     "brand": "その他",
@@ -54,7 +105,7 @@
       "デザインC",
       "デザインD"
     ],
-    "description": "タカラトミーアーツより、トミカをテーマにしたカプセルトイ「トミカ　ウォッチコレクション2」が発売中です。1回400円で、全4種がラインナップされています。ガチャガチャで展開されるトミカ関連のシリーズとして、現在店頭で販売されています。",
+    "description": "タカラトミーアーツより、ミニカーで人気のトミカをテーマにしたカプセルトイ「トミカ　ウォッチコレクション2」が発売中です。1回400円で全4種がラインナップされており、ガチャガチャとして展開されています。",
     "rakutenThumbChecked": true,
     "rakutenThumbCheckedAt": "2026-10-19",
     "rakutenThumbCands": [
@@ -696,7 +747,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "「ゆめみるまなざし」をコンセプトにしたぬいぐるみシリーズ【ゆめぬい】に、TVアニメ『正反対な君と僕』が登場！",
-    "description": "人気作品「正反対な君と僕」のぬいぐるみがカプセルトイに登場しました。「正反対な君と僕　ゆめぬい」は全4種で展開されており、ブシロードクリエイティブより発売中です。価格は1回500円となっています。",
+    "description": "ブシロードクリエイティブより、「正反対な君と僕」のゆめぬいがカプセルトイに登場しています。価格は1回500円で、全4種の展開です。現在発売中で、カプセルトイ専門店や各種取扱店舗で入手できます。",
     "thumb": "https://gachaimg.com/thumb/gacha-353e3147.webp"
   },
   {

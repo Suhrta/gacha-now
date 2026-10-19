@@ -5024,7 +5024,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第3週",
     "brand": "アンパンマン",
-    "types": null
+    "types": 5
   },
   {
     "title": "ねこあつめ2 ぬいぐるみクリップ",
@@ -7784,7 +7784,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 8
   },
   {
     "title": "モンスターハンター めじるしアクセサリー",
@@ -10665,6 +10665,17 @@
     "types": 4
   },
   {
+    "title": "JOGUMAN Hide&Seek かくれんぼフィギュア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903588",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": null,
+    "images": [],
+    "price": null,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "JOGUMAN",
+    "types": null
+  },
+  {
     "title": "ディズニープリンセス　身じたくFig.",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904370",
     "source": "タカラトミーアーツ公式",
@@ -10780,6 +10791,19 @@
     "releaseWeek": "2026年10月 19日週",
     "brand": "パワーパフガールズ",
     "types": 4
+  },
+  {
+    "title": "でふぉラバ! D.Gray-manキーホルダー",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908897",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908897_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908897_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "その他",
+    "types": 7
   },
   {
     "title": "トミカ　ウォッチコレクション2",
