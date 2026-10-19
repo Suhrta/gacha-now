@@ -1,5 +1,40 @@
 [
   {
+    "id": "gacha-4df053d6",
+    "name": "トミカ　ウォッチコレクション2",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "発売中",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909702_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909702_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909702",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-19T00:43:00.374Z",
+    "officialDescription": "車両の形にダイカットされたトミカウォッチの第2弾です。クリアラメ仕様のキラキラのフタを開けると、メーターをイメージしたクールなデジタル時計と\"TOMICA\"のロゴが入った盤面が現れます。電池交換可。本体サイズは約23cm。ラインナップは「デザインA」「デザインB」「デザインC」「デザインD」の全4種。",
+    "size": "約23cm",
+    "lineup": [
+      "デザインA",
+      "デザインB",
+      "デザインC",
+      "デザインD"
+    ],
+    "description": "ミニカーで人気のトミカをテーマにしたカプセルトイ「トミカ　ウォッチコレクション2」が登場しています。価格は1回400円で、全4種がラインナップされており、タカラトミーアーツより発売中です。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-10-19",
+    "rakutenThumbCands": [
+      "220bd4c9"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-4df053d6.webp"
+  },
+  {
     "id": "gacha-34d219af",
     "name": "ムーミン きりかぶの時計",
     "brand": "ムーミン",
@@ -632,7 +667,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "「ゆめみるまなざし」をコンセプトにしたぬいぐるみシリーズ【ゆめぬい】に、TVアニメ『正反対な君と僕』が登場！",
-    "description": "ブシロードクリエイティブより、「正反対な君と僕」のゆめぬいがカプセルトイで登場しています。価格は1回500円で、全4種がラインナップされており、現在発売中です。",
+    "description": "ブシロードクリエイティブより、「正反対な君と僕」のゆめぬいがカプセルトイに登場しています。価格は1回500円で、全4種のラインナップとなっています。現在発売中のため、ガチャガチャの店頭で手に入れることができます。",
     "thumb": "https://gachaimg.com/thumb/gacha-353e3147.webp"
   },
   {
@@ -987,7 +1022,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "TVアニメ「ブルーロック」より、ヘアピンコレクションの第2弾が登場！",
-    "description": "サッカー漫画として人気の「ブルーロック」から、ヘアピンコレクション vol.2がカプセルトイで登場しています。ブシロードクリエイティブより発売中で、全8種のラインナップが1回400円で楽しめます。",
+    "description": "サッカー漫画として人気の「ブルーロック」から、ヘアピンコレクション vol.2がカプセルトイで登場しました。ブシロードクリエイティブより発売中で、全8種のラインナップを1回400円で楽しめます。",
     "thumb": "https://gachaimg.com/thumb/-vol2-1cf9dcab.webp"
   },
   {

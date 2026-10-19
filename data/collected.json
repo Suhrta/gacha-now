@@ -10439,7 +10439,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y098390_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年10月 13日週",
+    "releaseWeek": "2026年10月 12日週",
     "brand": "その他",
     "types": 4
   },
@@ -10465,7 +10465,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y903908_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年10月 13日週",
+    "releaseWeek": "2026年10月 12日週",
     "brand": "サンリオ",
     "types": 5
   },
@@ -10491,7 +10491,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y904783_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月 13日週",
+    "releaseWeek": "2026年10月 12日週",
     "brand": "トムとジェリー",
     "types": 4
   },
@@ -10517,7 +10517,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y905544_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年10月 13日週",
+    "releaseWeek": "2026年10月 12日週",
     "brand": "ポケモン",
     "types": 7
   },
@@ -10530,7 +10530,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y905810_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月 13日週",
+    "releaseWeek": "2026年10月 12日週",
     "brand": "スター・ウォーズ",
     "types": 5
   },
@@ -10556,7 +10556,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y907357_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年10月 13日週",
+    "releaseWeek": "2026年10月 12日週",
     "brand": "その他",
     "types": 5
   },
@@ -10569,7 +10569,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y907876_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年10月 13日週",
+    "releaseWeek": "2026年10月 12日週",
     "brand": "アイプリ",
     "types": 7
   },
@@ -10595,7 +10595,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y909283_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年10月 13日週",
+    "releaseWeek": "2026年10月 12日週",
     "brand": "その他",
     "types": 12
   },
@@ -10608,7 +10608,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y910333_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月 13日週",
+    "releaseWeek": "2026年10月 12日週",
     "brand": "きかんしゃトーマス",
     "types": 8
   },
@@ -10621,7 +10621,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y910456_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年10月 13日週",
+    "releaseWeek": "2026年10月 12日週",
     "brand": "スーパーマリオ",
     "types": 6
   },
@@ -10779,6 +10779,19 @@
     "price": 500,
     "releaseWeek": "2026年10月 19日週",
     "brand": "パワーパフガールズ",
+    "types": 4
+  },
+  {
+    "title": "トミカ　ウォッチコレクション2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909702",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909702_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909702_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 19日週",
+    "brand": "トミカ",
     "types": 4
   },
   {
