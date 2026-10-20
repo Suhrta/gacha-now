@@ -5840,7 +5840,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "VIRUSWEETS",
-    "types": 6
+    "types": null
   },
   {
     "title": "【CAP'in GALLERY】LilGemily figure collection",
@@ -6128,7 +6128,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "サンリオ",
-    "types": 5
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ 実写版ミニチュアチャーム",
@@ -6297,30 +6297,6 @@
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
     "types": 4
-  },
-  {
-    "title": "MINECRAFT ぬいぐるみマスコット",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770069136000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年10月 第4週",
-    "brand": "マインクラフト",
-    "types": 5
   },
   {
     "title": "機動戦士ガンダム ガンダムヘッド めじるしアクセサリー2",
@@ -7523,6 +7499,30 @@
     "types": 5
   },
   {
+    "title": "MINECRAFT クリスタルチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770069143000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 第5週",
+    "brand": "マインクラフト",
+    "types": 5
+  },
+  {
     "title": "妖怪ウォッチ 召喚メダルフィギュア",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770069150000",
     "source": "バンダイ公式",
@@ -8534,9 +8534,9 @@
     "title": "beco+81 ライトマスコット",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118198471000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_4.jpg",
@@ -8606,9 +8606,9 @@
     "title": "プリキュアオールスターズ 変身めじるしアクセサリー２",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118206565000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_4.jpg",
@@ -8630,9 +8630,9 @@
     "title": "怒ったおおきいわんぴーすわんちゃあぁぁん2",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118206602000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_4.jpg",
@@ -8912,7 +8912,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "その他",
-    "types": 10
+    "types": null
   },
   {
     "title": "じょせまる ミニチュアパッケージチャーム",
@@ -9038,9 +9038,9 @@
     "title": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770054026000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_4.jpg",
@@ -9230,9 +9230,9 @@
     "title": "銀魂 めじるしアクセサリー3 ～身に着けている物で趣味が大体分かる～",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770055504000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_4.jpg",
@@ -9513,6 +9513,30 @@
     "releaseWeek": "未定",
     "brand": "よこみぞゆり",
     "types": 6
+  },
+  {
+    "title": "MINECRAFT ぬいぐるみマスコット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770069136000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258551_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "未定",
+    "brand": "マインクラフト",
+    "types": 5
   },
   {
     "title": "デジモンアドベンチャー めじるしアクセサリー3",
@@ -9806,9 +9830,9 @@
     "title": "SIROCARA めじるしアクセサリー",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770081497000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_4.jpg",
@@ -10358,9 +10382,9 @@
     "title": "ちびまる子ちゃん×クレヨンしんちゃん ラバーマスコット",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770140125000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_4.jpg",
@@ -14587,6 +14611,19 @@
     "releaseWeek": "2026年10月 下旬",
     "brand": "その他",
     "types": 6
+  },
+  {
+    "title": "ピースするどうぶつ マーカーチャーム",
+    "url": "https://kitan.jp/products/peaceanimals_mc/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/10/PeacesignanimalsM_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/10/PeacesignanimalsM_DP.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 下旬",
+    "brand": "その他",
+    "types": 5
   },
   {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",

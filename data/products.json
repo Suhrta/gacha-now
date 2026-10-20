@@ -1,5 +1,67 @@
 [
   {
+    "id": "minecraft--7ffb1837",
+    "name": "MINECRAFT クリスタルチャーム",
+    "brand": "マインクラフト",
+    "brandSlug": "minecraft",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "10月 第5週",
+    "color": "#bf99e5",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000256787_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770069143000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-10-20T01:29:01.387Z",
+    "officialDescription": "全面にダイヤモンドカットを施した、キラキラ感満載のクリスタルチャームが登場！",
+    "ageRating": "15才以上",
+    "description": "世界的な人気を誇るサンドボックスゲーム「マインクラフト」より、MINECRAFT クリスタルチャームがバンダイのカプセルトイとして登場します。全5種のラインナップで、価格は1回400円です。発売時期は10月第5週を予定しており、ガチャガチャ専門店や量販店の筐体で展開される見込みです。"
+  },
+  {
+    "id": "gacha-76a156fa",
+    "name": "ピースするどうぶつ マーカーチャーム",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "10月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/10/PeacesignanimalsM_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/10/PeacesignanimalsM_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/peaceanimals_mc/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-10-20T01:29:01.390Z",
+    "officialDescription": "動物たちがニコッと笑ってピースする、かわいくてちょっとヘンテコなフィギュア「ピースするどうぶつ」が、便利なマーカーチャームになって登場します！「ハイチーズ！」の呼びかけに応えるように、思わずピースしちゃう動物たち。傘やポーチなどに付けて、一緒にお出かけしやすくなりました♪ニコニコ顔やおすまし顔など、それぞれの個性が光る表情やポーズにも注目です。持ち歩いて、写真を撮るときにチラッと映り込ませれば、楽しい一枚に変身！お出かけ先で一緒に撮影するのはもちろん、たくさん集めて並べれば、まるでどうぶつたちの集合写真のような楽しみ方もできます。見ているだけでも、なんだか明るい気持ちになれそうなマーカーチャームです♪ ラインナップは「 いぬ 、ねこ 、ごりら 、かえる 、うさぎ 」の全5種。",
+    "size": "約45mm",
+    "lineup": [
+      "いぬ",
+      "ねこ",
+      "ごりら",
+      "かえる",
+      "うさぎ"
+    ],
+    "thumb": "https://gachaimg.com/thumb/gacha-76a156fa.webp"
+  },
+  {
     "id": "joguman-hideseek--4420ab7b",
     "name": "JOGUMAN Hide&Seek かくれんぼフィギュア",
     "brand": "JOGUMAN",
@@ -15,7 +77,7 @@
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903588",
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-10-19T15:22:21.253Z",
-    "description": "タカラトミーアーツより展開されているJOGUMANのカプセルトイで、「Hide&Seek かくれんぼフィギュア」というタイトルで登場しました。1回の価格は300円で、現在ガチャガチャとして稼働中です。"
+    "description": "タカラトミーアーツから登場するカプセルトイで、JOGUMANのHide&Seekをテーマにしたフィギュアです。1回300円で展開されており、現在発売中です。"
   },
   {
     "id": "-dgrayman-552468aa",
@@ -747,7 +809,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "「ゆめみるまなざし」をコンセプトにしたぬいぐるみシリーズ【ゆめぬい】に、TVアニメ『正反対な君と僕』が登場！",
-    "description": "ブシロードクリエイティブより「正反対な君と僕」のゆめぬいがカプセルトイに登場しています。価格は1回500円で、全4種の展開です。「正反対な君と僕」のファンであれば気になるラインナップで、現在発売中となっています。",
+    "description": "ブシロードクリエイティブより、「正反対な君と僕」のゆめぬいがカプセルトイに登場しています。全4種のラインナップで、価格は1回500円です。現在発売中となっており、ガチャガチャ取扱店で入手できます。",
     "thumb": "https://gachaimg.com/thumb/gacha-353e3147.webp"
   },
   {
@@ -2813,9 +2875,9 @@
     "releaseWeek": "未定",
     "color": "#e5b499",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259585_4.jpg",
@@ -2910,9 +2972,9 @@
     "releaseWeek": "未定",
     "color": "#F48FB1",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259554_4.jpg",
@@ -2943,9 +3005,9 @@
     "releaseWeek": "未定",
     "color": "#e599b9",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259588_4.jpg",
@@ -3401,9 +3463,9 @@
     "releaseWeek": "未定",
     "color": "#999fe5",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259567_4.jpg",
@@ -3662,9 +3724,9 @@
     "releaseWeek": "未定",
     "color": "#e599bf",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259559_4.jpg",
@@ -4317,9 +4379,9 @@
     "releaseWeek": "未定",
     "color": "#e5b499",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259535_4.jpg",
@@ -5047,9 +5109,9 @@
     "releaseWeek": "未定",
     "color": "#99d2e5",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_4.jpg",
@@ -5473,8 +5535,12 @@
     "description": "アメリカのアニメーション作品として親しまれているパワーパフガールズをモチーフにしたカプセルトイ「パワーパフガールズ もふもふポーシェット」がタカラトミーアーツから登場します。価格は1回500円で、全4種の展開です。発売は10月を予定しています。",
     "thumb": "https://gachaimg.com/thumb/gacha-282f6301.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
-    "rakutenThumbCands": []
+    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCands": [
+      "1c3a6e9f",
+      "26726b4d"
+    ],
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/noris-collection/cabinet/items1788169440/14947273361697893224.jpg?_ex=400x400"
   },
   {
     "id": "gacha-0f41e6cc",
@@ -5546,11 +5612,12 @@
     ],
     "description": "任天堂の人気ゲームを題材にしたカプセルトイ「とことこヨッシー」が登場します。世界的に知られるスーパーマリオシリーズの商品で、価格は1回400円、全6種のラインナップです。発売は10月13日週を予定しており、タカラトミーアーツから展開されます。",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
-      "9e7a43f4"
+      "b76d69ab",
+      "d6ce0215"
     ],
-    "rakutenThumbMisses": 1,
+    "rakutenThumbMisses": 2,
     "thumb": "https://gachaimg.com/thumb/gacha-7a217972.webp"
   },
   {
@@ -5582,7 +5649,7 @@
     "description": "キャラクターが肩にズンと寄りかかる姿を立体化した「肩ズンFig.」シリーズから、人気アニメ『呪術廻戦』5周年を記念した-弍-が登場するカプセルトイです。タカラトミーアーツより全4種がラインナップされ、1回400円で遊べます。発売は10月を予定しています。",
     "thumb": "https://gachaimg.com/thumb/fig-5--26016b49.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": []
   },
   {
@@ -5639,7 +5706,7 @@
     "description": "世界中で親しまれているカードゲーム「UNO」をモチーフにしたカプセルトイ「UNO™ バラエティカードコレクション2」がタカラトミーアーツより登場します。価格は1回400円で、全4種がラインナップされています。発売時期は10月を予定しています。",
     "thumb": "https://gachaimg.com/thumb/uno-2-2415a2bb.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": []
   },
   {
@@ -5761,7 +5828,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/gacha-42571b74.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "2853e3bb"
     ],
@@ -10043,7 +10110,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/tokyo-mercapital-crisis--025a307d.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": []
   },
   {
@@ -10068,8 +10135,11 @@
     "size": "約6.6cm",
     "thumb": "https://gachaimg.com/thumb/-second-edition-7f28d3e3.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
-    "rakutenThumbCands": []
+    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCands": [
+      "5845c4bf"
+    ],
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/aromacoffee/cabinet/13819428/imgrc0119963339.jpg?_ex=400x400"
   },
   {
     "id": "gacha-049d3729",
@@ -10092,11 +10162,11 @@
     "officialDescription": "NHKのキャラクター「どーもくん」が、人気大河ドラマの主人公などに扮したマスコットになりました。2026年現在放送中の「豊臣兄弟!」をはじめ、「真田丸」などをイメージしたモデルで立体化されています。身につけやすいボールチェーン付き。本体サイズはH約4〜5cm。ラインナップは「真田丸」「光る君へ」「べらぼう」「豊臣兄弟!」の全4種。",
     "thumb": "https://gachaimg.com/thumb/gacha-049d3729.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
-      "220bd4c9"
+      "18acc386"
     ],
-    "rakutenThumbMisses": 1
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-toysanta/cabinet/060501/g-5leg0019ud-004.jpg?_ex=400x400"
   },
   {
     "id": "-30--1040d189",
@@ -10159,11 +10229,16 @@
     ],
     "thumb": "https://gachaimg.com/thumb/moz--3f92bc4f.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
-      "2853e3bb"
+      "1d2a7f8a",
+      "3aa57fe1",
+      "4bc09f88",
+      "5152e7a3",
+      "da904f90",
+      "fe71af6a"
     ],
-    "rakutenThumbMisses": 1
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-yuyou/cabinet/2610/g261047s01.jpg?_ex=400x400"
   },
   {
     "id": "gacha-2342b56e",
@@ -10240,14 +10315,15 @@
     "description": "ミニカーのトミカをモチーフにしたラバー製チャームが並ぶカプセルトイで、バッグやポーチの持ち手に付けて目印にできるめじるしアクセサリーのシリーズに連なる商品です。価格は1回300円で全5種がラインナップされ、タカラトミーアーツより10月13日週に発売されます。",
     "thumb": "https://gachaimg.com/thumb/gacha-73884718.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "4be30a48",
+      "8a5536f1",
       "97006638",
       "cd654a5e",
       "ddee4ea9"
     ],
-    "rakutenThumbMisses": 1
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/saitamatoy/cabinet/upload2101/2026100720507.jpg?_ex=400x400"
   },
   {
     "id": "gacha-04e7ab4b",
@@ -10334,7 +10410,7 @@
     "description": "猫の姿をした妖怪ニャンコ先生が人気のコミック・アニメ作品「夏目友人帳」から、徒然根付ストラップがカプセルトイに登場します。タカラトミーアーツが手がけるPart8は全5種のラインナップで、1回300円で遊べます。発売は10月を予定しています。",
     "thumb": "https://gachaimg.com/thumb/-part8-2a1d6428.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "220bd4c9"
     ],
@@ -10363,7 +10439,7 @@
     "description": "子供から大人まで人気のミニカーブランド、トミカをモチーフにしたカプセルトイ「カプセルプラレール エアポート特急!大集合スペシャル」が登場します。全12種がラインナップされ、1回300円で楽しめるガチャガチャです。発売元はタカラトミーアーツで、10月より展開が始まります。",
     "thumb": "https://gachaimg.com/thumb/gacha-4846e800.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "220bd4c9"
     ],
@@ -11256,10 +11332,8 @@
     "description": "人気刑事ドラマ「踊る大捜査線」をモチーフにしたラバー製の目印チャームが、タカラトミーアーツからガチャガチャに登場しました。『踊る大捜査線N.E.W.』めじるしガチャマスコットの名の通り、バッグの持ち手などに付けて自分の目印にできるタイプのシリーズで、全6種がラインナップされています。価格は1回400円で、現在発売中です。",
     "thumb": "https://gachaimg.com/thumb/new--49398282.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
-    "rakutenThumbCands": [
-      "33b03dc8"
-    ],
+    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCands": [],
     "rakutenThumbMisses": 1
   },
   {
@@ -11306,16 +11380,16 @@
     "description": "羊のキャラクターとして人気の「ひつじのショーン」が、タカラトミーアーツからカプセルトイに登場します。商品名は「ゆらゆらつながるマスコット」で、1回300円で楽しめます。発売時期は9月28日週を予定しており、ガチャガチャ専門店や設置店舗での取り扱いが見込まれます。",
     "thumb": "https://gachaimg.com/thumb/gacha-21881bd7.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "24fc886a",
-      "2e81a670",
       "58b3e3cf",
-      "5dc3bbc2",
       "8c04db69",
+      "af714ca2",
+      "dac50ded",
       "f180c2e4"
     ],
-    "rakutenThumbMisses": 1
+    "rakutenThumbMisses": 2
   },
   {
     "id": "gacha-3250624d",
@@ -11467,16 +11541,16 @@
     "description": "タカラトミーアーツより、トミカのカプセルトイとしてカプセルプラレール きかんしゃトーマス ふしぎないわのボルダー編が登場します。全13種のラインナップで、1回300円で楽しめるガチャガチャとして展開されます。発売時期は9月24日週が予定されています。",
     "thumb": "https://gachaimg.com/thumb/gacha-1c39eacb.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
-      "00a96e4c",
-      "5da135e4",
+      "371a26c6",
       "73c4f311",
-      "91541de9",
+      "9ac30989",
       "c65e8bef",
+      "eb2ff1a5",
       "fd5e0c6e"
     ],
-    "rakutenThumbMisses": 1
+    "rakutenThumbMisses": 2
   },
   {
     "id": "gacha-5daa505e",
