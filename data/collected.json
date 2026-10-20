@@ -45,7 +45,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "MOOMIN つまんでつなげてマスコット2",
@@ -7472,7 +7472,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "葬送のフリーレン まちぼうけ3",
@@ -7856,7 +7856,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "From TV animation ONE PIECE　ワンピの実 第一海戦",
@@ -10400,7 +10400,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "ちいかわ",
-    "types": 6
+    "types": null
   },
   {
     "title": "ちびまる子ちゃん×クレヨンしんちゃん ラバーマスコット",
