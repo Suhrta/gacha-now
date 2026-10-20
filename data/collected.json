@@ -5840,7 +5840,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "VIRUSWEETS",
-    "types": null
+    "types": 6
   },
   {
     "title": "【CAP'in GALLERY】LilGemily figure collection",
@@ -6128,7 +6128,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "サンリオキャラクターズ 実写版ミニチュアチャーム",
@@ -7739,6 +7739,30 @@
     "types": 7
   },
   {
+    "title": "ポケットモンスター ポケモンラバーマスコット31",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770139747000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 第5週",
+    "brand": "ポケモン",
+    "types": 8
+  },
+  {
     "title": "【フラットガシャポン】みいつけた！ ネイル＆マルチシールコレクション",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770140453000",
     "source": "バンダイ公式",
@@ -8912,7 +8936,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "その他",
-    "types": null
+    "types": 10
   },
   {
     "title": "じょせまる ミニチュアパッケージチャーム",
@@ -15547,5 +15571,31 @@
     "releaseWeek": "2026年11月",
     "brand": "ラブライブ",
     "types": 13
+  },
+  {
+    "title": "TVアニメ「薫る花は凛と咲く」薫子がいっぱい カプセルラバーキーホルダー",
+    "url": "https://capsule.bushiroad-creative.com/product/10267/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/20103036/kaorukoippai_rubberkey_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/20103036/kaorukoippai_rubberkey_POP.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2027年3月 下旬",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "NEEDY GIRL OVERDOSE　超てんちゃんとあめちゃんがいっぱい　カプセルラバーキーホルダー",
+    "url": "https://capsule.bushiroad-creative.com/product/10256/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/14150108/NGO_Ippai_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/14150108/NGO_Ippai_POP.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2027年2月 下旬",
+    "brand": "NEEDY GIRL OVERDOSE",
+    "types": 5
   }
 ]

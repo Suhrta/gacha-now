@@ -1,5 +1,81 @@
 [
   {
+    "id": "-31-62768641",
+    "name": "ポケットモンスター ポケモンラバーマスコット31",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 300,
+    "types": 8,
+    "releaseWeek": "10月 第5週",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258527_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770139747000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-10-20T08:19:26.040Z",
+    "officialDescription": "ポケモンラバーマスコット31弾が登場！カラフルな素地とボールチェーンがかわいい♪",
+    "ageRating": "6才以上",
+    "description": "世界的に人気のポケモンから、ラバーマスコットがカプセルトイに登場します。商品名は「ポケットモンスター ポケモンラバーマスコット31」で、バンダイより発売されるシリーズです。価格は1回300円で、全8種がラインナップされています。発売時期は10月第5週を予定しています。"
+  },
+  {
+    "id": "tv--26b2224e",
+    "name": "TVアニメ「薫る花は凛と咲く」薫子がいっぱい カプセルラバーキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "3月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/20103036/kaorukoippai_rubberkey_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/20103036/kaorukoippai_rubberkey_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10267/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-10-20T08:19:26.043Z",
+    "officialDescription": "TVアニメ「薫る花は凛と咲く」より、薫子がいっぱいのカプセルラバーキーホルダーが登場！",
+    "thumb": "https://gachaimg.com/thumb/tv--26b2224e.webp"
+  },
+  {
+    "id": "needy-girl-overdose--0cacd215",
+    "name": "NEEDY GIRL OVERDOSE　超てんちゃんとあめちゃんがいっぱい　カプセルラバーキーホルダー",
+    "brand": "NEEDY GIRL OVERDOSE",
+    "brandSlug": "needygirl",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "2月 下旬",
+    "color": "#e0e599",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/14150108/NGO_Ippai_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/14150108/NGO_Ippai_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10256/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-10-20T08:19:26.043Z",
+    "officialDescription": "アニメ『NEEDY GIRL OVERDOSE』より、超てんちゃんとあめちゃんがいっぱいのラバーキーホルダーが登場！",
+    "description": "配信アプリ運営をテーマにしたゲーム「NEEDY GIRL OVERDOSE」から、カプセルラバーキーホルダーがカプセルトイに登場します。ブシロードクリエイティブより展開される本商品は全5種で、価格は1回300円です。発売時期は2月下旬が予定されています。",
+    "thumb": "https://gachaimg.com/thumb/needy-girl-overdose--0cacd215.webp"
+  },
+  {
     "id": "minecraft--7ffb1837",
     "name": "MINECRAFT クリスタルチャーム",
     "brand": "マインクラフト",
@@ -77,7 +153,7 @@
     "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903588",
     "source": "タカラトミーアーツ公式",
     "collectedAt": "2026-10-19T15:22:21.253Z",
-    "description": "タカラトミーアーツから登場するカプセルトイで、JOGUMANのHide&Seekをテーマにしたフィギュアです。1回300円で展開されており、現在発売中です。"
+    "description": "タカラトミーアーツから登場したカプセルトイ「JOGUMAN Hide&Seek かくれんぼフィギュア」は、JOGUMANをテーマにした商品です。価格は1回300円で、現在発売中となっています。"
   },
   {
     "id": "-dgrayman-552468aa",
@@ -809,7 +885,7 @@
     "source": "ブシロードクリエイティブ公式",
     "collectedAt": "2026-10-15T09:09:44.844Z",
     "officialDescription": "「ゆめみるまなざし」をコンセプトにしたぬいぐるみシリーズ【ゆめぬい】に、TVアニメ『正反対な君と僕』が登場！",
-    "description": "ブシロードクリエイティブより、「正反対な君と僕」のゆめぬいがカプセルトイに登場しています。全4種のラインナップで、価格は1回500円です。現在発売中となっており、ガチャガチャ取扱店で入手できます。",
+    "description": "ブシロードクリエイティブより、「正反対な君と僕」のゆめぬいがカプセルトイに登場しています。価格は1回500円で、全4種の展開です。現在発売中となっており、ガチャガチャの店頭や取り扱いショップで購入することができます。",
     "thumb": "https://gachaimg.com/thumb/gacha-353e3147.webp"
   },
   {
@@ -12419,7 +12495,7 @@
     "description": "人気RPGシリーズ「ペルソナ」のタイトルのひとつ、『ペルソナ3 リロード』のピンバッジがカプセルトイになりました。タカラトミーアーツから登場するこのシリーズは全8種のラインナップで、1回の価格は300円です。発売は9月14日週を予定しています。",
     "thumb": "https://gachaimg.com/thumb/gacha-3f69225d.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "c524da2a"
     ],
@@ -12943,16 +13019,16 @@
       "ゼロ（レア）"
     ],
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "040f457c",
       "43d1b3ef",
-      "44f82965",
       "4aa7754d",
+      "5dc7f9da",
       "75bd1e07",
-      "fca7791b"
+      "87c63a78"
     ],
-    "rakutenThumbMisses": 1,
+    "rakutenThumbMisses": 2,
     "thumb": "https://gachaimg.com/thumb/gacha-0a0ac326.webp"
   },
   {
@@ -13488,7 +13564,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/gacha-5cf44dfb.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "5e3996b4"
     ],
@@ -18054,7 +18130,7 @@
     ],
     "description": "タカラトミーアーツから、キャラクターが肩に寄りかかる姿を立体化したフィギュアシリーズ「肩ズンFig.」に、ディズニーの人気作品を題材にした「ディズニー ツイステッドワンダーランドVol.3 サバナクロー寮&イグニハイド寮」が登場します。カプセルトイとして展開され、全5種、1回500円で楽しめます。発売時期は9月7日週を予定しています。",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "118c9a22",
       "5d42febe",
@@ -18127,7 +18203,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/beyblade-x--2287e391.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": []
   },
   {
@@ -18335,7 +18411,7 @@
     "description": "タカラトミーアーツより、トミカをモチーフにしたカプセルトイ「tomica PREMIUM BOX型シリコンポーチ2」が9月に発売されます。価格は1回400円で、全4種のラインナップです。トミカは長年親しまれているミニカーブランドで、幅広い世代から人気を集めています。",
     "thumb": "https://gachaimg.com/thumb/tomica-premium-box2-092882f9.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "1c460ce3",
       "7bbf7a51",
@@ -18945,7 +19021,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/-tv2-7a3fed65.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": []
   },
   {
@@ -20372,7 +20448,7 @@
     "description": "世界中で愛されるキャラクター、スヌーピーをモチーフにしたカプセルトイ「PEANUTS I LIKE... Color Face Pouch」がタカラトミーアーツより登場します。全6種で価格は1回500円、8月15日週からの発売が予定されています。",
     "thumb": "https://gachaimg.com/thumb/peanuts-i-like-color-face-pouc-5e1b2a13.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": []
   },
   {
@@ -20404,7 +20480,7 @@
     "description": "タカラトミーアーツから展開されている「パンダの穴」シリーズのカプセルトイで、「美術缶」と題した商品が登場します。全5種のラインアップで、1回500円で購入できます。発売時期は8月24日週を予定しており、店頭のガチャガチャ機で見かける機会が増えそうです。",
     "thumb": "https://gachaimg.com/thumb/gacha-683e17ff.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": []
   },
   {
@@ -20536,7 +20612,7 @@
     "officialDescription": "モンスターボール型のカプセルに、ダイカットのポケモンステッカーが入ったカプセルレスのアイテム第3弾。１カプセルに5cmほどのステッカーが6枚入っており、そのうち1種類はホログラム使用になっています。本体サイズはカプセル:約6cm、シール:約5cm。ラインナップはモンスターボールAモンスターボールBモンスターボールCハイパーボールマスターボールの全5種。",
     "description": "タカラトミーアーツから、ポケモンをテーマにしたカプセルトイ「ボールでゲット! ポケモンステッカーコレクション3」が登場します。世界的に人気のあるポケモンをモチーフにしたステッカーが全5種展開され、1回200円で楽しめます。発売時期は8月です。",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [],
     "thumb": "https://gachaimg.com/thumb/gacha-29da0eb7.webp"
   },
@@ -21581,7 +21657,7 @@
       "あひるのペックル"
     ],
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "4ab42ce5",
       "fc6c5135"
@@ -22063,7 +22139,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/-new-29691c98.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "25af8955",
       "265fece4",
@@ -26642,7 +26718,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/gacha-4be6a7fb.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "365172d6",
       "5ebb7f50",
@@ -26725,7 +26801,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/gacha-27469eeb.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "4823bc1a",
       "71052caa",
@@ -26882,7 +26958,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/gacha-221e9a26.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
+    "rakutenThumbCheckedAt": "2026-10-20",
     "rakutenThumbCands": [
       "535422a7",
       "6741c0f2",
