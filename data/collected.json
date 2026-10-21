@@ -117,7 +117,7 @@
     "price": 600,
     "releaseWeek": "2026年9月 第1週",
     "brand": "Polly Pocket",
-    "types": 4
+    "types": null
   },
   {
     "title": "富江 アソートコレクション",
@@ -7139,6 +7139,30 @@
     "types": 4
   },
   {
+    "title": "ゲゲゲの鬼太郎（第4期） ねむらせ隊",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770027594000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255224_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年10月 第5週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
     "title": "それいけ！アンパンマン わくわくたまご9",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770053784000",
     "source": "バンダイ公式",
@@ -9182,9 +9206,9 @@
     "title": "カードキャプターさくら 桜マスコットチャーム",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770054866000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259562_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259562_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259562_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259562_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259562_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259562_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259562_4.jpg",
