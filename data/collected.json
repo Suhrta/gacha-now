@@ -405,7 +405,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "BT21",
-    "types": 7
+    "types": null
   },
   {
     "title": "おじゃる丸 めじるしアクセサリー",
@@ -2541,7 +2541,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "ざわざわ森のがんこちゃん めじるしアクセサリー",
@@ -2613,7 +2613,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 5
   },
   {
     "title": "クレヨンしんちゃん カラフルマルチチャーム2",
@@ -2685,7 +2685,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "クレヨンしんちゃん",
-    "types": null
+    "types": 4
   },
   {
     "title": "サイレントヒル まちぼうけ",
@@ -2733,7 +2733,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第3週",
     "brand": "転スラ",
-    "types": null
+    "types": 5
   },
   {
     "title": "初音ミク 初音ミクあそーと～マジカルミライ 2026～",
@@ -4736,7 +4736,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第2週",
     "brand": "クレヨンしんちゃん",
-    "types": null
+    "types": 5
   },
   {
     "title": "まちぼうけ スーパーマーケットの場合",
