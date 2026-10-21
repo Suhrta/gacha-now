@@ -5052,15 +5052,11 @@
     }
   },
   "gacha-3cef12a3": {
-    "sig": "ねこぉひ～2　コレクションフィギュア|6|p",
-    "checkedAt": 1791763826008,
+    "sig": "ねこぉひ～2　コレクションフィギュア|6|r",
+    "checkedAt": 1792541385835,
     "compset": {
       "q": "ねこぉひ ガチャ コンプ",
       "count": 4
-    },
-    "preorder": {
-      "q": "コレクションフィギュア ガチャ 予約",
-      "count": 23
     }
   },
   "bang-dream-ave-mujica--2eca6bb3": {
@@ -5200,15 +5196,11 @@
     }
   },
   "new-panty-stocking-with-garter-549c6556": {
-    "sig": "New PANTY ＆ STOCKING with GARTERBELT　コレクションフィギュアRICH|4|p",
-    "checkedAt": 1791763826008,
+    "sig": "New PANTY ＆ STOCKING with GARTERBELT　コレクションフィギュアRICH|4|r",
+    "checkedAt": 1792541385835,
     "compset": {
       "q": "コレクションフィギュアRICH ガチャ コンプ",
-      "count": 73
-    },
-    "preorder": {
-      "q": "コレクションフィギュアRICH ガチャ 予約",
-      "count": 11
+      "count": 76
     }
   },
   "gacha-73fb3999": {
@@ -6600,15 +6592,11 @@
     }
   },
   "-vol2-4efcbfa3": {
-    "sig": "ハイキュー!!　みあげてすたぁマスコット 烏野高校 vol.2|4|p",
-    "checkedAt": 1791770643705,
+    "sig": "ハイキュー!!　みあげてすたぁマスコット 烏野高校 vol.2|4|r",
+    "checkedAt": 1792541385835,
     "compset": {
       "q": "ハイキュー!! ガチャ コンプ",
-      "count": 160
-    },
-    "preorder": {
-      "q": "ハイキュー!! ガチャ 予約",
-      "count": 32
+      "count": 155
     }
   },
   "gacha-6be8edec": {
@@ -6920,8 +6908,8 @@
     }
   },
   "ave-mujica--6db2b30d": {
-    "sig": "Ave Mujica 額縁アートコレクション|5|p",
-    "checkedAt": 1791770643705
+    "sig": "Ave Mujica 額縁アートコレクション|5|r",
+    "checkedAt": 1792541385835
   },
   "gacha-5a9d8bbb": {
     "sig": "続・土下座 マーカーチャーム|8|r",
@@ -6956,15 +6944,11 @@
     }
   },
   "-fit-v20-6fd5cd7f": {
-    "sig": "おさんぽカエル Fit V2.0|8|p",
-    "checkedAt": 1791942626538,
+    "sig": "おさんぽカエル Fit V2.0|8|r",
+    "checkedAt": 1792541385835,
     "compset": {
       "q": "おさんぽカエル ガチャ コンプ",
-      "count": 7
-    },
-    "preorder": {
-      "q": "おさんぽカエル ガチャ 予約",
-      "count": 8
+      "count": 5
     }
   },
   "the-history-collection-playsta-128d5e59": {
@@ -6972,8 +6956,8 @@
     "checkedAt": 1792022935060
   },
   "gacha-29c0e29a": {
-    "sig": "胃 フィギュアマスコット|6|p",
-    "checkedAt": 1792026659717
+    "sig": "胃 フィギュアマスコット|6|r",
+    "checkedAt": 1792541385835
   },
   "-funny-scene-2-2200c945": {
     "sig": "スポンジ・ボブ Funny scene コレクション2|4|r",
@@ -7004,15 +6988,11 @@
     "checkedAt": 1792051729056
   },
   "tvseason-2--2f2aa066": {
-    "sig": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット|5|p",
-    "checkedAt": 1792055415736,
+    "sig": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット|5|r",
+    "checkedAt": 1792541385835,
     "compset": {
       "q": "その着せ替え人形は恋をする ガチャ コンプ",
       "count": 4
-    },
-    "preorder": {
-      "q": "みあげてすたぁマスコット ガチャ 予約",
-      "count": 20
     }
   },
   "gacha-17f09453": {
@@ -7032,62 +7012,42 @@
     }
   },
   "-book-44b35a82": {
-    "sig": "おすわりちゃんズ　BOOK|5|p",
-    "checkedAt": 1792055415736,
+    "sig": "おすわりちゃんズ　BOOK|5|r",
+    "checkedAt": 1792541385835,
     "compset": {
-      "q": "おすわりちゃんズ BOOK コンプ",
+      "q": "おすわりちゃんズ BOOK セット",
       "count": 3
-    },
-    "preorder": {
-      "q": "おすわりちゃんズ BOOK 予約",
-      "count": 4
     }
   },
   "-exceeds-gun-blaze-vengeance--1a373085": {
-    "sig": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance　カプセルラバーキーホルダー|6|p",
-    "checkedAt": 1792055415736,
+    "sig": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance　カプセルラバーキーホルダー|6|r",
+    "checkedAt": 1792541385835,
     "compset": {
       "q": "カプセルラバーキーホルダー ガチャ コンプ",
       "count": 63
-    },
-    "preorder": {
-      "q": "カプセルラバーキーホルダー ガチャ 予約",
-      "count": 6
     }
   },
   "gacha-4ad7c4ea": {
-    "sig": "平成ファンシー　フィギュアキーホルダー|5|p",
-    "checkedAt": 1792055415736,
+    "sig": "平成ファンシー　フィギュアキーホルダー|5|r",
+    "checkedAt": 1792541385835,
     "compset": {
       "q": "平成ファンシー フィギュアキーホルダー セット",
-      "count": 3
-    },
-    "preorder": {
-      "q": "平成ファンシー フィギュアキーホルダー 予約",
       "count": 3
     }
   },
   "-rich-654b95f7": {
-    "sig": "ジョジョの奇妙な冒険 スターダストクルセイダース　コレクションフィギュアRICH|5|p",
-    "checkedAt": 1792055415736,
+    "sig": "ジョジョの奇妙な冒険 スターダストクルセイダース　コレクションフィギュアRICH|5|r",
+    "checkedAt": 1792541385835,
     "compset": {
       "q": "ジョジョの奇妙な冒険 ガチャ コンプ",
-      "count": 31
-    },
-    "preorder": {
-      "q": "ジョジョの奇妙な冒険 スターダストクルセイダース コレクションフィギュアRICH 予約",
-      "count": 3
+      "count": 30
     }
   },
   "gacha-2979f90b": {
-    "sig": "夢限大みゅーたいぷ　ゆめぬい|5|p",
-    "checkedAt": 1792055415736,
+    "sig": "夢限大みゅーたいぷ　ゆめぬい|5|r",
+    "checkedAt": 1792541385835,
     "compset": {
       "q": "ゆめぬい ガチャ コンプ",
-      "count": 9
-    },
-    "preorder": {
-      "q": "ゆめぬい ガチャ 予約",
       "count": 9
     }
   },
@@ -7404,14 +7364,10 @@
     }
   },
   "gacha-235b37e0": {
-    "sig": "おおのたろう 赤ちゃんブーブコレクション２|6|p",
-    "checkedAt": 1792399110414,
+    "sig": "おおのたろう 赤ちゃんブーブコレクション２|6|r",
+    "checkedAt": 1792541385835,
     "compset": {
       "q": "おおのたろう 赤ちゃんブーブコレクション２ コンプ",
-      "count": 5
-    },
-    "preorder": {
-      "q": "おおのたろう 赤ちゃんブーブコレクション２ 予約",
       "count": 4
     }
   },
@@ -7436,15 +7392,11 @@
     }
   },
   "gacha-76a156fa": {
-    "sig": "ピースするどうぶつ マーカーチャーム|5|p",
-    "checkedAt": 1792459749163,
+    "sig": "ピースするどうぶつ マーカーチャーム|5|r",
+    "checkedAt": 1792541385835,
     "compset": {
-      "q": "ピースするどうぶつ マーカーチャーム コンプ",
-      "count": 3
-    },
-    "preorder": {
-      "q": "ピースするどうぶつ マーカーチャーム 予約",
-      "count": 5
+      "q": "ピースするどうぶつ マーカーチャーム セット",
+      "count": 4
     }
   },
   "-31-62768641": {
