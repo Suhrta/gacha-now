@@ -405,7 +405,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "BT21",
-    "types": null
+    "types": 7
   },
   {
     "title": "おじゃる丸 めじるしアクセサリー",
@@ -4053,7 +4053,7 @@
     "price": null,
     "releaseWeek": "2026年9月 第5週",
     "brand": "いきもの大図鑑",
-    "types": 5
+    "types": null
   },
   {
     "title": "仮面ライダーシリーズ めじるしアクセサリー5",
@@ -6536,7 +6536,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "トムとジェリー",
-    "types": 6
+    "types": null
   },
   {
     "title": "仮面ライダーマイス GPライダーエグズ02",
@@ -8648,7 +8648,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "その他",
-    "types": 12
+    "types": null
   },
   {
     "title": "プリキュアオールスターズ 変身めじるしアクセサリー２",
