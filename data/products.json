@@ -1,5 +1,25 @@
 [
   {
+    "id": "-vol3-57cbecb7",
+    "name": "アニメ「ぼっち・ざ・ろっく！」　ぼっちちゃんがいっぱいフィギュアvol.3",
+    "brand": "ぼっち・ざ・ろっく",
+    "brandSlug": "bocchi",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "11月 下旬",
+    "color": "#99e59f",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/10152317/btr_bocchi_figure_vol3_CP_POP_0701ol_catalog-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/06/10152317/btr_bocchi_figure_vol3_CP_POP_0701ol_catalog-1280x1280.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10092/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-10-22T09:01:06.571Z",
+    "description": "バンド活動を描いた人気アニメ「ぼっち・ざ・ろっく！」のカプセルトイ第3弾として、ブシロードクリエイティブより「ぼっちちゃんがいっぱいフィギュアvol.3」が登場します。全5種のラインナップで、価格は1回500円です。発売時期は11月下旬を予定しています。"
+  },
+  {
     "id": "-reload-vol2-1097cc9e",
     "name": "ダンガンロンパ１・２ Reload　カプセルラバーキーホルダー vol.2",
     "brand": "その他",
