@@ -453,7 +453,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "ポケモン",
-    "types": 9
+    "types": null
   },
   {
     "title": "アニマル横町 めじるしアクセサリー",
@@ -3093,7 +3093,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 13
   },
   {
     "title": "怒った猫ちゃあぁぁん ふわふわめじるしアクセサリー",
@@ -6128,7 +6128,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "サンリオキャラクターズ 実写版ミニチュアチャーム",
@@ -6800,7 +6800,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ワンピース",
-    "types": 4
+    "types": null
   },
   {
     "title": "鋼の錬金術師 まちぼうけ",
@@ -6848,7 +6848,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ちいかわ",
-    "types": 4
+    "types": null
   },
   {
     "title": "CAPSULEVERSE ゴジラ",
@@ -9320,7 +9320,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "HG レジェンドライダーvol.6",
@@ -9560,7 +9560,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "よこみぞゆり",
-    "types": null
+    "types": 6
   },
   {
     "title": "MINECRAFT ぬいぐるみマスコット",
@@ -10424,7 +10424,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "ちいかわ",
-    "types": 6
+    "types": null
   },
   {
     "title": "ちびまる子ちゃん×クレヨンしんちゃん ラバーマスコット",

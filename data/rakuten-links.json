@@ -7226,5 +7226,21 @@
       "q": "パンダの穴 サメフライ めじるしガチャマスコット コンプ",
       "count": 3
     }
+  },
+  "gacha-55b5bb3a": {
+    "sig": "北海道日本ハムファイターズ 歴代ヘルメットコレクション|6|r",
+    "checkedAt": 1792746550522
+  },
+  "needy-girl-overdose-rich-6a32ea8b": {
+    "sig": "NEEDY GIRL OVERDOSE　コレクションフィギュアRICH|6|p",
+    "checkedAt": 1792746550522,
+    "compset": {
+      "q": "コレクションフィギュアRICH ガチャ コンプ",
+      "count": 75
+    },
+    "preorder": {
+      "q": "NEEDY GIRL OVERDOSE コレクションフィギュアRICH 予約",
+      "count": 3
+    }
   }
 }

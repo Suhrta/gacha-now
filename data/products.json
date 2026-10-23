@@ -1,5 +1,57 @@
 [
   {
+    "id": "gacha-55b5bb3a",
+    "name": "北海道日本ハムファイターズ 歴代ヘルメットコレクション",
+    "brand": "北海道日本ハムファイターズ",
+    "brandSlug": "fighters",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "発売中",
+    "color": "#99e0e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/07/NH_hel_DP_re.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/07/NH_hel_DP_re.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/hnf_helmet/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-10-23T09:09:03.587Z",
+    "officialDescription": "北海道日本ハムファイターズの歴代ヘルメットが、手のひらサイズのフィギュアになって登場します！ 各年代で実際に使用されてきたバッター用ヘルメットを、形状やカラーリングはもちろん、チームの象徴でもあるワードマークまで忠実に再現。ありのままのヘルメットを丁寧にトレースし、ファンにはたまらないコレクションに仕上げました。 お手持ちのフィギュアやぬいぐるみにすっぽりとかぶせて遊んだり、ちょこんと乗せて楽しんだりと、飾るだけでなく遊び方もさまざま。全種カラーボールチェーン付きなので、バッグやポーチに付けて持ち歩くこともできます。 「このヘルメットの時代、応援していた！」「懐かしい！」など、幅広い世代で思い出話に花が咲くこと間違いなし。歴史とともに歩んできた北海道日本ハムファイターズのヘルメットを、ぜひコレクションしてお楽しみください。 ラインナップは「 A（2022～現在） 、B（2011～2021） 、C（2004～2021） 、D（1993～2003） 、E（1982～1992） 、F（1974～1981） 」の全6種。",
+    "lineup": [
+      "A（2022～現在）",
+      "B（2011～2021）",
+      "C（2004～2021）",
+      "D（1993～2003）",
+      "E（1982～1992）",
+      "F（1974～1981）"
+    ],
+    "description": "プロ野球球団、北海道日本ハムファイターズをテーマにしたカプセルトイが「北海道日本ハムファイターズ 歴代ヘルメットコレクション」として登場しています。キタンクラブから発売されているこのガチャガチャは全6種がラインナップされており、価格は1回400円です。現在発売中で、全国のカプセルトイ取扱店や専門店で購入することができます。",
+    "thumb": "https://gachaimg.com/thumb/gacha-55b5bb3a.webp"
+  },
+  {
+    "id": "needy-girl-overdose-rich-6a32ea8b",
+    "name": "NEEDY GIRL OVERDOSE　コレクションフィギュアRICH",
+    "brand": "NEEDY GIRL OVERDOSE",
+    "brandSlug": "needygirl",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "11月 下旬",
+    "color": "#e0e599",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/23095038/260722_NGO_%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2RICH_BCR_CP_POP.gif",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/23095038/260722_NGO_%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2RICH_BCR_CP_POP.gif"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10121/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-10-23T09:09:03.588Z",
+    "officialDescription": "アニメ『NEEDY GIRL OVERDOSE』より、コレクションフィギュアRICHが登場！",
+    "description": "スマートフォンアプリを題材にしたNEEDY GIRL OVERDOSEのカプセルトイが登場します。商品名はコレクションフィギュアRICHで、ブシロードクリエイティブから全6種のラインナップで展開される予定です。価格は1回500円で、発売時期は11月下旬を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/needy-girl-overdose-rich-6a32ea8b.webp"
+  },
+  {
     "id": "-vol4-252fb944",
     "name": "でふぉラバ! 薬屋のひとりごとキーホルダーvol.4",
     "brand": "その他",
