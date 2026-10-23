@@ -453,7 +453,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "ポケモン",
-    "types": null
+    "types": 9
   },
   {
     "title": "アニマル横町 めじるしアクセサリー",
@@ -3285,7 +3285,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第4週",
     "brand": "桜蘭高校ホスト部",
-    "types": 7
+    "types": null
   },
   {
     "title": "ICCHI ファッションカラビナマスコットチャーム",
@@ -3501,7 +3501,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第4週",
     "brand": "ドラゴンボール",
-    "types": 5
+    "types": null
   },
   {
     "title": "星のカービィ プププなおかしやさん マスコットチャーム",
@@ -5960,7 +5960,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
-    "types": 4
+    "types": null
   },
   {
     "title": "miffy カラフルカラビナマスコット",
@@ -6800,7 +6800,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ワンピース",
-    "types": null
+    "types": 4
   },
   {
     "title": "鋼の錬金術師 まちぼうけ",
@@ -6848,7 +6848,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ちいかわ",
-    "types": null
+    "types": 4
   },
   {
     "title": "CAPSULEVERSE ゴジラ",
@@ -9320,7 +9320,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "HG レジェンドライダーvol.6",
@@ -10424,7 +10424,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "ちいかわ",
-    "types": null
+    "types": 6
   },
   {
     "title": "ちびまる子ちゃん×クレヨンしんちゃん ラバーマスコット",
