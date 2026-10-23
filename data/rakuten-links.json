@@ -207,62 +207,6 @@
       "count": 171
     }
   },
-  "bt21--22e07d92": {
-    "sig": "BT21 ぬいぐるみクリップ|7|r",
-    "checkedAt": 1791733666406,
-    "compset": {
-      "q": "ぬいぐるみクリップ ガチャ コンプ",
-      "count": 24
-    }
-  },
-  "fig-vol1-2b0a36b7": {
-    "sig": "肩ズンFig. カラフルピーチ vol.1|5|r",
-    "checkedAt": 1791733666406,
-    "compset": {
-      "q": "肩ズンFig. カラフルピーチ vol.1 コンプ",
-      "count": 5
-    }
-  },
-  "fig-vol2-20a81c10": {
-    "sig": "肩ズンFig.  カラフルピーチ vol.2|6|r",
-    "checkedAt": 1791733666406,
-    "compset": {
-      "q": "肩ズンFig. カラフルピーチ vol.2 コンプ",
-      "count": 4
-    }
-  },
-  "gacha-30170715": {
-    "sig": "ディズニーキャラクター ぷかぷかフロートタイム|4|r",
-    "checkedAt": 1791733666406,
-    "compset": {
-      "q": "ディズニー ガチャ コンプ",
-      "count": 421
-    }
-  },
-  "gacha-35ead48c": {
-    "sig": "トイ・ストーリー５　ファッションリング|8|r",
-    "checkedAt": 1791733666406,
-    "compset": {
-      "q": "ディズニー ガチャ コンプ",
-      "count": 421
-    }
-  },
-  "gacha-55b5bb3a": {
-    "sig": "北海道日本ハムファイターズ 歴代ヘルメットコレクション|6|r",
-    "checkedAt": 1791733666406
-  },
-  "needy-girl-overdose-rich-6a32ea8b": {
-    "sig": "NEEDY GIRL OVERDOSE　コレクションフィギュアRICH|6|p",
-    "checkedAt": 1791733666406,
-    "compset": {
-      "q": "コレクションフィギュアRICH ガチャ コンプ",
-      "count": 73
-    },
-    "preorder": {
-      "q": "NEEDY GIRL OVERDOSE コレクションフィギュアRICH 予約",
-      "count": 3
-    }
-  },
   "gacha-4ba96475": {
     "sig": "パンダの穴 もちばけ 結ノ巻||r",
     "checkedAt": 1791733666406
@@ -7265,6 +7209,22 @@
     "compset": {
       "q": "サンリオ ガチャ コンプ",
       "count": 1122
+    }
+  },
+  "-vol4-252fb944": {
+    "sig": "でふぉラバ! 薬屋のひとりごとキーホルダーvol.4|6|r",
+    "checkedAt": 1792743797788,
+    "compset": {
+      "q": "でふぉラバ! 薬屋のひとりごとキーホルダーvol.4 セット",
+      "count": 4
+    }
+  },
+  "gacha-7336e648": {
+    "sig": "パンダの穴 サメフライ めじるしガチャマスコット|6|r",
+    "checkedAt": 1792743797788,
+    "compset": {
+      "q": "パンダの穴 サメフライ めじるしガチャマスコット コンプ",
+      "count": 3
     }
   }
 }
