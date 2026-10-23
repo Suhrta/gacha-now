@@ -484,11 +484,16 @@
     ],
     "description": "人気作品「ダンダダン」のカプセルトイとして、あっぷりけポーチが登場します。タカラトミーアーツより展開される本商品は全8種のラインナップで、1回400円で楽しめます。発売は10月19日週を予定しており、ガチャガチャ専門店や量販店の店頭での展開が見込まれます。",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-16",
+    "rakutenThumbCheckedAt": "2026-10-23",
     "rakutenThumbCands": [
-      "2853e3bb"
+      "2098d2ae",
+      "2d519b89",
+      "4ede065f",
+      "7179495c",
+      "999cf555",
+      "a501ed31"
     ],
-    "rakutenThumbMisses": 1,
+    "rakutenThumbMisses": 2,
     "thumb": "https://gachaimg.com/thumb/gacha-201c7f23.webp"
   },
   {
@@ -27894,45 +27899,5 @@
     "description": "配信で人気を集めたゲームを原作とする「NEEDY GIRL OVERDOSE」から、コレクションフィギュアRICHがカプセルトイとして登場します。全6種のラインナップで、1回の価格は500円です。発売時期は11月下旬を予定しており、ブシロードクリエイティブが手掛けます。",
     "officialDescription": "アニメ『NEEDY GIRL OVERDOSE』より、コレクションフィギュアRICHが登場！",
     "thumb": "https://gachaimg.com/thumb/needy-girl-overdose-rich-6a32ea8b.webp"
-  },
-  {
-    "id": "gacha-5cf89d6f",
-    "name": "サンリオキャラクターズ なかよしドロップチャーム",
-    "brand": "サンリオ",
-    "brandSlug": "sanrio",
-    "price": 300,
-    "types": 4,
-    "releaseWeek": "発売中",
-    "color": "#F06292",
-    "hot": true,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903083_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903083_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903083",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-07-22T23:59:15.766Z",
-    "description": "タカラトミーアーツから登場するカプセルトイ「サンリオキャラクターズ なかよしドロップチャーム」は、幅広い世代に親しまれるサンリオのキャラクターたちをモチーフにした商品です。価格は1回300円で、全4種のラインナップとなっています。現在すでに発売されており、店舗のガチャガチャコーナーなどで購入することができます。",
-    "officialDescription": "ドロップキャンディみたいなクリア素材がかわいい、つやつやぷっくりのサンリオキャラクターのマスコットチャーム。なかよしペアがセットになった贅沢な仕様です。本体サイズは約3cm。ラインナップは「ハローキティ&times;ハローミミィ」「マイメロディ&times;クロミ」「ポムポムプリン&times;チームプリン」「リトルツインスターズ」の全4種。",
-    "size": "約3cm",
-    "lineup": [
-      "ハローキティ&times;ハローミミィ",
-      "マイメロディ&times;クロミ",
-      "ポムポムプリン&times;チームプリン",
-      "リトルツインスターズ"
-    ],
-    "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
-    "rakutenThumbCands": [
-      "24791e47",
-      "27f7f4a6",
-      "3d0c3ce2",
-      "52e0e622",
-      "5f121456",
-      "dc21cbfe"
-    ],
-    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/jugem2020/cabinet/12637066/imgrc0121627844.jpg?_ex=400x400",
-    "thumb": "https://gachaimg.com/thumb/gacha-5cf89d6f.webp"
   }
 ]
