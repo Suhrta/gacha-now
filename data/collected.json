@@ -237,7 +237,7 @@
     "price": 200,
     "releaseWeek": "2026年9月 第1週",
     "brand": "初音ミク",
-    "types": 13
+    "types": null
   },
   {
     "title": "角醒ハンター オメガホーン GP変形合体なりきり オメガホーン",
@@ -3285,7 +3285,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第4週",
     "brand": "桜蘭高校ホスト部",
-    "types": null
+    "types": 7
   },
   {
     "title": "ICCHI ファッションカラビナマスコットチャーム",
@@ -3501,7 +3501,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第4週",
     "brand": "ドラゴンボール",
-    "types": null
+    "types": 5
   },
   {
     "title": "星のカービィ プププなおかしやさん マスコットチャーム",
@@ -5960,7 +5960,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 4
   },
   {
     "title": "miffy カラフルカラビナマスコット",
