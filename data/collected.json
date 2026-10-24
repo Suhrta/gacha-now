@@ -1893,7 +1893,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "お文具といっしょ",
-    "types": 8
+    "types": null
   },
   {
     "title": "ファグラー めじるしアクセサリー2",
@@ -2565,7 +2565,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ざわざわ森のがんこちゃん",
-    "types": null
+    "types": 5
   },
   {
     "title": "まちぼうけ パンの場合 その6",
@@ -2613,7 +2613,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 5
   },
   {
     "title": "クレヨンしんちゃん カラフルマルチチャーム2",
@@ -2733,7 +2733,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第3週",
     "brand": "転スラ",
-    "types": null
+    "types": 5
   },
   {
     "title": "初音ミク 初音ミクあそーと～マジカルミライ 2026～",
@@ -2973,7 +2973,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "だれでもアイドル活動アクリルチャーム ～アイカツスターズ！～",
@@ -5216,7 +5216,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第3週",
     "brand": "BLEACH",
-    "types": null
+    "types": 5
   },
   {
     "title": "ナルミヤキャラクターズ あみぐるみフロッキー",
@@ -7640,7 +7640,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": null
+    "types": 8
   },
   {
     "title": "きらちゅるした めじるしリンクチャーム ちっちゃなおばけさん",
@@ -10424,7 +10424,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "ちいかわ",
-    "types": 6
+    "types": null
   },
   {
     "title": "ちびまる子ちゃん×クレヨンしんちゃん ラバーマスコット",
