@@ -1893,7 +1893,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "お文具といっしょ",
-    "types": null
+    "types": 8
   },
   {
     "title": "ファグラー めじるしアクセサリー2",
@@ -4125,7 +4125,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第1週",
     "brand": "たまごっち",
-    "types": 5
+    "types": null
   },
   {
     "title": "名探偵プリキュア！ カプセルラバーマスコット２",
@@ -7184,7 +7184,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "アンパンマン",
-    "types": 5
+    "types": null
   },
   {
     "title": "チアリステイルズ マスコット",
@@ -10424,7 +10424,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "ちいかわ",
-    "types": null
+    "types": 6
   },
   {
     "title": "ちびまる子ちゃん×クレヨンしんちゃん ラバーマスコット",
