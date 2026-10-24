@@ -237,7 +237,7 @@
     "price": 200,
     "releaseWeek": "2026年9月 第1週",
     "brand": "初音ミク",
-    "types": null
+    "types": 13
   },
   {
     "title": "角醒ハンター オメガホーン GP変形合体なりきり オメガホーン",
@@ -7088,7 +7088,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ がんばれないチャーム",
