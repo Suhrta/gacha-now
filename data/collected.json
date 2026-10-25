@@ -405,7 +405,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "BT21",
-    "types": null
+    "types": 7
   },
   {
     "title": "おじゃる丸 めじるしアクセサリー",
@@ -5336,7 +5336,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第3週",
     "brand": "学園アイドルマスター",
-    "types": 6
+    "types": null
   },
   {
     "title": "ケロロ軍曹☆ まちぼうけであります NEW EDITION",
@@ -5432,7 +5432,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第3週",
     "brand": "BT21",
-    "types": 7
+    "types": null
   },
   {
     "title": "豆ガシャ本 「週刊少年サンデー コミックスコレクション」",
@@ -5600,7 +5600,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "みいつけた！",
-    "types": 5
+    "types": null
   },
   {
     "title": "【フラットガシャポン】たまごっち ネイルシールコレクション",
