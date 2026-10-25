@@ -405,7 +405,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "BT21",
-    "types": 7
+    "types": null
   },
   {
     "title": "おじゃる丸 めじるしアクセサリー",
@@ -2469,7 +2469,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 4
   },
   {
     "title": "TOM and JERRY カラフルキャンディチャーム",
@@ -4149,7 +4149,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第1週",
     "brand": "プリキュア",
-    "types": null
+    "types": 8
   },
   {
     "title": "グレムリン もぐもぐかくれんぼ",
