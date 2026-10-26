@@ -69,7 +69,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第1週",
     "brand": "ムーミン",
-    "types": 10
+    "types": null
   },
   {
     "title": "Richell ミニチュアチャーム",
@@ -1413,7 +1413,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "その他",
-    "types": 9
+    "types": null
   },
   {
     "title": "幽☆遊☆白書 めじるしアクセサリー",
@@ -1965,7 +1965,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ドラえもん",
-    "types": null
+    "types": 4
   },
   {
     "title": "ハリー・ポッター グッズコレクション",
@@ -8168,7 +8168,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "MINITEEN",
-    "types": null
+    "types": 13
   },
   {
     "title": "ケロロ軍曹 ちびケロめじるしアクセサリーであります",
