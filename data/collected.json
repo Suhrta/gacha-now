@@ -141,7 +141,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "その他",
-    "types": null
+    "types": 8
   },
   {
     "title": "カーケシGP NISSANセレクション01",
@@ -1965,7 +1965,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第3週",
     "brand": "ドラえもん",
-    "types": 4
+    "types": null
   },
   {
     "title": "ハリー・ポッター グッズコレクション",
@@ -8168,7 +8168,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "MINITEEN",
-    "types": 13
+    "types": null
   },
   {
     "title": "ケロロ軍曹 ちびケロめじるしアクセサリーであります",
