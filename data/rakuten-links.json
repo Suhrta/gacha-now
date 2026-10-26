@@ -1,11 +1,11 @@
 {
   "gacha-3e0d2ad5": {
     "sig": "ヒグチユウコ 神様|7|r",
-    "checkedAt": 1791731151094
+    "checkedAt": 1792973346632
   },
   "gacha-6d8f63be": {
     "sig": "なめこ栽培キット まちぼうけ|5|r",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "なめこ栽培キット ガチャ コンプ",
       "count": 5
@@ -13,7 +13,7 @@
   },
   "gacha-4916d7c1": {
     "sig": "ばあちゃんちの昭和レトロライト|4|r",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ばあちゃんちの昭和レトロライト コンプ",
       "count": 3
@@ -21,7 +21,7 @@
   },
   "gacha-207b5e25": {
     "sig": "えんぴつけずり森の家® ミニチュアマスコット|5|r",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "えんぴつけずり森の家® ミニチュアマスコット セット",
       "count": 3
@@ -101,10 +101,10 @@
   },
   "gacha-6210c5cb": {
     "sig": "カラフルビーズべこ しゃかしゃかめじるしアクセサリー|8|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     }
   },
   "-ver1-7fa7e08c": {
@@ -1792,15 +1792,11 @@
     }
   },
   "gacha-52b43b58": {
-    "sig": "レトロファービー めじるしガチャマスコットふわふわフロッキー|6|p",
-    "checkedAt": 1792022935060,
+    "sig": "レトロファービー めじるしガチャマスコットふわふわフロッキー|6|r",
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 475
-    },
-    "preorder": {
-      "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 145
+      "q": "レトロファービー めじるしガチャマスコットふわふわフロッキー セット",
+      "count": 3
     }
   },
   "gacha-5cf19c33": {
@@ -1828,56 +1824,40 @@
     }
   },
   "fig-5-part1-7391a187": {
-    "sig": "肩ズンFig. トイ・ストーリー5 Part.1|5|p",
-    "checkedAt": 1792022935060,
+    "sig": "肩ズンFig. トイ・ストーリー5 Part.1|5|r",
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "肩ズンFig. ガチャ コンプ",
-      "count": 277
-    },
-    "preorder": {
-      "q": "肩ズンFig. ガチャ 予約",
-      "count": 113
+      "count": 275
     }
   },
   "hahahafig-5-68eddcb5": {
-    "sig": "HAHAHA!Fig. トイ・ストーリー5|5|p",
-    "checkedAt": 1792022935060,
+    "sig": "HAHAHA!Fig. トイ・ストーリー5|5|r",
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ディズニー ガチャ コンプ",
-      "count": 412
-    },
-    "preorder": {
-      "q": "ディズニー ガチャ 予約",
-      "count": 65
+      "count": 424
     }
   },
   "gacha-75ec0dc2": {
-    "sig": "くまのプーさん ゆらゆらつながるマスコット-赤シャツフレンズ-|4|p",
-    "checkedAt": 1792022935060,
+    "sig": "くまのプーさん ゆらゆらつながるマスコット-赤シャツフレンズ-|4|r",
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ディズニー ガチャ コンプ",
-      "count": 412
-    },
-    "preorder": {
-      "q": "ディズニー ガチャ 予約",
-      "count": 65
+      "count": 424
     }
   },
   "disney-series-created-by-mus-w-4b688d91": {
-    "sig": "Disney SERIES CREATED by MUS Wear Collection Vol.2|10|p",
-    "checkedAt": 1792022935060,
+    "sig": "Disney SERIES CREATED by MUS Wear Collection Vol.2|10|r",
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ディズニー ガチャ コンプ",
-      "count": 412
-    },
-    "preorder": {
-      "q": "ディズニー ガチャ 予約",
-      "count": 65
+      "count": 424
     }
   },
   "gacha-3b91fec9": {
     "sig": "ガシャポンメンバーズ景品ガシャポン(アソートコレクション)|9|r",
-    "checkedAt": 1791731151094
+    "checkedAt": 1792973346632
   },
   "gacha-7c7f433f": {
     "sig": "おねがいアイプリ ぷっくりドロップめじるしガチャマスコット|7|r",
@@ -1901,34 +1881,34 @@
   },
   "from-tv-animation-one-piece--48bedba6": {
     "sig": "From TV animation ONE PIECE　ワンピの実 第一海戦|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ワンピース ガチャ コンプ",
-      "count": 42
+      "count": 36
     },
     "preorder": {
       "q": "ワンピース 予約",
-      "count": 751392
+      "count": 692921
     }
   },
   "from-tv-animation-one-piece--438528cc": {
     "sig": "From TV animation ONE PIECE　ワンピの実 第二海戦|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ワンピース ガチャ コンプ",
-      "count": 42
+      "count": 36
     },
     "preorder": {
       "q": "ワンピース 予約",
-      "count": 751392
+      "count": 692921
     }
   },
   "gacha-2b3e18dd": {
     "sig": "たまごっち スイングケース|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "スイング ガチャ コンプ",
-      "count": 187
+      "q": "たまごっち スイングケース コンプ",
+      "count": 6
     },
     "preorder": {
       "q": "スイング ガチャ 予約",
@@ -1937,31 +1917,31 @@
   },
   "gacha-7fe1b2a0": {
     "sig": "カピバラさん めじるしアクセサリー|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-5324a175": {
     "sig": "ピクミン めじるしアクセサリー2|9|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ピクミン めじるしアクセサリー2 コンプ",
       "count": 3
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-64a4fba0": {
     "sig": "ケロロ軍曹 つまんでつなげてマスコットであります|10|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "つまんでつなげてマスコット ガチャ コンプ",
       "count": 7
@@ -1973,10 +1953,10 @@
   },
   "gacha-418f76b5": {
     "sig": "【ガシャポンバンダイオフィシャルショップ限定再販】サンリオキャラクターズ 夢みるエンジェルスイング2|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "スイング ガチャ コンプ",
-      "count": 187
+      "count": 193
     },
     "preorder": {
       "q": "スイング ガチャ 予約",
@@ -1985,170 +1965,170 @@
   },
   "gacha-21cef6d6": {
     "sig": "【ガシャポンバンダイオフィシャルショップ限定再販】 たまごっち カラフルマルチチャーム|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "たまごっち カラフルマルチチャーム コンプ",
       "count": 5
     },
     "preorder": {
       "q": "たまごっち ガチャ 予約",
-      "count": 6
+      "count": 5
     }
   },
   "peanuts-funny-ver-483e6ddf": {
     "sig": "PEANUTS めじるしアクセサリー FUNNY ver.|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-6f240ecf": {
     "sig": "クレヨンしんちゃん ミニチュアパッケージコレクション２|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "クレヨンしんちゃん ガチャ コンプ",
-      "count": 30
+      "count": 34
     },
     "preorder": {
       "q": "クレヨンしんちゃん ガチャ 予約",
-      "count": 11
+      "count": 5
     }
   },
   "-robot--5ac616a5": {
     "sig": "機動戦士ガンダム ROBOT魂 ミニチュアコレクション|4|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "機動戦士ガンダム ROBOT魂 ミニチュアコレクション コンプ",
       "count": 3
     },
     "preorder": {
       "q": "ミニチュアコレクション ガチャ 予約",
-      "count": 23
+      "count": 28
     }
   },
   "miniteen--1a2b64ee": {
     "sig": "MINITEEN ぷっくりめじるしアクセサリー|13|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-596da9c1": {
     "sig": "ケロロ軍曹 ちびケロめじるしアクセサリーであります|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "-figure-collection-68f048e5": {
     "sig": "【ガシャポンバンダイオフィシャルショップ限定再販】たかはたまさお 木彫り風 FIGURE COLLECTION|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "たかはたまさお 木彫り風 FIGURE COLLECTION コンプ",
-      "count": 4
+      "count": 3
     },
     "preorder": {
       "q": "木彫り風 ガチャ 予約",
-      "count": 6
+      "count": 7
     }
   },
   "minecraft--6ad3a305": {
     "sig": "MINECRAFT カラフルキーボードチャーム|4|p",
-    "checkedAt": 1791731151094
+    "checkedAt": 1792973346632
   },
   "gacha-142fc142": {
     "sig": "サンリオキャラクターズ ジェリーデコバンド|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "サンリオ ガチャ コンプ",
-      "count": 1087
+      "count": 1136
     },
     "preorder": {
       "q": "サンリオ ガチャ 予約",
-      "count": 300
+      "count": 302
     }
   },
   "gacha-001f8451": {
     "sig": "るかっぷミニチュアコレクション 銀魂|4|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ミニチュアコレクション ガチャ コンプ",
-      "count": 387
+      "count": 383
     },
     "preorder": {
       "q": "ミニチュアコレクション ガチャ 予約",
-      "count": 23
+      "count": 28
     }
   },
   "gacha-47826ba2": {
     "sig": "パワーパフ ガールズ めじるしアクセサリー3|7|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-29f3a0ea": {
     "sig": "グレムリン ぬいぐるみマスコット|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "グレムリン ガチャ コンプ",
-      "count": 7
+      "count": 5
     },
     "preorder": {
       "q": "グレムリン ガチャ 予約",
-      "count": 4
+      "count": 3
     }
   },
   "gacha-10492af4": {
     "sig": "ざわざわ森のがんこちゃん ミニチュアパッケージチャーム|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ミニチュアパッケージチャーム ガチャ コンプ",
-      "count": 9
+      "count": 10
     },
     "preorder": {
       "q": "ミニチュアパッケージチャーム ガチャ 予約",
-      "count": 6
+      "count": 7
     }
   },
   "gacha-5bbc6ff1": {
     "sig": "それいけ！アンパンマン くるりんフェイスアンパンマン|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "アンパンマン ガチャ コンプ",
-      "count": 4
+      "q": "それいけ ガチャ コンプ",
+      "count": 3
     },
     "preorder": {
       "q": "それいけ 予約",
-      "count": 4
+      "count": 10
     }
   },
   "gacha-35dca12c": {
     "sig": "“ディズニーキャラクター” なかよしペアスイング3|4|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "スイング ガチャ コンプ",
-      "count": 187
+      "count": 193
     },
     "preorder": {
       "q": "スイング ガチャ 予約",
@@ -2157,82 +2137,78 @@
   },
   "gacha-6fdbbbe1": {
     "sig": "“ディズニーキャラクター” クリスタルめじるしアクセサリー|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-7161cb88": {
     "sig": "東野圭吾 『ガリレオ』シリーズ ブックチャーム|11|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ブックチャーム ガチャ セット",
-      "count": 6
+      "count": 5
     },
     "preorder": {
-      "q": "ガリレオ 予約",
-      "count": 19
+      "q": "東野圭吾 予約",
+      "count": 3
     }
   },
   "gacha-75bb5b3b": {
     "sig": "ドラえもん ベーカリーチャーム|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ドラえもん ガチャ コンプ",
       "count": 29
     },
     "preorder": {
       "q": "ドラえもん ガチャ 予約",
-      "count": 10
+      "count": 8
     }
   },
   "gacha-564acd00": {
     "sig": "ジュエルペット キラキラミラー風コレクション|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "サンリオ ガチャ コンプ",
-      "count": 1087
+      "count": 1136
     },
     "preorder": {
       "q": "サンリオ ガチャ 予約",
-      "count": 300
+      "count": 302
     }
   },
   "gacha-7e4511a5": {
     "sig": "テレタビーズ カラふるリングチャーム|8|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "テレタビーズ ガチャ コンプ",
-      "count": 15
+      "count": 16
     },
     "preorder": {
-      "q": "テレタビーズ 予約",
-      "count": 23
+      "q": "テレタビーズ ガチャ 予約",
+      "count": 4
     }
   },
   "beco81--6546945f": {
     "sig": "beco+81 ライトマスコット|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ライトマスコット ガチャ コンプ",
-      "count": 34
-    },
-    "preorder": {
-      "q": "ライトマスコット ガチャ 予約",
-      "count": 14
+      "count": 35
     }
   },
   "gacha-7675c0a3": {
     "sig": "ハリー・ポッター ディスプレイコレクション～魔法の杖～|4|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ハリー ガチャ コンプ",
-      "count": 49
+      "count": 48
     },
     "preorder": {
       "q": "ハリー ガチャ 予約",
@@ -2241,7 +2217,7 @@
   },
   "gacha-4fdd7bf6": {
     "sig": "きらりん☆レボリューション つまんでつなげてますこっと|12|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "つまんでつなげてマスコット ガチャ コンプ",
       "count": 7
@@ -2253,23 +2229,23 @@
   },
   "gacha-1f5a7d24": {
     "sig": "プリキュアオールスターズ 変身めじるしアクセサリー２|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-478ebe07": {
     "sig": "怒ったおおきいわんぴーすわんちゃあぁぁん2|5|p",
-    "checkedAt": 1791731151094
+    "checkedAt": 1792973346632
   },
   "gacha-41a84ef2": {
     "sig": "アニメ「桜蘭高校ホスト部」 つまんでつなげてますこっと|10|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "つまんでつなげてマスコット ガチャ コンプ",
       "count": 7
@@ -2281,38 +2257,38 @@
   },
   "-ver2-15671253": {
     "sig": "おジャ魔女どれみ めじるしアクセサリー ポロンタップver.2|9|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "nikke--2c13f183": {
     "sig": "勝利の女神：NIKKE まちぼうけ|4|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "勝利の女神：NIKKE ガチャ コンプ",
       "count": 8
     },
     "preorder": {
       "q": "まちぼうけ ガチャ 予約",
-      "count": 16
+      "count": 14
     }
   },
   "mofusand--25154524": {
     "sig": "mofusand 宇宙飛行士にゃん|6|p",
-    "checkedAt": 1791731151094
+    "checkedAt": 1792973346632
   },
   "-capsule-index-04-016e02f3": {
     "sig": "機動戦士ガンダム CAPSULE INDEX 04|4|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ガンダム ガチャ コンプ",
-      "count": 74
+      "count": 70
     },
     "preorder": {
       "q": "ガンダム ガチャ 予約",
@@ -2321,35 +2297,35 @@
   },
   "gacha-35f83afa": {
     "sig": "初音ミク めじるしアクセサリー|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "tom-and-jerry--469e3131": {
     "sig": "TOM and JERRY なりきりハンバーガーマスコットチャーム|4|p",
-    "checkedAt": 1791731151094
+    "checkedAt": 1792973346632
   },
   "jr--4f65e5d1": {
     "sig": "JRはたらく電車 カラフルマルチチャーム|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "カラフルマルチチャーム ガチャ コンプ",
-      "count": 30
+      "count": 29
     },
     "preorder": {
       "q": "カラフルマルチチャーム ガチャ 予約",
-      "count": 14
+      "count": 9
     }
   },
   "gacha-1c3fd5b4": {
     "sig": "逆転裁判 つまんでつなげてますこっと|10|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "つまんでつなげてマスコット ガチャ コンプ",
       "count": 7
@@ -2361,42 +2337,46 @@
   },
   "gacha-1d0b5652": {
     "sig": "じょせまる ミニチュアパッケージチャーム|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ミニチュアパッケージチャーム ガチャ コンプ",
-      "count": 9
+      "count": 10
     },
     "preorder": {
       "q": "ミニチュアパッケージチャーム ガチャ 予約",
-      "count": 6
+      "count": 7
     }
   },
   "gacha-40f0fb8c": {
     "sig": "“ピクサーキャラクター” 手作りおやつチャーム #しぼりクッキー|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ディズニー ガチャ コンプ",
-      "count": 421
+      "count": 424
     },
     "preorder": {
       "q": "ディズニー ガチャ 予約",
-      "count": 72
+      "count": 61
     }
   },
   "100-comics-charm-collection02-158f4438": {
     "sig": "いちご100％ Comics Charm Collection02|10|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
+    "compset": {
+      "q": "いちご100％ ガチャ コンプ",
+      "count": 3
+    },
     "preorder": {
       "q": "いちご100％ 予約",
-      "count": 55
+      "count": 17
     }
   },
   "gacha-1a4621db": {
     "sig": "モンチッチ ふわふわカラともマスコット|4|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "モンチッチ ガチャ コンプ",
-      "count": 163
+      "count": 178
     },
     "preorder": {
       "q": "モンチッチ ガチャ 予約",
@@ -2405,31 +2385,31 @@
   },
   "gacha-0e503ede": {
     "sig": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～|7|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "カプセルラバーマスコット ガチャ コンプ",
       "count": 166
     },
     "preorder": {
-      "q": "お文具といっしょ ガチャ 予約",
-      "count": 4
+      "q": "お文具といっしょ 予約",
+      "count": 5
     }
   },
   "gacha-5e24d1c7": {
     "sig": "名探偵コナン ぎゅーこっと2|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "名探偵コナン ガチャ コンプ",
-      "count": 109
+      "count": 111
     },
     "preorder": {
       "q": "名探偵コナン ガチャ 予約",
-      "count": 3
+      "count": 4
     }
   },
   "capin-gallery-figure-collectio-6d65a895": {
     "sig": "【CAP'in GALLERY】クマども FIGURE COLLECTION|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "クマども ガチャ コンプ",
       "count": 3
@@ -2437,26 +2417,26 @@
   },
   "capin-gallerysanrio-characters-409e610b": {
     "sig": "【CAP'in GALLERY】SANRIO CHARACTERS Sugar & Spice|4|p",
-    "checkedAt": 1791731151094
+    "checkedAt": 1792973346632
   },
   "gacha-33e86563": {
     "sig": "サンリオキャラクターズ バレリーナめじるしアクセサリー|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-24a09a04": {
     "sig": "カードキャプターさくら 桜マスコットチャーム|4|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "カードキャプターさくら ガチャ コンプ",
-      "count": 27
+      "count": 29
     },
     "preorder": {
       "q": "カードキャプターさくら ガチャ 予約",
@@ -2465,58 +2445,58 @@
   },
   "gacha-447f37f3": {
     "sig": "メイドインアビス めじるしアクセサリー|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "from-tv-animation-one-piece--6c80147a": {
     "sig": "From TV animation ONE PIECE ワンピの実 第二十七海戦|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ワンピース ガチャ コンプ",
-      "count": 42
+      "count": 36
     },
     "preorder": {
       "q": "ワンピース 予約",
-      "count": 751388
+      "count": 692919
     }
   },
   "-3--6afeed43": {
     "sig": "銀魂 めじるしアクセサリー3 ～身に着けている物で趣味が大体分かる～|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "capin-gallerymooney-the-ghost--30df019a": {
     "sig": "【CAP'in GALLERY】Mooney the Ghost by Koichi Yairi フィギュアコレクション|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "フィギュアコレクション ガチャ コンプ",
-      "count": 580
+      "count": 572
     },
     "preorder": {
       "q": "フィギュアコレクション ガチャ 予約",
-      "count": 67
+      "count": 53
     }
   },
   "gacha-677d707b": {
     "sig": "リメンバー・ミー スイングマスコット|4|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "スイング ガチャ コンプ",
-      "count": 187
+      "count": 193
     },
     "preorder": {
       "q": "スイング ガチャ 予約",
@@ -2525,98 +2505,98 @@
   },
   "-holiday-7747abb7": {
     "sig": "“ディズニーキャラクター” Holidayオーナメントチャーム|4|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ディズニー ガチャ コンプ",
-      "count": 421
+      "count": 424
     },
     "preorder": {
       "q": "ディズニー ガチャ 予約",
-      "count": 72
+      "count": 61
     }
   },
   "gacha-4a99e548": {
     "sig": "“ディズニーキャラクター” 雪だるまふわふわめじるしアクセサリー|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-7bb113d0": {
     "sig": "サンリオキャラクターズ 雪だるまふわふわめじるしアクセサリー|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-12881067": {
     "sig": "さんりおきゃらくたぁず 和みの抹茶ふぃぎゅあ|5|p",
-    "checkedAt": 1791731151094
+    "checkedAt": 1792973346632
   },
   "gacha-6216d4d4": {
     "sig": "みいつけた！ カラフルマルチチャーム|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "カラフルマルチチャーム ガチャ コンプ",
-      "count": 30
+      "count": 29
     },
     "preorder": {
       "q": "カラフルマルチチャーム ガチャ 予約",
-      "count": 14
+      "count": 9
     }
   },
   "gacha-7455f24f": {
     "sig": "よこみぞゆりのなんでもいきもの ふわふわめじるしアクセサリー|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "mojojojo--09d0498b": {
     "sig": "mojojojo めじるしアクセサリー|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "q": "mojojojo めじるしアクセサリー コンプ",
+      "count": 4
     },
     "preorder": {
-      "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "q": "mojojojo めじるしアクセサリー 予約",
+      "count": 3
     }
   },
   "gacha-6829dbba": {
     "sig": "まちぼうけ ダイナーの場合|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "まちぼうけ ガチャ コンプ",
-      "count": 62
+      "count": 61
     },
     "preorder": {
       "q": "まちぼうけ ガチャ 予約",
-      "count": 16
+      "count": 14
     }
   },
   "-part1-7159ba2a": {
     "sig": "サンリオキャラクターズ 星座スイングマスコットPART1|12|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "スイング ガチャ コンプ",
-      "count": 187
+      "count": 193
     },
     "preorder": {
       "q": "スイング ガチャ 予約",
@@ -2625,10 +2605,10 @@
   },
   "-part2-246a0353": {
     "sig": "サンリオキャラクターズ 星座スイングマスコットPART2|12|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "スイング ガチャ コンプ",
-      "count": 187
+      "count": 193
     },
     "preorder": {
       "q": "スイング ガチャ 予約",
@@ -2637,54 +2617,50 @@
   },
   "trade--6d876ccf": {
     "sig": "ケアベア&trade; カラフルマルチチャーム|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "カラフルマルチチャーム ガチャ コンプ",
-      "count": 30
+      "count": 29
     },
     "preorder": {
       "q": "カラフルマルチチャーム ガチャ 予約",
-      "count": 14
+      "count": 9
     }
   },
   "gacha-27fb4b17": {
     "sig": "こんなこいるかな フォトフレームマスコット|4|p",
-    "checkedAt": 1791731151094,
-    "compset": {
-      "q": "フォトフレームマスコット ガチャ コンプ",
-      "count": 3
-    }
+    "checkedAt": 1792973346632
   },
   "-30th-anniversary-edition-7effa05a": {
     "sig": "たまごっち めじるしアクセサリー 30th anniversary edition|8|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "q": "たまごっち めじるしアクセサリー 30th anniversary edition コンプ",
+      "count": 3
     },
     "preorder": {
-      "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "q": "たまごっち めじるしアクセサリー 30th anniversary edition 予約",
+      "count": 3
     }
   },
   "gacha-7bc528c3": {
     "sig": "なめこ栽培キット ミニチュアパッケージチャーム|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ミニチュアパッケージチャーム ガチャ コンプ",
-      "count": 9
+      "count": 10
     },
     "preorder": {
       "q": "ミニチュアパッケージチャーム ガチャ 予約",
-      "count": 6
+      "count": 7
     }
   },
   "gacha-0496dc51": {
     "sig": "牧場物語 スイングコレクション|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "スイング ガチャ コンプ",
-      "count": 187
+      "count": 193
     },
     "preorder": {
       "q": "スイング ガチャ 予約",
@@ -2693,50 +2669,50 @@
   },
   "gacha-5c4f71b5": {
     "sig": "のびのび！ぼにゃる ねこちゃあぁぁん|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "のびのび ガチャ コンプ",
-      "count": 6
+      "q": "ねこ・猫 ガチャ コンプ",
+      "count": 3
     },
     "preorder": {
       "q": "ねこ・猫 予約",
-      "count": 35
+      "count": 36
     }
   },
   "-03-7fc57a23": {
     "sig": "いきもの大図鑑アドバンス クワガタ03|3|p",
-    "checkedAt": 1791731151094
+    "checkedAt": 1792973346632
   },
   "sirocara--7418717e": {
     "sig": "SIROCARA めじるしアクセサリー|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-4a7ae855": {
     "sig": "ニャンちゅう カラフルマルチチャーム|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ニャンちゅう ガチャ コンプ",
       "count": 3
     },
     "preorder": {
       "q": "ニャンちゅう ガチャ 予約",
-      "count": 5
+      "count": 4
     }
   },
   "lil-ala-mode--4d6a3ffd": {
     "sig": "Lil ala mode スイングコレクション ～天使と悪魔～|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "スイング ガチャ コンプ",
-      "count": 187
+      "count": 193
     },
     "preorder": {
       "q": "スイング ガチャ 予約",
@@ -2745,10 +2721,10 @@
   },
   "-typewater-78d8f544": {
     "sig": "ポケットモンスター スイングコレクションType:Water|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "スイング ガチャ コンプ",
-      "count": 187
+      "count": 193
     },
     "preorder": {
       "q": "スイング ガチャ 予約",
@@ -2757,43 +2733,43 @@
   },
   "gacha-36eecdf9": {
     "sig": "まちぼうけ 冬の場合 その2|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "まちぼうけ ガチャ コンプ",
-      "count": 62
+      "count": 61
     },
     "preorder": {
       "q": "まちぼうけ ガチャ 予約",
-      "count": 16
+      "count": 14
     }
   },
   "-8--65956d30": {
     "sig": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "クレヨンしんちゃん ガチャ コンプ",
-      "count": 30
+      "count": 34
     },
     "preorder": {
       "q": "クレヨンしんちゃん ガチャ 予約",
-      "count": 11
+      "count": 5
     }
   },
   "gacha-21c9e33e": {
     "sig": "クレヨンしんちゃん カラともマスコット|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "クレヨンしんちゃん ガチャ コンプ",
-      "count": 30
+      "count": 34
     },
     "preorder": {
       "q": "クレヨンしんちゃん ガチャ 予約",
-      "count": 11
+      "count": 5
     }
   },
   "gacha-0dccbdc9": {
     "sig": "ナルミヤキャラクターズ めじるしアクセサリー2|8|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ナルミヤキャラクターズ めじるしアクセサリー2 コンプ",
       "count": 3
@@ -2805,130 +2781,130 @@
   },
   "gacha-26c7048d": {
     "sig": "＃ハッシュタグつける 葬送のフリーレン|10|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "葬送のフリーレン ガチャ コンプ",
-      "count": 30
+      "count": 32
     },
     "preorder": {
       "q": "葬送のフリーレン ガチャ 予約",
-      "count": 7
+      "count": 6
     }
   },
   "gacha-75ff9b43": {
     "sig": "ハイキュー!! ねむらせ隊3|7|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ハイキュー!! ガチャ コンプ",
-      "count": 160
+      "count": 148
     },
     "preorder": {
       "q": "ハイキュー!! ガチャ 予約",
-      "count": 32
+      "count": 26
     }
   },
   "project-red--1685770a": {
     "sig": "PROJECT R.E.D. まちぼうけ|4|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "まちぼうけ ガチャ コンプ",
-      "count": 62
+      "count": 61
     },
     "preorder": {
       "q": "まちぼうけ ガチャ 予約",
-      "count": 16
+      "count": 14
     }
   },
   "gacha-51b492a2": {
     "sig": "チロルチョコ めじるしアクセサリー2|7|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-1c6f7b21": {
     "sig": "ホロライブ カラフルカラビナもふしっぽマスコット|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ホロライブ ガチャ コンプ",
       "count": 7
     },
     "preorder": {
       "q": "ホロライブ 予約",
-      "count": 74
+      "count": 72
     }
   },
   "gacha-4410ab33": {
     "sig": "コンタック カラフルマルチチャーム|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "カラフルマルチチャーム ガチャ コンプ",
-      "count": 30
+      "count": 29
     },
     "preorder": {
       "q": "カラフルマルチチャーム ガチャ 予約",
-      "count": 14
+      "count": 9
     }
   },
   "gacha-47e8213e": {
     "sig": "ウルトラマン ウルトラ怪獣ぽんちょめじるしアクセサリー|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-0abd8dd6": {
     "sig": "サンリオキャラクターズ フロッキークリップ～ラテクマデザイン～|7|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "フロッキーマスコット ガチャ コンプ",
-      "count": 91
+      "count": 92
     },
     "preorder": {
       "q": "フロッキーマスコット ガチャ 予約",
-      "count": 18
+      "count": 20
     }
   },
   "gacha-71228408": {
     "sig": "【フラットガシャポン】シュガーバニーズ クリアラバーコースター|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "サンリオ ガチャ コンプ",
-      "count": 1087
+      "count": 1136
     },
     "preorder": {
       "q": "サンリオ ガチャ 予約",
-      "count": 300
+      "count": 302
     }
   },
   "-ver-5ed25846": {
     "sig": "タコピーの原罪 めじるしアクセサリー ハッピーキラキラver.|5|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-03eed9d1": {
     "sig": "メゾピアノ グッズコレクション|8|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "メゾピアノ ガチャ コンプ",
-      "count": 42
+      "count": 46
     },
     "preorder": {
       "q": "メゾピアノ ガチャ 予約",
@@ -2937,58 +2913,58 @@
   },
   "-comics-charm-collection-4c6bac41": {
     "sig": "キングダム Comics Charm Collection|12|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "キングダム ガチャ コンプ",
-      "count": 26
+      "count": 24
     },
     "preorder": {
       "q": "キングダム ガチャ 予約",
-      "count": 5
+      "count": 4
     }
   },
   "gacha-087b746a": {
     "sig": "【フラットガシャポン】キングダム ポスターコレクション|10|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "キングダム ガチャ コンプ",
-      "count": 26
+      "count": 24
     },
     "preorder": {
       "q": "キングダム ガチャ 予約",
-      "count": 5
+      "count": 4
     }
   },
   "gacha-150a7576": {
     "sig": "ポンデクルール ちいかわ マルチカラーパウダー|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ちいかわ ガチャ コンプ",
-      "count": 24
+      "count": 25
     },
     "preorder": {
-      "q": "ちいかわ 予約",
-      "count": 180
+      "q": "ちいかわ ガチャ 予約",
+      "count": 5
     }
   },
   "gacha-72a810b6": {
     "sig": "ちびまる子ちゃん×クレヨンしんちゃん ラバーマスコット|6|p",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "クレヨンしんちゃん ガチャ コンプ",
-      "count": 30
+      "count": 34
     },
     "preorder": {
       "q": "クレヨンしんちゃん ガチャ 予約",
-      "count": 11
+      "count": 5
     }
   },
   "ntcpuff--2bc40b6a": {
     "sig": "ntc.Puff フクロウ マーカーチャーム|6|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "フクロウ ガチャ コンプ",
-      "count": 23
+      "q": "ntc.Puff フクロウ マーカーチャーム コンプ",
+      "count": 3
     }
   },
   "gacha-7c2ee6bd": {
@@ -3024,15 +3000,11 @@
     }
   },
   "gacha-75709a95": {
-    "sig": "サンリオキャラクターズ みんなでなっちゃお!-歯-2|6|p",
-    "checkedAt": 1792022935060,
+    "sig": "サンリオキャラクターズ みんなでなっちゃお!-歯-2|6|r",
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "サンリオ ガチャ コンプ",
-      "count": 1090
-    },
-    "preorder": {
-      "q": "サンリオ ガチャ 予約",
-      "count": 295
+      "count": 1136
     }
   },
   "gacha-6cdb0aa9": {
@@ -3060,15 +3032,11 @@
     }
   },
   "gacha-59f8e017": {
-    "sig": "サンリオキャラクターズ トキメキステッキチャーム|5|p",
-    "checkedAt": 1792022935060,
+    "sig": "サンリオキャラクターズ トキメキステッキチャーム|5|r",
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "サンリオ ガチャ コンプ",
-      "count": 1090
-    },
-    "preorder": {
-      "q": "サンリオ ガチャ 予約",
-      "count": 295
+      "count": 1136
     }
   },
   "gacha-20672173": {
@@ -3089,10 +3057,10 @@
   },
   "gacha-0f41e6cc": {
     "sig": "めざましコラショ めじるしガチャマスコット|5|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めざましコラショ めじるしガチャマスコット コンプ",
-      "count": 6
+      "count": 7
     }
   },
   "gacha-7a217972": {
@@ -3100,27 +3068,19 @@
     "checkedAt": 1791850130148
   },
   "fig-5--26016b49": {
-    "sig": "肩ズンFig. アニメ『呪術廻戦』5周年 -弍-|4|p",
-    "checkedAt": 1792022935060,
+    "sig": "肩ズンFig. アニメ『呪術廻戦』5周年 -弍-|4|r",
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "肩ズンFig. ガチャ コンプ",
-      "count": 277
-    },
-    "preorder": {
-      "q": "肩ズンFig. ガチャ 予約",
-      "count": 113
+      "count": 275
     }
   },
   "gacha-054f283c": {
-    "sig": "プラレール ぷっくりドロップめじるしガチャマスコット|5|p",
-    "checkedAt": 1792022935060,
+    "sig": "プラレール ぷっくりドロップめじるしガチャマスコット|5|r",
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 475
-    },
-    "preorder": {
-      "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 145
+      "q": "プラレール ぷっくりドロップめじるしガチャマスコット セット",
+      "count": 3
     }
   },
   "uno-2-2415a2bb": {
@@ -3129,10 +3089,10 @@
   },
   "gacha-4decc1c3": {
     "sig": "エイの裏側かわいい マーカーチャーム|5|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "エイの裏側かわいい マーカーチャーム コンプ",
-      "count": 3
+      "count": 4
     }
   },
   "gacha-17799fbb": {
@@ -3165,47 +3125,43 @@
   },
   "skzoo-dwaekkihan-quokkabbokari-06061b16": {
     "sig": "SKZOO ぷくっとバースデークリアリング ～DWAEKKI＆HAN QUOKKA＆BbokAri～|12|r",
-    "checkedAt": 1791731151094
+    "checkedAt": 1792973346632
   },
   "fig--70ac69cd": {
-    "sig": "肩ズンFig. ゴジラ|4|p",
-    "checkedAt": 1792022935060,
+    "sig": "肩ズンFig. ゴジラ|4|r",
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "肩ズンFig. ガチャ コンプ",
-      "count": 277
-    },
-    "preorder": {
-      "q": "肩ズンFig. ガチャ 予約",
-      "count": 113
+      "count": 275
     }
   },
   "gacha-26241f91": {
     "sig": "スーパー戦隊シリーズ めじるしアクセサリー|9|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     }
   },
   "kpop-cd-0e647e14": {
     "sig": "KPOPガールズ！ デーモン・ハンターズ ミニCDコレクション|6|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "KPOPガールズ ガチャ コンプ",
-      "count": 3
+      "q": "デーモン ガチャ コンプ",
+      "count": 21
     }
   },
   "-baby-7d5bbbcd": {
     "sig": "サンリオキャラクターズ ふわふわめじるしアクセサリー ～Baby～|5|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "サンリオキャラクターズ ふわふわめじるしアクセサリー ～Baby～ コンプ",
-      "count": 3
+      "count": 4
     }
   },
   "-big-6a88792b": {
     "sig": "コジコジ BIGカプキャラ|4|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "コジコジ ガチャ コンプ",
       "count": 14
@@ -3213,23 +3169,23 @@
   },
   "-capsule-apartment-030438ee": {
     "sig": "パワーパフ ガールズ CAPSULE APARTMENT|4|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "パワーパフ ガチャ コンプ",
-      "count": 27
+      "count": 32
     }
   },
   "gacha-6df77f6f": {
     "sig": "雪印メグミルク ミニチュアチャーム ～ゼリー＆プリンシリーズ～|7|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "雪印メグミルク ガチャ コンプ",
-      "count": 3
+      "q": "ミニチュアチャーム ガチャ コンプ",
+      "count": 149
     }
   },
   "gacha-07807724": {
     "sig": "クレヨンしんちゃん ぶりぶりざえもん着ぐるみ めじるしアクセサリー|6|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "クレヨンしんちゃん ぶりぶりざえもん着ぐるみ めじるしアクセサリー コンプ",
       "count": 4
@@ -3237,15 +3193,15 @@
   },
   "gacha-73a4e030": {
     "sig": "ぜんまいざむらい まちぼうけ|5|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ぜんまいざむらい ガチャ コンプ",
-      "count": 3
+      "count": 5
     }
   },
   "novelbright--235d6d0e": {
     "sig": "Novelbright ならぶんです。|5|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ならぶんです。 ガチャ コンプ",
       "count": 54
@@ -3253,58 +3209,58 @@
   },
   "gacha-5e6dae86": {
     "sig": "お文具といっしょ お惣菜なりきりマスコットなのです|5|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "お文具といっしょ ガチャ コンプ",
-      "count": 7
+      "count": 6
     }
   },
   "gacha-509de413": {
     "sig": "サンリオキャラクターズ ボンボンドロップミニチュアチャーム2|5|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "サンリオキャラクターズ ボンボンドロップミニチュアチャーム2 コンプ",
-      "count": 4
+      "count": 3
     }
   },
   "gacha-2510dcb6": {
     "sig": "はなかっぱ まちぼうけ|5|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "はなかっぱ まちぼうけ コンプ",
-      "count": 3
+      "q": "はなかっぱ ガチャ コンプ",
+      "count": 17
     }
   },
   "gacha-6773ac0a": {
     "sig": "ジャージカップル ぷっくりめじるしアクセサリー|8|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     }
   },
   "gacha-3f959dda": {
     "sig": "クレヨンしんちゃん おべんとうマスコット|5|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "クレヨンしんちゃん ガチャ コンプ",
-      "count": 30
+      "count": 34
     }
   },
   "gacha-04a9b302": {
     "sig": "まちぼうけ スーパーマーケットの場合|5|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "まちぼうけ ガチャ コンプ",
-      "count": 62
+      "count": 61
     }
   },
   "-ufo-ver-0703b2b6": {
     "sig": "たまごっち UFOスイング ～オーロラver.～|5|r",
-    "checkedAt": 1791731151094,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "たまごっち UFOスイング ～オーロラver.～ コンプ",
-      "count": 4
+      "count": 3
     }
   },
   "gacha-64a93f6a": {
@@ -4197,7 +4153,7 @@
   },
   "aespa--61d0434e": {
     "sig": "aespa ぷくっとリング|4|p",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ぷくっとリング ガチャ セット",
       "count": 3
@@ -4205,7 +4161,7 @@
   },
   "nct-wish--44119c21": {
     "sig": "NCT WISH つまんでつなげてますこっと|12|p",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "つまんでつなげてマスコット ガチャ コンプ",
       "count": 7
@@ -4217,54 +4173,54 @@
   },
   "skzoo--23736395": {
     "sig": "SKZOO ミニチュアパッケージチャーム|8|p",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ミニチュアパッケージチャーム ガチャ コンプ",
-      "count": 9
+      "count": 10
     },
     "preorder": {
       "q": "ミニチュアパッケージチャーム ガチャ 予約",
-      "count": 6
+      "count": 7
     }
   },
   "gacha-6472af60": {
     "sig": "すとぷり めじるしアクセサリー|5|p",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-3e4b24d0": {
     "sig": "デジモンアドベンチャー めじるしアクセサリー3|8|p",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 453
+      "count": 521
     },
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
-      "count": 159
+      "count": 155
     }
   },
   "gacha-607fada2": {
     "sig": "ジュラシック・ワールド すってんころりんフィギュア|4|r",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "ジュラシック・ワールド すってんころりんフィギュア コンプ",
-      "count": 3
+      "q": "ジュラシック ガチャ コンプ",
+      "count": 34
     }
   },
   "tokyo-mercapital-crisis--025a307d": {
     "sig": "劇場版『TOKYO MER～走る緊急救命室～CAPITAL CRISIS』　 もふもふポーシェット|8|r",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "もふもふポーシェット ガチャ コンプ",
-      "count": 39
+      "count": 45
     }
   },
   "-second-edition-7f28d3e3": {
@@ -4312,56 +4268,40 @@
     }
   },
   "gacha-04e7ab4b": {
-    "sig": "ポケモン みんなのリザードン|4|p",
-    "checkedAt": 1792022935060,
+    "sig": "ポケモン みんなのリザードン|4|r",
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "ポケモン ガチャ コンプ",
-      "count": 123
-    },
-    "preorder": {
-      "q": "ポケモン ガチャ 予約",
-      "count": 40
+      "count": 109
     }
   },
   "gacha-51cfc191": {
-    "sig": "ポケモン フロッキードール2|4|p",
-    "checkedAt": 1792022935060,
+    "sig": "ポケモン フロッキードール2|4|r",
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "フロッキーマスコット ガチャ コンプ",
-      "count": 91
-    },
-    "preorder": {
-      "q": "フロッキーマスコット ガチャ 予約",
-      "count": 20
+      "count": 92
     }
   },
   "-part8-2a1d6428": {
-    "sig": "夏目友人帳 ニャンコ先生 徒然根付ストラップ Part8|5|p",
-    "checkedAt": 1792399110414,
+    "sig": "夏目友人帳 ニャンコ先生 徒然根付ストラップ Part8|5|r",
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "夏目友人帳 ガチャ コンプ",
-      "count": 24
-    },
-    "preorder": {
-      "q": "夏目友人帳 ガチャ 予約",
-      "count": 12
+      "count": 21
     }
   },
   "gacha-4846e800": {
-    "sig": "カプセルプラレール エアポート特急!大集合スペシャル|12|p",
-    "checkedAt": 1792022935060,
+    "sig": "カプセルプラレール エアポート特急!大集合スペシャル|12|r",
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "カプセルプラレール ガチャ コンプ",
-      "count": 45
-    },
-    "preorder": {
-      "q": "カプセルプラレール ガチャ 予約",
-      "count": 9
+      "count": 42
     }
   },
   "gacha-0d339bca": {
     "sig": "新種の生き物？クリオネにゃんこ　フィギュアマーカー|6|p",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "新種の生き物？クリオネにゃんこ フィギュアマーカー セット",
       "count": 3
@@ -4393,46 +4333,46 @@
   },
   "wiggle-wiggle--422bc014": {
     "sig": "wiggle wiggle カラフルマルチチャーム|6|r",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "カラフルマルチチャーム ガチャ コンプ",
-      "count": 30
+      "count": 29
     }
   },
   "-reload-vol1-2ab3bbbc": {
     "sig": "ダンガンロンパ１・２ Reload　カプセルラバーキーホルダー vol.1|6|p",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "カプセルラバーキーホルダー ガチャ コンプ",
       "count": 63
     },
     "preorder": {
       "q": "カプセルラバーキーホルダー ガチャ 予約",
-      "count": 6
+      "count": 7
     }
   },
   "-hideseek--65061a22": {
     "sig": "ファンタスティック・ビースト　ニフラー Hide&Seek かくれんぼフィギュア|3|r",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "ファンタスティック・ビースト ニフラー Hide&Seek かくれんぼフィギュア コンプ",
+      "q": "ファンタスティック・ビースト ニフラー Hide&Seek かくれんぼフィギュア セット",
       "count": 3
     }
   },
   "gacha-34d73cb1": {
     "sig": "トムとジェリー なかよくけんかしな　ニコイチマスコット|4|r",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
       "q": "トムとジェリー ガチャ コンプ",
-      "count": 47
+      "count": 45
     }
   },
   "-85th--3157aa98": {
     "sig": "おさるのジョージ 85th ハートフィギュア|4|r",
-    "checkedAt": 1791732031098,
+    "checkedAt": 1792973346632,
     "compset": {
-      "q": "おさるのジョージ 85th ハートフィギュア コンプ",
-      "count": 3
+      "q": "おさるのジョージ ガチャ コンプ",
+      "count": 38
     }
   },
   "gacha-66556360": {
@@ -6628,8 +6568,8 @@
     }
   },
   "the-history-collection-playsta-128d5e59": {
-    "sig": "The History Collection -PlayStation™-|5|p",
-    "checkedAt": 1792022935060
+    "sig": "The History Collection -PlayStation™-|5|r",
+    "checkedAt": 1792973346632
   },
   "gacha-29c0e29a": {
     "sig": "胃 フィギュアマスコット|6|r",
@@ -6660,8 +6600,8 @@
     }
   },
   "gacha-40a4e26b": {
-    "sig": "ちっちゃなふあふあえあ〜遊具|4|p",
-    "checkedAt": 1792051729056
+    "sig": "ちっちゃなふあふあえあ〜遊具|4|r",
+    "checkedAt": 1792973346632
   },
   "tvseason-2--2f2aa066": {
     "sig": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット|5|r",
