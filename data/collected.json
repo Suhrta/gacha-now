@@ -69,7 +69,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第1週",
     "brand": "ムーミン",
-    "types": null
+    "types": 10
   },
   {
     "title": "Richell ミニチュアチャーム",
@@ -1413,7 +1413,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 9
   },
   {
     "title": "幽☆遊☆白書 めじるしアクセサリー",
@@ -4029,7 +4029,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第5週",
     "brand": "プリキュア",
-    "types": 11
+    "types": null
   },
   {
     "title": "いきもの大図鑑アドバンス タマムシとウグイスコガネ",
@@ -10160,7 +10160,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "まちぼうけ",
-    "types": 4
+    "types": null
   },
   {
     "title": "チロルチョコ めじるしアクセサリー2",
