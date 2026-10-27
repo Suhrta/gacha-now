@@ -1,5 +1,32 @@
 [
   {
+    "id": "gacha-2c6f45d9",
+    "name": "のっぽちゃんぬいぐるみ うさぎ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 3,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/10/noppousagi_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/10/noppousagi_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/noppo_usagi/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-10-27T02:03:11.891Z",
+    "officialDescription": "足のなが～～～いぬいぐるみシリーズが始動！お揃いの吊りズボンを履いた「うさぎ」のぬいぐるみが登場します。 つやつやの瞳に赤いお鼻を合わせた、愛らしい表情、POPなカラーにどこか懐かしいレトロな雰囲気がかわいい！ そして、このぬいぐるみ最大の特徴は、そのなが～～～い足！ 全長はカプセルサイズを遥かに超える約２０cm、さらに股下はなんと約８cmと、モデル顔負けのスタイルに仕上げました。 存在感のあるサイズ感ながら、全種に便利なゴム紐付き。リュックやトートバッグなどに付けて一緒にお出かけすれば、ひときわ目を引くこと間違いなし。 かわいらしさと、たっぷりのボリューム感を兼ね備えた、ちょっぴり個性的な「のっぽちゃん」をお楽しみください♪ ラインナップは「 ホワイト 、ブラウン 、グレー 」の全3種。",
+    "size": "約200mm",
+    "lineup": [
+      "ホワイト",
+      "ブラウン",
+      "グレー"
+    ],
+    "thumb": "https://gachaimg.com/thumb/gacha-2c6f45d9.webp"
+  },
+  {
     "id": "gacha-55b5bb3a",
     "name": "北海道日本ハムファイターズ 歴代ヘルメットコレクション",
     "brand": "北海道日本ハムファイターズ",
@@ -3010,9 +3037,9 @@
     "releaseWeek": "未定",
     "color": "#CE93D8",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259579_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259579_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259579_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259579_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259579_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259579_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259579_4.jpg",
@@ -3043,9 +3070,9 @@
     "releaseWeek": "未定",
     "color": "#CE93D8",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259578_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259578_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259578_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259578_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259578_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259578_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259578_4.jpg",
@@ -3436,9 +3463,9 @@
     "releaseWeek": "未定",
     "color": "#FFB74D",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259584_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259584_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259584_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259584_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259584_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259584_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259584_4.jpg",
@@ -3697,9 +3724,9 @@
     "releaseWeek": "未定",
     "color": "#CE93D8",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259570_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259570_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259570_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259570_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259570_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259570_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259570_4.jpg",
@@ -3893,9 +3920,9 @@
     "releaseWeek": "未定",
     "color": "#e5b499",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259564_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259564_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259564_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259564_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259564_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259564_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259564_4.jpg",
@@ -3925,9 +3952,9 @@
     "releaseWeek": "未定",
     "color": "#F06292",
     "hot": true,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259563_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259563_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259563_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259563_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259563_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259563_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259563_4.jpg",
@@ -4089,9 +4116,9 @@
     "releaseWeek": "未定",
     "color": "#e5b499",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259558_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259558_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259558_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259558_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259558_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259558_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259558_4.jpg",
@@ -4121,9 +4148,9 @@
     "releaseWeek": "未定",
     "color": "#CE93D8",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259553_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259553_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259553_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259553_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259553_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259553_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259553_4.jpg",
@@ -4154,9 +4181,9 @@
     "releaseWeek": "未定",
     "color": "#CE93D8",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259552_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259552_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259552_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259552_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259552_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259552_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259552_4.jpg",
@@ -4187,9 +4214,9 @@
     "releaseWeek": "未定",
     "color": "#CE93D8",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259551_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259551_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259551_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259551_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259551_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259551_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259551_4.jpg",
@@ -4253,9 +4280,9 @@
     "releaseWeek": "未定",
     "color": "#e5b499",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259549_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259549_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259549_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259549_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259549_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259549_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259549_4.jpg",
@@ -4416,9 +4443,9 @@
     "releaseWeek": "未定",
     "color": "#F06292",
     "hot": true,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259544_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259544_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259544_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259544_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259544_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259544_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259544_4.jpg",
@@ -4449,9 +4476,9 @@
     "releaseWeek": "未定",
     "color": "#F06292",
     "hot": true,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259543_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259543_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259543_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259543_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259543_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259543_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259543_4.jpg",
@@ -4482,9 +4509,9 @@
     "releaseWeek": "未定",
     "color": "#99e5a6",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259542_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259542_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259542_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259542_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259542_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259542_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259542_4.jpg",
@@ -4809,9 +4836,9 @@
     "releaseWeek": "未定",
     "color": "#FFD54F",
     "hot": true,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259532_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259532_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259532_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259532_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259532_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259532_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259532_4.jpg",
@@ -5146,9 +5173,9 @@
     "releaseWeek": "未定",
     "color": "#e5b499",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_4.jpg",
@@ -5178,9 +5205,9 @@
     "releaseWeek": "未定",
     "color": "#E57373",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259521_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259521_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259521_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259521_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259521_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259521_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000259521_4.jpg",
@@ -5433,7 +5460,7 @@
   },
   {
     "id": "gacha-72a810b6",
-    "name": "ちびまる子ちゃん×クレヨンしんちゃん ラバーマスコット",
+    "name": "ちびまる子ちゃん＆クレヨンしんちゃん ラバーマスコット",
     "brand": "クレヨンしんちゃん",
     "brandSlug": "shinchan",
     "price": 300,
@@ -10373,9 +10400,9 @@
     "releaseWeek": "未定",
     "color": "#e5b499",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255532_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255532_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255532_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255532_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255532_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255532_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000255532_4.jpg",
@@ -10756,11 +10783,12 @@
     "description": "猫の姿をした妖怪ニャンコ先生が人気のコミック・アニメ作品「夏目友人帳」から、徒然根付ストラップがカプセルトイに登場します。タカラトミーアーツが手がけるPart8は全5種のラインナップで、1回300円で遊べます。発売は10月を予定しています。",
     "thumb": "https://gachaimg.com/thumb/-part8-2a1d6428.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
-      "220bd4c9"
+      "220bd4c9",
+      "9dc19927"
     ],
-    "rakutenThumbMisses": 1
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/ssstore/cabinet/12291318/imgrc0194043557.jpg?_ex=400x400"
   },
   {
     "id": "gacha-4846e800",
@@ -10785,7 +10813,7 @@
     "description": "子供から大人まで人気のミニカーブランド、トミカをモチーフにしたカプセルトイ「カプセルプラレール エアポート特急!大集合スペシャル」が登場します。全12種がラインナップされ、1回300円で楽しめるガチャガチャです。発売元はタカラトミーアーツで、10月より展開が始まります。",
     "thumb": "https://gachaimg.com/thumb/gacha-4846e800.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
       "220bd4c9"
     ],
@@ -11678,7 +11706,7 @@
     "description": "人気刑事ドラマ「踊る大捜査線」をモチーフにしたラバー製の目印チャームが、タカラトミーアーツからガチャガチャに登場しました。『踊る大捜査線N.E.W.』めじるしガチャマスコットの名の通り、バッグの持ち手などに付けて自分の目印にできるタイプのシリーズで、全6種がラインナップされています。価格は1回400円で、現在発売中です。",
     "thumb": "https://gachaimg.com/thumb/new--49398282.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [],
     "rakutenThumbMisses": 1
   },
@@ -11726,16 +11754,16 @@
     "description": "羊のキャラクターとして人気の「ひつじのショーン」が、タカラトミーアーツからカプセルトイに登場します。商品名は「ゆらゆらつながるマスコット」で、1回300円で楽しめます。発売時期は9月28日週を予定しており、ガチャガチャ専門店や設置店舗での取り扱いが見込まれます。",
     "thumb": "https://gachaimg.com/thumb/gacha-21881bd7.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
       "24fc886a",
+      "2e81a670",
       "58b3e3cf",
       "8c04db69",
-      "af714ca2",
-      "dac50ded",
-      "f180c2e4"
+      "977be030",
+      "dac50ded"
     ],
-    "rakutenThumbMisses": 2
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/realize-store/cabinet/gachapon2/kawano36/hitujiyryrtugm0002.jpg?_ex=400x400"
   },
   {
     "id": "gacha-3250624d",
@@ -11887,16 +11915,16 @@
     "description": "タカラトミーアーツより、トミカのカプセルトイとしてカプセルプラレール きかんしゃトーマス ふしぎないわのボルダー編が登場します。全13種のラインナップで、1回300円で楽しめるガチャガチャとして展開されます。発売時期は9月24日週が予定されています。",
     "thumb": "https://gachaimg.com/thumb/gacha-1c39eacb.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
-      "371a26c6",
+      "05be37d0",
+      "4ce1069a",
       "73c4f311",
-      "9ac30989",
       "c65e8bef",
       "eb2ff1a5",
       "fd5e0c6e"
     ],
-    "rakutenThumbMisses": 2
+    "rakutenThumbMisses": 3
   },
   {
     "id": "gacha-5daa505e",
@@ -12765,7 +12793,7 @@
     "description": "人気RPGシリーズ「ペルソナ」のタイトルのひとつ、『ペルソナ3 リロード』のピンバッジがカプセルトイになりました。タカラトミーアーツから登場するこのシリーズは全8種のラインナップで、1回の価格は300円です。発売は9月14日週を予定しています。",
     "thumb": "https://gachaimg.com/thumb/gacha-3f69225d.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
       "c524da2a"
     ],
@@ -13289,17 +13317,16 @@
       "ゼロ（レア）"
     ],
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
       "040f457c",
-      "43d1b3ef",
-      "4aa7754d",
       "5dc7f9da",
       "75bd1e07",
-      "87c63a78"
+      "87c63a78",
+      "fca7791b"
     ],
-    "rakutenThumbMisses": 2,
-    "thumb": "https://gachaimg.com/thumb/gacha-0a0ac326.webp"
+    "thumb": "https://gachaimg.com/thumb/gacha-0a0ac326.webp",
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-toysanta/cabinet/060102/g-5le20019i6-002.jpg?_ex=400x400"
   },
   {
     "id": "gacha-0dfdf601",
@@ -13834,11 +13861,12 @@
     ],
     "thumb": "https://gachaimg.com/thumb/gacha-5cf44dfb.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
-      "5e3996b4"
+      "5e3996b4",
+      "814ef0a6"
     ],
-    "rakutenThumbMisses": 1
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/haruhinashop/cabinet/13459678/imgrc0123079199.jpg?_ex=400x400"
   },
   {
     "id": "gacha-01a249e0",
@@ -18400,16 +18428,15 @@
     ],
     "description": "タカラトミーアーツから、キャラクターが肩に寄りかかる姿を立体化したフィギュアシリーズ「肩ズンFig.」に、ディズニーの人気作品を題材にした「ディズニー ツイステッドワンダーランドVol.3 サバナクロー寮&イグニハイド寮」が登場します。カプセルトイとして展開され、全5種、1回500円で楽しめます。発売時期は9月7日週を予定しています。",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
+      "015940e2",
+      "09b18a1b",
       "118c9a22",
-      "5d42febe",
-      "6a9f809f",
       "8f3fbbcf",
-      "a431c3bf",
-      "aedc609a"
+      "a431c3bf"
     ],
-    "rakutenThumbMisses": 1,
+    "rakutenThumbMisses": 2,
     "thumb": "https://gachaimg.com/thumb/fig-vol3--786ecf71.webp"
   },
   {
@@ -18473,7 +18500,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/beyblade-x--2287e391.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": []
   },
   {
@@ -18681,7 +18708,7 @@
     "description": "タカラトミーアーツより、トミカをモチーフにしたカプセルトイ「tomica PREMIUM BOX型シリコンポーチ2」が9月に発売されます。価格は1回400円で、全4種のラインナップです。トミカは長年親しまれているミニカーブランドで、幅広い世代から人気を集めています。",
     "thumb": "https://gachaimg.com/thumb/tomica-premium-box2-092882f9.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
       "1c460ce3",
       "7bbf7a51",
@@ -19291,7 +19318,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/-tv2-7a3fed65.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": []
   },
   {
@@ -20718,7 +20745,7 @@
     "description": "世界中で愛されるキャラクター、スヌーピーをモチーフにしたカプセルトイ「PEANUTS I LIKE... Color Face Pouch」がタカラトミーアーツより登場します。全6種で価格は1回500円、8月15日週からの発売が予定されています。",
     "thumb": "https://gachaimg.com/thumb/peanuts-i-like-color-face-pouc-5e1b2a13.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": []
   },
   {
@@ -20750,7 +20777,7 @@
     "description": "タカラトミーアーツから展開されている「パンダの穴」シリーズのカプセルトイで、「美術缶」と題した商品が登場します。全5種のラインアップで、1回500円で購入できます。発売時期は8月24日週を予定しており、店頭のガチャガチャ機で見かける機会が増えそうです。",
     "thumb": "https://gachaimg.com/thumb/gacha-683e17ff.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": []
   },
   {
@@ -20882,7 +20909,7 @@
     "officialDescription": "モンスターボール型のカプセルに、ダイカットのポケモンステッカーが入ったカプセルレスのアイテム第3弾。１カプセルに5cmほどのステッカーが6枚入っており、そのうち1種類はホログラム使用になっています。本体サイズはカプセル:約6cm、シール:約5cm。ラインナップはモンスターボールAモンスターボールBモンスターボールCハイパーボールマスターボールの全5種。",
     "description": "タカラトミーアーツから、ポケモンをテーマにしたカプセルトイ「ボールでゲット! ポケモンステッカーコレクション3」が登場します。世界的に人気のあるポケモンをモチーフにしたステッカーが全5種展開され、1回200円で楽しめます。発売時期は8月です。",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [],
     "thumb": "https://gachaimg.com/thumb/gacha-29da0eb7.webp"
   },
