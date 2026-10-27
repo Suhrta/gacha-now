@@ -285,7 +285,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第1週",
     "brand": "仮面ライダー",
-    "types": 6
+    "types": null
   },
   {
     "title": "最強ガシャステーション特製 『ハイキュー!!』 アクリルスタンド2026",
@@ -525,7 +525,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第2週",
     "brand": "サンリオ",
-    "types": null
+    "types": 6
   },
   {
     "title": "クレヨンしんちゃん ペンライトステッキ",
@@ -573,7 +573,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "東京喰種 まちぼうけ",
@@ -5696,7 +5696,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "メロとタビ めじるしアクセサリー",
