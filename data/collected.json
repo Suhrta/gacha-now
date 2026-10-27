@@ -2973,7 +2973,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "だれでもアイドル活動アクリルチャーム ～アイカツスターズ！～",
@@ -3045,7 +3045,7 @@
     "price": 500,
     "releaseWeek": "2026年9月 第3週",
     "brand": "どうぶつの森",
-    "types": null
+    "types": 12
   },
   {
     "title": "ナルミヤキャラクターズ ぷくっとクリアリング",
@@ -3957,7 +3957,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第5週",
     "brand": "NARUTO",
-    "types": null
+    "types": 5
   },
   {
     "title": "IVE FROM STARSHIP ENTERTAINMENT WITH AMUSE アクリルビーズチャーム",
@@ -5264,7 +5264,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第3週",
     "brand": "mofusand",
-    "types": null
+    "types": 5
   },
   {
     "title": "Lil ala mode ミニチュアパッケージチャーム ～ムース～",
@@ -10980,6 +10980,19 @@
     "releaseWeek": "2026年10月 26日週",
     "brand": "ディズニー",
     "types": 5
+  },
+  {
+    "title": "日清食品お椀で食べるシリーズ めじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905490",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905490_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905490_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 26日週",
+    "brand": "その他",
+    "types": 6
   },
   {
     "title": "レトロファービー めじるしガチャマスコットふわふわフロッキー",

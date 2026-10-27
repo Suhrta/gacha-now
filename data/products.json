@@ -1,5 +1,41 @@
 [
   {
+    "id": "gacha-3ef13407",
+    "name": "日清食品お椀で食べるシリーズ めじるしガチャマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905490_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905490_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905490",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-27T08:47:04.507Z",
+    "officialDescription": "「日清食品お椀で食べるシリーズ」のあのキャラクターが、シリコンリングとカニカン付きの\"めじるし仕様\"のマスコットになりました。表情とポーズ違いで2タイプあり、傘やペットボトルなどにつけて自分用のマーカーとして使えます。本体サイズは約3cm。ラインナップは「赤いお椀A」「緑のお椀A」「黄色いお椀A」「赤いお椀B」「緑のお椀B」「黄色いお椀B」の全6種。",
+    "size": "約3cm",
+    "lineup": [
+      "赤いお椀A",
+      "緑のお椀A",
+      "黄色いお椀A",
+      "赤いお椀B",
+      "緑のお椀B",
+      "黄色いお椀B"
+    ],
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-10-27",
+    "rakutenThumbCands": [
+      "220bd4c9"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-3ef13407.webp"
+  },
+  {
     "id": "gacha-2c6f45d9",
     "name": "のっぽちゃんぬいぐるみ うさぎ",
     "brand": "その他",
@@ -21954,7 +21990,7 @@
       "あひるのペックル"
     ],
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
       "4ab42ce5",
       "fc6c5135"
@@ -22436,7 +22472,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/-new-29691c98.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
       "25af8955",
       "265fece4",
@@ -27015,7 +27051,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/gacha-4be6a7fb.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
       "365172d6",
       "5ebb7f50",
@@ -27098,7 +27134,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/gacha-27469eeb.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
       "4823bc1a",
       "71052caa",
@@ -27255,7 +27291,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/gacha-221e9a26.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
       "535422a7",
       "6741c0f2",
@@ -27296,7 +27332,7 @@
     ],
     "thumb": "https://gachaimg.com/thumb/-the-treasure-box-0739bc41.webp",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-20",
+    "rakutenThumbCheckedAt": "2026-10-27",
     "rakutenThumbCands": [
       "d149a87c",
       "ed648705"
