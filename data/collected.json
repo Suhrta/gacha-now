@@ -93,7 +93,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第1週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "Polly Pocket ミニチュアコレクション",
@@ -2445,7 +2445,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "こぐまいたんカフェ ふわふわ巾着",
@@ -2517,7 +2517,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "モンチッチ",
-    "types": 5
+    "types": null
   },
   {
     "title": "mojojojo カラフルマルチチャーム",
@@ -6488,7 +6488,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "サンリオ",
-    "types": 4
+    "types": null
   },
   {
     "title": "ART IN GASHAPON ウゴモ 埴輪と土偶",
@@ -9128,7 +9128,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "名探偵コナン",
-    "types": 5
+    "types": null
   },
   {
     "title": "【CAP'in GALLERY】クマども FIGURE COLLECTION",
