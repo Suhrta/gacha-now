@@ -1,5 +1,84 @@
 [
   {
+    "id": "gacha-432c99a6",
+    "name": "パンダの穴 ヒサロアニマル",
+    "brand": "パンダの穴",
+    "brandSlug": "pandanoana",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#90A4AE",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905056_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905056_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905056",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-10-28T09:10:54.595Z",
+    "officialDescription": "ガチャブランド「パンダの穴」シリーズ第112弾は、「ヒサロアニマル」。年中冬の北極では、なんとヒサロが大ブーム。「待ってるだけじゃ夏はこない」こんがり仕上がった動物たちが、本物の夏を迎えに南国ビーチへやって来た！全ての海は、夏の海と繋がっている！本体サイズは約4〜6.5cm。ラインナップは「シロクマ」「アザラシ」「ペンギン」「ベルーガ」「オコジョ」の全5種。",
+    "size": "約4〜6.5cm",
+    "lineup": [
+      "シロクマ",
+      "アザラシ",
+      "ペンギン",
+      "ベルーガ",
+      "オコジョ"
+    ],
+    "description": "タカラトミーアーツから展開されているカプセルトイ「パンダの穴 ヒサロアニマル」は、人気の「パンダの穴」シリーズから登場した商品です。価格は1回300円で、全5種がラインナップされています。現在ガチャガチャにて発売中です。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-10-28",
+    "rakutenThumbCands": [
+      "2853e3bb",
+      "97006638"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-432c99a6.webp"
+  },
+  {
+    "id": "nikke-vol4-530f47e3",
+    "name": "勝利の女神：NIKKE　カプセルラバーストラップ vol.4",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "3月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/20125734/NIKKE_rubber_vol4_POP_OL.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/20125734/NIKKE_rubber_vol4_POP_OL.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10270/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-10-28T09:10:54.597Z",
+    "officialDescription": "『勝利の女神：NIKKE』より、カプセルラバーストラップのvol.4が登場！",
+    "thumb": "https://gachaimg.com/thumb/nikke-vol4-530f47e3.webp"
+  },
+  {
+    "id": "nikke-vol3-38f3c69a",
+    "name": "勝利の女神：NIKKE　カプセルラバーストラップ vol.3",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "2月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/20125659/NIKKE_rubber_vol3_POP_OL.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/20125659/NIKKE_rubber_vol3_POP_OL.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10269/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-10-28T09:10:54.597Z",
+    "officialDescription": "『勝利の女神：NIKKE』より、カプセルラバーストラップのvol.3が登場！",
+    "thumb": "https://gachaimg.com/thumb/nikke-vol3-38f3c69a.webp"
+  },
+  {
     "id": "gacha-3ef13407",
     "name": "日清食品お椀で食べるシリーズ めじるしガチャマスコット",
     "brand": "その他",
@@ -27546,102 +27625,6 @@
     "source": "バンダイ公式",
     "collectedAt": "2026-07-29T05:57:43.887Z",
     "officialDescription": "日本を拠点に活躍するイラストレーター「Dr.MORICKY」のめじるしアクセサリーが新登場！この商品の為に描き下ろした特別デザインです！",
-    "ageRating": "15才以上"
-  },
-  {
-    "id": "gacha-1063ad10",
-    "name": "お茶犬 温泉まったり ゆらゆらつながるマスコット",
-    "brand": "お茶犬",
-    "brandSlug": "ochaken",
-    "price": 300,
-    "types": 4,
-    "releaseWeek": "発売中",
-    "color": "#a399e5",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099755_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099755_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099755",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-07-28T09:08:58.215Z",
-    "description": "タカラトミーアーツより、お茶犬をモチーフにしたガチャガチャ「お茶犬 温泉まったり ゆらゆらつながるマスコット」が発売中です。お茶犬は幅広い世代に親しまれてきたキャラクターで、カプセルトイとしても人気のシリーズです。全4種のラインナップで、1回300円で楽しめます。",
-    "officialDescription": "木桶の温泉にまったりつかるポーズがかわいい、お茶犬のマスコットです。それぞれのカニカンで上下につなげることができ、ボールチェーンでいろいろなところにつけて持ち歩けます。頭にちょこんと乗せた手拭いがキュート！　本体サイズは高さ約3cm。ラインナップは「リョク」「ハナ」「チャイ」「アール」の全4種。",
-    "lineup": [
-      "リョク",
-      "ハナ",
-      "チャイ",
-      "アール"
-    ],
-    "thumb": "https://gachaimg.com/thumb/gacha-1063ad10.webp",
-    "rakutenThumbChecked": true,
-    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-yuyou/cabinet/2607/g260757s01t.jpg?_ex=400x400"
-  },
-  {
-    "id": "crazy-raccoon-1-52ddd2aa",
-    "name": "CRAZY RACCOON つまんでつなげてますこっと1",
-    "brand": "CRAZY RACCOON",
-    "brandSlug": "crazyraccoon",
-    "price": 400,
-    "types": 12,
-    "releaseWeek": "発売中",
-    "color": "#e599cc",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255273_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118185211000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-07-28T06:03:57.098Z",
-    "description": "CRAZY RACCOONをテーマにしたカプセルトイとして登場するのが「つまんでつなげてますこっと1」です。パーツをつまんでつなげられるマスコットシリーズの一つで、複数個集めてつなげて楽しめる点が特徴です。全12種がラインナップされ、価格は1回400円、8月第5週の発売が予定されています。",
-    "officialDescription": "CRAZY RACCOONがガシャポンに登場！つままれたデザインが可愛い「つまんでつなげてますこっと」を各キャラごとにボールチェーンとカニカンの2パターンで展開！第2弾も併せてたくさん集めてつなげよう！※「CR LAND」にて8/1～先行販売実施！",
-    "ageRating": "15才以上"
-  },
-  {
-    "id": "crazy-raccoon-2-42d4a4b9",
-    "name": "CRAZY RACCOON つまんでつなげてますこっと2",
-    "brand": "CRAZY RACCOON",
-    "brandSlug": "crazyraccoon",
-    "price": 400,
-    "types": 12,
-    "releaseWeek": "発売中",
-    "color": "#e599cc",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255362_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118185235000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-07-28T06:03:57.098Z",
-    "description": "パーツをつまんでつなげることで連結できるマスコットシリーズに、CRAZY RACCOONが登場します。「CRAZY RACCOON つまんでつなげてますこっと2」はカプセルトイとして全12種がラインナップされ、価格は1回400円です。バンダイより8月第5週の発売が予定されています。",
-    "officialDescription": "CRAZY RACCOONがガシャポンに登場！つままれたデザインが可愛い「つまんでつなげてますこっと」を各キャラごとにボールチェーンとカニカンの2パターンで展開！第1弾も併せてたくさん集めてつなげよう！※「CR LAND」にて8/1～先行販売実施！",
     "ageRating": "15才以上"
   }
 ]

@@ -215,30 +215,6 @@
       "count": 167
     }
   },
-  "crazy-raccoon-1-52ddd2aa": {
-    "sig": "CRAZY RACCOON つまんでつなげてますこっと1|12|r",
-    "checkedAt": 1793005766772,
-    "compset": {
-      "q": "つまんでつなげてマスコット ガチャ コンプ",
-      "count": 7
-    }
-  },
-  "crazy-raccoon-2-42d4a4b9": {
-    "sig": "CRAZY RACCOON つまんでつなげてますこっと2|12|r",
-    "checkedAt": 1793005766772,
-    "compset": {
-      "q": "つまんでつなげてマスコット ガチャ コンプ",
-      "count": 7
-    }
-  },
-  "gacha-1063ad10": {
-    "sig": "お茶犬 温泉まったり ゆらゆらつながるマスコット|4|r",
-    "checkedAt": 1793005766772,
-    "compset": {
-      "q": "お茶犬 温泉まったり ゆらゆらつながるマスコット コンプ",
-      "count": 6
-    }
-  },
   "drmoricky-toymini-series--254f0c50": {
     "sig": "Dr.MORICKY toymini series めじるしアクセサリー|5|r",
     "checkedAt": 1793005766772,
@@ -7129,6 +7105,38 @@
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
       "count": 532
+    }
+  },
+  "gacha-432c99a6": {
+    "sig": "パンダの穴 ヒサロアニマル|5|r",
+    "checkedAt": 1793178660849,
+    "compset": {
+      "q": "パンダの穴 ガチャ コンプ",
+      "count": 48
+    }
+  },
+  "nikke-vol4-530f47e3": {
+    "sig": "勝利の女神：NIKKE　カプセルラバーストラップ vol.4|6|p",
+    "checkedAt": 1793178660849,
+    "compset": {
+      "q": "勝利の女神：NIKKE ガチャ コンプ",
+      "count": 8
+    },
+    "preorder": {
+      "q": "勝利の女神：NIKKE 予約",
+      "count": 68
+    }
+  },
+  "nikke-vol3-38f3c69a": {
+    "sig": "勝利の女神：NIKKE　カプセルラバーストラップ vol.3|6|p",
+    "checkedAt": 1793178660849,
+    "compset": {
+      "q": "勝利の女神：NIKKE ガチャ コンプ",
+      "count": 8
+    },
+    "preorder": {
+      "q": "勝利の女神：NIKKE 予約",
+      "count": 68
     }
   }
 }

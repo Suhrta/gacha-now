@@ -93,7 +93,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第1週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "Polly Pocket ミニチュアコレクション",
@@ -2445,7 +2445,7 @@
     "price": 300,
     "releaseWeek": "2026年9月 第3週",
     "brand": "サンリオ",
-    "types": 5
+    "types": null
   },
   {
     "title": "こぐまいたんカフェ ふわふわ巾着",
@@ -10982,6 +10982,19 @@
     "types": 5
   },
   {
+    "title": "パンダの穴 ヒサロアニマル",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905056",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905056_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905056_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年10月 26日週",
+    "brand": "パンダの穴",
+    "types": 5
+  },
+  {
     "title": "日清食品お椀で食べるシリーズ めじるしガチャマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905490",
     "source": "タカラトミーアーツ公式",
@@ -15696,6 +15709,32 @@
       "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/16184214/dangan12Re_rubberkey_vol2_POP.jpg"
     ],
     "price": 300,
+    "releaseWeek": "2027年2月 下旬",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "勝利の女神：NIKKE　カプセルラバーストラップ vol.4",
+    "url": "https://capsule.bushiroad-creative.com/product/10270/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/20125734/NIKKE_rubber_vol4_POP_OL.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/20125734/NIKKE_rubber_vol4_POP_OL.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2027年3月 下旬",
+    "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "勝利の女神：NIKKE　カプセルラバーストラップ vol.3",
+    "url": "https://capsule.bushiroad-creative.com/product/10269/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/20125659/NIKKE_rubber_vol3_POP_OL.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/20125659/NIKKE_rubber_vol3_POP_OL.jpg"
+    ],
+    "price": 400,
     "releaseWeek": "2027年2月 下旬",
     "brand": "その他",
     "types": 6
