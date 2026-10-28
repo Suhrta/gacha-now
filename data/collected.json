@@ -141,7 +141,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第1週",
     "brand": "その他",
-    "types": 8
+    "types": null
   },
   {
     "title": "カーケシGP NISSANセレクション01",
@@ -237,7 +237,7 @@
     "price": 200,
     "releaseWeek": "2026年9月 第1週",
     "brand": "初音ミク",
-    "types": 13
+    "types": null
   },
   {
     "title": "角醒ハンター オメガホーン GP変形合体なりきり オメガホーン",
@@ -2517,7 +2517,7 @@
     "price": 400,
     "releaseWeek": "2026年9月 第3週",
     "brand": "モンチッチ",
-    "types": null
+    "types": 5
   },
   {
     "title": "mojojojo カラフルマルチチャーム",
@@ -6488,7 +6488,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 4
   },
   {
     "title": "ART IN GASHAPON ウゴモ 埴輪と土偶",
@@ -8192,7 +8192,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "ケロロ軍曹",
-    "types": 5
+    "types": null
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】たかはたまさお 木彫り風 FIGURE COLLECTION",
@@ -9128,7 +9128,7 @@
     "price": 500,
     "releaseWeek": "未定",
     "brand": "名探偵コナン",
-    "types": null
+    "types": 5
   },
   {
     "title": "【CAP'in GALLERY】クマども FIGURE COLLECTION",
