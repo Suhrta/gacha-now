@@ -317,6 +317,10 @@ jobs:
             echo "変更なし"
             exit 0
           fi
+          # このランで追加した投稿キャプションを Notify Discord に渡す。
+          # ファイル名を時刻から組み立て直すと、生成とその通知の間で時が変わったときに外れる。
+          git diff --staged --name-only --diff-filter=A -- 'public/posts/*.txt' \
+            | grep -v '\.x\.txt$' > "$RUNNER_TEMP/new-posts.txt" || true
           git commit -m "🎪 auto-update products $(date -u +%Y-%m-%d)"
 
           # 【なぜ押し直すか】
@@ -343,7 +347,10 @@ jobs:
               exit 0
             fi
             echo "pushが弾かれた。origin/main を取り込んで再試行する（$i/3）"
-            if ! git pull --rebase origin main; then
+            # --autostash: add していない作業ファイルが残っていると pull --rebase が
+            #   cannot pull with rebase: You have unstaged changes.
+            # で即死する（2026-10-29に実際に起きた。衝突ではないのに収集結果を捨てていた）。
+            if ! git pull --rebase --autostash origin main; then
               git rebase --abort || true
               echo "::error::rebaseが衝突した。このランのdata変更は破棄する（次のランが収集し直す）"
               exit 1
@@ -409,25 +416,30 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          # 今回のランで新規追加があるか確認
-          NEW_COUNT=$(node -e "try{const d=JSON.parse(require('fs').readFileSync('data/new-today.json','utf8'));console.log(d.length)}catch(e){console.log(0)}")
-          TODAY=$(date -u +%Y-%m-%d)
-          # 今回生成されたファイルのみ対象（JST時間で絞り込み）
-          JST_HOUR=$(node -e "const h=(new Date().getUTCHours()+9)%24; console.log(String(h).padStart(2,'0'))")
+          # 対象は Commit and push が書き出した「このランで追加した投稿」の一覧。
+          # 以前は post-…-HHh-*.png を探していたが、2026-07-23のカルーセル対応で
+          # 画像が {base}-{スライド}.jpg になって以降1件も一致せず、
+          # 新着があっても毎回「新着なし」を送っていた（2026-10-29に発覚）。
           SENT=0
+          LIST="$RUNNER_TEMP/new-posts.txt"
 
-          if [ "$NEW_COUNT" -gt 0 ]; then
-            for PNG_FILE in public/posts/post-${TODAY}-${JST_HOUR}h-*.png; do
-              [ -f "$PNG_FILE" ] || continue
-              TXT_FILE="${PNG_FILE%.png}.txt"
-
-              if [ -f "$TXT_FILE" ]; then
-                CAPTION=$(cat "$TXT_FILE")
-                curl -s -F "content=${CAPTION}" -F "file1=@${PNG_FILE}" "$DISCORD_WEBHOOK_URL"
-                SENT=$((SENT + 1))
-                sleep 2
-              fi
-            done
+          if [ -s "$LIST" ]; then
+            while read -r TXT_FILE; do
+              [ -f "$TXT_FILE" ] || continue
+              BASE="${TXT_FILE%.txt}"
+              # Discordの添付は1メッセージ10件まで（Instagramのカルーセル上限と同じ）
+              ARGS=()
+              N=0
+              for JPG in "${BASE}"-*.jpg; do
+                [ -f "$JPG" ] || continue
+                N=$((N + 1))
+                [ "$N" -le 10 ] || break
+                ARGS+=(-F "file${N}=@${JPG}")
+              done
+              curl -s --form-string "content=$(cat "$TXT_FILE")" "${ARGS[@]}" "$DISCORD_WEBHOOK_URL" > /dev/null
+              SENT=$((SENT + 1))
+              sleep 2
+            done < "$LIST"
           fi
 
           if [ "$SENT" -gt 0 ]; then
