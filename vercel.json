@@ -1,1 +1,3 @@
-{}
+{
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':(exclude)data/instagram-posted-log.json'"
+}
