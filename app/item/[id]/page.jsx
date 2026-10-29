@@ -14,13 +14,18 @@ import { seriesForProduct } from "../../../data/series";
 import { isReleased, getReleaseYearMonth, formatYearMonth } from "../../../lib/release";
 import { isLowValueProduct } from "../../../lib/quality";
 
+// ビルド時には1件も作らず、初回アクセス時に生成してキャッシュする（ISR）。
+// 全件を事前生成すると .next/server/app/item だけで約108MB（1件約125KB×876件）になり、
+// 1日5回前後のデプロイで Deployment Storage の無料枠10GBを使い切った（2026-10-29）。
+// 空配列でも generateStaticParams を置くことで、毎リクエストのSSRではなく静的扱いになる。
 export function generateStaticParams() {
-  return products.map((p) => ({ id: p.id }));
+  return [];
 }
 
-// 削除済み商品など未知のIDは200の「みつかりません」画面ではなく
-// 本物の404を返す（ソフト404を防ぐ）
-export const dynamicParams = false;
+// 削除済み商品など未知のIDは、ページ本体の notFound() で本物の404を返す
+// （200の「みつかりません」画面にするとソフト404になる）。
+// 以前は dynamicParams = false で弾いていたが、事前生成しないので true が必須。
+export const dynamicParams = true;
 
 // 上限内に収まる最後の句点までを返す。
 //
