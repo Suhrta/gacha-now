@@ -4856,7 +4856,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】ハリー・ポッター めじるしアクセサリー＋",
@@ -10016,7 +10016,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "ポケモン",
-    "types": null
+    "types": 5
   },
   {
     "title": "まちぼうけ 冬の場合 その2",
@@ -10376,7 +10376,7 @@
     "price": 300,
     "releaseWeek": "未定",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "メゾピアノ グッズコレクション",
