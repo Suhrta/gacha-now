@@ -617,7 +617,7 @@
     "priceTaxIn": 398,
     "enrichedAt": 1792112437670,
     "description": "和菓子でキャラクターを表現する「食べマス」シリーズから、お馴染みの「スヌーピー」が帰ってきました。今回はスヌーピーとチャーリー・ブラウンの2個セットで登場する食玩です。スヌーピーはミルクティー味の餡、チャーリー・ブラウンはキャラメル味の餡を包んでおり、見た目も味も楽しめる一品に仕上がっています。価格は369円、発売はバンダイのキャンディ事業部より2026年10月20日を予定しており、店頭にて販売されます。",
-    "cleanImageCheckedAt": "2026-10-23",
+    "cleanImageCheckedAt": "2026-10-30",
     "cleanImageCands": []
   },
   {
@@ -633,7 +633,7 @@
     "priceTaxIn": 398,
     "enrichedAt": 1792112441760,
     "description": "人気キャラクターを和菓子で表現する食玩シリーズ「食べマス」に、スヌーピーが帰ってきます。今回は「スヌーピー＆ウッドストック 2026」として、スヌーピーがミルク味の餡、ウッドストックがカスタード味の餡という組み合わせの2個セットで登場します。価格は369円で、販売はバンダイのキャンディ事業部が手がけ、店頭にて取り扱われます。発売日は2026年10月20日が予定されています。",
-    "cleanImageCheckedAt": "2026-10-23",
+    "cleanImageCheckedAt": "2026-10-30",
     "cleanImageCands": []
   },
   {
@@ -851,6 +851,22 @@
     "priceTaxIn": 2750
   },
   {
+    "id": "shokugan-4570117931970000",
+    "name": "ちいかわ プリズンポテト 濃厚サワクリ味",
+    "officialUrl": "https://www.bandai.co.jp/candy/products/2026/4570117931970000.html",
+    "jan": "4570117931970",
+    "releaseYm": "2026-11",
+    "releaseDay": 2,
+    "releaseKind": "sale",
+    "collectedAt": "2026-10-30T00:08:56.258Z",
+    "price": 158,
+    "priceTaxIn": 171,
+    "enrichedAt": 1793318939354,
+    "description": "バンダイのキャンディ事業部から、ちいかわをモチーフにしたスナック菓子の食玩「ちいかわ プリズンポテト 濃厚サワクリ味」が登場します。酸味と甘みを効かせた濃厚なサワークリーム味に仕上げられており、一度食べ始めると止まらなくなるクセになる味わいが特徴です。価格は158円で、店頭にて販売されます。発売は2026年11月2日を予定しています。",
+    "cleanImageCheckedAt": "2026-10-30",
+    "cleanImageCands": []
+  },
+  {
     "id": "shokugan-4549660885931000",
     "name": "チョコビ いちご味",
     "officialUrl": "https://www.bandai.co.jp/candy/products/2026/4549660885931000.html",
@@ -1024,6 +1040,22 @@
       "d400b7a9"
     ],
     "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/meiaistore/cabinet/3/20260927_0043.jpg?_ex=400x400"
+  },
+  {
+    "id": "shokugan-4570117935169000",
+    "name": "Stranger Things ステッカーつきポテトスティック ブラックペッパー",
+    "officialUrl": "https://www.bandai.co.jp/candy/products/2026/4570117935169000.html",
+    "jan": "4570117935169",
+    "releaseYm": "2026-11",
+    "releaseDay": 5,
+    "releaseKind": "sale",
+    "collectedAt": "2026-10-30T00:08:56.258Z",
+    "price": 198,
+    "priceTaxIn": 214,
+    "enrichedAt": 1793318941967,
+    "description": "Netflixシリーズ「ストレンジャー・シングス 未知の世界」とコラボした食玩が登場します。ブラックペッパー味のポテトスティック菓子に、作品のキャラクターやモチーフをデザインしたステッカーが付属する一品です。価格は198円で、2026年11月5日からバンダイ（キャンディ事業部）より店頭で販売されます。",
+    "cleanImageCheckedAt": "2026-10-30",
+    "cleanImageCands": []
   },
   {
     "id": "shokugan-4570117936517000",
