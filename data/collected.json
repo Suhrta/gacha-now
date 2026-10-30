@@ -7328,7 +7328,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "カードキャプターさくら",
-    "types": null
+    "types": 6
   },
   {
     "title": "アニメ『薬屋のひとりごと』 カプセルラバーマスコット3",
@@ -7785,6 +7785,30 @@
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
     "types": 7
+  },
+  {
+    "title": "GUNDAM × hololive production カプセルラバーマスコット1",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770129465000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年10月 第5週",
+    "brand": "その他",
+    "types": 6
   },
   {
     "title": "NBA 3Dユニフォームチャーム",
@@ -10184,7 +10208,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "ハイキュー",
-    "types": 7
+    "types": null
   },
   {
     "title": "PROJECT R.E.D. まちぼうけ",

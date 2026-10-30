@@ -1,5 +1,37 @@
 [
   {
+    "id": "gundam-hololive-production-1-0f241071",
+    "name": "GUNDAM × hololive production カプセルラバーマスコット1",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258534_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770129465000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-10-30T02:23:45.517Z",
+    "officialDescription": "ガンダム×ホロライブプロダクションのコラボイラストを使用したカプセルラバーマスコットが登場！",
+    "ageRating": "15才以上"
+  },
+  {
     "id": "gacha-096e1f71",
     "name": "パペットスンスン パッケージミニチュアチャーム",
     "brand": "パペットスンスン",
