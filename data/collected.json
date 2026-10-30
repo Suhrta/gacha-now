@@ -7280,7 +7280,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "サンリオ",
-    "types": 10
+    "types": null
   },
   {
     "title": "HELLOKITTY スクールガールスイング",
@@ -7328,7 +7328,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "カードキャプターさくら",
-    "types": 6
+    "types": null
   },
   {
     "title": "アニメ『薬屋のひとりごと』 カプセルラバーマスコット3",
@@ -9296,7 +9296,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
@@ -10208,7 +10208,7 @@
     "price": 400,
     "releaseWeek": "未定",
     "brand": "ハイキュー",
-    "types": null
+    "types": 7
   },
   {
     "title": "PROJECT R.E.D. まちぼうけ",
