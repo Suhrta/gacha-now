@@ -1232,7 +1232,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第3週",
     "brand": "クレヨンしんちゃん",
-    "types": null
+    "types": 6
   },
   {
     "title": "学園アイドルマスター リバラバ！2",
@@ -1760,7 +1760,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "VIRUSWEETS",
-    "types": null
+    "types": 6
   },
   {
     "title": "【CAP'in GALLERY】LilGemily figure collection",
@@ -7485,6 +7485,19 @@
     "types": 6
   },
   {
+    "title": "ディズニーキャラクター なかないモン そのさん",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904165",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904165_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904165_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
     "title": "つながリングチャーム　トムとジェリー Sweetsになったトムとジェリー",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904776",
     "source": "タカラトミーアーツ公式",
@@ -7589,6 +7602,19 @@
     "types": 6
   },
   {
+    "title": "くるまりスタイル ディズニーキャラクター　ふわふわ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908491",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908491_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908491_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
     "title": "おりぼんにゃんこ",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908538",
     "source": "タカラトミーアーツ公式",
@@ -7600,6 +7626,45 @@
     "releaseWeek": "2026年11月",
     "brand": "その他",
     "types": 4
+  },
+  {
+    "title": "RODY×サンリオキャラクターズ マスコットチャーム",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908835",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908835_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908835_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月",
+    "brand": "サンリオ",
+    "types": 5
+  },
+  {
+    "title": "サンリオキャラクターズ つながるおでんチャーム",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908842",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908842_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908842_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月",
+    "brand": "サンリオ",
+    "types": 5
+  },
+  {
+    "title": "サンリオキャラクターズ チャイルドシートチャーム",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908859",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908859_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908859_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月",
+    "brand": "サンリオ",
+    "types": 5
   },
   {
     "title": "ポケモン じゃらじゃらキーホルダー",
@@ -7691,6 +7756,19 @@
     "releaseWeek": "2026年11月",
     "brand": "トミカ",
     "types": 5
+  },
+  {
+    "title": "サンリオキャラクターズ なかよしチャーム　オーロラMIX",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y912337",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y912337_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y912337_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月",
+    "brand": "サンリオ",
+    "types": 8
   },
   {
     "title": "のっぽちゃんぬいぐるみ うさぎ",
