@@ -1,5 +1,855 @@
 [
   {
+    "id": "fig-vol1-2fb61380",
+    "name": "肩ズンFig. ペルソナ５ ザ・ロイヤル vol.1",
+    "brand": "ペルソナ",
+    "brandSlug": "persona",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "11月 9日週",
+    "color": "#d499e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y088759_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y088759_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y088759",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "隣の人の肩に頭を\"ズン\"ともたれてうとうとする姿がかわいい「肩ズンFig.」シリーズに、ゲーム 「ペルソナ５ ザ・ロイヤル」の仲間たちが登場。怪盗団たちの寝姿は、タカラトミーアーツオリジナルの描き起こしイラストを使用しています。本体サイズは約5.5cm。ラインナップは「ジョーカー」「モナ」「スカル」「パンサー」「フォックス」の全5種。",
+    "size": "約5.5cm",
+    "lineup": [
+      "ジョーカー",
+      "モナ",
+      "スカル",
+      "パンサー",
+      "フォックス"
+    ],
+    "description": "人気RPG「ペルソナ」シリーズを題材にした「肩ズンFig. ペルソナ５ ザ・ロイヤル vol.1」がタカラトミーアーツからカプセルトイとして登場します。キャラクターが肩にズンと寄りかかる姿を立体化した人気シリーズの最新作で、価格は1回400円、全5種がラインナップされます。発売は11月9日週を予定しています。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [
+      "154f0482",
+      "22db720f",
+      "23d66561",
+      "5abd4d24",
+      "b739821c",
+      "ee1588fa"
+    ],
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/realize-store-2/cabinet/gachapon2/kawano30/pelsn5zroiakv10003.jpg?_ex=400x400",
+    "thumb": "https://gachaimg.com/thumb/fig-vol1-2fb61380.webp"
+  },
+  {
+    "id": "gacha-1b7ae6d2",
+    "name": "スーパーマリオ ボトルキャップコレクション",
+    "brand": "スーパーマリオ",
+    "brandSlug": "mario",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "11月 9日週",
+    "color": "#e5b899",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y096952_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y096952_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y096952",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "『スーパーマリオ』シリーズに登場するキャラクターたちがかぶる、個性的な帽子をイメージしたマスコットコレクションです。ボトルキャップにのせて、誰のペットボトルかが一目でわかる便利なアイテムです。本体サイズは高さ約3.5cm。ラインナップは「マリオ」「ルイージ」「ワリオ」「ワルイージ」「ピーチ」「キノピオ」「キノピコ」の全7種。",
+    "lineup": [
+      "マリオ",
+      "ルイージ",
+      "ワリオ",
+      "ワルイージ",
+      "ピーチ",
+      "キノピオ",
+      "キノピコ"
+    ],
+    "description": "世界的な人気ゲームシリーズであるスーパーマリオをモチーフにした「スーパーマリオ ボトルキャップコレクション」が、タカラトミーアーツからカプセルトイとして登場します。全7種のラインナップで、価格は1回300円です。発売時期は11月9日の週となっています。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [
+      "220bd4c9",
+      "2936ff57",
+      "304bd298",
+      "5d3fe9cc",
+      "9aca24d2"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-1b7ae6d2.webp"
+  },
+  {
+    "id": "gacha-464530bc",
+    "name": "おねがいアイプリ めじるしガチャマスコット",
+    "brand": "アイプリ",
+    "brandSlug": "aipri",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "11月 9日週",
+    "color": "#99e5c8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904363_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904363_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904363",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "アニメ『おねがいアイプリ』の「めじるしガチャマスコット」が登場。ミラーパクトは玩具をミニチュアモデル化したキラキラでかわいいデザインです。マスコットフィギュアはガチャオリジナルのデフォルメスタイルになっています。シリコンリングとカニカン付きのめじるし仕様で、傘につけたりチャームとしても使えます。本体サイズは約3cm。ラインナップは「ミラーパクト プリズムピンク」「ミラーパクト プリズムブルー」「いのり」「あおい」「フォーチュ」の全5種。",
+    "size": "約3cm",
+    "lineup": [
+      "ミラーパクト プリズムピンク",
+      "ミラーパクト プリズムブルー",
+      "いのり",
+      "あおい",
+      "フォーチュ"
+    ],
+    "description": "タカラトミーアーツから、人気作品「アイプリ」のラバーマスコットがカプセルトイに登場します。「おねがいアイプリ めじるしガチャマスコット」という商品名で、全5種がラインナップされ、1回の価格は400円です。発売は11月9日の週を予定しています。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [
+      "1b2a59a2",
+      "21f4d8d9",
+      "26909139",
+      "4a488a47",
+      "4be30a48",
+      "959ec68c"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-464530bc.webp"
+  },
+  {
+    "id": "gacha-415cdc39",
+    "name": "プレイバックムービー ナイトメア・ビフォア・クリスマス",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 3,
+    "releaseWeek": "11月 9日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906251_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906251_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906251",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "名作映画やアニメの印象的なシーンを忠実に再現した「プレイバックムービー」シリーズで、『ナイトメア・ビフォア・クリスマス』の名シーンをフィギュア化！　汚し塗装やツヤ塗装、メタリック塗装をふんだんに使用しており、衣装や小物に至るまで忠実に再現されています。本体サイズは約6.7〜7.2cm。ラインナップは「ジャック・スケリントン（雪だるま）」「ジャック・スケリントン」「ジャック・スケリントン（サンタクロース）」の全3種。",
+    "size": "約6.7〜7.2cm",
+    "lineup": [
+      "ジャック・スケリントン（雪だるま）",
+      "ジャック・スケリントン",
+      "ジャック・スケリントン（サンタクロース）"
+    ],
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [
+      "802b1ff7",
+      "97006638"
+    ],
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-isauto/cabinet/05911090/09890530/13259757/p411-4904790906251.jpg?_ex=400x400",
+    "thumb": "https://gachaimg.com/thumb/gacha-415cdc39.webp"
+  },
+  {
+    "id": "gacha-39945248",
+    "name": "むぎゅっと! ゴジラ",
+    "brand": "ゴジラ",
+    "brandSlug": "godzilla",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "11月 9日週",
+    "color": "#A1887F",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907623_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907623_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907623",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "「ゴジラ」シリーズの怪獣たちが、大好きなものを\"むぎゅっ\"とハグしているかわいいフィギュアになりました。それぞれ作品に登場する印象的なモチーフを抱きしめ、たまらない表情を浮かべています。本体サイズは約3.3〜4.5cm。ラインナップは「ゴジラ（1974）」「ガイガン（1972）」「ヘドラ（1971）」「モスラ幼虫（1961）」の全4種。",
+    "size": "約3.3〜4.5cm",
+    "lineup": [
+      "ゴジラ（1974）",
+      "ガイガン（1972）",
+      "ヘドラ（1971）",
+      "モスラ幼虫（1961）"
+    ],
+    "description": "怪獣映画の代表格として知られるゴジラをモチーフにしたカプセルトイ「むぎゅっと! ゴジラ」がタカラトミーアーツから登場します。価格は1回400円で、全4種がラインナップされます。発売時期は11月9日週を予定しており、ガチャガチャ専門店や家電量販店などの設置機で展開される見込みです。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [],
+    "thumb": "https://gachaimg.com/thumb/gacha-39945248.webp"
+  },
+  {
+    "id": "kiyata-2-4bf3bc73",
+    "name": "KIYATA 木工アートミニチュアコレクション2",
+    "brand": "KIYATA",
+    "brandSlug": "kiyata",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "11月 9日週",
+    "color": "#d299e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908736_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908736_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908736",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "人気木工チーム「KIYATA」の作品を忠実に再現したミニチュアモデルの第2弾。ミラーは実際に鏡として使用できるほか、アクセサリーボックスの引き出しやバスケットのフタは開閉可能です。また「オオカミのバスケット」のフタにはフロッキー加工が施されており、毛皮のような質感が表現されています。「アザラシのランプ」はゴールドのボールチェーン付き。本体サイズは高さ約5.5cm。ラインナップは「うさぎのアクセサリーボックス」「ムササビの鏡」「オオカミのバスケット」「アザラシのランプ」の全4種。",
+    "lineup": [
+      "うさぎのアクセサリーボックス",
+      "ムササビの鏡",
+      "オオカミのバスケット",
+      "アザラシのランプ"
+    ],
+    "description": "木工によるミニチュアを集めたミニチュアコレクションの新作として、タカラトミーアーツから「KIYATA 木工アートミニチュアコレクション2」が登場します。カプセルトイとして展開され、全4種を1回400円で楽しめるラインナップです。発売は11月9日週を予定しています。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [
+      "0d26e3bc",
+      "2853e3bb",
+      "97006638",
+      "c60e614c",
+      "ddee4ea9"
+    ],
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/hobbyzakka-cha3/cabinet/09006683/11830761/imgrc0121418418.jpg?_ex=400x400",
+    "thumb": "https://gachaimg.com/thumb/kiyata-2-4bf3bc73.webp"
+  },
+  {
+    "id": "gacha-44a85850",
+    "name": "おさるのジョージ もふもふフェイスポーチ",
+    "brand": "おさるのジョージ",
+    "brandSlug": "george",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "11月 9日週",
+    "color": "#99afe5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909016_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909016_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909016",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "『おさるのジョージ』のいろいろな表情がかわいい、もふもふ素材のフェイスポーチ。容量もたっぷりあるので、クリップやテープなどの小物をはじめ、リップ、ワイヤレスイヤフォンなども入れられるので便利！　本体サイズは横幅約10cm。ラインナップは「ジョージA」「ジョージB」「ジョージC」「ジョージD」の全4種。",
+    "lineup": [
+      "ジョージA",
+      "ジョージB",
+      "ジョージC",
+      "ジョージD"
+    ],
+    "description": "絵本やアニメで親しまれている「おさるのジョージ」をモチーフにしたカプセルトイが、タカラトミーアーツから登場します。商品名は「おさるのジョージ もふもふフェイスポーチ」で、全4種のラインナップです。価格は1回500円で、発売は11月9日の週を予定しています。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [],
+    "thumb": "https://gachaimg.com/thumb/gacha-44a85850.webp"
+  },
+  {
+    "id": "gacha-1769e7d2",
+    "name": "パウ・パトロール クリアめじるしガチャマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "11月 9日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911613_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y911613_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911613",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "『パウ・パトロール』の仲間たちが、クリア素材で透明感のある「めじるしガチャマスコット」になりました。マスコットは立体的でかわいく、光に当たるとキラッと輝きます。シリコンリングとカニカン付きで、傘やペットボトルなどにつければ自分用のマーカーとしても使えます。本体サイズは高さ約4cm。ラインナップは「チェイス」「マーシャル」「ラブル」「スカイ」の全4種。",
+    "lineup": [
+      "チェイス",
+      "マーシャル",
+      "ラブル",
+      "スカイ"
+    ],
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [
+      "220bd4c9"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-1769e7d2.webp"
+  },
+  {
+    "id": "gacha-3f9a6fad",
+    "name": "野菜チェス",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 12,
+    "releaseWeek": "11月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099403_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099403_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099403",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "リアルな質感の野菜たちが、世界中で親しまれているボードゲーム「チェス」のコマになりました。たくさん集めるとチェストとして実際に遊ぶことができます。まんまるトマトのポーンや赤いにんじんのナイトなど、見た目もかわいくテンションが上がります。本体サイズは高さ約4.1〜7.2cm。ラインナップは「ポーントマト（黒）」「ポーントマト（白）」「ルークコーン（黒）」「ルークコーン（白）」「ナイトキャロット（黒）」「ナイトキャロット（白）」「ビショッパラガス（黒）」「ビショッパラガス（白）」「メークイーン（黒）」「メークイーン（白）」「キングブロッコリー（黒）」「キングブロッコリー（白）」の全12種。",
+    "lineup": [
+      "ポーントマト（黒）",
+      "ポーントマト（白）",
+      "ルークコーン（黒）",
+      "ルークコーン（白）",
+      "ナイトキャロット（黒）",
+      "ナイトキャロット（白）",
+      "ビショッパラガス（黒）",
+      "ビショッパラガス（白）",
+      "メークイーン（黒）",
+      "メークイーン（白）",
+      "キングブロッコリー（黒）",
+      "キングブロッコリー（白）"
+    ],
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [
+      "2d84ca11",
+      "9a583335",
+      "a1f64f37",
+      "e132821c",
+      "e2787e52"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-3f9a6fad.webp"
+  },
+  {
+    "id": "gacha-54d0a6b3",
+    "name": "がんこちゃん＆がんぺーちゃんいっぱい まんまるリングコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "11月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901393_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901393_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901393",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "NHK・Eテレ『ざわざわ森のがんこちゃん』に登場する、「がんこちゃん」と「がんペーちゃん」姉弟の顔をイメージしたリングです。ふわふわ生地に刺繍で表現されたキャラクターの表情がかわいく、複数つけて楽しみたくなります。本体サイズは約4.3cm。ラインナップは「にこにこがんこちゃん」「なきべそがんこちゃん」「ぷんぷんがんこちゃん」「にこにこがんぺーちゃん」「なきべそがんぺーちゃん」「おしゃぶりがんぺーちゃん」の全6種。",
+    "size": "約4.3cm",
+    "lineup": [
+      "にこにこがんこちゃん",
+      "なきべそがんこちゃん",
+      "ぷんぷんがんこちゃん",
+      "にこにこがんぺーちゃん",
+      "なきべそがんぺーちゃん",
+      "おしゃぶりがんぺーちゃん"
+    ],
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [
+      "2853e3bb"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-54d0a6b3.webp"
+  },
+  {
+    "id": "-sweets-55d17b99",
+    "name": "つながリングチャーム　トムとジェリー Sweetsになったトムとジェリー",
+    "brand": "トムとジェリー",
+    "brandSlug": "tomjerry",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "11月",
+    "color": "#e599a4",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904776_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904776_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904776",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "「トム」と「ジェリー」「タフィー」が、思わず食べたくなってしまいそうな、おしゃれでかわいいスイーツマスコットになりました。ぷっくりした立体造形で存在感もバツグン！　リング付きなので自由につなげられ、バッグやポーチにつけて楽しめます。本体サイズは高さ約4cm。ラインナップは「トム&times;カップケーキ」「タフィー&times;ソフトクリーム」「ジェリー&times;マカロン」「ジェリー&times;ドーナツ」の全4種。",
+    "lineup": [
+      "トム&times;カップケーキ",
+      "タフィー&times;ソフトクリーム",
+      "ジェリー&times;マカロン",
+      "ジェリー&times;ドーナツ"
+    ],
+    "description": "複数のリングをつなげて並べられるつながリングチャームシリーズから、人気アニメ「トムとジェリー」をテーマにした「Sweetsになったトムとジェリー」が登場します。カプセルトイとして全4種がラインナップされ、価格は1回400円、発売時期は11月です。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [],
+    "thumb": "https://gachaimg.com/thumb/-sweets-55d17b99.webp"
+  },
+  {
+    "id": "-30--35a9ed22",
+    "name": "ポケモン 30周年 メタルチャームマスコット イーブイフレンズ",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 300,
+    "types": 9,
+    "releaseWeek": "11月",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905575_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905575_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905575",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "ポケモン30周年記念のロゴデザインを使用した、メタルチャーム第5弾。シリコンゴムがついた便利なめじるし仕様で、イーブイとその進化形がセレクトされています。本体サイズは約5cm。ラインナップはイーブイシャワーズサンダースブースターエーフィブラッキーリーフィアグレイシアニンフィアの全9種。",
+    "size": "約5cm",
+    "description": "世界的な人気を誇るポケモンから、30周年を記念したカプセルトイがタカラトミーアーツより登場します。商品名は「ポケモン 30周年 メタルチャームマスコット イーブイフレンズ」で、全9種がラインナップされます。1回300円で、11月の発売が予定されています。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [
+      "1248770a",
+      "97006638",
+      "ae70d625",
+      "fd5131eb"
+    ],
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/saitamatoy/cabinet/upload2101/261022-004.jpg?_ex=400x400",
+    "thumb": "https://gachaimg.com/thumb/-30--35a9ed22.webp"
+  },
+  {
+    "id": "-texture-selection-clear-32d249cb",
+    "name": "ポケモン Texture Selection ～CLEAR～",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "11月",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905636_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905636_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905636",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "ポケモンの質感に着目した新しいフィギュアシリーズ。第1弾となる今回は、つやつやなクリアパーツが魅力のポケモンたちがセレクトされています。リッチな塗装とクリア素材で再現されたポケモンたちに注目です。本体サイズは約4～6.5cm。ラインナップはサニーゴ(ガラルのすがた)ランクルスシャンデラユキハミの全4種。",
+    "description": "タカラトミーアーツより、世界的に人気のゲーム・アニメ作品であるポケモンをテーマにしたカプセルトイ「ポケモン Texture Selection ～CLEAR～」が登場します。1回400円で、全4種がラインナップされています。発売は11月予定で、ガチャガチャ取扱店で展開されます。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [],
+    "thumb": "https://gachaimg.com/thumb/-texture-selection-clear-32d249cb.webp"
+  },
+  {
+    "id": "gacha-35c338ff",
+    "name": "ポケットトミカ はたらく現場!建設編",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "11月",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905711_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905711_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905711",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "実際の建設現場で活躍している、パワフルで大きい「パワークレーン」や「オフロードダンプ」がポケットトミカになりました。ストラクチャーや建設資材を使って、自分だけの建設現場を演出できます。本体サイズは約4.3〜10cm。ラインナップは「メガパワークレーン（イエロー）+建設資材2個」「メガパワークレーン（グリーン）+建設資材2個」「オフロードダンプ（イエロー）」「オフロードダンプ（オレンジ）」「いすゞ ギガ フルトレーラーダンプ」「いすゞ エルフ（建設トラック）」「ベースストラクチャー（建設現場ver.）」の全7種。",
+    "size": "約4.3〜10cm",
+    "lineup": [
+      "メガパワークレーン（イエロー）+建設資材2個",
+      "メガパワークレーン（グリーン）+建設資材2個",
+      "オフロードダンプ（イエロー）",
+      "オフロードダンプ（オレンジ）",
+      "いすゞ ギガ フルトレーラーダンプ",
+      "いすゞ エルフ（建設トラック）",
+      "ベースストラクチャー（建設現場ver.）"
+    ],
+    "description": "ミニカーで人気のトミカから、カプセルトイ「ポケットトミカ はたらく現場!建設編」が登場します。タカラトミーアーツより発売されるこのシリーズは全7種がラインナップされ、1回300円で楽しめるガチャガチャです。発売は11月を予定しています。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [
+      "0bf31e56",
+      "31b9a639",
+      "7891db31",
+      "a91402b3",
+      "c23087a4",
+      "e004bf35"
+    ],
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/realize-store/cabinet/gachapon2/kawano20/pktmckensetub0001.jpg?_ex=400x400",
+    "thumb": "https://gachaimg.com/thumb/gacha-35c338ff.webp"
+  },
+  {
+    "id": "gacha-2a1f6c93",
+    "name": "ひつじのショーン フロッキーめじるしガチャマスコット",
+    "brand": "ひつじのショーン",
+    "brandSlug": "shaun",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "11月",
+    "color": "#ace599",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905902_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905902_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905902",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "羊毛部分にふわふわ触感のフロッキー加工が施された、『ひつじのショーン』の「めじるしガチャマスコット」です。シリコンリングとカニカン付きなので、傘やペットボトル、バッグなどの持ち物につければ自分用のマーカーとしても使えます。本体サイズは約5cm。ラインナップは「ショーンA」「ショーンB」「ショーンC」「ショーンD」の全4種。",
+    "size": "約5cm",
+    "lineup": [
+      "ショーンA",
+      "ショーンB",
+      "ショーンC",
+      "ショーンD"
+    ],
+    "description": "表面に起毛加工をほどこしたフロッキー仕様のマスコットに、目印としても使える仕掛けを備えたタカラトミーアーツのカプセルトイが「ひつじのショーン フロッキーめじるしガチャマスコット」です。人気アニメ「ひつじのショーン」をモチーフに、全4種のラインナップが1回400円で登場します。発売は11月を予定しています。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-01",
+    "rakutenThumbCands": [
+      "220bd4c9"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-2a1f6c93.webp"
+  },
+  {
+    "id": "gacha-7b4a8b46",
+    "name": "バレバレ化け狐〈ばけぎつね〉",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "11月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906503_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906503_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906503",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "いろいろな動物にバケるのが下手っぴなキツネ「バレバレ化け狐」のマスコットです。一生懸命にバケているのに、顔と尻尾はキツネのまま！　まわりからはバレバレでも、本人は満足げな表情を浮かべているのがかわいい化け狐です。本体サイズは約4.6〜6.7cm。ラインナップは「コアラ？」「ペンギン？」「アルパカ？」「ゴリラ？」「シークレット?」の全5種。",
+    "size": "約4.6〜6.7cm",
+    "thumb": "https://gachaimg.com/thumb/gacha-7b4a8b46.webp"
+  },
+  {
+    "id": "gacha-21e825ba",
+    "name": "リロ＆スティッチ ファッションリング",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "11月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906824_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906824_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906824",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "フェイスモチーフでインパクト大の「ファッションリング」シリーズに、『リロ＆スティッチ』が登場。ごろんと大きめでかわいく、サングラスにはツヤ塗装、「サングラス（レア）」と「エンジェル（レア）」にはオーロラ塗装が施されています。本体サイズは最大約4.4cm。ラインナップは「スクランプ」「エンジェル」「サングラス」「ディズニー スティッチ」「リボン」「サングラス（レア）」「エンジェル（レア）」の全7種。",
+    "lineup": [
+      "スクランプ",
+      "エンジェル",
+      "サングラス",
+      "ディズニー スティッチ",
+      "リボン",
+      "サングラス（レア）",
+      "エンジェル（レア）"
+    ],
+    "description": "ディズニーの人気作品「リロ＆スティッチ」をモチーフにしたファッションリングがカプセルトイに登場します。タカラトミーアーツより発売される本商品は全7種のラインナップで、1回300円で楽しめます。発売時期は11月を予定しており、ガチャガチャ専門店や家電量販店などの設置機で見かける機会が増えそうです。",
+    "thumb": "https://gachaimg.com/thumb/gacha-21e825ba.webp"
+  },
+  {
+    "id": "gacha-2de03528",
+    "name": "ズートピア -ムービーアイテムコレクション-",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "11月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907715_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907715_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907715",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "ディズニー映画『ズートピア』シリーズの印象的なアイテムを再現した、手のひらサイズのマスコットコレクション。ニックの「警察官バッジ」と「ニンジンペン」は取り外しが可能で、『ズートピア2』のラストに登場する「修復後のニンジンペン」はレアアイテムです。本体サイズは約4.8〜5.4cm。ラインナップは「警察官バッジ」「ニンジンペン」「ニンジンペン（修復後）」「ゲイリーペン」「ビッグドーナツ」「アイスキャンディ」の全6種。",
+    "size": "約4.8〜5.4cm",
+    "lineup": [
+      "警察官バッジ",
+      "ニンジンペン",
+      "ニンジンペン（修復後）",
+      "ゲイリーペン",
+      "ビッグドーナツ",
+      "アイスキャンディ"
+    ],
+    "description": "ディズニーが贈るアニメーション作品を題材にしたカプセルトイ「ズートピア -ムービーアイテムコレクション-」がタカラトミーアーツより登場します。全6種がラインナップされ、1回400円で楽しめます。発売は11月を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/gacha-2de03528.webp"
+  },
+  {
+    "id": "gacha-071bcef5",
+    "name": "おりぼんにゃんこ",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 4,
+    "releaseWeek": "11月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908538_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908538_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908538",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "トレンドのバレエコアスタイルでモデル化された、キュートな猫フィギュアです。からだに絡まったリボンはパール調で、サテンリボン風のキラキラ塗装が施されています。肉球まで再現した、こだわりのポージングも必見です。本体サイズは約4.5〜6.5cm。ラインナップは「しろねこブルー」「はちわれレッド」「くろねこパープル」「くりーむピンク」の全4種。",
+    "size": "約4.5〜6.5cm",
+    "lineup": [
+      "しろねこブルー",
+      "はちわれレッド",
+      "くろねこパープル",
+      "くりーむピンク"
+    ],
+    "thumb": "https://gachaimg.com/thumb/gacha-071bcef5.webp"
+  },
+  {
+    "id": "gacha-26a0675a",
+    "name": "ポケモン じゃらじゃらキーホルダー",
+    "brand": "ポケモン",
+    "brandSlug": "pokemon",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "11月",
+    "color": "#FFD54F",
+    "hot": true,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909047_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909047_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909047",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "モンスターボールにポケモンのプレートが付いた、カラフルでじゃらじゃらなキーホルダーです。ポケモンプレートにはジュエルパーツが輝き、ポケモンのタイプを表すプレートも付いています。本体サイズはポケモンプレート：約4cm。ラインナップはプリンイーブイジラーチヌメラニャオハの全5種。",
+    "description": "世界中で人気のポケモンから、タカラトミーアーツより「ポケモン じゃらじゃらキーホルダー」がカプセルトイとして登場します。全5種のラインナップで、価格は1回300円です。発売時期は11月を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/gacha-26a0675a.webp"
+  },
+  {
+    "id": "gacha-060e562e",
+    "name": "ハリー・ポッター ホグワーツクレストピンズ",
+    "brand": "ハリー・ポッター",
+    "brandSlug": "harrypotter",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "11月",
+    "color": "#dd99e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909207_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909207_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909207",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "ガチャから発売された「ホグワーツ魔法魔術学校 PINS COLLECTION」が、より緻密な造形になってリニューアル！ホグワーツの校章と4寮のエンブレムを、重厚感のあるメタル仕様で立体的に再現。バッグやポーチなどにつけても存在感のある、コレクションしたくなるピンズです。本体サイズは約4.8cm。ラインナップは「ホグワーツ魔法魔術学校」「グリフィンドール」「スリザリン」「ハッフルパフ」「レイブンクロー」の全5種。",
+    "size": "約4.8cm",
+    "lineup": [
+      "ホグワーツ魔法魔術学校",
+      "グリフィンドール",
+      "スリザリン",
+      "ハッフルパフ",
+      "レイブンクロー"
+    ],
+    "description": "世界的に人気の小説・映画シリーズ「ハリー・ポッター」をモチーフにしたカプセルトイ「ホグワーツクレストピンズ」がタカラトミーアーツより登場します。価格は1回300円で、全5種のラインナップです。発売時期は11月を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/gacha-060e562e.webp"
+  },
+  {
+    "id": "gacha-6056a945",
+    "name": "まんまるどうぶつ まんまるねこ めじるしガチャマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "11月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909597_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909597_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909597",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "ガチャで人気の「まんまるどうぶつ」シリーズに、横から見てもまんまるのフロッキー加工の\"ねこ\"が仲間入り。シリコンリングとカニカンが付いた仕様で、かさの持ち手やペットボトル、ファスナーなどに付けると\"めじるし\"としても活用できます。本体サイズは約2.5cm。ラインナップは「エキゾチックショートヘア」「黒のハチワレ」「ロシアンブルー」「三毛猫」「スコティッシュフォールド」「茶トラ」の全6種。",
+    "size": "約2.5cm",
+    "lineup": [
+      "エキゾチックショートヘア",
+      "黒のハチワレ",
+      "ロシアンブルー",
+      "三毛猫",
+      "スコティッシュフォールド",
+      "茶トラ"
+    ],
+    "thumb": "https://gachaimg.com/thumb/gacha-6056a945.webp"
+  },
+  {
+    "id": "ucc--5fc44afb",
+    "name": "UCC上島珈琲 めじるしガチャマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "11月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909658_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909658_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909658",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "世代を超えて愛されているUCCのコーヒー製品が、実物の1/10サイズの「めじるしガチャマスコット」になりました。「上島珈琲店 銅マグ」は、なかのアイスコーヒーもリアルに再現。傘やペットボトルなどにつければ、マーカーとしても使えます。本体サイズは約2.5～3cm。ラインナップは「GOLD SPECIAL」「ミルクコーヒー」「BLACK無糖」「上島珈琲店 銅マグ」「DRIP POD YOUBI＆カプセル」の全5種。",
+    "lineup": [
+      "GOLD SPECIAL",
+      "ミルクコーヒー",
+      "BLACK無糖",
+      "上島珈琲店 銅マグ",
+      "DRIP POD YOUBI＆カプセル"
+    ],
+    "thumb": "https://gachaimg.com/thumb/ucc--5fc44afb.webp"
+  },
+  {
+    "id": "moomin-2-436f140d",
+    "name": "MOOMIN もふもふポーシェット2",
+    "brand": "ムーミン",
+    "brandSlug": "moomin",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "11月",
+    "color": "#b899e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y910975_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y910975_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910975",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "ふわふわもふもふ素材がかわいい「MOOMIN もふもふポーシェット」の第2 弾が登場です。「ムーミンやしき」は特殊形状で再現されており、キャラクターのポシェットの裏面には、各キャラクターにちなんだ刺繍が入っています。両側のタグに紐を通せば、ポーチからポシェットになる2WAY仕様。本体サイズは約9.0&times;11.5cm。ラインナップは「ムーミン」「ムーミンママ」「ニョロニョロ」「ご先祖さま」「ムーミンやしき」の全5種。",
+    "lineup": [
+      "ムーミン",
+      "ムーミンママ",
+      "ニョロニョロ",
+      "ご先祖さま",
+      "ムーミンやしき"
+    ],
+    "description": "世界中で愛され続けるムーミンをモチーフにしたカプセルトイ「MOOMIN もふもふポーシェット2」がタカラトミーアーツより登場します。価格は1回500円で、全5種の展開です。発売は11月を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/moomin-2-436f140d.webp"
+  },
+  {
+    "id": "gacha-74f596bb",
+    "name": "でふぉラバ! ウマ娘 プリティーダービー キーホルダー",
+    "brand": "ウマ娘",
+    "brandSlug": "umamusume",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "11月",
+    "color": "#99c2e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911125_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y911125_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911125",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "タカラトミーアーツのオリジナルデフォルメシリーズ「でふぉラバ!」のイラストを使用した、『ウマ娘 プリティーダービー』のラバーキーホルダーです。勝負服のきらびやかさを損なわないように再現された、緻密なデフォルメ感に注目です。本体サイズは約5cm。ラインナップは「ヴィルシーナ」「ブエナビスタ」「オルフェーヴル」「ジェンティルドンナ」「アーモンドアイ」「ラッキーライラック」「ヴィクトワールピサ」の全7種。",
+    "size": "約5cm",
+    "lineup": [
+      "ヴィルシーナ",
+      "ブエナビスタ",
+      "オルフェーヴル",
+      "ジェンティルドンナ",
+      "アーモンドアイ",
+      "ラッキーライラック",
+      "ヴィクトワールピサ"
+    ],
+    "description": "育成シミュレーションゲームとして人気のウマ娘 プリティーダービーから、「でふぉラバ! ウマ娘 プリティーダービー キーホルダー」がカプセルトイに登場します。タカラトミーアーツが手がける商品で、全7種がラインナップされており、1回300円で楽しめます。発売は11月を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/gacha-74f596bb.webp"
+  },
+  {
+    "id": "sp-ver-6076b3d7",
+    "name": "プラレールキーホルダーSP クリアver.",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "11月",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911965_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y911965_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911965",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-01T00:05:58.127Z",
+    "officialDescription": "人気のプラレールのキーホルダーシリーズに、クリアカラーの特別仕様が仲間入り。ボールチェーン付きなので、カバンやリュックに付けて一緒におでかけが楽しめます。本体サイズは長さ約5.5cm。ラインナップは「E5系新幹線はやぶさ」「E7系新幹線かがやき」「923形ドクターイエロー」「EF65 カートレイン」「E235系山手線」の全5種。",
+    "lineup": [
+      "E5系新幹線はやぶさ",
+      "E7系新幹線かがやき",
+      "923形ドクターイエロー",
+      "EF65 カートレイン",
+      "E235系山手線"
+    ],
+    "description": "タカラトミーアーツから、トミカをモチーフにしたカプセルトイ「プラレールキーホルダーSP クリアver.」が登場します。1回300円で全5種がラインナップされ、11月の発売が予定されています。トミカは子供から大人まで親しまれているミニカーブランドで、ガチャガチャでも人気のモチーフとなっています。",
+    "thumb": "https://gachaimg.com/thumb/sp-ver-6076b3d7.webp"
+  },
+  {
     "id": "gacha-18723a15",
     "name": "鳩のぬいぐるみ",
     "brand": "その他",
