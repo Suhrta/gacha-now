@@ -5865,11 +5865,11 @@
   },
   "joguman-hideseek--4420ab7b": {
     "sig": "JOGUMAN Hide&Seek かくれんぼフィギュア||r",
-    "checkedAt": 1792423347712
+    "checkedAt": 1793641857960
   },
   "-dgrayman-552468aa": {
     "sig": "でふぉラバ! D.Gray-manキーホルダー|7|r",
-    "checkedAt": 1792423347712,
+    "checkedAt": 1793641857960,
     "compset": {
       "q": "でふぉラバ! ガチャ コンプ",
       "count": 49
@@ -6248,11 +6248,15 @@
     "checkedAt": 1793491580911
   },
   "gacha-21e825ba": {
-    "sig": "リロ＆スティッチ ファッションリング|7|r",
-    "checkedAt": 1793491580911,
+    "sig": "リロ＆スティッチ ファッションリング|7|p",
+    "checkedAt": 1793641857960,
     "compset": {
       "q": "ディズニー ガチャ コンプ",
-      "count": 436
+      "count": 442
+    },
+    "preorder": {
+      "q": "ディズニー ガチャ 予約",
+      "count": 62
     }
   },
   "gacha-2de03528": {
@@ -6973,6 +6977,18 @@
     "preorder": {
       "q": "めじるしアクセサリー ガチャ 予約",
       "count": 188
+    }
+  },
+  "hideseek-2-03ab7570": {
+    "sig": "Hide&Seek かくれんぼフィギュア ズートピア2|3|p",
+    "checkedAt": 1793641857960,
+    "compset": {
+      "q": "Hide&Seek かくれんぼフィギュア ズートピア2 セット",
+      "count": 4
+    },
+    "preorder": {
+      "q": "Hide&Seek かくれんぼフィギュア ズートピア2 予約",
+      "count": 4
     }
   }
 }
