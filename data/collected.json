@@ -1904,7 +1904,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "ミッフィー",
-    "types": null
+    "types": 5
   },
   {
     "title": "TVアニメ『アオのハコ』 カプセルラバーマスコット2",
@@ -6128,7 +6128,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "わんちゃあぁぁん",
-    "types": null
+    "types": 5
   },
   {
     "title": "NCT WISH つまんでつなげてますこっと",
@@ -6272,7 +6272,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "ガンダム",
-    "types": null
+    "types": 4
   },
   {
     "title": "初音ミク めじるしアクセサリー",
