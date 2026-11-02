@@ -1904,7 +1904,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "ミッフィー",
-    "types": 5
+    "types": null
   },
   {
     "title": "TVアニメ『アオのハコ』 カプセルラバーマスコット2",
@@ -3923,7 +3923,7 @@
     "types": 6
   },
   {
-    "title": "なりきりオーナーシリーズ - 日産 歴代GT-R コレクタブルキー -",
+    "title": "【ガシャポンバンダイオフィシャルショップ限定再販】なりきりオーナーシリーズ - 日産 歴代GT-R コレクタブルキー -",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118129611000",
     "source": "バンダイ公式",
     "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000201514_1.jpg",
@@ -4067,6 +4067,30 @@
     "types": 6
   },
   {
+    "title": "それいけ！アンパンマン くるりんフェイスアンパンマン",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118182043000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 第2週",
+    "brand": "アンパンマン",
+    "types": 5
+  },
+  {
     "title": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769981838000",
     "source": "バンダイ公式",
@@ -4089,6 +4113,54 @@
     "releaseWeek": "2026年11月 第2週",
     "brand": "ガンダム",
     "types": 4
+  },
+  {
+    "title": "モンチッチ ふわふわカラともマスコット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770053920000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年11月 第2週",
+    "brand": "モンチッチ",
+    "types": 4
+  },
+  {
+    "title": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770055405000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年11月 第2週",
+    "brand": "ワンピース",
+    "types": 6
   },
   {
     "title": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
@@ -4137,6 +4209,54 @@
     "releaseWeek": "2026年11月 第2週",
     "brand": "アイドリッシュセブン",
     "types": 7
+  },
+  {
+    "title": "Lil ala mode スイングコレクション ～天使と悪魔～",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770081596000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月 第2週",
+    "brand": "Lil ala mode",
+    "types": 5
+  },
+  {
+    "title": "まちぼうけ 冬の場合 その2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770094367000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 第2週",
+    "brand": "まちぼうけ",
+    "types": 6
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】サンリオキャラクターズ 夢みるエンジェルスイング2",
@@ -4470,6 +4590,30 @@
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000260529_12.jpg"
     ],
     "price": 500,
+    "releaseWeek": "2026年11月 第3週",
+    "brand": "まちぼうけ",
+    "types": 5
+  },
+  {
+    "title": "まちぼうけ ダイナーの場合",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770070644000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_12.jpg"
+    ],
+    "price": 300,
     "releaseWeek": "2026年11月 第3週",
     "brand": "まちぼうけ",
     "types": 5
@@ -4955,7 +5099,7 @@
     "types": 5
   },
   {
-    "title": "パワーパフ ガールズ ブリスターチャーム コレクション",
+    "title": "パワーパフ ガールズ ブリスターチャームコレクション",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769911477000",
     "source": "バンダイ公式",
     "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241566_1.jpg",
@@ -5507,6 +5651,30 @@
     "types": 5
   },
   {
+    "title": "コンタック カラフルマルチチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770122138000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 第4週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
     "title": "妖怪ウォッチ フェイスぬいぐるみ",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770129953000",
     "source": "バンダイ公式",
@@ -5672,30 +5840,6 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "ざわざわ森のがんこちゃん",
-    "types": 5
-  },
-  {
-    "title": "それいけ！アンパンマン くるりんフェイスアンパンマン",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118182043000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259580_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年11月 第4週",
-    "brand": "アンパンマン",
     "types": 5
   },
   {
@@ -5888,7 +6032,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "ハリー・ポッター ディスプレイコレクション～魔法の杖～",
@@ -5984,7 +6128,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "わんちゃあぁぁん",
-    "types": 5
+    "types": null
   },
   {
     "title": "NCT WISH つまんでつなげてますこっと",
@@ -6128,7 +6272,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "ガンダム",
-    "types": 4
+    "types": null
   },
   {
     "title": "初音ミク めじるしアクセサリー",
@@ -6347,30 +6491,6 @@
     "types": 10
   },
   {
-    "title": "モンチッチ ふわふわカラともマスコット",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770053920000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259568_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年11月 第4週",
-    "brand": "モンチッチ",
-    "types": 4
-  },
-  {
     "title": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770054026000",
     "source": "バンダイ公式",
@@ -6537,30 +6657,6 @@
     "releaseWeek": "2026年11月 第4週",
     "brand": "その他",
     "types": 5
-  },
-  {
-    "title": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770055405000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259560_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年11月 第4週",
-    "brand": "ワンピース",
-    "types": 6
   },
   {
     "title": "銀魂 めじるしアクセサリー3 ～身に着けている物で趣味が大体分かる～",
@@ -6947,30 +7043,6 @@
     "types": 5
   },
   {
-    "title": "まちぼうけ ダイナーの場合",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770070644000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259545_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年11月 第4週",
-    "brand": "まちぼうけ",
-    "types": 5
-  },
-  {
     "title": "サンリオキャラクターズ 星座スイングマスコットPART1",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770070774000",
     "source": "バンダイ公式",
@@ -7235,30 +7307,6 @@
     "types": 5
   },
   {
-    "title": "Lil ala mode スイングコレクション ～天使と悪魔～",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770081596000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259533_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年11月 第4週",
-    "brand": "Lil ala mode",
-    "types": 5
-  },
-  {
     "title": "ポケットモンスター スイングコレクションType:Water",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770081770000",
     "source": "バンダイ公式",
@@ -7281,30 +7329,6 @@
     "releaseWeek": "2026年11月 第4週",
     "brand": "ポケモン",
     "types": 5
-  },
-  {
-    "title": "まちぼうけ 冬の場合 その2",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770094367000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259531_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年11月 第4週",
-    "brand": "まちぼうけ",
-    "types": 6
   },
   {
     "title": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
@@ -7520,30 +7544,6 @@
     "price": 500,
     "releaseWeek": "2026年11月 第4週",
     "brand": "ホロライブ",
-    "types": 5
-  },
-  {
-    "title": "コンタック カラフルマルチチャーム",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770122138000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259522_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年11月 第4週",
-    "brand": "その他",
     "types": 5
   },
   {
