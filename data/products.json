@@ -1125,7 +1125,7 @@
     "collectedAt": "2026-11-01T01:43:11.104Z",
     "officialDescription": "劇場版『チェンソーマン レゼ篇』からまちぼうけが登場！",
     "ageRating": "15才以上",
-    "description": "劇場版『チェンソーマン レゼ篇』を題材にしたカプセルトイ「まちぼうけ」がバンダイより登場します。全5種のラインナップで、1回の価格は500円です。発売時期は11月第3週を予定しており、ガチャガチャとして展開される予定です。"
+    "description": "バンダイより、劇場版『チェンソーマン レゼ篇』を題材にしたカプセルトイ「まちぼうけ」が登場します。全5種のラインナップで、1回500円で楽しめます。発売は11月第3週を予定しており、カプセルトイ（ガチャガチャ）として全国の販売機に順次展開される見込みです。"
   },
   {
     "id": "gacha-0829496e",
@@ -3241,13 +3241,17 @@
     ],
     "description": "タカラトミーアーツから展開されているカプセルトイ「パンダの穴 ヒサロアニマル」は、人気のパンダの穴シリーズから登場した商品です。全5種がラインナップされており、1回300円で楽しめます。すでに発売中のため、ガチャガチャ専門店や量販店の店頭で見つけることができます。",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-28",
+    "rakutenThumbCheckedAt": "2026-11-04",
     "rakutenThumbCands": [
-      "2853e3bb",
-      "97006638"
+      "37fcc537",
+      "3e099e57",
+      "70631a99",
+      "c5e7b373",
+      "da474bf8",
+      "ddc1cf6f"
     ],
-    "rakutenThumbMisses": 1,
-    "thumb": "https://gachaimg.com/thumb/gacha-432c99a6.webp"
+    "thumb": "https://gachaimg.com/thumb/gacha-432c99a6.webp",
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-yuyou/cabinet/2610/g261075s01t.jpg?_ex=400x400"
   },
   {
     "id": "nikke-vol4-530f47e3",
