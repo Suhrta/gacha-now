@@ -165,7 +165,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第1週",
     "brand": "Lil ala mode",
-    "types": null
+    "types": 5
   },
   {
     "title": "キン肉マン ドットフィギュアチャーム2",
@@ -584,7 +584,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "はなかっぱ まちぼうけ",
@@ -3584,7 +3584,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "カラフルマルチチャーム 塊魂",
@@ -3897,6 +3897,30 @@
     "releaseWeek": "2026年11月 第1週",
     "brand": "プリキュア",
     "types": 5
+  },
+  {
+    "title": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026689000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月 第1週",
+    "brand": "プリキュア",
+    "types": 10
   },
   {
     "title": "From TV animation ONE PIECE　ワンピの実 第一海戦",
@@ -7569,30 +7593,6 @@
     "releaseWeek": "2026年11月 第4週",
     "brand": "NCT WISH",
     "types": 12
-  },
-  {
-    "title": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026689000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258582_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年11月 第4週",
-    "brand": "プリキュア",
-    "types": 10
   },
   {
     "title": "逆転裁判 つまんでつなげてますこっと",
