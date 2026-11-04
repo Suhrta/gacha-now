@@ -1,5 +1,110 @@
 [
   {
+    "id": "gacha-089072c3",
+    "name": "お部屋ぐまルーミー ほのぼのマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "11月",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905001_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905001_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905001",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-04T16:01:52.657Z",
+    "officialDescription": "今にも動き出しそうなポーズとイキイキとした表情がかわいい、『お部屋ぐまルーミー』のミニフィギュアです。SNSに投稿されている漫画の1コマやイラストを再現しており、お部屋に飾ればルーミーちゃんと一緒に暮らしている気分が味わえます。本体サイズは約3.5cm。ラインナップは「ヒーローってわけ」「いっしょにおねんね」「きょうりゅうのけんきゅうちゅう」「おさんぽ♪おさんぽ♪」「おきにいりのリュック」の全5種。",
+    "size": "約3.5cm",
+    "lineup": [
+      "ヒーローってわけ",
+      "いっしょにおねんね",
+      "きょうりゅうのけんきゅうちゅう",
+      "おさんぽ♪おさんぽ♪",
+      "おきにいりのリュック"
+    ],
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-04",
+    "rakutenThumbCands": [
+      "2853e3bb",
+      "97006638"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-089072c3.webp"
+  },
+  {
+    "id": "gacha-0c04d114",
+    "name": "ディズニーキャラクター ぴたぷりっマスコット",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "11月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906022_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906022_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906022",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-04T16:01:52.657Z",
+    "officialDescription": "ディズニーキャラクターがぴたっとくっついて、ぷりっとかわいい「ぴたぷりっマスコット」が誕生！おなか部分のゲルシールでくっつき、着けたものの上からキャラクターがひょっこり顔を覗かせます。後ろ姿もチャーミング&hearts;本体サイズは約4.8cm。ラインナップは「プー」「ディズニー マリー」「ディズニー スティッチ」「ベイマックス」の全4種。",
+    "size": "約4.8cm",
+    "lineup": [
+      "プー",
+      "ディズニー マリー",
+      "ディズニー スティッチ",
+      "ベイマックス"
+    ],
+    "description": "世界中で愛されるディズニーの人気キャラクターたちをモチーフにしたカプセルトイ「ぴたぷりっマスコット」がタカラトミーアーツより登場します。価格は1回400円で、全4種がラインナップされます。発売は11月を予定しており、店頭のガチャガチャ筐体での展開が見込まれます。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-04",
+    "rakutenThumbCands": [],
+    "thumb": "https://gachaimg.com/thumb/gacha-0c04d114.webp"
+  },
+  {
+    "id": "gacha-3039e03d",
+    "name": "スター・ウォーズ グローグーいっぱいコレクション3",
+    "brand": "スター・ウォーズ",
+    "brandSlug": "starwars",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "11月",
+    "color": "#b599e5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906527_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906527_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906527",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-04T16:01:52.657Z",
+    "officialDescription": "『マンダロリアン』シリーズに登場する、フォースを秘めた特別な子ども「グローグー」の名シーンを再現できるフィギュアシリーズの第3弾です。今作ではアーマーを身につけたグローグーをはじめ、映画『スター・ウォーズ／マンダロリアン・アンド・グローグー』の名シーンが再現されています。首・肩・手首が可動し、豊富な付属パーツで世界観が広がります。本体サイズは約6cm。ラインナップは「グローグー（A）」「グローグー（B）」「グローグー（C）」「グローグー（D）」の全4種。",
+    "size": "約6cm",
+    "lineup": [
+      "グローグー（A）",
+      "グローグー（B）",
+      "グローグー（C）",
+      "グローグー（D）"
+    ],
+    "description": "タカラトミーアーツより、世界的人気映画「スター・ウォーズ」のカプセルトイ最新作「スター・ウォーズ グローグーいっぱいコレクション3」が11月に登場します。全4種のラインナップで、価格は1回400円です。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-04",
+    "rakutenThumbCands": [
+      "0d26e3bc",
+      "220bd4c9",
+      "4be30a48"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-3039e03d.webp"
+  },
+  {
     "id": "-fit--760d2bdc",
     "name": "おさんぽカエル Fit 宝石箱",
     "brand": "その他",

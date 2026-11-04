@@ -344,7 +344,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "コジコジ BIGカプキャラ",
@@ -3584,7 +3584,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "カラフルマルチチャーム 塊魂",
@@ -3896,7 +3896,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第1週",
     "brand": "プリキュア",
-    "types": null
+    "types": 5
   },
   {
     "title": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
@@ -3968,7 +3968,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第2週",
     "brand": "ワンピース",
-    "types": null
+    "types": 6
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】なりきりオーナーシリーズ - 日産 歴代GT-R コレクタブルキー -",
@@ -8017,6 +8017,19 @@
     "types": 4
   },
   {
+    "title": "お部屋ぐまルーミー ほのぼのマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905001",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905001_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905001_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月",
+    "brand": "その他",
+    "types": 5
+  },
+  {
     "title": "ポケモン 30周年 メタルチャームマスコット イーブイフレンズ",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905575",
     "source": "タカラトミーアーツ公式",
@@ -8069,6 +8082,19 @@
     "types": 4
   },
   {
+    "title": "ディズニーキャラクター ぴたぷりっマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906022",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906022_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906022_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
     "title": "バレバレ化け狐〈ばけぎつね〉",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906503",
     "source": "タカラトミーアーツ公式",
@@ -8080,6 +8106,19 @@
     "releaseWeek": "2026年11月",
     "brand": "その他",
     "types": 5
+  },
+  {
+    "title": "スター・ウォーズ グローグーいっぱいコレクション3",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906527",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906527_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906527_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月",
+    "brand": "スター・ウォーズ",
+    "types": 4
   },
   {
     "title": "ズートピア -ムービーアイテムコレクション-",
