@@ -165,7 +165,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第1週",
     "brand": "Lil ala mode",
-    "types": 5
+    "types": null
   },
   {
     "title": "キン肉マン ドットフィギュアチャーム2",
@@ -584,7 +584,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "サンリオ",
-    "types": 5
+    "types": null
   },
   {
     "title": "はなかっぱ まちぼうけ",
@@ -11837,6 +11837,19 @@
     "releaseWeek": "2022年12月 上旬",
     "brand": "カービィ",
     "types": 5
+  },
+  {
+    "title": "おさんぽカエル Fit 宝石箱",
+    "url": "https://kitan.jp/products/osanpokaeru_fithouseki/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/11/stroll_frog_fit_jewelry_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/11/stroll_frog_fit_jewelry_DP.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 上旬",
+    "brand": "その他",
+    "types": 7
   },
   {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",
