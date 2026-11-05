@@ -2396,15 +2396,11 @@
     }
   },
   "minecraft--6e9fd162": {
-    "sig": "MINECRAFT ぬいぐるみマスコット|5|p",
-    "checkedAt": 1793497425937,
+    "sig": "MINECRAFT ぬいぐるみマスコット|5|r",
+    "checkedAt": 1793847753361,
     "compset": {
       "q": "MINECRAFT ぬいぐるみマスコット セット",
       "count": 4
-    },
-    "preorder": {
-      "q": "ぬいぐるみマスコット ガチャ 予約",
-      "count": 54
     }
   },
   "gacha-0eda2b15": {
@@ -6793,6 +6789,18 @@
     "preorder": {
       "q": "ホビーガチャ ガチャ 予約",
       "count": 11
+    }
+  },
+  "gacha-66383589": {
+    "sig": "アナと雪の女王 アイテムコレクション|4|p",
+    "checkedAt": 1793847753361,
+    "compset": {
+      "q": "アナと雪の女王 ガチャ コンプ",
+      "count": 3
+    },
+    "preorder": {
+      "q": "アイテムコレクション ガチャ 予約",
+      "count": 14
     }
   }
 }
