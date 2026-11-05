@@ -69,7 +69,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第1週",
     "brand": "プリキュア",
-    "types": null
+    "types": 8
   },
   {
     "title": "グレムリン もぐもぐかくれんぼ",
@@ -2552,7 +2552,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "サマーウォーズ",
-    "types": null
+    "types": 5
   },
   {
     "title": "はらぺこあおむし めじるしアクセサリー",
@@ -3848,7 +3848,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "まちぼうけ",
-    "types": null
+    "types": 8
   },
   {
     "title": "【フラットガシャポン】たまごっち クリアラバーコースター",
@@ -6704,7 +6704,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 11
   },
   {
     "title": "つめとぎにゃんこ",
