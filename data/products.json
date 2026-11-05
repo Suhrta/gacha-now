@@ -1,5 +1,49 @@
 [
   {
+    "id": "-fit-2a148341",
+    "name": "おさんぽカエル Fit",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 7,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/08/17f90f3f7944305f92ecd958ad380ceb.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/17f90f3f7944305f92ecd958ad380ceb.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/osanpokaeru_fit/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-11-05T10:28:25.320Z",
+    "officialDescription": "2010年の発売以来、根強い人気を誇る「おさんぽカエル」シリーズが、シリコンリング付きのマーカーチャームになって帰ってきました！ 発売第1弾をリバイバルしたベーシックカラー全７種をラインナップ。当時から親しまれてきたカエルたちが、より使いやすく、毎日の暮らしにフィットする仕様で復活します。 最大の魅力は、舌・左手・右手・両足の４カ所が可動するギミック。ぶら下げると揺れに合わせて手足がぶらぶら、舌がぺろぺろ動きます。 更に座らせたり、寝そべらせたり、手足を動かして様々なポーズをつけることが可能！飾ってもよし、写真を撮って遊んでもよしと、楽しみ方はいろいろ。 カエルたちの色に合わせたシリコンリングもポイント。傘に付ければ、ぶら下がって一緒におさんぽしているような姿に。ペットボトルの目印としてはもちろん、リングを外せばファスナーチャームとしても使用できます。 初めて出会う方も、久しぶりに再会する方も、“おさんぽ”のお供に。 ラインナップは「 グリーン 、レッド 、ブルー 、イエロー 、ピンク 、ホワイト 、ブラック 」の全7種。",
+    "size": "約35ｍｍ",
+    "thumb": "https://gachaimg.com/thumb/-fit-2a148341.webp"
+  },
+  {
+    "id": "gacha-2217dcfb",
+    "name": "なごみ屋の世界　牡蠣ちゃんのお総菜屋さん　ぷちぬいぐるみキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/04182048/kakichan_nuiKey_CP_POP_0508_ol.png",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/04/04182048/kakichan_nuiKey_CP_POP_0508_ol.png"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/9936/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-11-05T10:28:25.321Z",
+    "officialDescription": "「なごみ屋の世界」から、牡蠣ちゃんがぷちぬいぐるみキーホルダーになって登場！",
+    "size": "約55mm",
+    "thumb": "https://gachaimg.com/thumb/gacha-2217dcfb.webp"
+  },
+  {
     "id": "gacha-66383589",
     "name": "アナと雪の女王 アイテムコレクション",
     "brand": "その他",
