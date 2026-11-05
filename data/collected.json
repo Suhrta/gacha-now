@@ -7965,6 +7965,71 @@
     "types": 4
   },
   {
+    "title": "ホビーガチャ ワイルド・スピード/ジェットブレイク",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y091582",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y091582_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y091582_b.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年11月 16日週",
+    "brand": "ワイルド・スピード",
+    "types": 4
+  },
+  {
+    "title": "ディズニーキャラクター なかないモン そのさん",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904165",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904165_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904165_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月 16日週",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
+    "title": "つながリングチャーム　トムとジェリー Sweetsになったトムとジェリー",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904776",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904776_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904776_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月 16日週",
+    "brand": "トムとジェリー",
+    "types": 4
+  },
+  {
+    "title": "ポケモン 30周年 メタルチャームマスコット イーブイフレンズ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905575",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905575_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905575_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 16日週",
+    "brand": "ポケモン",
+    "types": 9
+  },
+  {
+    "title": "サンリオキャラクターズ なかよしチャーム　オーロラMIX",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y912337",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y912337_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y912337_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月 16日週",
+    "brand": "サンリオ",
+    "types": 8
+  },
+  {
     "title": "野菜チェス",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099403",
     "source": "タカラトミーアーツ公式",
@@ -7991,32 +8056,6 @@
     "types": 6
   },
   {
-    "title": "ディズニーキャラクター なかないモン そのさん",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904165",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904165_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904165_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年11月",
-    "brand": "ディズニー",
-    "types": 4
-  },
-  {
-    "title": "つながリングチャーム　トムとジェリー Sweetsになったトムとジェリー",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904776",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904776_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904776_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年11月",
-    "brand": "トムとジェリー",
-    "types": 4
-  },
-  {
     "title": "お部屋ぐまルーミー ほのぼのマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905001",
     "source": "タカラトミーアーツ公式",
@@ -8028,19 +8067,6 @@
     "releaseWeek": "2026年11月",
     "brand": "その他",
     "types": 5
-  },
-  {
-    "title": "ポケモン 30周年 メタルチャームマスコット イーブイフレンズ",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y905575",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905575_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y905575_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年11月",
-    "brand": "ポケモン",
-    "types": 9
   },
   {
     "title": "ポケモン Texture Selection ～CLEAR～",
@@ -8288,19 +8314,6 @@
     "releaseWeek": "2026年11月",
     "brand": "トミカ",
     "types": 5
-  },
-  {
-    "title": "サンリオキャラクターズ なかよしチャーム　オーロラMIX",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y912337",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y912337_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y912337_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年11月",
-    "brand": "サンリオ",
-    "types": 8
   },
   {
     "title": "のっぽちゃんぬいぐるみ うさぎ",

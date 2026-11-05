@@ -1,5 +1,37 @@
 [
   {
+    "id": "gacha-719fa0f8",
+    "name": "ホビーガチャ ワイルド・スピード/ジェットブレイク",
+    "brand": "ワイルド・スピード",
+    "brandSlug": "wildspeed",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "11月 16日週",
+    "color": "#e599c2",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y091582_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y091582_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y091582",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-05T00:07:07.441Z",
+    "officialDescription": "映画『ワイルド・スピード/ジェットブレイク』に登場する、ドミニクの「ダッジ チャージャー」とハンの「トヨタ GR Supra」が1/64スケールモデルに。車の内部まで再現されており、世界観を演出できるドリフトスモークやムービーロゴが付属します。本体サイズは約1/64スケール 6.85〜8.2cm。ラインナップは「Dodge Charger（+ドリフトスモークパーツ）」「Dodge Charger（+ムービーロゴ）」「TOYOTA GR Supra（+ドリフトスモークパーツ）」「TOYOTA GR Supra（+スモークパーツ）」の全4種。",
+    "description": "自動車アクションシリーズとして人気の「ワイルド・スピード」をモチーフにしたカプセルトイが、タカラトミーアーツから登場します。商品名は「ホビーガチャ ワイルド・スピード/ジェットブレイク」で、全4種のラインナップです。価格は1回500円で、11月16日週より稼働予定です。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-05",
+    "rakutenThumbCands": [
+      "16889bde",
+      "5634e5cd",
+      "69c7aa25",
+      "937cfa9a",
+      "c0994e01"
+    ],
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/realize-store-2/cabinet/gachapon2/kawano30/hbgwildjetbrk0004.jpg?_ex=400x400",
+    "thumb": "https://gachaimg.com/thumb/gacha-719fa0f8.webp"
+  },
+  {
     "id": "gacha-089072c3",
     "name": "お部屋ぐまルーミー ほのぼのマスコット",
     "brand": "その他",
@@ -93,7 +125,7 @@
       "グローグー（C）",
       "グローグー（D）"
     ],
-    "description": "タカラトミーアーツより、世界的人気映画「スター・ウォーズ」のカプセルトイ最新作「スター・ウォーズ グローグーいっぱいコレクション3」が11月に登場します。全4種のラインナップで、価格は1回400円です。",
+    "description": "タカラトミーアーツから、世界的な人気を誇るSF映画シリーズ「スター・ウォーズ」のカプセルトイ「スター・ウォーズ グローグーいっぱいコレクション3」が登場します。全4種がラインナップされ、価格は1回400円です。発売時期は11月を予定しています。",
     "rakutenThumbChecked": true,
     "rakutenThumbCheckedAt": "2026-11-04",
     "rakutenThumbCands": [
@@ -111,7 +143,7 @@
     "brandSlug": "other",
     "price": 300,
     "types": 7,
-    "releaseWeek": "11月 上旬",
+    "releaseWeek": "発売中",
     "color": "#e5b499",
     "hot": false,
     "img": "https://kitan.jp/wp-content/uploads/2026/11/stroll_frog_fit_jewelry_DP.jpg",
@@ -861,7 +893,7 @@
     "brandSlug": "disney",
     "price": 400,
     "types": 4,
-    "releaseWeek": "11月",
+    "releaseWeek": "11月 16日週",
     "color": "#CE93D8",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904165_b.jpg",
@@ -1038,7 +1070,7 @@
     "brandSlug": "sanrio",
     "price": 400,
     "types": 8,
-    "releaseWeek": "11月",
+    "releaseWeek": "11月 16日週",
     "color": "#F06292",
     "hot": true,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y912337_b.jpg",
@@ -2622,7 +2654,7 @@
     "brandSlug": "tomjerry",
     "price": 400,
     "types": 4,
-    "releaseWeek": "11月",
+    "releaseWeek": "11月 16日週",
     "color": "#e599a4",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904776_b.jpg",
@@ -2653,7 +2685,7 @@
     "brandSlug": "pokemon",
     "price": 300,
     "types": 9,
-    "releaseWeek": "11月",
+    "releaseWeek": "11月 16日週",
     "color": "#FFD54F",
     "hot": true,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y905575_b.jpg",
@@ -5179,7 +5211,7 @@
       "がおちゃん"
     ],
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-29",
+    "rakutenThumbCheckedAt": "2026-11-05",
     "rakutenThumbCands": [],
     "thumb": "https://gachaimg.com/thumb/gacha-40a4e26b.webp"
   },
@@ -5240,7 +5272,7 @@
       "PlayStation&trade;５"
     ],
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-29",
+    "rakutenThumbCheckedAt": "2026-11-05",
     "rakutenThumbCands": [],
     "thumb": "https://gachaimg.com/thumb/the-history-collection-playsta-128d5e59.webp"
   },
@@ -25520,44 +25552,5 @@
     "officialDescription": "「なごみ屋の世界」から、牡蠣ちゃんがぷちぬいぐるみキーホルダーになって登場！",
     "size": "約55mm",
     "thumb": "https://gachaimg.com/thumb/gacha-2217dcfb.webp"
-  },
-  {
-    "id": "gacha-6d45e54d",
-    "name": "ふんばり～ぬ -どこでもふんばり～ぬ-",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 300,
-    "types": 6,
-    "releaseWeek": "発売中",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909641_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909641_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909641",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-08-04T23:58:59.867Z",
-    "officialDescription": "わんちゃんたちが一生懸命ふんばる姿を再現した「ふんばり〜ぬ」シリーズに、お散歩仕様が登場。一緒にお出かけできるできるシリコンチャームが付いていて、付属する取扱説明書をちぎって丸めると茶色い物体が作れます。本体サイズは約4〜6cm。ラインナップは「柴犬」「トイプードル」「ポメラニアン」「パグ」「チワワ（ブラックタン）」「チワワ（クリーム）」の全6種。",
-    "size": "約4〜6cm",
-    "lineup": [
-      "柴犬",
-      "トイプードル",
-      "ポメラニアン",
-      "パグ",
-      "チワワ（ブラックタン）",
-      "チワワ（クリーム）"
-    ],
-    "thumb": "https://gachaimg.com/thumb/gacha-6d45e54d.webp",
-    "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-10-13",
-    "rakutenThumbCands": [
-      "5914b9c8",
-      "a8a48684",
-      "aaf13aeb",
-      "ba6ad4cb"
-    ],
-    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/aromacoffee/cabinet/13819428/imgrc0118632264.jpg?_ex=400x400"
   }
 ]
