@@ -2624,7 +2624,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "トムとジェリー",
-    "types": null
+    "types": 4
   },
   {
     "title": "くまのがっこう カラフルマルチチャーム",
@@ -6824,7 +6824,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "ガンダム",
-    "types": 5
+    "types": null
   },
   {
     "title": "ソニック ドットフィギュア めじるしアクセサリー",
