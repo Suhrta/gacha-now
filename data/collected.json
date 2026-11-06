@@ -680,7 +680,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "まちぼうけ",
-    "types": 5
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ モノトーンマスコット",
@@ -3945,6 +3945,30 @@
     "releaseWeek": "2026年11月 第1週",
     "brand": "マインクラフト",
     "types": 5
+  },
+  {
+    "title": "ZETT（ゼット） 野球グローブコレクション",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770095357000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月 第1週",
+    "brand": "その他",
+    "types": 6
   },
   {
     "title": "From TV animation ONE PIECE　ワンピの実 第一海戦",
@@ -7737,30 +7761,6 @@
     "releaseWeek": "2026年11月 第4週",
     "brand": "スター・ウォーズ",
     "types": 5
-  },
-  {
-    "title": "ZETT（ゼット） 野球グローブコレクション",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770095357000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258538_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年11月 第4週",
-    "brand": "その他",
-    "types": 6
   },
   {
     "title": "ホロライブ カラフルカラビナもふしっぽマスコット",
@@ -12903,5 +12903,18 @@
     "releaseWeek": "2027年2月 下旬",
     "brand": "その他",
     "types": 6
+  },
+  {
+    "title": "『銀河特急 ミルキー☆サブウェイ』　みあげてすたぁ マスコット vol.1",
+    "url": "https://capsule.bushiroad-creative.com/product/10258/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/05173314/milkeysubway_MiageteMascot_CP_POP_1028_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/05173314/milkeysubway_MiageteMascot_CP_POP_1028_ol.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2027年3月 下旬",
+    "brand": "その他",
+    "types": 4
   }
 ]
