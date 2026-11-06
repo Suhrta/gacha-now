@@ -215,30 +215,6 @@
       "count": 167
     }
   },
-  "gacha-40f26352": {
-    "sig": "クレヨンしんちゃん ゆらゆらフェイスミニチャーム|6|r",
-    "checkedAt": 1793003975423,
-    "compset": {
-      "q": "クレヨンしんちゃん ガチャ コンプ",
-      "count": 34
-    }
-  },
-  "-typegrass-685c8735": {
-    "sig": "ポケットモンスター スイングコレクション Type:Grass|5|r",
-    "checkedAt": 1793003975423,
-    "compset": {
-      "q": "スイング ガチャ コンプ",
-      "count": 192
-    }
-  },
-  "-13-summer-12b325ce": {
-    "sig": "ジェムリーズ ポケットモンスター13 Summer|4|r",
-    "checkedAt": 1793003975423,
-    "compset": {
-      "q": "ポケモン ガチャ コンプ",
-      "count": 109
-    }
-  },
   "gacha-09660286": {
     "sig": "モンスターズ・インク ゆらゆらつながるマスコット|4|r",
     "checkedAt": 1793003975423,
@@ -2508,8 +2484,8 @@
     }
   },
   "hg-vol6-0a2e45bc": {
-    "sig": "HG レジェンドライダーvol.6|4|p",
-    "checkedAt": 1793497425937
+    "sig": "HG レジェンドライダーvol.6|4|r",
+    "checkedAt": 1793956151380
   },
   "capsuleverse-01-29e24f77": {
     "sig": "CAPSULEVERSE 機動戦士ガンダム 01|4|r",
@@ -5561,7 +5537,7 @@
   },
   "-vol4-252fb944": {
     "sig": "でふぉラバ! 薬屋のひとりごとキーホルダーvol.4|6|r",
-    "checkedAt": 1792743797788,
+    "checkedAt": 1793956151380,
     "compset": {
       "q": "でふぉラバ! 薬屋のひとりごとキーホルダーvol.4 セット",
       "count": 4
@@ -5569,22 +5545,22 @@
   },
   "gacha-7336e648": {
     "sig": "パンダの穴 サメフライ めじるしガチャマスコット|6|r",
-    "checkedAt": 1792743797788,
+    "checkedAt": 1793956151380,
     "compset": {
       "q": "パンダの穴 サメフライ めじるしガチャマスコット コンプ",
-      "count": 3
+      "count": 5
     }
   },
   "gacha-55b5bb3a": {
     "sig": "北海道日本ハムファイターズ 歴代ヘルメットコレクション|6|r",
-    "checkedAt": 1792746550522
+    "checkedAt": 1793956151380
   },
   "needy-girl-overdose-rich-6a32ea8b": {
     "sig": "NEEDY GIRL OVERDOSE　コレクションフィギュアRICH|6|p",
-    "checkedAt": 1792746550522,
+    "checkedAt": 1793956151380,
     "compset": {
       "q": "コレクションフィギュアRICH ガチャ コンプ",
-      "count": 75
+      "count": 84
     },
     "preorder": {
       "q": "NEEDY GIRL OVERDOSE コレクションフィギュアRICH 予約",
@@ -6705,6 +6681,14 @@
     "preorder": {
       "q": "銀河特急 ガチャ 予約",
       "count": 12
+    }
+  },
+  "gacha-4f354828": {
+    "sig": "パンクドランカーズ あいつ民芸|5|r",
+    "checkedAt": 1793956151380,
+    "compset": {
+      "q": "パンクドランカーズ あいつ民芸 セット",
+      "count": 3
     }
   }
 }
