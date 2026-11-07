@@ -1937,6 +1937,27 @@
     "description": "仮面ライダーマイスをモチーフにした、お祝いの席を彩るキャラデコケーキタイプの食玩です。5号サイズで、プレミアムバンダイ等の通販限定商品となっており、店頭でのお取り扱いはありません。バンダイのキャンディ事業部が手がける商品で、クリスマスシーズンの予約にも対応しています。発送は2026年12月18日を予定しており、価格は4000円です。"
   },
   {
+    "id": "shokugan-4570117936272000",
+    "name": "装動 仮面ライダーマイス EGZ2",
+    "officialUrl": "https://www.bandai.co.jp/candy/products/2026/4570117936272000.html",
+    "jan": "4570117936272",
+    "releaseYm": "2026-12",
+    "releaseDay": null,
+    "releaseKind": "sale",
+    "collectedAt": "2026-11-07T00:08:10.281Z",
+    "price": 590,
+    "priceTaxIn": 649,
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005436/imgrc0118092317.jpg?_ex=400x400",
+    "rakutenCount": 1,
+    "enrichedAt": 1794010096262,
+    "description": "仮面ライダーマイスを可動フィギュアとして楽しめる「装動」シリーズの第2弾が、食玩として登場します。新たに腰関節が加わったことで、前かがみや反りの姿勢まで表現できるようになりました。ラインナップには仮面ライダージャオも含まれています。価格は590円で、発売は2026年12月、バンダイのキャンディ事業部よりお菓子付き玩具として店頭に並びます。",
+    "cleanImageCheckedAt": "2026-11-07",
+    "cleanImageCands": [
+      "a7ecad9c"
+    ],
+    "cleanImageMisses": 1
+  },
+  {
     "id": "shokugan-4570117935657000",
     "name": "ミニプラ 角醒ハンター オメガホーン02 角獣ゼツエンカク＆オメガホーン・絶＆キエンカクセット",
     "officialUrl": "https://www.bandai.co.jp/candy/products/2026/4570117935657000.html",
