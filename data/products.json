@@ -1,5 +1,71 @@
 [
   {
+    "id": "gacha-504379eb",
+    "name": "ふっくら福福すずめ フロッキー",
+    "brand": "ふっくら福福すずめ",
+    "brandSlug": "fukufukusuzume",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e099e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/05/suzume_f_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/05/suzume_f_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/fkfksuzume_flocky/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-11-07T09:45:54.681Z",
+    "officialDescription": "2016年に第1弾が発売され好評を博した「ふっくら福福」シリーズより「すずめ」が約10年ぶりに復活します！ ころころと丸みを帯びた“ふくらすずめ”の姿をモチーフに、見た目の愛らしさだけでなく、“福”を感じさせる縁起の良さも表現しました。今回は、ふわふわとした冬毛のような質感を表現するフロッキー仕様で登場。やさしい手触りと、より一層ふっくらと見えるフォルムは思わず手に取りたくなるような存在感です。カラーリングは、和の雰囲気を感じさせる全5種。集める楽しさが広がるシリーズとしてお届けします！ ラインナップは「 ちゃいろ 、うぐいすいろ 、やまぶきいろ 、みずいろ 、むらさきいろ 」の全5種。",
+    "size": "約42mm",
+    "description": "表面に起毛加工をほどこした、さわり心地のよいフロッキーマスコットとして展開されるのが「ふっくら福福すずめ フロッキー」です。マットでやわらかな質感が魅力のシリーズのひとつとして、全5種がラインナップされています。価格は1回300円のカプセルトイで、キタンクラブより発売中です。",
+    "thumb": "https://gachaimg.com/thumb/gacha-504379eb.webp"
+  },
+  {
+    "id": "tv--6a907048",
+    "name": "TVアニメ「薫る花は凛と咲く」　カプセルラバーキーホルダー",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "12月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/30163720/kaoruhana_rubberkey_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/30163720/kaoruhana_rubberkey_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10136/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-11-07T09:45:54.681Z",
+    "officialDescription": "TVアニメ「薫る花は凛と咲く」よりカプセルラバーキーホルダーが登場！",
+    "thumb": "https://gachaimg.com/thumb/tv--6a907048.webp"
+  },
+  {
+    "id": "gacha-6607b6a8",
+    "name": "ハイキュー!!　みあげてすたぁマスコット 青葉城西高校・白鳥沢学園高校",
+    "brand": "ハイキュー",
+    "brandSlug": "haikyu",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "11月 下旬",
+    "color": "#d5e599",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/07121315/260731_HQ_miagete_aoba_shiratori_BCR_CP_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/07121315/260731_HQ_miagete_aoba_shiratori_BCR_CP_POP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10150/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-11-07T09:45:54.681Z",
+    "officialDescription": "アニメ「ハイキュー!!」より、みあげてすたぁマスコットに、青葉城西高校と白鳥沢学園高校のメンバーたちが登場！",
+    "description": "バレーボールを題材にした人気コミックス・アニメ「ハイキュー!!」より、青葉城西高校・白鳥沢学園高校のマスコットがカプセルトイに登場します。ブシロードクリエイティブより発売される本商品は全4種のラインナップで、1回500円で楽しめます。発売時期は11月下旬を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/gacha-6607b6a8.webp"
+  },
+  {
     "id": "gacha-4f354828",
     "name": "パンクドランカーズ あいつ民芸",
     "brand": "パンクドランカーズ",

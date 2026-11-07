@@ -3008,7 +3008,7 @@
     "price": 550,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ガンダム",
-    "types": null
+    "types": 5
   },
   {
     "title": "ポケットモンスター つまんでつなげてマスコット16",
@@ -5504,7 +5504,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第3週",
     "brand": "キングダム",
-    "types": null
+    "types": 12
   },
   {
     "title": "【フラットガシャポン】キングダム ポスターコレクション",
@@ -5624,7 +5624,7 @@
     "price": null,
     "releaseWeek": "2026年11月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 4
   },
   {
     "title": "ハリー・ポッター ディスプレイコレクション～魔法の杖～",
@@ -6512,7 +6512,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第4週",
     "brand": "マインクラフト",
-    "types": null
+    "types": 4
   },
   {
     "title": "ぷちきゅあ めじるしアクセサリー ～Heart Collection～",
