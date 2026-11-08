@@ -237,7 +237,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "スーパー戦隊",
-    "types": null
+    "types": 9
   },
   {
     "title": "カラフルビーズべこ しゃかしゃかめじるしアクセサリー",
@@ -344,7 +344,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "コジコジ BIGカプキャラ",
@@ -1784,7 +1784,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "【CAP'in GALLERY】atmos TENKYU フィギュアコレクション",
