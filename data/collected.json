@@ -5768,7 +5768,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第3週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "JRはたらく電車 カラフルマルチチャーム",
@@ -7256,7 +7256,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第4週",
     "brand": "ラブライブ",
-    "types": 20
+    "types": null
   },
   {
     "title": "Pigeon ピジョンミニチャーム2",
@@ -7926,6 +7926,19 @@
     "types": 4
   },
   {
+    "title": "くるまりスタイル ディズニーキャラクター　ふわふわ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908491",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908491_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908491_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月 9日週",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
     "title": "KIYATA 木工アートミニチュアコレクション2",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908736",
     "source": "タカラトミーアーツ公式",
@@ -8028,6 +8041,19 @@
     "releaseWeek": "2026年11月 16日週",
     "brand": "ポケモン",
     "types": 9
+  },
+  {
+    "title": "肩ズンFig. 忍たま乱太郎 五年生の段",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907098",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907098_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907098_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月 16日週",
+    "brand": "その他",
+    "types": 5
   },
   {
     "title": "サンリオキャラクターズ なかよしチャーム　オーロラMIX",
@@ -8173,19 +8199,6 @@
     "types": 6
   },
   {
-    "title": "くるまりスタイル ディズニーキャラクター　ふわふわ",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908491",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908491_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y908491_b.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年11月",
-    "brand": "ディズニー",
-    "types": 4
-  },
-  {
     "title": "おりぼんにゃんこ",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y908538",
     "source": "タカラトミーアーツ公式",
@@ -8327,6 +8340,19 @@
     "releaseWeek": "2026年11月",
     "brand": "トミカ",
     "types": 5
+  },
+  {
+    "title": "Disney ツイステッドワンダーランド 寮章リングコレクション",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y912375",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y912375_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y912375_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月",
+    "brand": "ディズニー",
+    "types": 7
   },
   {
     "title": "のっぽちゃんぬいぐるみ うさぎ",

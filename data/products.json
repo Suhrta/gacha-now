@@ -1,5 +1,79 @@
 [
   {
+    "id": "fig--0ef68117",
+    "name": "肩ズンFig. 忍たま乱太郎 五年生の段",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "11月 16日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907098_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907098_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907098",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-09T02:17:17.250Z",
+    "officialDescription": "隣の人の肩に頭を\"ズン\"ともたれてうとうとする姿が印象的な「肩ズンFig.」シリーズに、アニメ『忍たま乱太郎』が登場。忍術学園五年生がピックアップされており、それぞれの個性にあった表情やポーズで立体化されています。本体サイズは約5.5cm。ラインナップは「久々知兵助」「尾浜勘右衛門」「不破雷蔵」「鉢屋三郎」「竹谷八左ヱ門」の全5種。",
+    "size": "約5.5cm",
+    "lineup": [
+      "久々知兵助",
+      "尾浜勘右衛門",
+      "不破雷蔵",
+      "鉢屋三郎",
+      "竹谷八左ヱ門"
+    ],
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-09",
+    "rakutenThumbCands": [
+      "0d26e3bc",
+      "1248770a",
+      "220bd4c9",
+      "97006638",
+      "cae1bcbb",
+      "ddee4ea9"
+    ],
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/hobbyzakka-cha3/cabinet/09006683/11830761/imgrc0125769257.jpg?_ex=400x400",
+    "thumb": "https://gachaimg.com/thumb/fig--0ef68117.webp"
+  },
+  {
+    "id": "disney--142efbe0",
+    "name": "Disney ツイステッドワンダーランド 寮章リングコレクション",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 7,
+    "releaseWeek": "11月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y912375_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y912375_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y912375",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-09T02:17:17.250Z",
+    "officialDescription": "『ディズニー ツイステッドワンダーランド』のキャラクターたちが身に着けている寮章を、高級感あふれるクールなダイキャストリングでモデル化。細かい造形を再現した寮章パーツはもちろん、身に着けるリボンをイメージしたリングパーツのデザインにも注目です。本体サイズは縦約2.3〜3.5cm。ラインナップは「ハーツラビュル」「サバナクロー」「オクタヴィネル」「スカラビア」「ポムフィオーレ」「イグニハイド」「ディアソムニア」の全7種。",
+    "lineup": [
+      "ハーツラビュル",
+      "サバナクロー",
+      "オクタヴィネル",
+      "スカラビア",
+      "ポムフィオーレ",
+      "イグニハイド",
+      "ディアソムニア"
+    ],
+    "description": "多くのファンに親しまれているディズニー作品を題材にしたカプセルトイとして、「Disney ツイステッドワンダーランド 寮章リングコレクション」が登場します。1回400円で全7種がラインナップされており、タカラトミーアーツより11月に発売される予定です。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-09",
+    "rakutenThumbCands": [],
+    "thumb": "https://gachaimg.com/thumb/disney--142efbe0.webp"
+  },
+  {
     "id": "gacha-6003c66c",
     "name": "紙袋に入った猫 フロッキー2",
     "brand": "紙袋に入った猫",
@@ -1156,7 +1230,7 @@
     "brandSlug": "disney",
     "price": 400,
     "types": 4,
-    "releaseWeek": "11月",
+    "releaseWeek": "発売中",
     "color": "#CE93D8",
     "hot": false,
     "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y908491_b.jpg",
