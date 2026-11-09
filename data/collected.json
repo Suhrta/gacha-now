@@ -5768,7 +5768,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "JRはたらく電車 カラフルマルチチャーム",
@@ -7256,7 +7256,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第4週",
     "brand": "ラブライブ",
-    "types": null
+    "types": 20
   },
   {
     "title": "Pigeon ピジョンミニチャーム2",
@@ -8004,6 +8004,19 @@
     "types": 4
   },
   {
+    "title": "トイ・ストーリー Charmy Roomettes",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099380",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099380_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099380_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月 16日週",
+    "brand": "ディズニー",
+    "types": 4
+  },
+  {
     "title": "ディズニーキャラクター なかないモン そのさん",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904165",
     "source": "タカラトミーアーツ公式",
@@ -8092,6 +8105,19 @@
     "price": 500,
     "releaseWeek": "2026年11月",
     "brand": "その他",
+    "types": 6
+  },
+  {
+    "title": "トイ・ストーリー5 ゆらゆらつながるマスコット Part2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903618",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903618_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903618_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月",
+    "brand": "ディズニー",
     "types": 6
   },
   {

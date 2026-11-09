@@ -1,5 +1,75 @@
 [
   {
+    "id": "-charmy-roomettes-65f249f4",
+    "name": "トイ・ストーリー Charmy Roomettes",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 4,
+    "releaseWeek": "11月 16日週",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y099380_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y099380_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y099380",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-09T09:07:27.526Z",
+    "officialDescription": "ディズニー＆ピクサー映画『トイ・ストーリー』シリーズに登場する仲間たちが、キュートなインテリアになりました。第1弾として展開された『モンスターズ・インク』と合わせて飾ると、お部屋のように楽しめます。ルームライトは上下の取り外しが可能。本体サイズは約2.1〜5.5cm。ラインナップは「エイリアン/ルームライト」「ボー・ピープ/テーブル」「ウッディ/ロッキングチェア」「ハム/スツール」の全4種。",
+    "size": "約2.1〜5.5cm",
+    "lineup": [
+      "エイリアン/ルームライト",
+      "ボー・ピープ/テーブル",
+      "ウッディ/ロッキングチェア",
+      "ハム/スツール"
+    ],
+    "description": "ディズニーの世界観をテーマにしたカプセルトイ「トイ・ストーリー Charmy Roomettes」がタカラトミーアーツより登場します。価格は1回400円で、全4種がラインナップされています。発売時期は11月16日週を予定しています。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-09",
+    "rakutenThumbCands": [],
+    "thumb": "https://gachaimg.com/thumb/-charmy-roomettes-65f249f4.webp"
+  },
+  {
+    "id": "5-part2-24d6ef46",
+    "name": "トイ・ストーリー5 ゆらゆらつながるマスコット Part2",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 400,
+    "types": 6,
+    "releaseWeek": "11月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903618_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903618_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903618",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-09T09:07:27.526Z",
+    "officialDescription": "カニカンで上下に連結できるタカラトミーアーツのオリジナルシリーズ「ゆらゆらつながるマスコット」。こちらに、ディズニー＆ピクサー映画『トイ・ストーリー5』の第2弾が登場します。「ウッディ」の背面には、「ギャビー・ギャビー」にボイスボックスを譲った跡も再現されています。本体サイズは約6.5cm。ラインナップは「ウッディ」「ジェシー」「スリンキー・ドッグ」「エイリアン」「スマーティー・パンツ」「レックス」の全6種。",
+    "size": "約6.5cm",
+    "lineup": [
+      "ウッディ",
+      "ジェシー",
+      "スリンキー・ドッグ",
+      "エイリアン",
+      "スマーティー・パンツ",
+      "レックス"
+    ],
+    "description": "タカラトミーアーツより、ディズニーの人気作を題材にしたカプセルトイ「トイ・ストーリー5 ゆらゆらつながるマスコット Part2」が登場します。全6種のラインナップで、1回400円で楽しめます。発売は11月を予定しています。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-09",
+    "rakutenThumbCands": [
+      "220bd4c9",
+      "4be30a48"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/5-part2-24d6ef46.webp"
+  },
+  {
     "id": "fig--0ef68117",
     "name": "肩ズンFig. 忍たま乱太郎 五年生の段",
     "brand": "その他",
