@@ -84,11 +84,15 @@ export default function ItemPage({ params }) {
 
   if (!product) notFound();
 
-  const productLd = {
+  // 画像の無い商品では Product 自体を出さない。offers 付きの Product は
+  // Google の「販売者のリスティング」扱いで image が必須項目のため、欠けると
+  // Search Console で重大な問題として報告される（2026-11-09）。
+  const productImages = product.images && product.images.length > 0 ? product.images : (product.img ? [product.img] : null);
+  const productLd = productImages && {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.name,
-    image: product.images && product.images.length > 0 ? product.images : (product.img ? [product.img] : undefined),
+    image: productImages,
     description: product.description || `${product.name}${product.types ? `（全${product.types}種）` : ""}のカプセルトイ新作情報。${product.releaseWeek}発売。`,
     brand: { "@type": "Brand", name: product.brand },
     offers: {
@@ -135,7 +139,9 @@ export default function ItemPage({ params }) {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productLd) }} />
+      {productLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productLd) }} />
+      )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
       <div className="px-4 pt-4">
         <Breadcrumb

@@ -66,11 +66,15 @@ export default function ShokuganItemPage({ params }) {
   // 構造化データ。価格は公式の表示価格（事実）をそのまま使う。
   // availability は発売日で出し分ける（ガチャ側で発売前を InStock と申告していた
   // 不具合があったため、ここは最初から正しく出す）。
-  const productLd = {
+  //
+  // 画像の無い商品では Product 自体を出さない。offers 付きの Product は
+  // Google の「販売者のリスティング」扱いで image が必須項目のため、欠けると
+  // Search Console で重大な問題として報告される（2026-11-09。掲載89件中27件が画像なし）。
+  const productLd = imageUrl(item) && {
     "@context": "https://schema.org",
     "@type": "Product",
     name: item.name,
-    ...(imageUrl(item) ? { image: [imageUrl(item)] } : {}),
+    image: [imageUrl(item)],
     ...(item.description ? { description: item.description } : {}),
     brand: { "@type": "Brand", name: "バンダイ" },
     // 構造化データの price は総額（税込）を申告する。税抜を出すと
@@ -92,10 +96,12 @@ export default function ShokuganItemPage({ params }) {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productLd) }}
-      />
+      {productLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(productLd) }}
+        />
+      )}
 
       <header className="bg-cream border-b-2 border-cream-border px-4 pt-4 pb-3">
         <Link
