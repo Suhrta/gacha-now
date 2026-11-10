@@ -4328,7 +4328,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第2週",
     "brand": "サンリオ",
-    "types": null
+    "types": 6
   },
   {
     "title": "アニメ「桜蘭高校ホスト部」 つまんでつなげてますこっと",
@@ -5120,7 +5120,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第3週",
     "brand": "名探偵コナン",
-    "types": null
+    "types": 5
   },
   {
     "title": "capsuleトルソー “ディズニーキャラクター” ミニチュア＆パッケージコレクション",
@@ -5912,7 +5912,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第3週",
     "brand": "ジョジョの奇妙な冒険",
-    "types": null
+    "types": 4
   },
   {
     "title": "デジモンアドベンチャー めじるしアクセサリー3",
@@ -6224,7 +6224,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第3週",
     "brand": "ちいかわ",
-    "types": null
+    "types": 6
   },
   {
     "title": "仮面ライダーマイス GPライダーエグズ03",
@@ -12994,5 +12994,18 @@
     "releaseWeek": "2027年3月 下旬",
     "brand": "その他",
     "types": 4
+  },
+  {
+    "title": "学園アイドルマスター　むぎゅみにコレクションフィギュア vol.2",
+    "url": "https://capsule.bushiroad-creative.com/product/10295/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/11/10102543/gakuen_imas_mugyumini2_fg_CP_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/11/10102543/gakuen_imas_mugyumini2_fg_CP_POP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2027年4月 下旬",
+    "brand": "学園アイドルマスター",
+    "types": 5
   }
 ]
