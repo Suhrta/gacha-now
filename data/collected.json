@@ -4328,7 +4328,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第2週",
     "brand": "サンリオ",
-    "types": 6
+    "types": null
   },
   {
     "title": "アニメ「桜蘭高校ホスト部」 つまんでつなげてますこっと",
@@ -5120,7 +5120,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第3週",
     "brand": "名探偵コナン",
-    "types": 5
+    "types": null
   },
   {
     "title": "capsuleトルソー “ディズニーキャラクター” ミニチュア＆パッケージコレクション",
@@ -5174,9 +5174,9 @@
     "title": "劇場版『チェンソーマン レゼ篇』 まちぼうけ",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770056044000",
     "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000260529_2.jpg",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000260529_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000260529_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000260529_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000260529_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000260529_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000260529_4.jpg",
@@ -5912,7 +5912,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第3週",
     "brand": "ジョジョの奇妙な冒険",
-    "types": 4
+    "types": null
   },
   {
     "title": "デジモンアドベンチャー めじるしアクセサリー3",
@@ -5984,30 +5984,6 @@
     "price": 300,
     "releaseWeek": "2026年11月 第3週",
     "brand": "ケアベア",
-    "types": 6
-  },
-  {
-    "title": "なめこ栽培キット ミニチュアパッケージチャーム",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770071115000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年11月 第3週",
-    "brand": "なめこ栽培キット",
     "types": 6
   },
   {
@@ -6248,7 +6224,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第3週",
     "brand": "ちいかわ",
-    "types": 6
+    "types": null
   },
   {
     "title": "仮面ライダーマイス GPライダーエグズ03",
@@ -7833,6 +7809,30 @@
     "releaseWeek": "未定",
     "brand": "学園アイドルマスター",
     "types": 4
+  },
+  {
+    "title": "なめこ栽培キット ミニチュアパッケージチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770071115000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259594_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "未定",
+    "brand": "なめこ栽培キット",
+    "types": 6
   },
   {
     "title": "肩ズンFig. ペルソナ５ ザ・ロイヤル vol.1",
