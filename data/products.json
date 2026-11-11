@@ -486,7 +486,7 @@
       "おきにいりのリュック"
     ],
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-11-04",
+    "rakutenThumbCheckedAt": "2026-11-11",
     "rakutenThumbCands": [
       "2853e3bb",
       "97006638"
@@ -522,9 +522,12 @@
     ],
     "description": "世界中で愛されるディズニーの人気キャラクターたちをモチーフにしたカプセルトイ「ぴたぷりっマスコット」がタカラトミーアーツより登場します。価格は1回400円で、全4種がラインナップされます。発売は11月を予定しており、店頭のガチャガチャ筐体での展開が見込まれます。",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-11-04",
-    "rakutenThumbCands": [],
-    "thumb": "https://gachaimg.com/thumb/gacha-0c04d114.webp"
+    "rakutenThumbCheckedAt": "2026-11-11",
+    "rakutenThumbCands": [
+      "4be30a48"
+    ],
+    "thumb": "https://gachaimg.com/thumb/gacha-0c04d114.webp",
+    "rakutenThumbMisses": 1
   },
   {
     "id": "gacha-3039e03d",
@@ -554,13 +557,13 @@
     ],
     "description": "タカラトミーアーツから、世界的な人気を誇るSF映画シリーズ「スター・ウォーズ」のカプセルトイ「スター・ウォーズ グローグーいっぱいコレクション3」が登場します。全4種がラインナップされ、価格は1回400円です。発売時期は11月を予定しています。",
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-11-04",
+    "rakutenThumbCheckedAt": "2026-11-11",
     "rakutenThumbCands": [
       "0d26e3bc",
       "220bd4c9",
-      "4be30a48"
+      "6c21be1e"
     ],
-    "rakutenThumbMisses": 1,
+    "rakutenThumbMisses": 2,
     "thumb": "https://gachaimg.com/thumb/gacha-3039e03d.webp"
   },
   {
