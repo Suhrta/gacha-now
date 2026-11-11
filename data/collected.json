@@ -237,7 +237,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "スーパー戦隊",
-    "types": 9
+    "types": null
   },
   {
     "title": "カラフルビーズべこ しゃかしゃかめじるしアクセサリー",
@@ -1616,7 +1616,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "メロとタビ めじるしアクセサリー",
@@ -2048,7 +2048,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "サンリオ",
-    "types": 5
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ 実写版ミニチュアチャーム",
@@ -3464,7 +3464,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "どうぶつの森",
-    "types": null
+    "types": 7
   },
   {
     "title": "らぼっと ふわふわフロッキーチャーム",
@@ -8392,6 +8392,19 @@
     "types": 7
   },
   {
+    "title": "ピクサーキャラクター ファッションリング オーロラクリア",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911767",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911767_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y911767_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月",
+    "brand": "ディズニー",
+    "types": 9
+  },
+  {
     "title": "プラレールキーホルダーSP クリアver.",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911965",
     "source": "タカラトミーアーツ公式",
@@ -8416,6 +8429,19 @@
     "releaseWeek": "2026年11月",
     "brand": "ディズニー",
     "types": 7
+  },
+  {
+    "title": "カプセルプラレール きかんしゃトーマス ヘリコプターのハロルドがやってきた！編",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y912771",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y912771_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y912771_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月",
+    "brand": "トミカ",
+    "types": 11
   },
   {
     "title": "のっぽちゃんぬいぐるみ うさぎ",

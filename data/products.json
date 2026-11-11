@@ -1,5 +1,87 @@
 [
   {
+    "id": "gacha-74063ebb",
+    "name": "ピクサーキャラクター ファッションリング オーロラクリア",
+    "brand": "ディズニー",
+    "brandSlug": "disney",
+    "price": 300,
+    "types": 9,
+    "releaseWeek": "11月",
+    "color": "#CE93D8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911767_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y911767_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911767",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-11T10:27:59.234Z",
+    "officialDescription": "ピクサーキャラクターのフェイスがデザインされた、オーロラクリア仕様のファッションリングです。ゴロンと大きめサイズで、存在感もバツグン！リング穴は繋がっていないC型タイプなので、大人でも身につけられます。本体サイズは約3cm。ラインナップは「イヴ」「ピクサー・ボール」「マイク」「サリー」「リトル・マイキー」「バターカップ」「エイリアン」「ロッツォ」「ドーリー」の全9種。",
+    "size": "約3cm",
+    "lineup": [
+      "イヴ",
+      "ピクサー・ボール",
+      "マイク",
+      "サリー",
+      "リトル・マイキー",
+      "バターカップ",
+      "エイリアン",
+      "ロッツォ",
+      "ドーリー"
+    ],
+    "description": "数々の名作アニメーションで知られるディズニー作品の中から、ピクサーキャラクターをモチーフにしたファッションリング オーロラクリアがカプセルトイに登場します。全9種がラインナップされ、1回300円で楽しめます。発売時期はタカラトミーアーツより11月を予定しています。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-11",
+    "rakutenThumbCands": [
+      "220bd4c9",
+      "2853e3bb",
+      "4be30a48",
+      "97006638"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-74063ebb.webp"
+  },
+  {
+    "id": "gacha-3da74b3a",
+    "name": "カプセルプラレール きかんしゃトーマス ヘリコプターのハロルドがやってきた！編",
+    "brand": "トミカ",
+    "brandSlug": "tomica",
+    "price": 300,
+    "types": 11,
+    "releaseWeek": "11月",
+    "color": "#e599a8",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y912771_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y912771_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y912771",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-11T10:27:59.234Z",
+    "officialDescription": "ヘリコプターの「ハロルド」をフィーチャーした「カプセルプラレール きかんしゃトーマス」。ゼンマイでプロペラが回る「ハロルド」をはじめ、ゆかりのある仲間たちがラインナップされています。ストラクチャーの「ポイントレール」は、レバー操作で方向を選択できます。本体サイズは約6.2cm（キャプテン）。ラインナップは「ハロルド（ゼンマイ車）」「トーマス（連結パーツ付）」「テレンス（ゼンマイ車）」「パーシー（連結パーツ付）」「キャプテン」「背景付駅」「ハロルドのヘリポート」「十字レールセット」「まがレール」「ポイントレール（L）+ハーフレール 2本付」「ポイントレール（R）+ハーフレール 2本付」の全11種。",
+    "size": "約6.2cm",
+    "lineup": [
+      "ハロルド（ゼンマイ車）",
+      "トーマス（連結パーツ付）",
+      "テレンス（ゼンマイ車）",
+      "パーシー（連結パーツ付）",
+      "キャプテン",
+      "背景付駅",
+      "ハロルドのヘリポート",
+      "十字レールセット",
+      "まがレール",
+      "ポイントレール（L）+ハーフレール 2本付",
+      "ポイントレール（R）+ハーフレール 2本付"
+    ],
+    "description": "子どもから大人まで親しまれているトミカのカプセルトイから、「カプセルプラレール きかんしゃトーマス ヘリコプターのハロルドがやってきた！編」が登場します。1回300円で、全11種のラインナップが揃っています。タカラトミーアーツより11月に発売予定です。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-11",
+    "rakutenThumbCands": [],
+    "thumb": "https://gachaimg.com/thumb/gacha-3da74b3a.webp"
+  },
+  {
     "id": "gacha-1a569885",
     "name": "ふわふわ大根おろしのねこちゃあぁぁん めじるしアクセサリー",
     "brand": "その他",
