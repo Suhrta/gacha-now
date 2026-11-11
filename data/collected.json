@@ -237,7 +237,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "スーパー戦隊",
-    "types": null
+    "types": 9
   },
   {
     "title": "カラフルビーズべこ しゃかしゃかめじるしアクセサリー",
@@ -1616,7 +1616,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "メロとタビ めじるしアクセサリー",
@@ -2048,7 +2048,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "サンリオキャラクターズ 実写版ミニチュアチャーム",
@@ -13057,5 +13057,18 @@
     "releaseWeek": "2027年4月 下旬",
     "brand": "学園アイドルマスター",
     "types": 5
+  },
+  {
+    "title": "BanG Dream!　カプセルアソートコレクション MyGO!!!!! vol.4",
+    "url": "https://capsule.bushiroad-creative.com/product/10297/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/11/10142421/BDP_MyGO_kobe_canbadge_ari.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/11/10142421/BDP_MyGO_kobe_canbadge_ari.jpg"
+    ],
+    "price": 600,
+    "releaseWeek": "2026年11月",
+    "brand": "バンドリ",
+    "types": 11
   }
 ]
