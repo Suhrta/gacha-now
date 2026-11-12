@@ -824,7 +824,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第3週",
     "brand": "その他",
-    "types": 9
+    "types": null
   },
   {
     "title": "暗殺教室 殺せんせー めじるしアクセサリー2",
@@ -7911,6 +7911,19 @@
     "types": 3
   },
   {
+    "title": "つながリングチャーム ピクミン",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904219",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y904219_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y904219_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 9日週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
     "title": "おねがいアイプリ めじるしガチャマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y904363",
     "source": "タカラトミーアーツ公式",
@@ -8106,6 +8119,19 @@
     "types": 5
   },
   {
+    "title": "オトメン（乙男） アクリルめじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909795",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909795_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909795_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 16日週",
+    "brand": "その他",
+    "types": 12
+  },
+  {
     "title": "サンリオキャラクターズ なかよしチャーム　オーロラMIX",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y912337",
     "source": "タカラトミーアーツ公式",
@@ -8117,6 +8143,45 @@
     "releaseWeek": "2026年11月 16日週",
     "brand": "サンリオ",
     "types": 8
+  },
+  {
+    "title": "ハリー・ポッター ホグワーツクレストピンズ",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909207",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909207_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909207_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 23日週",
+    "brand": "ハリー・ポッター",
+    "types": 5
+  },
+  {
+    "title": "UCC上島珈琲 めじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909658",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909658_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909658_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 23日週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "プラレールキーホルダーSP クリアver.",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911965",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911965_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y911965_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 23日週",
+    "brand": "トミカ",
+    "types": 5
   },
   {
     "title": "野菜チェス",
@@ -8327,19 +8392,6 @@
     "types": 5
   },
   {
-    "title": "ハリー・ポッター ホグワーツクレストピンズ",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909207",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909207_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909207_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年11月",
-    "brand": "ハリー・ポッター",
-    "types": 5
-  },
-  {
     "title": "まんまるどうぶつ まんまるねこ めじるしガチャマスコット",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909597",
     "source": "タカラトミーアーツ公式",
@@ -8351,19 +8403,6 @@
     "releaseWeek": "2026年11月",
     "brand": "その他",
     "types": 6
-  },
-  {
-    "title": "UCC上島珈琲 めじるしガチャマスコット",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909658",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909658_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909658_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年11月",
-    "brand": "その他",
-    "types": 5
   },
   {
     "title": "MOOMIN もふもふポーシェット2",
@@ -8403,19 +8442,6 @@
     "releaseWeek": "2026年11月",
     "brand": "ディズニー",
     "types": 9
-  },
-  {
-    "title": "プラレールキーホルダーSP クリアver.",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911965",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911965_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y911965_b.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年11月",
-    "brand": "トミカ",
-    "types": 5
   },
   {
     "title": "Disney ツイステッドワンダーランド 寮章リングコレクション",
