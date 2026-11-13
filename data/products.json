@@ -1,5 +1,40 @@
 [
   {
+    "id": "spookiz--3d653f29",
+    "name": "Spookiz めじるしガチャマスコット",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "11月 16日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907760_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907760_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907760",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-13T09:10:05.562Z",
+    "officialDescription": "総再生数34億回を突破した大人気アニメ『Spookiz』のキャラクターが、クリア素材でかわいい「めじるしガチャマスコット」になりました。シリコンリングとカニカン付きで、傘やペットボトルなどにつければ自分用のマーカーとしても使えます。本体サイズは高さ約3.5cm。ラインナップは「Cula」「Frankie」「Kebi」「Kongkong」「Zizi」の全5種。",
+    "lineup": [
+      "Cula",
+      "Frankie",
+      "Kebi",
+      "Kongkong",
+      "Zizi"
+    ],
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-13",
+    "rakutenThumbCands": [
+      "220bd4c9",
+      "b24a2a19"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/spookiz--3d653f29.webp"
+  },
+  {
     "id": "chucky--636ddfdc",
     "name": "CHUCKY レトロテイストソフビ",
     "brand": "その他",
@@ -14591,12 +14626,12 @@
     "brandSlug": "aespa",
     "price": 400,
     "types": 4,
-    "releaseWeek": "11月 第4週",
+    "releaseWeek": "発売中",
     "color": "#99d6e5",
     "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_2.jpg",
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_1.jpg",
     "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_1.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_2.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_3.jpg",
       "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_4.jpg",

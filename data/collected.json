@@ -4307,6 +4307,30 @@
     "types": 5
   },
   {
+    "title": "aespa ぷくっとリング",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118186485000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月 第2週",
+    "brand": "aespa",
+    "types": 4
+  },
+  {
     "title": "ジュエルペット キラキラミラー風コレクション",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4570118186904000",
     "source": "バンダイ公式",
@@ -6584,7 +6608,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第4週",
     "brand": "ディズニー",
-    "types": 5
+    "types": null
   },
   {
     "title": "カプセリウム ドラゴンクエスト",
@@ -7667,30 +7691,6 @@
     "types": 8
   },
   {
-    "title": "aespa ぷくっとリング",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4570118186485000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_2.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000254802_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年11月 第4週",
-    "brand": "aespa",
-    "types": 4
-  },
-  {
     "title": "NCT WISH つまんでつなげてますこっと",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769777059000",
     "source": "バンダイ公式",
@@ -8127,6 +8127,19 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y907098_b.jpg"
     ],
     "price": 400,
+    "releaseWeek": "2026年11月 16日週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
+    "title": "Spookiz めじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y907760",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y907760_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y907760_b.jpg"
+    ],
+    "price": 300,
     "releaseWeek": "2026年11月 16日週",
     "brand": "その他",
     "types": 5
