@@ -1,0 +1,413 @@
+{
+ "chiikawa": {
+  "query": "ちいかわ",
+  "checkedAt": "2026-11-14",
+  "items": [
+   {
+    "jan": "4582770137750000",
+    "name": "ポンデクルール ちいかわ マルチカラーパウダー",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259513_1.jpg",
+    "release": "2026年11月 第3週",
+    "ym": "2026-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118206206000",
+    "name": "ちいかわ ふわふわフロッキードール",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256912_1.jpg",
+    "release": "2026年10月 第5週",
+    "ym": "2026-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118187321000",
+    "name": "ちいかわ カプセルステッキ",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_1.jpg",
+    "release": "2026年10月 第5週",
+    "ym": "2026-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117984075000",
+    "name": "ちいかわ めじるしアクセサリー3",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250113_1.jpg",
+    "release": "2026年10月 第4週",
+    "ym": "2026-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769911385000",
+    "name": "ちいかわ 手作りおやつチャーム #平成女児チョコ",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243217_1.jpg",
+    "release": "2026年1月 第5週",
+    "ym": "2026-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769866784000",
+    "name": "ちいかわ ライトクリップ",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241604_1.jpg",
+    "release": "2026年1月 第3週",
+    "ym": "2026-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769744822000",
+    "name": "ちいかわ きゃらまかろん",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241635_1.jpg",
+    "release": "2026年7月 第5週",
+    "ym": "2026-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118164339000",
+    "name": "びっくらたまご ちいかわ おふろぷかりん",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241618_1.jpg",
+    "release": "2025年12月 第2週",
+    "ym": "2025-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769744815000",
+    "name": "ちいかわ ならぶんです。3",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000234228_1.jpg",
+    "release": "2025年8月 第5週",
+    "ym": "2025-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769681288000",
+    "name": "ちいかわ みんなでもぐもぐパーティ♪３",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000232432_1.jpg",
+    "release": "2025年7月 第3週",
+    "ym": "2025-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118196804000",
+    "name": "ちいかわ カラフルラバーマグネット２",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000229204_1.jpg",
+    "release": "2025年5月 第3週",
+    "ym": "2025-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769738647000",
+    "name": "ちいかわ おくるみマスコットチャーム",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000227916_1.jpg",
+    "release": "2026年2月 第1週",
+    "ym": "2026-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118209160000",
+    "name": "ちいかわ スヤスヤ Zzz... ますこっと2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000226637_1.jpg",
+    "release": "2025年9月 第1週",
+    "ym": "2025-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118143433000",
+    "name": "ちいかわ つまんでつなげてますこっと",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000224797_1.jpg",
+    "release": "2026年4月 第4週",
+    "ym": "2026-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118143419000",
+    "name": "ちいかわ ジェムリーズ",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000223479_1.jpg",
+    "release": "2025年1月 第4週",
+    "ym": "2025-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118120311000",
+    "name": "ちいかわ ヴィネットふれんず3",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000221341_1.jpg",
+    "release": "2024年12月 第2週",
+    "ym": "2024-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118005267000",
+    "name": "びっくらたまご ちいかわ ～おふろあがりマスコット～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000219672_1.jpg",
+    "release": "2024年11月 第5週",
+    "ym": "2024-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118196866000",
+    "name": "【フラットガシャポン】ちいかわ クリアラバーコースター2",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000219566_1.jpg",
+    "release": "2024年11月 第3週",
+    "ym": "2024-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117988158000",
+    "name": "ハグコット ちいかわ4",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000216258_1.jpg",
+    "release": "2024年10月 第2週",
+    "ym": "2024-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117984112000",
+    "name": "カプセリウム ちいかわ",
+    "price": 600,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000214977_1.jpg",
+    "release": "2025年10月 第3週",
+    "ym": "2025-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118196828000",
+    "name": "ちいかわ はさむんです。でらっくす2",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000213841_1.jpg",
+    "release": "2024年7月 第3週",
+    "ym": "2024-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118120335000",
+    "name": "カプキャラ ちいかわ",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000212360_1.jpg",
+    "release": "2025年6月 第4週",
+    "ym": "2025-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117968488000",
+    "name": "びっくらたまご ちいかわ ～サウナとアイス～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000211118_1.jpg",
+    "release": "2024年5月 第4週",
+    "ym": "2024-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117984136000",
+    "name": "ちいかわ スタンドライト",
+    "price": 600,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000207030_1.jpg",
+    "release": "2024年5月 第1週",
+    "ym": "2024-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660986041000",
+    "name": "びっくらたまご ちいかわ ～ふろふちころりん～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000205464_1.jpg",
+    "release": "2024年1月 第4週",
+    "ym": "2024-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118106032000",
+    "name": "【フラットガシャポン】ちいかわ クリアラバーコースター",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000203664_1.jpg",
+    "release": "2023年12月 第4週",
+    "ym": "2023-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660986027000",
+    "name": "びっくらたまご ちいかわ ～みんなでサウナ～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000201884_1.jpg",
+    "release": "2023年11月 第3週",
+    "ym": "2023-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118023391000",
+    "name": "ちいかわ ライトブレス",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000200083_1.jpg",
+    "release": "2024年4月 第2週",
+    "ym": "2024-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117984051000",
+    "name": "ちいかわ はさむんです。でらっくす",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000196913_1.jpg",
+    "release": "2024年1月 第4週",
+    "ym": "2024-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117984037000",
+    "name": "ちいかわ カラフルラバーマグネット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000195333_1.jpg",
+    "release": "2024年1月 第3週",
+    "ym": "2024-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660792796000",
+    "name": "ちいかわ ならぶんです。2 ～歌っておどって♪～",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000192587_1.jpg",
+    "release": "2023年10月 第4週",
+    "ym": "2023-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660792819000",
+    "name": "ちいかわ みんなでもぐもぐパーティ♪２",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000189837_1.jpg",
+    "release": "2023年12月 第3週",
+    "ym": "2023-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660778417000",
+    "name": "ちいかわ ヴィネットふれんず2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000188020_1.jpg",
+    "release": "2023年6月 第5週",
+    "ym": "2023-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660786979000",
+    "name": "ちいかわ ラバーマグネット2",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000186403_1.jpg",
+    "release": "2024年3月 第3週",
+    "ym": "2024-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660774730000",
+    "name": "ハグコット ちいかわ3",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000182844_1.jpg",
+    "release": "2023年4月 第4週",
+    "ym": "2023-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660774716000",
+    "name": "ちいかわ めじるしアクセサリー2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000181256_1.jpg",
+    "release": "2023年9月 第4週",
+    "ym": "2023-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660762577000",
+    "name": "ちいかわ けしけしけしごむコレクション",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000178140_1.jpg",
+    "release": "2023年8月 第1週",
+    "ym": "2023-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660762591000",
+    "name": "ちいかわ ヴィネットふれんず",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000176771_1.jpg",
+    "release": "2022年11月 第4週",
+    "ym": "2022-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660762553000",
+    "name": "ちいかわ スヤスヤＺｚｚ…ますこっと",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000175181_1.jpg",
+    "release": "2023年11月 第4週",
+    "ym": "2023-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660654216000",
+    "name": "ちいかわ ならぶんです。",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000170251_1.jpg",
+    "release": "2022年2月 第5週",
+    "ym": "2022-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660654193000",
+    "name": "ちいかわ めじるしアクセサリー",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000168855_1.jpg",
+    "release": "2022年1月 第5週",
+    "ym": "2022-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660746935000",
+    "name": "ちいかわ ラバーマグネット",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000167402_1.jpg",
+    "release": "2022年4月 第5週",
+    "ym": "2022-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660654179000",
+    "name": "ハグコット ちいかわ2",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000164721_1.jpg",
+    "release": "2021年10月 第4週",
+    "ym": "2021-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660608158000",
+    "name": "ちいかわ みんなでもぐもぐパーティ♪",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000162253_1.jpg",
+    "release": "2021年12月 第2週",
+    "ym": "2021-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660534112000",
+    "name": "ハグコット なんか小さくてかわいいやつ",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000150602_1.jpg",
+    "release": "2020年10月 第4週",
+    "ym": "2020-10",
+    "releaseChecked": true
+   }
+  ]
+ }
+}

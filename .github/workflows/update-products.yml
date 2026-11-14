@@ -295,12 +295,20 @@ jobs:
       - name: Remove old post images
         run: node scripts/cleanup-posts.js
 
+      # ちいかわ等の「これまでに出たガチャ」（/brand/[slug] の欄）。
+      # 検索1回＋未取得の詳細ページ最大10件。gashapon.jp の403対策で件数を絞っている。
+      # 失敗しても前回の data/ip-archive.json が残るだけなので全体は止めない。
+      - name: Collect IP archive
+        continue-on-error: true
+        run: node scripts/collect-ip-archive.js
+
       - name: Commit and push if changed
         id: push_data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/products.json data/new-today.json data/collected.json data/rakuten-links.json
+          git add data/ip-archive.json 2>/dev/null || true
           # 食玩。存在しない時期（収集が一度も成功していない等）があるので保護する。
           git add data/shokugan.json 2>/dev/null || true
           # 画像判定の月次コスト記録。これをコミットしないと毎ラン0から数え直しになり、

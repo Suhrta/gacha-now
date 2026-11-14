@@ -11,6 +11,7 @@ import { buildHubHeading } from "../../../lib/hub-info";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
 import AdUnit, { useInFeedGrid } from "../../../components/AdUnit";
 import PopularNowSection from "../../../components/PopularNowSection";
+import IpArchive, { getIpArchive } from "../../../components/IpArchive";
 import products from "../../../data/products.json";
 import { getBrandIntro } from "../../../data/character-intros";
 import { getPopularBrands } from "../../../lib/browse";
@@ -31,6 +32,8 @@ export default function BrandPage() {
   const brandName = brandProducts.length > 0 ? brandProducts[0].brand : slug;
   const popularBrands = getPopularBrands(products, { excludeSlug: slug });
   const releaseMonths = getAllReleaseMonths(products);
+  // 新作の少ないIPは掲載中だけだと数件しか並ばないので、過去の発売分も載せる（components/IpArchive.jsx）
+  const ipArchive = getIpArchive(slug, products);
   const relatedShokugan = shokuganForBrand(
     brandName,
     shokugan.filter(isPublishableShokugan)
@@ -64,6 +67,19 @@ export default function BrandPage() {
             商品グリッドだけだと読むものが無く数秒で離脱するため、同じ文章をここでも出す */}
         <HubLead name={brandName} items={brandProducts} intro={getBrandIntro(slug)} />
 
+        {ipArchive ? (
+          <a
+            href="#archive"
+            className="relative z-[1] flex items-center gap-2 mb-3 px-4 py-3 bg-white border-2 border-brand-accent rounded-xl no-underline hover:bg-cream-dark transition-colors"
+          >
+            <span className="text-lg shrink-0">🗂️</span>
+            <span className="text-xs font-bold text-brand-text leading-snug">
+              これまでに出た{brandName}のガチャ{ipArchive.total}件を見る
+            </span>
+            <span className="text-brand-accent text-sm shrink-0 ml-auto">↓</span>
+          </a>
+        ) : null}
+
         <div className="font-pixel text-[10px] text-brand-sub mb-2.5 px-1 relative">
           {brandProducts.length}けん
         </div>
@@ -85,6 +101,8 @@ export default function BrandPage() {
 
         {/* 掲載が少なくて帯を挟む行が無いページ。ここだけグリッドの直下に落とす */}
         {brandProducts.length > 0 && brandProducts.length <= firstBandAt && <AdUnit name="inFeed" />}
+
+        <IpArchive name={brandName} archive={ipArchive} />
 
         <HubDetails name={brandName} items={brandProducts} intro={getBrandIntro(slug)} />
 
