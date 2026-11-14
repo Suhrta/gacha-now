@@ -1470,17 +1470,18 @@
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 270,
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01487.jpg?_ex=400x400",
-    "rakutenCount": 1,
-    "enrichedAt": 1791889089968,
+    "rakutenCount": 6,
+    "enrichedAt": 1794624880689,
     "description": "人気キャラクターたちの何気ない毎日をアクリル製マグネットに仕立てた食玩「ちいかわ キャラマグネッツ5」が登場します。バリエーション豊かな全21種がラインナップされており、中にはオーロラ仕様やキラキララメ入り、フレーム付きといった特別な仕様も用意されています。価格は270円で、店頭にて2026年11月に発売予定です。",
     "priceTaxIn": 297,
-    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01487.jpg?_ex=400x400",
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005435/imgrc0115023889.jpg?_ex=400x400",
     "cleanImageCheckedAt": "2026-10-20",
     "cleanImageCands": [
       "783e61ec",
       "885d437a"
     ],
-    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/aromacoffee/cabinet/13819428/4570117929335a.jpg?_ex=400x400"
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/aromacoffee/cabinet/13819428/4570117929335a.jpg?_ex=400x400",
+    "rakutenBoxCount": 5
   },
   {
     "id": "shokugan-4570117930874000",
@@ -1493,11 +1494,11 @@
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 160,
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01453.jpg?_ex=400x400",
-    "rakutenCount": 1,
-    "enrichedAt": 1791889099243,
+    "rakutenCount": 10,
+    "enrichedAt": 1794624884749,
     "description": "人気コンテンツ「ホロライブプロダクション」のカードが付いたウエハース菓子の新しいシリーズです。今回はメンバーたちの手書きコメントがカード裏面に印刷されており、この商品でしか読めない内容になっています。バンダイのキャンディ事業部が手がける食玩で、価格は160円、店頭で購入できます。発売は2026年11月を予定しています。",
     "priceTaxIn": 176,
-    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01453.jpg?_ex=400x400",
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/okagesama-market/cabinet/07167076/imgrc0121891309.jpg?_ex=400x400",
     "cleanImageCheckedAt": "2026-11-03",
     "cleanImageCands": [
       "08b6365c",
@@ -1506,7 +1507,8 @@
       "db6f8d2c",
       "e498fada"
     ],
-    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/meiaistore/cabinet/3/20260927_0045.jpg?_ex=400x400"
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/meiaistore/cabinet/3/20260927_0045.jpg?_ex=400x400",
+    "rakutenBoxCount": 7
   },
   {
     "id": "shokugan-4570117931512000",
@@ -1519,12 +1521,13 @@
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 360,
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01394.jpg?_ex=400x400",
-    "rakutenCount": 2,
-    "enrichedAt": 1791889130818,
+    "rakutenCount": 6,
+    "enrichedAt": 1794624888722,
     "description": "サンリオのキャラクターたちをあしらったオーナメントチャームに、いちごチョコがけのボーロを組み合わせた食玩が登場します。チャームにはボールチェーンが付いており、かばんやポーチに付けて持ち歩いたり、お部屋に飾ったりと楽しみ方はいろいろです。クリスマスシーズンにはツリーの飾り付けにも使える仕様になっています。価格は360円で、2026年11月にバンダイ（キャンディ事業部）から発売される予定です。",
     "priceTaxIn": 396,
-    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01394.jpg?_ex=400x400",
-    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/toysprime/cabinet/system202512-11/imgrc0105075877.jpg?_ex=400x400"
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005435/imgrc0113397943.jpg?_ex=400x400",
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/toysprime/cabinet/system202512-11/imgrc0105075877.jpg?_ex=400x400",
+    "rakutenBoxCount": 5
   },
   {
     "id": "shokugan-4570117935855000",
@@ -1568,14 +1571,17 @@
     "releaseKind": "sale",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 350,
-    "enrichedAt": 1791889017008,
+    "enrichedAt": 1794624892484,
     "description": "バンダイのキャンディ事業部が手がける人気食玩「チョコサプ」シリーズから、ちいかわをテーマにした第2弾が登場します。ツートンカラーのカプセル型をした準チョコレート菓子の中には、彩色済みのちいかわフィギュアと台座がセットで入っており、シークレットを含む14種類が用意されています。価格は350円で、店頭での販売を予定しており、発売時期は2026年11月です。",
     "priceTaxIn": 385,
     "cleanImageCheckedAt": "2026-11-03",
     "cleanImageCands": [
       "802a694a"
     ],
-    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/meiaistore/cabinet/3/20260927_0001.jpg?_ex=400x400"
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/meiaistore/cabinet/3/20260927_0001.jpg?_ex=400x400",
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005435/imgrc0115947641.jpg?_ex=400x400",
+    "rakutenCount": 5,
+    "rakutenBoxCount": 4
   },
   {
     "id": "shokugan-4570117933400000",
@@ -1587,14 +1593,16 @@
     "releaseKind": "sale",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 140,
-    "enrichedAt": 1791889025079,
+    "enrichedAt": 1794624896302,
     "description": "『僕のヒーローアカデミア』のイラストを使ったシールが付属する食玩「にふぉるめーしょん 僕のヒーローアカデミア ウルトラシールウエハース」の第6弾です。描き起こしイラストでA組のメンバーやワン・フォー・オール歴代継承者たちが登場するほか、シリーズ5周年を記念したレアシールも収録されます。価格は140円で、バンダイのキャンディ事業部より2026年11月に発売、店頭での販売が予定されています。",
     "priceTaxIn": 154,
     "cleanImageCheckedAt": "2026-11-03",
     "cleanImageCands": [
       "00ebb828"
     ],
-    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14060317/imgrc0135446872.jpg?_ex=400x400"
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14060317/imgrc0135446872.jpg?_ex=400x400",
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005435/imgrc0115286615.jpg?_ex=400x400",
+    "rakutenCount": 2
   },
   {
     "id": "shokugan-4570117931703000",
@@ -1606,7 +1614,7 @@
     "releaseKind": "sale",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 350,
-    "enrichedAt": 1791889042914,
+    "enrichedAt": 1794624900076,
     "description": "矢沢あいさんの人気作品「天使なんかじゃない」「ご近所物語」「Paradise Kiss」「NANA」のキャラクターたちが、ラバークリップとなってグミに付属する食玩として登場します。クリップは前髪どめとしても使えるほか、バッグや文房具などさまざまな場所に取り付けて楽しめるアイテムです。グミの形も複数種類用意されており、バンダイのキャンディ事業部より2026年11月、価格350円で店頭に並ぶ予定です。",
     "priceTaxIn": 385,
     "cleanImageCheckedAt": "2026-11-03",
@@ -1615,7 +1623,10 @@
       "5d0b0652",
       "e810683d"
     ],
-    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14060317/imgrc0135446881.jpg?_ex=400x400"
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14060317/imgrc0135446881.jpg?_ex=400x400",
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005435/imgrc0115287289.jpg?_ex=400x400",
+    "rakutenCount": 3,
+    "rakutenBoxCount": 3
   },
   {
     "id": "shokugan-4570117930836000",
@@ -1630,7 +1641,7 @@
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/amiami/cabinet/images/2026/293/goods-04841991.jpg?_ex=400x400",
     "rakutenCount": 3,
     "rakutenBoxCount": 3,
-    "enrichedAt": 1791889061310,
+    "enrichedAt": 1794624903873,
     "description": "人気ゲーム「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」が、バンダイの食玩シリーズに登場します。ビスケットにはおなじみのキャラクターがプリントされ、おまけにはゲーム内のスタンプイラストをあしらったダイカットステッカーが付属し、デザインは全26種類から封入されます。価格は200円で、店頭にて2026年11月より発売予定です。",
     "priceTaxIn": 216,
     "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/amiami/cabinet/images/2026/293/goods-04841991.jpg?_ex=400x400",
@@ -1647,17 +1658,18 @@
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 390,
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01456.jpg?_ex=400x400",
-    "rakutenCount": 1,
-    "enrichedAt": 1791889080384,
+    "rakutenCount": 5,
+    "enrichedAt": 1794624907688,
     "description": "『名探偵プリキュア！』をテーマにしたソフビ人形シリーズの第2弾が、バンダイのキャンディ事業部から登場します。パール塗装による輝きと、ボリューム感のある髪が特徴のお菓子付き玩具で、台座がなくても自立するつくりなのでお人形としても楽しめます。価格は390円で、店頭での販売を予定しており、2026年11月に発売されます。",
     "priceTaxIn": 429,
-    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01456.jpg?_ex=400x400",
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005435/imgrc0114389776.jpg?_ex=400x400",
     "cleanImageCheckedAt": "2026-10-27",
     "cleanImageCands": [
       "3e14c8a1",
       "87873541"
     ],
-    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/niki/cabinet/ftp18/4570117930348.jpg?_ex=400x400"
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/niki/cabinet/ftp18/4570117930348.jpg?_ex=400x400",
+    "rakutenBoxCount": 4
   },
   {
     "id": "shokugan-4570117933080000",
@@ -1670,12 +1682,13 @@
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 270,
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01475.jpg?_ex=400x400",
-    "rakutenCount": 2,
-    "enrichedAt": 1791889085311,
+    "rakutenCount": 11,
+    "enrichedAt": 1794624911504,
     "description": "人気作品『妖怪ウォッチ』のキャラクターをモチーフにしたマグネット付きの食玩で、バンダイのキャンディ事業部から登場します。お菓子とあわせてキャラマグネッツが入っており、冷蔵庫や黒板などに飾って楽しめます。価格は270円で、店頭での販売を予定しています。発売時期は2026年11月です。",
     "priceTaxIn": 297,
-    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01475.jpg?_ex=400x400",
-    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/toysprime/cabinet/system202512-11/imgrc0106516066.jpg?_ex=400x400"
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/amiami/cabinet/images/2026/272/goods-04825644.jpg?_ex=400x400",
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/toysprime/cabinet/system202512-11/imgrc0106516066.jpg?_ex=400x400",
+    "rakutenBoxCount": 7
   },
   {
     "id": "shokugan-4570117931697000",
@@ -1688,12 +1701,12 @@
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 360,
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01417.jpg?_ex=400x400",
-    "rakutenCount": 3,
-    "rakutenBoxCount": 3,
-    "enrichedAt": 1791889110450,
+    "rakutenCount": 4,
+    "rakutenBoxCount": 4,
+    "enrichedAt": 1794624915299,
     "description": "TVアニメ「忍たま乱太郎」をモチーフにした食玩「カスタムチャームビスケットの段」が、2026年11月にバンダイのキャンディ事業部より登場します。フレームにセットされたアクリルパーツは取り外しができ、両面それぞれに異なる絵柄が印刷されているのが特徴です。中に入っているお菓子はミニキャラクタービスケットで、価格は360円。店頭での販売が予定されており、組み合わせを変えて楽しめるアイテムとして展開されます。",
     "priceTaxIn": 396,
-    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01417.jpg?_ex=400x400",
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005435/imgrc0113711238.jpg?_ex=400x400",
     "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/amiami/cabinet/images/2026/231/goods-04814107.jpg?_ex=400x400"
   },
   {
@@ -1707,11 +1720,11 @@
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 6500,
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/aromacoffee/cabinet/13131151/4570117932397a.jpg?_ex=400x400",
-    "rakutenCount": 2,
-    "enrichedAt": 1791889121717,
+    "rakutenCount": 3,
+    "enrichedAt": 1794624919818,
     "description": "バンダイのキャンディ事業部が手がける食玩「ガンダムアーティファクトPRO」シリーズに、フルアーマー・ガンダムが登場します。関節を多重構造にすることで細かなポージングを再現できる、プラと合金による可動キットがお菓子とともに入った一品です。工業製品のような質感を意識した造形も特徴で、価格は6500円、店頭にて2026年11月に発売される予定です。",
     "priceTaxIn": 7150,
-    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/aromacoffee/cabinet/13131151/4570117932397a.jpg?_ex=400x400",
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005435/imgrc0113398440.jpg?_ex=400x400",
     "catalogImage": "https://r.r10s.jp/g/gran_img/im/PFY/2YQ/FP9/73A/5664dee691199fe2b96821bd475c302c.jpg?_ex=400x400"
   },
   {
@@ -1725,11 +1738,11 @@
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 5800,
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/amiami/cabinet/images/2026/212/goods-04809459.jpg?_ex=400x400",
-    "rakutenCount": 3,
-    "enrichedAt": 1791889126338,
+    "rakutenCount": 4,
+    "enrichedAt": 1794624923720,
     "description": "バンダイのキャンディ事業部が手がける食玩シリーズ「アーティファクト」から、上位ラインと位置づけられるプロ仕様の新商品が登場します。今回の主役は高機動型ザクIIで、黒い三連星仕様というカラーリングが施されています。プラスチックと合金を組み合わせた作りで、工業製品を思わせる造形のモビルスーツがシリンダーの動きと連動してポーズを変えられる点が特徴です。価格は5800円で、店頭にて販売される予定となっており、発売時期は2026年11月を予定しています。",
     "priceTaxIn": 6380,
-    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/amiami/cabinet/images/2026/212/goods-04809459.jpg?_ex=400x400",
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005435/imgrc0113398483.jpg?_ex=400x400",
     "catalogImage": "https://r.r10s.jp/g/gran_img/im/PFY/2CZ/LKO/ZG6/ef43eb29f62066e9eed266d4c7577034.jpg?_ex=400x400"
   },
   {
@@ -1758,7 +1771,7 @@
     "releaseKind": "sale",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 360,
-    "enrichedAt": 1791889012768,
+    "enrichedAt": 1794624927536,
     "description": "アニメ『逆転バリバリバース』に登場するキーアイテムをモチーフにした食玩「バリバコイン SG 第1転」が登場します。全6種がランダムに封入されたパック形式で、コインはどちらの面にもデザインが施されており、さまざまな「バリビィ」の表情を見比べる楽しみ方ができます。弾いて遊ぶこともできる仕様になっており、集めるだけでなく実際に手に取って楽しめる点も特徴です。価格は360円で、バンダイのキャンディ事業部より2026年11月に発売され、店頭で販売される予定です。",
     "priceTaxIn": 396,
     "cleanImageCheckedAt": "2026-11-03",
@@ -1766,7 +1779,10 @@
       "8f61d473",
       "cc3a6981"
     ],
-    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14060317/imgrc0135447322.jpg?_ex=400x400"
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14060317/imgrc0135447322.jpg?_ex=400x400",
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005435/imgrc0118091999.jpg?_ex=400x400",
+    "rakutenCount": 4,
+    "rakutenBoxCount": 4
   },
   {
     "id": "shokugan-4570117932816000",
@@ -1778,14 +1794,17 @@
     "releaseKind": "sale",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 360,
-    "enrichedAt": 1791889031809,
+    "enrichedAt": 1794624931278,
     "description": "人気アニメ「パワーパフ ガールズ」のキャラクターをあしらった食玩が登場します。パッケージには飾ったりかばんに付けたりできるチャームが付属し、あわせて3人の顔をかたどったグミもセットになっています。チャームにはボールチェーンが付いており、持ち運びながら楽しめるのも魅力です。バンダイのキャンディ事業部が手がけるこの商品は、価格360円で2026年11月に発売予定。店頭での取り扱いが予定されています。",
     "priceTaxIn": 396,
     "cleanImageCheckedAt": "2026-11-03",
     "cleanImageCands": [
       "d1e3b144"
     ],
-    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14060317/imgrc0135487670.jpg?_ex=400x400"
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14060317/imgrc0135487670.jpg?_ex=400x400",
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/baton-store/cabinet/ir-m-shopimages/ir-m-shopimages61/stoy-13460-0.jpg?_ex=400x400",
+    "rakutenCount": 6,
+    "rakutenBoxCount": 4
   },
   {
     "id": "shokugan-4570117927966000",
@@ -1798,12 +1817,12 @@
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 160,
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01500.jpg?_ex=400x400",
-    "rakutenCount": 5,
-    "rakutenBoxCount": 5,
-    "enrichedAt": 1791889040138,
+    "rakutenCount": 6,
+    "rakutenBoxCount": 6,
+    "enrichedAt": 1794624935122,
     "description": "TVアニメ「黄泉のツガイ」を題材にした食玩ウエハースが、バンダイのキャンディ事業部より登場します。おまけとして付属するのは、アニメのために新しく描き起こされたイラストをホロ箔押しで仕上げたスペシャルカードや、美麗なビジュアルを楽しめるカードで、全26種がラインナップされます。価格は160円で、2026年11月に店頭にて発売される予定です。",
     "priceTaxIn": 176,
-    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/14001176/r1549_01500.jpg?_ex=400x400",
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005435/imgrc0115288888.jpg?_ex=400x400",
     "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/niki/cabinet/ftp19/4570117927966.jpg?_ex=400x400"
   },
   {
@@ -1817,9 +1836,9 @@
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 180,
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/niki/cabinet/ftp19/4570117929816.jpg?_ex=400x400",
-    "rakutenCount": 5,
-    "rakutenBoxCount": 5,
-    "enrichedAt": 1791889052160,
+    "rakutenCount": 4,
+    "rakutenBoxCount": 4,
+    "enrichedAt": 1794624938951,
     "description": "TVアニメ「アオのハコ」をモチーフにした食玩で、バンダイのキャンディ事業部から登場するカードソフトクッキーです。千夏、雛、大喜の描きおろしイラストを使用した、光沢のあるメタリックカードが封入されており、個包装のソフトクッキーとあわせて1個180円で楽しめます。店頭にて2026年11月に発売予定です。",
     "priceTaxIn": 198,
     "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/niki/cabinet/ftp19/4570117929816.jpg?_ex=400x400",
@@ -1838,7 +1857,7 @@
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/aromacoffee/cabinet/13131151/4570117929328.jpg?_ex=400x400",
     "rakutenCount": 5,
     "rakutenBoxCount": 4,
-    "enrichedAt": 1791889104243,
+    "enrichedAt": 1794624942798,
     "description": "バンダイのキャンディ事業部から登場する食玩「星のカービィ カービィフレンズ6」は、やわらかい配色でまとめられたカービィたちを集めて並べて楽しめるシリーズの最新作です。さまざまな姿のカービィがラインナップされており、「カービィ(ワープスター)」にはレアカラーの当たりも用意されています。価格は360円で、2026年11月に店頭で発売される予定です。",
     "priceTaxIn": 396,
     "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/aromacoffee/cabinet/13131151/4570117929328.jpg?_ex=400x400",
@@ -1855,9 +1874,9 @@
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 350,
     "rakutenImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/laffeystore/cabinet/13719706/215-001.jpg?_ex=400x400",
-    "rakutenCount": 4,
-    "rakutenBoxCount": 4,
-    "enrichedAt": 1791889115056,
+    "rakutenCount": 5,
+    "rakutenBoxCount": 5,
+    "enrichedAt": 1794624946545,
     "description": "冬の装いを楽しむピカチュウたちが、ビスケット付きの食玩になって登場します。笑う顔や食べる様子、雪だるまと戯れる姿など、ホリデーシーズンならではの表情やしぐさを集めたマスコットが揃い、見ているだけで季節の楽しさが伝わってくる仕上がりです。バンダイのキャンディ事業部が手がけるこちらの商品は、価格350円で店頭に並びます。発売は2026年11月を予定しており、冬を迎えるこの時期にぴったりの一品として店頭で見つけることができます。",
     "priceTaxIn": 385,
     "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/laffeystore/cabinet/13719706/215-001.jpg?_ex=400x400",
@@ -1873,7 +1892,7 @@
     "releaseKind": "sale",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 350,
-    "enrichedAt": 1791889117150,
+    "enrichedAt": 1794624950400,
     "description": "『ドラゴンクエスト』のモンスターたちが箱のパッケージになって登場する食玩「ドラゴンクエスト チョコボックス ボックスフィギュアコレクション」です。箱は上下二段になっており、下段にはチョコがけのビスケットが入っていて、上段にはモンスターの豆知識が記された紙が収められています。価格は350円で、2026年11月に発売予定、バンダイのキャンディ事業部から店頭販売される商品です。",
     "priceTaxIn": 385,
     "cleanImageCheckedAt": "2026-11-10",
@@ -1882,7 +1901,10 @@
       "85a6c271",
       "b9f0ef31"
     ],
-    "cleanImageMisses": 1
+    "cleanImageMisses": 1,
+    "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14060317/imgrc0135810480.jpg?_ex=400x400",
+    "rakutenCount": 3,
+    "rakutenBoxCount": 3
   },
   {
     "id": "shokugan-1000253255",
@@ -1894,7 +1916,7 @@
     "releaseKind": "ship",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 13000,
-    "enrichedAt": 1791889022627,
+    "enrichedAt": 1794624950401,
     "description": "バンダイのキャンディ事業部が手がける食玩シリーズ「ポケモンスケールワールド」から、シンオウ地方に登場するパルキアが登場します。人とポケモンが同じ世界で暮らす様子を立体で表現することをテーマにしたシリーズで、お菓子とフィギュアがセットになった商品です。価格は13000円で、店頭には並ばずプレミアムバンダイなどの通販サイトでの取り扱いとなります。発送は2026年11月を予定しています。",
     "priceTaxIn": 14300
   },
@@ -1908,7 +1930,7 @@
     "releaseKind": "ship",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 6900,
-    "enrichedAt": 1791889066832,
+    "enrichedAt": 1794624950401,
     "description": "5体のパワーアニマルが合体してガオキングになる組み立て式のプラキットが、食玩として再販されます。別売りのパワーアニマルと組み合わせて遊ぶこともできる仕様です。バンダイのキャンディ事業部が手がける商品で、店頭には並ばずプレミアムバンダイなど通販限定での取り扱いとなります。価格は6900円で、2026年11月の発送が予定されています。",
     "priceTaxIn": 7590
   },
@@ -1922,7 +1944,7 @@
     "releaseKind": "ship",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 2500,
-    "enrichedAt": 1791889105588,
+    "enrichedAt": 1794624950401,
     "description": "バンダイのキャンディ事業部が手がける食玩「元祖SDガンダムスナック」シリーズのために作られた、専用のシールバインダーです。「元祖SDガンダムスナック」全32種と「元祖SDガンダムスナックII」全33種（シークレット1種を含む）、あわせて65種類のシールをまとめて収納できる仕様になっています。店頭には並ばず、プレミアムバンダイなどの通販サイト限定での販売となり、価格は2500円、2026年11月の発送が予定されています。",
     "priceTaxIn": 2750
   },
@@ -1936,7 +1958,7 @@
     "releaseKind": "ship",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 6600,
-    "enrichedAt": 1791889132028,
+    "enrichedAt": 1794624950401,
     "description": "仮面ライダー生誕55周年記念作に登場する仮面ライダーG7と仮面ライダーG3-Xが、SO-DO CHRONICLEシリーズに食玩として登場します。両フィギュアには数多くのオプションパーツが付属し、クリアパーツを部分的に取り入れることで細部まで作り込まれているのが特徴です。価格は6600円で、プレミアムバンダイなどの通販限定で取り扱われ、店頭では購入できません。発売は2026年11月発送予定で、メーカーはバンダイのキャンディ事業部です。",
     "priceTaxIn": 7260
   },
@@ -1950,7 +1972,7 @@
     "releaseKind": "ship",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 5450,
-    "enrichedAt": 1791889133156,
+    "enrichedAt": 1794624950401,
     "description": "仮面ライダー生誕55周年を記念した作品に登場する仮面ライダーG6が、SO-DO CHRONICLEシリーズに加わります。プラスチック製の完成品とガムがセットになった食玩で、背中のフライトユニットに加え、飛行ポーズを再現するための専用台座も付属します。価格は5450円で、2026年11月の発送が予定されており、店頭には並ばずプレミアムバンダイなどの通販を通じて届けられます。",
     "priceTaxIn": 5995
   },
@@ -1964,7 +1986,7 @@
     "releaseKind": "ship",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 2700,
-    "enrichedAt": 1791889134268,
+    "enrichedAt": 1794624950401,
     "description": "『スーパーロボット大戦OG』シリーズから、アイビス・ダグラス、ツグミ・タカクラ、スレイ・プレスティの３人を描いたカットインアクリルスタンドが食玩として登場します。パイロットスーツ姿と私服姿の２枚セットで、キャラクターデザイナー河野さち子氏が手がけたイラストが使用されています。価格は2700円で、プレミアムバンダイなど通販限定の取り扱いとなり、店頭には並びません。発送は2026年11月を予定しています。",
     "priceTaxIn": 2970
   },
@@ -1978,7 +2000,7 @@
     "releaseKind": "ship",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 27200,
-    "enrichedAt": 1791889135157,
+    "enrichedAt": 1794624950401,
     "description": "『スーパーロボット大戦OG』に登場する「アルテリオン」と「ベガリオン」をセットで立体化した食玩が、プレミアムバンダイ限定で登場します。価格は27200円で、両機ならではの武装やエフェクトパーツも付属し、作中の戦闘シーンを再現できる仕様です。成形色や塗装による造形にもこだわった一品で、発売元はバンダイのキャンディ事業部です。店頭には並ばず、プレミアムバンダイなどの通販サイトでのみ購入可能で、2026年11月の発送が予定されています。",
     "priceTaxIn": 29920
   },
@@ -1992,7 +2014,7 @@
     "releaseKind": "ship",
     "collectedAt": "2026-10-13T10:30:10.345Z",
     "price": 3600,
-    "enrichedAt": 1791889136272,
+    "enrichedAt": 1794624950401,
     "description": "バンダイのキャンディ事業部が手がける食玩シリーズ「FW GUNDAM CONVERGE CORE」より、フルアーマーZZガンダムがプレミアムバンダイ限定で登場します。価格は3600円で、お菓子とミニフィギュアがセットになった商品です。店頭での取り扱いはなく、プレミアムバンダイなどの通販サイトでのみ購入が可能です。発送は2026年11月を予定しており、気になる方は早めに通販サイトでの取り扱いを確認しておくとよさそうです。",
     "priceTaxIn": 3960
   },
