@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
 import ProductLinkCard from "../../../components/ProductLinkCard";
+import AreaMap from "../../../components/AreaMap";
 import products from "../../../data/products.json";
 import { AREAS, VERIFIED_AT, getAreaBySlug, getChain, storeCount } from "../../../data/areas";
 import { getReleaseYearMonth, isReleased, formatYearMonth } from "../../../lib/release";
@@ -118,6 +119,16 @@ function mapUrl(store) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
 }
 
+// 地図のピンとカードに同じ番号を振る。郊外の簡易表示（compact）は地図に出さない
+// （遠くの店まで入れると縮尺が引いて、中心部のピンが重なって読めなくなる）。
+function numberStores(area) {
+  let no = 0;
+  return area.groups.map((g) => ({
+    ...g,
+    stores: g.stores.map((s) => (g.compact ? s : { ...s, no: ++no })),
+  }));
+}
+
 function StoreCard({ store }) {
   const chain = getChain(store.chain);
   const rows = [
@@ -127,8 +138,18 @@ function StoreCard({ store }) {
     ["アクセス", store.access],
   ].filter(([, v]) => v);
   return (
-    <article className="bg-white rounded-xl border-2 border-cream-border p-4 mb-3">
-      <h3 className="text-sm font-bold text-brand-text leading-snug">{store.name}</h3>
+    <article
+      id={store.no ? `store-${store.no}` : undefined}
+      className="bg-white rounded-xl border-2 border-cream-border p-4 mb-3 scroll-mt-4"
+    >
+      <h3 className="text-sm font-bold text-brand-text leading-snug flex items-start gap-2">
+        {store.no && (
+          <span className="shrink-0 w-5 h-5 rounded-full bg-rose-600 text-white text-[11px] leading-5 text-center">
+            {store.no}
+          </span>
+        )}
+        <span>{store.name}</span>
+      </h3>
       {chain?.operator && <p className="text-[10px] text-brand-sub mt-0.5">運営: {chain.operator}</p>}
       {store.note && <p className="text-xs text-brand-text leading-relaxed mt-2">{store.note}</p>}
       <dl className="mt-2">
@@ -187,6 +208,11 @@ export default function AreaPage({ params }) {
   const faq = buildFaq(area);
   const { ym, items } = newArrivals();
   const others = AREAS.filter((a) => a.slug !== area.slug);
+  const groups = numberStores(area);
+  const mapStores = groups
+    .flatMap((g) => g.stores)
+    .filter((s) => s.no && s.geo)
+    .map(({ no, name, geo, hours }) => ({ no, name, geo, hours }));
 
   return (
     <>
@@ -223,27 +249,16 @@ export default function AreaPage({ params }) {
           ]}
         />
 
-        <section
-          className="relative z-[1] mb-5 bg-white rounded-xl border-2 border-cream-border p-4"
-          style={{ boxShadow: "0 4px 16px rgba(74,55,40,0.06)" }}
-        >
-          <h2 className="text-sm font-bold text-brand-text mb-2">{area.name}でガチャガチャを回すなら</h2>
-          <p className="text-xs text-brand-text leading-relaxed">{area.lead}</p>
-          <ul className="mt-3 space-y-1.5">
-            {area.tips.map((t) => (
-              <li key={t} className="text-xs text-brand-text leading-relaxed pl-3 relative">
-                <span className="absolute left-0 text-brand-accent">・</span>
-                {t}
-              </li>
-            ))}
-          </ul>
-          <p className="text-[10px] text-brand-sub leading-relaxed mt-3">
-            ※店舗情報は{VERIFIED_AT.label}に各チェーンの公式店舗一覧で確認したものです。
+        <section className="relative z-[1] mb-5">
+          <h2 className="text-sm font-bold text-brand-text mb-2 px-1">{area.name}のガチャガチャ専門店マップ</h2>
+          <AreaMap stores={mapStores} />
+          <p className="text-[10px] text-brand-sub leading-relaxed mt-2 px-1">
+            番号は下の店舗一覧と同じです。店舗情報は{VERIFIED_AT.label}に各チェーンの公式店舗一覧で確認したものです。
             営業時間・台数は変わることがあるため、来店前に公式情報もご確認ください。
           </p>
         </section>
 
-        {area.groups.map((g) => (
+        {groups.map((g) => (
           <section key={g.title} className="relative z-[1] mb-5">
             <h2 className="text-sm font-bold text-brand-text mb-2 px-1">
               {g.title}
