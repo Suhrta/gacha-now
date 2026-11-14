@@ -9,6 +9,8 @@ import { buildSeriesUpcoming } from "../lib/series-upcoming";
 import shokugan from "../data/shokugan.json";
 import { isPublishable as isPublishableShokugan, releaseMonths } from "../lib/shokugan";
 
+import { AREAS, VERIFIED_AT as AREA_VERIFIED_AT } from "../data/areas";
+
 const BASE_URL = "https://gacha-now.net";
 
 function latestCollectedAt(list) {
@@ -143,6 +145,14 @@ export default function sitemap() {
     { url: `${BASE_URL}/character`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.5 },
     { url: `${BASE_URL}/brand`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.5 },
     { url: `${BASE_URL}/release`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.5 },
+    // エリア別の専門店（店舗情報は手で確認した日付を lastModified にする）
+    { url: `${BASE_URL}/area`, lastModified: new Date(AREA_VERIFIED_AT.iso), changeFrequency: "monthly", priority: 0.5 },
+    ...AREAS.map((a) => ({
+      url: `${BASE_URL}/area/${a.slug}`,
+      lastModified: new Date(AREA_VERIFIED_AT.iso),
+      changeFrequency: "weekly",
+      priority: 0.6,
+    })),
     ...blogPages,
     ...seriesPages,
     ...seriesHistoryPages,

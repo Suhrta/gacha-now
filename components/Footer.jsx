@@ -17,6 +17,7 @@ export default function Footer() {
             // 「コンテンツ → メタ」の順になるよう先頭に置く。末尾だと
             // プライバシーポリシーの後ろになって見つけにくい。
             { href: "/shokugan", label: "食玩" },
+            { href: "/area", label: "エリア別の専門店" },
             { href: "/about", label: "このサイトについて" },
             { href: "/operator", label: "運営者情報" },
             { href: "/contact", label: "お問い合わせ" },
