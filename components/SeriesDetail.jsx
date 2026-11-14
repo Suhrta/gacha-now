@@ -18,7 +18,7 @@ import { HubLead, HubDetails } from "./HubInfo";
 import products from "../data/products.json";
 import { browsableSeries, getSeriesBySlug, filterProductsBySeries } from "../data/series";
 
-export default function SeriesDetail({ historyTotal = null, upcomingTotal = null }) {
+export default function SeriesDetail({ historyTotal = null, upcomingTotal = null, monthLineup = null }) {
   const { slug } = useParams();
   const [selected, setSelected] = useState(null);
   const { isBandAt, firstBandAt } = useInFeedGrid();
@@ -81,6 +81,21 @@ export default function SeriesDetail({ historyTotal = null, upcomingTotal = null
           </Link>
         ) : null}
 
+        {/* 「11月 めじるしアクセサリー」など月別クエリの答え（lib/series-month.js）。
+            一覧の上に40件並べると商品グリッドが押し下がるので、本体は一覧の下に置いてここから飛ばす */}
+        {monthLineup ? (
+          <a
+            href="#this-month"
+            className="relative z-[1] flex items-center gap-2 mb-3 px-4 py-3 bg-white border-2 border-brand-accent rounded-xl no-underline hover:bg-cream-dark transition-colors"
+          >
+            <span className="text-lg shrink-0">🗓️</span>
+            <span className="text-xs font-bold text-brand-text leading-snug">
+              {monthLineup.month}月発売の{name}{monthLineup.total}件を発売週ごとに見る
+            </span>
+            <span className="text-brand-accent text-sm shrink-0 ml-auto">↓</span>
+          </a>
+        ) : null}
+
         {series && series.guide && (
           <Link
             href={series.guide.url}
@@ -111,6 +126,41 @@ export default function SeriesDetail({ historyTotal = null, upcomingTotal = null
 
         {/* 掲載が少なくて帯を挟む行が無いページ。ここだけグリッドの直下に落とす */}
         {items.length > 0 && items.length <= firstBandAt && <AdUnit name="inFeed" />}
+
+        {monthLineup ? (
+          <section
+            id="this-month"
+            className="relative z-[1] mt-6 bg-white rounded-xl border-2 border-cream-border p-4 scroll-mt-4"
+          >
+            <h2 className="text-sm font-bold text-brand-text mb-1">
+              {monthLineup.month}月発売の{name}（{monthLineup.total}件）
+            </h2>
+            <p className="text-[11px] text-brand-sub leading-relaxed mb-3">
+              {monthLineup.month}月に発売される{name}を、メーカー公表の発売週ごとにまとめています。
+              店舗への入荷は前後することがあります。
+            </p>
+            {monthLineup.groups.map((g) => (
+              <div key={g.timing} className="mb-3 last:mb-0">
+                <h3 className="text-xs font-bold text-brand-text mb-1">
+                  {monthLineup.month}月 {g.timing}
+                  <span className="text-brand-sub font-normal ml-2">{g.items.length}件</span>
+                </h3>
+                <ul>
+                  {g.items.map((p) => (
+                    <li key={p.id} className="text-[11px] leading-relaxed py-0.5 border-b border-dotted border-cream-border last:border-b-0">
+                      <Link href={`/item/${p.id}`} className="text-brand-text no-underline hover:text-brand-accent">
+                        {p.name}
+                      </Link>
+                      {typeof p.price === "number" && p.price > 0 ? (
+                        <span className="text-brand-sub ml-1">¥{p.price}</span>
+                      ) : null}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </section>
+        ) : null}
 
         <HubDetails name={name} items={items} intro={intro} extraFaq={series ? series.faq : null} />
 

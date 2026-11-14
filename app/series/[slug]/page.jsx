@@ -5,6 +5,8 @@ import { buildHubInfo, buildFaqLd } from "../../../lib/hub-info";
 import { buildSeriesHistory } from "../../../lib/series-history";
 import { buildSeriesUpcoming } from "../../../lib/series-upcoming";
 import SeriesDetail from "../../../components/SeriesDetail";
+import { buildMonthLineup } from "../../../lib/series-month";
+import { DATA_UPDATED } from "../../../lib/site-meta";
 
 // 構造化データはここ（サーバー側）で出す。
 // layout.jsx に置くと /series/[slug]/history にも同じものが付いてしまい、
@@ -40,6 +42,9 @@ export default function SeriesPage({ params }) {
 
   const upcoming = series.upcoming ? buildSeriesUpcoming({ series, products }) : null;
 
+  const ym = DATA_UPDATED ? `${DATA_UPDATED.year}-${String(DATA_UPDATED.month).padStart(2, "0")}` : null;
+  const monthLineup = buildMonthLineup({ series, products, ym });
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
@@ -49,6 +54,7 @@ export default function SeriesPage({ params }) {
       <SeriesDetail
         historyTotal={history ? history.total : null}
         upcomingTotal={upcoming ? upcoming.total : null}
+        monthLineup={monthLineup}
       />
     </>
   );
