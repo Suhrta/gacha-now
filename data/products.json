@@ -1,5 +1,26 @@
 [
   {
+    "id": "gacha-42210a43",
+    "name": "いーすとけん。　パンのかご入りフィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 400,
+    "types": 5,
+    "releaseWeek": "11月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/28132339/yeastken_figure_pic-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/28132339/yeastken_figure_pic-1280x1280.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10123/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-11-14T09:57:06.000Z",
+    "officialDescription": "「パンのわんこいーすとけん。」が、かごに入った可愛いフィギュアに！",
+    "thumb": "https://gachaimg.com/thumb/gacha-42210a43.webp"
+  },
+  {
     "id": "spookiz--3d653f29",
     "name": "Spookiz めじるしガチャマスコット",
     "brand": "その他",
