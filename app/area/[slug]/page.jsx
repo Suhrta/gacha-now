@@ -111,6 +111,13 @@ export function generateMetadata({ params }) {
   };
 }
 
+// Google マップの検索URL（Maps URLs。APIキー不要・埋め込みではなくリンクなので負荷も無い）。
+// 店名だけだと別店舗に当たることがあるので住所も入れる。
+function mapUrl(store) {
+  const q = `${store.name} ${store.address || ""}`.trim();
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+}
+
 function StoreCard({ store }) {
   const chain = getChain(store.chain);
   const rows = [
@@ -132,16 +139,26 @@ function StoreCard({ store }) {
           </div>
         ))}
       </dl>
-      {(store.officialUrl || chain) && (
+      <div className="flex flex-wrap gap-x-4 gap-y-1 mt-2">
         <a
-          href={store.officialUrl || chain.url}
+          href={mapUrl(store)}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-2 text-[11px] text-brand-accent no-underline"
+          className="text-[11px] text-brand-accent no-underline"
         >
-          公式の店舗情報を見る →
+          📍 Google マップで見る
         </a>
-      )}
+        {(store.officialUrl || chain) && (
+          <a
+            href={store.officialUrl || chain.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[11px] text-brand-accent no-underline"
+          >
+            公式の店舗情報を見る →
+          </a>
+        )}
+      </div>
     </article>
   );
 }
@@ -149,7 +166,14 @@ function StoreCard({ store }) {
 function CompactStore({ store }) {
   return (
     <li className="px-3 py-2 border-b border-dotted border-cream-border last:border-b-0">
-      <div className="text-xs font-bold text-brand-text">{store.name}</div>
+      <a
+        href={mapUrl(store)}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-xs font-bold text-brand-text no-underline hover:text-brand-accent"
+      >
+        {store.name} <span className="text-[10px] text-brand-accent font-normal">📍地図</span>
+      </a>
       <div className="text-[11px] text-brand-sub leading-relaxed mt-0.5">
         {[store.access, store.machines, store.hours].filter(Boolean).join("・")}
       </div>
