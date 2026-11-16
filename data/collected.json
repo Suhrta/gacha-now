@@ -2504,7 +2504,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "パンどろぼう",
-    "types": null
+    "types": 5
   },
   {
     "title": "お文具といっしょ めじるしアクセサリー ～おっきなペロペロキャンディなのです～",
@@ -13172,5 +13172,18 @@
     "releaseWeek": "2026年11月",
     "brand": "バンドリ",
     "types": 11
+  },
+  {
+    "title": "学園アイドルマスター　むぎゅみにコレクションフィギュア vol.3",
+    "url": "https://capsule.bushiroad-creative.com/product/10306/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/11/16180503/gakuen_imas_mugyumini_fg_vol3_CP_POP.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/11/16180503/gakuen_imas_mugyumini_fg_vol3_CP_POP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2027年5月 下旬",
+    "brand": "学園アイドルマスター",
+    "types": 4
   }
 ]
