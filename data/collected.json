@@ -728,7 +728,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "ナルミヤ",
-    "types": 6
+    "types": null
   },
   {
     "title": "たまごっち UFOスイング ～オーロラver.～",
@@ -6440,7 +6440,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "パワーパフガールズ",
-    "types": null
+    "types": 6
   },
   {
     "title": "MINITEEN ぷっくりめじるしアクセサリー",
