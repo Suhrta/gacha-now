@@ -6440,7 +6440,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "パワーパフガールズ",
-    "types": 6
+    "types": null
   },
   {
     "title": "MINITEEN ぷっくりめじるしアクセサリー",
@@ -8271,6 +8271,19 @@
     "releaseWeek": "2026年11月 23日週",
     "brand": "ディズニー",
     "types": 4
+  },
+  {
+    "title": "バーバパパ いっぱいコレクション",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906787",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906787_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906787_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 23日週",
+    "brand": "その他",
+    "types": 5
   },
   {
     "title": "ズートピア -ムービーアイテムコレクション-",

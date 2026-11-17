@@ -1,5 +1,42 @@
 [
   {
+    "id": "gacha-544fe967",
+    "name": "バーバパパ いっぱいコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "11月 23日週",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y906787_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y906787_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y906787",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-17T09:08:29.038Z",
+    "officialDescription": "「バーバパパ」の印象的な変身シーンをフィギュア化。ボリューム満点の約5.5cmサイズで、子どもから大人まで集めたくなるフィギュアです。本体サイズは約2〜5.5cm。ラインナップは「階段のバーバパパ」「うまのバーバパパ」「生まれる前のバーバパパ＋じょうろ」「おりのバーバパパ」「ボートのバーバパパ」の全5種。",
+    "size": "約2〜5.5cm",
+    "lineup": [
+      "階段のバーバパパ",
+      "うまのバーバパパ",
+      "生まれる前のバーバパパ＋じょうろ",
+      "おりのバーバパパ",
+      "ボートのバーバパパ"
+    ],
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-17",
+    "rakutenThumbCands": [
+      "2853e3bb",
+      "97006638",
+      "9b8e300f"
+    ],
+    "rakutenThumbMisses": 1,
+    "thumb": "https://gachaimg.com/thumb/gacha-544fe967.webp"
+  },
+  {
     "id": "gacha-56e9cb87",
     "name": "星のカービィ ぷくっとラバーカンバッジ",
     "brand": "カービィ",
