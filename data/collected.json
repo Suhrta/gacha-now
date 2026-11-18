@@ -5387,6 +5387,30 @@
     "types": 4
   },
   {
+    "title": "Sassy めじるしアクセサリー2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770071191000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 第3週",
+    "brand": "その他",
+    "types": 5
+  },
+  {
     "title": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770094718000",
     "source": "バンダイ公式",
@@ -12173,6 +12197,19 @@
     "types": 5
   },
   {
+    "title": "PUTITTO サンリオキャラクターズ 水族館１｜株式会社キタンクラブ",
+    "url": "https://kitan.jp/products/sanrio_suizokukan/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/11/putitto_sanriosuizokukan1_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/11/putitto_sanriosuizokukan1_DP.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年11月 下旬",
+    "brand": "サンリオ",
+    "types": 5
+  },
+  {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",
     "url": "https://capsule.bushiroad-creative.com/product/10051/",
     "source": "ブシロードクリエイティブ公式",
@@ -13211,5 +13248,18 @@
     "releaseWeek": "2027年5月 下旬",
     "brand": "学園アイドルマスター",
     "types": 4
+  },
+  {
+    "title": "ずんだもん　ずんだもんがいっぱいコレクションフィギュアRICH",
+    "url": "https://capsule.bushiroad-creative.com/product/10279/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/27112613/zundamon_fgRICH_CP_POP_1021catalog_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/27112613/zundamon_fgRICH_CP_POP_1021catalog_ol.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2027年3月 下旬",
+    "brand": "その他",
+    "types": 5
   }
 ]

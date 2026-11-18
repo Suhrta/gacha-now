@@ -1,5 +1,80 @@
 [
   {
+    "id": "sassy-2-69f20ae3",
+    "name": "Sassy めじるしアクセサリー2",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000258542_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770071191000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-11-18T04:02:56.695Z",
+    "officialDescription": "カラフルな配色がかわいいベビーブランド「Sassy」のめじるしアクセサリー第2弾！※本商品は、初回発売後、複数回の出荷を予定しております。",
+    "ageRating": "15才以上"
+  },
+  {
+    "id": "putitto--531f1fba",
+    "name": "PUTITTO サンリオキャラクターズ 水族館１｜株式会社キタンクラブ",
+    "brand": "サンリオ",
+    "brandSlug": "sanrio",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "11月 下旬",
+    "color": "#F06292",
+    "hot": true,
+    "img": "https://kitan.jp/wp-content/uploads/2026/11/putitto_sanriosuizokukan1_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/11/putitto_sanriosuizokukan1_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/sanrio_suizokukan/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-11-18T04:02:56.697Z",
+    "officialDescription": "コップのフチにちょこんと引っ掛けて遊べる「PUTITTO」シリーズに、株式会社サンリオのキャラクター×水族館が登場！水族館の人気者たちとなかよくたわむれる、かわいらしいフィギュアです。 それぞれの個性を生かしたユニークな組み合わせや、思わずクスッとしてしまう愛らしい姿に注目です。まるで海の中で一緒に遊んでいるような、キャラクターたちの生き生きとした表情や仕草も魅力。眺めているだけで笑顔になれる、遊び心たっぷりのラインナップです。 コップのフチを活かした動きのあるポーズはもちろん、水族館の生き物たちも完全オリジナルデザイン。キャラクターたちの豊かな表情や、生き物たちの細部までこだわった造形もお楽しみいただけます。 コップに飾れば、いつものティータイムがもっと楽しくにぎやかに♪思わず並べて飾りたくなる、魅力たっぷりの全５種類をぜひお楽しみください！ ラインナップは「 ハローキティ / イルカ 、リトルツインスターズ / エイ 、ポチャッコ / カワウソ 、バッドばつ丸 / あざらしの赤ちゃん 、シナモロール / クラゲ 」の全５種。",
+    "description": "キタンクラブから、サンリオの人気キャラクターたちが登場するカプセルトイ「PUTITTO サンリオキャラクターズ 水族館１」が展開されます。幅広い世代に親しまれているサンリオのキャラクターをモチーフにした商品で、全5種がラインナップされており、価格は1回500円です。発売は11月下旬を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/putitto--531f1fba.webp"
+  },
+  {
+    "id": "-rich-6af15253",
+    "name": "ずんだもん　ずんだもんがいっぱいコレクションフィギュアRICH",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "3月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/27112613/zundamon_fgRICH_CP_POP_1021catalog_ol.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/27112613/zundamon_fgRICH_CP_POP_1021catalog_ol.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10279/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-11-18T04:02:56.697Z",
+    "officialDescription": "北ずん子・ずんだもんプロジェクトより、「ずんだもんがいっぱいコレクションフィギュアRICH」が登場！",
+    "thumb": "https://gachaimg.com/thumb/-rich-6af15253.webp"
+  },
+  {
     "id": "gacha-1f07ae96",
     "name": "土下座マーカーチャーム",
     "brand": "その他",
@@ -25058,27 +25133,5 @@
     "officialDescription": "猫まんがの金字塔として愛され続ける『What’s Michael？（ホワッツマイケル）』。アニメ化やゲーム化、ドラマ化もされ、一世を風靡した本作は、今年で登場から42年を迎えます。6月に発売したアクリルキーホルダーに続き、このたび、長年愛されるマイケルたちの魅力をぎゅっと詰め込んだフィギュアマスコットが誕生します！ 原作カラーイラストを参考に、細部までこだわって立体化。原作のイメージを忠実に再現し、マイケルたちの愛らしい表情や、お揃いのポーズを丁寧に表現しました。原作のユーモアあふれる世界観はそのままに、思わず集めたくなる全５種のラインナップです。 さらに、全種にキーホルダー金具とロゴプレート付き。バッグやポーチに付けて持ち歩いたり、お部屋に飾ったり、さまざまなシーンで楽しめます。 長年のファンには懐かしく、『What’s Michael?』を初めて知る方にもその魅力を楽しんでいただけること間違いなし︕猫好きの方はもちろん、まんが好きの方にもぜひ手に取っていただきたいアイテムです。 ラインナップは「 マイケル 、ポッポ 、ニャジラ 、学生服 、招き猫 」の全5種。",
     "description": "ねこの姿を借りた人間模様を描く漫画「What's Michael?」が、キタンクラブよりカプセルトイになって登場します。商品名は「What's Michael？ フィギュアマスコット」で、全5種のラインナップです。価格は1回500円で、発売時期は8月下旬を予定しています。",
     "thumb": "https://gachaimg.com/thumb/whats-michael--2b2be2f4.webp"
-  },
-  {
-    "id": "gacha-4c121eb7",
-    "name": "雅太郎玩具店 ねこちゃん可動フィギュア",
-    "brand": "その他",
-    "brandSlug": "other",
-    "price": 500,
-    "types": 6,
-    "releaseWeek": "発売中",
-    "color": "#e5b499",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/08/masatarotoys_catfigure_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/08/masatarotoys_catfigure_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/masataro_neko/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-08-18T03:49:59.147Z",
-    "officialDescription": "首・前脚・後脚・しっぽの全６ヵ所が可動する、フロッキー加工を施したねこちゃんのフィギュアが登場！ふわっとした質感で、まるでぬいぐるみのようなかわいらしい仕上がりです。 首・手足・しっぽの計6箇所が可動し、おすわりやのび～、寝そべりなど、ねこらしいさまざまなポーズを自由に楽しめるフィギュアです。約54mmの存在感あるサイズで、猫の柄は全6種。可動によって生まれる多彩なポージングで、思わず何匹も並べたくなります。 目や首輪、おしりのタグボタンはフロッキー加工を施していない別パーツで表現しており、ふわっとした本体との質感の違いがアクセントに。 自由自在にポージングして遊んだり、お気に入りのポーズで飾ったりと楽しみ方はいろいろ。並べるほどに、ねこちゃんたちのかわいらしい世界が広がります。 ラインナップは「 トラねこ 、ミケねこ 、ハチワレ 、アメショー 、しろねこ 、くろねこ 」の全6種。",
-    "description": "キタンクラブより登場するカプセルトイで、雅太郎玩具店によるねこちゃん可動フィギュアが商品化されます。価格は1回500円で、全6種のラインナップとなっており、8月下旬の発売が予定されています。ガチャガチャとして各所の店舗に順次展開される見込みです。",
-    "thumb": "https://gachaimg.com/thumb/gacha-4c121eb7.webp"
   }
 ]
