@@ -69,7 +69,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第1週",
     "brand": "プリキュア",
-    "types": 8
+    "types": null
   },
   {
     "title": "グレムリン もぐもぐかくれんぼ",
@@ -5672,7 +5672,7 @@
     "price": null,
     "releaseWeek": "2026年11月 第3週",
     "brand": "その他",
-    "types": 4
+    "types": null
   },
   {
     "title": "ハリー・ポッター ディスプレイコレクション～魔法の杖～",

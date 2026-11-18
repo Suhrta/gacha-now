@@ -1,5 +1,26 @@
 [
   {
+    "id": "gacha-4c121eb7",
+    "name": "雅太郎玩具店 ねこちゃん可動フィギュア",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 6,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/08/masatarotoys_catfigure_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/masatarotoys_catfigure_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/masataro_neko/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-11-18T09:08:12.986Z",
+    "officialDescription": "首・前脚・後脚・しっぽの全６ヵ所が可動する、フロッキー加工を施したねこちゃんのフィギュアが登場！ふわっとした質感で、まるでぬいぐるみのようなかわいらしい仕上がりです。 首・手足・しっぽの計6箇所が可動し、おすわりやのび～、寝そべりなど、ねこらしいさまざまなポーズを自由に楽しめるフィギュアです。約54mmの存在感あるサイズで、猫の柄は全6種。可動によって生まれる多彩なポージングで、思わず何匹も並べたくなります。 目や首輪、おしりのタグボタンはフロッキー加工を施していない別パーツで表現しており、ふわっとした本体との質感の違いがアクセントに。 自由自在にポージングして遊んだり、お気に入りのポーズで飾ったりと楽しみ方はいろいろ。並べるほどに、ねこちゃんたちのかわいらしい世界が広がります。 ラインナップは「 トラねこ 、ミケねこ 、ハチワレ 、アメショー 、しろねこ 、くろねこ 」の全6種。",
+    "thumb": "https://gachaimg.com/thumb/gacha-4c121eb7.webp"
+  },
+  {
     "id": "sassy-2-69f20ae3",
     "name": "Sassy めじるしアクセサリー2",
     "brand": "その他",
