@@ -596,11 +596,15 @@
     }
   },
   "-ver2-15671253": {
-    "sig": "おジャ魔女どれみ めじるしアクセサリー ポロンタップver.2|9|r",
-    "checkedAt": 1794701313623,
+    "sig": "おジャ魔女どれみ めじるしアクセサリー ポロンタップver.2|9|p",
+    "checkedAt": 1795061035599,
     "compset": {
       "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 657
+      "count": 668
+    },
+    "preorder": {
+      "q": "めじるしアクセサリー ガチャ 予約",
+      "count": 169
     }
   },
   "nikke--2c13f183": {
@@ -1833,10 +1837,10 @@
   },
   "minecraft--6e9fd162": {
     "sig": "MINECRAFT ぬいぐるみマスコット|5|r",
-    "checkedAt": 1793847753361,
+    "checkedAt": 1795061035599,
     "compset": {
       "q": "MINECRAFT ぬいぐるみマスコット セット",
-      "count": 4
+      "count": 5
     }
   },
   "gacha-0eda2b15": {
@@ -4493,14 +4497,6 @@
     "compset": {
       "q": "MOOMIN Hide&Seek かくれんぼフィギュア3 コンプ",
       "count": 8
-    }
-  },
-  "whats-michael--2b2be2f4": {
-    "sig": "What’s Michael？ フィギュアマスコット|5|r",
-    "checkedAt": 1794215253804,
-    "compset": {
-      "q": "What’s Michael？ フィギュアマスコット コンプ",
-      "count": 5
     }
   },
   "gacha-5a9d8bbb": {

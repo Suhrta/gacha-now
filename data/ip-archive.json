@@ -1,7 +1,7 @@
 {
  "chiikawa": {
   "query": "ちいかわ",
-  "checkedAt": "2026-11-14",
+  "checkedAt": "2026-11-19",
   "items": [
    {
     "jan": "4582770137750000",
@@ -13,19 +13,19 @@
     "releaseChecked": true
    },
    {
-    "jan": "4570118206206000",
-    "name": "ちいかわ ふわふわフロッキードール",
-    "price": 300,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256912_1.jpg",
+    "jan": "4570118187321000",
+    "name": "ちいかわ カプセルステッキ",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_1.jpg",
     "release": "2026年10月 第5週",
     "ym": "2026-10",
     "releaseChecked": true
    },
    {
-    "jan": "4570118187321000",
-    "name": "ちいかわ カプセルステッキ",
-    "price": 400,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256911_1.jpg",
+    "jan": "4570118206206000",
+    "name": "ちいかわ ふわふわフロッキードール",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256912_1.jpg",
     "release": "2026年10月 第5週",
     "ym": "2026-10",
     "releaseChecked": true

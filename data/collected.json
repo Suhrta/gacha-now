@@ -4568,7 +4568,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第2週",
     "brand": "アイドリッシュセブン",
-    "types": 7
+    "types": null
   },
   {
     "title": "とんがり帽子のアトリエ めじるしアクセサリー",
@@ -5001,30 +5001,6 @@
     "releaseWeek": "2026年11月 第3週",
     "brand": "赤見かるび",
     "types": 4
-  },
-  {
-    "title": "おジャ魔女どれみ めじるしアクセサリー ポロンタップver.2",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968518000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_12.jpg"
-    ],
-    "price": 300,
-    "releaseWeek": "2026年11月 第3週",
-    "brand": "おジャ魔女どれみ",
-    "types": 9
   },
   {
     "title": "勝利の女神：NIKKE まちぼうけ",
@@ -5576,7 +5552,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第3週",
     "brand": "キングダム",
-    "types": 10
+    "types": null
   },
   {
     "title": "豆ガシャ本 「犬夜叉」",
@@ -5792,7 +5768,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第3週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "HOT WHEELS&trade; ミニチュアパッケージチャーム",
@@ -6945,6 +6921,30 @@
     "releaseWeek": "2026年11月 第4週",
     "brand": "その他",
     "types": 4
+  },
+  {
+    "title": "おジャ魔女どれみ めじるしアクセサリー ポロンタップver.2",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582769968518000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259587_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 第4週",
+    "brand": "おジャ魔女どれみ",
+    "types": 9
   },
   {
     "title": "HUNTER×HUNTER めじるしアクセサリー キメラアント編Vol.2",
@@ -8438,19 +8438,6 @@
     "releaseWeek": "2026年11月 23日週",
     "brand": "カービィ",
     "types": 6
-  },
-  {
-    "title": "MOOMIN もふもふポーシェット2",
-    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910975",
-    "source": "タカラトミーアーツ公式",
-    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y910975_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y910975_b.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年11月 23日週",
-    "brand": "ムーミン",
-    "types": 5
   },
   {
     "title": "でふぉラバ! ウマ娘 プリティーダービー キーホルダー",
