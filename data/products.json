@@ -1,5 +1,66 @@
 [
   {
+    "id": "miffy--55faec54",
+    "name": "miffy きらきら星空の めじるしガチャマスコット",
+    "brand": "ミッフィー",
+    "brandSlug": "miffy",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#99e5b5",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y912016_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y912016_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y912016",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-19T09:09:56.618Z",
+    "officialDescription": "星空をモチーフにした「ミッフィー」と「ボリス」が、シリコンリングとカニカン付きの「めじるしガチャマスコット」になりました。パステルカラーにきらきらのオーロラ塗装にに仕上げています。本体サイズは約4cm。ラインナップは「Moonlight miffy」「Shooting Star miffy」「Starlight miffy」「Ghost miffy」「Rainy Day boris」の全5種。",
+    "size": "約4cm",
+    "lineup": [
+      "Moonlight miffy",
+      "Shooting Star miffy",
+      "Starlight miffy",
+      "Ghost miffy",
+      "Rainy Day boris"
+    ],
+    "description": "世界中で親しまれるうさぎのキャラクター・ミッフィーをモチーフにしたカプセルトイが「miffy きらきら星空の めじるしガチャマスコット」です。タカラトミーアーツから発売中で、全5種を1回300円のガチャガチャで集められます。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-19",
+    "rakutenThumbCands": [
+      "220bd4c9",
+      "4be30a48",
+      "892b335f",
+      "acfb52be"
+    ],
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/noris-collection/cabinet/items1788169440/1697398160216716490.jpg?_ex=400x400",
+    "thumb": "https://gachaimg.com/thumb/miffy--55faec54.webp"
+  },
+  {
+    "id": "whats-michael--2b2be2f4",
+    "name": "What’s Michael？ フィギュアマスコット",
+    "brand": "What's Michael?",
+    "brandSlug": "whatsmichael",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#ad99e5",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/08/WMfigure_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/WMfigure_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/whatmaichael_f/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-11-19T09:09:56.618Z",
+    "officialDescription": "猫まんがの金字塔として愛され続ける『What’s Michael？（ホワッツマイケル）』。アニメ化やゲーム化、ドラマ化もされ、一世を風靡した本作は、今年で登場から42年を迎えます。6月に発売したアクリルキーホルダーに続き、このたび、長年愛されるマイケルたちの魅力をぎゅっと詰め込んだフィギュアマスコットが誕生します！ 原作カラーイラストを参考に、細部までこだわって立体化。原作のイメージを忠実に再現し、マイケルたちの愛らしい表情や、お揃いのポーズを丁寧に表現しました。原作のユーモアあふれる世界観はそのままに、思わず集めたくなる全５種のラインナップです。 さらに、全種にキーホルダー金具とロゴプレート付き。バッグやポーチに付けて持ち歩いたり、お部屋に飾ったり、さまざまなシーンで楽しめます。 長年のファンには懐かしく、『What’s Michael?』を初めて知る方にもその魅力を楽しんでいただけること間違いなし︕猫好きの方はもちろん、まんが好きの方にもぜひ手に取っていただきたいアイテムです。 ラインナップは「 マイケル 、ポッポ 、ニャジラ 、学生服 、招き猫 」の全5種。",
+    "description": "猫たちの日常を描いた漫画作品「What's Michael?」のキャラクターをモチーフにしたカプセルトイが、キタンクラブより登場しています。「What's Michael？ フィギュアマスコット」は全5種のラインナップで、1回500円で楽しめます。すでに発売が開始されており、ガチャガチャ専門店や量販店の設置機で入手可能です。",
+    "thumb": "https://gachaimg.com/thumb/whats-michael--2b2be2f4.webp"
+  },
+  {
     "id": "gacha-4c121eb7",
     "name": "雅太郎玩具店 ねこちゃん可動フィギュア",
     "brand": "その他",
@@ -9808,7 +9869,7 @@
     "brandSlug": "hololive",
     "price": 500,
     "types": 5,
-    "releaseWeek": "11月 第4週",
+    "releaseWeek": "発売中",
     "color": "#c199e5",
     "hot": false,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_1.jpg",
@@ -25102,35 +25163,5 @@
     "thumb": "https://gachaimg.com/thumb/gacha-1b67bc23.webp",
     "rakutenThumbChecked": true,
     "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/realize-store-2/cabinet/gachapon2/kawano40/osarujjnorimj0001.jpg?_ex=400x400"
-  },
-  {
-    "id": "moomin-hideseek-3-7436aebc",
-    "name": "MOOMIN Hide&Seek かくれんぼフィギュア3",
-    "brand": "ムーミン",
-    "brandSlug": "moomin",
-    "price": 400,
-    "types": 4,
-    "releaseWeek": "発売中",
-    "color": "#b899e5",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901157_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901157_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901157",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-08-19T08:40:39.766Z",
-    "officialDescription": "小物などで顔をかくしてかくれんぼをしている、タカラトミーアーツオリジナルの「Hide&Seekかくれんぼフィギュア」。こちらの人気シリーズに、『MOOMIN』の第3弾が登場しました。ムーミンパパの帽子に隠れている、かわいい「ニョロニョロ」にも注目です。本体サイズは約3.5～5cm。ラインナップは「ムーミン?」「スニフ?」「ニョロニョロ?」「リトルミイ?」の全4種。",
-    "lineup": [
-      "ムーミン",
-      "スニフ",
-      "ニョロニョロ",
-      "リトルミイ"
-    ],
-    "description": "世界中で愛される「ムーミン」を題材にしたカプセルトイ「MOOMIN Hide&Seek かくれんぼフィギュア3」がタカラトミーアーツから発売中です。全4種のラインナップで、価格は1回400円となっています。ガチャガチャとして各所の販売機に登場しています。",
-    "thumb": "https://gachaimg.com/thumb/moomin-hideseek-3-7436aebc.webp",
-    "rakutenThumbChecked": true,
-    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/aromacoffee/cabinet/13819428/imgrc0118535643.jpg?_ex=400x400"
   }
 ]

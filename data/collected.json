@@ -261,7 +261,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第2週",
     "brand": "その他",
-    "types": 8
+    "types": null
   },
   {
     "title": "ガシャポンメンバーズ景品ガシャポン(アソートコレクション)",
@@ -632,7 +632,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "その他",
-    "types": 8
+    "types": null
   },
   {
     "title": "クレヨンしんちゃん おべんとうマスコット",
@@ -3752,7 +3752,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "星のカービィ メタルめじるしアクセサリー",
@@ -4568,7 +4568,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第2週",
     "brand": "アイドリッシュセブン",
-    "types": null
+    "types": 7
   },
   {
     "title": "とんがり帽子のアトリエ めじるしアクセサリー",
@@ -5435,6 +5435,30 @@
     "types": 5
   },
   {
+    "title": "ホロライブ カラフルカラビナもふしっぽマスコット",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770121773000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_12.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年11月 第3週",
+    "brand": "ホロライブ",
+    "types": 5
+  },
+  {
     "title": "ウルトラマン ウルトラ怪獣ぽんちょめじるしアクセサリー",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770122527000",
     "source": "バンダイ公式",
@@ -5552,7 +5576,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第3週",
     "brand": "キングダム",
-    "types": null
+    "types": 10
   },
   {
     "title": "豆ガシャ本 「犬夜叉」",
@@ -5768,7 +5792,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "HOT WHEELS&trade; ミニチュアパッケージチャーム",
@@ -7763,30 +7787,6 @@
     "types": 8
   },
   {
-    "title": "ホロライブ カラフルカラビナもふしっぽマスコット",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770121773000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_12.jpg"
-    ],
-    "price": 500,
-    "releaseWeek": "2026年11月 第4週",
-    "brand": "ホロライブ",
-    "types": 5
-  },
-  {
     "title": "ふわふわ大根おろしのねこちゃあぁぁん めじるしアクセサリー",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770141344000",
     "source": "バンダイ公式",
@@ -8180,6 +8180,19 @@
     "releaseWeek": "2026年11月 16日週",
     "brand": "その他",
     "types": 12
+  },
+  {
+    "title": "miffy きらきら星空の めじるしガチャマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y912016",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y912016_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y912016_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 16日週",
+    "brand": "ミッフィー",
+    "types": 5
   },
   {
     "title": "サンリオキャラクターズ なかよしチャーム　オーロラMIX",

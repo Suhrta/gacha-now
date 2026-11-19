@@ -1056,15 +1056,11 @@
     }
   },
   "gacha-1c6f7b21": {
-    "sig": "ホロライブ カラフルカラビナもふしっぽマスコット|5|p",
-    "checkedAt": 1794190643701,
+    "sig": "ホロライブ カラフルカラビナもふしっぽマスコット|5|r",
+    "checkedAt": 1795079402937,
     "compset": {
       "q": "ホロライブ ガチャ コンプ",
       "count": 10
-    },
-    "preorder": {
-      "q": "ホロライブ 予約",
-      "count": 77
     }
   },
   "gacha-4410ab33": {
@@ -4491,14 +4487,6 @@
       "count": 631
     }
   },
-  "moomin-hideseek-3-7436aebc": {
-    "sig": "MOOMIN Hide&Seek かくれんぼフィギュア3|4|r",
-    "checkedAt": 1794215253804,
-    "compset": {
-      "q": "MOOMIN Hide&Seek かくれんぼフィギュア3 コンプ",
-      "count": 8
-    }
-  },
   "gacha-5a9d8bbb": {
     "sig": "続・土下座 マーカーチャーム|8|r",
     "checkedAt": 1794301670538,
@@ -5033,7 +5021,7 @@
   },
   "-vol3-57cbecb7": {
     "sig": "アニメ「ぼっち・ざ・ろっく！」　ぼっちちゃんがいっぱいフィギュアvol.3|5|p",
-    "checkedAt": 1793869702340,
+    "checkedAt": 1795079402937,
     "compset": {
       "q": "ぼっち ガチャ コンプ",
       "count": 37
@@ -6421,6 +6409,22 @@
     "compset": {
       "q": "雅太郎玩具店 ねこちゃん可動フィギュア コンプ",
       "count": 4
+    }
+  },
+  "miffy--55faec54": {
+    "sig": "miffy きらきら星空の めじるしガチャマスコット|5|r",
+    "checkedAt": 1795079402937,
+    "compset": {
+      "q": "miffy きらきら星空の めじるしガチャマスコット セット",
+      "count": 3
+    }
+  },
+  "whats-michael--2b2be2f4": {
+    "sig": "What’s Michael？ フィギュアマスコット|5|r",
+    "checkedAt": 1795079402937,
+    "compset": {
+      "q": "What’s Michael？ フィギュアマスコット コンプ",
+      "count": 5
     }
   }
 }
