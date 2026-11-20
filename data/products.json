@@ -1,5 +1,36 @@
 [
   {
+    "id": "brandalised--3507bbf7",
+    "name": "BRANDALISED ナップサックコレクション",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y912030_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y912030_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y912030",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-20T00:07:14.859Z",
+    "officialDescription": "誰もが一度は目にしたことがあるであろう世界的に有名なあのアート作品が、若い世代のトレンドアイテムである\"ナップサック\"になりました。どれも印象的なカラーやデザインで、その日の気分で毎日違うモデルを背負いたくなります。本体サイズは約23&times;29cm。ラインナップは「デザインA」「デザインB」「デザインC」「デザインD」「デザインE」の全5種。",
+    "lineup": [
+      "デザインA",
+      "デザインB",
+      "デザインC",
+      "デザインD",
+      "デザインE"
+    ],
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-20",
+    "rakutenThumbCands": [],
+    "thumb": "https://gachaimg.com/thumb/brandalised--3507bbf7.webp"
+  },
+  {
     "id": "miffy--55faec54",
     "name": "miffy きらきら星空の めじるしガチャマスコット",
     "brand": "ミッフィー",
@@ -393,13 +424,17 @@
       "Zizi"
     ],
     "rakutenThumbChecked": true,
-    "rakutenThumbCheckedAt": "2026-11-13",
+    "rakutenThumbCheckedAt": "2026-11-20",
     "rakutenThumbCands": [
-      "220bd4c9",
-      "b24a2a19"
+      "2f34afef",
+      "42fdda4f",
+      "4354eb90",
+      "982bc896",
+      "b24a2a19",
+      "fea3a895"
     ],
-    "rakutenThumbMisses": 1,
-    "thumb": "https://gachaimg.com/thumb/spookiz--3d653f29.webp"
+    "thumb": "https://gachaimg.com/thumb/spookiz--3d653f29.webp",
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-yuyou/cabinet/2611/g261157s01t.jpg?_ex=400x400"
   },
   {
     "id": "chucky--636ddfdc",
@@ -25133,35 +25168,5 @@
     ],
     "description": "世界的に人気の高いフィンランド生まれのキャラクター、ムーミンをモチーフにしたカプセルトイがキタンクラブから登場します。商品名は「ムーミン 陶器の一輪挿し」で、全6種のラインナップです。1回500円で楽しめるガチャガチャとして、8月下旬の発売が予定されています。",
     "thumb": "https://gachaimg.com/thumb/gacha-68bcfdd9.webp"
-  },
-  {
-    "id": "gacha-1b67bc23",
-    "name": "おさるのジョージ のりもの めじるしガチャマスコット",
-    "brand": "おさるのジョージ",
-    "brandSlug": "george",
-    "price": 400,
-    "types": 4,
-    "releaseWeek": "発売中",
-    "color": "#99afe5",
-    "hot": false,
-    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y903502_b.jpg",
-    "images": [
-      "https://www.takaratomy-arts.co.jp/upfiles/products/Y903502_b.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903502",
-    "source": "タカラトミーアーツ公式",
-    "collectedAt": "2026-08-19T23:19:13.443Z",
-    "officialDescription": "さまざまな乗り物に乗った、デフォルメスタイルがかわいい『おさるのジョージ』のガチャマスコットです。シリコンリング付きのめじるし仕様なので、傘やペットボトルなどにつけて自分用のマーカーとしても使えます。本体サイズは高さ約4.5cm（ロケット）。ラインナップは「飛行機」「レースカー」「ショベルカー」「ロケット」の全4種。",
-    "lineup": [
-      "飛行機",
-      "レースカー",
-      "ショベルカー",
-      "ロケット"
-    ],
-    "description": "人気絵本・アニメでおなじみの「おさるのジョージ」をモチーフにした、めじるしガチャマスコットシリーズのカプセルトイです。持ち物の目印として使えるマスコットで、タカラトミーアーツから全4種がラインナップされています。価格は1回400円で、現在発売中です。",
-    "thumb": "https://gachaimg.com/thumb/gacha-1b67bc23.webp",
-    "rakutenThumbChecked": true,
-    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/realize-store-2/cabinet/gachapon2/kawano40/osarujjnorimj0001.jpg?_ex=400x400"
   }
 ]

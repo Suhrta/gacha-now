@@ -4479,14 +4479,6 @@
       "count": 4
     }
   },
-  "gacha-1b67bc23": {
-    "sig": "おさるのジョージ のりもの めじるしガチャマスコット|4|r",
-    "checkedAt": 1794215253804,
-    "compset": {
-      "q": "めじるしアクセサリー ガチャ コンプ",
-      "count": 631
-    }
-  },
   "gacha-5a9d8bbb": {
     "sig": "続・土下座 マーカーチャーム|8|r",
     "checkedAt": 1794301670538,
@@ -6425,6 +6417,14 @@
     "compset": {
       "q": "What’s Michael？ フィギュアマスコット コンプ",
       "count": 5
+    }
+  },
+  "brandalised--3507bbf7": {
+    "sig": "BRANDALISED ナップサックコレクション|5|r",
+    "checkedAt": 1795133241287,
+    "compset": {
+      "q": "ナップサックコレクション ガチャ コンプ",
+      "count": 4
     }
   }
 }
