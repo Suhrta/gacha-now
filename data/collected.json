@@ -7040,7 +7040,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "mofusand",
-    "types": 6
+    "types": null
   },
   {
     "title": "機動戦士ガンダム CAPSULE INDEX 04",
@@ -7568,7 +7568,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "ニャンちゅう",
-    "types": null
+    "types": 5
   },
   {
     "title": "otome to okaka ファッションカラビナマスコットチャーム",
@@ -8463,6 +8463,19 @@
     "price": 400,
     "releaseWeek": "2026年11月 23日週",
     "brand": "カービィ",
+    "types": 6
+  },
+  {
+    "title": "STRANGER THINGS メタルチャームマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y910555",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y910555_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y910555_b.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年11月 23日週",
+    "brand": "その他",
     "types": 6
   },
   {
