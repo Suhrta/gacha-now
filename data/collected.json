@@ -2504,7 +2504,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "パンどろぼう",
-    "types": 5
+    "types": null
   },
   {
     "title": "お文具といっしょ めじるしアクセサリー ～おっきなペロペロキャンディなのです～",
@@ -2552,7 +2552,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "サマーウォーズ",
-    "types": 5
+    "types": null
   },
   {
     "title": "はらぺこあおむし めじるしアクセサリー",
@@ -7040,7 +7040,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "mofusand",
-    "types": null
+    "types": 6
   },
   {
     "title": "機動戦士ガンダム CAPSULE INDEX 04",
@@ -8544,6 +8544,19 @@
     "types": 11
   },
   {
+    "title": "サンリオキャラクターズ ふわわフロッキーマスコット",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y901614",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y901614_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y901614_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 30日週",
+    "brand": "サンリオ",
+    "types": 5
+  },
+  {
     "title": "トイ・ストーリー5 ゆらゆらつながるマスコット Part2",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y903618",
     "source": "タカラトミーアーツ公式",
@@ -8552,7 +8565,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y903618_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年11月",
+    "releaseWeek": "2026年11月 30日週",
     "brand": "ディズニー",
     "types": 6
   },
@@ -8565,7 +8578,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y905001_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年11月",
+    "releaseWeek": "2026年11月 30日週",
     "brand": "その他",
     "types": 5
   },
@@ -8578,7 +8591,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y905711_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年11月",
+    "releaseWeek": "2026年11月 30日週",
     "brand": "トミカ",
     "types": 7
   },
@@ -8591,7 +8604,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y906503_b.jpg"
     ],
     "price": 300,
-    "releaseWeek": "2026年11月",
+    "releaseWeek": "2026年11月 30日週",
     "brand": "その他",
     "types": 5
   },
@@ -8604,7 +8617,7 @@
       "https://www.takaratomy-arts.co.jp/upfiles/products/Y906527_b.jpg"
     ],
     "price": 400,
-    "releaseWeek": "2026年11月",
+    "releaseWeek": "2026年11月 30日週",
     "brand": "スター・ウォーズ",
     "types": 4
   },
@@ -13287,5 +13300,18 @@
     "releaseWeek": "2027年3月 下旬",
     "brand": "その他",
     "types": 5
+  },
+  {
+    "title": "ハイキュー!!　みあげてすたぁマスコット 稲荷崎高校",
+    "url": "https://capsule.bushiroad-creative.com/product/10223/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/21141722/261001_HQ_miagete_inarizaki_BCR_CP_POP-1280x1280.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/21141722/261001_HQ_miagete_inarizaki_BCR_CP_POP-1280x1280.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2027年2月 下旬",
+    "brand": "ハイキュー",
+    "types": 4
   }
 ]
