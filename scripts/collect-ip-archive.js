@@ -39,14 +39,25 @@ const DRY_RUN = !!process.env.DRY_RUN;
 const MAX_DETAIL = Number(process.env.MAX_DETAIL || 10);
 const DELAY_MS = Number(process.env.DELAY_MS || 2000);
 
-// slug は /brand/{slug} と揃える。
+// slug は /brand/{slug} と揃える。name は掲載0件のときのページ名に使う。
 // match は検索結果の誤爆を落とすためのもの。
 // 「ハグコット なんか小さくてかわいいやつ」はちいかわの正式タイトルなので残す。
 const IPS = [
-  { slug: "chiikawa", query: "ちいかわ", match: /ちいかわ|なんか小さくてかわいいやつ/ },
+  { slug: "chiikawa", name: "ちいかわ", query: "ちいかわ", match: /ちいかわ|なんか小さくてかわいいやつ/ },
   // 2026-11-21 GSC: 「ホロライブ ガチャガチャ」1,164表示・8.6位、着地 /character/hololive は掲載5件・滞在20秒。
   // 公式検索は60件超。slug は /character/hololive と揃える（/brand/hololive は canonical でそちらへ寄せている）。
-  { slug: "hololive", query: "ホロライブ", match: /ホロライブ/ },
+  { slug: "hololive", name: "ホロライブ", query: "ホロライブ", match: /ホロライブ/ },
+  // 2026-11-21: 10/22を境に表示が急落したハブ（[[oct22-page-cliff]]）。URL検査では登録済みで、
+  // 評価が下がっただけなので中身を厚くする。トミカ（公式2件・タカトミ製）と
+  // 仮面ライダー（468件・HG等の大型シリーズが大半）は合わないので入れない。
+  // しんちゃん 3,783→259表示 / 公式200件
+  { slug: "shinchan", name: "クレヨンしんちゃん", query: "クレヨンしんちゃん", match: /しんちゃん/ },
+  // ジョジョ 1,455→428表示 / 公式65件（「パワーパフ ガールズ」等の誤爆は match で落とす）
+  { slug: "jojo", name: "ジョジョの奇妙な冒険", query: "ジョジョ", match: /ジョジョ/ },
+  // スヌーピー 730→212表示 / 公式46件。商品名は「PEANUTS」表記が多い
+  { slug: "snoopy", name: "スヌーピー", query: "スヌーピー", match: /PEANUTS|スヌーピー|SNOOPY/i },
+  // 掲載0件で /brand/sumikko が404になっていた（11/17〜）。過去分があればページを残す（components/IpArchive.jsx）
+  { slug: "sumikko", name: "すみっコぐらし", query: "すみっコぐらし", match: /すみっコ/ },
 ];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -154,8 +165,8 @@ async function main() {
     console.log(`[${ip.slug}] ${items.length}件（発売日未取得 ${pending}件）`);
     // 中身が同じ日は日付も動かさない。動かすと毎日コミット→デプロイが走る
     // （Vercelのデプロイ容量・Edge Requests枠を食う。[[deployment-storage-limit]]）
-    if (JSON.stringify(prev.items) === JSON.stringify(items)) continue;
-    archive[ip.slug] = { query: ip.query, checkedAt: new Date().toISOString().slice(0, 10), items };
+    if (JSON.stringify(prev.items) === JSON.stringify(items) && prev.name === ip.name) continue;
+    archive[ip.slug] = { name: ip.name, query: ip.query, checkedAt: new Date().toISOString().slice(0, 10), items };
     changed = true;
     if (blocked) break;
   }

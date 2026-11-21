@@ -11,7 +11,7 @@ import { buildHubHeading } from "../../../lib/hub-info";
 import NewArrivalsSection from "../../../components/NewArrivalsSection";
 import AdUnit, { useInFeedGrid } from "../../../components/AdUnit";
 import PopularNowSection from "../../../components/PopularNowSection";
-import IpArchive, { getIpArchive } from "../../../components/IpArchive";
+import IpArchive, { getIpArchive, getArchiveName } from "../../../components/IpArchive";
 import products from "../../../data/products.json";
 import { getBrandIntro } from "../../../data/character-intros";
 import { getPopularBrands } from "../../../lib/browse";
@@ -29,7 +29,7 @@ export default function BrandPage() {
   const { isBandAt, firstBandAt } = useInFeedGrid();
 
   const brandProducts = products.filter((p) => p.brandSlug === slug);
-  const brandName = brandProducts.length > 0 ? brandProducts[0].brand : slug;
+  const brandName = brandProducts.length > 0 ? brandProducts[0].brand : getArchiveName(slug) || slug;
   const popularBrands = getPopularBrands(products, { excludeSlug: slug });
   const releaseMonths = getAllReleaseMonths(products);
   // 新作の少ないIPは掲載中だけだと数件しか並ばないので、過去の発売分も載せる（components/IpArchive.jsx）
@@ -50,7 +50,9 @@ export default function BrandPage() {
             <span className="block font-pixel text-[12px] text-brand-accent">{brandName}</span>
             {/* title と同じ文言にする（書き換え対策。lib/hub-info.js の buildHubHeading に理由） */}
             <span className="block font-pixel text-[10px] text-brand-sub mt-1">
-              {buildHubHeading({ items: brandProducts })}
+              {brandProducts.length === 0 && ipArchive
+                ? `のガチャガチャ一覧・これまでの${ipArchive.total}件`
+                : buildHubHeading({ items: brandProducts })}
             </span>
           </h1>
         </div>
@@ -93,7 +95,13 @@ export default function BrandPage() {
           ))}
         </div>
 
-        {brandProducts.length === 0 && (
+        {brandProducts.length === 0 && ipArchive && (
+          <div className="text-center py-6 text-brand-sub font-pixel text-[11px] leading-[2.2]">
+            いま はつばいちゅうの しんさくは ないよ<br />これまでの {ipArchive.total}けんは したに あるよ
+          </div>
+        )}
+
+        {brandProducts.length === 0 && !ipArchive && (
           <div className="text-center py-10 text-brand-sub font-pixel text-[11px] leading-[2.2]">
             😢<br />この ブランドの<br />しんさくは まだ ないよ
           </div>

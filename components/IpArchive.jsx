@@ -5,6 +5,23 @@
 import Link from "next/link";
 import archive from "../data/ip-archive.json";
 
+// 掲載中の商品が0件になったブランドでも、過去の発売分があればページを残す。
+// 消すと（404）新作が出るたびに評価をゼロから積み直すことになる（2026-11-21 しまじろう・すみっコが404になっていた）。
+// 0件のときは products からブランド名が取れないので、収集時に保存した name を使う。
+export function getArchiveName(slug) {
+  const entry = archive[slug];
+  return entry && entry.name && entry.items && entry.items.length > 0 ? entry.name : null;
+}
+
+export function getArchiveTotal(slug) {
+  const entry = archive[slug];
+  return entry && entry.items ? entry.items.length : 0;
+}
+
+export function getArchiveSlugs() {
+  return Object.keys(archive).filter((s) => getArchiveName(s));
+}
+
 export function getIpArchive(slug, products) {
   const entry = archive[slug];
   if (!entry || !entry.items || entry.items.length === 0) return null;

@@ -1,7 +1,8 @@
 {
  "chiikawa": {
+  "name": "ちいかわ",
   "query": "ちいかわ",
-  "checkedAt": "2026-11-20",
+  "checkedAt": "2026-11-21",
   "items": [
    {
     "jan": "4582770137750000",
@@ -411,6 +412,7 @@
   ]
  },
  "hololive": {
+  "name": "ホロライブ",
   "query": "ホロライブ",
   "checkedAt": "2026-11-21",
   "items": [
@@ -961,6 +963,2968 @@
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000157892_1.jpg",
     "release": "2021年4月 第4週",
     "ym": "2021-04",
+    "releaseChecked": true
+   }
+  ]
+ },
+ "shinchan": {
+  "name": "クレヨンしんちゃん",
+  "query": "クレヨンしんちゃん",
+  "checkedAt": "2026-11-21",
+  "items": [
+   {
+    "jan": "4582770094718000",
+    "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259530_1.jpg",
+    "release": "2026年11月 第3週",
+    "ym": "2026-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770140125000",
+    "name": "ちびまる子ちゃん＆クレヨンしんちゃん ラバーマスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259514_1.jpg",
+    "release": "2026年11月 第3週",
+    "ym": "2026-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770094725000",
+    "name": "クレヨンしんちゃん カラともマスコット",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259529_1.jpg",
+    "release": "2026年11月 第3週",
+    "ym": "2026-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769928420000",
+    "name": "クレヨンしんちゃん なりきり！？アイドルステージ スイングマスコット",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258596_1.jpg",
+    "release": "2026年10月 第5週",
+    "ym": "2026-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770083859000",
+    "name": "クレヨンしんちゃん おバカスタムビークル 第4弾 ふたば幼稚園大集合シリーズ",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258604_1.jpg",
+    "release": "2026年10月 第3週",
+    "ym": "2026-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770027242000",
+    "name": "クレヨンしんちゃん おべんとうマスコット",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258575_1.jpg",
+    "release": "2026年10月 第2週",
+    "ym": "2026-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769995118000",
+    "name": "クレヨンしんちゃん ぶりぶりざえもん着ぐるみ めじるしアクセサリー",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258625_1.jpg",
+    "release": "2026年10月 第2週",
+    "ym": "2026-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770055054000",
+    "name": "クレヨンしんちゃん ゆらゆらマスコット",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256808_1.jpg",
+    "release": "2026年9月 第3週",
+    "ym": "2026-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770055030000",
+    "name": "クレヨンしんちゃん カラフルマルチチャーム2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256810_1.jpg",
+    "release": "2026年9月 第3週",
+    "ym": "2026-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770055047000",
+    "name": "クレヨンしんちゃん コインケース",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256809_1.jpg",
+    "release": "2026年9月 第3週",
+    "ym": "2026-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118187284000",
+    "name": "クレヨンしんちゃん ペンライトステッキ",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255263_1.jpg",
+    "release": "2026年9月 第2週",
+    "ym": "2026-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770027235000",
+    "name": "クレヨンしんちゃん なつやすみマスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255230_1.jpg",
+    "release": "2026年8月 第4週",
+    "ym": "2026-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769917301000",
+    "name": "クレヨンしんちゃん ゆらゆらフェイスミニチャーム",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255298_1.jpg",
+    "release": "2026年8月 第5週",
+    "ym": "2026-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769995132000",
+    "name": "映画クレヨンしんちゃん 奇々怪々！ オラの妖怪バケ～ション スイングマスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255306_1.jpg",
+    "release": "2026年8月 第1週",
+    "ym": "2026-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769836336000",
+    "name": "クレヨンしんちゃん ふわふわフロッキードール",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255101_1.jpg",
+    "release": "2026年7月 第5週",
+    "ym": "2026-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770070989000",
+    "name": "【フラットガシャポン】クレヨンしんちゃん マウスシートコレクション『映画クレヨンしんちゃん ヘンダーランドの大冒険』",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253618_1.jpg",
+    "release": "2026年7月 第2週",
+    "ym": "2026-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769979132000",
+    "name": "クレヨンしんちゃん だがしんちゃんミニチュアチャーム",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253568_1.jpg",
+    "release": "2026年7月 第3週",
+    "ym": "2026-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118187307000",
+    "name": "クレヨンしんちゃん くっつきマスコット",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251551_1.jpg",
+    "release": "2026年6月 第4週",
+    "ym": "2026-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769832307000",
+    "name": "クレヨンしんちゃん フェイスぬいぐるみ2",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251594_1.jpg",
+    "release": "2026年6月 第4週",
+    "ym": "2026-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118187260000",
+    "name": "クレヨンしんちゃん おすしんちゃん",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251552_1.jpg",
+    "release": "2026年6月 第3週",
+    "ym": "2026-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769979149000",
+    "name": "クレヨンしんちゃん babyいたずらマスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250063_1.jpg",
+    "release": "2026年5月 第5週",
+    "ym": "2026-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118206107000",
+    "name": "クレヨンしんちゃん すきすき！マスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250077_1.jpg",
+    "release": "2026年5月 第3週",
+    "ym": "2026-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769935442000",
+    "name": "クレヨンしんちゃん ライトマスコット３",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248609_1.jpg",
+    "release": "2026年4月 第5週",
+    "ym": "2026-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770027228000",
+    "name": "クレヨンしんちゃん めじるしアクセサリー2～パステルカラー～",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248534_1.jpg",
+    "release": "2026年4月 第4週",
+    "ym": "2026-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118206084000",
+    "name": "クレヨンしんちゃん あそーとコレクション『映画クレヨンしんちゃん ヘンダーランドの大冒険』",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248644_1.jpg",
+    "release": "2026年4月 第3週",
+    "ym": "2026-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769898501000",
+    "name": "クレヨンしんちゃん マスコットキャップチャーム",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000246943_1.jpg",
+    "release": "2026年3月 第2週",
+    "ym": "2026-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769889707000",
+    "name": "クレヨンしんちゃん ぎゅーこっと",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000246948_1.jpg",
+    "release": "2026年3月 第3週",
+    "ym": "2026-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769917288000",
+    "name": "クレヨンしんちゃん ミニチュアパッケージコレクション３ 『映画クレヨンしんちゃん ヘンダーランドの大冒険』",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245326_1.jpg",
+    "release": "2026年2月 第4週",
+    "ym": "2026-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769889714000",
+    "name": "クレヨンしんちゃん めざましサウンドコレクション",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243271_1.jpg",
+    "release": "2026年2月 第2週",
+    "ym": "2026-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769935459000",
+    "name": "クレヨンしんちゃん ミラーコレクション",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245309_1.jpg",
+    "release": "2026年2月 第1週",
+    "ym": "2026-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769837760000",
+    "name": "クレヨンしんちゃん ミニ貯金箱",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245290_1.jpg",
+    "release": "2026年2月 第2週",
+    "ym": "2026-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769832253000",
+    "name": "クレヨンしんちゃん めじるしアクセサリー みんなでくまパジャマ",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243172_1.jpg",
+    "release": "2026年1月 第5週",
+    "ym": "2026-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769837333000",
+    "name": "クレヨンしんちゃん まちぼうけ7 『映画クレヨンしんちゃん 嵐を呼ぶ 栄光のヤキニクロード』",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243171_1.jpg",
+    "release": "2026年7月 第3週",
+    "ym": "2026-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769889738000",
+    "name": "クレヨンしんちゃん コミックス あそーとコレクション",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241585_1.jpg",
+    "release": "2025年12月 第4週",
+    "ym": "2025-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769898525000",
+    "name": "クレヨンしんちゃん ミニチュアパッケージコレクション２",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241576_1.jpg",
+    "release": "2026年11月 第3週",
+    "ym": "2026-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769917295000",
+    "name": "ほぺむにゅ！ クレヨンしんちゃん",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241554_1.jpg",
+    "release": "2025年12月 第2週",
+    "ym": "2025-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769898518000",
+    "name": "ギャルなクレヨンしんちゃん",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241577_1.jpg",
+    "release": "2026年6月 第3週",
+    "ym": "2026-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769898495000",
+    "name": "クレヨンしんちゃん BIGカプキャラ２",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000239624_1.jpg",
+    "release": "2025年11月 第4週",
+    "ym": "2025-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769917271000",
+    "name": "クレヨンしんちゃん カラフルマルチチャーム",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000239606_1.jpg",
+    "release": "2026年6月 第4週",
+    "ym": "2026-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769916687000",
+    "name": "原作クレヨンしんちゃん×サンリオキャラクターズ フィギュアコレクション",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000239611_1.jpg",
+    "release": "2025年11月 第3週",
+    "ym": "2025-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769889721000",
+    "name": "クレヨンしんちゃん おなまえスイング",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000237841_1.jpg",
+    "release": "2025年10月 第5週",
+    "ym": "2025-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769842375000",
+    "name": "ねぐせついてるよ。 クレヨンしんちゃん",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000237892_1.jpg",
+    "release": "2025年10月 第3週",
+    "ym": "2025-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769842337000",
+    "name": "クレヨンしんちゃん×仮面ライダー コラボレーションフィギュアコレクション",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000235706_1.jpg",
+    "release": "2026年5月 第4週",
+    "ym": "2026-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769889691000",
+    "name": "クレヨンしんちゃん ぬいぐるみクリップ",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000235930_1.jpg",
+    "release": "2025年9月 第4週",
+    "ym": "2025-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769916670000",
+    "name": "原作クレヨンしんちゃん×はぴだんぶい スペシャルラバーマスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000235904_1.jpg",
+    "release": "2025年9月 第2週",
+    "ym": "2025-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769928413000",
+    "name": "クレヨンしんちゃん つまんでつなげてますこっと2 ～パステルカラー～",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000235900_1.jpg",
+    "release": "2025年9月 第2週",
+    "ym": "2025-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769842368000",
+    "name": "クレヨンしんちゃん なりきりごっこカー2",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000235975_1.jpg",
+    "release": "2025年9月 第2週",
+    "ym": "2025-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769842351000",
+    "name": "クレヨンしんちゃん 名探偵しんちゃん3",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000234159_1.jpg",
+    "release": "2025年8月 第5週",
+    "ym": "2025-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769890109000",
+    "name": "映画クレヨンしんちゃん 超華麗！灼熱のカスカベダンサーズ スイングマスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000234101_1.jpg",
+    "release": "2025年8月 第4週",
+    "ym": "2025-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769898464000",
+    "name": "クレヨンしんちゃん ボーちゃん あそーとコレクション",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000234090_1.jpg",
+    "release": "2026年4月 第4週",
+    "ym": "2026-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769832628000",
+    "name": "クレヨンしんちゃん アクリルロゴチャーム",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000234174_1.jpg",
+    "release": "2025年8月 第2週",
+    "ym": "2025-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769832635000",
+    "name": "クレヨンしんちゃん ぶりぶりざえもんがいっぱいフロッキードール",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000232505_1.jpg",
+    "release": "2025年7月 第4週",
+    "ym": "2025-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769860539000",
+    "name": "クレヨンしんちゃん ふにゅふにゅマスコット",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000232538_1.jpg",
+    "release": "2025年7月 第4週",
+    "ym": "2025-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769808883000",
+    "name": "クレヨンしんちゃん ケーススタンド",
+    "price": 800,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000232461_1.jpg",
+    "release": "2025年7月 第5週",
+    "ym": "2025-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769832611000",
+    "name": "ふろあがり クレヨンしんちゃん",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000232495_1.jpg",
+    "release": "2025年7月 第3週",
+    "ym": "2025-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769808876000",
+    "name": "クレヨンしんちゃん ビデオテープミニチュアチャームコレクション",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000232460_1.jpg",
+    "release": "2025年7月 第2週",
+    "ym": "2025-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769806568000",
+    "name": "クレヨンしんちゃん おバカスタムビークル 第3弾 みんなでアクション仮面ごっこシリーズ",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000230523_1.jpg",
+    "release": "2025年6月 第4週",
+    "ym": "2025-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769822452000",
+    "name": "【フラットガシャポン】クレヨンしんちゃん マウスシートコレクション",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000230575_1.jpg",
+    "release": "2025年11月 第4週",
+    "ym": "2025-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769822445000",
+    "name": "クレヨンしんちゃん めじるしアクセサリー３",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000230574_1.jpg",
+    "release": "2025年6月 第2週",
+    "ym": "2025-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769808869000",
+    "name": "クレヨンしんちゃんbaby よちよちおさんぽ",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000230556_1.jpg",
+    "release": "2025年6月 第3週",
+    "ym": "2025-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769769504000",
+    "name": "クレヨンしんちゃん まちぼうけ6 『映画クレヨンしんちゃん ヘンダーランドの大冒険』",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000229234_1.jpg",
+    "release": "2025年10月 第4週",
+    "ym": "2025-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769860522000",
+    "name": "クレヨンしんちゃん つまんでつなげてマスコット ～パステルカラー～",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000229295_1.jpg",
+    "release": "2025年5月 第3週",
+    "ym": "2025-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769822476000",
+    "name": "クレヨンしんちゃん フェイスぬいぐるみ",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000229259_1.jpg",
+    "release": "2025年5月 第2週",
+    "ym": "2025-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769832604000",
+    "name": "クレヨンしんちゃん カプセルヘアクリップ４",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000229277_1.jpg",
+    "release": "2025年5月 第1週",
+    "ym": "2025-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769808845000",
+    "name": "クレヨンしんちゃん お料理マスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000227898_1.jpg",
+    "release": "2025年4月 第4週",
+    "ym": "2025-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769822438000",
+    "name": "クレヨンしんちゃん しゅしゅぽぽごっこ",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000227966_1.jpg",
+    "release": "2025年4月 第4週",
+    "ym": "2025-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769769528000",
+    "name": "クレヨンしんちゃん デスクでおてつだいコレクション",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000226702_1.jpg",
+    "release": "2025年3月 第5週",
+    "ym": "2025-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769808852000",
+    "name": "クレヨンしんちゃん ネコなオラたちだゾ！",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000226700_1.jpg",
+    "release": "2025年3月 第3週",
+    "ym": "2025-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769808890000",
+    "name": "【フラットガシャポン】クレヨンしんちゃん ネイルシールコレクション",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000226699_1.jpg",
+    "release": "2025年3月 第3週",
+    "ym": "2025-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769769535000",
+    "name": "クレヨンしんちゃん ぷっくりアクリルめじるしアクセサリー",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000226701_1.jpg",
+    "release": "2025年3月 第4週",
+    "ym": "2025-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769739538000",
+    "name": "クレヨンしんちゃん ライトマスコットbaby",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000224835_1.jpg",
+    "release": "2025年2月 第4週",
+    "ym": "2025-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769753022000",
+    "name": "【フラットガシャポン】マルチプレートコレクション クレヨンしんちゃん",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000224895_1.jpg",
+    "release": "2025年2月 第4週",
+    "ym": "2025-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118048592000",
+    "name": "びっくらたまご バブルフィーバー クレヨンしんちゃん シロがもっといっぱい入浴剤",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000224896_1.jpg",
+    "release": "2025年2月 第4週",
+    "ym": "2025-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769769511000",
+    "name": "クレヨンしんちゃん 名探偵しんちゃん2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000223463_1.jpg",
+    "release": "2025年1月 第5週",
+    "ym": "2025-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769708442000",
+    "name": "クレヨンしんちゃん BIGカプキャラ",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000223460_1.jpg",
+    "release": "2025年1月 第3週",
+    "ym": "2025-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769769542000",
+    "name": "クレヨンしんちゃん めじるしアクセサリー パステルカラー",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000223461_1.jpg",
+    "release": "2025年1月 第2週",
+    "ym": "2025-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769708435000",
+    "name": "クレヨンしんちゃん ライトブレス2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000223462_1.jpg",
+    "release": "2025年1月 第2週",
+    "ym": "2025-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769753008000",
+    "name": "クレヨンしんちゃん ミニチュアパッケージコレクション",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000221627_1.jpg",
+    "release": "2025年8月 第2週",
+    "ym": "2025-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769753015000",
+    "name": "クレヨンしんちゃん×ヒプノシスマイク なふだあくりるチャーム",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000221665_1.jpg",
+    "release": "2024年12月 第2週",
+    "ym": "2024-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769720932000",
+    "name": "クレヨンしんちゃん きゃらっぷっぷ2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000221662_1.jpg",
+    "release": "2024年12月 第2週",
+    "ym": "2024-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769720949000",
+    "name": "クレヨンしんちゃん ぷにぷにし隊",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000221588_1.jpg",
+    "release": "2024年12月 第2週",
+    "ym": "2024-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769711954000",
+    "name": "クレヨンしんちゃん おバカスタムビークル 第2弾 カスカベ防衛隊シリーズ",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000219671_1.jpg",
+    "release": "2024年11月 第5週",
+    "ym": "2024-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769708428000",
+    "name": "おうちでガシャポン クレヨンしんちゃん",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000219622_1.jpg",
+    "release": "2024年11月 第5週",
+    "ym": "2024-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769738166000",
+    "name": "ポンデクルール クレヨンしんちゃん マルチカラーパウダー",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000219670_1.jpg",
+    "release": "2024年11月 第5週",
+    "ym": "2024-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769701177000",
+    "name": "クレヨンしんちゃん シロがいっぱい フロッキードール",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000219606_1.jpg",
+    "release": "2024年11月 第4週",
+    "ym": "2024-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118005281000",
+    "name": "クレヨンしんちゃん ふろとも ぽかぽかバスタイム BABYしんちゃんズ",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000217963_1.jpg",
+    "release": "2024年10月 第4週",
+    "ym": "2024-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118246264000",
+    "name": "クレヨンしんちゃん みんなでおそろい！マスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000217944_1.jpg",
+    "release": "2024年10月 第4週",
+    "ym": "2024-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118233189000",
+    "name": "ならぶんです。 TOMORROW X TOGETHER クレヨンしんちゃん",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000217858_1.jpg",
+    "release": "2024年10月 第5週",
+    "ym": "2024-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769708411000",
+    "name": "クレヨンしんちゃん #ハッシュタグつける アクリルチャーム",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000217943_1.jpg",
+    "release": "2024年10月 第2週",
+    "ym": "2024-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118246257000",
+    "name": "クレヨンしんちゃん 名探偵しんちゃん ～犯人をみつけるゾ！～",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000216329_1.jpg",
+    "release": "2024年9月 第3週",
+    "ym": "2024-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118210524000",
+    "name": "クレヨンしんちゃん おくるみbabyスイング",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000216330_1.jpg",
+    "release": "2024年9月 第2週",
+    "ym": "2024-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769708404000",
+    "name": "【フラットガシャポン】クレヨンしんちゃん クリアラバーコースター２",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000215081_1.jpg",
+    "release": "2024年8月 第2週",
+    "ym": "2024-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118198266000",
+    "name": "映画クレヨンしんちゃん オラたちの恐竜日記 シャカシャカカプセルクリップチャーム",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000215083_1.jpg",
+    "release": "2024年8月 第2週",
+    "ym": "2024-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769681806000",
+    "name": "クレヨンしんちゃん なりきりごっこカー",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000215082_1.jpg",
+    "release": "2025年4月 第4週",
+    "ym": "2025-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118144539000",
+    "name": "映画クレヨンしんちゃん オラたちの恐竜日記 ならぶんです。",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000213919_1.jpg",
+    "release": "2024年7月 第4週",
+    "ym": "2024-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769712005000",
+    "name": "クレヨンしんちゃん ちょこっとおバカスタムビークル オラたちの恐竜日記ver.",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000213938_1.jpg",
+    "release": "2024年7月 第5週",
+    "ym": "2024-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118233677000",
+    "name": "クレヨンしんちゃん カプセルヘアクリップ３",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000213918_1.jpg",
+    "release": "2024年7月 第3週",
+    "ym": "2024-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118197887000",
+    "name": "クレヨンしんちゃん×サンリオキャラクターズ フィギュアコレクション",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000213937_1.jpg",
+    "release": "2024年7月 第1週",
+    "ym": "2024-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118198242000",
+    "name": "クレヨンしんちゃん 野原家だんらんマスコット～みんなで焼肉だゾ～",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000212338_1.jpg",
+    "release": "2024年6月 第5週",
+    "ym": "2024-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118233684000",
+    "name": "【フラットガシャポン】CHIP UP クレヨンしんちゃん",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000212328_1.jpg",
+    "release": "2024年6月 第4週",
+    "ym": "2024-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118233172000",
+    "name": "＃ハッシュタグつける TOMORROW X TOGETHER クレヨンしんちゃん",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000212384_1.jpg",
+    "release": "2024年6月 第3週",
+    "ym": "2024-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118210500000",
+    "name": "クレヨンしんちゃん ぷくっとリング2",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000212339_1.jpg",
+    "release": "2024年6月 第2週",
+    "ym": "2024-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118233660000",
+    "name": "クレヨンしんちゃん ぷっくりラバーマグネット3",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000211127_1.jpg",
+    "release": "2024年5月 第4週",
+    "ym": "2024-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118184023000",
+    "name": "クレヨンしんちゃん めじるしアクセサリー2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000211126_1.jpg",
+    "release": "2024年5月 第4週",
+    "ym": "2024-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118204592000",
+    "name": "クレヨンしんちゃん おバカスタムビークル 第1弾野原家チルドレンシリーズ",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000209716_1.jpg",
+    "release": "2024年4月 第3週",
+    "ym": "2024-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118144638000",
+    "name": "クレヨンしんちゃん まちぼうけ～カスカベ防衛隊とシロ～",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000209606_1.jpg",
+    "release": "2024年4月 第2週",
+    "ym": "2024-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118197863000",
+    "name": "クレヨンしんちゃん×サンリオキャラクターズ スペシャルラバーマスコット2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000208469_1.jpg",
+    "release": "2024年3月 第4週",
+    "ym": "2024-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118108890000",
+    "name": "クレヨンしんちゃん ライトマスコット",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000208497_1.jpg",
+    "release": "2024年9月 第2週",
+    "ym": "2024-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118121554000",
+    "name": "クレヨンしんちゃん サウナ",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000208498_1.jpg",
+    "release": "2024年10月 第2週",
+    "ym": "2024-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118108852000",
+    "name": "クレヨンしんちゃん ぷくっとリング",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000207039_1.jpg",
+    "release": "2024年2月 第3週",
+    "ym": "2024-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660986058000",
+    "name": "きゃらゆ～フィギュアコレクション クレヨンしんちゃん ～のんびりバスタイム～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000207043_1.jpg",
+    "release": "2024年2月 第3週",
+    "ym": "2024-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118108876000",
+    "name": "クレヨンしんちゃん ドキがムネムネおっかけ隊",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000207040_1.jpg",
+    "release": "2024年2月 第2週",
+    "ym": "2024-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118108838000",
+    "name": "クレヨンしんちゃん カプセルヘアクリップ2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000205532_1.jpg",
+    "release": "2024年1月 第2週",
+    "ym": "2024-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118184009000",
+    "name": "【フラットガシャポン】クレヨンしんちゃん クリアラバーコースター",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000205465_1.jpg",
+    "release": "2024年1月 第3週",
+    "ym": "2024-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118121530000",
+    "name": "クレヨンしんちゃん きゃらっぷっぷ",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000205531_1.jpg",
+    "release": "2024年1月 第2週",
+    "ym": "2024-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118108814000",
+    "name": "クレヨンしんちゃん ライトブレス",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000203409_1.jpg",
+    "release": "2024年6月 第2週",
+    "ym": "2024-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118028112000",
+    "name": "クレヨンしんちゃん つまんでつなげてマスコットbaby",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000203726_1.jpg",
+    "release": "2023年12月 第4週",
+    "ym": "2023-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118023155000",
+    "name": "クレヨンしんちゃん 絵本マスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000201916_1.jpg",
+    "release": "2023年11月 第4週",
+    "ym": "2023-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117984679000",
+    "name": "クレヨンしんちゃん×サンリオキャラクターズ ならぶんです。",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000201887_1.jpg",
+    "release": "2024年5月 第4週",
+    "ym": "2024-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660986003000",
+    "name": "びっくらたまご クレヨンしんちゃん アクション仮面と決めポーズだゾ",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000200077_1.jpg",
+    "release": "2023年10月 第4週",
+    "ym": "2023-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117987878000",
+    "name": "クレヨンしんちゃん おんがく隊",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000200025_1.jpg",
+    "release": "2023年10月 第4週",
+    "ym": "2023-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118108791000",
+    "name": "クレヨンしんちゃん グッズコレクション",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000200026_1.jpg",
+    "release": "2023年10月 第2週",
+    "ym": "2023-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117983771000",
+    "name": "映画クレヨンしんちゃん ねんどアートマスコットスイング ～もののけニンジャ珍風伝～",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000198412_1.jpg",
+    "release": "2023年9月 第5週",
+    "ym": "2023-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660971955000",
+    "name": "クレヨンしんちゃん まちぼうけ5",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000196972_1.jpg",
+    "release": "2023年8月 第4週",
+    "ym": "2023-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118023131000",
+    "name": "クレヨンしんちゃん ぷっくりラバーマグネット２",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000196971_1.jpg",
+    "release": "2023年8月 第2週",
+    "ym": "2023-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117984655000",
+    "name": "クレヨンしんちゃん×サンリオキャラクターズ スペシャルラバーマスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000196953_1.jpg",
+    "release": "2023年8月 第2週",
+    "ym": "2023-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117963315000",
+    "name": "しん次元！クレヨンしんちゃんTHE MOVIE 超能力大決戦～とべとべ手巻き寿司～ スイング",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000195323_1.jpg",
+    "release": "2023年7月 第5週",
+    "ym": "2023-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660971931000",
+    "name": "Ringcolle! クレヨンしんちゃんリング2",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000193787_1.jpg",
+    "release": "2023年6月 第4週",
+    "ym": "2023-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660953036000",
+    "name": "クレヨンしんちゃん めじるしアクセサリー",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000192607_1.jpg",
+    "release": "2023年5月 第3週",
+    "ym": "2023-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660792499000",
+    "name": "クレヨンしんちゃん まちぼうけ4",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000191182_1.jpg",
+    "release": "2023年4月 第4週",
+    "ym": "2023-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660948148000",
+    "name": "びっくらたまご クレヨンしんちゃん",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000190427_1.jpg",
+    "release": "2023年3月 第4週",
+    "ym": "2023-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660971917000",
+    "name": "クレヨンしんちゃん カプセルヘアクリップ",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000189816_1.jpg",
+    "release": "2023年3月 第3週",
+    "ym": "2023-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660792536000",
+    "name": "クレヨンしんちゃん つまんでつなげてますこっと３",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000188027_1.jpg",
+    "release": "2023年2月 第2週",
+    "ym": "2023-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660792512000",
+    "name": "クレヨンしんちゃん ならぶんです。３",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000186410_1.jpg",
+    "release": "2023年1月 第3週",
+    "ym": "2023-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660792475000",
+    "name": "クレヨンしんちゃん まちぼうけ3",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000184697_1.jpg",
+    "release": "2022年12月 第5週",
+    "ym": "2022-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660782353000",
+    "name": "クレヨンしんちゃん もぐもぐパーティ",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000182832_1.jpg",
+    "release": "2022年11月 第4週",
+    "ym": "2022-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660778011000",
+    "name": "クレヨンしんちゃん まちぼうけ2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000181250_1.jpg",
+    "release": "2022年10月 第4週",
+    "ym": "2022-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660774570000",
+    "name": "クレヨンしんちゃん キャンプ",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000179907_1.jpg",
+    "release": "2023年9月 第2週",
+    "ym": "2023-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660762034000",
+    "name": "Ringcolle! クレヨンしんちゃんリング",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000178132_1.jpg",
+    "release": "2022年8月 第4週",
+    "ym": "2022-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660768111000",
+    "name": "ハグコット シナモロール×クレヨンしんちゃん",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000178133_1.jpg",
+    "release": "2022年8月 第2週",
+    "ym": "2022-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660767237000",
+    "name": "ハグコット クレヨンしんちゃん6",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000176767_1.jpg",
+    "release": "2023年6月 第4週",
+    "ym": "2023-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660777991000",
+    "name": "クレヨンしんちゃん ぷっくりラバーマグネット",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000176752_1.jpg",
+    "release": "2022年7月 第3週",
+    "ym": "2022-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660762058000",
+    "name": "クレヨンしんちゃん 野原家だんらんマスコット～アクション仮面に変身だゾ～",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000175178_1.jpg",
+    "release": "2022年7月 第2週",
+    "ym": "2022-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660753971000",
+    "name": "クレヨンしんちゃん プカプカ浮き輪コレクション",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000174039_1.jpg",
+    "release": "2022年5月 第4週",
+    "ym": "2022-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660763239000",
+    "name": "【フラットガシャポン】クレヨンしんちゃん クリアファイル",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000172926_1.jpg",
+    "release": "2022年4月 第4週",
+    "ym": "2022-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660753957000",
+    "name": "「映画クレヨンしんちゃん もののけニンジャ珍風伝」 ならぶんです。",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000172909_1.jpg",
+    "release": "2022年4月 第5週",
+    "ym": "2022-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660742272000",
+    "name": "クレヨンしんちゃん ラバーざっかコレクション",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000171552_1.jpg",
+    "release": "2023年1月 第3週",
+    "ym": "2023-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660721512000",
+    "name": "クレヨンしんちゃん まちぼうけ",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000170126_1.jpg",
+    "release": "2024年5月 第4週",
+    "ym": "2024-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660716778000",
+    "name": "クレヨンしんちゃん つまんでつなげてますこっと２",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000168846_1.jpg",
+    "release": "2022年1月 第5週",
+    "ym": "2022-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660721499000",
+    "name": "カプキャラ クレヨンしんちゃん8",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000168868_1.jpg",
+    "release": "2022年1月 第5週",
+    "ym": "2022-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660716754000",
+    "name": "クレヨンしんちゃん チョコビケース",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000165994_1.jpg",
+    "release": "2021年11月 第5週",
+    "ym": "2021-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660695790000",
+    "name": "クレヨンしんちゃん 野原家だんらんマスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000164733_1.jpg",
+    "release": "2021年10月 第3週",
+    "ym": "2021-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660654575000",
+    "name": "クレヨンしんちゃん はさむんです。でらっくす",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000163207_1.jpg",
+    "release": "2021年9月 第2週",
+    "ym": "2021-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660695776000",
+    "name": "クレヨンしんちゃん ラバーマグネットコレクション",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000162222_1.jpg",
+    "release": "2021年8月 第2週",
+    "ym": "2021-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660633174000",
+    "name": "クレヨンしんちゃん ならぶんです。２",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000160885_1.jpg",
+    "release": "2021年7月 第5週",
+    "ym": "2021-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660622734000",
+    "name": "ハグコット クレヨンしんちゃん5",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000159373_1.jpg",
+    "release": "2021年6月 第2週",
+    "ym": "2021-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660622710000",
+    "name": "カプキャラ クレヨンしんちゃん7",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000158383_1.jpg",
+    "release": "2021年5月 第5週",
+    "ym": "2021-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660608578000",
+    "name": "「映画クレヨンしんちゃん 謎メキ！花の天カス学園」スイングマスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000157015_1.jpg",
+    "release": "2021年4月 第3週",
+    "ym": "2021-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660563334000",
+    "name": "クレヨンしんちゃん おやすみ隊2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000155956_1.jpg",
+    "release": "2026年1月 第2週",
+    "ym": "2026-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660533634000",
+    "name": "クレヨンしんちゃん つまんでつなげてますこっと",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000154736_1.jpg",
+    "release": "2021年2月 第2週",
+    "ym": "2021-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660547198000",
+    "name": "ハグコット クレヨンしんちゃん4",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000153677_1.jpg",
+    "release": "2021年1月 第3週",
+    "ym": "2021-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660547174000",
+    "name": "クレヨンしんちゃん ゆきあそび隊",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000151641_1.jpg",
+    "release": "2020年11月 第3週",
+    "ym": "2020-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660510154000",
+    "name": "コレキャラ！ クレヨンしんちゃん5",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000150609_1.jpg",
+    "release": "2020年10月 第2週",
+    "ym": "2020-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660502272000",
+    "name": "クレヨンしんちゃん ならぶんです。",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000149494_1.jpg",
+    "release": "2020年9月 第2週",
+    "ym": "2020-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660502296000",
+    "name": "クレヨンしんちゃん ラクガキコレクション2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000148623_1.jpg",
+    "release": "2020年8月 第2週",
+    "ym": "2020-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660510178000",
+    "name": "クレヨンしんちゃん ポーチコレクション2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000148624_1.jpg",
+    "release": "2020年8月 第2週",
+    "ym": "2020-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660466437000",
+    "name": "クレヨンしんちゃん＆ラスカル カプセルラバーマスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000147507_1.jpg",
+    "release": "2020年7月 第3週",
+    "ym": "2020-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660479017000",
+    "name": "ハグコット クレヨンしんちゃん3",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000147501_1.jpg",
+    "release": "2020年7月 第5週",
+    "ym": "2020-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660534396000",
+    "name": "クレヨンしんちゃん ラクガキコレクションSP",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000158346_1.jpg",
+    "release": "2020年6月 第3週",
+    "ym": "2020-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660478997000",
+    "name": "クレヨンしんちゃん おやすみ隊",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000145585_1.jpg",
+    "release": "2020年6月 第1週",
+    "ym": "2020-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660479031000",
+    "name": "クレヨンしんちゃん みずあそび隊",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000146342_1.jpg",
+    "release": "2020年6月 第4週",
+    "ym": "2020-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660473435000",
+    "name": "クレヨンしんちゃん ポーチコレクション",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000145860_1.jpg",
+    "release": "2020年5月 第3週",
+    "ym": "2020-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660473411000",
+    "name": "コレキャラ！ クレヨンしんちゃん4",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000145858_1.jpg",
+    "release": "2020年5月 第3週",
+    "ym": "2020-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660467250000",
+    "name": "クレヨンしんちゃん ぶらぶら隊",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000144919_1.jpg",
+    "release": "2020年4月 第3週",
+    "ym": "2020-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660467311000",
+    "name": "クレヨンしんちゃん ラクガキコレクション",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000144920_1.jpg",
+    "release": "2020年4月 第5週",
+    "ym": "2020-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660454816000",
+    "name": "カプキャラ クレヨンしんちゃん6",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000142994_1.jpg",
+    "release": "2020年2月 第3週",
+    "ym": "2020-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660454793000",
+    "name": "クレヨンしんちゃん ケツだけ歩き隊",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000143007_1.jpg",
+    "release": "2025年2月 第3週",
+    "ym": "2025-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660446378000",
+    "name": "ハグコット クレヨンしんちゃん2",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000142137_1.jpg",
+    "release": "2023年2月 第1週",
+    "ym": "2023-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660419778000",
+    "name": "カプキャラ クレヨンしんちゃん5",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000141227_1.jpg",
+    "release": "2023年7月 第5週",
+    "ym": "2023-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660419754000",
+    "name": "クレヨンしんちゃん コスプレラバーコレクション2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000141226_1.jpg",
+    "release": "2019年12月 第1週",
+    "ym": "2019-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660406174000",
+    "name": "コレキャラ！ クレヨンしんちゃん3",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000140451_1.jpg",
+    "release": "2019年11月 第2週",
+    "ym": "2019-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660406150000",
+    "name": "ふぃぐりっぷ クレヨンしんちゃん",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000139682_1.jpg",
+    "release": "2019年10月 第5週",
+    "ym": "2019-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660406136000",
+    "name": "ハグコット クレヨンしんちゃん",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000138788_1.jpg",
+    "release": "2022年1月 第5週",
+    "ym": "2022-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660397274000",
+    "name": "コレキャラ！クレヨンしんちゃん2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000137901_1.jpg",
+    "release": "2019年8月 第2週",
+    "ym": "2019-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660397250000",
+    "name": "クレヨンしんちゃん コスプレラバーコレクション",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000136850_1.jpg",
+    "release": "2019年7月 第3週",
+    "ym": "2019-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660377375000",
+    "name": "カプキャラ クレヨンしんちゃん4",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000136031_1.jpg",
+    "release": "2026年7月 第3週",
+    "ym": "2026-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660361213000",
+    "name": "コレキャラ！ クレヨンしんちゃん",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000134514_1.jpg",
+    "release": "2019年4月 第3週",
+    "ym": "2019-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660346296000",
+    "name": "カプキャラ クレヨンしんちゃん3",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000133829_1.jpg",
+    "release": "2024年4月 第3週",
+    "ym": "2024-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660292272000",
+    "name": "カプキャラ クレヨンしんちゃん2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000129462_1.jpg",
+    "release": "2018年10月 第2週",
+    "ym": "2018-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660271192000",
+    "name": "クレヨンしんちゃん ふにゅふにゅマスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000127008_1.jpg",
+    "release": "2018年7月 第2週",
+    "ym": "2018-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660226055000",
+    "name": "カプキャラ クレヨンしんちゃん",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000124736_1.jpg",
+    "release": "2018年4月 第3週",
+    "ym": "2018-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660031406000",
+    "name": "クレヨンしんちゃん 机の上の「クレヨンしんちゃん」2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000103695_1.jpg",
+    "release": "2016年04月中旬",
+    "ym": "2016-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4543112969200000",
+    "name": "クレヨンしんちゃん 机の上の「クレヨンしんちゃん」",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net//bc/img/model/b/1000098985_1.jpg",
+    "release": "2015年08月上旬",
+    "ym": "2015-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4543112941985000",
+    "name": "クレヨンしんちゃん クレヨンしんちゃん ぶらぶらスイング２",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000096967_1.jpg",
+    "release": "2015年04月下旬",
+    "ym": "2015-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4543112907769000",
+    "name": "クレヨンしんちゃん クレヨンしんちゃん ぶらぶらスイング",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000094250_1.jpg",
+    "release": "2014年11月下旬",
+    "ym": "2014-11",
+    "releaseChecked": true
+   }
+  ]
+ },
+ "jojo": {
+  "name": "ジョジョの奇妙な冒険",
+  "query": "ジョジョ",
+  "checkedAt": "2026-11-21",
+  "items": [
+   {
+    "jan": "4582770068917000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション08",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000260514_1.jpg",
+    "release": "2026年11月 第3週",
+    "ym": "2026-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770055498000",
+    "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000260537_1.jpg",
+    "release": "2026年11月 第2週",
+    "ym": "2026-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770055481000",
+    "name": "ジョジョの奇妙な冒険 黄金の風 めじるしアクセサリー01",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258561_1.jpg",
+    "release": "2026年10月 第5週",
+    "ym": "2026-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769995439000",
+    "name": "ジョジョの奇妙な冒険 JOJO球 カプセルヒーローズ04",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255241_1.jpg",
+    "release": "2026年8月 第5週",
+    "ym": "2026-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769855658000",
+    "name": "【フラットガシャポン】ジョジョの奇妙な冒険 ネイルシール",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253624_1.jpg",
+    "release": "2026年7月 第2週",
+    "ym": "2026-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769979460000",
+    "name": "ジョジョの奇妙な冒険 ラバーマスコットコレクション05",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253628_1.jpg",
+    "release": "2026年7月 第2週",
+    "ym": "2026-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118208583000",
+    "name": "ジョジョの奇妙な冒険 JOJO球 カプセルヒーローズ03",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251593_1.jpg",
+    "release": "2026年6月 第3週",
+    "ym": "2026-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769858871000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション RE-Collect06",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251574_1.jpg",
+    "release": "2026年6月 第3週",
+    "ym": "2026-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769858857000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション RE-Collect05",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000250089_1.jpg",
+    "release": "2026年5月 第3週",
+    "ym": "2026-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769995422000",
+    "name": "ジョジョの奇妙な冒険 まちぼうけ スターダストクルセイダース02",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248542_1.jpg",
+    "release": "2026年4月 第3週",
+    "ym": "2026-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769935732000",
+    "name": "ジョジョの奇妙な冒険 まちぼうけ スターダストクルセイダース01",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000246927_1.jpg",
+    "release": "2026年3月 第3週",
+    "ym": "2026-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769935725000",
+    "name": "ジョジョの奇妙な冒険 JOJO球 カプセルヒーローズ02",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243182_1.jpg",
+    "release": "2026年1月 第5週",
+    "ym": "2026-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769935718000",
+    "name": "ジョジョの奇妙な冒険 JOJO球 カプセルヒーローズ01",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241528_1.jpg",
+    "release": "2025年12月 第4週",
+    "ym": "2025-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769809705000",
+    "name": "ジョジョの奇妙な冒険 スタンドフィギュアコレクション10",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000239690_1.jpg",
+    "release": "2025年11月 第4週",
+    "ym": "2025-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769927867000",
+    "name": "豆ガシャ本 「ジョジョの奇妙な冒険」",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000237800_1.jpg",
+    "release": "2026年8月 第5週",
+    "ym": "2026-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769846885000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション GOLD WIND",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000237885_1.jpg",
+    "release": "2025年10月 第3週",
+    "ym": "2025-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769809699000",
+    "name": "ジョジョの奇妙な冒険 スタンドフィギュアコレクション09",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000235993_1.jpg",
+    "release": "2025年9月 第4週",
+    "ym": "2025-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769770302000",
+    "name": "ジョジョの奇妙な冒険 イヤーカフコレクション",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000235998_1.jpg",
+    "release": "2025年9月 第4週",
+    "ym": "2025-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769809682000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション RE-Collect04",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000234191_1.jpg",
+    "release": "2025年8月 第4週",
+    "ym": "2025-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769809675000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション RE-Collect03",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000232464_1.jpg",
+    "release": "2025年7月 第3週",
+    "ym": "2025-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769809668000",
+    "name": "ジョジョの奇妙な冒険 スタンドフィギュアコレクション08",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000229249_1.jpg",
+    "release": "2025年5月 第4週",
+    "ym": "2025-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769809712000",
+    "name": "【バンダイナムコアミューズメント限定】ジョジョの奇妙な冒険 カプセルフィギュアコレクション～JOJO WORLD 3 EDITION～",
+    "price": 700,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000227113_1.jpg",
+    "release": "2026年9月 第3週",
+    "ym": "2026-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769809651000",
+    "name": "ジョジョの奇妙な冒険 ラバーマスコットコレクション04",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000227907_1.jpg",
+    "release": "2025年4月 第2週",
+    "ym": "2025-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118208996000",
+    "name": "ジョジョの奇妙な冒険 スタンドフィギュアコレクション07",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000224801_1.jpg",
+    "release": "2025年3月 第5週",
+    "ym": "2025-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769836381000",
+    "name": "【フラットガシャポン】ジョジョの奇妙な冒険 ビッグラバーコースター",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000226678_1.jpg",
+    "release": "2025年3月 第4週",
+    "ym": "2025-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118208989000",
+    "name": "ジョジョの奇妙な冒険 スタンドフィギュアコレクション06",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000223473_1.jpg",
+    "release": "2025年1月 第5週",
+    "ym": "2025-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118245403000",
+    "name": "ジョジョの奇妙な冒険 サウンドロップコレクション",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000221586_1.jpg",
+    "release": "2024年12月 第4週",
+    "ym": "2024-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769707841000",
+    "name": "ジョジョの奇妙な冒険 ラバーマスコットコレクション03",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000219612_1.jpg",
+    "release": "2024年11月 第5週",
+    "ym": "2024-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118208972000",
+    "name": "ジョジョの奇妙な冒険 スタンドフィギュアコレクション05",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000217914_1.jpg",
+    "release": "2024年10月 第5週",
+    "ym": "2024-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118209009000",
+    "name": "Capsule トルソー ジョジョの奇妙な冒険02",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000216306_1.jpg",
+    "release": "2024年9月 第2週",
+    "ym": "2024-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769681042000",
+    "name": "ジョジョの奇妙な冒険カプセルフィギュアコレクション RE-Collect02",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000215046_1.jpg",
+    "release": "2024年8月 第4週",
+    "ym": "2024-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769681035000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション RE-Collect01",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000213882_1.jpg",
+    "release": "2024年7月 第4週",
+    "ym": "2024-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118238528000",
+    "name": "バンダイナムコアミューズメント限定 ジョジョの奇妙な冒険 ラバーマスコット～Flag EDITION～",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000212864_1.jpg",
+    "release": "2024年6月 第4週",
+    "ym": "2024-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118181398000",
+    "name": "ジョジョの奇妙な冒険 スタンドフィギュアコレクション04",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000211150_1.jpg",
+    "release": "2024年5月 第3週",
+    "ym": "2024-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118232885000",
+    "name": "ジョジョの奇妙な冒険 ラバーマスコットコレクション02",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000209722_1.jpg",
+    "release": "2024年4月 第4週",
+    "ym": "2024-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118238535000",
+    "name": "バンダイナムコアミューズメント限定 ジョジョの奇妙な冒険 カプセルフィギュアコレクション～Flag EDITION～",
+    "price": 700,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000207444_1.jpg",
+    "release": "2024年4月 第5週",
+    "ym": "2024-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118023216000",
+    "name": "Capsule トルソー ジョジョの奇妙な冒険 黄金の風01",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000208511_1.jpg",
+    "release": "2024年3月 第4週",
+    "ym": "2024-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117983870000",
+    "name": "ジョジョの奇妙な冒険 スタンドフィギュアコレクション03",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000203643_1.jpg",
+    "release": "2023年12月 第4週",
+    "ym": "2023-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117983832000",
+    "name": "ジョジョの奇妙な冒険 ラバーマスコットコレクション01",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000201934_1.jpg",
+    "release": "2023年11月 第4週",
+    "ym": "2023-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117983856000",
+    "name": "ジョジョの奇妙な冒険 スタンドフィギュアコレクション02",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000196896_1.jpg",
+    "release": "2023年8月 第2週",
+    "ym": "2023-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660939672000",
+    "name": "ジョジョの奇妙な冒険 スタンドフィギュアコレクション01",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000193810_1.jpg",
+    "release": "2023年6月 第3週",
+    "ym": "2023-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660767275000",
+    "name": "ジョジョの奇妙な冒険 STAND×STAND 05",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000186421_1.jpg",
+    "release": "2023年1月 第3週",
+    "ym": "2023-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660775430000",
+    "name": "【フラットガシャポン】ジョジョの奇妙な冒険 クリアボードコレクション",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000184776_1.jpg",
+    "release": "2022年12月 第3週",
+    "ym": "2022-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660800392000",
+    "name": "【バンダイナムコアミューズメント限定】ジョジョの奇妙な冒険 カプセルフィギュアコレクション～JOJO WORLD EDITION～",
+    "price": 700,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000184877_1.jpg",
+    "release": "2026年9月 第3週",
+    "ym": "2026-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660762157000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション07",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000178164_1.jpg",
+    "release": "2022年8月 第4週",
+    "ym": "2022-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660637455000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション06",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000175150_1.jpg",
+    "release": "2022年6月 第4週",
+    "ym": "2022-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660768753000",
+    "name": "ジョジョの奇妙な冒険 ストーンオーシャン アクリルチャーム",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000171571_1.jpg",
+    "release": "2022年3月 第1週",
+    "ym": "2022-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660717195000",
+    "name": "ジョジョの奇妙な冒険 STAND×STAND 04",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000165997_1.jpg",
+    "release": "2021年11月 第2週",
+    "ym": "2021-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660694519000",
+    "name": "ジョジョの奇妙な冒険 STAND×STAND 03",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000164735_1.jpg",
+    "release": "2021年10月 第3週",
+    "ym": "2021-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660694496000",
+    "name": "ジョジョの奇妙な冒険 STAND×STAND 02",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000163225_1.jpg",
+    "release": "2021年9月 第2週",
+    "ym": "2021-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660694472000",
+    "name": "ジョジョの奇妙な冒険 STAND×STAND",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000162257_1.jpg",
+    "release": "2021年8月 第4週",
+    "ym": "2021-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660609377000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション05",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000160908_1.jpg",
+    "release": "2021年7月 第2週",
+    "ym": "2021-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660609391000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション -ALL JOJO- アナザーカラーver.",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000158217_1.jpg",
+    "release": "2021年5月 第3週",
+    "ym": "2021-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660532897000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション04",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000150632_1.jpg",
+    "release": "2020年10月 第3週",
+    "ym": "2020-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660501695000",
+    "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション03",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000146353_1.jpg",
+    "release": "2021年11月 第5週",
+    "ym": "2021-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660466697000",
+    "name": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない カプセルフィギュアコレクション02",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000143998_1.jpg",
+    "release": "2020年3月 第4週",
+    "ym": "2020-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660376712000",
+    "name": "ジョジョの奇妙な冒険 黄金の風 カプセルフィギュアコレクション01",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000136035_1.jpg",
+    "release": "2019年6月 第3週",
+    "ym": "2019-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660064770000",
+    "name": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない カプセルラバーマスコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000109894_1.jpg",
+    "release": "2016年11月下旬",
+    "ym": "2016-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4543112866578000",
+    "name": "ジョジョの奇妙な冒険スターダストクルセイダーズ アンティークメタルプレート",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000087759_1.jpg",
+    "release": "2014年04月中旬",
+    "ym": "2014-04",
+    "releaseChecked": true
+   }
+  ]
+ },
+ "snoopy": {
+  "name": "スヌーピー",
+  "query": "スヌーピー",
+  "checkedAt": "2026-11-21",
+  "items": [
+   {
+    "jan": "4582770027129000",
+    "name": "PEANUTS Classical Mode",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256826_1.jpg",
+    "release": "2026年9月 第4週",
+    "ym": "2026-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769979064000",
+    "name": "PEANUTS フロッキーマスコットチャーム",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253570_1.jpg",
+    "release": "2026年7月 第5週",
+    "ym": "2026-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118184634000",
+    "name": "PEANUTS めじるしアクセサリー SUMMER",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251533_1.jpg",
+    "release": "2026年10月 第4週",
+    "ym": "2026-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118205803000",
+    "name": "PEANUTS 75th anniversary figure collection",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000248568_1.jpg",
+    "release": "2026年4月 第4週",
+    "ym": "2026-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769928277000",
+    "name": "PEANUTS パッケージミニチュアコレクション クラシックver.",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243195_1.jpg",
+    "release": "2026年3月 第1週",
+    "ym": "2026-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769928284000",
+    "name": "PEANUTS ビスケットミニチュアチャーム",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000246935_1.jpg",
+    "release": "2026年3月 第1週",
+    "ym": "2026-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769898327000",
+    "name": "PEANUTS めじるしアクセサリー FUNNY ver.",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241578_1.jpg",
+    "release": "2026年11月 第3週",
+    "ym": "2026-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769860393000",
+    "name": "【フラットガシャポン】PEANUTS クリアラバーコースター 75th Anniversary Ver.",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000237923_1.jpg",
+    "release": "2025年10月 第1週",
+    "ym": "2025-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769793530000",
+    "name": "PEANUTS ミニ貯金箱",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000235994_1.jpg",
+    "release": "2025年9月 第1週",
+    "ym": "2025-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769822360000",
+    "name": "PEANUTS ベーカリーチャーム",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000232476_1.jpg",
+    "release": "2025年7月 第3週",
+    "ym": "2025-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769769450000",
+    "name": "PEANUTS フレームマグネット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000229233_1.jpg",
+    "release": "2025年5月 第4週",
+    "ym": "2025-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769769443000",
+    "name": "PEANUTS ライトマスコット",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000227876_1.jpg",
+    "release": "2025年4月 第4週",
+    "ym": "2025-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769752902000",
+    "name": "PEANUTS パッケージミニチュアコレクション",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000224852_1.jpg",
+    "release": "2025年7月 第5週",
+    "ym": "2025-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769739446000",
+    "name": "PEANUTS ライトブレス",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000221635_1.jpg",
+    "release": "2024年12月 第2週",
+    "ym": "2024-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769708336000",
+    "name": "PEANUTS めじるしアクセサリー クラシックver.",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000219620_1.jpg",
+    "release": "2024年11月 第4週",
+    "ym": "2024-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769701047000",
+    "name": "PEANUTS はさむんです。でらっくす",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000217937_1.jpg",
+    "release": "2024年10月 第2週",
+    "ym": "2024-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118233523000",
+    "name": "PEANUTS Enjoy! CAMP",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000215079_1.jpg",
+    "release": "2024年8月 第1週",
+    "ym": "2024-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118246158000",
+    "name": "【フラットガシャポン】PEANUTS クリアラバーコースター",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000213902_1.jpg",
+    "release": "2024年7月 第2週",
+    "ym": "2024-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118197900000",
+    "name": "PEANUTS ならぶんです。 '24 SUMMER",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000212309_1.jpg",
+    "release": "2024年6月 第3週",
+    "ym": "2024-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118121035000",
+    "name": "PEANUTS みんなでCHEERS!",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000209701_1.jpg",
+    "release": "2024年4月 第2週",
+    "ym": "2024-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118121011000",
+    "name": "PEANUTS ジェムリーズ",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000207058_1.jpg",
+    "release": "2024年2月 第3週",
+    "ym": "2024-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117988639000",
+    "name": "PEANUTS カプセルストーリーフィギュア",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000205526_1.jpg",
+    "release": "2024年1月 第3週",
+    "ym": "2024-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118024039000",
+    "name": "PEANUTS カプセルヴィネット",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000203715_1.jpg",
+    "release": "2023年12月 第3週",
+    "ym": "2023-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117988615000",
+    "name": "PEANUTS カプセルヘアクリップ2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000199999_1.jpg",
+    "release": "2023年10月 第5週",
+    "ym": "2023-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660953579000",
+    "name": "めじるしアクセサリー PEANUTS NEW",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000196961_1.jpg",
+    "release": "2023年8月 第1週",
+    "ym": "2023-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660948599000",
+    "name": "PEANUTS すわらせ隊",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000195299_1.jpg",
+    "release": "2023年7月 第2週",
+    "ym": "2023-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660801030000",
+    "name": "PEANUTS カプセルクッキーマグコット",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000193838_1.jpg",
+    "release": "2023年6月 第4週",
+    "ym": "2023-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660801016000",
+    "name": "PEANUTS くるんとーと",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000189824_1.jpg",
+    "release": "2023年4月 第5週",
+    "ym": "2023-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660948575000",
+    "name": "カプキャラプレミアム PEANUTS6",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000191188_1.jpg",
+    "release": "2023年4月 第2週",
+    "ym": "2023-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660793236000",
+    "name": "PEANUTS ならぶんです。５",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000186385_1.jpg",
+    "release": "2023年1月 第2週",
+    "ym": "2023-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660793212000",
+    "name": "PEANUTS カプセルウォータードーム",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000184736_1.jpg",
+    "release": "2022年12月 第3週",
+    "ym": "2022-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660778813000",
+    "name": "めじるしアクセサリー PEANUTS BEST",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000181253_1.jpg",
+    "release": "2022年10月 第2週",
+    "ym": "2022-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660775096000",
+    "name": "カプキャラプレミアム PEANUTS5",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000179914_1.jpg",
+    "release": "2022年9月 第4週",
+    "ym": "2022-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660775072000",
+    "name": "PEANUTS カプセルヘアクリップ",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000178138_1.jpg",
+    "release": "2022年8月 第1週",
+    "ym": "2022-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660762850000",
+    "name": "PEANUTS ならぶんです。４",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000176737_1.jpg",
+    "release": "2022年7月 第5週",
+    "ym": "2022-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660754473000",
+    "name": "ふらっとならぶんです。 COLORS of Peanuts",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000172916_1.jpg",
+    "release": "2022年4月 第3週",
+    "ym": "2022-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660747413000",
+    "name": "はぐこっとーと PEANUTS",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000171545_1.jpg",
+    "release": "2022年3月 第2週",
+    "ym": "2022-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660722151000",
+    "name": "PEANUTS ならぶんです。３",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000168872_1.jpg",
+    "release": "2022年1月 第3週",
+    "ym": "2022-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660708711000",
+    "name": "めじるしアクセサリー PEANUTS",
+    "price": 200,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000164720_1.jpg",
+    "release": "2021年10月 第4週",
+    "ym": "2021-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660633273000",
+    "name": "PEANUTS ならぶんです。２",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000160883_1.jpg",
+    "release": "2021年7月 第2週",
+    "ym": "2021-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660333654000",
+    "name": "ハグコット PEANUTS",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000157002_1.jpg",
+    "release": "2021年4月 第5週",
+    "ym": "2021-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660533832000",
+    "name": "PEANUTS ならぶんです。",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000152688_1.jpg",
+    "release": "2022年6月 第4週",
+    "ym": "2022-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660502395000",
+    "name": "カプキャラプレミアム PEANUTS4 -ASTRONAUT SNOOPY-",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000148630_1.jpg",
+    "release": "2022年2月 第3週",
+    "ym": "2022-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660446439000",
+    "name": "カプキャラプレミアム PEANUTS3 -BASEBALL-",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000142165_1.jpg",
+    "release": "2020年1月 第4週",
+    "ym": "2020-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660404798000",
+    "name": "カプキャラプレミアム PEANUTS2 -BEST FRIENDS-",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000138816_1.jpg",
+    "release": "2019年9月 第1週",
+    "ym": "2019-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660245957000",
+    "name": "カプキャラプレミアム PEANUTS -SNOOPY-",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000133832_1.jpg",
+    "release": "2019年3月 第4週",
+    "ym": "2019-03",
+    "releaseChecked": true
+   }
+  ]
+ },
+ "sumikko": {
+  "name": "すみっコぐらし",
+  "query": "すみっコぐらし",
+  "checkedAt": "2026-11-21",
+  "items": [
+   {
+    "jan": "4582769889356000",
+    "name": "カプキャラ すみっコぐらし10",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000239645_1.jpg",
+    "release": "2025年11月 第2週",
+    "ym": "2025-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769841897000",
+    "name": "【フラットガシャポン】すみっコぐらし クリアラバーコースター2",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000234223_1.jpg",
+    "release": "2025年8月 第1週",
+    "ym": "2025-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769681561000",
+    "name": "紀文すみっコぐらしかまぼこ ミニチュアチャーム",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000223508_1.jpg",
+    "release": "2025年1月 第3週",
+    "ym": "2025-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118245908000",
+    "name": "【フラットガシャポン】すみっコぐらし クリアラバーコースター",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000213904_1.jpg",
+    "release": "2024年7月 第3週",
+    "ym": "2024-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118209351000",
+    "name": "すみっコぐらし カプセリウム2",
+    "price": 600,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000211108_1.jpg",
+    "release": "2024年5月 第4週",
+    "ym": "2024-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570117968099000",
+    "name": "びっくらたまご すみっコぐらし すみっコベビーマスコット",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000208486_1.jpg",
+    "release": "2024年3月 第3週",
+    "ym": "2024-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118106834000",
+    "name": "すみっコぐらし シェルドレッサー",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000203718_1.jpg",
+    "release": "2023年12月 第4週",
+    "ym": "2023-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118023834000",
+    "name": "カプキャラ すみっコぐらし9",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000201874_1.jpg",
+    "release": "2023年11月 第1週",
+    "ym": "2023-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660800996000",
+    "name": "カプセリウム すみっコぐらし",
+    "price": 600,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000195312_1.jpg",
+    "release": "2023年7月 第4週",
+    "ym": "2023-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660797135000",
+    "name": "カプキャラ すみっコぐらし8",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000191192_1.jpg",
+    "release": "2023年4月 第4週",
+    "ym": "2023-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660775010000",
+    "name": "カプキャラ すみっコぐらし7",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000181252_1.jpg",
+    "release": "2022年10月 第4週",
+    "ym": "2022-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660754336000",
+    "name": "カプキャラシール すみっコぐらし３",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000174000_1.jpg",
+    "release": "2022年5月 第4週",
+    "ym": "2022-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660727538000",
+    "name": "カプキャラフロッキー すみっコぐらし3",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000168851_1.jpg",
+    "release": "2022年1月 第2週",
+    "ym": "2022-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660717515000",
+    "name": "カプキャラ すみっコぐらし6",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000166006_1.jpg",
+    "release": "2023年1月 第3週",
+    "ym": "2023-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660622673000",
+    "name": "カプキャラ すみっコぐらし5",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000160855_1.jpg",
+    "release": "2022年7月 第3週",
+    "ym": "2022-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660533535000",
+    "name": "カプキャラ すみっコぐらし4",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000155677_1.jpg",
+    "release": "2021年3月 第4週",
+    "ym": "2021-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660533559000",
+    "name": "カプキャラスタンプ すみっコぐらし",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000152690_1.jpg",
+    "release": "2020年12月 第4週",
+    "ym": "2020-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660510253000",
+    "name": "おうちでガシャポン すみっコぐらし２",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000150612_1.jpg",
+    "release": "2020年10月 第2週",
+    "ym": "2020-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660516194000",
+    "name": "カプキャラシール すみっコぐらし２",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000148614_1.jpg",
+    "release": "2020年8月 第2週",
+    "ym": "2020-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660466451000",
+    "name": "カプキャラフロッキー すみっコぐらし2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000147532_1.jpg",
+    "release": "2020年7月 第2週",
+    "ym": "2020-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660419495000",
+    "name": "カプキャラシール すみっコぐらし",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000143988_1.jpg",
+    "release": "2020年3月 第4週",
+    "ym": "2020-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660406358000",
+    "name": "カプキャラ すみっコぐらし3",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000141217_1.jpg",
+    "release": "2019年12月 第1週",
+    "ym": "2019-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660371557000",
+    "name": "おうちでガシャポン すみっコぐらし",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000137892_1.jpg",
+    "release": "2019年8月 第2週",
+    "ym": "2019-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660371533000",
+    "name": "カプキャラフロッキー すみっコぐらし",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000135267_1.jpg",
+    "release": "2019年5月 第4週",
+    "ym": "2019-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660295310000",
+    "name": "カプキャラ すみっコぐらし2",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000130447_1.jpg",
+    "release": "2018年11月 第3週",
+    "ym": "2018-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660245933000",
+    "name": "カプキャラ すみっコぐらし",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000125346_1.jpg",
+    "release": "2018年5月 第4週",
+    "ym": "2018-05",
     "releaseChecked": true
    }
   ]

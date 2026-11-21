@@ -4,10 +4,15 @@ import { isLowValueBrandPage } from "../../../lib/quality";
 import { buildHubInfo, buildFaqLd, buildHubMeta } from "../../../lib/hub-info";
 import { getBrandIntro } from "../../../data/character-intros";
 import { hubCanonical } from "../../../data/hub-canonical";
+import { getArchiveName, getArchiveTotal } from "../../../components/IpArchive";
 
 export function generateMetadata({ params }) {
   const brandProducts = products.filter((p) => p.brandSlug === params.slug);
-  const brandName = brandProducts.length > 0 ? brandProducts[0].brand : decodeURIComponent(params.slug);
+  const archiveName = getArchiveName(params.slug);
+  const brandName =
+    brandProducts.length > 0 ? brandProducts[0].brand : archiveName || decodeURIComponent(params.slug);
+  // 掲載0件・過去分だけのページ。「新作」とは書けないので「これまでの◯件」を前に出す
+  const archiveOnly = brandProducts.length === 0 && archiveName;
   // 商品が少なすぎるブランドのハブページは薄いのでインデックスさせない
   const thin = isLowValueBrandPage(brandProducts);
 
@@ -15,9 +20,15 @@ export function generateMetadata({ params }) {
   const meta = buildHubMeta({ name: brandName, items: brandProducts, kind: "brand" });
 
   return {
-    title: meta ? meta.title : `${brandName}のガチャガチャ新作一覧【2026年最新】| ガチャなう`,
+    title: meta
+      ? meta.title
+      : archiveOnly
+      ? `${brandName}のガチャガチャ一覧・これまでの${getArchiveTotal(params.slug)}件【2026年最新】| ガチャなう`
+      : `${brandName}のガチャガチャ新作一覧【2026年最新】| ガチャなう`,
     description: meta
       ? meta.description
+      : archiveOnly
+      ? `${brandName}のガチャガチャ（ガシャポン）をこれまでに発売された${getArchiveTotal(params.slug)}件、発売月・価格つきで新しい順にまとめています。新作が出たらこのページに追加します。`
       : `${brandName}のカプセルトイ・ガチャガチャ新作情報を一覧でチェック。価格・種類数・発売日つき。毎日更新。`,
     robots: thin ? { index: false, follow: true } : { index: true, follow: true },
     // 同名の /character/ ページと商品が重複していて、そちらが勝っているIPは
@@ -39,9 +50,11 @@ export default function BrandLayout({ children, params }) {
   // /brand/[slug] は generateStaticParams を持たない＝任意の文字列でページが出るため、
   // 収集ミスで生まれたブランド（例: wp-emoji-settings… 2026-09-01）も
   // 200のまま index されていた。存在しないブランドは素直に404を返す。
-  if (items.length === 0) notFound();
+  // ただし過去の発売分を集めているIP（components/IpArchive.jsx）は掲載0件でも残す。
+  const archiveName = getArchiveName(params.slug);
+  if (items.length === 0 && !archiveName) notFound();
 
-  const brandName = items[0].brand;
+  const brandName = items.length > 0 ? items[0].brand : archiveName;
 
   const itemListLd = {
     "@context": "https://schema.org",

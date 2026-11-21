@@ -5,6 +5,7 @@ import { SERIES, filterProductsBySeries } from "../data/series";
 import { getAllReleaseMonths, getReleaseYearMonth } from "../lib/release";
 import { indexableProducts, indexableBlogPosts, isLowValueBrandPage } from "../lib/quality";
 import { isConsolidated } from "../data/hub-canonical";
+import { getArchiveSlugs } from "../components/IpArchive";
 import { buildSeriesUpcoming } from "../lib/series-upcoming";
 import shokugan from "../data/shokugan.json";
 import { isPublishable as isPublishableShokugan, releaseMonths } from "../lib/shokugan";
@@ -40,7 +41,8 @@ export default function sitemap() {
   // 商品が少なく noindex にしているブランドは、サイトマップにも載せない
   // （載せるとnoindexページを自分で申告することになり矛盾する）
   // canonicalを別ハブに向けたページも同様に載せない（data/hub-canonical.js）
-  const brandSlugs = [...new Set(products.map((p) => p.brandSlug))];
+  // 掲載0件でも過去の発売分を載せているブランドは残す（components/IpArchive.jsx）
+  const brandSlugs = [...new Set([...products.map((p) => p.brandSlug), ...getArchiveSlugs()])];
   const brandPages = brandSlugs
     .map((slug) => ({ slug, items: products.filter((p) => p.brandSlug === slug) }))
     .filter(({ items }) => !isLowValueBrandPage(items))
