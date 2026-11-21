@@ -1568,7 +1568,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第4週",
     "brand": "まちぼうけ",
-    "types": 6
+    "types": null
   },
   {
     "title": "ちいかわ めじるしアクセサリー3",
@@ -3392,7 +3392,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "PLAVE めじるしアクセサリー",
@@ -4160,7 +4160,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "ぽぼっと。さんのひとくち粘土図鑑 めじるしアクセサリー",
@@ -6128,7 +6128,7 @@
     "price": 600,
     "releaseWeek": "2026年11月 第3週",
     "brand": "ポケモン",
-    "types": 4
+    "types": null
   },
   {
     "title": "ポケットモンスター スイングコレクションType:Water",
