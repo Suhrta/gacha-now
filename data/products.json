@@ -1,5 +1,49 @@
 [
   {
+    "id": "capwatch--666d8477",
+    "name": "CAPWATCH ベーシックカラー１",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 500,
+    "types": 7,
+    "releaseWeek": "発売中",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/08/CAPWATCHbasiccolor1_DP.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/08/CAPWATCHbasiccolor1_DP.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/capwatch_basic/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-11-21T09:17:09.126Z",
+    "officialDescription": "カプセルトイと腕時計を掛け合わせた新シリーズ「CAPWATCH」から、シンプルで使いやすいベーシックデザインが登場！全7種の豊富なカラーバリエーションで、毎日のコーディネートや気分に合わせて選べる腕時計です。 シンプルなデザインなので場所を選ばず、普段使いにぴったり。その日のコーディネートやシーンに合わせて使い分けたり、推し活のメンバーカラーとして取り入れたりと、楽しみ方はさまざまです。 ベルト部分にはシリコン素材を使用し、しなやかで着け心地のよい仕上がりに。ゆったりサイズなので、大人でも着用できます。さらに、腕につけるだけでなく、バッグやリュックのストラップに取り付ければ、アクセサリー感覚でもお楽しみいただけます。アナログ時計としてしっかり使える実用性も魅力です。 電池交換にも対応しているため、長く愛用できるのもうれしいポイントです。 （※電池交換は時計専門店などで対応可能です。） カプセルトイならではの手軽さと、ファッションアイテムとしての実用性を兼ね備えた「CAPWATCH」。色違いで集めたり、その日の気分に合わせて選んだりと、思わずコレクションしたくなる全7種をぜひお楽しみください♪ ラインナップは「 Red 、Pink 、Orange 、Yellow 、Mint green 、Light blue 、Light purple 」の全7種。",
+    "size": "約240mm",
+    "thumb": "https://gachaimg.com/thumb/capwatch--666d8477.webp"
+  },
+  {
+    "id": "-rich-7bed7386",
+    "name": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない　コレクションフィギュアRICH",
+    "brand": "ジョジョの奇妙な冒険",
+    "brandSlug": "jojo",
+    "price": 500,
+    "types": 5,
+    "releaseWeek": "12月 下旬",
+    "color": "#e5b899",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/18102556/jojo_du_pop.jpg",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/18102556/jojo_du_pop.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10165/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-11-21T09:17:09.127Z",
+    "officialDescription": "アニメ『ジョジョの奇妙な冒険 ダイヤモンドは砕けない』より、コレクションフィギュアRICHが登場！",
+    "description": "長年愛され続けている人気漫画「ジョジョの奇妙な冒険」から、「ダイヤモンドは砕けない」を題材にしたコレクションフィギュアRICHがカプセルトイで登場します。ブシロードクリエイティブより発売されるこのシリーズは全5種で、1回500円で楽しめます。発売時期は12月下旬を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/-rich-7bed7386.webp"
+  },
+  {
     "id": "gacha-287427cf",
     "name": "サンリオキャラクターズ ふわわフロッキーマスコット",
     "brand": "サンリオ",
@@ -68,7 +112,7 @@
       "ムーミン・スナフキン",
       "ムーミン・スニフ"
     ],
-    "description": "世界中で親しまれるムーミンをモチーフにした陶器の一輪挿しが、キタンクラブからカプセルトイとして登場しています。価格は1回500円で、全6種の展開です。すでに発売が始まっており、カプセルトイ売り場などで入手できます。",
+    "description": "世界中で親しまれるムーミンの小説・アニメを題材にした、陶器の一輪挿しがカプセルトイに登場しました。キタンクラブからの発売で、全6種がラインナップされています。価格は1回500円で、現在販売中です。",
     "thumb": "https://gachaimg.com/thumb/gacha-68bcfdd9.webp"
   },
   {
@@ -25082,68 +25126,5 @@
     ],
     "description": "キタンクラブから展開されているカプセルトイ「CAPWATCH QBBベビーチーズ」の商品ページです。全6種のラインナップで、1回500円で楽しめるガチャガチャとして発売中です。価格や種類数を踏まえたうえで、店頭のガチャガチャコーナーなどで見かけた際の参考にしていただければと思います。",
     "thumb": "https://gachaimg.com/thumb/capwatch-qbb-50ae7867.webp"
-  },
-  {
-    "id": "gacha-23edb47f",
-    "name": "蕾狐 -つぼみっこ- ぬいぐるみマスコット",
-    "brand": "蕾狐 -つぼみっこ-",
-    "brandSlug": "tsubomikko",
-    "price": 500,
-    "types": 5,
-    "releaseWeek": "発売中",
-    "color": "#99e59d",
-    "hot": false,
-    "img": "https://kitan.jp/wp-content/uploads/2026/05/tsubomikko_DP.jpg",
-    "images": [
-      "https://kitan.jp/wp-content/uploads/2026/05/tsubomikko_DP.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://kitan.jp/products/tubomifox_nui/",
-    "source": "キタンクラブ公式",
-    "collectedAt": "2026-08-21T09:09:36.444Z",
-    "officialDescription": "造形作家 はなむぐり 氏のフィギュア作品をぬいぐるみ化した人気シリーズに、待望の「蕾狐（つぼみっこ）」が登場します！ 以前発売し好評をいただいた「花猫」「花兎」に続く最新作として、存在感たっぷりの姿をかわいらしく再現。ボリューム感あふれる大きなしっぽや、美しい柄、ふわふわとした胸元など、細部までこだわりを詰め込みました。鮮やかなグラデーション生地や、額に入った印象的な模様も魅力です。 カプセルトイとは思えない贅沢なボリューム感で、思わず並べて飾りたくなる仕上がりとなっています。 全種ゴム紐付きなので、集めて飾ったり、お出かけに連れて行ったりと楽しみ方が広がります。 お気に入りの子を、ぜひお迎えしてみてください♪ ラインナップは「 凪焔玉（なぎほむらだま） 、紫渦雷（むらさきからい） 、鍵穀蔵（かぎこくぐら） 、橙蕾狐（だいだいつぼみっこ） 、翠眼蓮 九尾（すいがんはす きゅうび） 」の全5種。",
-    "size": "約95mm",
-    "lineup": [
-      "凪焔玉（なぎほむらだま）",
-      "紫渦雷（むらさきからい）",
-      "鍵穀蔵（かぎこくぐら）",
-      "橙蕾狐（だいだいつぼみっこ）",
-      "翠眼蓮 九尾（すいがんはす きゅうび）"
-    ],
-    "description": "キタンクラブから、蕾狐 -つぼみっこ- のぬいぐるみマスコットがカプセルトイで登場しています。1回500円で、全5種の中からランダムに手に入る仕組みです。すでに発売中となっているため、店頭のガチャガチャコーナーで見つけた際には試してみてはいかがでしょうか、と言いたいところですが、それは避けて事実のみお伝えします。現在稼働中のカプセルトイ機で購入可能です。",
-    "thumb": "https://gachaimg.com/thumb/gacha-23edb47f.webp"
-  },
-  {
-    "id": "gacha-6366a0cc",
-    "name": "ホロライブ ガシャポンパレット フェアリースイング1",
-    "brand": "ホロライブ",
-    "brandSlug": "hololive",
-    "price": 500,
-    "types": 5,
-    "releaseWeek": "発売中",
-    "color": "#c199e5",
-    "hot": false,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_1.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_1.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_12.jpg"
-    ],
-    "affiliateUrl": "#",
-    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4570118203366000",
-    "source": "バンダイ公式",
-    "collectedAt": "2026-08-21T08:45:05.967Z",
-    "officialDescription": "ホロライブのガシャポン新商品「ホロライブ ガシャポンパレット」シリーズが始動！第1弾は「フェアリー」をテーマに、妖精になった姿がかわいい小さなスイングマスコットが登場です！「ホロライブ ガシャポンパレット」とは？毎回違ったコンセプトを、パレットのようにカラフルにタレントさんたちが彩って完成するホロライブの新しいガシャポン商品シリーズです。",
-    "ageRating": "15才以上",
-    "description": "バーチャルタレントグループとして人気のホロライブから、ぶら下げて揺れる動きが楽しいスイングシリーズのカプセルトイが登場します。商品名は「ホロライブ ガシャポンパレット フェアリースイング1」で、全5種がラインナップされ、価格は1回500円です。発売はバンダイより8月第4週を予定しています。"
   }
 ]
