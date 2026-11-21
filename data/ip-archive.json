@@ -409,5 +409,560 @@
     "releaseChecked": true
    }
   ]
+ },
+ "hololive": {
+  "query": "ホロライブ",
+  "checkedAt": "2026-11-21",
+  "items": [
+   {
+    "jan": "4582770121773000",
+    "name": "ホロライブ カラフルカラビナもふしっぽマスコット",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259523_1.jpg",
+    "release": "2026年11月 第3週",
+    "ym": "2026-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118184139000",
+    "name": "ホロライブ おなまえぷっくりラバーマスコット2",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256842_1.jpg",
+    "release": "2026年9月 第2週",
+    "ym": "2026-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118203380000",
+    "name": "ホロライブ ガシャポンパレット フェアリースイング2",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000256857_1.jpg",
+    "release": "2026年9月 第3週",
+    "ym": "2026-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118203366000",
+    "name": "ホロライブ ガシャポンパレット フェアリースイング1",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255289_1.jpg",
+    "release": "2026年8月 第4週",
+    "ym": "2026-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118184092000",
+    "name": "ホロライブ すわらせ隊 アクリルスタンド カラーライズ4",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255360_1.jpg",
+    "release": "2026年8月 第5週",
+    "ym": "2026-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118184078000",
+    "name": "ホロライブ すわらせ隊 アクリルスタンド カラーライズ3",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253544_1.jpg",
+    "release": "2026年7月 第3週",
+    "ym": "2026-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118184153000",
+    "name": "ホロライブ3期生 ミニCDコレクション #きゅるるん大作戦",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000251536_1.jpg",
+    "release": "2026年6月 第2週",
+    "ym": "2026-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118184054000",
+    "name": "ホロライブ すわらせ隊 アクリルスタンド カラーライズ2",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000247457_1.jpg",
+    "release": "2026年5月 第5週",
+    "ym": "2026-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118184115000",
+    "name": "ホロライブ おなまえぷっくりラバーマスコット1",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000247456_1.jpg",
+    "release": "2026年5月 第2週",
+    "ym": "2026-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118184030000",
+    "name": "ホロライブ すわらせ隊 アクリルスタンド カラーライズ1",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000247458_1.jpg",
+    "release": "2026年4月 第3週",
+    "ym": "2026-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118198532000",
+    "name": "ホロライブ カプセル缶バッジコレクション オリジン1",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243448_1.jpg",
+    "release": "2026年3月 第3週",
+    "ym": "2026-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118198556000",
+    "name": "ホロライブ カプセル缶バッジコレクション オリジン2",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243447_1.jpg",
+    "release": "2026年3月 第3週",
+    "ym": "2026-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770015379000",
+    "name": "ホロライブ3期生 つながるあくりるますこっと",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245269_1.jpg",
+    "release": "2026年2月 第2週",
+    "ym": "2026-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769768507000",
+    "name": "ホロライブ ミニチュアペンライトチャーム5",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000245293_1.jpg",
+    "release": "2026年2月 第2週",
+    "ym": "2026-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769764707000",
+    "name": "ホロライブ ミニチュアペンライトチャーム3",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243176_1.jpg",
+    "release": "2026年1月 第3週",
+    "ym": "2026-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769768460000",
+    "name": "ホロライブ ミニチュアペンライトチャーム4",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243175_1.jpg",
+    "release": "2026年1月 第3週",
+    "ym": "2026-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769837166000",
+    "name": "ホロライブ カプセルラバーマスコット オリジン4",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000243245_1.jpg",
+    "release": "2026年1月 第3週",
+    "ym": "2026-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769837128000",
+    "name": "ホロライブ アクリルスタンド オリジン4",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241619_1.jpg",
+    "release": "2025年12月 第4週",
+    "ym": "2025-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769763984000",
+    "name": "ホロライブ ミニチュアペンライトチャーム2",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241522_1.jpg",
+    "release": "2025年12月 第3週",
+    "ym": "2025-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769753244000",
+    "name": "ホロライブ ミニチュアペンライトチャーム1",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000241523_1.jpg",
+    "release": "2025年12月 第3週",
+    "ym": "2025-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769888472000",
+    "name": "ホロライブ ふらっとめじるしアクセサリー2",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000239648_1.jpg",
+    "release": "2025年11月 第5週",
+    "ym": "2025-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769837159000",
+    "name": "ホロライブ カプセルラバーマスコット オリジン3",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000239677_1.jpg",
+    "release": "2025年11月 第4週",
+    "ym": "2025-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769888465000",
+    "name": "ホロライブ ふらっとめじるしアクセサリー1",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000237854_1.jpg",
+    "release": "2025年10月 第4週",
+    "ym": "2025-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769837111000",
+    "name": "ホロライブ アクリルスタンド オリジン3",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000237896_1.jpg",
+    "release": "2025年10月 第5週",
+    "ym": "2025-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769837142000",
+    "name": "ホロライブ カプセルラバーマスコット オリジン2",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000235978_1.jpg",
+    "release": "2025年9月 第4週",
+    "ym": "2025-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769837104000",
+    "name": "ホロライブ アクリルスタンド オリジン2",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000234164_1.jpg",
+    "release": "2025年8月 第5週",
+    "ym": "2025-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769837135000",
+    "name": "ホロライブ カプセルラバーマスコット オリジン1",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000232508_1.jpg",
+    "release": "2025年7月 第4週",
+    "ym": "2025-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769837098000",
+    "name": "ホロライブ アクリルスタンド オリジン1",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000230613_1.jpg",
+    "release": "2025年6月 第4週",
+    "ym": "2025-06",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769847608000",
+    "name": "ホロライブ カプセル缶バッジコレクション Bright Parade2",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000225853_1.jpg",
+    "release": "2025年4月 第4週",
+    "ym": "2025-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769847592000",
+    "name": "ホロライブ カプセル缶バッジコレクション Bright Parade1",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000225852_1.jpg",
+    "release": "2025年4月 第4週",
+    "ym": "2025-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118247025000",
+    "name": "ホロライブ カプセルラバーマスコット Bright Parade４",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000225833_1.jpg",
+    "release": "2025年3月 第4週",
+    "ym": "2025-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118247063000",
+    "name": "ホロライブ めじるしアクセサリー04",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000225834_1.jpg",
+    "release": "2025年3月 第5週",
+    "ym": "2025-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118247056000",
+    "name": "ホロライブ めじるしアクセサリー03",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000224808_1.jpg",
+    "release": "2025年2月 第4週",
+    "ym": "2025-02",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118247001000",
+    "name": "ホロライブ カプセルラバーマスコット Bright Parade 3",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000223495_1.jpg",
+    "release": "2025年1月 第5週",
+    "ym": "2025-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118247032000",
+    "name": "ホロライブ アクリルスタンド Bright Parade 4",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000223494_1.jpg",
+    "release": "2025年1月 第4週",
+    "ym": "2025-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118247049000",
+    "name": "ホロライブ めじるしアクセサリー02",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000221580_1.jpg",
+    "release": "2024年12月 第4週",
+    "ym": "2024-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118247018000",
+    "name": "ホロライブ アクリルスタンド Bright Parade 3",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000219584_1.jpg",
+    "release": "2024年11月 第4週",
+    "ym": "2024-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118246981000",
+    "name": "ホロライブ カプセルラバーマスコット Bright Parade2",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000217856_1.jpg",
+    "release": "2024年10月 第5週",
+    "ym": "2024-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118185044000",
+    "name": "ホロライブ めじるしアクセサリー01",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000216278_1.jpg",
+    "release": "2024年9月 第4週",
+    "ym": "2024-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118246998000",
+    "name": "ホロライブ アクリルスタンド Bright Parade 2",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000214978_1.jpg",
+    "release": "2024年8月 第5週",
+    "ym": "2024-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118247070000",
+    "name": "ホロライブ ホロのぐらふぃてぃ 名場面音声キーホルダー",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000211171_1.jpg",
+    "release": "2024年5月 第3週",
+    "ym": "2024-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660971870000",
+    "name": "ホロライブ カプセルラバーマスコット Bright Parade1",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000208792_1.jpg",
+    "release": "2024年4月 第5週",
+    "ym": "2024-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660971856000",
+    "name": "ホロライブ アクリルスタンド Bright Parade1",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000208793_1.jpg",
+    "release": "2024年4月 第3週",
+    "ym": "2024-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118208415000",
+    "name": "ホロライブBlue Journey「夜明けのうた」 アクリルチャームセット",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000205456_1.jpg",
+    "release": "2024年1月 第3週",
+    "ym": "2024-01",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4570118129215000",
+    "name": "ホロライブ 全人類兎化計画 リバラバ！",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000201882_1.jpg",
+    "release": "2023年11月 第4週",
+    "ym": "2023-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660939511000",
+    "name": "ホロライブEnglish Smolリバラバ！",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000200065_1.jpg",
+    "release": "2023年10月 第4週",
+    "ym": "2023-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660792376000",
+    "name": "ホロライブEnglish イニシャルアクリルチャーム",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000198470_1.jpg",
+    "release": "2024年8月 第2週",
+    "ym": "2024-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660757474000",
+    "name": "ホロライブ カプセルラバーマスコットコレクションVOL.5",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000190391_1.jpg",
+    "release": "2023年4月 第5週",
+    "ym": "2023-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660786436000",
+    "name": "ホロライブ カプセルラバーマスコットコレクション01＆02",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000189841_1.jpg",
+    "release": "2023年3月 第4週",
+    "ym": "2023-03",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660757450000",
+    "name": "ホロライブ カプセルラバーマスコットコレクションVOL.4",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000182865_1.jpg",
+    "release": "2022年12月 第1週",
+    "ym": "2022-12",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660771296000",
+    "name": "ホロライブ アクリルスイングコレクション～秘密結社holoX～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000178185_1.jpg",
+    "release": "2022年9月 第5週",
+    "ym": "2022-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660696339000",
+    "name": "ホロライブ カプセルラバーマスコットコレクションVOL.3",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000167440_1.jpg",
+    "release": "2022年4月 第4週",
+    "ym": "2022-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660696353000",
+    "name": "ホロライブ アクリルスイングコレクション～5期生～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000164758_1.jpg",
+    "release": "2021年10月 第5週",
+    "ym": "2021-10",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660696315000",
+    "name": "ホロライブ カプセルラバーマスコットコレクションVOL.2",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000163202_1.jpg",
+    "release": "2021年9月 第4週",
+    "ym": "2021-09",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660654971000",
+    "name": "ホロライブ アクリルスイングコレクション～0期生～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000162210_1.jpg",
+    "release": "2021年8月 第4週",
+    "ym": "2021-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660654957000",
+    "name": "ホロライブ アクリルスイングコレクション～1期生～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000159409_1.jpg",
+    "release": "2021年7月 第4週",
+    "ym": "2021-07",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660654933000",
+    "name": "ホロライブ アクリルスイングコレクション～2期生～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000158412_1.jpg",
+    "release": "2021年5月 第6週",
+    "ym": "2021-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660623311000",
+    "name": "ホロライブ カプセルラバーマスコットコレクション",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000157041_1.jpg",
+    "release": "2021年5月 第4週",
+    "ym": "2021-05",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660555391000",
+    "name": "ホロライブ アクリルスイングコレクション～フロムゲーマーズ～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000157890_1.jpg",
+    "release": "2021年4月 第4週",
+    "ym": "2021-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660555414000",
+    "name": "ホロライブ アクリルスイングコレクション～4期生～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000157891_1.jpg",
+    "release": "2021年4月 第4週",
+    "ym": "2021-04",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4549660555438000",
+    "name": "ホロライブ アクリルスイングコレクション～3期生～",
+    "price": 500,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000157892_1.jpg",
+    "release": "2021年4月 第4週",
+    "ym": "2021-04",
+    "releaseChecked": true
+   }
+  ]
  }
 }

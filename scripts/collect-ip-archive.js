@@ -44,6 +44,9 @@ const DELAY_MS = Number(process.env.DELAY_MS || 2000);
 // 「ハグコット なんか小さくてかわいいやつ」はちいかわの正式タイトルなので残す。
 const IPS = [
   { slug: "chiikawa", query: "ちいかわ", match: /ちいかわ|なんか小さくてかわいいやつ/ },
+  // 2026-11-21 GSC: 「ホロライブ ガチャガチャ」1,164表示・8.6位、着地 /character/hololive は掲載5件・滞在20秒。
+  // 公式検索は60件超。slug は /character/hololive と揃える（/brand/hololive は canonical でそちらへ寄せている）。
+  { slug: "hololive", query: "ホロライブ", match: /ホロライブ/ },
 ];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

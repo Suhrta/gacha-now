@@ -17,6 +17,7 @@ import AdUnit, { useInFeedGrid } from "../../../components/AdUnit";
 import PopularNowSection from "../../../components/PopularNowSection";
 import { getAllReleaseMonths, formatYearMonth } from "../../../lib/release";
 import { SERIES, filterProductsBySeries } from "../../../data/series";
+import IpArchive, { getIpArchive } from "../../../components/IpArchive";
 
 export default function CharacterPage() {
   const { slug } = useParams();
@@ -30,6 +31,8 @@ export default function CharacterPage() {
   const others = CHARACTERS.filter((c) => c.slug !== slug);
   const ownIds = items.map((p) => p.id);
   const releaseMonths = getAllReleaseMonths(products);
+  // 新作の少ないIPは過去の発売分も載せる。brand ページと同じ欄（components/IpArchive.jsx）
+  const ipArchive = character ? getIpArchive(character.slug, products) : null;
 
   // このキャラの掲載商品が実際に属している横断シリーズだけを出す。
   // 例: たまごっちは「めじるしアクセサリー」「ライトマスコット」に該当する。
@@ -68,6 +71,19 @@ export default function CharacterPage() {
 
         {character && items.length > 0 && <CharacterAffiliateCTA name={name} />}
 
+        {ipArchive ? (
+          <a
+            href="#archive"
+            className="relative z-[1] flex items-center gap-2 mb-3 px-4 py-3 bg-white border-2 border-brand-accent rounded-xl no-underline hover:bg-cream-dark transition-colors"
+          >
+            <span className="text-lg shrink-0">🗂️</span>
+            <span className="text-xs font-bold text-brand-text leading-snug">
+              これまでに出た{name}のガチャ{ipArchive.total}件を見る
+            </span>
+            <span className="text-brand-accent text-sm shrink-0 ml-auto">↓</span>
+          </a>
+        ) : null}
+
         <div className="font-pixel text-[10px] text-brand-sub mb-2.5 px-1 relative">
           {items.length}けん
         </div>
@@ -89,6 +105,8 @@ export default function CharacterPage() {
 
         {/* 掲載が少なくて帯を挟む行が無いページ。ここだけグリッドの直下に落とす */}
         {items.length > 0 && items.length <= firstBandAt && <AdUnit name="inFeed" />}
+
+        <IpArchive name={name} archive={ipArchive} />
 
         <HubDetails name={name} items={items} intro={intro} />
 

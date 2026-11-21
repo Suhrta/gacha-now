@@ -295,7 +295,7 @@ jobs:
       - name: Remove old post images
         run: node scripts/cleanup-posts.js
 
-      # ちいかわ等の「これまでに出たガチャ」（/brand/[slug] の欄）。
+      # ちいかわ・ホロライブの「これまでに出たガチャ」（/brand/[slug] と /character/[slug] の欄）。
       # 検索1回＋未取得の詳細ページ最大10件。gashapon.jp の403対策で件数を絞っている。
       # 失敗しても前回の data/ip-archive.json が残るだけなので全体は止めない。
       - name: Collect IP archive
