@@ -45,7 +45,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第1週",
     "brand": "たまごっち",
-    "types": 5
+    "types": null
   },
   {
     "title": "名探偵プリキュア！ カプセルラバーマスコット２",
@@ -69,7 +69,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第1週",
     "brand": "プリキュア",
-    "types": null
+    "types": 8
   },
   {
     "title": "グレムリン もぐもぐかくれんぼ",
@@ -2696,7 +2696,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ちいかわ",
-    "types": 4
+    "types": null
   },
   {
     "title": "ONE PIECE ゆらゆらし隊",
@@ -4712,7 +4712,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第3週",
     "brand": "サンリオ",
-    "types": 6
+    "types": null
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】 たまごっち カラフルマルチチャーム",
@@ -7328,7 +7328,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第4週",
     "brand": "ラブライブ",
-    "types": 20
+    "types": null
   },
   {
     "title": "Pigeon ピジョンミニチャーム2",
