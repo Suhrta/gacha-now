@@ -18,6 +18,16 @@ import { HubLead, HubDetails } from "./HubInfo";
 import products from "../data/products.json";
 import { browsableSeries, getSeriesBySlug, filterProductsBySeries } from "../data/series";
 
+// 近いシリーズ欄の計測。トップの hub_click と同じイベント名で、placement で区別する。
+function trackRelatedClick(from, to) {
+  if (typeof window === "undefined" || typeof window.gtag !== "function") return;
+  window.gtag("event", "hub_click", {
+    category: "series",
+    link_url: `/series/${to}`,
+    placement: `series_related_${from}`,
+  });
+}
+
 export default function SeriesDetail({ historyTotal = null, upcomingTotal = null, monthLineup = null }) {
   const { slug } = useParams();
   const [selected, setSelected] = useState(null);
@@ -28,6 +38,13 @@ export default function SeriesDetail({ historyTotal = null, upcomingTotal = null
   const name = series ? series.name : decodeURIComponent(slug);
   const intro = series ? series.intro : null;
   const others = browsableSeries().filter((s) => s.slug !== slug);
+  const related = series && series.related
+    ? series.related
+        .map((r) => getSeriesBySlug(r))
+        .filter(Boolean)
+        .map((s) => ({ ...s, count: filterProductsBySeries(products, s).length }))
+        .filter((s) => s.count > 0)
+    : [];
 
   return (
     <>
@@ -126,6 +143,31 @@ export default function SeriesDetail({ historyTotal = null, upcomingTotal = null
 
         {/* 掲載が少なくて帯を挟む行が無いページ。ここだけグリッドの直下に落とす */}
         {items.length > 0 && items.length <= firstBandAt && <AdUnit name="inFeed" />}
+
+        {related.length > 0 && (
+          <section className="relative z-[1] mt-6">
+            <h2 className="text-sm font-bold text-brand-text mb-1 px-1">{name}が好きな人に人気のシリーズ</h2>
+            <p className="text-[11px] text-brand-sub mb-2 px-1">バッグやポーチに付けられる、近いタイプのガチャです。</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+              {related.map((s) => (
+                <Link
+                  key={s.slug}
+                  href={`/series/${s.slug}`}
+                  onClick={() => trackRelatedClick(slug, s.slug)}
+                  className="block bg-white border border-cream-border rounded-lg p-3 no-underline hover:border-brand-accent transition-colors"
+                >
+                  <span className="block text-xs font-bold text-brand-text">
+                    {s.name}
+                    <span className="text-brand-sub font-normal ml-1.5">いま{s.count}件</span>
+                  </span>
+                  {s.intro && (
+                    <span className="block text-[11px] text-brand-sub leading-relaxed mt-1 line-clamp-2">{s.intro}</span>
+                  )}
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         {monthLineup ? (
           <section

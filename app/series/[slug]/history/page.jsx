@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Footer from "../../../../components/Footer";
 import Breadcrumb from "../../../../components/Breadcrumb";
+import CharacterAffiliateCTA from "../../../../components/CharacterAffiliateCTA";
+import AffiliateSearchLink from "../../../../components/AffiliateSearchLink";
 import products from "../../../../data/products.json";
 import retired from "../../../../data/retired-items.json";
 import { SERIES, getSeriesBySlug } from "../../../../data/series";
@@ -143,6 +145,14 @@ export default function SeriesHistoryPage({ params }) {
           <span className="text-brand-accent text-sm shrink-0 ml-auto">→</span>
         </Link>
 
+        {/* 歴代ページを見る人は「もう回せない過去作」を探している。通販の再販・中古が唯一の入手先 */}
+        <CharacterAffiliateCTA
+          name={series.name}
+          intent="series_history"
+          title={`🛍️ 販売が終わった${series.name}を通販で探す`}
+          note="※アフィリエイトリンクです。掲載が終わった商品も、再販品や中古の出品が見つかることがあります。"
+        />
+
         {shownBrands.length > 0 && (
           <section className="relative z-[1] mb-5">
             <h2 className="text-sm font-bold text-brand-text mb-1 px-1">作品・ブランド別</h2>
@@ -186,6 +196,7 @@ export default function SeriesHistoryPage({ params }) {
                     <span className="text-brand-sub">{e.name}</span>
                   )}
                 </span>
+                {e.status !== "live" && <AffiliateSearchLink keyword={e.name} intent="series_history_row" />}
                 {e.status === "live" ? (
                   <span className="shrink-0 text-[9px] font-bold text-brand-accent border border-brand-accent rounded px-1.5 py-0.5">
                     掲載中

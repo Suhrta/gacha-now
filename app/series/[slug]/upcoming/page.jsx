@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Footer from "../../../../components/Footer";
 import Breadcrumb from "../../../../components/Breadcrumb";
+import CharacterAffiliateCTA from "../../../../components/CharacterAffiliateCTA";
 import products from "../../../../data/products.json";
 import { SERIES, getSeriesBySlug } from "../../../../data/series";
 import { buildSeriesUpcoming, buildUpcomingFaq } from "../../../../lib/series-upcoming";
@@ -139,6 +140,14 @@ export default function SeriesUpcomingPage({ params }) {
           </span>
           <span className="text-brand-accent text-sm shrink-0 ml-auto">→</span>
         </Link>
+
+        {/* 発売前の商品は通販で予約を受け付けていることがある。2026-11-21まで通販導線が無く affiliate_click 0件 */}
+        <CharacterAffiliateCTA
+          name={series.name}
+          intent="series_upcoming"
+          title={`📅 発売前の${series.name}を予約できるか通販で見る`}
+          note="※アフィリエイトリンクです。発売前の商品はショップによって予約を受け付けていることがあります。"
+        />
 
         {groups.map((g) => (
           <section key={g.key} className="relative z-[1] mb-5">

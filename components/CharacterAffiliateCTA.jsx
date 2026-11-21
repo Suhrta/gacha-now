@@ -7,8 +7,11 @@ import { rakutenSearchUrl, amazonSearchUrl } from "../lib/affiliate";
  * - PR表記（景表法対応）を併記
  * - クリックを GA4 の affiliate_click イベントで計測（RakutenLinks と同一スキーマ）
  * - Amazonボタンは AMAZON_ASSOCIATE_TAG 設定後に自動表示
+ *
+ * シリーズの歴代・発売予定ページでも使う（2026-11-21: 2ページで28日1,750表示なのに
+ * 通販導線が1つも無く affiliate_click が0件だった）。intent で GA4 上の出どころを分ける。
  */
-export default function CharacterAffiliateCTA({ name }) {
+export default function CharacterAffiliateCTA({ name, intent = "character", title, note }) {
   const query = `${name} ガチャガチャ`;
   // Amazonの出品タイトルは「ガチャガチャ」より「ガチャ」表記が多いため語を分ける
   const amazonQ = `${name} ガチャ`;
@@ -17,7 +20,7 @@ export default function CharacterAffiliateCTA({ name }) {
     if (typeof window === "undefined" || typeof window.gtag !== "function") return;
     window.gtag("event", "affiliate_click", {
       affiliate,
-      link_intent: "character",
+      link_intent: intent,
       item_name: name,
       search_query: searchQuery,
     });
@@ -28,7 +31,7 @@ export default function CharacterAffiliateCTA({ name }) {
       <div className="rounded-xl border border-cream-border bg-white p-3.5">
         <div className="flex items-center justify-between mb-2">
           <h2 className="text-xs md:text-sm font-bold text-brand-text">
-            🛍️ {name}のガチャを通販で探す
+            {title || `🛍️ ${name}のガチャを通販で探す`}
           </h2>
           <span
             className="text-[9px] leading-none px-1.5 py-0.5 rounded border border-cream-border text-brand-sub"
@@ -70,7 +73,7 @@ export default function CharacterAffiliateCTA({ name }) {
           )}
         </div>
         <p className="text-[9px] md:text-[10px] text-brand-sub mt-2 leading-relaxed">
-          ※アフィリエイトリンクです。ダブり回避のコンプセットや再販品が見つかることがあります。
+          {note || "※アフィリエイトリンクです。ダブり回避のコンプセットや再販品が見つかることがあります。"}
         </p>
       </div>
     </section>

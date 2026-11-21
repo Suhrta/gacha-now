@@ -10,6 +10,11 @@ export const SERIES = [
   {
     slug: "mejirushi",
     name: "めじるしアクセサリー",
+    // 一覧の直後に「近いシリーズ」として出す（components/SeriesDetail.jsx）。
+    // 2026-11-21: 検索クリックの71%がこのページ1枚に集中し、めじるし需要の季節減（9月ピーク）で
+    // サイト全体が-31%になった。同じ「バッグに付ける小物」を探す人を他のシリーズに渡して依存を下げる。
+    // 末尾の「ほかのシリーズ特集」は広告の下にタグが並ぶだけで、計測も無かった。
+    related: ["flocky", "miniature-package", "tsumande-tsunagete", "capsule-rubber-mascot", "tsunagaring"],
     // pattern は「めじるしアクセサリー」ではなく「めじるし」。
     // バンダイの「めじるしアクセサリー」103件に加えて、タカラトミーアーツの
     // 「めじるしガチャマスコット」13件も同じページに載せるため（data/hub-canonical.js に経緯）。
