@@ -213,7 +213,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第1週",
     "brand": "ドラゴンボール",
-    "types": 4
+    "types": null
   },
   {
     "title": "スーパー戦隊シリーズ めじるしアクセサリー",
@@ -3584,7 +3584,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "カラフルマルチチャーム 塊魂",
@@ -3776,7 +3776,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "カービィ",
-    "types": null
+    "types": 7
   },
   {
     "title": "ポケットモンスター ポケモンラバーマスコット31",
@@ -5216,7 +5216,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第3週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "リメンバー・ミー スイングマスコット",
@@ -6008,7 +6008,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第3週",
     "brand": "マーベル",
-    "types": 5
+    "types": null
   },
   {
     "title": "ケアベア&trade; カラフルマルチチャーム",
@@ -7016,7 +7016,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第4週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "mofusand 宇宙飛行士にゃん",
@@ -7472,7 +7472,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第4週",
     "brand": "たまごっち",
-    "types": null
+    "types": 8
   },
   {
     "title": "牧場物語 スイングコレクション",
@@ -7664,7 +7664,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第4週",
     "brand": "サンリオ",
-    "types": null
+    "types": 7
   },
   {
     "title": "タコピーの原罪 めじるしアクセサリー ハッピーキラキラver.",
