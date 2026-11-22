@@ -3776,7 +3776,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "カービィ",
-    "types": 7
+    "types": null
   },
   {
     "title": "ポケットモンスター ポケモンラバーマスコット31",
@@ -6800,7 +6800,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 11
   },
   {
     "title": "つめとぎにゃんこ",
@@ -7472,7 +7472,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第4週",
     "brand": "たまごっち",
-    "types": 8
+    "types": null
   },
   {
     "title": "牧場物語 スイングコレクション",
@@ -7664,7 +7664,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第4週",
     "brand": "サンリオ",
-    "types": 7
+    "types": null
   },
   {
     "title": "タコピーの原罪 めじるしアクセサリー ハッピーキラキラver.",
