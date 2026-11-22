@@ -2368,11 +2368,12 @@
     "rakutenCount": 1,
     "enrichedAt": 1793491758076,
     "description": "『ジョジョの奇妙な冒険』をテーマにしたシール菓子シリーズ「にふぉるめーしょん」の第10弾となる食玩です。アニメ第3～5シリーズに加え、最新作「スティール・ボール・ラン」のキャラクターシールを収録しており、箔押し仕様の特別なシールも封入されています。シリーズ5周年を記念した仕様も盛り込まれており、バンダイのキャンディ事業部から2026年12月に発売予定です。価格は140円で、店頭での販売となります。",
-    "cleanImageCheckedAt": "2026-11-15",
+    "cleanImageCheckedAt": "2026-11-22",
     "cleanImageCands": [
-      "a5b49864"
+      "a5b49864",
+      "ecde35df"
     ],
-    "cleanImageMisses": 1
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14246648/imgrc0136261408.jpg?_ex=400x400"
   },
   {
     "id": "shokugan-4570117934728000",
@@ -2389,7 +2390,7 @@
     "rakutenCount": 1,
     "enrichedAt": 1793491763628,
     "description": "サンリオの仲間たちが見る人をほんわかと応援してくれる、立体感のあるマットなステッカーが付いた食玩です。バンダーのキャンディ事業部から、ポテトスティックのお菓子とともに届けられます。価格は168円で、2026年12月に発売予定です。店頭での販売となりますので、お菓子売り場などで見かけた際にはパッケージを手に取ってみると、応援メッセージとともに癒やしをもらえそうです。",
-    "cleanImageCheckedAt": "2026-11-15",
+    "cleanImageCheckedAt": "2026-11-22",
     "cleanImageCands": [
       "b6478102"
     ],
@@ -2433,13 +2434,14 @@
     "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005436/imgrc0115949638.jpg?_ex=400x400",
     "rakutenCount": 2,
     "enrichedAt": 1793491774943,
-    "cleanImageCheckedAt": "2026-11-15",
+    "cleanImageCheckedAt": "2026-11-22",
     "cleanImageCands": [
       "099bbe80",
+      "63bb7ae0",
       "87face5e"
     ],
-    "cleanImageMisses": 1,
-    "description": "機動戦士ガンダムSEEDシリーズを題材にした食玩が登場します。各作品に登場する印象的な場面や機体をモチーフにしたメタリックプラカードが1枚付属し、描き下ろしイラストを用いた新規デザインも用意されています。価格は160円で、販売元はバンダイ キャンディ事業部です。店頭での取り扱いとなり、発売は2026年12月を予定しています。"
+    "description": "機動戦士ガンダムSEEDシリーズを題材にした食玩が登場します。各作品に登場する印象的な場面や機体をモチーフにしたメタリックプラカードが1枚付属し、描き下ろしイラストを用いた新規デザインも用意されています。価格は160円で、販売元はバンダイ キャンディ事業部です。店頭での取り扱いとなり、発売は2026年12月を予定しています。",
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14246648/imgrc0136261555.jpg?_ex=400x400"
   },
   {
     "id": "shokugan-4570117932205000",
@@ -2581,13 +2583,14 @@
     "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005436/imgrc0115953779.jpg?_ex=400x400",
     "rakutenCount": 1,
     "enrichedAt": 1793491809408,
-    "cleanImageCheckedAt": "2026-11-15",
+    "cleanImageCheckedAt": "2026-11-22",
     "cleanImageCands": [
+      "080e8b0e",
       "468312b8",
       "ac0fb189"
     ],
-    "cleanImageMisses": 2,
-    "description": "『ドラゴンボール』のキャラクターを描き起こしたコレクションカードに、サラダ味の板状スナックを組み合わせた食玩「イタジャガドラゴンボール」シリーズの第11弾です。収録されるカードは構図やポーズ、影の表現にまでこだわった描きおろしイラストで、全種がメタリック仕様のプラカードになっています。価格は160円で、2026年12月よりバンダイのキャンディ事業部から店頭で発売されます。"
+    "description": "『ドラゴンボール』のキャラクターを描き起こしたコレクションカードに、サラダ味の板状スナックを組み合わせた食玩「イタジャガドラゴンボール」シリーズの第11弾です。収録されるカードは構図やポーズ、影の表現にまでこだわった描きおろしイラストで、全種がメタリック仕様のプラカードになっています。価格は160円で、2026年12月よりバンダイのキャンディ事業部から店頭で発売されます。",
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14246648/imgrc0136261249.jpg?_ex=400x400"
   },
   {
     "id": "shokugan-4570117934186000",
@@ -2623,9 +2626,13 @@
     "price": 250,
     "priceTaxIn": 275,
     "enrichedAt": 1793491818116,
-    "cleanImageCheckedAt": "2026-11-15",
-    "cleanImageCands": [],
-    "description": "1996年に発売されたポケモンキッズを、当時の造形やパッケージデザインそのままに再現した記念アイテムが登場します。彩色済みのソフビ人形に加えてカードも封入された食玩で、バンダイのキャンディ事業部からの発売です。価格は250円で、店頭にて取り扱われます。発売時期は2026年12月を予定しており、往年のファンにも懐かしい一品となっています。"
+    "cleanImageCheckedAt": "2026-11-22",
+    "cleanImageCands": [
+      "66ea6d4b",
+      "de96af75"
+    ],
+    "description": "1996年に発売されたポケモンキッズを、当時の造形やパッケージデザインそのままに再現した記念アイテムが登場します。彩色済みのソフビ人形に加えてカードも封入された食玩で、バンダイのキャンディ事業部からの発売です。価格は250円で、店頭にて取り扱われます。発売時期は2026年12月を予定しており、往年のファンにも懐かしい一品となっています。",
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14246648/imgrc0136261551.jpg?_ex=400x400"
   },
   {
     "id": "shokugan-4570117935688000",
@@ -2704,15 +2711,18 @@
     "releaseDay": null,
     "releaseKind": "sale",
     "collectedAt": "2026-11-01T00:08:32.924Z",
-    "cleanImageCheckedAt": "2026-11-15",
-    "cleanImageCands": [],
-    "cleanImageMisses": 1,
+    "cleanImageCheckedAt": "2026-11-22",
+    "cleanImageCands": [
+      "bad59bc4",
+      "c281c011"
+    ],
     "price": 200,
     "priceTaxIn": 220,
     "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/niki/cabinet/ftp19/4570117930843.jpg?_ex=400x400",
     "rakutenCount": 2,
     "enrichedAt": 1793497800515,
-    "description": "男性声優レーベル「Kiramune」初のカードウエハースがバンダイから登場する食玩です。バニラクリーム味のウエハースに加え、メタリックなプラカードが1枚付属しており、レアカードには金色箔押しの複製サインと手書きコメント入りプロフィールが裏面に収録されています。価格は200円、2026年12月に店頭での販売が予定されています。"
+    "description": "男性声優レーベル「Kiramune」初のカードウエハースがバンダイから登場する食玩です。バニラクリーム味のウエハースに加え、メタリックなプラカードが1枚付属しており、レアカードには金色箔押しの複製サインと手書きコメント入りプロフィールが裏面に収録されています。価格は200円、2026年12月に店頭での販売が予定されています。",
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14246648/1.jpg?_ex=400x400"
   },
   {
     "id": "shokugan-4570117930188000",
@@ -2729,12 +2739,13 @@
     "rakutenCount": 2,
     "enrichedAt": 1793497806320,
     "description": "人気キャラクターが勢揃いする「ちいかわ」のウエハースに、コレクションカードが付いた食玩が登場します。カードはメタリック仕様でキラキラと輝く全25種で、イチゴクリーム味のウエハースと一緒に楽しめます。価格は160円で、バンダイのキャンディ事業部が手がける商品として店頭で販売される予定です。発売時期は2026年12月を予定しています。",
-    "cleanImageCheckedAt": "2026-11-15",
+    "cleanImageCheckedAt": "2026-11-22",
     "cleanImageCands": [
       "6b60554c",
-      "88c4eee0"
+      "b3c5b539",
+      "e2fbe121"
     ],
-    "cleanImageMisses": 1
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14246648/imgrc0136260646.jpg?_ex=400x400"
   },
   {
     "id": "shokugan-4570117932212000",
@@ -2775,8 +2786,11 @@
     "priceTaxIn": 748,
     "enrichedAt": 1793497815071,
     "description": "組立済みの可動ユニットを使って手軽にアクションポーズが楽しめる、ガンダムシリーズの食玩「MOBILITY JOINT GUNDAM VOL．13」が登場します。『機動戦士ガンダム 逆襲のシャア ベルトーチカ・チルドレン』に登場する「Hi-ガンダム」をモチーフにしたプラ製モデルで、専用パーツとシールを組み合わせて完成させる仕様です。価格は680円で、2026年12月よりバンダイ（キャンディ事業部）から店頭にて発売される予定です。",
-    "cleanImageCheckedAt": "2026-11-15",
-    "cleanImageCands": []
+    "cleanImageCheckedAt": "2026-11-22",
+    "cleanImageCands": [
+      "9bf3b0bd"
+    ],
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14246648/imgrc0136261519.jpg?_ex=400x400"
   },
   {
     "id": "shokugan-4570117931901000",
@@ -2793,12 +2807,13 @@
     "rakutenCount": 2,
     "enrichedAt": 1793497820290,
     "description": "ウルトラマンの箱パッケージ入りソフビをモチーフにしたチャーム付きの食玩が登場します。かつて販売されていたウィンドウブリスター型のソフビパッケージを小さなチャームとして再現し、箱の中のシワのような細部までこだわって仕上げているのが特徴です。チョコボーロが一緒に入った構成で、価格は350円。バンダイのキャンディ事業部が手がけ、2026年12月に店頭での販売が予定されています。",
-    "cleanImageCheckedAt": "2026-11-15",
+    "cleanImageCheckedAt": "2026-11-22",
     "cleanImageCands": [
       "2d34d012",
-      "b5f3f145"
+      "b5f3f145",
+      "f222b5f3"
     ],
-    "cleanImageMisses": 2
+    "cleanImageMisses": 3
   },
   {
     "id": "shokugan-4570117932595000",
@@ -2851,11 +2866,13 @@
     "priceTaxIn": 385,
     "enrichedAt": 1793497830565,
     "description": "バンダイのキャンディ事業部から、人気キャラクター「たまごっち」をモチーフにした食玩「たまごっち チョコボックス ボックスフィギュアコレクション」が登場します。二段構成のボックスになっており、下段にはチョコがけビスケットが入っているのが特徴です。上段には、たまごっちたちのデザインを施したパッケージ風の豪華なボックスに、フィギュアチャームが収められています。価格は350円で、2026年12月より店頭にて発売される予定です。",
-    "cleanImageCheckedAt": "2026-11-15",
+    "cleanImageCheckedAt": "2026-11-22",
     "cleanImageCands": [
-      "2b0208d3"
+      "2b0208d3",
+      "3b92a95d",
+      "4e17846d"
     ],
-    "cleanImageMisses": 1
+    "cleanImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/suns-online-store/cabinet/11785485/14246648/imgrc0136261322.jpg?_ex=400x400"
   },
   {
     "id": "shokugan-4570117928352000",
@@ -2871,7 +2888,7 @@
     "shopImage": "https://thumbnail.image.rakuten.co.jp/@0_mall/exicoast02/cabinet/11960931/12005436/imgrc0114966714.jpg?_ex=400x400",
     "rakutenCount": 1,
     "enrichedAt": 1793497835751,
-    "cleanImageCheckedAt": "2026-11-15",
+    "cleanImageCheckedAt": "2026-11-22",
     "cleanImageCands": [
       "1bbbdadc",
       "b23e3d4e"
