@@ -970,17 +970,8 @@
  "shinchan": {
   "name": "クレヨンしんちゃん",
   "query": "クレヨンしんちゃん",
-  "checkedAt": "2026-11-21",
+  "checkedAt": "2026-11-22",
   "items": [
-   {
-    "jan": "4582770094718000",
-    "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
-    "price": 300,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259530_1.jpg",
-    "release": "2026年11月 第3週",
-    "ym": "2026-11",
-    "releaseChecked": true
-   },
    {
     "jan": "4582770140125000",
     "name": "ちびまる子ちゃん＆クレヨンしんちゃん ラバーマスコット",
@@ -995,6 +986,15 @@
     "name": "クレヨンしんちゃん カラともマスコット",
     "price": 400,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259529_1.jpg",
+    "release": "2026年11月 第3週",
+    "ym": "2026-11",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582770094718000",
+    "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259530_1.jpg",
     "release": "2026年11月 第3週",
     "ym": "2026-11",
     "releaseChecked": true
@@ -1018,19 +1018,19 @@
     "releaseChecked": true
    },
    {
-    "jan": "4582770027242000",
-    "name": "クレヨンしんちゃん おべんとうマスコット",
-    "price": 400,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258575_1.jpg",
+    "jan": "4582769995118000",
+    "name": "クレヨンしんちゃん ぶりぶりざえもん着ぐるみ めじるしアクセサリー",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258625_1.jpg",
     "release": "2026年10月 第2週",
     "ym": "2026-10",
     "releaseChecked": true
    },
    {
-    "jan": "4582769995118000",
-    "name": "クレヨンしんちゃん ぶりぶりざえもん着ぐるみ めじるしアクセサリー",
-    "price": 300,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258625_1.jpg",
+    "jan": "4582770027242000",
+    "name": "クレヨンしんちゃん おべんとうマスコット",
+    "price": 400,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000258575_1.jpg",
     "release": "2026年10月 第2週",
     "ym": "2026-10",
     "releaseChecked": true
