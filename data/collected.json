@@ -189,7 +189,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第1週",
     "brand": "キン肉マン",
-    "types": null
+    "types": 6
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定】HGドラゴンボール03 DAIMA SPECIAL EDITION",
@@ -1976,7 +1976,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "ミッフィー",
-    "types": null
+    "types": 4
   },
   {
     "title": "“ディズニーキャラクター” CAT スイングマスコット",
@@ -3224,7 +3224,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "カードキャプターさくら めじるしアクセサリー5",
@@ -4088,7 +4088,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】たかはたまさお 木彫り風 FIGURE COLLECTION",
@@ -4136,7 +4136,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第2週",
     "brand": "たまごっち",
-    "types": null
+    "types": 5
   },
   {
     "title": "【フラットガシャポン】サンエックスユニバース ネイルシール",
