@@ -141,7 +141,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第1週",
     "brand": "アイカツ",
-    "types": 3
+    "types": null
   },
   {
     "title": "Lil ala mode お星さまライトスイング",
@@ -213,7 +213,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第1週",
     "brand": "ドラゴンボール",
-    "types": null
+    "types": 4
   },
   {
     "title": "スーパー戦隊シリーズ めじるしアクセサリー",
@@ -272,7 +272,7 @@
     "price": 0,
     "releaseWeek": "2026年10月 第2週",
     "brand": "その他",
-    "types": 9
+    "types": null
   },
   {
     "title": "KPOPガールズ！ デーモン・ハンターズ ミニCDコレクション",
@@ -344,7 +344,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "サンリオ",
-    "types": 5
+    "types": null
   },
   {
     "title": "コジコジ BIGカプキャラ",
@@ -3584,7 +3584,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "カラフルマルチチャーム 塊魂",
@@ -3728,7 +3728,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "NBA 3Dユニフォームチャーム",
@@ -5216,7 +5216,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第3週",
     "brand": "その他",
-    "types": null
+    "types": 5
   },
   {
     "title": "リメンバー・ミー スイングマスコット",
@@ -6008,7 +6008,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第3週",
     "brand": "マーベル",
-    "types": null
+    "types": 5
   },
   {
     "title": "ケアベア&trade; カラフルマルチチャーム",
@@ -7016,7 +7016,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第4週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "mofusand 宇宙飛行士にゃん",
