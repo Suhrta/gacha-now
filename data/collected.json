@@ -165,7 +165,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第1週",
     "brand": "Lil ala mode",
-    "types": 5
+    "types": null
   },
   {
     "title": "キン肉マン ドットフィギュアチャーム2",
@@ -632,7 +632,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "その他",
-    "types": 8
+    "types": null
   },
   {
     "title": "クレヨンしんちゃん おべんとうマスコット",
@@ -3320,7 +3320,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ジョジョの奇妙な冒険",
-    "types": 6
+    "types": null
   },
   {
     "title": "刀剣乱舞ONLINE めじるしアクセサリー",
@@ -4184,7 +4184,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第2週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "おジャ魔女どれみ めじるしアクセサリー ポロンタップver.1",
@@ -4448,7 +4448,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第2週",
     "brand": "お文具といっしょ",
-    "types": null
+    "types": 7
   },
   {
     "title": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
@@ -4568,7 +4568,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第2週",
     "brand": "アイドリッシュセブン",
-    "types": 7
+    "types": null
   },
   {
     "title": "とんがり帽子のアトリエ めじるしアクセサリー",
@@ -5528,7 +5528,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第3週",
     "brand": "ナルミヤ",
-    "types": 8
+    "types": null
   },
   {
     "title": "キングダム Comics Charm Collection",
