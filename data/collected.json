@@ -141,7 +141,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第1週",
     "brand": "アイカツ",
-    "types": null
+    "types": 3
   },
   {
     "title": "Lil ala mode お星さまライトスイング",
@@ -272,7 +272,7 @@
     "price": 0,
     "releaseWeek": "2026年10月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 9
   },
   {
     "title": "KPOPガールズ！ デーモン・ハンターズ ミニCDコレクション",
@@ -344,7 +344,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "サンリオ",
-    "types": null
+    "types": 5
   },
   {
     "title": "コジコジ BIGカプキャラ",
@@ -3728,7 +3728,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "NBA 3Dユニフォームチャーム",
@@ -4448,7 +4448,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第2週",
     "brand": "お文具といっしょ",
-    "types": 7
+    "types": null
   },
   {
     "title": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
