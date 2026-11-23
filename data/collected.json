@@ -165,7 +165,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第1週",
     "brand": "Lil ala mode",
-    "types": null
+    "types": 5
   },
   {
     "title": "キン肉マン ドットフィギュアチャーム2",
@@ -189,7 +189,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第1週",
     "brand": "キン肉マン",
-    "types": 6
+    "types": null
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定】HGドラゴンボール03 DAIMA SPECIAL EDITION",
@@ -632,7 +632,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 8
   },
   {
     "title": "クレヨンしんちゃん おべんとうマスコット",
@@ -1976,7 +1976,7 @@
     "price": 500,
     "releaseWeek": "2026年10月 第4週",
     "brand": "ミッフィー",
-    "types": 4
+    "types": null
   },
   {
     "title": "“ディズニーキャラクター” CAT スイングマスコット",
@@ -3224,7 +3224,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "カードキャプターさくら めじるしアクセサリー5",
@@ -3320,7 +3320,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第5週",
     "brand": "ジョジョの奇妙な冒険",
-    "types": null
+    "types": 6
   },
   {
     "title": "刀剣乱舞ONLINE めじるしアクセサリー",
@@ -4088,7 +4088,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第2週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "【ガシャポンバンダイオフィシャルショップ限定再販】たかはたまさお 木彫り風 FIGURE COLLECTION",
@@ -4136,7 +4136,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第2週",
     "brand": "たまごっち",
-    "types": 5
+    "types": null
   },
   {
     "title": "【フラットガシャポン】サンエックスユニバース ネイルシール",
@@ -4184,7 +4184,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第2週",
     "brand": "その他",
-    "types": null
+    "types": 6
   },
   {
     "title": "おジャ魔女どれみ めじるしアクセサリー ポロンタップver.1",
@@ -4568,7 +4568,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第2週",
     "brand": "アイドリッシュセブン",
-    "types": null
+    "types": 7
   },
   {
     "title": "とんがり帽子のアトリエ めじるしアクセサリー",
@@ -5528,7 +5528,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第3週",
     "brand": "ナルミヤ",
-    "types": null
+    "types": 8
   },
   {
     "title": "キングダム Comics Charm Collection",
