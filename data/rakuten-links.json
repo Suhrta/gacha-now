@@ -4275,25 +4275,9 @@
       "count": 5
     }
   },
-  "-pretty-face-687e28cb": {
-    "sig": "ディズニーキャラクター Pretty Faceポーチ|4|r",
-    "checkedAt": 1795425723530,
-    "compset": {
-      "q": "ディズニーキャラクター Pretty Faceポーチ コンプ",
-      "count": 5
-    }
-  },
-  "capwatch-qbb-50ae7867": {
-    "sig": "CAPWATCH QBBベビーチーズ|6|r",
-    "checkedAt": 1795425723530,
-    "compset": {
-      "q": "QBBベビーチーズ ガチャ コンプ",
-      "count": 10
-    }
-  },
   "gacha-5a9d8bbb": {
     "sig": "続・土下座 マーカーチャーム|8|r",
-    "checkedAt": 1794301670538,
+    "checkedAt": 1795511325347,
     "compset": {
       "q": "土下座 ガチャ コンプ",
       "count": 7
@@ -4873,10 +4857,10 @@
   },
   "gacha-3ef13407": {
     "sig": "日清食品お椀で食べるシリーズ めじるしガチャマスコット|6|r",
-    "checkedAt": 1794301670538,
+    "checkedAt": 1795511325347,
     "compset": {
       "q": "日清食品お椀で食べるシリーズ めじるしガチャマスコット コンプ",
-      "count": 4
+      "count": 3
     }
   },
   "gacha-432c99a6": {
@@ -5825,14 +5809,14 @@
   },
   "-vol2-0a6a9f8b": {
     "sig": "学園アイドルマスター　むぎゅみにコレクションフィギュア vol.2|5|p",
-    "checkedAt": 1794301670538,
+    "checkedAt": 1795511325347,
     "compset": {
       "q": "学園アイドルマスター ガチャ コンプ",
-      "count": 15
+      "count": 17
     },
     "preorder": {
       "q": "学園アイドルマスター ガチャ 予約",
-      "count": 5
+      "count": 7
     }
   },
   "gacha-1a569885": {
