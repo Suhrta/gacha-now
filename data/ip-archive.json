@@ -970,7 +970,7 @@
  "shinchan": {
   "name": "クレヨンしんちゃん",
   "query": "クレヨンしんちゃん",
-  "checkedAt": "2026-11-23",
+  "checkedAt": "2026-11-24",
   "items": [
    {
     "jan": "4582770094725000",
@@ -1072,20 +1072,20 @@
     "releaseChecked": true
    },
    {
-    "jan": "4582769917301000",
-    "name": "クレヨンしんちゃん ゆらゆらフェイスミニチャーム",
-    "price": 300,
-    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255298_1.jpg",
-    "release": "2026年8月 第5週",
-    "ym": "2026-08",
-    "releaseChecked": true
-   },
-   {
     "jan": "4582770027235000",
     "name": "クレヨンしんちゃん なつやすみマスコット",
     "price": 300,
     "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255230_1.jpg",
     "release": "2026年8月 第4週",
+    "ym": "2026-08",
+    "releaseChecked": true
+   },
+   {
+    "jan": "4582769917301000",
+    "name": "クレヨンしんちゃん ゆらゆらフェイスミニチャーム",
+    "price": 300,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000255298_1.jpg",
+    "release": "2026年8月 第5週",
     "ym": "2026-08",
     "releaseChecked": true
    },

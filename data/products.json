@@ -1,5 +1,88 @@
 [
   {
+    "id": "-ver-50fa3fff",
+    "name": "とっとこハム太郎 スイングマスコット～スペシャルカラーver.～",
+    "brand": "とっとこハム太郎",
+    "brandSlug": "hamtaro",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "発売中",
+    "color": "#e5999f",
+    "hot": false,
+    "img": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_12.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://gashapon.jp/products/detail.php?jan_code=4582770149159000",
+    "source": "バンダイ公式",
+    "collectedAt": "2026-11-24T06:41:41.999Z",
+    "officialDescription": "とっとこハム太郎 スイングマスコットのスペシャルカラーver.が登場！ハートと種がクリアになり、さらにカラーボールチェーンになりました！",
+    "ageRating": "15才以上",
+    "description": "人気アニメ「とっとこハム太郎」のマスコットが、ぶら下げて揺れを楽しめるスイングシリーズに登場したカプセルトイです。商品名は「とっとこハム太郎 スイングマスコット～スペシャルカラーver.～」で、バンダイより発売中。価格は1回300円、全5種がラインナップされています。"
+  },
+  {
+    "id": "estherbunny--1477df59",
+    "name": "EstherBunny ぬいぐるみポーチ２｜株式会社キタンクラブ",
+    "brand": "エスターバニー",
+    "brandSlug": "estherbunny",
+    "price": 500,
+    "types": 4,
+    "releaseWeek": "12月 上旬",
+    "color": "#c6e599",
+    "hot": false,
+    "img": "https://kitan.jp/wp-content/uploads/2026/11/b0a065148a7308a03d6b2bc97d744b7e.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/11/b0a065148a7308a03d6b2bc97d744b7e.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://kitan.jp/products/estherbunny_pouch2/",
+    "source": "キタンクラブ公式",
+    "collectedAt": "2026-11-24T06:41:42.000Z",
+    "officialDescription": "ティーンを中心に絶大な人気を誇る韓国発のキャラクター「エスターバニー」から、大好評のぬいぐるみポーチ第２弾が登場！キュートなお顔とふわふわの素材が魅力のぬいぐるみ仕様で、思わず触りたくなるようなやさしい手触り。少し眠たそうな愛らしい表情もそのままに、エスターバニーのかわいさを手のひらサイズで楽しめます。内生地付きで、見た目のかわいさだけでなく高級感もある仕上がりです。 ポーチはリップやアクセサリーなどの小物を入れるのにぴったりなサイズ感で、日常使いにもおすすめ！全種ボールチェーン付きなので、バッグなどに取り付ければ、いつでもどこでもエスターバニーと一緒♪かわいさと実用性を兼ね備えたぬいぐるみポーチ。ぜひお気に入りを見つけて、毎日のおでかけに連れて行ってくださいね♡ ラインナップは「 RIBBON BUNNY 、LAVENDER BUNNY 、CREAM BUNNY 、BLUE BUNNY 」の全4種。",
+    "size": "約115mm",
+    "lineup": [
+      "RIBBON BUNNY",
+      "LAVENDER BUNNY",
+      "CREAM BUNNY",
+      "BLUE BUNNY"
+    ],
+    "description": "キタンクラブより、エスターバニーをモチーフにしたカプセルトイ「EstherBunny ぬいぐるみポーチ２」が登場します。価格は1回500円で、全4種のラインナップです。発売時期は12月上旬を予定しています。",
+    "thumb": "https://gachaimg.com/thumb/estherbunny--1477df59.webp"
+  },
+  {
+    "id": "tv--47b9db62",
+    "name": "TVアニメ『あかね噺』　ぷちアクリルスタンド",
+    "brand": "その他",
+    "brandSlug": "other",
+    "price": 300,
+    "types": 5,
+    "releaseWeek": "11月 下旬",
+    "color": "#e5b499",
+    "hot": false,
+    "img": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/20155440/Akane_capsule_acsta_POP_ol_re.png",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/20155440/Akane_capsule_acsta_POP_ol_re.png"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://capsule.bushiroad-creative.com/product/10152/",
+    "source": "ブシロードクリエイティブ公式",
+    "collectedAt": "2026-11-24T06:41:42.001Z",
+    "officialDescription": "TVアニメ『あかね噺』より、ぷちアクリルスタンドが登場！",
+    "thumb": "https://gachaimg.com/thumb/tv--47b9db62.webp"
+  },
+  {
     "id": "-dnacing-edition-37b8224e",
     "name": "劇場版『チェンソーマン レゼ篇』 ポチタいっぱいコレクション ～Dnacing Edition～",
     "brand": "チェンソーマン",

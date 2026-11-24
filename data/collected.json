@@ -7739,6 +7739,30 @@
     "types": 8
   },
   {
+    "title": "とっとこハム太郎 スイングマスコット～スペシャルカラーver.～",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770149159000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_1.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_1.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000259511_12.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 第4週",
+    "brand": "とっとこハム太郎",
+    "types": 5
+  },
+  {
     "title": "NCT WISH つまんでつなげてますこっと",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582769777059000",
     "source": "バンダイ公式",
@@ -12275,6 +12299,19 @@
     "types": 5
   },
   {
+    "title": "EstherBunny ぬいぐるみポーチ２｜株式会社キタンクラブ",
+    "url": "https://kitan.jp/products/estherbunny_pouch2/",
+    "source": "キタンクラブ公式",
+    "imageUrl": "https://kitan.jp/wp-content/uploads/2026/11/b0a065148a7308a03d6b2bc97d744b7e.jpg",
+    "images": [
+      "https://kitan.jp/wp-content/uploads/2026/11/b0a065148a7308a03d6b2bc97d744b7e.jpg"
+    ],
+    "price": 500,
+    "releaseWeek": "2026年12月 上旬",
+    "brand": "エスターバニー",
+    "types": 4
+  },
+  {
     "title": "TVアニメ「その着せ替え人形は恋をする」Season 2　海夢がいっぱい みあげてすたぁマスコット",
     "url": "https://capsule.bushiroad-creative.com/product/10051/",
     "source": "ブシロードクリエイティブ公式",
@@ -13339,5 +13376,18 @@
     "releaseWeek": "2027年2月 下旬",
     "brand": "ハイキュー",
     "types": 4
+  },
+  {
+    "title": "TVアニメ『あかね噺』　ぷちアクリルスタンド",
+    "url": "https://capsule.bushiroad-creative.com/product/10152/",
+    "source": "ブシロードクリエイティブ公式",
+    "imageUrl": "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/20155440/Akane_capsule_acsta_POP_ol_re.png",
+    "images": [
+      "https://capsule.bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/20155440/Akane_capsule_acsta_POP_ol_re.png"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 下旬",
+    "brand": "その他",
+    "types": 5
   }
 ]
