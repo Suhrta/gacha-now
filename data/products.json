@@ -1,5 +1,41 @@
 [
   {
+    "id": "gacha-08c8fdd5",
+    "name": "パンダの穴 アニべこ めじるしガチャマスコット",
+    "brand": "パンダの穴",
+    "brandSlug": "pandanoana",
+    "price": 300,
+    "types": 6,
+    "releaseWeek": "11月 30日週",
+    "color": "#90A4AE",
+    "hot": false,
+    "img": "https://www.takaratomy-arts.co.jp/upfiles/products/Y912238_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y912238_b.jpg"
+    ],
+    "affiliateUrl": "#",
+    "sourceUrl": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y912238",
+    "source": "タカラトミーアーツ公式",
+    "collectedAt": "2026-11-24T19:26:59.389Z",
+    "officialDescription": "ガチャブランド「パンダの穴」シリーズ第114弾は、首がゆらゆら揺れる\"赤べこ\"をモチーフした動物べこ「アニべこ」。シリコンリングとカニカンが付いた「めじるしガチャマスコット」仕様で、傘やペットボトルなどの持ち物につければ自分用のマーカーとして使えます。本体サイズは約2.5&times;4.5cm。ラインナップは「シロべこ」「ブタべこ」「ワニべこ」「ロバべこ」「ライべこ」「ゴリべこ」の全6種。",
+    "lineup": [
+      "シロべこ",
+      "ブタべこ",
+      "ワニべこ",
+      "ロバべこ",
+      "ライべこ",
+      "ゴリべこ"
+    ],
+    "description": "バッグなどの持ち手に付けて目印にできるラバーチャームの仕掛けを採用したシリーズに、パンダの穴が登場するカプセルトイが登場します。「パンダの穴 アニべこ めじるしガチャマスコット」は全6種のラインナップで、価格は1回300円、発売時期は11月30日週、メーカーはタカラトミーアーツです。",
+    "rakutenThumbChecked": true,
+    "rakutenThumbCheckedAt": "2026-11-24",
+    "rakutenThumbCands": [
+      "d984c8cd"
+    ],
+    "rakutenThumb": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-isauto/cabinet/05911090/09890530/13259757/imgrc0195396468.jpg?_ex=400x400",
+    "thumb": "https://gachaimg.com/thumb/gacha-08c8fdd5.webp"
+  },
+  {
     "id": "capwatch-qbb-50ae7867",
     "name": "CAPWATCH QBBベビーチーズ",
     "brand": "その他",
