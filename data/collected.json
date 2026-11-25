@@ -45,7 +45,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第1週",
     "brand": "たまごっち",
-    "types": 5
+    "types": null
   },
   {
     "title": "名探偵プリキュア！ カプセルラバーマスコット２",
@@ -237,7 +237,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "スーパー戦隊",
-    "types": 9
+    "types": null
   },
   {
     "title": "カラフルビーズべこ しゃかしゃかめじるしアクセサリー",
@@ -7787,30 +7787,6 @@
     "types": 5
   },
   {
-    "title": "SKZOO ミニチュアパッケージチャーム",
-    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026863000",
-    "source": "バンダイ公式",
-    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_2.jpg",
-    "images": [
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_2.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_3.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_4.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_5.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_6.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_7.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_8.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_9.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_10.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_11.jpg",
-      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_12.jpg"
-    ],
-    "price": 400,
-    "releaseWeek": "2026年11月 第4週",
-    "brand": "SKZOO",
-    "types": 8
-  },
-  {
     "title": "ふわふわ大根おろしのねこちゃあぁぁん めじるしアクセサリー",
     "url": "https://gashapon.jp/products/detail.php?jan_code=4582770141344000",
     "source": "バンダイ公式",
@@ -7833,6 +7809,30 @@
     "releaseWeek": "2026年12月 第3週",
     "brand": "その他",
     "types": 5
+  },
+  {
+    "title": "SKZOO ミニチュアパッケージチャーム",
+    "url": "https://gashapon.jp/products/detail.php?jan_code=4582770026863000",
+    "source": "バンダイ公式",
+    "imageUrl": "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_2.jpg",
+    "images": [
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_2.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_3.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_4.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_5.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_6.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_7.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_8.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_9.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_10.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_11.jpg",
+      "https://bandai-a.akamaihd.net/bc/img/model/b/1000253715_12.jpg"
+    ],
+    "price": 400,
+    "releaseWeek": "2026年12月 第3週",
+    "brand": "SKZOO",
+    "types": 8
   },
   {
     "title": "シャカシャカビーズチャーム RIIZE FANLIGHT ver.",
@@ -8503,6 +8503,19 @@
     "types": 5
   },
   {
+    "title": "でふぉラバ! とんでもスキルで異世界放浪メシ2 キーホルダーvol.2",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909726",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y909726_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y909726_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 23日週",
+    "brand": "その他",
+    "types": 6
+  },
+  {
     "title": "でふぉラバ! アニメ「グロウアップショウ ～ひまわりのサーカス団～」キーホルダー",
     "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y909788",
     "source": "タカラトミーアーツ公式",
@@ -8683,6 +8696,19 @@
     "releaseWeek": "2026年11月 30日週",
     "brand": "スター・ウォーズ",
     "types": 4
+  },
+  {
+    "title": "パンダの穴 ミニチュアねこ SPECIAL COLOR Ver.",
+    "url": "https://www.takaratomy-arts.co.jp/items/item.html?n=Y911248",
+    "source": "タカラトミーアーツ公式",
+    "imageUrl": "https://www.takaratomy-arts.co.jp/upfiles/products/Y911248_b.jpg",
+    "images": [
+      "https://www.takaratomy-arts.co.jp/upfiles/products/Y911248_b.jpg"
+    ],
+    "price": 300,
+    "releaseWeek": "2026年11月 30日週",
+    "brand": "パンダの穴",
+    "types": 5
   },
   {
     "title": "パンダの穴 アニべこ めじるしガチャマスコット",
