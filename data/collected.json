@@ -237,7 +237,7 @@
     "price": 300,
     "releaseWeek": "2026年10月 第2週",
     "brand": "スーパー戦隊",
-    "types": 9
+    "types": null
   },
   {
     "title": "カラフルビーズべこ しゃかしゃかめじるしアクセサリー",
@@ -6416,7 +6416,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第4週",
     "brand": "その他",
-    "types": 6
+    "types": null
   },
   {
     "title": "ゲゲゲの鬼太郎（第4期） めじるしアクセサリー",
@@ -7232,7 +7232,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "カードキャプターさくら",
-    "types": 4
+    "types": null
   },
   {
     "title": "ドラゴンボール S.H.Figuarts Miniature Collection3",

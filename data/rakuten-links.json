@@ -2057,7 +2057,7 @@
   },
   "aespa--61d0434e": {
     "sig": "aespa ぷくっとリング|4|r",
-    "checkedAt": 1794561012805,
+    "checkedAt": 1795770853354,
     "compset": {
       "q": "ぷくっとリング ガチャ セット",
       "count": 3
@@ -4103,26 +4103,6 @@
       "count": 10
     }
   },
-  "hololive-dev_is-regloss--1506dba5": {
-    "sig": "hololive DEV_IS ReGLOSS ぷくっとリング|8|r",
-    "checkedAt": 1795425723530,
-    "compset": {
-      "q": "ぷくっとリング ガチャ セット",
-      "count": 3
-    }
-  },
-  "gacha-27f47d13": {
-    "sig": "スポンジ・ボブ フェイス型シリコンケース|4|r",
-    "checkedAt": 1795425723530,
-    "compset": {
-      "q": "スポンジ・ボブ フェイス型シリコンケース コンプ",
-      "count": 3
-    }
-  },
-  "gacha-483c5fd1": {
-    "sig": "ヒトツブカンロのグミッツェルマスコット３|5|r",
-    "checkedAt": 1795425723530
-  },
   "gacha-5a9d8bbb": {
     "sig": "続・土下座 マーカーチャーム|8|r",
     "checkedAt": 1795511325347,
@@ -6057,6 +6037,30 @@
     "preorder": {
       "q": "薫る花は凛と咲く ガチャ 予約",
       "count": 4
+    }
+  },
+  "capsule-2-31d8db37": {
+    "sig": "Capsuleトルソー アイカツ！ 2|3|r",
+    "checkedAt": 1795770853354,
+    "compset": {
+      "q": "Capsuleトルソー ガチャ コンプ",
+      "count": 20
+    }
+  },
+  "gacha-5f3aad93": {
+    "sig": "サンリオキャラクターズ モノトーンマスコット|5|r",
+    "checkedAt": 1795770853354,
+    "compset": {
+      "q": "サンリオキャラクターズ モノトーンマスコット コンプ",
+      "count": 4
+    }
+  },
+  "gacha-730af2bb": {
+    "sig": "『楽園追放  心のレゾナンス』　カプセル缶バッジ|5|r",
+    "checkedAt": 1795770853354,
+    "compset": {
+      "q": "カプセル缶バッジ ガチャ コンプ",
+      "count": 199
     }
   }
 }
