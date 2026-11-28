@@ -4737,18 +4737,18 @@
   },
   "-riize-fanlight-ver-6b62cb04": {
     "sig": "シャカシャカビーズチャーム RIIZE FANLIGHT ver.|6|p",
-    "checkedAt": 1794624856556
+    "checkedAt": 1795840556343
   },
   "gacha-6a668ec7": {
     "sig": "学園アイドルマスター ねむらせ隊|4|p",
-    "checkedAt": 1794624856556,
+    "checkedAt": 1795840556343,
     "compset": {
       "q": "学園アイドルマスター ガチャ コンプ",
-      "count": 16
+      "count": 21
     },
     "preorder": {
       "q": "学園アイドルマスター ガチャ 予約",
-      "count": 6
+      "count": 7
     }
   },
   "gacha-18723a15": {
