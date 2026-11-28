@@ -165,7 +165,7 @@
     "price": 400,
     "releaseWeek": "2026年10月 第1週",
     "brand": "Lil ala mode",
-    "types": 5
+    "types": null
   },
   {
     "title": "キン肉マン ドットフィギュアチャーム2",
@@ -5288,7 +5288,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第3週",
     "brand": "サンリオ",
-    "types": 5
+    "types": null
   },
   {
     "title": "よこみぞゆりのなんでもいきもの ふわふわめじるしアクセサリー",
@@ -6512,7 +6512,7 @@
     "price": 500,
     "releaseWeek": "2026年11月 第4週",
     "brand": "なめこ栽培キット",
-    "types": null
+    "types": 5
   },
   {
     "title": "MINECRAFT カラフルキーボードチャーム",
@@ -7064,7 +7064,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "mofusand",
-    "types": 6
+    "types": null
   },
   {
     "title": "機動戦士ガンダム CAPSULE INDEX 04",
@@ -7448,7 +7448,7 @@
     "price": 400,
     "releaseWeek": "2026年11月 第4週",
     "brand": "サンリオ",
-    "types": 12
+    "types": null
   },
   {
     "title": "サンリオキャラクターズ 星座スイングマスコットPART2",
@@ -7712,7 +7712,7 @@
     "price": 300,
     "releaseWeek": "2026年11月 第4週",
     "brand": "その他",
-    "types": 5
+    "types": null
   },
   {
     "title": "妖怪ウォッチ フェイスぬいぐるみ",
